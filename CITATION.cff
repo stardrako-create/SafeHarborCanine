@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this pipeline or its outputs, please cite it as below."
+title: "Safe Harbor Canino: identification of genomic safe harbor loci in the domestic dog"
+type: software
+authors:
+  - name: "Vasco M. Barreto Lab"
+license: MIT
+repository-code: "https://github.com/stardrako-create/SafeHarborCanine"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21996453"
+    description: "Zenodo archive of the code, updated with each tagged release"
+keywords:
+  - genomic safe harbor
+  - dog genome
+  - ATAC-seq
+  - RRBS
+  - Hi-C
+  - CAR-T
+  - ROS_Cfam_1.0
+references:
+  - type: article
+    title: "Jin et al. 2024, Aging Cell (ATAC-seq / RRBS PBMC cohort)"
+    authors:
+      - name: "Jin et al."
+    identifiers:
+      - type: other
+        value: "PRJNA1048909"
+      - type: other
+        value: "PRJNA1049514"
+  - type: article
+    title: "Wang et al. 2021, Communications Biology (Hi-C / UU_Cfam_GSD_1.0 assembly)"
+    authors:
+      - name: "Wang et al."
+    identifiers:
+      - type: other
+        value: "PRJNA587469"

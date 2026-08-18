@@ -1,7 +1,7 @@
 # Safe Harbor Canino
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21996453.svg)](https://doi.org/10.5281/zenodo.21996453)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Identification of genomic safe harbor loci in the domestic dog (*Canis lupus
 familiaris*), integrating population-level chromatin accessibility, DNA
@@ -102,9 +102,7 @@ nothing about "which individuals count more" is a black box.
 ### Reproducing a run
 
 ```bash
-conda create -n atac -c bioconda -c conda-forge \
-    bowtie2 samtools bedtools macs2 pysam pyBigWig snakemake pandas numpy \
-    bismark trim-galore bwa pairtools cooler cooltools sra-tools
+conda env create -f environment.yml
 conda activate atac
 cd scripts
 
@@ -145,15 +143,16 @@ Hi-C contact matrix and TAD boundary calls are complete.
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE).
+MIT License — see [LICENSE](LICENSE).
 
 ## Citation
 
 This repository is archived on Zenodo with a DOI covering the code as of
 each tagged release: [10.5281/zenodo.21996453](https://doi.org/10.5281/zenodo.21996453).
-A dedicated citation file / preprint reference will be added once available.
-In the meantime, please cite the DOI above and, where relevant, the source
-datasets:
+Machine-readable citation metadata is in [CITATION.cff](CITATION.cff) (use
+GitHub's "Cite this repository" button, top right of the repo page). A
+dedicated preprint reference will be added once available. In the meantime,
+please also cite the source datasets where relevant:
 
 - Jin et al. 2024, *Aging Cell* (ATAC-seq / RRBS PBMC cohort, PRJNA1048909 / PRJNA1049514)
 - Wang et al. 2021, *Communications Biology* (Hi-C / UU_Cfam_GSD_1.0 assembly, PRJNA587469)

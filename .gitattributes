@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.bed text eol=lf
+*.tsv text eol=lf
+*.bedgraph text eol=lf

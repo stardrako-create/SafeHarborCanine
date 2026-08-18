@@ -1,0 +1,25 @@
+name: atac
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.11
+  - snakemake
+  - pandas
+  - numpy
+  - pysam
+  - pybigwig
+  # ATAC-seq
+  - bowtie2
+  - samtools
+  - bedtools
+  - macs2
+  # RRBS
+  - bismark
+  - trim-galore
+  # Hi-C
+  - bwa
+  - pairtools
+  - cooler
+  - cooltools
+  - sra-tools
