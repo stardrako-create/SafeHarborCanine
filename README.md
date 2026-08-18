@@ -141,6 +141,16 @@ pipeline is running; two of three libraries are fully processed. Layers
 05–08 (scoring, annotation, integration, final candidates) begin once the
 Hi-C contact matrix and TAD boundary calls are complete.
 
+## Related work
+
+[EpiLog](https://github.com/stardrako-create/EpiLog) ([live catalog](https://epilogbio.netlify.app))
+is a literature-derived catalog of known genomic safe harbor loci across
+species, built by the same author. Its dog-species survey found essentially
+no published safe-harbor characterization for *Canis lupus familiaris* —
+that gap is what this repository addresses directly, with original
+population-level ATAC-seq/RRBS data and single-individual Hi-C structural
+context, rather than literature mining.
+
 ## License
 
 MIT License — see [LICENSE](LICENSE).
