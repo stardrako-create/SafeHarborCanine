@@ -73,11 +73,30 @@ def zoomify_and_balance(cool_path, mcool_path, nproc, resolutions="4DN"):
     ])
 
 
-def call_insulation(mcool_path, insulation_res, windows, nproc, out_tsv, out_dir):
+def build_insulation_view(chrom_sizes_path, windows, view_path):
+    """cooltools insulation computes a diagonal diamond score per bin using
+    the largest requested window on each side, so a region shorter than
+    ~2x the largest window has no valid bins - cooler.annotate() then
+    indexes into an empty dataframe and crashes. ROS_Cfam_1.0 has 376
+    contigs, most of them tiny unplaced scaffolds far below that
+    threshold, so insulation must be restricted to a --view of contigs
+    long enough for the window sizes actually requested."""
+    min_len = 2 * max(windows)
+    sizes = pd.read_csv(chrom_sizes_path, sep="\t", header=None, names=["chrom", "length"])
+    kept = sizes[sizes["length"] >= min_len].copy()
+    kept["start"] = 0
+    kept["name"] = kept["chrom"]
+    kept[["chrom", "start", "length", "name"]].to_csv(view_path, sep="\t", header=False, index=False)
+    print(f"[view] kept {len(kept)}/{len(sizes)} contigs >= {min_len}bp for insulation")
+
+
+def call_insulation(mcool_path, insulation_res, windows, nproc, out_tsv, out_dir, chrom_sizes_path):
     if os.path.isfile(out_tsv):
         print(f"[skip] {out_tsv} already exists")
         return
     uri = f"{mcool_path}::resolutions/{insulation_res}"
+    view_path = os.path.join(out_dir, "insulation_view.bed")
+    build_insulation_view(chrom_sizes_path, windows, view_path)
     cwd = os.getcwd()
     os.chdir(out_dir)
     try:
@@ -86,6 +105,7 @@ def call_insulation(mcool_path, insulation_res, windows, nproc, out_tsv, out_dir
             "-p", nproc,
             "-o", os.path.basename(out_tsv),
             "--threshold", "Li",
+            "--view", view_path,
             "--bigwig",
             uri,
             *[str(w) for w in windows],
@@ -180,7 +200,7 @@ def main():
     print(f"[4/5] Calling TAD insulation at {args.insulation_res}bp, "
           f"windows={args.insulation_windows}")
     call_insulation(mcool_path, args.insulation_res, args.insulation_windows,
-                     args.nproc, insulation_tsv, out_dir)
+                     args.nproc, insulation_tsv, out_dir, chrom_sizes_path)
     export_tad_boundaries(insulation_tsv, args.insulation_windows, boundaries_bed)
 
     print(f"[5/5] Calling chromatin loops at {args.loop_res}bp (best-effort)")
