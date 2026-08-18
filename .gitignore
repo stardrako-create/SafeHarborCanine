@@ -1,0 +1,33 @@
+# Raw sequencing data (SRA/FASTQ). Not tracked: multi-hundred-GB, and fully
+# regenerable from the public SRA accessions listed in scripts/config*.yaml.
+02_dados_brutos/
+
+# Reference genome and annotation (public, downloadable — see README "Data
+# availability"). Not tracked: ~9 GB.
+01_referencia/
+
+# Processed genome-wide tracks (bigWig, .mcool). Not tracked in git history —
+# released separately via Zenodo (DOI to be added) because several files
+# exceed GitHub's 100 MB per-file limit. See 04_tracks_processadas/README.md.
+04_tracks_processadas/*.bw
+04_tracks_processadas/*.bigwig
+04_tracks_processadas/*.mcool
+04_tracks_processadas/*.cool
+04_tracks_processadas/**/*.bw
+04_tracks_processadas/**/*.bigwig
+04_tracks_processadas/**/*.mcool
+04_tracks_processadas/**/*.cool
+04_tracks_processadas/**/*.bedgraph
+
+# Snakemake internal state/cache/locks
+.snakemake/
+**/.snakemake/
+
+# Pipeline logs (local run artifacts)
+logs/
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp

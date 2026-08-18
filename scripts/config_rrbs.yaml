@@ -1,0 +1,89 @@
+samples:
+  - SRR27118566
+  - SRR27118565
+  - SRR27118554
+  - SRR27118543
+  - SRR27118525
+  - SRR27118514
+  - SRR27118503
+  - SRR27118531
+  - SRR27118529
+  - SRR27118528
+  - SRR27118564
+  - SRR27118563
+  - SRR27118562
+  - SRR27118561
+  - SRR27118560
+  - SRR27118559
+  - SRR27118558
+  - SRR27118557
+  - SRR27118556
+  - SRR27118555
+  - SRR27118553
+  - SRR27118552
+  - SRR27118551
+  - SRR27118550
+  - SRR27118549
+  - SRR27118548
+  - SRR27118547
+  - SRR27118546
+  - SRR27118545
+  - SRR27118544
+  - SRR27118542
+  - SRR27118541
+  - SRR27118540
+  - SRR27118539
+  - SRR27118538
+  - SRR27118537
+  - SRR27118536
+  - SRR27118535
+  - SRR27118527
+  - SRR27118526
+  - SRR27118524
+  - SRR27118523
+  - SRR27118522
+  - SRR27118521
+  - SRR27118520
+  - SRR27118519
+  - SRR27118518
+  - SRR27118517
+  - SRR27118516
+  - SRR27118515
+  - SRR27118513
+  - SRR27118512
+  - SRR27118511
+  - SRR27118510
+  - SRR27118509
+  - SRR27118508
+  - SRR27118507
+  - SRR27118506
+  - SRR27118505
+  - SRR27118504
+  - SRR27118502
+  - SRR27118501
+  - SRR27118500
+  - SRR27118499
+  - SRR27118498
+  - SRR27118497
+  - SRR27118496
+  - SRR27118534
+  - SRR27118533
+  - SRR27118532
+  - SRR27118530
+
+pilot_samples:
+  - SRR27118566
+  - SRR27118565
+  - SRR27118554
+
+paths:
+  sra_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/02_dados_brutos/Jin2024_PBMC_71/RRBS_PRJNA1049514/sra"
+  fastq_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/02_dados_brutos/Jin2024_PBMC_71/RRBS_PRJNA1049514/fastq"
+  ref_fasta: "/mnt/d/Jin2024_work/bismark_ref/genome.fa"
+  ref_dir: "/mnt/d/Jin2024_work/bismark_ref"
+  final_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/RRBS"
+  work_dir: "/mnt/d/Jin2024_work/RRBS_pipeline"
+
+params:
+  threads_per_sample: 3
+  min_coverage: 5

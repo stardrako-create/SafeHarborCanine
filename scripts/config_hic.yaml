@@ -1,0 +1,16 @@
+samples:
+  - SRR10428536
+  - SRR10428537
+  - SRR10428538
+
+paths:
+  sra_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/02_dados_brutos/Mischka_HiC_PRJNA587469/sra"
+  fastq_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/02_dados_brutos/Mischka_HiC_PRJNA587469/fastq"
+  ref_fasta: "/mnt/d/Jin2024_work/bismark_ref/genome.fa"
+  ref_dir: "/mnt/d/Jin2024_work/bismark_ref"
+  final_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/HiC"
+  work_dir: "/mnt/d/Jin2024_work/HiC_pipeline"
+
+params:
+  threads_per_lib: 10
+  min_mapq: 30

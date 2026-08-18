@@ -1,0 +1,94 @@
+samples:
+  - SRR27376662
+  - SRR27376636
+  - SRR27376648
+  - SRR27376669
+  - SRR27376645
+  - SRR27376667
+  - SRR27376649
+  - SRR27376688
+  - SRR27376622
+  - SRR27376677
+  - SRR27376675
+  - SRR27376640
+  - SRR27376681
+  - SRR27376627
+  - SRR27376678
+  - SRR27376670
+  - SRR27376628
+  - SRR27376637
+  - SRR27376647
+  - SRR27376674
+  - SRR27376650
+  - SRR27376666
+  - SRR27376634
+  - SRR27376652
+  - SRR27376668
+  - SRR27376654
+  - SRR27376653
+  - SRR27376621
+  - SRR27376643
+  - SRR27376625
+  - SRR27376639
+  - SRR27376635
+  - SRR27376630
+  - SRR27376682
+  - SRR27376660
+  - SRR27376656
+  - SRR27376665
+  - SRR27376659
+  - SRR27376638
+  - SRR27376686
+  - SRR27376626
+  - SRR27376646
+  - SRR27376687
+  - SRR27376673
+  - SRR27376676
+  - SRR27376671
+  - SRR27376661
+  - SRR27376684
+  - SRR27376642
+  - SRR27376664
+  - SRR27376683
+  - SRR27376633
+  - SRR27376629
+  - SRR27376631
+  - SRR27376618
+  - SRR27376620
+  - SRR27376680
+  - SRR27376624
+  - SRR27376623
+  - SRR27376619
+  - SRR27376641
+  - SRR27376632
+  - SRR27376663
+  - SRR27376658
+  - SRR27376679
+  - SRR27376657
+  - SRR27376651
+  - SRR27376685
+  - SRR27376672
+  - SRR27376655
+  - SRR27376644
+
+# Pilot subset used for the 3-sample dry run before scaling to all 71.
+pilot_samples:
+  - SRR27376618
+  - SRR27376669
+  - SRR27376652
+
+paths:
+  fastq_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/02_dados_brutos/Jin2024_PBMC_71/ATAC_PRJNA1048909/fastq"
+  ref_fasta: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna"
+  ref_gff: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/genomic.gff"
+  final_dir: "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/ATAC"
+  work_dir: "/mnt/d/Jin2024_work/ATAC_pipeline"
+
+params:
+  threads_per_sample: 3
+  index_threads: 8
+  effective_genome_size: 2400000000
+  tss_flank: 1000
+  tss_bg_offset: 1000
+  bin_size: 25
+  min_weight_floor: 0.2
