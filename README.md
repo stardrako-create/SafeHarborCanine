@@ -33,7 +33,7 @@ reference genome ROS_Cfam_1.0 (GCF_014441545.1).
 |---|---|---|---|---|
 | Chromatin accessibility | ATAC-seq | 71 dogs, PBMC | Jin et al. 2024, *Aging Cell* — [PRJNA1048909](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1048909) | Done |
 | DNA methylation | RRBS | 71 dogs, PBMC | Jin et al. 2024, *Aging Cell* — [PRJNA1049514](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1049514) | Done |
-| 3D genome structure | Hi-C | 1 dog ("Mischka"), blood | Wang et al. 2021, *Communications Biology* — [PRJNA587469](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA587469) | In progress |
+| 3D genome structure | Hi-C | 1 dog ("Mischka"), blood | Wang et al. 2021, *Communications Biology* — [PRJNA587469](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA587469) | Done |
 
 The ATAC and RRBS layers are population-level: 71 individuals from the same
 PBMC cohort, each contributing a QC-weighted vote to a "Mother Track" that
@@ -136,10 +136,14 @@ tables, candidate loci lists) are tracked directly in this repository under
 
 ## Status
 
-ATAC-seq and RRBS Mother Tracks are complete for all 71 dogs. The Hi-C
-pipeline is running; two of three libraries are fully processed. Layers
-05–08 (scoring, annotation, integration, final candidates) begin once the
-Hi-C contact matrix and TAD boundary calls are complete.
+All three data layers are complete. ATAC-seq and RRBS Mother Tracks cover
+all 71 dogs. The Hi-C layer (3 merged Mischka libraries) has a multi-
+resolution contact matrix and 8,367 called TAD boundaries; chromatin-loop
+calling was attempted but found no significant loops at this sequencing
+depth (expected — this dataset was generated for assembly scaffolding, not
+dedicated loop-calling, see `04_tracks_processadas/ROS_Cfam_1.0/HiC/`).
+Layers 05–08 (scoring, annotation, integration, final candidates) begin
+next.
 
 ## Related work
 
