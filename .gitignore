@@ -18,6 +18,7 @@
 04_tracks_processadas/**/*.mcool
 04_tracks_processadas/**/*.cool
 04_tracks_processadas/**/*.bedgraph
+04_tracks_processadas/**/tad_insulation.tsv
 
 # Snakemake internal state/cache/locks
 .snakemake/
