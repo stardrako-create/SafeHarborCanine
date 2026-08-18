@@ -1,11 +1,14 @@
 # Safe Harbor Canino
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21996453.svg)](https://doi.org/10.5281/zenodo.21996453)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 Identification of genomic safe harbor loci in the domestic dog (*Canis lupus
 familiaris*), integrating population-level chromatin accessibility, DNA
 methylation, and single-individual 3D genome structure, for use as candidate
 integration sites in canine CAR-T cell engineering.
 
-Maintained by the [Vasco M. Barreto lab](https://www.google.com/search?q=Vasco+M.+Barreto+lab).
+Maintained by the Vasco M. Barreto lab.
 
 ## Background
 
@@ -146,9 +149,11 @@ Apache License 2.0 — see [LICENSE](LICENSE).
 
 ## Citation
 
-A citation file / preprint reference will be added once available. In the
-meantime, please cite this repository by URL and, where relevant, the
-source datasets:
+This repository is archived on Zenodo with a DOI covering the code as of
+each tagged release: [10.5281/zenodo.21996453](https://doi.org/10.5281/zenodo.21996453).
+A dedicated citation file / preprint reference will be added once available.
+In the meantime, please cite the DOI above and, where relevant, the source
+datasets:
 
 - Jin et al. 2024, *Aging Cell* (ATAC-seq / RRBS PBMC cohort, PRJNA1048909 / PRJNA1049514)
 - Wang et al. 2021, *Communications Biology* (Hi-C / UU_Cfam_GSD_1.0 assembly, PRJNA587469)
