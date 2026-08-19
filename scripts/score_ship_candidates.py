@@ -23,6 +23,9 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
     - within --mirna-min-distance (default 300kb) of an annotated miRNA
       (scripts/extract_gff3_features.py --feature-types miRNA; Ahmed et al.
       2026, Cells, criterion 3 - see 05_SHIP/ahmed2026_checklist_comparison.md)
+    - within --cancer-gene-radius (default 300kb) of ANY gene in the risk-gene
+      list, not just the two SHIP flanking genes (criterion 2 - a genome-wide
+      radius search, using canine_all_genes.bed against canine_risk_genes.tsv)
 
   soft score (rank what's left), each component min-max normalized to [0,1]
   across the surviving candidates, then averaged with user-settable weights:
@@ -62,6 +65,38 @@ def load_bed_intervals(path):
     for chrom in intervals:
         intervals[chrom].sort()
     return intervals
+
+
+def load_bed_with_names(path):
+    intervals = {}
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            if not line.strip() or line.startswith("#"):
+                continue
+            fields = line.rstrip("\n").split("\t")
+            if not fields[1].isdigit():
+                continue
+            chrom, start, end = fields[0], int(fields[1]), int(fields[2])
+            name = fields[3] if len(fields) > 3 else "NA"
+            intervals.setdefault(chrom, []).append((start, end, name))
+    return intervals
+
+
+def distance_to_nearest_named(intervals_by_chrom, chrom, start, end, name_set):
+    mid = (start + end) // 2
+    best = None
+    for s, e, name in intervals_by_chrom.get(chrom, []):
+        if name not in name_set:
+            continue
+        if e < mid:
+            d = mid - e
+        elif s > mid:
+            d = s - mid
+        else:
+            d = 0
+        if best is None or d < best:
+            best = d
+    return best if best is not None else float("inf")
 
 
 def overlaps(intervals_by_chrom, chrom, start, end):
@@ -118,6 +153,8 @@ def main():
     ap.add_argument("--mappability-tsv", required=True, help="check_candidate_mappability.py output TSV")
     ap.add_argument("--mirna-bed", required=True, help="extract_gff3_features.py --feature-types miRNA output")
     ap.add_argument("--mirna-min-distance", type=int, default=300_000)
+    ap.add_argument("--all-genes-bed", required=True, help="extract_gff3_features.py --feature-types gene pseudogene output")
+    ap.add_argument("--cancer-gene-radius", type=int, default=300_000)
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -136,6 +173,7 @@ def main():
     atac_peaks = load_bed_intervals(args.atac_peaks_bed)
     tad_boundaries = load_bed_intervals(args.tad_boundaries_bed)
     mirnas = load_bed_intervals(args.mirna_bed)
+    all_genes = load_bed_with_names(args.all_genes_bed)
 
     risk_genes = set()
     with open(args.risk_genes, encoding="utf-8") as f:
@@ -163,9 +201,11 @@ def main():
         c["veto_low_mappability"] = low_mappability.get((chrom, start, end), False)
         c["mirna_distance"] = distance_to_nearest(mirnas, chrom, start, end)
         c["veto_mirna_nearby"] = c["mirna_distance"] < args.mirna_min_distance
+        c["risk_gene_radius_distance"] = distance_to_nearest_named(all_genes, chrom, start, end, risk_genes)
+        c["veto_risk_gene_radius"] = c["risk_gene_radius_distance"] < args.cancer_gene_radius
         c["hard_veto"] = (c["veto_tad_boundary"] or c["veto_atac_peak"]
                            or c["veto_risk_gene"] or c["veto_low_mappability"]
-                           or c["veto_mirna_nearby"])
+                           or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -211,9 +251,9 @@ def main():
 
     fieldnames = ["chrom", "start", "end", "length", "orientation", "left_gene", "right_gene",
                   "hard_veto", "veto_tad_boundary", "veto_atac_peak", "veto_risk_gene",
-                  "veto_low_mappability", "veto_mirna_nearby", "no_rrbs_coverage",
+                  "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
-                  "tad_boundary_distance", "mirna_distance",
+                  "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
                   "score_stability_rrbs", "score_tad_distance", "final_score"]
 
@@ -234,7 +274,8 @@ def main():
           f"{sum(1 for c in candidates if c['veto_atac_peak'])} ATAC peak overlap, "
           f"{sum(1 for c in candidates if c['veto_risk_gene'])} risk gene, "
           f"{sum(1 for c in candidates if c['veto_low_mappability'])} low mappability, "
-          f"{sum(1 for c in candidates if c['veto_mirna_nearby'])} miRNA nearby), "
+          f"{sum(1 for c in candidates if c['veto_mirna_nearby'])} miRNA nearby, "
+          f"{sum(1 for c in candidates if c['veto_risk_gene_radius'])} risk gene within radius), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")
