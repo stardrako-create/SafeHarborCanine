@@ -36,3 +36,10 @@ implemented — no dog-referenced conservation track exists publicly. See
 **Bottom line: V2's `candidates_scored_v5.tsv` / `candidates_passing_ranked_v5.bed`
 is the current, most rigorous scoring — use these, not the plain-named V1 files,
 for anything downstream (06_GEG-SH onward).**
+
+## Release tagging
+
+- V1 (pre-checklist baseline) → no dedicated tag, superseded before release tagging started
+- **V2 (this document) → GitHub release `v0.2.0`**
+- V3 (ultraconserved elements, if a dog-referenced conservation track becomes
+  available — see `ahmed2026_checklist_comparison.md`) → **`v1.0.0`**
