@@ -25,9 +25,9 @@ Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
 | 5 | Outside ultraconserved regions, telomeres, centromeres | Partial | Telomere/centromere GFF3 feature types are excluded during SHIP candidate generation (Ehsan's `features.json`); ultraconserved elements are not checked at all |
 | 6 | Outside lncRNA and small RNA | **Yes** (V4, 2026-08-19) | `veto_lncrna_smallrna` — direct overlap check against 26,899 lnc_RNA/tRNA/snoRNA/snRNA/guide_RNA/rRNA/SRP_RNA/RNase_P_RNA features. 0 candidates newly excluded — the survivors of V3's gene-density filter were already clean of these |
 | 7 | Located in transcriptionally active (open) chromatin | **Yes** | This is exactly our `moderate_atac` soft-score component (favors accessible-but-not-peak signal) |
-| 8 | Outside a TAD containing cancer-related genes | Partial | We veto candidates overlapping a TAD *boundary* and candidates whose flanking genes are risk genes, but we do not check *every* gene inside the candidate's own TAD for cancer relevance — a broader 3D check than what we do |
+| 8 | Outside a TAD containing cancer-related genes | **Yes** (V5, 2026-08-19) | `veto_tad_risk_gene` — TAD intervals derived from consecutive boundary calls (`scripts/build_tad_intervals.py`, 6,853 TADs); veto if ANY risk gene falls anywhere inside the candidate's own TAD, not just the two flanking genes or a fixed radius. Only 2 candidates newly excluded — the survivors of V1-V4 already had clean TADs |
 
-**Score: 6/8 fully satisfied, 2/8 partial, 0/8 not implemented.** (started at 2/8, 5/8, 1/8; V1 closed criterion 3, V2 closed criterion 2, V3 closed criterion 1, V4 closed criterion 6 — see `VERSIONS.md`)
+**Score: 7/8 fully satisfied, 1/8 partial, 0/8 not implemented.** (started at 2/8, 5/8, 1/8; V1 closed criterion 3, V2 closed criterion 2, V3 closed criterion 1, V4 closed criterion 6, V5 closed criterion 8 — see `VERSIONS.md`. Only criterion 5's ultraconserved-elements half remains partial.)
 
 ## Box 1 — additional proposed criteria
 
