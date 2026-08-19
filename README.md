@@ -174,3 +174,4 @@ please also cite the source datasets where relevant:
 - Wang et al. 2021, *Communications Biology* (Hi-C / UU_Cfam_GSD_1.0 assembly, PRJNA587469)
 - Leitão et al. 2025, *Scientific Reports*, 15, 7193 — [SHIP](https://github.com/MCLeitao/Ship), the candidate-generation tool `05_SHIP/` is built on (DOI: [10.1038/s41598-025-91249-9](https://doi.org/10.1038/s41598-025-91249-9))
 - Shrestha et al. 2022, *Genome Biology*, 23, 199 — [GEG-SH](https://github.com/dewshr/GEG-SH), whose tissue-specific hard-veto/soft-score framework `05_SHIP/score_ship_candidates.py` follows (DOI: [10.1186/s13059-022-02770-3](https://doi.org/10.1186/s13059-022-02770-3))
+- Ahmed et al. 2026, *Cells*, 15, 81 — comprehensive review of human SHS selection criteria; `05_SHIP/ahmed2026_checklist_comparison.md` scores this pipeline against its 8-criterion checklist (DOI: [10.3390/cells15010081](https://doi.org/10.3390/cells15010081))

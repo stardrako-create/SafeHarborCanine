@@ -58,3 +58,10 @@ references:
     identifiers:
       - type: doi
         value: "10.1186/s13059-022-02770-3"
+  - type: article
+    title: "Ahmed et al. 2026, Cells (review of human SHS selection criteria; 05_SHIP scored against its 8-criterion checklist)"
+    authors:
+      - name: "Ahmed, A. et al."
+    identifiers:
+      - type: doi
+        value: "10.3390/cells15010081"

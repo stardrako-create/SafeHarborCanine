@@ -1,0 +1,49 @@
+# Checklist comparison against Ahmed et al. 2026 (Cells)
+
+Ahmed, A., Di Molfetta, D., Iaconisi, G.N., et al. (2026). "Human Genome
+Safe Harbor Sites: A Comprehensive Review of Criteria, Discovery, Features,
+and Applications." *Cells*, 15(1), 81.
+DOI: [10.3390/cells15010081](https://doi.org/10.3390/cells15010081)
+
+This review's Figure 1 (Box 1/Box 2 content is embedded as an image, not
+extractable text — rendered to read it) lays out 8 core SHS selection
+criteria, synthesized from Sadelain et al. 2011 and later refinements
+(Pellenz et al.'s "eight SHS criteria" for SHS231, Aznauryan et al.'s Rogi1/
+Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
+"Box 2" of acknowledged field-wide challenges.
+
+**We do not currently satisfy all 8 checkboxes.** Honest comparison below.
+
+## The 8 core criteria
+
+| # | Criterion | Our status | Detail |
+|---|---|---|---|
+| 1 | Distance >=50kb from cancer-unrelated genes | Partial | SHIP candidates *are* the 50-75kb intergenic gap itself; we don't separately measure "50kb from a specific integration point to the nearest gene" the way Sadelain's criterion is framed |
+| 2 | Distance >=300kb from cancer-related genes | Partial | We only check whether the two immediate flanking genes are risk genes (`veto_risk_gene`); no 300kb-radius search for *any* cancer gene nearby |
+| 3 | Distance >=300kb from miRNA | **Not implemented** | No miRNA proximity check exists in this pipeline at all |
+| 4 | Outside transcriptional unit | **Yes** | True by construction — SHIP candidates are always intergenic |
+| 5 | Outside ultraconserved regions, telomeres, centromeres | Partial | Telomere/centromere GFF3 feature types are excluded during SHIP candidate generation (Ehsan's `features.json`); ultraconserved elements are not checked at all |
+| 6 | Outside lncRNA and small RNA | Partial | `ncRNA_gene`-typed features are excluded during SHIP candidate generation at the gene-annotation level; no dedicated lncRNA/small-RNA database cross-check |
+| 7 | Located in transcriptionally active (open) chromatin | **Yes** | This is exactly our `moderate_atac` soft-score component (favors accessible-but-not-peak signal) |
+| 8 | Outside a TAD containing cancer-related genes | Partial | We veto candidates overlapping a TAD *boundary* and candidates whose flanking genes are risk genes, but we do not check *every* gene inside the candidate's own TAD for cancer relevance — a broader 3D check than what we do |
+
+**Score: 2/8 fully satisfied, 5/8 partial, 1/8 not implemented (miRNA).**
+
+## Box 1 — additional proposed criteria
+
+| Criterion | Our status |
+|---|---|
+| CRISPR/Cas9 editing efficiency and off-target specificity | Not started — explicitly listed as a pending next step (gRNA design phase) in `05_SHIP/README.md` |
+| No alteration of transcriptome/proteome/metabolome | Out of scope for this bioinformatic discovery pipeline — belongs to experimental validation (per project scope: "discovery, filtragem, ranking... validação funcional fica a cargo da equipa experimental") |
+| No negative impact on stem cell pluripotency/differentiation | Same — experimental validation, not applicable to canine PBMC data anyway |
+| "Universal" expression across cell types/tissues | Not tested — our ATAC/RRBS evidence is PBMC-specific; Shrestha et al. 2022 (GEG-SH, already cited in this project) found *zero* shared safe harbors between blood and brain in their own tissue-specific analysis, so "universal" is a genuinely hard bar this pipeline does not claim to clear |
+
+## What this means
+
+Two gaps are worth closing next, roughly in order of how cheap/impactful they are:
+1. **miRNA proximity (criterion 3)** — completely missing, and miRNA annotations (`miRNA` feature type) are already present in the RefSeq GFF3 SHIP itself parsed from (`GEF-SH` and this repo's SHIP run excluded `gene`/`ncRNA_gene`/etc. but a dedicated genome-wide miRNA BED + distance check was never built).
+2. **300kb radius search (criteria 2 and, in spirit, 8)** — upgrading from "are the two flanking genes risky" to "is any risk gene, or any gene inside the same TAD, within 300kb" is a natural extension of `scripts/score_ship_candidates.py`'s existing risk-gene veto logic.
+
+Ultraconserved elements (part of criterion 5) would need a dedicated
+conservation track (e.g. phastCons/phyloP for a multi-species alignment
+including dog), which does not currently exist in this project's data.
