@@ -20,14 +20,14 @@ Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
 |---|---|---|---|
 | 1 | Distance >=50kb from cancer-unrelated genes | Partial | SHIP candidates *are* the 50-75kb intergenic gap itself; we don't separately measure "50kb from a specific integration point to the nearest gene" the way Sadelain's criterion is framed |
 | 2 | Distance >=300kb from cancer-related genes | Partial | We only check whether the two immediate flanking genes are risk genes (`veto_risk_gene`); no 300kb-radius search for *any* cancer gene nearby |
-| 3 | Distance >=300kb from miRNA | **Not implemented** | No miRNA proximity check exists in this pipeline at all |
+| 3 | Distance >=300kb from miRNA | **Yes** (2026-08-19) | `scripts/extract_gff3_features.py` pulls all 491 annotated canine miRNA loci from the GFF3; `veto_mirna_nearby` excludes any candidate within 300kb (29 candidates newly excluded) |
 | 4 | Outside transcriptional unit | **Yes** | True by construction — SHIP candidates are always intergenic |
 | 5 | Outside ultraconserved regions, telomeres, centromeres | Partial | Telomere/centromere GFF3 feature types are excluded during SHIP candidate generation (Ehsan's `features.json`); ultraconserved elements are not checked at all |
 | 6 | Outside lncRNA and small RNA | Partial | `ncRNA_gene`-typed features are excluded during SHIP candidate generation at the gene-annotation level; no dedicated lncRNA/small-RNA database cross-check |
 | 7 | Located in transcriptionally active (open) chromatin | **Yes** | This is exactly our `moderate_atac` soft-score component (favors accessible-but-not-peak signal) |
 | 8 | Outside a TAD containing cancer-related genes | Partial | We veto candidates overlapping a TAD *boundary* and candidates whose flanking genes are risk genes, but we do not check *every* gene inside the candidate's own TAD for cancer relevance — a broader 3D check than what we do |
 
-**Score: 2/8 fully satisfied, 5/8 partial, 1/8 not implemented (miRNA).**
+**Score: 3/8 fully satisfied, 5/8 partial, 0/8 not implemented.** (was 2/8, 5/8, 1/8 before the miRNA check landed)
 
 ## Box 1 — additional proposed criteria
 
