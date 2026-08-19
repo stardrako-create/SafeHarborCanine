@@ -1,6 +1,7 @@
 # Safe Harbor Canino
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21996453.svg)](https://doi.org/10.5281/zenodo.21996453)
+[![DOI (code)](https://zenodo.org/badge/DOI/10.5281/zenodo.21996453.svg)](https://doi.org/10.5281/zenodo.21996453)
+[![DOI (data)](https://zenodo.org/badge/DOI/10.5281/zenodo.22003934.svg)](https://doi.org/10.5281/zenodo.22003934)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Identification of genomic safe harbor loci in the domestic dog (*Canis lupus
@@ -129,10 +130,11 @@ reference genome (ROS_Cfam_1.0, GCF_014441545.1) is public via NCBI.
 
 Processed genome-wide tracks (bigWig coverage/methylation/insulation tracks,
 `.mcool` Hi-C contact matrices) are too large for git (several files exceed
-GitHub's 100 MB per-file limit) and are released as versioned datasets on
-Zenodo, linked here once published. Small tabular outputs (QC weight
-tables, candidate loci lists) are tracked directly in this repository under
-`04_tracks_processadas/`, `05_SHIP/` through `08_candidatos_finais/`.
+GitHub's 100 MB per-file limit) and are released as a versioned dataset on
+Zenodo: **[10.5281/zenodo.22003934](https://doi.org/10.5281/zenodo.22003934)**.
+Small tabular outputs (QC weight tables, candidate loci lists) are tracked
+directly in this repository under `04_tracks_processadas/`, `05_SHIP/`
+through `08_candidatos_finais/`.
 
 ## Status
 
@@ -170,3 +172,5 @@ please also cite the source datasets where relevant:
 
 - Jin et al. 2024, *Aging Cell* (ATAC-seq / RRBS PBMC cohort, PRJNA1048909 / PRJNA1049514)
 - Wang et al. 2021, *Communications Biology* (Hi-C / UU_Cfam_GSD_1.0 assembly, PRJNA587469)
+- Leitão et al. 2025, *Scientific Reports*, 15, 7193 — [SHIP](https://github.com/MCLeitao/Ship), the candidate-generation tool `05_SHIP/` is built on (DOI: [10.1038/s41598-025-91249-9](https://doi.org/10.1038/s41598-025-91249-9))
+- Shrestha et al. 2022, *Genome Biology*, 23, 199 — [GEG-SH](https://github.com/dewshr/GEG-SH), whose tissue-specific hard-veto/soft-score framework `05_SHIP/score_ship_candidates.py` follows (DOI: [10.1186/s13059-022-02770-3](https://doi.org/10.1186/s13059-022-02770-3))

@@ -3,13 +3,22 @@ message: "If you use this pipeline or its outputs, please cite it as below."
 title: "Safe Harbor Canino: identification of genomic safe harbor loci in the domestic dog"
 type: software
 authors:
-  - name: "Vasco M. Barreto Lab"
+  - family-names: "Sequeira"
+    given-names: "Manuel"
+    orcid: "https://orcid.org/0009-0009-6773-423X"
+  - family-names: "Barreto"
+    given-names: "Vasco M."
+    orcid: "https://orcid.org/0000-0002-0010-8607"
+    affiliation: "Universidade NOVA de Lisboa"
 license: MIT
 repository-code: "https://github.com/stardrako-create/SafeHarborCanine"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21996453"
     description: "Zenodo archive of the code, updated with each tagged release"
+  - type: doi
+    value: "10.5281/zenodo.22003934"
+    description: "Zenodo archive of the processed genome-wide tracks (ATAC-seq, RRBS, Hi-C)"
 keywords:
   - genomic safe harbor
   - dog genome
@@ -35,3 +44,17 @@ references:
     identifiers:
       - type: other
         value: "PRJNA587469"
+  - type: article
+    title: "Leitao et al. 2025, Scientific Reports (SHIP: candidate-generation tool used in 05_SHIP)"
+    authors:
+      - name: "Leitao, M. C. et al."
+    identifiers:
+      - type: doi
+        value: "10.1038/s41598-025-91249-9"
+  - type: article
+    title: "Shrestha et al. 2022, Genome Biology (GEG-SH: tissue-specific filtering framework followed in 05_SHIP)"
+    authors:
+      - name: "Shrestha, D. et al."
+    identifiers:
+      - type: doi
+        value: "10.1186/s13059-022-02770-3"
