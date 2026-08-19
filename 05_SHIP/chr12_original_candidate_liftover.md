@@ -32,13 +32,34 @@ of 1036 bp) at **`NC_051816.1:72,767,426-72,768,461`**.
 | RRBS weighted-mean methylation | 2.4% — favorable, comparable to the better-ranked SHIP candidates |
 | Distance to nearest TAD boundary | ~93 kb — reasonable, well inside a TAD |
 
+## Re-evaluation against V2 (Ahmed et al. 2026 checklist criteria, 2026-08-19)
+
+| Check | Result |
+|---|---|
+| miRNA within 300kb? | No — nearest is 31 Mb away. Passes. |
+| Risk gene within 300kb radius? | **Fails** — `FRK` (a risk gene) sits 129 kb away |
+| Overlaps lncRNA/small RNA? | No — passes |
+| Outside transcriptional unit? | **Fails** — the window is fully contained inside `NT5DC1` (`NC_051816.1:72,672,269-72,791,171`) on ROS_Cfam_1.0. This locus is intragenic here, not intergenic — a genuinely different situation from the SHIP candidates, which are intergenic by construction. (Precedent exists for intragenic safe harbors — AAVS1 sits in PPP1R12C, hROSA26 in THUMPD3 — so this alone isn't disqualifying, but it does mean criterion 4 fails outright.) |
+| Own TAD risk-gene content | Could not resolve — this point doesn't fall inside any derived TAD interval (likely sits within a boundary block itself) |
+
 ## Conclusion
 
-The original chr12 candidate passes both of this repository's hard vetoes
-and has favorable methylation and TAD-boundary distance, but its
-accessibility is elevated relative to the SHIP-derived candidate
-population — worth a closer look (e.g. inspect the ATAC signal shape
-directly rather than just the interval mean) before treating it as
-equally strong as the top SHIP-derived candidates in `candidates_scored.tsv`.
-It was found by a different, non-systematic method, so it is a useful
-independent data point rather than a member of the ranked list.
+Combined with the already-elevated ATAC accessibility (0.214, vs. 0.04–0.11
+typical for passing SHIP candidates) noted below, this candidate **would
+not pass V2**: it fails the risk-gene-radius check (FRK, 129 kb) and is
+intragenic in `NT5DC1`, not intergenic. It was found by a different,
+non-systematic method (manual JBrowse inspection on a different assembly),
+so it remains a useful independent data point and a reminder of why
+systematic scoring matters — but it should not be treated as equivalent to
+the top SHIP-derived V2 candidate (`NC_051811.1:48,020,921-48,077,046`).
+
+## V1-era evaluation (superseded by the V2 checks above, kept for context)
+
+| Check | Result |
+|---|---|
+| One of the 461 SHIP candidates? | **No** — nearest SHIP candidate on this chromosome is ~370 kb away. Found by manual inspection, not SHIP's intergenic-interval search, so non-membership isn't itself disqualifying. |
+| Overlaps a Hi-C TAD boundary? | No — passes |
+| Overlaps an ATAC consensus peak? | No — passes |
+| ATAC weighted-mean accessibility | 0.214 — notably higher than passing SHIP candidates (typically 0.04–0.11). Below our peak-calling threshold, but flagged: elevated accessibility this far above the candidate population could indicate proximity to an unannotated regulatory element, even without a called peak. |
+| RRBS weighted-mean methylation | 2.4% — favorable, comparable to the better-ranked SHIP candidates |
+| Distance to nearest TAD boundary | ~93 kb — reasonable, well inside a TAD |
