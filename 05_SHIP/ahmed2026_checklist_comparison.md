@@ -18,7 +18,7 @@ Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
 
 | # | Criterion | Our status | Detail |
 |---|---|---|---|
-| 1 | Distance >=50kb from cancer-unrelated genes | Partial | SHIP candidates *are* the 50-75kb intergenic gap itself; we don't separately measure "50kb from a specific integration point to the nearest gene" the way Sadelain's criterion is framed |
+| 1 | Distance >=50kb from cancer-unrelated genes | **Yes, reframed** (V3, 2026-08-19) | A literal reading is structurally unsatisfiable for a 50-75kb window that touches genes at both edges by construction (no position inside can be >=50kb from *both* flanking genes at once). Implemented instead as `veto_gene_dense_neighborhood`: is there a THIRD gene within 50kb of either window edge, beyond the two that define it — the real safety concern. Severe: 380/461 candidates excluded (only 45 pass through V3) |
 | 2 | Distance >=300kb from cancer-related genes | **Yes** (V2, 2026-08-19) | `veto_risk_gene_radius` — genome-wide 300kb radius search against all 41,632 genes, not just the two flanking genes (199 candidates newly excluded; changed the #1-ranked candidate — see `VERSIONS.md`) |
 | 3 | Distance >=300kb from miRNA | **Yes** (2026-08-19) | `scripts/extract_gff3_features.py` pulls all 491 annotated canine miRNA loci from the GFF3; `veto_mirna_nearby` excludes any candidate within 300kb (29 candidates newly excluded) |
 | 4 | Outside transcriptional unit | **Yes** | True by construction — SHIP candidates are always intergenic |
@@ -27,7 +27,7 @@ Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
 | 7 | Located in transcriptionally active (open) chromatin | **Yes** | This is exactly our `moderate_atac` soft-score component (favors accessible-but-not-peak signal) |
 | 8 | Outside a TAD containing cancer-related genes | Partial | We veto candidates overlapping a TAD *boundary* and candidates whose flanking genes are risk genes, but we do not check *every* gene inside the candidate's own TAD for cancer relevance — a broader 3D check than what we do |
 
-**Score: 4/8 fully satisfied, 4/8 partial, 0/8 not implemented.** (started at 2/8, 5/8, 1/8; miRNA closed criterion 3, then the 300kb radius search closed criterion 2 in V2 — see `VERSIONS.md`)
+**Score: 5/8 fully satisfied, 3/8 partial, 0/8 not implemented.** (started at 2/8, 5/8, 1/8; V1 closed criterion 3, V2 closed criterion 2, V3 closed criterion 1 — see `VERSIONS.md`)
 
 ## Box 1 — additional proposed criteria
 

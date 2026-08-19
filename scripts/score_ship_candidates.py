@@ -26,6 +26,14 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
     - within --cancer-gene-radius (default 300kb) of ANY gene in the risk-gene
       list, not just the two SHIP flanking genes (criterion 2 - a genome-wide
       radius search, using canine_all_genes.bed against canine_risk_genes.tsv)
+    - a THIRD gene (beyond the two that define the SHIP window) sits within
+      --gene_dense_radius (default 50kb) of either window edge (criterion 1 -
+      note: SHIP windows are 50-75kb and touch genes at both edges by
+      construction, so a literal "any position >=50kb from every gene" is
+      structurally unsatisfiable for a window this size; this instead checks
+      whether a THIRD gene crowds the neighborhood beyond the two that
+      already define the window, which is the real safety concern the
+      criterion is protecting against - see 05_SHIP/ahmed2026_checklist_comparison.md)
 
   soft score (rank what's left), each component min-max normalized to [0,1]
   across the surviving candidates, then averaged with user-settable weights:
@@ -99,6 +107,22 @@ def distance_to_nearest_named(intervals_by_chrom, chrom, start, end, name_set):
     return best if best is not None else float("inf")
 
 
+def distance_from_point_excluding(intervals_by_chrom, chrom, point, exclude_names):
+    best = None
+    for s, e, name in intervals_by_chrom.get(chrom, []):
+        if name in exclude_names:
+            continue
+        if e < point:
+            d = point - e
+        elif s > point:
+            d = s - point
+        else:
+            d = 0
+        if best is None or d < best:
+            best = d
+    return best if best is not None else float("inf")
+
+
 def overlaps(intervals_by_chrom, chrom, start, end):
     for s, e in intervals_by_chrom.get(chrom, []):
         if s < end and e > start:
@@ -155,6 +179,7 @@ def main():
     ap.add_argument("--mirna-min-distance", type=int, default=300_000)
     ap.add_argument("--all-genes-bed", required=True, help="extract_gff3_features.py --feature-types gene pseudogene output")
     ap.add_argument("--cancer-gene-radius", type=int, default=300_000)
+    ap.add_argument("--gene-dense-radius", type=int, default=50_000)
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -203,9 +228,15 @@ def main():
         c["veto_mirna_nearby"] = c["mirna_distance"] < args.mirna_min_distance
         c["risk_gene_radius_distance"] = distance_to_nearest_named(all_genes, chrom, start, end, risk_genes)
         c["veto_risk_gene_radius"] = c["risk_gene_radius_distance"] < args.cancer_gene_radius
+        exclude = {c["left_gene"], c["right_gene"]}
+        left_clear = distance_from_point_excluding(all_genes, chrom, start, exclude)
+        right_clear = distance_from_point_excluding(all_genes, chrom, end, exclude)
+        c["gene_dense_clearance"] = min(left_clear, right_clear)
+        c["veto_gene_dense_neighborhood"] = c["gene_dense_clearance"] < args.gene_dense_radius
         c["hard_veto"] = (c["veto_tad_boundary"] or c["veto_atac_peak"]
                            or c["veto_risk_gene"] or c["veto_low_mappability"]
-                           or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"])
+                           or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"]
+                           or c["veto_gene_dense_neighborhood"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -251,9 +282,10 @@ def main():
 
     fieldnames = ["chrom", "start", "end", "length", "orientation", "left_gene", "right_gene",
                   "hard_veto", "veto_tad_boundary", "veto_atac_peak", "veto_risk_gene",
-                  "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius", "no_rrbs_coverage",
+                  "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius",
+                  "veto_gene_dense_neighborhood", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
-                  "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance",
+                  "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance", "gene_dense_clearance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
                   "score_stability_rrbs", "score_tad_distance", "final_score"]
 
@@ -275,7 +307,8 @@ def main():
           f"{sum(1 for c in candidates if c['veto_risk_gene'])} risk gene, "
           f"{sum(1 for c in candidates if c['veto_low_mappability'])} low mappability, "
           f"{sum(1 for c in candidates if c['veto_mirna_nearby'])} miRNA nearby, "
-          f"{sum(1 for c in candidates if c['veto_risk_gene_radius'])} risk gene within radius), "
+          f"{sum(1 for c in candidates if c['veto_risk_gene_radius'])} risk gene within radius, "
+          f"{sum(1 for c in candidates if c['veto_gene_dense_neighborhood'])} gene-dense neighborhood), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")
