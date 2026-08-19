@@ -45,27 +45,34 @@ tunable via CLI flags — nothing here is a black box, read the formula in
   closed nor unusually open — SHIP already picked intergenic windows, so a
   strong signal here would suggest an unannotated element, not a promoter)
 
-## Current result (V1 baseline)
-461 SHIP candidates → 201 hard-vetoed (153 TAD boundary, 32 ATAC peak
-overlap, 47 risk gene, 2 low mappability — categories overlap, a candidate
-can trigger more than one) → **260 ranked candidates** in
-`candidates_scored.tsv` (full table) and `candidates_passing_ranked.bed`
-(passing only, sorted by score). Top candidate (`NC_051812.1:52,431-118,675`,
-score 0.83) is unchanged from before the risk-gene/mappability vetoes were
-added, and is independently confirmed by Ehsan Valiollahi's separate
-filtering approach — see `ehsan_crossvalidation.md`.
+## Versions — V1 vs. V2 (Ahmed et al. 2026 checklist)
+**V1** is TAD boundary + ATAC peak + flanking risk gene + self-mappability
+only (260 candidates would pass this — see `VERSIONS.md` for why that exact
+V1 state isn't preserved as its own file).
 
-## Later versions (V2-V5) — Ahmed et al. 2026 checklist criteria
-Each of the remaining Ahmed et al. 2026 checklist criteria (see
-`ahmed2026_checklist_comparison.md`) was added as its own version, one
-criterion at a time, without altering earlier versions' output files —
-`VERSIONS.md` has the full table and what changed at each step. **V5 is the
-most rigorous/current scored set: 43 candidates pass every criterion this
-pipeline checks** (`candidates_scored_v5.tsv`, `candidates_passing_ranked_v5.bed`).
-The pipeline now satisfies 7/8 of the review's core criteria (only the
-ultraconserved-elements half of criterion 5 remains open — no usable
-dog-referenced conservation track exists publicly, investigated and
-documented in the comparison doc).
+**V2** is everything built on top of V1 against the Ahmed et al. 2026
+checklist (`ahmed2026_checklist_comparison.md`): miRNA proximity, risk gene
+within a 300kb radius, a third gene crowding either window edge within
+50kb, lncRNA/small-RNA overlap, and a risk gene anywhere in the candidate's
+own TAD. Built one criterion at a time, each checkpoint kept as its own
+file (`candidates_scored.tsv` → `_v2.tsv` → `_v3.tsv` → `_v4.tsv` →
+`_v5.tsv`) so every individual criterion's effect stays auditable — see
+`VERSIONS.md` for the full checkpoint-by-checkpoint table.
+
+**`candidates_scored_v5.tsv` / `candidates_passing_ranked_v5.bed` is V2's
+final, current state: 43/461 candidates pass every criterion this pipeline
+checks.** Use these for anything downstream (06_GEG-SH onward), not the
+plain-named files. The pipeline now satisfies 7/8 of the review's core
+criteria (only the ultraconserved-elements half of criterion 5 remains
+open — no usable dog-referenced conservation track exists publicly,
+investigated and documented in the comparison doc).
+
+Top candidate changed twice during V2 (see `VERSIONS.md`): the V1/pre-V2
+top candidate (`NC_051812.1:52,431-118,675`, score 0.83 — independently
+confirmed by Ehsan Valiollahi's separate filtering, see
+`ehsan_crossvalidation.md`) is excluded in V2 by the 300kb risk-gene-radius
+check. **V2's top candidate is `NC_051811.1:48,020,921-48,077,046`
+(score 0.77).**
 
 ## Known gaps (not yet applied)
 - The risk-gene list is a **starter proxy**: human HGNC symbols
@@ -81,12 +88,12 @@ documented in the comparison doc).
   track exists publicly; see `ahmed2026_checklist_comparison.md`.
 - Population variant data (Dog10K) for structural instability at candidates
 - gRNA design and off-target scoring — the actual next phase, once a final
-  shortlist is chosen from V5
+  shortlist is chosen from V2's final checkpoint (`candidates_scored_v5.tsv`)
 
 ## Files
 - `ship_raw_candidates.tsv` — all 461 SHIP candidates, unfiltered
 - `canine_risk_genes.tsv` — 2,654 oncogene/tumor-suppressor/essential-gene symbols
-- `canine_miRNA.bed`, `canine_all_genes.bed`, `canine_lncRNA_smallRNA.bed`, `canine_tad_intervals.bed` — extracted feature tracks used by V2-V5
+- `canine_miRNA.bed`, `canine_all_genes.bed`, `canine_lncRNA_smallRNA.bed`, `canine_tad_intervals.bed` — extracted feature tracks used within V2
 - `mappability_check.tsv` — self-realignment mappability check per candidate
 - `candidates_scored.tsv` / `candidates_scored_v2.tsv` ... `_v5.tsv` — full tables per version, veto flags and score components
 - `candidates_passing_ranked.bed` / `..._v2.bed` ... `_v5.bed` — passing candidates per version, ranked
