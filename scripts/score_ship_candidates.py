@@ -34,6 +34,9 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
       whether a THIRD gene crowds the neighborhood beyond the two that
       already define the window, which is the real safety concern the
       criterion is protecting against - see 05_SHIP/ahmed2026_checklist_comparison.md)
+    - overlaps an annotated lncRNA or small RNA gene (lnc_RNA, tRNA, snoRNA,
+      snRNA, guide_RNA, rRNA, SRP_RNA, RNase_P_RNA - criterion 6; miRNA is
+      handled separately above as a 300kb radius, criterion 3)
 
   soft score (rank what's left), each component min-max normalized to [0,1]
   across the surviving candidates, then averaged with user-settable weights:
@@ -180,6 +183,8 @@ def main():
     ap.add_argument("--all-genes-bed", required=True, help="extract_gff3_features.py --feature-types gene pseudogene output")
     ap.add_argument("--cancer-gene-radius", type=int, default=300_000)
     ap.add_argument("--gene-dense-radius", type=int, default=50_000)
+    ap.add_argument("--lncrna-smallrna-bed", required=True,
+                     help="extract_gff3_features.py lncRNA/small RNA output")
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -199,6 +204,7 @@ def main():
     tad_boundaries = load_bed_intervals(args.tad_boundaries_bed)
     mirnas = load_bed_intervals(args.mirna_bed)
     all_genes = load_bed_with_names(args.all_genes_bed)
+    lncrna_smallrna = load_bed_intervals(args.lncrna_smallrna_bed)
 
     risk_genes = set()
     with open(args.risk_genes, encoding="utf-8") as f:
@@ -233,10 +239,11 @@ def main():
         right_clear = distance_from_point_excluding(all_genes, chrom, end, exclude)
         c["gene_dense_clearance"] = min(left_clear, right_clear)
         c["veto_gene_dense_neighborhood"] = c["gene_dense_clearance"] < args.gene_dense_radius
+        c["veto_lncrna_smallrna"] = overlaps(lncrna_smallrna, chrom, start, end)
         c["hard_veto"] = (c["veto_tad_boundary"] or c["veto_atac_peak"]
                            or c["veto_risk_gene"] or c["veto_low_mappability"]
                            or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"]
-                           or c["veto_gene_dense_neighborhood"])
+                           or c["veto_gene_dense_neighborhood"] or c["veto_lncrna_smallrna"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -283,7 +290,7 @@ def main():
     fieldnames = ["chrom", "start", "end", "length", "orientation", "left_gene", "right_gene",
                   "hard_veto", "veto_tad_boundary", "veto_atac_peak", "veto_risk_gene",
                   "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius",
-                  "veto_gene_dense_neighborhood", "no_rrbs_coverage",
+                  "veto_gene_dense_neighborhood", "veto_lncrna_smallrna", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
                   "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance", "gene_dense_clearance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
@@ -308,7 +315,8 @@ def main():
           f"{sum(1 for c in candidates if c['veto_low_mappability'])} low mappability, "
           f"{sum(1 for c in candidates if c['veto_mirna_nearby'])} miRNA nearby, "
           f"{sum(1 for c in candidates if c['veto_risk_gene_radius'])} risk gene within radius, "
-          f"{sum(1 for c in candidates if c['veto_gene_dense_neighborhood'])} gene-dense neighborhood), "
+          f"{sum(1 for c in candidates if c['veto_gene_dense_neighborhood'])} gene-dense neighborhood, "
+          f"{sum(1 for c in candidates if c['veto_lncrna_smallrna'])} lncRNA/smallRNA overlap), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")
