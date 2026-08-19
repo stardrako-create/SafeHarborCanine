@@ -6,12 +6,18 @@ Two-stage design, mirroring the two papers this project is built on:
 
 1. **Candidate generation** ([SHIP](https://github.com/MCLeitao/Ship), Leitão
    et al. 2025): intergenic intervals between convergent-orientation genes on
-   ROS_Cfam_1.0 (GFF3 accessions `NC_051805.1`–`NC_051844.1`), 50–75 kb, from
-   SHIP's actual tool output (`ship_raw_candidates.tsv`, 461 candidates,
-   parsed by `scripts/parse_ship_candidates.py`). SHIP's own UCSC/Ensembl/
-   regulatory-build cross-referencing was not used — those databases are
-   built for human/mouse/yeast and have no dog equivalent of comparable
-   quality; our own ATAC/RRBS/Hi-C tracks replace that role entirely.
+   ROS_Cfam_1.0 (GFF3 accessions `NC_051805.1`–`NC_051844.1`), 50–75 kb.
+   **Ehsan Valiollahi (Vasco Barreto lab) ran SHIP itself for the dog
+   genome** — filtering the RefSeq GFF3 to the 40 true chromosomes, adapting
+   `features.json`, choosing the convergent orientation and 50–75kb size
+   range — producing SHIP's actual tool output (`ship_raw_candidates.tsv`,
+   461 candidates, parsed here by `scripts/parse_ship_candidates.py`). SHIP's
+   own UCSC/Ensembl/regulatory-build cross-referencing was not used in this
+   repository — those databases are built for human/mouse/yeast and have no
+   dog equivalent of comparable quality; this repository's own ATAC/RRBS/
+   Hi-C tracks replace that role entirely (see `ehsan_crossvalidation.md` for
+   how this pipeline's filtering compares against Ehsan's own independent
+   final shortlist).
 2. **Biological filtering and ranking** ([GEG-SH](https://github.com/dewshr/GEG-SH),
    Shrestha et al. 2022 framework, our own data): `scripts/score_ship_candidates.py`
    applies hard vetoes and a transparent soft score using the tracks built in
