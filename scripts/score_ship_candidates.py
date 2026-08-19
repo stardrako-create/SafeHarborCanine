@@ -12,6 +12,14 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
     - overlaps a Hi-C TAD boundary (04_tracks_processadas/.../HiC/tad_boundaries.bed)
     - overlaps an ATAC consensus peak (.../ATAC/mother_track/consensus_peaks_ATAC.bed) -
       an unannotated regulatory element sitting inside a nominally intergenic window
+    - either flanking gene is a known oncogene, tumor suppressor, or core
+      essential gene (scripts/build_canine_risk_genes.py; CancerMine +
+      Hart et al. 2017 CEG2, symbol-matched as a starter proxy for canine
+      orthology - see 05_SHIP/README.md "Known gaps")
+    - self-mappability check flags the candidate (scripts/check_candidate_mappability.py:
+      the candidate's own sequence realigned against the genome comes back
+      ambiguous - MAPQ < 30, or a secondary/supplementary/XA multi-mapping
+      hit - a proxy for repeat content without a full RepeatMasker run)
 
   soft score (rank what's left), each component min-max normalized to [0,1]
   across the surviving candidates, then averaged with user-settable weights:
@@ -103,6 +111,8 @@ def main():
     ap.add_argument("--rrbs-variability-bw", required=True)
     ap.add_argument("--rrbs-coverage-bw", required=True)
     ap.add_argument("--tad-boundaries-bed", required=True)
+    ap.add_argument("--risk-genes", required=True, help="build_canine_risk_genes.py output TSV")
+    ap.add_argument("--mappability-tsv", required=True, help="check_candidate_mappability.py output TSV")
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -121,6 +131,18 @@ def main():
     atac_peaks = load_bed_intervals(args.atac_peaks_bed)
     tad_boundaries = load_bed_intervals(args.tad_boundaries_bed)
 
+    risk_genes = set()
+    with open(args.risk_genes, encoding="utf-8") as f:
+        next(f)  # header
+        for line in f:
+            risk_genes.add(line.split("\t")[0])
+
+    low_mappability = {}
+    with open(args.mappability_tsv, encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter="\t")
+        for row in reader:
+            low_mappability[(row["chrom"], int(row["start"]), int(row["end"]))] = row["low_mappability"] == "True"
+
     atac_mean_bw = pyBigWig.open(args.atac_mean_bw)
     atac_var_bw = pyBigWig.open(args.atac_variability_bw)
     rrbs_mean_bw = pyBigWig.open(args.rrbs_mean_bw)
@@ -131,7 +153,10 @@ def main():
         chrom, start, end = c["chrom"], c["start"], c["end"]
         c["veto_tad_boundary"] = overlaps(tad_boundaries, chrom, start, end)
         c["veto_atac_peak"] = overlaps(atac_peaks, chrom, start, end)
-        c["hard_veto"] = c["veto_tad_boundary"] or c["veto_atac_peak"]
+        c["veto_risk_gene"] = c["left_gene"] in risk_genes or c["right_gene"] in risk_genes
+        c["veto_low_mappability"] = low_mappability.get((chrom, start, end), False)
+        c["hard_veto"] = (c["veto_tad_boundary"] or c["veto_atac_peak"]
+                           or c["veto_risk_gene"] or c["veto_low_mappability"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -176,7 +201,8 @@ def main():
     survivors.sort(key=lambda c: (c["final_score"] is None, -(c["final_score"] or 0)))
 
     fieldnames = ["chrom", "start", "end", "length", "orientation", "left_gene", "right_gene",
-                  "hard_veto", "veto_tad_boundary", "veto_atac_peak", "no_rrbs_coverage",
+                  "hard_veto", "veto_tad_boundary", "veto_atac_peak", "veto_risk_gene",
+                  "veto_low_mappability", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
                   "tad_boundary_distance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
@@ -196,7 +222,9 @@ def main():
     n_veto = sum(1 for c in candidates if c["hard_veto"])
     print(f"{len(candidates)} candidates total, {n_veto} hard-vetoed "
           f"({sum(1 for c in candidates if c['veto_tad_boundary'])} TAD boundary, "
-          f"{sum(1 for c in candidates if c['veto_atac_peak'])} ATAC peak overlap), "
+          f"{sum(1 for c in candidates if c['veto_atac_peak'])} ATAC peak overlap, "
+          f"{sum(1 for c in candidates if c['veto_risk_gene'])} risk gene, "
+          f"{sum(1 for c in candidates if c['veto_low_mappability'])} low mappability), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")
