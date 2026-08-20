@@ -40,6 +40,36 @@ for anything downstream (06_GEG-SH onward).**
 ## Release tagging
 
 - V1 (pre-checklist baseline) → no dedicated tag, superseded before release tagging started
-- **V2 (this document) → GitHub release `v0.2.0`**
-- V3 (ultraconserved elements, if a dog-referenced conservation track becomes
-  available — see `ahmed2026_checklist_comparison.md`) → **`v1.0.0`**
+- **V2 (this document) → GitHub release `v0.2.0`, published**
+- V3 (ultraconserved elements) → **`v1.0.0`**, in progress
+
+## V3 status (2026-08-20)
+
+Computing a dog-referenced phyloP conservation track from scratch, since none
+exists publicly (Zoonomia only distributes human-referenced scores). Pipeline:
+download the raw 241-mammal Cactus HAL alignment (806GB) → `hal2maf`
+referenced to dog → RepeatMasker on ancestral repeats → `phyloFit` → `phyloP`,
+following the Zoonomia consortium's own scripts. HAL download in progress
+(resumable, `curl -C -`).
+
+Two more candidate filters were identified and pilot-tested against the
+current 43 survivors while V3 downloads, but **deliberately held until V3 is
+applied first** — no point spending effort evaluating candidates V3 may
+still exclude:
+
+- **RepeatMasker repeat content** (finer-grained than the existing
+  self-mappability check, which only catches gross multi-mapping): piloted
+  on the 43 current survivors, mean 36.3% repeat content (in line with the
+  dog genome average), 3 candidates above 50% (LINE/L1-dominated). Data in
+  `repeat_content_v5candidates.tsv`; not yet wired into `score_ship_candidates.py`.
+- **Dog10K population structural variants** (Manta-SV, 1,879 dogs,
+  `kiddlabshare.med.umich.edu/dog10K/Manta-SV_2022-03-28`): blocked on an
+  assembly mismatch — the VCF is UU_Cfam_GSD_1.0, not ROS_Cfam_1.0, with no
+  public chain file between them (confirmed via mismatched chromosome
+  lengths). Plan: once V3 has reduced the survivor set further, realign just
+  those few candidates against UU_Cfam_GSD_1.0 with `bwa mem` (same technique
+  already used for the original chr12 candidate) rather than building a full
+  genome-wide liftover.
+
+Planned order: **V3 (phyloP) → RepeatMasker → Dog10K SV**, each applied to
+the shrinking survivor set from the previous step.
