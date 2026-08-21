@@ -101,6 +101,14 @@ this was itself a batch-normalization artifact — the current, real top
 candidate is `NC_051805.1:7,072,137-7,132,579` (LOC111090579/LOC100685067,
 score 0.765).**
 
+## Final shortlist
+
+`top5_shortlist.md` / `top5_shortlist.bed` — top candidate plus 4 backups,
+picked from the 34 V8 survivors. Closes the "principal candidate + at
+least one backup" requirement from the project's own definition of done
+for this phase (see `top5_shortlist.md` for why #1 specifically, and why
+4 backups rather than just one).
+
 ## Known gaps (not yet applied)
 - The risk-gene list is a **starter proxy**: human HGNC symbols
   (CancerMine + CEG2) matched directly against ROS_Cfam_1.0 gene symbols,
@@ -109,8 +117,11 @@ score 0.765).**
 - The ultraconserved-elements neutral model rests on a single 100kb region
   (not ancestral-repeat-filtered like a production Zoonomia release) — see
   `V3_PROGRESS_NOTES.md` for the honest caveat and how to strengthen it.
-- gRNA design and off-target scoring — the actual next phase, once a final
-  shortlist is chosen from `candidates_scored_v7.tsv`.
+- gRNA design and off-target scoring — the actual next phase, now that the
+  final shortlist (`top5_shortlist.md`) is chosen. Blocked pending the
+  actual Cas9/Cas variant and CAR donor construct to design against - a
+  generic guide search without knowing PAM compatibility or the donor
+  sequence for homology arms isn't useful yet.
 
 ## Files
 - `ship_raw_candidates.tsv` — all 461 SHIP candidates, unfiltered
