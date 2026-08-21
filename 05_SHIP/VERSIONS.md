@@ -37,9 +37,11 @@ closes the last one). See `V3_PROGRESS_NOTES.md` for the full ultraconserved-
 elements pipeline and its honest limitations (single-region neutral model,
 not production-grade Zoonomia methodology).
 
-**Bottom line: `candidates_scored_v7.tsv` / `candidates_passing_ranked_v7.bed`
+**Bottom line: `candidates_scored_v8.tsv` / `candidates_passing_ranked_v8.bed`
 is the current, most rigorous scoring — use these, not any earlier version,
-for anything downstream (06_GEG-SH onward).**
+for anything downstream (06_GEG-SH onward). Same 34 candidates as V7; V8
+only fixed how `final_score` is computed (genome-wide percentile, not
+batch min-max — see below), which changed the top candidate.**
 
 ## Consensus ATAC peak threshold — validated (2026-08-21)
 
@@ -61,6 +63,50 @@ support for the threshold; kept as-is. See `consensus_peak_validation.md`.
 overlapped any called structural variant** — no exclusions, not wired into
 `score_ship_candidates.py` as a formal veto input since it excluded nobody.
 See `dog10k_sv_check_v6.tsv`.
+
+## Soft-score normalization rewrite — genome-wide percentile, not batch min-max (2026-08-21)
+
+`final_score` used to min-max normalize each soft-score component against
+just the surviving candidate batch. That made the number meaningless
+across runs: the same candidate's score visibly shifted (0.774 -> 0.704)
+between V6 and V7 purely because the survivor pool shrank, with nothing
+about the candidate itself changing. It also wasn't portable - a
+prerequisite for asking other labs/species to submit comparable
+`computational_score` values into EpiLog (epilogbio.netlify.app).
+
+Rewrote to express each component as a percentile rank against that
+track's **genome-wide background distribution** instead - stable
+regardless of batch composition, and every submitter already has this
+denominator (the track itself, pre-filtering). `candidates_scored_v8.tsv`
+/ `candidates_passing_ranked_v8.bed` - same 34 survivors as V7 (no vetoes
+changed), only the ranking/score changed.
+
+**The top candidate changed as a direct result**: `NC_051811.1:48,020,921-
+48,077,046` had been #1 since V2 checkpoint 3, but that was an artifact of
+comparing it only to its 33-42 podium-mates. Against the true genome-wide
+background, **`NC_051805.1:7,072,137-7,132,579` (LOC111090579/
+LOC100685067) is the real top candidate**, score 0.765.
+
+Two real bugs found and fixed while building this, both worth knowing
+about if this code is touched again:
+1. **Memory**: `pyBigWig`'s `.values()` returns one entry per *base pair*,
+   not per stored bin - building a genome-wide background this way meant
+   ~2.4 billion points per track instead of the ~48-96 million the tracks
+   actually contain, and drove one run to 28GB RAM before it was killed
+   (the same failure mode that crashed WSL earlier that night, caught in
+   time this time). Fixed by using `.intervals()` instead, which returns
+   the track's own native bins.
+2. **RRBS background dominated by no-coverage zeros**: RRBS is sparse
+   (MspI-site-concentrated) - 88.6% of the genome has zero dogs with
+   confident coverage there. An unfiltered background was ~93%
+   exactly-zero, so every candidate (which has real coverage, or is
+   already excluded via `no_rrbs_coverage`) looked artificially extreme
+   against a background that was mostly measuring "not sequenced here,"
+   not "genuinely low here." Caught by a sanity check: `score_stability_rrbs`
+   was suspiciously near-identical (~0.063) across every top candidate
+   before the fix - not real differentiation. Fixed by masking the RRBS
+   mean/variability backgrounds to coverage>0 bins only (using the same
+   `RRBS_cpg_coverage_frequency.bw` already used per-candidate).
 
 ## Release tagging
 

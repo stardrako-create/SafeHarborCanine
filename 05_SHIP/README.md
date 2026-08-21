@@ -71,10 +71,18 @@ pipeline, a real WSL crash and recovery, and honest methodological
 caveats (single-region neutral model, not production-grade): see
 `V3_PROGRESS_NOTES.md`.
 
-**`candidates_scored_v7.tsv` / `candidates_passing_ranked_v7.bed` is the
+**`candidates_scored_v8.tsv` / `candidates_passing_ranked_v8.bed` is the
 current, final state: 34/461 candidates pass every criterion this pipeline
 checks — all 8/8 of the Ahmed et al. 2026 review's core criteria.** Use
 these for anything downstream (06_GEG-SH onward), not any earlier version.
+V8 keeps V7's exact 34 survivors; it only fixed `final_score` itself, which
+used to min-max normalize each component against just the surviving batch
+(meaningless across runs - the same candidate's score visibly shifted
+between V6 and V7 with nothing about it changing) and is now a percentile
+against each track's genome-wide background instead - stable regardless of
+batch composition, and portable across labs/species for EpiLog's
+`computational_score` field. See `VERSIONS.md` for two real bugs found
+and fixed while building this.
 
 Also validated (not a new veto, confirms an existing one): the consensus-
 ATAC-peak threshold shows 10.9x/15.1x enrichment against independent
@@ -83,13 +91,15 @@ checked (no exclusions resulted): the 40 V6 survivors against the Dog10K
 population structural-variant set, 0/40 overlapping a called SV
 (`dog10k_sv_check_v6.tsv`).
 
-Top candidate changed twice during V2, then held steady through V3: the
-V1/pre-V2 top candidate (`NC_051812.1:52,431-118,675`, score 0.83 —
-independently confirmed by Ehsan Valiollahi's separate filtering, see
-`ehsan_crossvalidation.md`) was excluded in V2 by the 300kb risk-gene-radius
-check. **The current top candidate is `NC_051811.1:48,020,921-48,077,046`**
-— unchanged in coordinates since checkpoint 3, survives every criterion
-through V3.
+Top candidate changed three times total. The V1/pre-V2 top candidate
+(`NC_051812.1:52,431-118,675`, score 0.83 — independently confirmed by
+Ehsan Valiollahi's separate filtering, see `ehsan_crossvalidation.md`) was
+excluded in V2 by the 300kb risk-gene-radius check, replaced by
+`NC_051811.1:48,020,921-48,077,046`, which then held through checkpoints
+3-7. **V8's genome-wide-percentile rescoring (see `VERSIONS.md`) revealed
+this was itself a batch-normalization artifact — the current, real top
+candidate is `NC_051805.1:7,072,137-7,132,579` (LOC111090579/LOC100685067,
+score 0.765).**
 
 ## Known gaps (not yet applied)
 - The risk-gene list is a **starter proxy**: human HGNC symbols

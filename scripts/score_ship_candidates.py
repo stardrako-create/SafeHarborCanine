@@ -60,19 +60,35 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
       meaningful (common, and not what "ultraconserved element" means in
       the literature) - this specifically looks for a sustained stretch
 
-  soft score (rank what's left), each component min-max normalized to [0,1]
-  across the surviving candidates, then averaged with user-settable weights:
-    - stability_atac    = 1 - norm(ATAC variability across 71 dogs)
-    - stability_rrbs     = 1 - norm(RRBS variability across 71 dogs)
-    - low_methylation    = 1 - norm(RRBS weighted-mean methylation)
-    - tad_distance       =     norm(distance to nearest TAD boundary)
-    - moderate_atac      = 1 - 2*|norm(ATAC weighted mean) - 0.5|
-                            (peaks at the population median accessibility -
+  soft score (rank what's left), each component expressed as a percentile
+  rank against that track's GENOME-WIDE background distribution (not
+  min-max against the surviving candidate set - see "Why genome-wide
+  percentile, not batch min-max" below), then averaged with user-settable
+  weights:
+    - stability_atac    = 1 - percentile(ATAC variability across 71 dogs)
+    - stability_rrbs     = 1 - percentile(RRBS variability across 71 dogs)
+    - low_methylation    = 1 - percentile(RRBS weighted-mean methylation)
+    - tad_distance       =     percentile(distance to nearest TAD boundary)
+    - moderate_atac      = 1 - 2*|percentile(ATAC weighted mean) - 0.5|
+                            (peaks at genome-wide median accessibility -
                             SHIP already picked intergenic windows, so neither
                             fully closed nor unusually open is what we want)
 
 Nothing here is a black box: every component is a plain, documented,
-min-max-normalized track value: read the numbers in the output TSV directly.
+genome-wide-percentile track value: read the numbers in the output TSV
+directly.
+
+Why genome-wide percentile, not batch min-max (changed 2026-08-21): the
+previous min-max-within-survivors approach made final_score meaningless
+across runs - the same candidate's score visibly shifted (0.774 -> 0.704)
+between V6 and V7 solely because the survivor pool shrank, with nothing
+about the candidate itself changing. That also makes the score useless as
+a portable standard (e.g. for EpiLog's computational_score field, where
+other labs/species need a number that means the same thing independent of
+whatever else happens to be in any one submitter's candidate batch).
+Percentile against the full genome-wide distribution of each track is
+stable regardless of batch composition, and is exactly the same
+denominator every submitter already has (the track itself, pre-filtering).
 
 Candidates with no RRBS coverage over the interval are flagged
 (no_rrbs_coverage) rather than silently imputed - the RRBS-derived
@@ -80,7 +96,9 @@ components are left as NaN and excluded from that candidate's score average.
 """
 import argparse
 import csv
+import math
 
+import numpy as np
 import pyBigWig
 
 
@@ -192,14 +210,85 @@ def bw_mean(bw, chrom, start, end):
     return val
 
 
-def minmax_norm(values):
-    finite = [v for v in values if v is not None]
-    if not finite:
-        return [None for _ in values]
-    lo, hi = min(finite), max(finite)
-    if hi - lo < 1e-12:
-        return [1.0 if v is not None else None for v in values]
-    return [(v - lo) / (hi - lo) if v is not None else None for v in values]
+def build_bw_background(bw, coverage_bw=None):
+    """Every value the track actually holds, genome-wide, one entry per bin -
+    the population this track's own bin resolution defines, not a resample
+    at some other arbitrary resolution. Uses intervals() (one entry per
+    stored bin, e.g. 25bp for ATAC, 50bp for RRBS - tens of millions of
+    points) rather than values() (one entry per BASE PAIR - billions of
+    points, ~25-50x more memory than needed and enough to exhaust 31GB RAM
+    on this genome; caught during development before it took the machine
+    down a second time).
+
+    coverage_bw, when given, restricts the background to bins with real
+    coverage (>0) in that track. Needed for RRBS specifically: 88.6% of the
+    genome has zero dogs with confident CpG coverage there (RRBS is sparse,
+    concentrated at MspI sites - see build_methylation_track.py), so an
+    unfiltered RRBS background is ~93% exactly-zero, dominated by "not
+    measured" rather than "genuinely low" - every candidate (which by
+    construction already has real coverage, or it's flagged
+    no_rrbs_coverage and excluded from this component entirely) would then
+    look artificially extreme against a background that's mostly a
+    different kind of zero than the candidate's own. Caught by a sanity
+    check: score_stability_rrbs was suspiciously near-identical
+    (0.063-0.064) across every top candidate, not real per-candidate
+    differentiation - not the same failure mode as the batch min-max bug
+    this rewrite was fixing, but the same discipline (verify the number
+    means what it looks like it means) caught it before it shipped."""
+    chunks = []
+    for chrom in bw.chroms():
+        ivs = bw.intervals(chrom)
+        if not ivs:
+            continue
+        arr = np.fromiter((v for _, _, v in ivs), dtype=np.float32, count=len(ivs))
+        if coverage_bw is not None:
+            cov_ivs = coverage_bw.intervals(chrom)
+            cov_arr = np.fromiter((v for _, _, v in cov_ivs), dtype=np.float32, count=len(cov_ivs))
+            if cov_arr.size == arr.size:
+                arr = arr[cov_arr > 0]
+        arr = arr[~np.isnan(arr)]
+        if arr.size:
+            chunks.append(arr)
+    background = np.concatenate(chunks) if chunks else np.array([], dtype=np.float32)
+    background.sort()
+    return background
+
+
+def build_tad_distance_background(tad_boundaries, chrom_sizes, step=1000):
+    """Distance-to-nearest-TAD-boundary at a regular genome-wide grid
+    (every `step` bp), vectorized per chromosome - the same statistic
+    computed per-candidate by distance_to_nearest(), just evaluated at
+    every grid point instead of one candidate window at a time."""
+    chunks = []
+    for chrom, size in chrom_sizes.items():
+        grid = np.arange(0, size, step, dtype=np.int64)
+        boundaries = tad_boundaries.get(chrom, [])
+        if not boundaries:
+            chunks.append(np.full(grid.shape, size, dtype=np.float64))
+            continue
+        starts = np.array([s for s, _ in boundaries], dtype=np.int64)
+        ends = np.array([e for _, e in boundaries], dtype=np.int64)
+        idx = np.searchsorted(starts, grid, side="right") - 1
+        idx = np.clip(idx, 0, len(starts) - 1)
+        # distance to the boundary interval found by searchsorted, and to its
+        # right neighbour, taking whichever is closer (searchsorted can land
+        # just before the true nearest interval)
+        idx_next = np.clip(idx + 1, 0, len(starts) - 1)
+        d_left = np.maximum(0, np.maximum(starts[idx] - grid, grid - ends[idx]))
+        d_right = np.maximum(0, np.maximum(starts[idx_next] - grid, grid - ends[idx_next]))
+        chunks.append(np.minimum(d_left, d_right).astype(np.float64))
+    background = np.concatenate(chunks) if chunks else np.array([])
+    background.sort()
+    return background
+
+
+def percentile_rank(sorted_background, value):
+    if value is None or sorted_background.size == 0:
+        return None
+    if isinstance(value, float) and math.isinf(value):
+        return 1.0
+    idx = np.searchsorted(sorted_background, value, side="right")
+    return float(idx) / sorted_background.size
 
 
 def main():
@@ -336,11 +425,14 @@ def main():
 
     survivors = [c for c in candidates if not c["hard_veto"]]
 
-    atac_var_norm = minmax_norm([c["atac_variability"] for c in survivors])
-    atac_mean_norm = minmax_norm([c["atac_mean"] for c in survivors])
-    rrbs_mean_norm = minmax_norm([c["rrbs_mean"] if not c["no_rrbs_coverage"] else None for c in survivors])
-    rrbs_var_norm = minmax_norm([c["rrbs_variability"] if not c["no_rrbs_coverage"] else None for c in survivors])
-    tad_dist_norm = minmax_norm([c["tad_boundary_distance"] for c in survivors])
+    print("Building genome-wide background distributions for percentile scoring...")
+    atac_var_bg = build_bw_background(atac_var_bw)
+    atac_mean_bg = build_bw_background(atac_mean_bw)
+    rrbs_mean_bg = build_bw_background(rrbs_mean_bw, coverage_bw=rrbs_cov_bw)
+    rrbs_var_bg = build_bw_background(rrbs_var_bw, coverage_bw=rrbs_cov_bw)
+    tad_dist_bg = build_tad_distance_background(tad_boundaries, atac_mean_bw.chroms())
+    print(f"  ATAC background: {atac_mean_bg.size:,} bins; RRBS background: {rrbs_mean_bg.size:,} bins; "
+          f"TAD-distance background: {tad_dist_bg.size:,} grid points")
 
     weights = {
         "stability_atac": args.w_stability_atac,
@@ -350,7 +442,13 @@ def main():
         "moderate_atac": args.w_moderate_atac,
     }
 
-    for c, av, mv, rm, rv, td in zip(survivors, atac_var_norm, atac_mean_norm, rrbs_mean_norm, rrbs_var_norm, tad_dist_norm):
+    for c in survivors:
+        av = percentile_rank(atac_var_bg, c["atac_variability"])
+        mv = percentile_rank(atac_mean_bg, c["atac_mean"])
+        rm = percentile_rank(rrbs_mean_bg, c["rrbs_mean"]) if not c["no_rrbs_coverage"] else None
+        rv = percentile_rank(rrbs_var_bg, c["rrbs_variability"]) if not c["no_rrbs_coverage"] else None
+        td = percentile_rank(tad_dist_bg, c["tad_boundary_distance"])
+
         components = {}
         components["stability_atac"] = (1.0 - av) if av is not None else None
         components["moderate_atac"] = (1.0 - 2.0 * abs(mv - 0.5)) if mv is not None else None
