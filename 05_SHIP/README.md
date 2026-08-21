@@ -37,6 +37,9 @@ A candidate is excluded outright if it:
   (`mappability_check.tsv`, built by `scripts/check_candidate_mappability.py`
   via self-realignment with `bwa mem` — MAPQ < 30 or a secondary/
   supplementary/multi-mapping hit)
+- overlaps an independently-curated regulatory element
+  (`ehsan_regulatory_elements_ROS.bed` — Ehsan Valiollahi's CanFam3.1 set,
+  lifted to ROS_Cfam_1.0 by him before sharing; added V9, 2026-08-21)
 
 ## Soft score
 Every surviving candidate gets 5 components, each min-max normalized to
@@ -71,18 +74,23 @@ pipeline, a real WSL crash and recovery, and honest methodological
 caveats (single-region neutral model, not production-grade): see
 `V3_PROGRESS_NOTES.md`.
 
-**`candidates_scored_v8.tsv` / `candidates_passing_ranked_v8.bed` is the
-current, final state: 34/461 candidates pass every criterion this pipeline
-checks — all 8/8 of the Ahmed et al. 2026 review's core criteria.** Use
-these for anything downstream (06_GEG-SH onward), not any earlier version.
-V8 keeps V7's exact 34 survivors; it only fixed `final_score` itself, which
-used to min-max normalize each component against just the surviving batch
+**`candidates_scored_v9.tsv` / `candidates_passing_ranked_v9.bed` is the
+current, final state: 26/461 candidates pass every criterion this pipeline
+checks — all 8/8 of the Ahmed et al. 2026 review's core criteria, plus
+overlap against an independent regulatory-element set.** Use these for
+anything downstream (06_GEG-SH onward), not any earlier version. V8 kept
+V7's exact 34 survivors; it only fixed `final_score` itself, which used to
+min-max normalize each component against just the surviving batch
 (meaningless across runs - the same candidate's score visibly shifted
 between V6 and V7 with nothing about it changing) and is now a percentile
 against each track's genome-wide background instead - stable regardless of
 batch composition, and portable across labs/species for EpiLog's
 `computational_score` field. See `VERSIONS.md` for two real bugs found
-and fixed while building this.
+and fixed while building this. V9 (2026-08-21) added a hard veto for
+overlap with Ehsan Valiollahi's independently-curated regulatory-element
+set (received after V8 shipped) — 8 of the 34 V8 survivors were newly
+excluded, including the then-#3 top-5 shortlist candidate; see
+`top5_shortlist.md` "V9 correction" for the replacement.
 
 Also validated (not a new veto, confirms an existing one): the consensus-
 ATAC-peak threshold shows 10.9x/15.1x enrichment against independent
@@ -104,10 +112,10 @@ score 0.765).**
 ## Final shortlist
 
 `top5_shortlist.md` / `top5_shortlist.bed` — top candidate plus 4 backups,
-picked from the 34 V8 survivors. Closes the "principal candidate + at
+picked from the 26 V9 survivors. Closes the "principal candidate + at
 least one backup" requirement from the project's own definition of done
-for this phase (see `top5_shortlist.md` for why #1 specifically, and why
-4 backups rather than just one).
+for this phase (see `top5_shortlist.md` for why #1 specifically, why 4
+backups rather than just one, and the V9 correction changelog).
 
 ## Known gaps (not yet applied)
 - The risk-gene list is a **starter proxy**: human HGNC symbols
@@ -128,6 +136,7 @@ for this phase (see `top5_shortlist.md` for why #1 specifically, and why
 - `canine_risk_genes.tsv` — 2,654 oncogene/tumor-suppressor/essential-gene symbols
 - `canine_miRNA.bed`, `canine_all_genes.bed`, `canine_lncRNA_smallRNA.bed`, `canine_tad_intervals.bed` — extracted feature tracks used within V2
 - `mappability_check.tsv` — self-realignment mappability check per candidate
-- `candidates_scored.tsv` / `candidates_scored_v2.tsv` ... `_v5.tsv` — full tables per version, veto flags and score components
-- `candidates_passing_ranked.bed` / `..._v2.bed` ... `_v5.bed` — passing candidates per version, ranked
+- `candidates_scored.tsv` / `candidates_scored_v2.tsv` ... `_v9.tsv` — full tables per version, veto flags and score components
+- `candidates_passing_ranked.bed` / `..._v2.bed` ... `_v9.bed` — passing candidates per version, ranked
+- `ehsan_regulatory_elements_ROS.bed` — Ehsan Valiollahi's independent regulatory-element set (V9 veto input)
 - `VERSIONS.md` — what each version adds and the resulting candidate counts

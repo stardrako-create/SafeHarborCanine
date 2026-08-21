@@ -63,6 +63,33 @@ filtering: 27→18→7, using real ATAC-seq from 5 canine PBMC samples + CanFam3
 regulatory elements/CpG islands liftover, shared 2026-08-20): **0/7 survive
 V2**, all 7 via `veto_gene_dense_neighborhood`.
 
+## Update 2026-08-21 — V9 check against Ehsan's own regulatory-element set
+
+Separately from candidate-list agreement above, Ehsan sent the actual
+regulatory-element BED behind his own filtering (`ehsan_regulatory_elements_ROS.bed`,
+75,600 elements, CanFam3.1 lifted to ROS_Cfam_1.0 by him) — added as a
+formal hard veto in V9 (`score_ship_candidates.py`, `veto_external_regulatory_element`).
+
+Of the 3 candidates reported as still standing on both sides (the most
+recent recheck against V8, referenced in the 2026-08-21 email update — not
+separately tabulated in this file before now): **2 of the 3 are directly
+excluded by Ehsan's own regulatory-element set**:
+
+| chrom | start | end | V9 status |
+|---|---:|---:|---|
+| NC_051807.1 | 10779807 | 10837318 | survives — rank 7 in V9, score 0.7369 |
+| NC_051821.1 | 4818014 | 4875944 | **excluded** — overlaps Ehsan's regulatory elements (only veto tripped) |
+| NC_051843.1 | 10578732 | 10643009 | **excluded** — overlaps Ehsan's regulatory elements (only veto tripped) |
+
+Worth being precise about what this does and doesn't mean: candidate-list
+convergence (both pipelines independently generating/keeping the same
+locus) and regulatory-element overlap (a specific annotation-based check)
+are different questions. A candidate can be a convergence hit and still
+sit on a real regulatory element neither pipeline's *candidate-generation*
+step was checking for. This isn't a contradiction — it's exactly the kind
+of thing a hard veto based on the actual annotation file, rather than
+final coordinate-list comparison alone, is supposed to catch.
+
 ## Takeaway
 
 The two independent approaches substantially agree at the V1 level (TAD/ATAC/

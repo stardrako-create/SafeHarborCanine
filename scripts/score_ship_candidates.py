@@ -59,6 +59,17 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
       the full pipeline and its limitations). A single conserved base isn't
       meaningful (common, and not what "ultraconserved element" means in
       the literature) - this specifically looks for a sustained stretch
+    - overlaps an independently-curated regulatory element
+      (--external-regulatory-bed; Ehsan Valiollahi's CanFam3.1 regulatory-
+      element set, lifted to ROS_Cfam_1.0 by the sender before sharing -
+      75,600 elements genome-wide, median 357bp, already using our own
+      NC_0518xx.1 contig naming so no further liftover was needed here).
+      Independent of and not derived from our own promoter/enhancer
+      exclusion (GFF3 TSS+/-2kb and natively-computed CpG islands) - this
+      catches what that annotation missed. Added 2026-08-21 after
+      cross-validating the 34 V8 survivors against this newly-received
+      file: 8 had a direct overlap, including the (former) #3 top-5
+      shortlist candidate - see 05_SHIP/top5_shortlist.md changelog.
 
   soft score (rank what's left), each component expressed as a percentile
   rank against that track's GENOME-WIDE background distribution (not
@@ -324,6 +335,10 @@ def main():
                           "6.5 separates the 6 flagged candidates (6.67-8.54) from the rest of the "
                           "43-candidate pilot (next highest 6.19), a real but modest gap in the "
                           "observed distribution, not a textbook default")
+    ap.add_argument("--external-regulatory-bed", default=None,
+                     help="Independently-curated regulatory elements BED (e.g. Ehsan Valiollahi's "
+                          "CanFam3.1 set, lifted to ROS_Cfam_1.0 by the sender) - overlap is a hard "
+                          "veto, independent of our own GFF3 TSS/CpG-island promoter/enhancer exclusion")
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -372,6 +387,8 @@ def main():
             for row in reader:
                 ultraconserved[(row["chrom"], int(row["start"]), int(row["end"]))] = float(row["max_50bp_rolling_phyloP"])
 
+    external_regulatory = load_bed_intervals(args.external_regulatory_bed) if args.external_regulatory_bed else {}
+
     atac_mean_bw = pyBigWig.open(args.atac_mean_bw)
     atac_var_bw = pyBigWig.open(args.atac_variability_bw)
     rrbs_mean_bw = pyBigWig.open(args.rrbs_mean_bw)
@@ -403,6 +420,9 @@ def main():
             c["max_50bp_rolling_phyloP"] is not None
             and c["max_50bp_rolling_phyloP"] > args.ultraconserved_threshold
         )
+        c["veto_external_regulatory_element"] = (
+            bool(args.external_regulatory_bed) and overlaps(external_regulatory, chrom, start, end)
+        )
         mid = (start + end) // 2
         own_tad = find_containing_interval(tad_intervals, chrom, mid)
         if own_tad is not None:
@@ -414,7 +434,7 @@ def main():
                            or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"]
                            or c["veto_gene_dense_neighborhood"] or c["veto_lncrna_smallrna"]
                            or c["veto_tad_risk_gene"] or c["veto_high_repeat_content"]
-                           or c["veto_ultraconserved_element"])
+                           or c["veto_ultraconserved_element"] or c["veto_external_regulatory_element"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -472,7 +492,8 @@ def main():
                   "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius",
                   "veto_gene_dense_neighborhood", "veto_lncrna_smallrna", "veto_tad_risk_gene",
                   "veto_high_repeat_content", "pct_repeat",
-                  "veto_ultraconserved_element", "max_50bp_rolling_phyloP", "no_rrbs_coverage",
+                  "veto_ultraconserved_element", "max_50bp_rolling_phyloP",
+                  "veto_external_regulatory_element", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
                   "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance", "gene_dense_clearance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
@@ -501,7 +522,8 @@ def main():
           f"{sum(1 for c in candidates if c['veto_lncrna_smallrna'])} lncRNA/smallRNA overlap, "
           f"{sum(1 for c in candidates if c['veto_tad_risk_gene'])} risk gene in own TAD, "
           f"{sum(1 for c in candidates if c['veto_high_repeat_content'])} high repeat content, "
-          f"{sum(1 for c in candidates if c['veto_ultraconserved_element'])} ultraconserved element), "
+          f"{sum(1 for c in candidates if c['veto_ultraconserved_element'])} ultraconserved element, "
+          f"{sum(1 for c in candidates if c['veto_external_regulatory_element'])} external regulatory element overlap), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")

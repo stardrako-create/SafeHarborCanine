@@ -30,18 +30,32 @@ untouched once written.
 | 5: TAD content | + any risk gene inside the candidate's own TAD, not just flanking/radius (criterion 8) | `candidates_scored_v5.tsv`, `candidates_passing_ranked_v5.bed` | **43 / 461 — V2 final** | Unchanged — only 2 newly excluded, top candidate's TAD is clean |
 
 | 6: repeat content | + RepeatMasker %% repeat content > 50%% (finer than self-mappability, catches partial repeat content within an otherwise-unique window) | `candidates_scored_v6.tsv`, `candidates_passing_ranked_v6.bed` | 40 / 461 | Unchanged — 3 newly excluded, top candidate's window is clean |
-| 7: ultraconserved elements | + phyloP 50bp-rolling-mean conservation > 6.5, dog-referenced, computed from the raw Zoonomia HAL (criterion 5's other half — see `V3_PROGRESS_NOTES.md`) | `candidates_scored_v7.tsv`, `candidates_passing_ranked_v7.bed` | **34 / 461 — current final** | Unchanged coordinates (`NC_051811.1:48,020,921-48,077,046`); soft score shifted 0.774→0.704 because min-max normalization is relative to the current survivor set, not a real change in the underlying tracks |
+| 7: ultraconserved elements | + phyloP 50bp-rolling-mean conservation > 6.5, dog-referenced, computed from the raw Zoonomia HAL (criterion 5's other half — see `V3_PROGRESS_NOTES.md`) | `candidates_scored_v7.tsv`, `candidates_passing_ranked_v7.bed` | 34 / 461 | Unchanged coordinates (`NC_051811.1:48,020,921-48,077,046`); soft score shifted 0.774→0.704 because min-max normalization is relative to the current survivor set, not a real change in the underlying tracks |
+| 9: external regulatory elements | + overlap with Ehsan Valiollahi's independently-curated regulatory-element set (75,600 elements, CanFam3.1 lifted to ROS_Cfam_1.0) | `candidates_scored_v9.tsv`, `candidates_passing_ranked_v9.bed` | **26 / 461 — current final** | Top candidate unchanged; the then-#3 shortlist candidate was newly excluded here — see `top5_shortlist.md` |
 
 **All 8/8 Ahmed et al. 2026 checklist criteria now satisfied** (checkpoint 7
 closes the last one). See `V3_PROGRESS_NOTES.md` for the full ultraconserved-
 elements pipeline and its honest limitations (single-region neutral model,
 not production-grade Zoonomia methodology).
 
-**Bottom line: `candidates_scored_v8.tsv` / `candidates_passing_ranked_v8.bed`
+**V9** = + overlap with an independently-curated regulatory-element set
+(Ehsan Valiollahi's, CanFam3.1 lifted to ROS_Cfam_1.0 by him before
+sharing, 75,600 elements genome-wide) as a formal hard veto
+(`veto_external_regulatory_element`). Independent of our own
+promoter/enhancer exclusion (GFF3 TSS±2kb + natively-computed CpG
+islands), so this catches what that annotation missed rather than
+duplicating it. `candidates_scored_v9.tsv`, `candidates_passing_ranked_v9.bed`
+— **34 → 26 / 461, current final**. 8 newly excluded, including the
+then-#3 top-5 shortlist candidate (`NC_051835.1:23,436,373-23,508,916`) —
+see `top5_shortlist.md` "V9 correction" for the full account and its
+replacement. Top candidate unchanged (`NC_051805.1:7,072,137-7,132,579`,
+score 0.7649) — all surviving candidates' scores are unchanged from V8,
+confirming the genome-wide percentile rewrite is stable regardless of
+which other candidates pass.
+
+**Bottom line: `candidates_scored_v9.tsv` / `candidates_passing_ranked_v9.bed`
 is the current, most rigorous scoring — use these, not any earlier version,
-for anything downstream (06_GEG-SH onward). Same 34 candidates as V7; V8
-only fixed how `final_score` is computed (genome-wide percentile, not
-batch min-max — see below), which changed the top candidate.**
+for anything downstream (06_GEG-SH onward).**
 
 ## Consensus ATAC peak threshold — validated (2026-08-21)
 
