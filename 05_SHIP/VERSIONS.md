@@ -73,3 +73,16 @@ still exclude:
 
 Planned order: **V3 (phyloP) → RepeatMasker → Dog10K SV**, each applied to
 the shrinking survivor set from the previous step.
+
+## Consensus ATAC peak threshold — validation pending (2026-08-20)
+
+Ehsan raised a fair methodological question: the consensus-peak veto uses a
+≥36/71 (majority) reproducibility threshold following ArchR's convention,
+but that convention was never checked against independent evidence that it
+actually identifies functional regulatory elements in this dataset. Planned:
+intersect `consensus_peaks_ATAC.bed` against an independent canine
+promoter/enhancer annotation (likely a liftover of a curated set, since no
+dog-native regulatory build of comparable quality exists) and check
+enrichment. Added to the pre-shortlist checklist alongside RepeatMasker and
+Dog10K SV — no candidate shortlist should be treated as final until this is
+done too.

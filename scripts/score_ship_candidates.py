@@ -42,6 +42,12 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
       anywhere in the domain, not just the two flanking genes or genes
       within a fixed radius (criterion 8's actual intent: a 3D-organization
       check, broader than the linear-distance checks above)
+    - RepeatMasker repeat content (--repeat-content-tsv, default threshold
+      50%) exceeds --repeat-content-threshold - finer-grained than the
+      self-mappability check above, which only catches gross multi-mapping,
+      not partial repeat content within an otherwise-unique window; repeat-
+      dense regions favor heterochromatin spreading/silencing independent
+      of whether the whole candidate maps ambiguously
 
   soft score (rank what's left), each component min-max normalized to [0,1]
   across the surviving candidates, then averaged with user-settable weights:
@@ -205,6 +211,9 @@ def main():
     ap.add_argument("--lncrna-smallrna-bed", required=True,
                      help="extract_gff3_features.py lncRNA/small RNA output")
     ap.add_argument("--tad-intervals-bed", required=True, help="build_tad_intervals.py output")
+    ap.add_argument("--repeat-content-tsv", default=None,
+                     help="RepeatMasker %% repeat content per candidate (chrom,start,end,...,pct_repeat)")
+    ap.add_argument("--repeat-content-threshold", type=float, default=50.0)
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -239,6 +248,13 @@ def main():
         for row in reader:
             low_mappability[(row["chrom"], int(row["start"]), int(row["end"]))] = row["low_mappability"] == "True"
 
+    repeat_content = {}
+    if args.repeat_content_tsv:
+        with open(args.repeat_content_tsv, encoding="utf-8") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for row in reader:
+                repeat_content[(row["chrom"], int(row["start"]), int(row["end"]))] = float(row["pct_repeat"])
+
     atac_mean_bw = pyBigWig.open(args.atac_mean_bw)
     atac_var_bw = pyBigWig.open(args.atac_variability_bw)
     rrbs_mean_bw = pyBigWig.open(args.rrbs_mean_bw)
@@ -261,6 +277,10 @@ def main():
         c["gene_dense_clearance"] = min(left_clear, right_clear)
         c["veto_gene_dense_neighborhood"] = c["gene_dense_clearance"] < args.gene_dense_radius
         c["veto_lncrna_smallrna"] = overlaps(lncrna_smallrna, chrom, start, end)
+        c["pct_repeat"] = repeat_content.get((chrom, start, end))
+        c["veto_high_repeat_content"] = (
+            c["pct_repeat"] is not None and c["pct_repeat"] > args.repeat_content_threshold
+        )
         mid = (start + end) // 2
         own_tad = find_containing_interval(tad_intervals, chrom, mid)
         if own_tad is not None:
@@ -271,7 +291,7 @@ def main():
                            or c["veto_risk_gene"] or c["veto_low_mappability"]
                            or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"]
                            or c["veto_gene_dense_neighborhood"] or c["veto_lncrna_smallrna"]
-                           or c["veto_tad_risk_gene"])
+                           or c["veto_tad_risk_gene"] or c["veto_high_repeat_content"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -318,7 +338,8 @@ def main():
     fieldnames = ["chrom", "start", "end", "length", "orientation", "left_gene", "right_gene",
                   "hard_veto", "veto_tad_boundary", "veto_atac_peak", "veto_risk_gene",
                   "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius",
-                  "veto_gene_dense_neighborhood", "veto_lncrna_smallrna", "veto_tad_risk_gene", "no_rrbs_coverage",
+                  "veto_gene_dense_neighborhood", "veto_lncrna_smallrna", "veto_tad_risk_gene",
+                  "veto_high_repeat_content", "pct_repeat", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
                   "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance", "gene_dense_clearance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
@@ -345,7 +366,8 @@ def main():
           f"{sum(1 for c in candidates if c['veto_risk_gene_radius'])} risk gene within radius, "
           f"{sum(1 for c in candidates if c['veto_gene_dense_neighborhood'])} gene-dense neighborhood, "
           f"{sum(1 for c in candidates if c['veto_lncrna_smallrna'])} lncRNA/smallRNA overlap, "
-          f"{sum(1 for c in candidates if c['veto_tad_risk_gene'])} risk gene in own TAD), "
+          f"{sum(1 for c in candidates if c['veto_tad_risk_gene'])} risk gene in own TAD, "
+          f"{sum(1 for c in candidates if c['veto_high_repeat_content'])} high repeat content), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")

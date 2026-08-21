@@ -21,8 +21,8 @@ identifiers:
     value: "10.5281/zenodo.21996453"
     description: "Zenodo archive of the code, updated with each tagged release"
   - type: doi
-    value: "10.5281/zenodo.22003934"
-    description: "Zenodo archive of the processed genome-wide tracks (ATAC-seq, RRBS, Hi-C)"
+    value: "10.5281/zenodo.22034474"
+    description: "Zenodo archive of the processed genome-wide tracks (ATAC-seq, RRBS, Hi-C) and Mother Track methodology (METHODS.md)"
 keywords:
   - genomic safe harbor
   - dog genome
