@@ -29,60 +29,42 @@ untouched once written.
 | 4: lncRNA/smallRNA | + overlap with lncRNA/small RNA genes (criterion 6) | `candidates_scored_v4.tsv`, `candidates_passing_ranked_v4.bed` | 45 / 461 | Unchanged — 0 candidates newly excluded, checkpoint 3's survivors were already clean |
 | 5: TAD content | + any risk gene inside the candidate's own TAD, not just flanking/radius (criterion 8) | `candidates_scored_v5.tsv`, `candidates_passing_ranked_v5.bed` | **43 / 461 — V2 final** | Unchanged — only 2 newly excluded, top candidate's TAD is clean |
 
-Ultraconserved elements (part of criterion 5) were investigated but not
-implemented — no dog-referenced conservation track exists publicly. See
-`ahmed2026_checklist_comparison.md`.
+| 6: repeat content | + RepeatMasker %% repeat content > 50%% (finer than self-mappability, catches partial repeat content within an otherwise-unique window) | `candidates_scored_v6.tsv`, `candidates_passing_ranked_v6.bed` | 40 / 461 | Unchanged — 3 newly excluded, top candidate's window is clean |
+| 7: ultraconserved elements | + phyloP 50bp-rolling-mean conservation > 6.5, dog-referenced, computed from the raw Zoonomia HAL (criterion 5's other half — see `V3_PROGRESS_NOTES.md`) | `candidates_scored_v7.tsv`, `candidates_passing_ranked_v7.bed` | **34 / 461 — current final** | Unchanged coordinates (`NC_051811.1:48,020,921-48,077,046`); soft score shifted 0.774→0.704 because min-max normalization is relative to the current survivor set, not a real change in the underlying tracks |
 
-**Bottom line: V2's `candidates_scored_v5.tsv` / `candidates_passing_ranked_v5.bed`
-is the current, most rigorous scoring — use these, not the plain-named V1 files,
+**All 8/8 Ahmed et al. 2026 checklist criteria now satisfied** (checkpoint 7
+closes the last one). See `V3_PROGRESS_NOTES.md` for the full ultraconserved-
+elements pipeline and its honest limitations (single-region neutral model,
+not production-grade Zoonomia methodology).
+
+**Bottom line: `candidates_scored_v7.tsv` / `candidates_passing_ranked_v7.bed`
+is the current, most rigorous scoring — use these, not any earlier version,
 for anything downstream (06_GEG-SH onward).**
 
-## Release tagging
-
-- V1 (pre-checklist baseline) → no dedicated tag, superseded before release tagging started
-- **V2 (this document) → GitHub release `v0.2.0`, published**
-- V3 (ultraconserved elements) → **`v1.0.0`**, in progress
-
-## V3 status (2026-08-20)
-
-Computing a dog-referenced phyloP conservation track from scratch, since none
-exists publicly (Zoonomia only distributes human-referenced scores). Pipeline:
-download the raw 241-mammal Cactus HAL alignment (806GB) → `hal2maf`
-referenced to dog → RepeatMasker on ancestral repeats → `phyloFit` → `phyloP`,
-following the Zoonomia consortium's own scripts. HAL download in progress
-(resumable, `curl -C -`).
-
-Two more candidate filters were identified and pilot-tested against the
-current 43 survivors while V3 downloads, but **deliberately held until V3 is
-applied first** — no point spending effort evaluating candidates V3 may
-still exclude:
-
-- **RepeatMasker repeat content** (finer-grained than the existing
-  self-mappability check, which only catches gross multi-mapping): piloted
-  on the 43 current survivors, mean 36.3% repeat content (in line with the
-  dog genome average), 3 candidates above 50% (LINE/L1-dominated). Data in
-  `repeat_content_v5candidates.tsv`; not yet wired into `score_ship_candidates.py`.
-- **Dog10K population structural variants** (Manta-SV, 1,879 dogs,
-  `kiddlabshare.med.umich.edu/dog10K/Manta-SV_2022-03-28`): blocked on an
-  assembly mismatch — the VCF is UU_Cfam_GSD_1.0, not ROS_Cfam_1.0, with no
-  public chain file between them (confirmed via mismatched chromosome
-  lengths). Plan: once V3 has reduced the survivor set further, realign just
-  those few candidates against UU_Cfam_GSD_1.0 with `bwa mem` (same technique
-  already used for the original chr12 candidate) rather than building a full
-  genome-wide liftover.
-
-Planned order: **V3 (phyloP) → RepeatMasker → Dog10K SV**, each applied to
-the shrinking survivor set from the previous step.
-
-## Consensus ATAC peak threshold — validation pending (2026-08-20)
+## Consensus ATAC peak threshold — validated (2026-08-21)
 
 Ehsan raised a fair methodological question: the consensus-peak veto uses a
 ≥36/71 (majority) reproducibility threshold following ArchR's convention,
 but that convention was never checked against independent evidence that it
-actually identifies functional regulatory elements in this dataset. Planned:
-intersect `consensus_peaks_ATAC.bed` against an independent canine
-promoter/enhancer annotation (likely a liftover of a curated set, since no
-dog-native regulatory build of comparable quality exists) and check
-enrichment. Added to the pre-shortlist checklist alongside RepeatMasker and
-Dog10K SV — no candidate shortlist should be treated as final until this is
-done too.
+actually identifies functional regulatory elements in this dataset.
+Validated: intersected `consensus_peaks_ATAC.bed` against TSS±2kb (GFF3) and
+CpG islands (computed natively on ROS_Cfam_1.0, not cross-species liftover)
+— 10.9x and 15.1x enrichment respectively over genome background. Real
+support for the threshold; kept as-is. See `consensus_peak_validation.md`.
+
+## Dog10K structural variants — checked, no exclusions (2026-08-21)
+
+`bwa mem` realignment of the (then-)40 V6 survivors against UU_Cfam_GSD_1.0
+(approximate/best-effort, no chain file exists to that assembly — see
+`V3_PROGRESS_NOTES.md`), checked against the Dog10K population SV set
+(Manta-SV, 1,879 dogs). 40/40 realigned confidently (MAPQ≥30), **0/40
+overlapped any called structural variant** — no exclusions, not wired into
+`score_ship_candidates.py` as a formal veto input since it excluded nobody.
+See `dog10k_sv_check_v6.tsv`.
+
+## Release tagging
+
+- V1 (pre-checklist baseline) → no dedicated tag, superseded before release tagging started
+- **V2 (checkpoints 1-5) → GitHub release `v0.2.0`, published**
+- **V3 (checkpoints 6-7, this document) → `v1.0.0`** — all 8/8 criteria now
+  closed; tagging is the user's own action, not done automatically.

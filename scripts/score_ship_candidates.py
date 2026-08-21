@@ -48,6 +48,17 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
       not partial repeat content within an otherwise-unique window; repeat-
       dense regions favor heterochromatin spreading/silencing independent
       of whether the whole candidate maps ambiguously
+    - ultraconserved element (--ultraconserved-tsv, criterion 5's other
+      half): a 50bp-window rolling-mean dog-referenced phyloP score exceeds
+      --ultraconserved-threshold (default 6.5). phyloP computed from the
+      raw Zoonomia 241-mammal HAL alignment (no pre-built dog-referenced
+      conservation track exists publicly - the HAL itself is CanFam3.1-
+      referenced internally, requiring a liftover to ROS_Cfam_1.0; neutral
+      model fit on a single 100kb region, a real simplification vs. a
+      production Zoonomia release - see 05_SHIP/V3_PROGRESS_NOTES.md for
+      the full pipeline and its limitations). A single conserved base isn't
+      meaningful (common, and not what "ultraconserved element" means in
+      the literature) - this specifically looks for a sustained stretch
 
   soft score (rank what's left), each component min-max normalized to [0,1]
   across the surviving candidates, then averaged with user-settable weights:
@@ -214,6 +225,16 @@ def main():
     ap.add_argument("--repeat-content-tsv", default=None,
                      help="RepeatMasker %% repeat content per candidate (chrom,start,end,...,pct_repeat)")
     ap.add_argument("--repeat-content-threshold", type=float, default=50.0)
+    ap.add_argument("--ultraconserved-tsv", default=None,
+                     help="phyloP 50bp-rolling-mean conservation per candidate, from the V3 pilot "
+                          "(chrom,start,end,max_50bp_rolling_phyloP) - see 05_SHIP/V3_PROGRESS_NOTES "
+                          "for how this was computed (dog-referenced phyloP from the raw Zoonomia HAL, "
+                          "single-region neutral model - a real simplification, not production-grade)")
+    ap.add_argument("--ultraconserved-threshold", type=float, default=6.5,
+                     help="max 50bp-rolling-mean phyloP score above which a candidate is vetoed - "
+                          "6.5 separates the 6 flagged candidates (6.67-8.54) from the rest of the "
+                          "43-candidate pilot (next highest 6.19), a real but modest gap in the "
+                          "observed distribution, not a textbook default")
     ap.add_argument("--w-stability-atac", type=float, default=1.0)
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
@@ -255,6 +276,13 @@ def main():
             for row in reader:
                 repeat_content[(row["chrom"], int(row["start"]), int(row["end"]))] = float(row["pct_repeat"])
 
+    ultraconserved = {}
+    if args.ultraconserved_tsv:
+        with open(args.ultraconserved_tsv, encoding="utf-8") as f:
+            reader = csv.DictReader(f, delimiter="\t")
+            for row in reader:
+                ultraconserved[(row["chrom"], int(row["start"]), int(row["end"]))] = float(row["max_50bp_rolling_phyloP"])
+
     atac_mean_bw = pyBigWig.open(args.atac_mean_bw)
     atac_var_bw = pyBigWig.open(args.atac_variability_bw)
     rrbs_mean_bw = pyBigWig.open(args.rrbs_mean_bw)
@@ -281,6 +309,11 @@ def main():
         c["veto_high_repeat_content"] = (
             c["pct_repeat"] is not None and c["pct_repeat"] > args.repeat_content_threshold
         )
+        c["max_50bp_rolling_phyloP"] = ultraconserved.get((chrom, start, end))
+        c["veto_ultraconserved_element"] = (
+            c["max_50bp_rolling_phyloP"] is not None
+            and c["max_50bp_rolling_phyloP"] > args.ultraconserved_threshold
+        )
         mid = (start + end) // 2
         own_tad = find_containing_interval(tad_intervals, chrom, mid)
         if own_tad is not None:
@@ -291,7 +324,8 @@ def main():
                            or c["veto_risk_gene"] or c["veto_low_mappability"]
                            or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"]
                            or c["veto_gene_dense_neighborhood"] or c["veto_lncrna_smallrna"]
-                           or c["veto_tad_risk_gene"] or c["veto_high_repeat_content"])
+                           or c["veto_tad_risk_gene"] or c["veto_high_repeat_content"]
+                           or c["veto_ultraconserved_element"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
         c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
@@ -339,7 +373,8 @@ def main():
                   "hard_veto", "veto_tad_boundary", "veto_atac_peak", "veto_risk_gene",
                   "veto_low_mappability", "veto_mirna_nearby", "veto_risk_gene_radius",
                   "veto_gene_dense_neighborhood", "veto_lncrna_smallrna", "veto_tad_risk_gene",
-                  "veto_high_repeat_content", "pct_repeat", "no_rrbs_coverage",
+                  "veto_high_repeat_content", "pct_repeat",
+                  "veto_ultraconserved_element", "max_50bp_rolling_phyloP", "no_rrbs_coverage",
                   "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
                   "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance", "gene_dense_clearance",
                   "score_stability_atac", "score_moderate_atac", "score_low_methylation",
@@ -367,7 +402,8 @@ def main():
           f"{sum(1 for c in candidates if c['veto_gene_dense_neighborhood'])} gene-dense neighborhood, "
           f"{sum(1 for c in candidates if c['veto_lncrna_smallrna'])} lncRNA/smallRNA overlap, "
           f"{sum(1 for c in candidates if c['veto_tad_risk_gene'])} risk gene in own TAD, "
-          f"{sum(1 for c in candidates if c['veto_high_repeat_content'])} high repeat content), "
+          f"{sum(1 for c in candidates if c['veto_high_repeat_content'])} high repeat content, "
+          f"{sum(1 for c in candidates if c['veto_ultraconserved_element'])} ultraconserved element), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")

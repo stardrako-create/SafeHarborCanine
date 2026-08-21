@@ -51,7 +51,7 @@ tunable via CLI flags — nothing here is a black box, read the formula in
   closed nor unusually open — SHIP already picked intergenic windows, so a
   strong signal here would suggest an unannotated element, not a promoter)
 
-## Versions — V1 vs. V2 (Ahmed et al. 2026 checklist)
+## Versions — V1 / V2 / V3 (Ahmed et al. 2026 checklist, now 8/8)
 **V1** is TAD boundary + ATAC peak + flanking risk gene + self-mappability
 only (260 candidates would pass this — see `VERSIONS.md` for why that exact
 V1 state isn't preserved as its own file).
@@ -60,41 +60,47 @@ V1 state isn't preserved as its own file).
 checklist (`ahmed2026_checklist_comparison.md`): miRNA proximity, risk gene
 within a 300kb radius, a third gene crowding either window edge within
 50kb, lncRNA/small-RNA overlap, and a risk gene anywhere in the candidate's
-own TAD. Built one criterion at a time, each checkpoint kept as its own
-file (`candidates_scored.tsv` → `_v2.tsv` → `_v3.tsv` → `_v4.tsv` →
-`_v5.tsv`) so every individual criterion's effect stays auditable — see
-`VERSIONS.md` for the full checkpoint-by-checkpoint table.
+own TAD (checkpoints 1-5, `candidates_scored.tsv` → `_v5.tsv`).
 
-**`candidates_scored_v5.tsv` / `candidates_passing_ranked_v5.bed` is V2's
-final, current state: 43/461 candidates pass every criterion this pipeline
-checks.** Use these for anything downstream (06_GEG-SH onward), not the
-plain-named files. The pipeline now satisfies 7/8 of the review's core
-criteria (only the ultraconserved-elements half of criterion 5 remains
-open — no usable dog-referenced conservation track exists publicly,
-investigated and documented in the comparison doc).
+**V3** closes the remaining criteria: RepeatMasker repeat content
+(checkpoint 6, `_v6.tsv`) and ultraconserved elements (checkpoint 7,
+`_v7.tsv`) — the latter via a dog-referenced phyloP conservation score
+computed from scratch from the raw Zoonomia 241-mammal HAL alignment, since
+no pre-built dog-referenced conservation track exists publicly. Full
+pipeline, a real WSL crash and recovery, and honest methodological
+caveats (single-region neutral model, not production-grade): see
+`V3_PROGRESS_NOTES.md`.
 
-Top candidate changed twice during V2 (see `VERSIONS.md`): the V1/pre-V2
-top candidate (`NC_051812.1:52,431-118,675`, score 0.83 — independently
-confirmed by Ehsan Valiollahi's separate filtering, see
-`ehsan_crossvalidation.md`) is excluded in V2 by the 300kb risk-gene-radius
-check. **V2's top candidate is `NC_051811.1:48,020,921-48,077,046`
-(score 0.77).**
+**`candidates_scored_v7.tsv` / `candidates_passing_ranked_v7.bed` is the
+current, final state: 34/461 candidates pass every criterion this pipeline
+checks — all 8/8 of the Ahmed et al. 2026 review's core criteria.** Use
+these for anything downstream (06_GEG-SH onward), not any earlier version.
+
+Also validated (not a new veto, confirms an existing one): the consensus-
+ATAC-peak threshold shows 10.9x/15.1x enrichment against independent
+TSS/CpG-island regulatory proxies (`consensus_peak_validation.md`). And
+checked (no exclusions resulted): the 40 V6 survivors against the Dog10K
+population structural-variant set, 0/40 overlapping a called SV
+(`dog10k_sv_check_v6.tsv`).
+
+Top candidate changed twice during V2, then held steady through V3: the
+V1/pre-V2 top candidate (`NC_051812.1:52,431-118,675`, score 0.83 —
+independently confirmed by Ehsan Valiollahi's separate filtering, see
+`ehsan_crossvalidation.md`) was excluded in V2 by the 300kb risk-gene-radius
+check. **The current top candidate is `NC_051811.1:48,020,921-48,077,046`**
+— unchanged in coordinates since checkpoint 3, survives every criterion
+through V3.
 
 ## Known gaps (not yet applied)
 - The risk-gene list is a **starter proxy**: human HGNC symbols
   (CancerMine + CEG2) matched directly against ROS_Cfam_1.0 gene symbols,
   not a canine-curated ortholog list — a real canine essential-gene/cancer-
   gene resource would be more rigorous.
-- The mappability check only catches gross self-multi-mapping (whole
-  candidate realigns ambiguously) — it does not measure partial repeat
-  *content* within a candidate the way a full RepeatMasker run would; only
-  2/461 candidates were flagged, so finer-grained repeat content inside an
-  otherwise-unique window is not yet screened.
-- Ultraconserved elements (criterion 5) — no dog-referenced conservation
-  track exists publicly; see `ahmed2026_checklist_comparison.md`.
-- Population variant data (Dog10K) for structural instability at candidates
+- The ultraconserved-elements neutral model rests on a single 100kb region
+  (not ancestral-repeat-filtered like a production Zoonomia release) — see
+  `V3_PROGRESS_NOTES.md` for the honest caveat and how to strengthen it.
 - gRNA design and off-target scoring — the actual next phase, once a final
-  shortlist is chosen from V2's final checkpoint (`candidates_scored_v5.tsv`)
+  shortlist is chosen from `candidates_scored_v7.tsv`.
 
 ## Files
 - `ship_raw_candidates.tsv` — all 461 SHIP candidates, unfiltered
