@@ -81,7 +81,21 @@ see `VERSIONS.md` / `05_SHIP/README.md` "Known gaps" for what's still
 ahead before any of these 5 can be called more than a computational
 priority. `confidence` in EpiLog terms remains `untested` for all 5.
 
+## V9-B robustness check (2026-08-24)
+
+Reran the exact V9 scoring against an extended 76-dog ATAC-seq cohort (the
+original 71 + 5 more from Ehsan, GSE278027 — see `VERSIONS.md` for why
+this is "V9-B" and not "V10", and `04_tracks_processadas/ROS_Cfam_1.0/METHODS.md`
+for the full methodology including the 71:5 cohort-weighting formula and
+the recomputed consensus-peak threshold). **This exact top-5 — same
+coordinates, same rank order — reproduces under V9-B**, with scores
+shifting by at most ~0.0006. Meaningful because the 5 added dogs are from
+a different context (mammary-tumor arm of that study, not healthy
+controls) — the shortlist isn't an artifact of the specific 71-dog
+sample. `candidates_scored_v9b.tsv` / `candidates_passing_ranked_v9b.bed`.
+
 ## Files
 - `top5_shortlist.bed` — the 5 coordinates above, ranked, BED format
 - `candidates_scored_v9.tsv` — full 461-candidate table these were drawn from
+- `candidates_scored_v9b.tsv` — the V9-B robustness-check rerun (76-dog ATAC cohort)
 - `ehsan_regulatory_elements_ROS.bed` — the independent regulatory-element set behind the V9 correction

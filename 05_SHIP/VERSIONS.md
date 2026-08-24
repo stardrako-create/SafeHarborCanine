@@ -122,6 +122,37 @@ about if this code is touched again:
    mean/variability backgrounds to coverage>0 bins only (using the same
    `RRBS_cpg_coverage_frequency.bw` already used per-candidate).
 
+## V9-B — same V9 methodology, ATAC cohort extended 71 -> 76 dogs (2026-08-24)
+
+Not a new criterion (hence "B", not "V10") — a rerun of the exact V9
+logic against a larger ATAC-seq population. Ehsan sent 5 additional dog
+ATAC-seq samples (GSE278027, PBMC, Maltese/Shih-Tzu, from the
+mammary-tumor arm of that study — see `04_tracks_processadas/ROS_Cfam_1.0/METHODS.md`
+for the important caveat this isn't a straightforward "5 more healthy
+dogs"). Processed identically to the original 71, then combined two ways:
+a standalone 5-dog Mother Track, and a 71:5 cohort-size-weighted joined
+76-dog track (`joined = (71*mean_71 + 5*mean_5) / 76`, not a naive
+re-pool of 76 equally-weighted individuals). Consensus ATAC peaks
+recomputed from scratch across all 76 dogs' individual peak calls
+(threshold >= 39/76, vs. the original >= 36/71) — this is the one input
+that could not simply be reweighted from the existing 71-dog track and
+needed genuine recomputation.
+
+Everything else (RRBS, Hi-C, repeat-content, ultraconserved-elements,
+external-regulatory-elements, risk-genes, candidate list itself) is
+byte-identical to V9 — none of it depends on the ATAC dog count.
+
+**Result: 26/461 survive, identical to V9.** Top-10 composition and rank
+order are unchanged; scores shift by at most ~0.0006 (e.g. top candidate
+0.7649 -> 0.7644). `candidates_scored_v9b.tsv` / `candidates_passing_ranked_v9b.bed`.
+
+This is a genuine robustness check, not just a data update: the shortlist
+holds up under a ~7% larger, partly different-context (disease vs.
+healthy) ATAC population, rather than being an artifact of the specific
+71-dog sample. Read as confirming V9, not superseding it — V9's own
+files are left untouched, per the project's standing rule of never
+overwriting a checkpoint.
+
 ## Release tagging
 
 - V1 (pre-checklist baseline) → no dedicated tag, superseded before release tagging started

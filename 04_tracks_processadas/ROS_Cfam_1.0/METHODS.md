@@ -65,6 +65,59 @@ continuous weighted-mean signal was tried first and rejected: that
 distribution is narrow and non-bimodal (p50 = 0.09, p99.9 = 0.83) with no
 natural peak/background separation — vote count across dogs does have one.
 
+## ATAC-seq, extended cohort (76 dogs = 71 + 5, "ATAC_joined76") — 2026-08-24
+
+Ehsan Valiollahi sent 5 additional canine ATAC-seq samples (GEO GSE278027,
+SRR30799901–SRR30799905, PBMC, 2 breeds — Maltese ×4, Shih-Tzu ×1). GEO
+metadata for all 5 traces to dogs "clinically diagnosed with mammary
+tumors" (the study's growth protocol covers both healthy and tumor-bearing
+animals; these 5 specifically are from the tumor-bearing arm) — a
+different population from the healthy Jin et al. 2024 cohort, not a
+straightforward addition of 5 more equivalent dogs. Processed through the
+identical per-sample pipeline as the 71 (`Snakefile_persample.smk`: fastp
+→ bowtie2 `--very-sensitive` → dedup/filter → MACS3 → QC metrics),
+reusing the same ROS_Cfam_1.0 bowtie2 index.
+
+**Standalone 5-dog Mother Track** (`ATAC_ehsan5/mother_track/`): same
+`compute_qc_weights.py` / `build_mother_track.py` formulas above, applied
+to just these 5 — min-max normalization for the QC weight is therefore
+relative to this 5-dog cohort, not the 71-dog scale (weights: 0.200,
+0.687, 1.000, 0.627, 0.326 for SRR30799901/02/03/04/05 respectively —
+0.200 is the floor, not a computed near-zero value). Published as its own
+track set, not merged blindly into the population baseline, given the
+disease-context caveat above.
+
+**Joined 76-dog track** (`ATAC_joined76/`): the two Mother Tracks combined
+by **cohort size**, not by re-pooling all 76 raw dogs as equally-weighted
+individuals:
+
+```
+joined(bin) = [ 71 · mother_mean_71(bin)  +  5 · mother_mean_5(bin) ] / 76
+```
+
+applied per-bin to both `mother_track_weighted_mean` and `variability`
+(25 bp bins, matching the source tracks). This is the standard "pooled
+mean = size-weighted average of group means" identity, applied explicitly
+at the group level since each cohort's own QC-weighted average was already
+computed independently — verified numerically against a direct per-bin
+recomputation at two test regions (top candidate + a random control
+window), exact match. Known limitation, not fixed: a bin at literal 0.0 in
+either source track conflates "confirmed closed chromatin" with "no dog
+had evidence there" (the same ambiguity already present in the 71-dog
+track alone) — a 71:5 blend still applies the full group weight even when
+one side is silent, since the two cases aren't distinguishable from the
+bigwig values alone.
+
+**76-dog consensus ATAC peaks** (`ATAC_joined76/consensus_peaks_ATAC.bed`):
+NOT derived from the joined signal track — recomputed from scratch via
+`bedtools multiinter` across all 76 dogs' *individual* MACS3 peak calls
+(71 original + 5 new, same per-dog peak files, just combined), then the
+same `call_consensus_peaks.py` majority-vote logic as the 71-dog version,
+threshold rescaled to **≥ ⌈(76+1)/2⌉ = 39 of 76 dogs (51.3%)**. Result:
+9,141 consensus peaks (vs. an unrecorded count for the 71-dog set at the
+time — see `05_SHIP/VERSIONS.md` V9-B entry for the downstream effect on
+candidate scoring, which turned out to be negligible).
+
 ## RRBS methylation (same 71 dogs, PBMC, PRJNA1049514)
 
 Script: `scripts/build_methylation_track.py`. Same two-layer weighting
