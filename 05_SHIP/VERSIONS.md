@@ -153,6 +153,12 @@ healthy) ATAC population, rather than being an artifact of the specific
 files are left untouched, per the project's standing rule of never
 overwriting a checkpoint.
 
+The large bigwig/bedgraph tracks behind this (~2.9GB across 11 files —
+standalone 5-dog Mother Track plus the joined-76 tracks and recomputed
+consensus peaks) are on the Zenodo dataset, not git:
+[10.5281/zenodo.22003933](https://doi.org/10.5281/zenodo.22003933)
+(concept DOI, currently resolving to `10.5281/zenodo.22079291`).
+
 ## Release tagging
 
 - V1 (pre-checklist baseline) → no dedicated tag, superseded before release tagging started
