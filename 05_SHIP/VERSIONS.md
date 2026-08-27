@@ -126,32 +126,47 @@ about if this code is touched again:
 
 Not a new criterion (hence "B", not "V10") — a rerun of the exact V9
 logic against a larger ATAC-seq population. Ehsan sent 5 additional dog
-ATAC-seq samples (GSE278027, PBMC, Maltese/Shih-Tzu, from the
-mammary-tumor arm of that study — see `04_tracks_processadas/ROS_Cfam_1.0/METHODS.md`
-for the important caveat this isn't a straightforward "5 more healthy
-dogs"). Processed identically to the original 71, then combined two ways:
-a standalone 5-dog Mother Track, and a 71:5 cohort-size-weighted joined
-76-dog track (`joined = (71*mean_71 + 5*mean_5) / 76`, not a naive
-re-pool of 76 equally-weighted individuals). Consensus ATAC peaks
-recomputed from scratch across all 76 dogs' individual peak calls
-(threshold >= 39/76, vs. the original >= 36/71) — this is the one input
-that could not simply be reweighted from the existing 71-dog track and
-needed genuine recomputation.
+ATAC-seq samples (GSE278027, PBMC, Maltese/Shih-Tzu, titled N_172-183) —
+**confirmed healthy controls**, the same population type as the 71-dog
+Jin et al. cohort (an earlier note here said these were from the
+mammary-tumor arm, based on a misleading GEO field; Ehsan caught this and
+the source paper's own naming convention — `N_` = normal, `B_` = benign,
+`C_` = malignant — confirms he's right; see `04_tracks_processadas/ROS_Cfam_1.0/METHODS.md`
+for the full correction). Processed identically to the original 71, then
+combined two ways: a standalone 5-dog Mother Track, and a 71:5
+cohort-size-weighted joined 76-dog track (`joined = (71*mean_71 +
+5*mean_5) / 76`, not a naive re-pool of 76 equally-weighted individuals).
+Consensus ATAC peaks recomputed from scratch across all 76 dogs'
+individual peak calls (threshold >= 39/76, vs. the original >= 36/71) —
+this is the one input that could not simply be reweighted from the
+existing 71-dog track and needed genuine recomputation.
+
+**QC-weight normalization correction**: the 5-dog Mother Track's QC
+weights were first computed min-max-relative to just those 5 dogs — a
+real weakness at n=5 (all 5 actually sit at percentile 45-86 of the true
+71-dog FRiP/TSS distribution, yet the 5-dog-relative normalization gave
+one of them the floor weight as if it were the worst sample in the
+project). Fixed by anchoring the normalization to the 71-dog reference
+range instead; rebuilt and rescored (`candidates_scored_v9b2.tsv` /
+`candidates_passing_ranked_v9b2.bed`, the corrected-weights run — v9b's
+original files kept as-is, not overwritten). See METHODS.md for the full
+account and the exact weight values before/after.
 
 Everything else (RRBS, Hi-C, repeat-content, ultraconserved-elements,
 external-regulatory-elements, risk-genes, candidate list itself) is
 byte-identical to V9 — none of it depends on the ATAC dog count.
 
-**Result: 26/461 survive, identical to V9.** Top-10 composition and rank
-order are unchanged; scores shift by at most ~0.0006 (e.g. top candidate
-0.7649 -> 0.7644). `candidates_scored_v9b.tsv` / `candidates_passing_ranked_v9b.bed`.
+**Result: 26/461 survive, identical to V9, in both the v1-weights and
+corrected-weights runs.** Top-10 composition and rank order are unchanged
+across all three (V9, V9-B v1, V9-B corrected); scores shift by at most
+~0.0006 total (e.g. top candidate 0.7649 -> 0.7644 -> 0.7644).
 
 This is a genuine robustness check, not just a data update: the shortlist
-holds up under a ~7% larger, partly different-context (disease vs.
-healthy) ATAC population, rather than being an artifact of the specific
-71-dog sample. Read as confirming V9, not superseding it — V9's own
-files are left untouched, per the project's standing rule of never
-overwriting a checkpoint.
+holds up under a ~7% larger ATAC population (correctly understood now as
+the same healthy-dog population type, not a different disease context),
+rather than being an artifact of the specific 71-dog sample. Read as
+confirming V9, not superseding it — V9's own files are left untouched,
+per the project's standing rule of never overwriting a checkpoint.
 
 The large bigwig/bedgraph tracks behind this (~2.9GB across 11 files —
 standalone 5-dog Mother Track plus the joined-76 tracks and recomputed

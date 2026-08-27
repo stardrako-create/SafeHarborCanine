@@ -92,9 +92,12 @@ set (received after V8 shipped) — 8 of the 34 V8 survivors were newly
 excluded, including the then-#3 top-5 shortlist candidate; see
 `top5_shortlist.md` "V9 correction" for the replacement. V9-B
 (2026-08-24) reran the identical V9 logic against an extended 76-dog ATAC
-cohort (71 + 5 more from Ehsan) as a robustness check, not a new
-criterion — same 26 survivors, same top-5, scores shift by ~0.0006 at
-most. See `VERSIONS.md` and `04_tracks_processadas/ROS_Cfam_1.0/METHODS.md`.
+cohort (71 + 5 more from Ehsan, GSE278027 — confirmed healthy controls,
+not the tumor arm as an earlier note here mistakenly said) as a
+robustness check, not a new criterion — same 26 survivors, same top-5,
+scores shift by ~0.0006 at most, confirmed again after fixing a QC-weight
+normalization issue in the 5-dog cohort. See `VERSIONS.md` and
+`04_tracks_processadas/ROS_Cfam_1.0/METHODS.md`.
 
 Also validated (not a new veto, confirms an existing one): the consensus-
 ATAC-peak threshold shows 10.9x/15.1x enrichment against independent

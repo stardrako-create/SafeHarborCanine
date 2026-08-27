@@ -68,24 +68,55 @@ natural peak/background separation — vote count across dogs does have one.
 ## ATAC-seq, extended cohort (76 dogs = 71 + 5, "ATAC_joined76") — 2026-08-24
 
 Ehsan Valiollahi sent 5 additional canine ATAC-seq samples (GEO GSE278027,
-SRR30799901–SRR30799905, PBMC, 2 breeds — Maltese ×4, Shih-Tzu ×1). GEO
-metadata for all 5 traces to dogs "clinically diagnosed with mammary
-tumors" (the study's growth protocol covers both healthy and tumor-bearing
-animals; these 5 specifically are from the tumor-bearing arm) — a
-different population from the healthy Jin et al. 2024 cohort, not a
-straightforward addition of 5 more equivalent dogs. Processed through the
-identical per-sample pipeline as the 71 (`Snakefile_persample.smk`: fastp
-→ bowtie2 `--very-sensitive` → dedup/filter → MACS3 → QC metrics),
-reusing the same ROS_Cfam_1.0 bowtie2 index.
+SRR30799901–SRR30799905, PBMC, 2 breeds — Maltese ×4, Shih-Tzu ×1), titled
+N_172/173/174/182/183 in GEO. Processed through the identical per-sample
+pipeline as the 71 (`Snakefile_persample.smk`: fastp → bowtie2
+`--very-sensitive` → dedup/filter → MACS3 → QC metrics), reusing the same
+ROS_Cfam_1.0 bowtie2 index.
+
+**Disease-status correction (2026-08-24, caught by Ehsan)**: an earlier
+version of this document stated these 5 were from the mammary-tumor arm
+of GSE278027, based on the GEO sample field `characteristics_ch1: tissue:
+Mammary gland` present on all 5 records. That field is a red herring —
+it names the organ the *study* is about, not this animal's own status.
+The source paper (Kim et al. 2025, Sci Rep, PMID 40603956, PMC12223031)
+states its own sample-naming convention explicitly: **`N_` prefix =
+Normal/healthy dogs (11 of them), `B_` = benign tumor, `C_` =
+malignant/cancer**. All 5 of Ehsan's samples carry the `N_` prefix — they
+are healthy controls, the same population type as the 71-dog Jin et al.
+cohort, not a different disease context. Every place in this repo that
+described these as tumor-context samples has been corrected.
+
+**QC weight normalization correction (2026-08-24)**: the first version of
+the standalone 5-dog Mother Track computed QC weights via min-max
+normalization *within this 5-dog cohort only* (weights: 0.200, 0.687,
+1.000, 0.627, 0.326 for SRR30799901/02/03/04/05) — mechanically correct
+per the `compute_qc_weights.py` formula, but statistically shaky at n=5:
+checking these same 5 dogs' raw FRiP/TSS values against the much larger,
+more stable 71-dog reference distribution placed all of them at
+percentile 45–86 (average-to-good), yet the 5-dog-relative normalization
+assigned SRR30799901 the floor weight (0.2) as if it were the worst
+sample in the whole project. **Fixed**: weights recomputed using the
+71-dog cohort's own FRiP/TSS min/max as the normalization anchor instead
+of re-deriving a new one from 5 points
+(`qc_weights_ehsan5.tsv`; the original 5-dog-relative version is kept
+alongside as `qc_weights_ehsan5_v1_5dog_relative.tsv`, not deleted, per
+this project's practice of preserving superseded checkpoints rather than
+silently overwriting them) — corrected weights: 0.482, 0.604, 0.686,
+0.589, 0.514, a much tighter and more defensible spread. Rebuilding the
+Mother Track and rerunning V9-B scoring with the corrected weights
+reproduced the same top-10 composition and rank order yet again, scores
+shifting by at most ~0.0004 from the v1-weights run — the correction was
+worth making, but its effect on the actual result was negligible (the
+5-dog cohort is only 5/76 ≈ 6.6% of the joined population's weight either
+way). See `05_SHIP/VERSIONS.md` V9-B entry.
 
 **Standalone 5-dog Mother Track** (`ATAC_ehsan5/mother_track/`): same
-`compute_qc_weights.py` / `build_mother_track.py` formulas above, applied
-to just these 5 — min-max normalization for the QC weight is therefore
-relative to this 5-dog cohort, not the 71-dog scale (weights: 0.200,
-0.687, 1.000, 0.627, 0.326 for SRR30799901/02/03/04/05 respectively —
-0.200 is the floor, not a computed near-zero value). Published as its own
-track set, not merged blindly into the population baseline, given the
-disease-context caveat above.
+`compute_qc_weights.py` / `build_mother_track.py` formulas above, using
+the 71-dog-anchored weights described above. Published as its own track
+set, not merged blindly into the population baseline — kept separate so
+anyone can tell which conclusions rest on the original 71 vs. the
+extended 76.
 
 **Joined 76-dog track** (`ATAC_joined76/`): the two Mother Tracks combined
 by **cohort size**, not by re-pooling all 76 raw dogs as equally-weighted
