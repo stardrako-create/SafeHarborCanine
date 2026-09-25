@@ -1,0 +1,73 @@
+{
+  "validation": [
+    {
+      "target": "LOC119876429_frontier_span",
+      "HTSlib_match": true,
+      "records": 2027
+    },
+    {
+      "target": "ANO2_frontier_span",
+      "HTSlib_match": true,
+      "records": 4613
+    },
+    {
+      "target": "NPNT_frontier_span",
+      "HTSlib_match": true,
+      "records": 5167
+    }
+  ],
+  "summary": [
+    {
+      "genes": "ANO2/NTF3",
+      "frontier_windows": 22,
+      "quantified_full_contiguous": 13,
+      "partial_or_discontinuous": 9,
+      "T_positive_full_windows": 0,
+      "T_positive_shared_windows": 1,
+      "min_source_mapping_agreement": 0.997,
+      "max_T_shared_starts": 1,
+      "max_T_shared_nuclei": 1,
+      "unique_T_fragment_records_across_windows": 1,
+      "unique_T_nuclei_across_windows": 1
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "frontier_windows": 12,
+      "quantified_full_contiguous": 5,
+      "partial_or_discontinuous": 7,
+      "T_positive_full_windows": 2,
+      "T_positive_shared_windows": 3,
+      "min_source_mapping_agreement": 0.923,
+      "max_T_shared_starts": 2,
+      "max_T_shared_nuclei": 2,
+      "unique_T_fragment_records_across_windows": 3,
+      "unique_T_nuclei_across_windows": 3
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "frontier_windows": 30,
+      "quantified_full_contiguous": 19,
+      "partial_or_discontinuous": 11,
+      "T_positive_full_windows": 8,
+      "T_positive_shared_windows": 9,
+      "min_source_mapping_agreement": 0.936,
+      "max_T_shared_starts": 4,
+      "max_T_shared_nuclei": 4,
+      "unique_T_fragment_records_across_windows": 9,
+      "unique_T_nuclei_across_windows": 9
+    }
+  ],
+  "masks": {
+    "T_consensus": 155,
+    "T_union": 157,
+    "all_QC": 5849
+  },
+  "limitations": [
+    "37 of 64 windows meet exact contiguous two-route mapping; shared-base counts also provided for all64, with coverage reported; missing bases not assigned zero",
+    "Shared-base count is a different interval definition from full1kb count",
+    "Start-based counts; not all overlapping fragments",
+    "Overlapping windows and nuclei from one tumor donor are not independent biological replicates",
+    "No full-depth normalization or significance claim",
+    "T groups exploratory RNA-based identity; source ATAC QC still incomplete"
+  ]
+}

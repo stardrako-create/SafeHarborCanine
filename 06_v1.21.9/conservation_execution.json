@@ -1,0 +1,47 @@
+[
+  {
+    "gene": "ANO2",
+    "command": [
+      "/home/stardrako/miniforge3/envs/cactus/bin/phyloP",
+      "--method",
+      "LRT",
+      "--mode",
+      "CONACC",
+      "--wig-scores",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.9/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod",
+      "/mnt/d/Jin2024_work/zoonomia_hal/maf_dog/cand_36.chr27.39320764.maf"
+    ],
+    "seconds": 106.49203586578369,
+    "returncode": 0
+  },
+  {
+    "gene": "LOC119876429",
+    "command": [
+      "/home/stardrako/miniforge3/envs/cactus/bin/phyloP",
+      "--method",
+      "LRT",
+      "--mode",
+      "CONACC",
+      "--wig-scores",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.9/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod",
+      "/mnt/d/Jin2024_work/zoonomia_hal/new3_phylop/loc1_LOC119876429_LOC119872513.maf"
+    ],
+    "seconds": 101.06681060791016,
+    "returncode": 0
+  },
+  {
+    "gene": "NPNT",
+    "command": [
+      "/home/stardrako/miniforge3/envs/cactus/bin/phyloP",
+      "--method",
+      "LRT",
+      "--mode",
+      "CONACC",
+      "--wig-scores",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.9/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod",
+      "/mnt/d/Jin2024_work/zoonomia_hal/new3_phylop/loc3_NPNT_TBCK.maf"
+    ],
+    "seconds": 89.17375230789185,
+    "returncode": 0
+  }
+]

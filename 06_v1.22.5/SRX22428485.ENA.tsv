@@ -1,0 +1,2 @@
+run_accession	experiment_accession	sample_accession	sample_alias	experiment_alias	library_name	fastq_ftp	fastq_bytes
+SRR26729593	SRX22428485	SAMN38165675	GSM7887657	GSM7887657_r1	GSM7887657	ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_2.fastq.gz	3372130952;3371995011

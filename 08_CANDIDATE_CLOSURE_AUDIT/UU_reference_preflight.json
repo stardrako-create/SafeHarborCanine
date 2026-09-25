@@ -1,0 +1,17 @@
+{
+  "status": "metadata_consistency_verified",
+  "FASTA_sha256": "795fbe3a51c4f48f0a08f475834a2836cad8c7690c70182aa1c7d594c1d7190a",
+  "total_bases": 2481983352,
+  "contigs": 2197,
+  "BWA_ann_matches_FAI_all_contigs": true,
+  "chr32": [
+    [
+      "NC_049253.1",
+      "40225481"
+    ]
+  ],
+  "limitations": [
+    "Hash records current FASTA identity; no upstream checksum comparison",
+    "Index metadata match does not independently prove BWT content identity"
+  ]
+}

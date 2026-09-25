@@ -1,0 +1,5 @@
+{
+  "error": "An input download failed; queue paused without bypassing checksum",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/run_cart_queue_v1226.py\", line 42, in <module>\n    if ds.exists() and any(v['status']=='failed' for v in json.loads(ds.read_text())['files'].values()):raise RuntimeError('An input download failed; queue paused without bypassing checksum')\nRuntimeError: An input download failed; queue paused without bypassing checksum\n",
+  "time": 1789683020.12375
+}

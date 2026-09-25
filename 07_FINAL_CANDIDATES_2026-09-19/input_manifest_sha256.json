@@ -1,0 +1,14 @@
+{
+  "06_v1.22.2/alternatives_integrated_v1222.tsv": "7f91d4b2ad1c052497637b5721723dc4d29dabe780a17c19e9512643cf392461",
+  "06_v1.22.1/small_variant_summary.tsv": "b9ce3b14ae05495898c05469b5711ab36981d62fb768443df3dd85f5889ea5e0",
+  "06_v1.22.1/tile_mappability_summary.tsv": "c3cb9beeee9788345330d47c54033cce7ee2c686650e739fb58a6cab1d8fa3b7",
+  "06_v1.22.1/regulatory_context.tsv": "15bcb924650f8bc6d67baccba0afef95376552556837174cf003488255891f9c",
+  "06_v1.22.1/dog10k_mapping.tsv": "a1ff7e9b442788f065d31fb17e6b204f4c9343b8d7926fcb288484d770d4d264",
+  "06_v1.22.0/frontier_T_evidence_v1220.tsv": "d2b921c5d0f34c2490a41abdce47760327ee28a24ac32359d3f723af097d7f64",
+  "06_v1.22.3/depth_matched_local_counts.tsv": "727567e2410aa84041dae6855c4e8867f23280a7ac865f3bc73fdf74f4c23faf",
+  "06_v1.22.9/all40_overview.tsv": "d6bc38e59ff631570e98431859c4c5f8776f825a4ccb52ceab72005203f9443b",
+  "06_v1.21.8/CURRENT.md": "0ab341725aed3a100618a1fe668ff0c47445db922ff70bf2387b0344568f9364",
+  "06_v1.22.2/LOC_mapping_resolution.json": "f8d02f2753ac7267803b44ba1236b52b008ccd622e09cb4a859c7578cc526bb3",
+  "06_v1.22.2/LOC_supplementary_lookup.json": "a570f3468392939a60d0baa3e6be0be854f6928cd06ec592ded366d1d9fab503",
+  "06_v1.21.9/NPNT_span_review.json": "a640386c02b2c7bebedce4d1f26b04e3bb8e5ef71f7427266b73654aa6074e59"
+}

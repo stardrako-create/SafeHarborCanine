@@ -1,0 +1,95 @@
+{
+  "utc": "2026-09-23T19:02:31.026201+00:00",
+  "controls": {
+    "bg1k_2848": {
+      "id": "bg1k_2848",
+      "chrom": "NC_051840.1",
+      "start0": "28808728",
+      "end0": "28809728",
+      "atac_mean": "0.8909203255772591",
+      "atac_percentile": "15.213732749915854",
+      "GC": "0.359",
+      "GC_distance_w01": "0.05199999999999999",
+      "coding_TSS_distance": "140510",
+      "miRNA_distance": "7548721",
+      "risk_gene_distance": "3788526",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "TAD_risk_context;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "group": "random",
+      "nearest_mRNA_TSS_distance": "140510",
+      "nearest_mRNA_id": "rna-XM_038446707.1",
+      "overlapping_transcripts": "",
+      "TAD_boundary_overlap": "False",
+      "additional_flags": ""
+    },
+    "bg1k_0442": {
+      "id": "bg1k_0442",
+      "chrom": "NC_051837.1",
+      "start0": "10430486",
+      "end0": "10431486",
+      "atac_mean": "0.8479521748423576",
+      "atac_percentile": "7.0346684617973745",
+      "GC": "0.317",
+      "GC_distance_w01": "0.09399999999999997",
+      "coding_TSS_distance": "710285",
+      "miRNA_distance": "8320858",
+      "risk_gene_distance": "986558",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "TAD_risk_context;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "group": "random",
+      "nearest_mRNA_TSS_distance": "710285",
+      "nearest_mRNA_id": "rna-NM_001313804.1",
+      "overlapping_transcripts": "",
+      "TAD_boundary_overlap": "False",
+      "additional_flags": ""
+    }
+  },
+  "sequence_screen": {
+    "bg1k_2848": {
+      "exact_unique_20mers": 787,
+      "exact_unique_PASS_REF_clear_20mers": 579,
+      "PASS_allele_records": 20,
+      "scope": "Exact-locus count and catalogued REF span screen only; no PAM, mismatches, bulges, individual genotype or validated guides"
+    },
+    "bg1k_0442": {
+      "exact_unique_20mers": 918,
+      "exact_unique_PASS_REF_clear_20mers": 534,
+      "PASS_allele_records": 30,
+      "scope": "Exact-locus count and catalogued REF span screen only; no PAM, mismatches, bulges, individual genotype or validated guides"
+    }
+  },
+  "SV_overlap_query": [
+    {
+      "id": "bg1k_2848",
+      "uu_contig": "NC_049257.1",
+      "vcf_contig": "chr36",
+      "start0": 28969522,
+      "end0": 28970522,
+      "overlap_records": [],
+      "scope": "Indexed interval-overlap query; not BND mate or breakpoint confidence-interval analysis; catalogue absence does not exclude individual SV"
+    },
+    {
+      "id": "bg1k_0442",
+      "uu_contig": "NC_049254.1",
+      "vcf_contig": "chr33",
+      "start0": 10777598,
+      "end0": 10778598,
+      "overlap_records": [],
+      "scope": "Indexed interval-overlap query; not BND mate or breakpoint confidence-interval analysis; catalogue absence does not exclude individual SV"
+    },
+    {
+      "id": "w01",
+      "uu_contig": "NC_049228.1",
+      "vcf_contig": "chr7",
+      "start0": 17403010,
+      "end0": 17404010,
+      "overlap_records": [],
+      "scope": "Indexed interval-overlap query; not BND mate or breakpoint confidence-interval analysis; catalogue absence does not exclude individual SV"
+    }
+  ],
+  "SV_source": "/mnt/d/Jin2024_work/dog10k_sv/SV-genotype-v2.merge.agg_only.08032022.vcf.gz",
+  "SV_file_size": 1077708467,
+  "integrated_source_hashes_verified": 10
+}

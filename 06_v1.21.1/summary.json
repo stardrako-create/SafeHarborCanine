@@ -1,0 +1,66 @@
+{
+  "counts": {
+    "excluded": 457,
+    "insufficient_evidence": 3,
+    "passes_recorded_checks": 1
+  },
+  "repeat_max_difference": 16.92,
+  "comparison": [
+    {
+      "chrom": "NC_051831.1",
+      "start": "39677324",
+      "end": "39739751",
+      "genes": "ANO2/NTF3",
+      "previous_score": "0.4309",
+      "corrected_score": "0.5072",
+      "previous_rrbs": "8.359786694848841",
+      "corrected_rrbs": "74.0250218438764",
+      "rrbs_observed_fraction": "0.11293190446441444",
+      "repeat_pct": "28.74",
+      "status": "passes_recorded_checks",
+      "missing": ""
+    },
+    {
+      "chrom": "NC_051836.1",
+      "start": "27013911",
+      "end": "27071204",
+      "genes": "NPNT/TBCK",
+      "previous_score": "0.512",
+      "corrected_score": "0.5015",
+      "previous_rrbs": "6.827160799960871",
+      "corrected_rrbs": "81.48927577336629",
+      "rrbs_observed_fraction": "0.08377986839579006",
+      "repeat_pct": "",
+      "status": "insufficient_evidence",
+      "missing": "repeat_content;conservation"
+    },
+    {
+      "chrom": "NC_051811.1",
+      "start": "17217706",
+      "end": "17274511",
+      "genes": "LOC119876429/LOC119872513",
+      "previous_score": "0.4605",
+      "corrected_score": "0.3988",
+      "previous_rrbs": "5.2192546494273",
+      "corrected_rrbs": "84.70850296020508",
+      "rrbs_observed_fraction": "0.061614294516327786",
+      "repeat_pct": "",
+      "status": "insufficient_evidence",
+      "missing": "repeat_content;conservation"
+    },
+    {
+      "chrom": "NC_051820.1",
+      "start": "22976673",
+      "end": "23048542",
+      "genes": "LOC111090199/LOC100682550",
+      "previous_score": "0.3556",
+      "corrected_score": "0.374",
+      "previous_rrbs": "5.498873184452084",
+      "corrected_rrbs": "76.73757609580328",
+      "rrbs_observed_fraction": "0.07165815581126772",
+      "repeat_pct": "",
+      "status": "insufficient_evidence",
+      "missing": "repeat_content;conservation"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "started_utc": "2026-09-25T07:33:58.118346+00:00",
+  "genomic_segments": 1667,
+  "spanning_reads": 7,
+  "spanning_molecule_names": 7,
+  "review_sha256": "f179ee8631ecfd0ddf1777e6976152bbf6e0a16a81b03aa6638bba1b579d70ec",
+  "updated_utc": "2026-09-25T07:34:00.573191+00:00"
+}

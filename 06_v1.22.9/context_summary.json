@@ -1,0 +1,173 @@
+{
+  "selected_genes": 40,
+  "mapped": 40,
+  "previously_missing_recovered": [
+    {
+      "gene": "ANO2",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 4,
+      "min_raw": 0,
+      "max_raw": 4,
+      "min_CPM": 0.0,
+      "max_CPM": 0.07022653024531128
+    },
+    {
+      "gene": "APOBEC4",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 6,
+      "min_raw": 0,
+      "max_raw": 6,
+      "min_CPM": 0.0,
+      "max_CPM": 0.10720457826442542
+    },
+    {
+      "gene": "ARHGEF38",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 8,
+      "min_raw": 0,
+      "max_raw": 6,
+      "min_CPM": 0.0,
+      "max_CPM": 0.12372456215269355
+    },
+    {
+      "gene": "CD247",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 9,
+      "min_raw": 6800,
+      "max_raw": 16027,
+      "min_CPM": 150.85502966974573,
+      "max_CPM": 322.9327139075682
+    },
+    {
+      "gene": "CD8B",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 9,
+      "min_raw": 469,
+      "max_raw": 17105,
+      "min_CPM": 10.40456013457511,
+      "max_CPM": 305.62238520216613
+    },
+    {
+      "gene": "COLGALT2",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 7,
+      "min_raw": 0,
+      "max_raw": 13,
+      "min_CPM": 0.0,
+      "max_CPM": 0.28861029016900774
+    },
+    {
+      "gene": "GALNT8",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 5,
+      "min_raw": 0,
+      "max_raw": 5,
+      "min_CPM": 0.0,
+      "max_CPM": 0.10754089383635551
+    },
+    {
+      "gene": "GIMD1",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 9,
+      "min_raw": 1,
+      "max_raw": 8,
+      "min_CPM": 0.02218456318672731,
+      "max_CPM": 0.17760633241169707
+    },
+    {
+      "gene": "KCNA1",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 2,
+      "min_raw": 0,
+      "max_raw": 5,
+      "min_CPM": 0.0,
+      "max_CPM": 0.08933714855368785
+    },
+    {
+      "gene": "KCNA5",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 0,
+      "min_raw": 0,
+      "max_raw": 0,
+      "min_CPM": 0.0,
+      "max_CPM": 0.0
+    },
+    {
+      "gene": "KCNA6",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 0,
+      "min_raw": 0,
+      "max_raw": 0,
+      "min_CPM": 0.0,
+      "max_CPM": 0.0
+    },
+    {
+      "gene": "LOC119867197",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 9,
+      "min_raw": 18,
+      "max_raw": 53,
+      "min_CPM": 0.46621662258070484,
+      "max_CPM": 1.1140281131510368
+    },
+    {
+      "gene": "LOC119872513",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 0,
+      "min_raw": 0,
+      "max_raw": 0,
+      "min_CPM": 0.0,
+      "max_CPM": 0.0
+    },
+    {
+      "gene": "LOC119876429",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 8,
+      "min_raw": 0,
+      "max_raw": 32,
+      "min_CPM": 0.0,
+      "max_CPM": 0.6990158099363107
+    },
+    {
+      "gene": "NTF3",
+      "mapping_status": "exact_unique",
+      "absent_published_CPM": true,
+      "nonzero_samples": 1,
+      "min_raw": 0,
+      "max_raw": 4,
+      "min_CPM": 0.0,
+      "max_CPM": 0.08078865562466173
+    }
+  ],
+  "unresolved": [],
+  "all_zero": [
+    "KCNA5",
+    "KCNA6",
+    "LOC119872513"
+  ],
+  "input_sha256": {
+    "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.7\\gene_counts_unstranded.tsv": "2928bd51d66f171abfa116d5daf7bd5569c4bafce1856ee5883008357af58331",
+    "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.4\\CAR_T_gene_expression_context.tsv": "68c44d1c581dc276483d76d237aedf7f409078cff0ba9c9eacd5ae6d24d2387a"
+  },
+  "limitations": [
+    "Reported donor labels, not genotype-verified identity",
+    "CPM denominator: all gene-assigned unstranded pairs",
+    "No p-values, no equivalence/stability inference, no pseudocount ratios",
+    "No change to candidate filters, rankings or genomic anchors",
+    "No expression equals accessibility or integration safety inference"
+  ]
+}

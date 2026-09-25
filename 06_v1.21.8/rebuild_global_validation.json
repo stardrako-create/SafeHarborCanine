@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "sequences": 376,
+  "bins_checked": 95874515,
+  "covered_bp": {
+    "mean": 2328830335,
+    "var": 2312901198,
+    "evidence": 2396858295
+  },
+  "reproduced_gain_background": 0.08076513558626175,
+  "scope": "All cached bins and final BigWig header coverage; independent base-level numerical checks recorded separately."
+}

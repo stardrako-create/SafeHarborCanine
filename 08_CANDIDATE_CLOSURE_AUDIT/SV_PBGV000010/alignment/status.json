@@ -1,0 +1,14 @@
+{
+  "pid": 294,
+  "status": "failed",
+  "stage": "full_genome_alignment_regional_retention",
+  "input_pairs": 185353881,
+  "updated_utc": "2026-09-20T15:55:10Z",
+  "free_bytes": 55825453056,
+  "child_pids": [
+    342,
+    343,
+    344
+  ],
+  "error": "RuntimeError('Pipeline process failed; inspect stage stderr')"
+}

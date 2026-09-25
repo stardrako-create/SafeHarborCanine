@@ -1,0 +1,101 @@
+{
+  "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "index_sha256": "87309c2859e7e7108250f17ce65ba7059511040976ba704f98abc9bdd4a3a356",
+  "requests": [
+    {
+      "chrom": "chr27",
+      "start_byte": 165194586034,
+      "end_byte": 165195613824,
+      "sha256": "a0e343a51992adc8d07bbdba04b1b2601e4d7547b08802d5cfb8ced5761ab9fb"
+    },
+    {
+      "chrom": "chr27",
+      "start_byte": 165518765531,
+      "end_byte": 165518843851,
+      "sha256": "2ed885722bf47a5931c7a81bfc40abe67fb349f98570427b0040174dda943827"
+    },
+    {
+      "chrom": "chr27",
+      "start_byte": 167118893564,
+      "end_byte": 167118969155,
+      "sha256": "c1243dfe8eef0038a2b6c71df16e1022601020c67b9497b00d895f0d14fb4aaa"
+    },
+    {
+      "chrom": "chr27",
+      "start_byte": 167119134039,
+      "end_byte": 167119226920,
+      "sha256": "4f124d6aeadddc1fd5b23804ec0eccbbff643e2fce6bb601c465aa16cfd986c2"
+    },
+    {
+      "chrom": "chr27",
+      "start_byte": 167534827938,
+      "end_byte": 167534901942,
+      "sha256": "4fa3e202eb2e15ce326521ece7dedd0be9014c69bd31cc432e949619bd0658a6"
+    },
+    {
+      "chrom": "chr7",
+      "start_byte": 51763383803,
+      "end_byte": 51766780381,
+      "sha256": "aa576a3d4229f7ba893447f9553154039ca05d82899843b99fad259b6efcfec6"
+    },
+    {
+      "chrom": "chr32",
+      "start_byte": 186984959651,
+      "end_byte": 186986505749,
+      "sha256": "2c93bbc754746583f77ff042da0ba023f0d78b52f31d2dbe63cfdfa570bae3a0"
+    },
+    {
+      "chrom": "chr32",
+      "start_byte": 187013625792,
+      "end_byte": 187013708417,
+      "sha256": "ee4b1cd7644fc9ad9c969507cacbb2baba5c915dd299ebaf5b3522aae73a5b1d"
+    },
+    {
+      "chrom": "chr32",
+      "start_byte": 187033589460,
+      "end_byte": 187033663148,
+      "sha256": "5f21add0d2a955f2f4278d6d2c1b7a6ba56f5f71d716688c2b91e92847f0ac87"
+    }
+  ],
+  "windows": [
+    {
+      "genes": "ANO2/NTF3",
+      "uu_contig": "NC_049248.1",
+      "vcf_contig": "chr27",
+      "start": "6721625",
+      "end": "6722625",
+      "mapq": "60",
+      "NM": "6",
+      "query_aligned_bp": "1000",
+      "alternatives": "False",
+      "eligible_for_variant_lookup": "True",
+      "sv_records_overlapping": "0"
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "uu_contig": "NC_049228.1",
+      "vcf_contig": "chr7",
+      "start": "17383016",
+      "end": "17384016",
+      "mapq": "60",
+      "NM": "1",
+      "query_aligned_bp": "1000",
+      "alternatives": "False",
+      "eligible_for_variant_lookup": "True",
+      "sv_records_overlapping": "0"
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "uu_contig": "NC_049253.1",
+      "vcf_contig": "chr32",
+      "start": "13062402",
+      "end": "13063402",
+      "mapq": "60",
+      "NM": "0",
+      "query_aligned_bp": "1000",
+      "alternatives": "False",
+      "eligible_for_variant_lookup": "True",
+      "sv_records_overlapping": "1"
+    }
+  ]
+}

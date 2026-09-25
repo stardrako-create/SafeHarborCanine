@@ -1,0 +1,11 @@
+[
+  "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+  "mem",
+  "-t",
+  "8",
+  "-R",
+  "@RG\\tID:PBGV000010\\tSM:PBGV000010\\tPL:ILLUMINA",
+  "/mnt/d/Jin2024_work/uu_gsd/genome_uu_gsd.fa",
+  "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/chunk_000/mate1.fastq",
+  "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/chunk_000/mate2.fastq"
+]

@@ -1,0 +1,137 @@
+{
+  "target": {
+    "name": "LYZ_feature_control",
+    "chrom": "NC_006592.4",
+    "start": 11277889,
+    "end": 11278889,
+    "kind": "gene_feature_control_not_verified_TSS"
+  },
+  "search_steps": [
+    [
+      960375552,
+      [
+        13,
+        30495316
+      ]
+    ],
+    [
+      480187776,
+      [
+        6,
+        13379522
+      ]
+    ],
+    [
+      720281664,
+      [
+        9,
+        26080936
+      ]
+    ],
+    [
+      600234720,
+      [
+        7,
+        67424237
+      ]
+    ],
+    [
+      660258192,
+      [
+        8,
+        34849745
+      ]
+    ],
+    [
+      690269928,
+      [
+        8,
+        57039064
+      ]
+    ],
+    [
+      705275796,
+      [
+        9,
+        11942037
+      ]
+    ],
+    [
+      697772862,
+      [
+        9,
+        1866152
+      ]
+    ],
+    [
+      701524329,
+      [
+        9,
+        7588094
+      ]
+    ],
+    [
+      703400062,
+      [
+        9,
+        9921019
+      ]
+    ],
+    [
+      704337929,
+      [
+        9,
+        10895737
+      ]
+    ],
+    [
+      704806862,
+      [
+        9,
+        11414924
+      ]
+    ],
+    [
+      704572395,
+      [
+        9,
+        11190623
+      ]
+    ],
+    [
+      704689628,
+      [
+        9,
+        11298233
+      ]
+    ],
+    [
+      704631011,
+      [
+        9,
+        11262327
+      ]
+    ],
+    [
+      704660319,
+      [
+        9,
+        11295744
+      ]
+    ]
+  ],
+  "range_start": 704499939,
+  "range_end": 705708895,
+  "first_key": [
+    9,
+    11074517
+  ],
+  "last_key": [
+    9,
+    12779675
+  ],
+  "fragment_rows": 123,
+  "starts_in_window": 117,
+  "raw_file": "LYZ_feature_control.fragments.tsv",
+  "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+}

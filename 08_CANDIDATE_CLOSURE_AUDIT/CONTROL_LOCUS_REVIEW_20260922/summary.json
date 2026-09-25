@@ -1,0 +1,18 @@
+{
+  "background_windows": 3000,
+  "observed_ATAC": 2971,
+  "without_flags_in_limited_screen": 541,
+  "random_queue": 10,
+  "low_ATAC_queue": 10,
+  "shared_ids": [],
+  "w01_GC": 0.411,
+  "random_seed": 20260922,
+  "low_ATAC_rule": "<=20th percentile of observed 1kb background; exploratory comparator only, not candidate eligibility threshold",
+  "decision": "Review queues only; no locus released for editing",
+  "limitations": [
+    "Random sample conditional on limited annotation filters; not unrestricted genomic random sample",
+    "Low-ATAC ranked by GC distance, not fully covariate-matched",
+    "Gene-level 5prime screen does not complete alternative-transcript review",
+    "Remaining mandatory evidence explicitly pending; no missing layer treated as passing"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "results": {
+    "bg1k_2848": {
+      "nearest_all_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005307621.1",
+        "gene": "LOC111094255",
+        "strand": "-",
+        "annotated_5prime0": 28892367,
+        "gap_bp": 82639
+      },
+      "overlap_transcripts": []
+    },
+    "bg1k_0442": {
+      "nearest_all_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005306062.1",
+        "gene": "LOC119867286",
+        "strand": "+",
+        "annotated_5prime0": 10501157,
+        "gap_bp": 69671
+      },
+      "overlap_transcripts": []
+    },
+    "w01": {
+      "nearest_all_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429707.1",
+        "gene": "LOC119872513",
+        "strand": "-",
+        "annotated_5prime0": 17289491,
+        "gap_bp": 32785
+      },
+      "overlap_transcripts": []
+    }
+  },
+  "gff_sha256": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019",
+  "limit": "Annotated 5prime boundaries, not experimental alternative TSS mapping"
+}

@@ -1,0 +1,55 @@
+{
+  "sources": [
+    {
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "samples": 1987,
+      "regions": [
+        {
+          "chrom": "chr27",
+          "start": 6719625,
+          "end": 6737835
+        },
+        {
+          "chrom": "chr32",
+          "start": 13069158,
+          "end": 13081664
+        },
+        {
+          "chrom": "chr7",
+          "start": 17403010,
+          "end": 17404510
+        }
+      ],
+      "regional_records": 817
+    },
+    {
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "samples": 1987,
+      "regions": [
+        {
+          "chrom": "chr27",
+          "start": 6719625,
+          "end": 6737835
+        },
+        {
+          "chrom": "chr32",
+          "start": 13069158,
+          "end": 13081664
+        },
+        {
+          "chrom": "chr7",
+          "start": 17403010,
+          "end": 17404510
+        }
+      ],
+      "regional_records": 166
+    }
+  ],
+  "all_window_record_REF_checks_passed": true,
+  "limitations": [
+    "Window record counts overlap and are not unique population variants",
+    "AF is alternate allele frequency; no absence guarantee or experimental donor genotype",
+    "Ineligible mapping yields missing result, never zero",
+    "Regional VCFs preserve source genotypes and FILTER fields; no new variant calls"
+  ]
+}

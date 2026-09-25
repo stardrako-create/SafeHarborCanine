@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "reciprocal_pair_agreement_bp": 984,
+  "NM_decomposition": {
+    "substitutions": 5,
+    "ROS_unpaired": 16,
+    "UU_unpaired": 2
+  },
+  "supplementary_variant_records": 23,
+  "raw_VCF_count_filter_AF_checks": "passed",
+  "NPNT_alternative_records": 31,
+  "limits": "Central reference correspondence only; flanks not fully collinear; no donor genotype or functional validation"
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-24 17:30",
+  "manifest_sources_verified": 13,
+  "proposal_matches_obsidian": true,
+  "SV_completed_receipt_hash_matches": true,
+  "active_pipeline_processes_detected": 0,
+  "C_freeGiB": 46.7,
+  "D_freeGiB": 37.9,
+  "new_biological_evidence": false,
+  "remaining": [
+    "Nuclease/cassette/donor sequences for specific design",
+    "w11 structural interpretation unresolved",
+    "57 source ALT entries without resolved representation in broader control set",
+    "MemPalace sync unavailable at last attempt"
+  ]
+}

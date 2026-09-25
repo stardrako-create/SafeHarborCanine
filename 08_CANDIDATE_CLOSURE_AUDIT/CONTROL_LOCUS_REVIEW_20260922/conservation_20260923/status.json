@@ -1,0 +1,92 @@
+{
+  "state": "completed_with_unresolved_errors",
+  "started_utc": "2026-09-23T14:13:41.828434+00:00",
+  "completed": [
+    {
+      "id": "bg1k_2054",
+      "scored_bp": 1000,
+      "mean": 0.03342700000000003,
+      "max50bp_mean": 0.5831999999999999,
+      "fraction_ge_2": 0.014,
+      "maf_sha256": "113e68f66f0e1bdf7c48cc7161f9ec4066dc84f5c6e946c2c94b497f307750ca",
+      "wig_sha256": "7221a4c9e9a74bfa23600b13e76ebba2e5eb3d1b49686626a8fdbb022322b6b3"
+    },
+    {
+      "id": "bg1k_2848",
+      "scored_bp": 1000,
+      "mean": 0.1680149999999993,
+      "max50bp_mean": 0.6976999999999998,
+      "fraction_ge_2": 0.032,
+      "maf_sha256": "eabc5be954adbcc228aea775ba84fc0bcfa2f00a46b7de3776517a922a3b7013",
+      "wig_sha256": "375d9820d3b7f7aea0007df84c7bb2fb862abc09415e502514fb4a5a81911eb7"
+    },
+    {
+      "id": "bg1k_0442",
+      "scored_bp": 1000,
+      "mean": 0.025010999999999974,
+      "max50bp_mean": 0.45287999999999995,
+      "fraction_ge_2": 0.021,
+      "maf_sha256": "86b58fcee51771f69d3acebbbfbd3c063f00ef0457c5a6992870fd3213ae13f2",
+      "wig_sha256": "cbba61650e0b22c416f4034c6817349af1ed5a358314bc7b0ae02e2c9d331d54"
+    },
+    {
+      "id": "bg1k_2901",
+      "scored_bp": 1000,
+      "mean": 0.30018500000000015,
+      "max50bp_mean": 1.0992600000000001,
+      "fraction_ge_2": 0.066,
+      "maf_sha256": "cced97303c6e5c5a09fd65a032cf01a0f819a91c24b1884df29747ad97a03fe8",
+      "wig_sha256": "70418b4b233abd8b4bebf30476928a8bb2ade3bedb2b8ad3b2d9c5d74750c5dd"
+    },
+    {
+      "id": "bg1k_0202",
+      "scored_bp": 1000,
+      "mean": -0.14467100000000024,
+      "max50bp_mean": 0.09626,
+      "fraction_ge_2": 0.004,
+      "maf_sha256": "858fb143f6266f70d2b55d8739c37e87366619a37e1a7268cf6ab09798d4d4c7",
+      "wig_sha256": "ebff2341f4c809e68ef7d29ad109cdc5d20f61d14f0b7ce63772cb1545d421bf"
+    },
+    {
+      "id": "bg1k_1958",
+      "scored_bp": 1000,
+      "mean": 0.09742400000000014,
+      "max50bp_mean": 0.7011400000000001,
+      "fraction_ge_2": 0.024,
+      "maf_sha256": "b6403d57c1da4c027d3974304d4e418644e8fa0a3b180d021c28d4ea6adcc5f5",
+      "wig_sha256": "6814ece5f99867ca2c350049b263bb8c2d9c4d0515a329d7cc6fd9623e2b2a42"
+    },
+    {
+      "id": "bg1k_2686",
+      "scored_bp": 1000,
+      "mean": 0.02186500000000027,
+      "max50bp_mean": 0.37240000000000006,
+      "fraction_ge_2": 0.011,
+      "maf_sha256": "9cedf82d969a3e5c47c5f9439bccb0a0c1a5b95891a6765118767132a2a18b36",
+      "wig_sha256": "f7c4776e4322ebf9c4f0646892d0c3c915d03ab2b10acdde0ba67aa61a862786"
+    },
+    {
+      "id": "bg1k_0878",
+      "scored_bp": 1000,
+      "mean": -0.01142100000000001,
+      "max50bp_mean": 0.34531999999999996,
+      "fraction_ge_2": 0.015,
+      "maf_sha256": "8410826ddee4d12302dac8b1f1293fb1422cc05d637e64f57ff013bae8fd7103",
+      "wig_sha256": "34cdbdd015a96b5e617f8fbf0d33d0fcb7b7ff32efca8d333651cec79801aa0d"
+    }
+  ],
+  "errors": [
+    {
+      "id": "bg1k_0117",
+      "error": "min() arg is an empty sequence"
+    }
+  ],
+  "model_sha256": "71972f351ee732763058bf0d9bcc3970d95e6518ffe318479eb80964b03d6dff",
+  "limitations": [
+    "CanFam3-aligned published-model scores transferred only through strict roundtrip windows",
+    "HAL extraction suppresses paralogous duplicates; not a separate paralogy assessment",
+    "No missing score is interpreted as zero conservation",
+    "Remaining 11 controls require resolved coordinate projection"
+  ],
+  "updated_utc": "2026-09-23T14:14:40.821126+00:00"
+}

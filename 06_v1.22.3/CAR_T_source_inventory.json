@@ -1,0 +1,24 @@
+{
+  "accession": "GSE247355",
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247355/suppl/GSE247355_Car_T-Dual_vs_Single_Normalized_counts_CPM.txt.gz",
+  "sha256": "d3c8a3058cc7ab767e52bee41cfe6c248e728b5f05b903047af9d90f7c4745ce",
+  "gene_rows": 14385,
+  "sample_columns": [
+    "B_B7H3_CAR_T",
+    "B_BC_CAR_T",
+    "B_T_cell",
+    "E_B7H3_CAR_T",
+    "E_BC_CAR_T",
+    "E_T_cell",
+    "M_B7H3_CAR_T",
+    "M_BC_CAR_T",
+    "M_T_cell"
+  ],
+  "download_validated": true,
+  "limitations": [
+    "Deposited normalized CPM, not raw counts; do not feed into count-based DE testing",
+    "Sample prefixes B/E/M not yet independently resolved to donor metadata in this analysis",
+    "Missing genes in this processed table are not evidence of zero expression",
+    "RNA expression context does not measure accessibility or demonstrate safe integration"
+  ]
+}

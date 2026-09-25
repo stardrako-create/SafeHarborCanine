@@ -1,0 +1,445 @@
+{
+  "metadata": [
+    {
+      "sample": "B_B7H3_CAR_T",
+      "experiment": "SRX22428478",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428478",
+      "xml_sha256": "df2c22aef5169ed3dcff05c5b87aa702e95d1ad729b80d1a60587d7140231932",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887650: B_B7H3_CAR_T_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729600",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "experiment": "SRX22428479",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428479",
+      "xml_sha256": "9c1e021116f25d72a0bf616542da08a771311ad378b76c8983b0989a56a9562e",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887651: B_BC_CAR_T_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729599",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "B_T_cell",
+      "experiment": "SRX22428480",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428480",
+      "xml_sha256": "de71cd61a8abe1fe07ed9c427aa65f203ba1511ce3cc07bfd7f7e0fb01ccb435",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887652: B_T_cell_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729598",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "experiment": "SRX22428481",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428481",
+      "xml_sha256": "fa3bd73020675ccb2b2dfb508638479e462177d4355f64d1bfb41e1b70318c9b",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887653: E_B7H3_CAR_T_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729597",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "experiment": "SRX22428482",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428482",
+      "xml_sha256": "42d5a75904ab0b72e5ba3eb3f185744172cf20a34b4659defa4288ef89914844",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887654: E_BC_CAR_T_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729596",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "E_T_cell",
+      "experiment": "SRX22428483",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428483",
+      "xml_sha256": "0daf3e9208ad975017d4c06ee7ec52c9163305d1ec3dd0cdb15a7c8ac6dbadd0",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887655: E_T_cell_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729595",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "experiment": "SRX22428484",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428484",
+      "xml_sha256": "8f45261520310e77388a9292df8b6fc35b976ccbd29111cb2602b6f7fcad0c21",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887656: M_B7H3_CAR_T_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729594",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "experiment": "SRX22428485",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428485",
+      "xml_sha256": "c54abc649493e7222eb83a329bbb89a52fb3bd6f1a8725d1a0da81982aaaab02",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887657: M_BC_CAR_T_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729593",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    },
+    {
+      "sample": "M_T_cell",
+      "experiment": "SRX22428486",
+      "source": "https://www.ebi.ac.uk/ena/browser/api/xml/SRX22428486",
+      "xml_sha256": "417cd1e7e1c9fa40e1aae7479df5983023d86a6ad0ab470e4d56d232b6361961",
+      "protocol": "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany). Libraries were prepared with SMART-Seq v4 3' DE Kit (Takarabio, Japan)",
+      "layout": [
+        "PAIRED"
+      ],
+      "title": "GSM7887658: M_T_cell_1; Canis lupus familiaris; RNA-Seq",
+      "submitted": [
+        {
+          "run_accession": "SRR26729592",
+          "submitted_format": "",
+          "submitted_ftp": "",
+          "submitted_md5": "",
+          "submitted_bytes": ""
+        }
+      ]
+    }
+  ],
+  "read_structure": [
+    {
+      "sample": "B_B7H3_CAR_T",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00191,
+      "polyT_80pct_positions7_26_fraction": 0.00083,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "B_B7H3_CAR_T",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00194,
+      "polyT_80pct_positions7_26_fraction": 0.0008,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00199,
+      "polyT_80pct_positions7_26_fraction": 0.00069,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00222,
+      "polyT_80pct_positions7_26_fraction": 0.00069,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "B_T_cell",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.0018,
+      "polyT_80pct_positions7_26_fraction": 0.00078,
+      "joint_index_polyT_fraction": 1e-05,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "B_T_cell",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00201,
+      "polyT_80pct_positions7_26_fraction": 0.00074,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00207,
+      "polyT_80pct_positions7_26_fraction": 0.00079,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00203,
+      "polyT_80pct_positions7_26_fraction": 0.00075,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00195,
+      "polyT_80pct_positions7_26_fraction": 0.00072,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00214,
+      "polyT_80pct_positions7_26_fraction": 0.00081,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "E_T_cell",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00178,
+      "polyT_80pct_positions7_26_fraction": 0.00069,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "E_T_cell",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00202,
+      "polyT_80pct_positions7_26_fraction": 0.00101,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00189,
+      "polyT_80pct_positions7_26_fraction": 0.0007,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00199,
+      "polyT_80pct_positions7_26_fraction": 0.00074,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00189,
+      "polyT_80pct_positions7_26_fraction": 0.00079,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00189,
+      "polyT_80pct_positions7_26_fraction": 0.0008,
+      "joint_index_polyT_fraction": 1e-05,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "M_T_cell",
+      "mate": 1,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00167,
+      "polyT_80pct_positions7_26_fraction": 0.00092,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    },
+    {
+      "sample": "M_T_cell",
+      "mate": 2,
+      "n": 100000,
+      "known_inline_prefix_fraction": 0.00186,
+      "polyT_80pct_positions7_26_fraction": 0.00085,
+      "joint_index_polyT_fraction": 0.0,
+      "length_histogram": {
+        "150": 100000
+      },
+      "phred_histogram": {
+        "30": 15000000
+      }
+    }
+  ],
+  "sampling": "First 100000 reads in each of 18 raw ENA FASTQs; not random nor whole-file structure validation",
+  "manual": "Takara authored 092618 manual pp8,21; mirror https://device.report/m/a1cff4f8333dfe571d210a1f84e734b6cdb0f611dc09ffa2d1e02c4b1109f9f6.pdf",
+  "limitations": [
+    "Metadata may be copied across repositories",
+    "Absence of inline structure could reflect preprocessing or a different library workflow; does not identify which",
+    "No raw-file modification or reinterpretation of barcode as UMI"
+  ]
+}

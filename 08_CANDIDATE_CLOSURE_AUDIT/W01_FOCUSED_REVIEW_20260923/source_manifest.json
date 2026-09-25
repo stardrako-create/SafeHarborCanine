@@ -1,0 +1,71 @@
+{
+  "utc": "2026-09-24T08:29:37.4929961Z",
+  "sources": [
+    {
+      "relative_path": "W01_FOCUSED_REVIEW_20260923\\focused_checks.json",
+      "sha256": "ba886fd446908917f934b08b76f1108bb65eabfba7fc8486981144c4e7243fe8",
+      "bytes": 3478
+    },
+    {
+      "relative_path": "W01_FOCUSED_REVIEW_20260923\\all_RNA_context.json",
+      "sha256": "efaea004ab72e12584f9af9b7a35f67f8ad5663c345da8575c787bf579555969",
+      "bytes": 1038
+    },
+    {
+      "relative_path": "W01_TEST_HANDOFF\\LEIA_PRIMEIRO.md",
+      "sha256": "cf466d72cfa077d54b530d6a453fe3f5c55cf099d7030ed64485529ee7a17836",
+      "bytes": 3309
+    },
+    {
+      "relative_path": "W01_TEST_HANDOFF\\w01_catalogue_alleles_ROS.tsv",
+      "sha256": "80956dab9025686049e3fee8617751f195c97682bf23775f0f0a8deda9fdbe7b",
+      "bytes": 4085
+    },
+    {
+      "relative_path": "W01_TEST_HANDOFF\\w01_exact_unique_PASS_REF_clear_20bp_start_runs.tsv",
+      "sha256": "7183b9153ef3c63352541250a50098318fcb6d03a2462c740cf5eef46bf074b2",
+      "bytes": 2541
+    },
+    {
+      "relative_path": "allele_frequency_review.json",
+      "sha256": "bf5c2ac78ac412cf100c769a5c91e1a2b76bc8fa9b7b7e420cf419fbffd89873",
+      "bytes": 1129
+    },
+    {
+      "relative_path": "coding_vs_all_gene_context.json",
+      "sha256": "cb243962d8dd9a0fc93fef695b76374c5f9b9e9f1a2dea74737cf015caed6904",
+      "bytes": 1012
+    },
+    {
+      "relative_path": "variant_regulatory_review.json",
+      "sha256": "14ada8c742731ff1769b431928600ddb065a6ad89c480e65b259c65192aeb80f",
+      "bytes": 2302
+    },
+    {
+      "relative_path": "tad_scale_audit.json",
+      "sha256": "6c4d48213a0c36d78e3774db0a0e3adbcaf9e10d321ea2ab03b5f9ca5812987e",
+      "bytes": 2604
+    },
+    {
+      "relative_path": "exact_sequence_review.json",
+      "sha256": "102628a73582b16b4bb3425e4f1b4bc187656676d696841fd10b60fce847bf07",
+      "bytes": 2007
+    },
+    {
+      "relative_path": "CONTROL_LOCUS_REVIEW_20260922\\integrated_review_20260923\\review.json",
+      "sha256": "59a23c1d64bfdd56bb146d0411d5f400ee87661b51820a842dce417bf7fe64d2",
+      "bytes": 17486
+    },
+    {
+      "relative_path": "CONTROL_LOCUS_REVIEW_20260922\\EpiC_roundtrip_and_state_review.json",
+      "sha256": "0dd6d91263f28c2aecf4c0f4a51898603ac22fc27b55c6abdc5c970627d352d5",
+      "bytes": 4035
+    },
+    {
+      "relative_path": "CONTROL_LOCUS_REVIEW_20260922\\variant_projection_20260923\\review.json",
+      "sha256": "47604dda568ba8f10ce01c09c77dc1e77b20533cbc839713cbcf8aea992f2786",
+      "bytes": 32495
+    }
+  ],
+  "scope": "Sources for focused review; hashing verifies file identity, not biological validity"
+}

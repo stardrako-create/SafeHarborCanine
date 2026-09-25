@@ -1,0 +1,98 @@
+{
+  "utc": "2026-09-23T14:11:49.517356+00:00",
+  "checks": "20 input sequences hash-verified; clipped union annotation matches independently counted masked Ns inside all windows",
+  "results": [
+    {
+      "id": "bg1k_2054",
+      "masked_bp": 389
+    },
+    {
+      "id": "bg1k_0567",
+      "masked_bp": 223
+    },
+    {
+      "id": "bg1k_2848",
+      "masked_bp": 0
+    },
+    {
+      "id": "bg1k_0045",
+      "masked_bp": 365
+    },
+    {
+      "id": "bg1k_2865",
+      "masked_bp": 305
+    },
+    {
+      "id": "bg1k_0442",
+      "masked_bp": 128
+    },
+    {
+      "id": "bg1k_2901",
+      "masked_bp": 802
+    },
+    {
+      "id": "bg1k_0202",
+      "masked_bp": 57
+    },
+    {
+      "id": "bg1k_0334",
+      "masked_bp": 310
+    },
+    {
+      "id": "bg1k_2545",
+      "masked_bp": 21
+    },
+    {
+      "id": "bg1k_0228",
+      "masked_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "masked_bp": 491
+    },
+    {
+      "id": "bg1k_2686",
+      "masked_bp": 492
+    },
+    {
+      "id": "bg1k_1023",
+      "masked_bp": 195
+    },
+    {
+      "id": "bg1k_0023",
+      "masked_bp": 742
+    },
+    {
+      "id": "bg1k_0878",
+      "masked_bp": 335
+    },
+    {
+      "id": "bg1k_1650",
+      "masked_bp": 225
+    },
+    {
+      "id": "bg1k_2228",
+      "masked_bp": 160
+    },
+    {
+      "id": "bg1k_2867",
+      "masked_bp": 81
+    },
+    {
+      "id": "bg1k_0117",
+      "masked_bp": 1000
+    }
+  ],
+  "cached_dog_library_sha256": {
+    "retrolib": "7b0cf6d984b06a3084932f5e1465b1f0b9da8303369c22435929447f0329c87d",
+    "shortlib": "e6eed69029b4aa3bdc512f8d33ae37c70e9c9b679d995252a7575988f4fa5d06",
+    "refinelib": "4bff5b99c196109370729893c548de4ed352a0f1bf9351a801241c8647c1d7a1",
+    "speciesMeta.pm": "a212b3b9080098a71514a8708fba8a00d55a4a30739a98a3bea111f7ed9ec60f",
+    "mirslib": "b75c648b10f90cce65f6f7c5cf89f43dc2632eb47fa532c4484d3432b718f140",
+    "shortcutlib": "24df3bb327fa7498629c27e0eafbe32ce076a39c23b8fb0cafa0b7bc4be90ac1",
+    "cutlib": "7c956951dd6729fe682f40b547b598aed0e12d1b0148b6c310c9d3b68dace756",
+    "sinecutlib": "3a8e729f3be47e982b2f2edc5b620175d3f33021e3b8ff91600a1cbb9761f1a4",
+    "longlib": "80288c6d1aeac9aae2ad663f688df80c3df2fb4f00adafc26c6930ad398f149e",
+    "mirlib": "1c79e690f731ae608f9b3cff30b41923fd8b51642a7b46f110be5e6e7904a4f6"
+  }
+}

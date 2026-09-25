@@ -1,0 +1,789 @@
+{
+  "utc": "2026-09-25T07:34:00.550461+00:00",
+  "genomic_segments": 1667,
+  "genomic_bp": 3455539,
+  "reads_reported": 30,
+  "spanning_reads": 7,
+  "spanning_molecule_names": {
+    "SRR15734832.115369889": [
+      "SRR15734832.115369889_mate1"
+    ],
+    "SRR15734832.19313490": [
+      "SRR15734832.19313490_mate2"
+    ],
+    "SRR15734832.27628065": [
+      "SRR15734832.27628065_mate1"
+    ],
+    "SRR15734832.33443366": [
+      "SRR15734832.33443366_mate2"
+    ],
+    "SRR15734832.42922787": [
+      "SRR15734832.42922787_mate2"
+    ],
+    "SRR15734832.66864324": [
+      "SRR15734832.66864324_mate1"
+    ],
+    "SRR15734832.6766145": [
+      "SRR15734832.6766145_mate2"
+    ]
+  },
+  "read_results": [
+    {
+      "read": "SRR15734832.115369889_mate1",
+      "molecule": "SRR15734832.115369889",
+      "best_spanning_AS": 150,
+      "best_genomic_AS": 106,
+      "score_margin": 44,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 894,
+          "end0": 1044,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": true,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2034,
+          "end0": 2140,
+          "AS": 106,
+          "NM": 0,
+          "cigar": "106M44H",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.115369889_mate2",
+      "molecule": "SRR15734832.115369889",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1824,
+          "end0": 1974,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.120202092_mate1",
+      "molecule": "SRR15734832.120202092",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1540,
+          "end0": 1690,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 60,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.120202092_mate2",
+      "molecule": "SRR15734832.120202092",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 69,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1736,
+          "end0": 1810,
+          "AS": 69,
+          "NM": 1,
+          "cigar": "76S74M",
+          "mapq_panel_only": 16,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.131535331_mate1",
+      "molecule": "SRR15734832.131535331",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1061,
+          "end0": 1211,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 60,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.131535331_mate2",
+      "molecule": "SRR15734832.131535331",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 105,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1189,
+          "end0": 1304,
+          "AS": 105,
+          "NM": 2,
+          "cigar": "35S115M",
+          "mapq_panel_only": 60,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.132880416_mate1",
+      "molecule": "SRR15734832.132880416",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 108,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1948,
+          "end0": 2056,
+          "AS": 108,
+          "NM": 0,
+          "cigar": "108M42H",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.132880416_mate2",
+      "molecule": "SRR15734832.132880416",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 73,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2126,
+          "end0": 2199,
+          "AS": 73,
+          "NM": 0,
+          "cigar": "77S73M",
+          "mapq_panel_only": 60,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.162324092_mate1",
+      "molecule": "SRR15734832.162324092",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1445,
+          "end0": 1595,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 60,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.162324092_mate2",
+      "molecule": "SRR15734832.162324092",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 38,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1710,
+          "end0": 1748,
+          "AS": 38,
+          "NM": 0,
+          "cigar": "38M112S",
+          "mapq_panel_only": 60,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.176253461_mate1",
+      "molecule": "SRR15734832.176253461",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 149,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1087,
+          "end0": 1237,
+          "AS": 149,
+          "NM": 1,
+          "cigar": "150M",
+          "mapq_panel_only": 60,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.176253461_mate2",
+      "molecule": "SRR15734832.176253461",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 69,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1189,
+          "end0": 1268,
+          "AS": 69,
+          "NM": 2,
+          "cigar": "71S79M",
+          "mapq_panel_only": 60,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.19313490_mate1",
+      "molecule": "SRR15734832.19313490",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1968,
+          "end0": 2118,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.19313490_mate2",
+      "molecule": "SRR15734832.19313490",
+      "best_spanning_AS": 150,
+      "best_genomic_AS": 125,
+      "score_margin": 25,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 875,
+          "end0": 1025,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": true,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2015,
+          "end0": 2140,
+          "AS": 125,
+          "NM": 0,
+          "cigar": "125M25H",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.27628065_mate1",
+      "molecule": "SRR15734832.27628065",
+      "best_spanning_AS": 150,
+      "best_genomic_AS": 84,
+      "score_margin": 66,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 916,
+          "end0": 1066,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": true,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2056,
+          "end0": 2140,
+          "AS": 84,
+          "NM": 0,
+          "cigar": "84M66H",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.27628065_mate2",
+      "molecule": "SRR15734832.27628065",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 145,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1970,
+          "end0": 2120,
+          "AS": 145,
+          "NM": 1,
+          "cigar": "150M",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.33443366_mate1",
+      "molecule": "SRR15734832.33443366",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1901,
+          "end0": 2051,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.33443366_mate2",
+      "molecule": "SRR15734832.33443366",
+      "best_spanning_AS": 150,
+      "best_genomic_AS": 103,
+      "score_margin": 47,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 897,
+          "end0": 1047,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": true,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2037,
+          "end0": 2140,
+          "AS": 103,
+          "NM": 0,
+          "cigar": "103M47H",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.42046219_mate1",
+      "molecule": "SRR15734832.42046219",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 120,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1148,
+          "end0": 1273,
+          "AS": 120,
+          "NM": 1,
+          "cigar": "25S125M",
+          "mapq_panel_only": 60,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.42046219_mate2",
+      "molecule": "SRR15734832.42046219",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1000,
+          "end0": 1150,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 60,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.42922787_mate1",
+      "molecule": "SRR15734832.42922787",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 136,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1910,
+          "end0": 2056,
+          "AS": 136,
+          "NM": 2,
+          "cigar": "57M2D87M6H",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.42922787_mate2",
+      "molecule": "SRR15734832.42922787",
+      "best_spanning_AS": 145,
+      "best_genomic_AS": 79,
+      "score_margin": 66,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 921,
+          "end0": 1071,
+          "AS": 145,
+          "NM": 1,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": false,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2061,
+          "end0": 2140,
+          "AS": 79,
+          "NM": 0,
+          "cigar": "79M71H",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.66864324_mate1",
+      "molecule": "SRR15734832.66864324",
+      "best_spanning_AS": 150,
+      "best_genomic_AS": 100,
+      "score_margin": 50,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 900,
+          "end0": 1050,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": false,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2040,
+          "end0": 2140,
+          "AS": 100,
+          "NM": 0,
+          "cigar": "100M50H",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.66864324_mate2",
+      "molecule": "SRR15734832.66864324",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1904,
+          "end0": 2054,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.6766145_mate1",
+      "molecule": "SRR15734832.6766145",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 150,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1912,
+          "end0": 2062,
+          "AS": 150,
+          "NM": 0,
+          "cigar": "150M",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.6766145_mate2",
+      "molecule": "SRR15734832.6766145",
+      "best_spanning_AS": 145,
+      "best_genomic_AS": 114,
+      "score_margin": 31,
+      "best_spanning_hits": [
+        {
+          "target": "junction_L4707939_R33613308",
+          "start0": 881,
+          "end0": 1031,
+          "AS": 145,
+          "NM": 1,
+          "cigar": "150M",
+          "mapq_panel_only": 6,
+          "reverse": true,
+          "junction_spanning": true,
+          "genomic": false
+        }
+      ],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 2021,
+          "end0": 2140,
+          "AS": 114,
+          "NM": 1,
+          "cigar": "119M31H",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.83695087_mate1",
+      "molecule": "SRR15734832.83695087",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 121,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1295,
+          "end0": 1421,
+          "AS": 121,
+          "NM": 1,
+          "cigar": "24H126M",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.83695087_mate2",
+      "molecule": "SRR15734832.83695087",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 56,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1273",
+          "start0": 1000,
+          "end0": 1106,
+          "AS": 56,
+          "NM": 10,
+          "cigar": "106M44S",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.84224940_mate1",
+      "molecule": "SRR15734832.84224940",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 114,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 1901,
+          "end0": 2061,
+          "AS": 114,
+          "NM": 14,
+          "cigar": "66M10D84M",
+          "mapq_panel_only": 0,
+          "reverse": false,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    },
+    {
+      "read": "SRR15734832.84224940_mate2",
+      "molecule": "SRR15734832.84224940",
+      "best_spanning_AS": null,
+      "best_genomic_AS": 57,
+      "score_margin": null,
+      "best_spanning_hits": [],
+      "best_genomic_hits": [
+        {
+          "target": "genomic_1298",
+          "start0": 2131,
+          "end0": 2205,
+          "AS": 57,
+          "NM": 3,
+          "cigar": "75H18M1I56M",
+          "mapq_panel_only": 0,
+          "reverse": true,
+          "junction_spanning": false,
+          "genomic": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Joint index contains reported genomic alternatives from prior full-read and clipped-read alignments plus flanks and nine synthetic junctions; not the entire genome",
+    "Independent single-read alignments; molecule names group mates but do not establish paired likelihood or unique molecules",
+    "Panel MAPQ is not whole-genome MAPQ; score advantage does not establish genotype",
+    "BWA remains heuristic; selection of boundary-clipped reads is not an unbiased SV test"
+  ]
+}

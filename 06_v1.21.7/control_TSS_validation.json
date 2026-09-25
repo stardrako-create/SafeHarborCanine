@@ -1,0 +1,23 @@
+{
+  "source": "https://api.genome.ucsc.edu/getData/track?genome=canFam6;track=ncbiRefSeq;chrom=chr5;start=15300000;end=15600000",
+  "downloadTime": "2026:09:14T07:48:30Z",
+  "controls": [
+    {
+      "gene": "CD3D",
+      "TSS_position_0based": 15443560,
+      "feature_midpoint_matches_RefSeq_TSS": true,
+      "transcripts": [
+        "XM_536556.6"
+      ]
+    },
+    {
+      "gene": "CD3E",
+      "TSS_position_0based": 15466078,
+      "feature_midpoint_matches_RefSeq_TSS": true,
+      "transcripts": [
+        "XM_038509060.1",
+        "XM_038509071.1"
+      ]
+    }
+  ]
+}

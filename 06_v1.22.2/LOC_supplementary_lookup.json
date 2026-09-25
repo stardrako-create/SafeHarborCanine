@@ -1,0 +1,36 @@
+{
+  "window_id": "w00",
+  "UU_span": [
+    "chr7",
+    17382280,
+    17383266
+  ],
+  "summary": [
+    {
+      "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "samples": 1987,
+      "records": 22,
+      "PASS": 19,
+      "PASS_AF_ge_0_01": 7,
+      "noncontiguous_or_missing_REF_projection": 1,
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz"
+    },
+    {
+      "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "samples": 1987,
+      "records": 1,
+      "PASS": 1,
+      "PASS_AF_ge_0_01": 1,
+      "noncontiguous_or_missing_REF_projection": 0,
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz"
+    }
+  ],
+  "SV_records": [],
+  "limitations": [
+    "Supplementary UU reference-span lookup; original automated NM gate still failed",
+    "Interpret alongside reciprocal mapping audit",
+    "16 ROS-specific unpaired bases cannot be assessed for SNPs from this UU VCF",
+    "Even contiguous REF-coordinate projection does not validate transferred ALT allele representation",
+    "No donor genotype inference or safety nomination"
+  ]
+}

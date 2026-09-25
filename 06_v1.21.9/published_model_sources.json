@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://cgl.gi.ucsc.edu/data/cactus/241-mammals-human-phylop-models/README",
+    "sha256": "0b731b9d536f9e021a63f5de91d98c9db7f091a1c5f55158ba218a257311a5bb"
+  },
+  {
+    "url": "https://cgl.gi.ucsc.edu/data/cactus/241-mammals-human-phylop-models/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod",
+    "sha256": "71972f351ee732763058bf0d9bcc3970d95e6518ffe318479eb80964b03d6dff"
+  }
+]

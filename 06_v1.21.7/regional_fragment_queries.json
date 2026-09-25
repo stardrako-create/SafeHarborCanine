@@ -1,0 +1,1095 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7807nnn/GSM7807442/suppl/GSM7807442_atac_fragments.tsv.gz",
+  "total_remote_bytes": 1920882177,
+  "contig_order_from_header": [
+    "NC_006583.4",
+    "NC_006584.4",
+    "NC_006585.4",
+    "NC_006586.4",
+    "NC_006587.4",
+    "NC_006588.4",
+    "NC_006589.4",
+    "NC_006590.4",
+    "NC_006591.4",
+    "NC_006592.4",
+    "NC_006593.4",
+    "NC_006594.4",
+    "NC_006595.4",
+    "NC_006596.4",
+    "NC_006597.4",
+    "NC_006598.4",
+    "NC_006599.4",
+    "NC_006600.4",
+    "NC_006601.4",
+    "NC_006602.4",
+    "NC_006603.4",
+    "NC_006604.4",
+    "NC_006605.4",
+    "NC_006606.4",
+    "NC_006607.4",
+    "NC_006608.4",
+    "NC_006609.4",
+    "NC_006610.4",
+    "NC_006611.4",
+    "NC_006612.4",
+    "NC_006613.4",
+    "NC_006614.4",
+    "NC_006615.4",
+    "NC_006616.4",
+    "NC_006617.4",
+    "NC_006618.4",
+    "NC_006619.4",
+    "NC_006620.4",
+    "NC_006621.4",
+    "NW_023329670.1",
+    "NW_023329727.1",
+    "NC_002008.4"
+  ],
+  "queries": [
+    {
+      "target": {
+        "name": "ANO2/NTF3",
+        "chrom": "NC_006609.4",
+        "start": 7243778,
+        "end": 7244778,
+        "kind": "candidate"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          1440563328,
+          [
+            24,
+            46417061
+          ]
+        ],
+        [
+          1680657216,
+          [
+            32,
+            11527934
+          ]
+        ],
+        [
+          1560610272,
+          [
+            27,
+            37044645
+          ]
+        ],
+        [
+          1500586800,
+          [
+            26,
+            18778273
+          ]
+        ],
+        [
+          1470575064,
+          [
+            25,
+            23375515
+          ]
+        ],
+        [
+          1485580932,
+          [
+            26,
+            1332585
+          ]
+        ],
+        [
+          1493083866,
+          [
+            26,
+            8481405
+          ]
+        ],
+        [
+          1489332399,
+          [
+            26,
+            5113514
+          ]
+        ],
+        [
+          1491208132,
+          [
+            26,
+            7707407
+          ]
+        ],
+        [
+          1490270265,
+          [
+            26,
+            6132768
+          ]
+        ],
+        [
+          1490739198,
+          [
+            26,
+            7140697
+          ]
+        ],
+        [
+          1490973665,
+          [
+            26,
+            7392416
+          ]
+        ],
+        [
+          1490856431,
+          [
+            26,
+            7281386
+          ]
+        ],
+        [
+          1490797814,
+          [
+            26,
+            7223661
+          ]
+        ],
+        [
+          1490827122,
+          [
+            26,
+            7242674
+          ]
+        ]
+      ],
+      "range_start": 1490666742,
+      "range_end": 1491875698,
+      "first_key": [
+        26,
+        6952616
+      ],
+      "last_key": [
+        26,
+        8008529
+      ],
+      "fragment_rows": 102,
+      "starts_in_window": 91,
+      "raw_file": "ANO2_NTF3.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    },
+    {
+      "target": {
+        "name": "LOC119876429/LOC119872513",
+        "chrom": "NC_006589.4",
+        "start": 17088186,
+        "end": 17089186,
+        "kind": "candidate"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          480187776,
+          [
+            6,
+            13379522
+          ]
+        ],
+        [
+          720281664,
+          [
+            9,
+            26080936
+          ]
+        ],
+        [
+          600234720,
+          [
+            7,
+            67424237
+          ]
+        ],
+        [
+          540211248,
+          [
+            6,
+            80373442
+          ]
+        ],
+        [
+          510199512,
+          [
+            6,
+            43996604
+          ]
+        ],
+        [
+          495193644,
+          [
+            6,
+            32404090
+          ]
+        ],
+        [
+          487690710,
+          [
+            6,
+            22068897
+          ]
+        ],
+        [
+          483939243,
+          [
+            6,
+            17217079
+          ]
+        ],
+        [
+          482063509,
+          [
+            6,
+            15416741
+          ]
+        ],
+        [
+          483001376,
+          [
+            6,
+            16568874
+          ]
+        ],
+        [
+          483470309,
+          [
+            6,
+            16826691
+          ]
+        ],
+        [
+          483704776,
+          [
+            6,
+            16980497
+          ]
+        ],
+        [
+          483822009,
+          [
+            6,
+            17083723
+          ]
+        ],
+        [
+          483763392,
+          [
+            6,
+            17022651
+          ]
+        ],
+        [
+          483792700,
+          [
+            6,
+            17037734
+          ]
+        ]
+      ],
+      "range_start": 483661628,
+      "range_end": 484870585,
+      "first_key": [
+        6,
+        16944387
+      ],
+      "last_key": [
+        6,
+        18022094
+      ],
+      "fragment_rows": 133,
+      "starts_in_window": 118,
+      "raw_file": "LOC119876429_LOC119872513.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    },
+    {
+      "target": {
+        "name": "NPNT/TBCK",
+        "chrom": "NC_006614.4",
+        "start": 15200069,
+        "end": 15201069,
+        "kind": "candidate"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          1440563328,
+          [
+            24,
+            46417061
+          ]
+        ],
+        [
+          1680657216,
+          [
+            32,
+            11527934
+          ]
+        ],
+        [
+          1560610272,
+          [
+            27,
+            37044645
+          ]
+        ],
+        [
+          1620633744,
+          [
+            29,
+            38418068
+          ]
+        ],
+        [
+          1650645480,
+          [
+            30,
+            38442414
+          ]
+        ],
+        [
+          1665651348,
+          [
+            31,
+            28704379
+          ]
+        ],
+        [
+          1658148414,
+          [
+            31,
+            13518208
+          ]
+        ],
+        [
+          1661899881,
+          [
+            31,
+            19919371
+          ]
+        ],
+        [
+          1660024147,
+          [
+            31,
+            17133723
+          ]
+        ],
+        [
+          1659086280,
+          [
+            31,
+            15092869
+          ]
+        ],
+        [
+          1659555213,
+          [
+            31,
+            16003962
+          ]
+        ],
+        [
+          1659320746,
+          [
+            31,
+            15527252
+          ]
+        ],
+        [
+          1659203513,
+          [
+            31,
+            15296225
+          ]
+        ],
+        [
+          1659144896,
+          [
+            31,
+            15207908
+          ]
+        ],
+        [
+          1659115588,
+          [
+            31,
+            15174151
+          ]
+        ]
+      ],
+      "range_start": 1658984516,
+      "range_end": 1660193472,
+      "first_key": [
+        31,
+        14843554
+      ],
+      "last_key": [
+        31,
+        17499520
+      ],
+      "fragment_rows": 148,
+      "starts_in_window": 135,
+      "raw_file": "NPNT_TBCK.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    },
+    {
+      "target": {
+        "name": "CD3D_feature_control",
+        "chrom": "NC_006587.4",
+        "start": 15443060,
+        "end": 15444060,
+        "kind": "gene_feature_control_not_verified_TSS"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          480187776,
+          [
+            6,
+            13379522
+          ]
+        ],
+        [
+          240093888,
+          [
+            2,
+            77100770
+          ]
+        ],
+        [
+          360140832,
+          [
+            4,
+            55506030
+          ]
+        ],
+        [
+          300117360,
+          [
+            3,
+            59366189
+          ]
+        ],
+        [
+          330129096,
+          [
+            4,
+            15153991
+          ]
+        ],
+        [
+          345134964,
+          [
+            4,
+            33731655
+          ]
+        ],
+        [
+          337632030,
+          [
+            4,
+            26104259
+          ]
+        ],
+        [
+          333880563,
+          [
+            4,
+            19055080
+          ]
+        ],
+        [
+          332004829,
+          [
+            4,
+            16581279
+          ]
+        ],
+        [
+          331066962,
+          [
+            4,
+            15729950
+          ]
+        ],
+        [
+          330598029,
+          [
+            4,
+            15352602
+          ]
+        ],
+        [
+          330832495,
+          [
+            4,
+            15539627
+          ]
+        ],
+        [
+          330715262,
+          [
+            4,
+            15426241
+          ]
+        ],
+        [
+          330773878,
+          [
+            4,
+            15464273
+          ]
+        ],
+        [
+          330744570,
+          [
+            4,
+            15428061
+          ]
+        ]
+      ],
+      "range_start": 330613498,
+      "range_end": 331822454,
+      "first_key": [
+        4,
+        15360137
+      ],
+      "last_key": [
+        4,
+        16448073
+      ],
+      "fragment_rows": 113,
+      "starts_in_window": 102,
+      "raw_file": "CD3D_feature_control.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    },
+    {
+      "target": {
+        "name": "CD3E_feature_control",
+        "chrom": "NC_006587.4",
+        "start": 15465578,
+        "end": 15466578,
+        "kind": "gene_feature_control_not_verified_TSS"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          480187776,
+          [
+            6,
+            13379522
+          ]
+        ],
+        [
+          240093888,
+          [
+            2,
+            77100770
+          ]
+        ],
+        [
+          360140832,
+          [
+            4,
+            55506030
+          ]
+        ],
+        [
+          300117360,
+          [
+            3,
+            59366189
+          ]
+        ],
+        [
+          330129096,
+          [
+            4,
+            15153991
+          ]
+        ],
+        [
+          345134964,
+          [
+            4,
+            33731655
+          ]
+        ],
+        [
+          337632030,
+          [
+            4,
+            26104259
+          ]
+        ],
+        [
+          333880563,
+          [
+            4,
+            19055080
+          ]
+        ],
+        [
+          332004829,
+          [
+            4,
+            16581279
+          ]
+        ],
+        [
+          331066962,
+          [
+            4,
+            15729950
+          ]
+        ],
+        [
+          330598029,
+          [
+            4,
+            15352602
+          ]
+        ],
+        [
+          330832495,
+          [
+            4,
+            15539627
+          ]
+        ],
+        [
+          330715262,
+          [
+            4,
+            15426241
+          ]
+        ],
+        [
+          330773878,
+          [
+            4,
+            15464273
+          ]
+        ],
+        [
+          330744570,
+          [
+            4,
+            15428061
+          ]
+        ]
+      ],
+      "range_start": 330613498,
+      "range_end": 331822454,
+      "first_key": [
+        4,
+        15360137
+      ],
+      "last_key": [
+        4,
+        16448073
+      ],
+      "fragment_rows": 99,
+      "starts_in_window": 90,
+      "raw_file": "CD3E_feature_control.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    },
+    {
+      "target": {
+        "name": "CD247_feature_control",
+        "chrom": "NC_006589.4",
+        "start": 30436025,
+        "end": 30437025,
+        "kind": "gene_feature_control_not_verified_TSS"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          480187776,
+          [
+            6,
+            13379522
+          ]
+        ],
+        [
+          720281664,
+          [
+            9,
+            26080936
+          ]
+        ],
+        [
+          600234720,
+          [
+            7,
+            67424237
+          ]
+        ],
+        [
+          540211248,
+          [
+            6,
+            80373442
+          ]
+        ],
+        [
+          510199512,
+          [
+            6,
+            43996604
+          ]
+        ],
+        [
+          495193644,
+          [
+            6,
+            32404090
+          ]
+        ],
+        [
+          487690710,
+          [
+            6,
+            22068897
+          ]
+        ],
+        [
+          491442177,
+          [
+            6,
+            27577864
+          ]
+        ],
+        [
+          493317910,
+          [
+            6,
+            29815140
+          ]
+        ],
+        [
+          494255777,
+          [
+            6,
+            30670063
+          ]
+        ],
+        [
+          493786843,
+          [
+            6,
+            30277423
+          ]
+        ],
+        [
+          494021310,
+          [
+            6,
+            30398312
+          ]
+        ],
+        [
+          494138543,
+          [
+            6,
+            30491056
+          ]
+        ],
+        [
+          494079926,
+          [
+            6,
+            30416980
+          ]
+        ],
+        [
+          494109234,
+          [
+            6,
+            30452119
+          ]
+        ]
+      ],
+      "range_start": 493948854,
+      "range_end": 495157810,
+      "first_key": [
+        6,
+        30342851
+      ],
+      "last_key": [
+        6,
+        32271043
+      ],
+      "fragment_rows": 108,
+      "starts_in_window": 99,
+      "raw_file": "CD247_feature_control.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    },
+    {
+      "target": {
+        "name": "LYZ_feature_control",
+        "chrom": "NC_006592.4",
+        "start": 11277889,
+        "end": 11278889,
+        "kind": "gene_feature_control_not_verified_TSS"
+      },
+      "search_steps": [
+        [
+          960375552,
+          [
+            13,
+            30495316
+          ]
+        ],
+        [
+          480187776,
+          [
+            6,
+            13379522
+          ]
+        ],
+        [
+          720281664,
+          [
+            9,
+            26080936
+          ]
+        ],
+        [
+          600234720,
+          [
+            7,
+            67424237
+          ]
+        ],
+        [
+          660258192,
+          [
+            8,
+            34849745
+          ]
+        ],
+        [
+          690269928,
+          [
+            8,
+            57039064
+          ]
+        ],
+        [
+          705275796,
+          [
+            9,
+            11942037
+          ]
+        ],
+        [
+          697772862,
+          [
+            9,
+            1866152
+          ]
+        ],
+        [
+          701524329,
+          [
+            9,
+            7588094
+          ]
+        ],
+        [
+          703400062,
+          [
+            9,
+            9921019
+          ]
+        ],
+        [
+          704337929,
+          [
+            9,
+            10895737
+          ]
+        ],
+        [
+          704806862,
+          [
+            9,
+            11414924
+          ]
+        ],
+        [
+          704572395,
+          [
+            9,
+            11190623
+          ]
+        ],
+        [
+          704689628,
+          [
+            9,
+            11298233
+          ]
+        ],
+        [
+          704631011,
+          [
+            9,
+            11262327
+          ]
+        ],
+        [
+          704660319,
+          [
+            9,
+            11295744
+          ]
+        ]
+      ],
+      "range_start": 704499939,
+      "range_end": 705708895,
+      "first_key": [
+        9,
+        11074517
+      ],
+      "last_key": [
+        9,
+        12779675
+      ],
+      "fragment_rows": 123,
+      "starts_in_window": 117,
+      "raw_file": "LYZ_feature_control.fragments.tsv",
+      "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+    }
+  ],
+  "cache": {
+    "0-16991.bgzfpart": "3b37b73346c447d3a0bfd8bedf73e158cf33b8307bfe0d37a1f80cedefd7597c",
+    "1440563328-1440694399.bgzfpart": "f6aa47313c7f896e2e903244f95617df3f26478db893c2402429350f8d271cf7",
+    "1470575064-1470706135.bgzfpart": "1adf21aba079eeea1dc1e6e75d72e690965f665c22adb0ed0e435cb88c8fc0ce",
+    "1485580932-1485712003.bgzfpart": "d34303f1c8e0a1cb39ee72f289aad3928cd3d8a5972545168b210ec979022117",
+    "1489332399-1489463470.bgzfpart": "a9e85c52ec5a34a5f52cf74e0105f1d0dbf0bc91b48b004f7b74e09181334e63",
+    "1490270265-1490401336.bgzfpart": "5eccf1775b935878ef54649c2ae33c766379870eb4927fb6cfcad173db877688",
+    "1490666742-1491875698.bgzfpart": "c738dfba9a55fc648b0e58e5bbf90ea6e50d9817d412dd812d864bafffabe323",
+    "1490739198-1490870269.bgzfpart": "ab2409de5df3edd761a57962ea94aa7f5a493baf7c212cf6e688c1d996036b89",
+    "1490797814-1490928885.bgzfpart": "7c909eba8ab42f42d00ec7051c11767162c2dfab099b7fc224f42d8e3d2cb125",
+    "1490827122-1490958193.bgzfpart": "39e7315586f9d5cd0acfefe0d0ffb9b3a8c1a13e8f41c86a22017b0262694bb1",
+    "1490856431-1490987502.bgzfpart": "7aeefe8ce99040e0d7e9c64adeeb8d6894a9fc15e74e8651e8f9518475dc6a2b",
+    "1490973665-1491104736.bgzfpart": "8201c4d218caa8f342a2ca6008247afb8a88c56689fd628b4608ce72839f4f7b",
+    "1491208132-1491339203.bgzfpart": "605db308500aa929ec6f7e5d2b98fa31614ffc1856f2717fcccdefaecd5a8fa6",
+    "1493083866-1493214937.bgzfpart": "5203087fc0af40b3f610201963edcb474433d5ffe46a533431e78060936155ca",
+    "1500586800-1500717871.bgzfpart": "a26cedefe138383b784adaa1deff5a5a7651b85da686ea30beac79710e0f1b3e",
+    "1560610272-1560741343.bgzfpart": "f53504e8bf66084b0ad9a387e16da282343220643c875ea954bab6364c91df90",
+    "1620633744-1620764815.bgzfpart": "899cbc27bdb032d0a71f2c6b7ead9bf1431c6dffc02c15a17ca59e98bf60904a",
+    "1650645480-1650776551.bgzfpart": "63910865c93096ff1ebd1043cc2a88a8322cb1e7d687e0e369f55cc62ac9a703",
+    "1658148414-1658279485.bgzfpart": "49113e74dd9d4cdfb62645875a8e557c21fc87bde56d3265109f5b8af7cfc93c",
+    "1658984516-1660193472.bgzfpart": "f7b5379736395245f5a61e4b74abd4b93c28fac04e171b9743f76eeb875bd822",
+    "1659086280-1659217351.bgzfpart": "47d87f013061045577fe94d9175d168f2b6ce14e2ab58f51904da5cc573a6cba",
+    "1659115588-1659246659.bgzfpart": "917834c3a78b7f8bdf35f28b51ee066538f3742d3ed0f6e8b808b8f15a674300",
+    "1659144896-1659275967.bgzfpart": "13439ae2305e9706e6bcc0a5014666627d9ea19afe138372155b203ef59735e5",
+    "1659203513-1659334584.bgzfpart": "28942fbbbe9a3708701adaa34dc6e3c24ed211174e5c0045c9b78e9e32db1b51",
+    "1659320746-1659451817.bgzfpart": "edc9b908eeefc8034ee85cb53a97f76de5d11f3c8c7750f3ecba5b7a6ca7bdee",
+    "1659555213-1659686284.bgzfpart": "e8d91aad6e76b732ae0d6223f5b6fe1960ecdc02f36d7240eef0034abdda194d",
+    "1660024147-1660155218.bgzfpart": "061f7d1eb65e7242a159786d4225fe94be50151a5785f42fa5f1eb9d8e51c076",
+    "1661899881-1662030952.bgzfpart": "f2a7f96578a6ea70c90b5d564df8549874604961c1d422fe69542308923c8262",
+    "1665651348-1665782419.bgzfpart": "62715f90365d4cc9b73108179fd64f026da0150d0315c3b76e65953ed448f25e",
+    "1680657216-1680788287.bgzfpart": "76b4f87fa6f9614cd7b7cdd8c7fdacb0499f80f40bc1b6b462f4c2aa649a4d71",
+    "240093888-240224959.bgzfpart": "5b0ec579cf84ee4ecd6cff3e89e1a3df39b027dea88be18970d9ae7ad8ace9e5",
+    "300117360-300248431.bgzfpart": "608c34d2205233dfa2107110a7bfd295799fc520a3c2b66b6f84cb8e603c21bf",
+    "330129096-330260167.bgzfpart": "794104dbba84d733a6c78662ea986b46bf46ccf606676dcb792d87072f3a33f4",
+    "330598029-330729100.bgzfpart": "7f04bfd4fea4edaf575b0e86c17f7d50f84231811f9d52e277573f81ff5a0d6b",
+    "330613498-331822454.bgzfpart": "8be94d4f4393ff4a8020a81982bca1f07f0714bbdffb7f555c7991b958f45d1e",
+    "330715262-330846333.bgzfpart": "20e53c858a4dbd9e1fde6a1a8f4944ab999a47055ab319bccda89a70b2035da6",
+    "330744570-330875641.bgzfpart": "b6555816da1f101bd85f6e3cd21cef16ee0597606ede4b9d5d92c8cc2284eb91",
+    "330773878-330904949.bgzfpart": "09885e400fccb8f62b1aae48c657913edf68eacc0aec0f02fad5c9c5ca09be4b",
+    "330832495-330963566.bgzfpart": "49953aa34b57ab2cf307402384d156d057b146803c545893b9b9e0623374c796",
+    "331066962-331198033.bgzfpart": "c985f2b2aea56c4e55ef74bf83aa591ead55743c2c0d3c389ef1efa958ad505d",
+    "332004829-332135900.bgzfpart": "f240415b1386415df32cb04bb3465e8c5952f320772ba8c15ccbb43d1446e353",
+    "333880563-334011634.bgzfpart": "e216e90c7d0f2f8450e2ccced9851ae9cba02a62bd63fa53ea4c7d3eeb0e67ec",
+    "337632030-337763101.bgzfpart": "182509f1b58a9d0a0881a437f5b621b44e2c0c10f41a43c6e49fd935445b39ee",
+    "345134964-345266035.bgzfpart": "26fb7ede5fe210807270ce5dc3df3e1923b3bfcb08f700991f1237d264be4a0f",
+    "360140832-360271903.bgzfpart": "ea47b6dcc9a81f5f4d4c997a053bad182a91abc7aef23f938037560f290605ea",
+    "480187776-480318847.bgzfpart": "6021136f170fbd3cccef900bc6c63310de7a80c20985b392944a726dd68bbc96",
+    "482063509-482194580.bgzfpart": "e5f04f4fe07306ee4f80e7dff8c84f1e7318d2b02e186a083462a9b6b6db821b",
+    "483001376-483132447.bgzfpart": "461c3709dd4efcaff3ad7c3c68f0f7a31a87f6304a22f7f56e60972cad9e2715",
+    "483470309-483601380.bgzfpart": "4e7b53ee3da31c7ff3ab1e9f85b0d9e2cc31b611757aaca7aefabc27c70b6e0c",
+    "483661628-484870585.bgzfpart": "53be71177a95ca6480d7451777a6977c87bdd14cc90ac885958106d976ccd8da",
+    "483704776-483835847.bgzfpart": "2b4920d59ee46af44284a02712cc3d9d0abd63aef6ee0af487a898a3f9fc6cf7",
+    "483763392-483894463.bgzfpart": "ad762d1f5d2233f1155a589e7b309b87e97bbcb57e455148642b98e9ff099967",
+    "483792700-483923771.bgzfpart": "77e6d7f8920e4b25862bdcb2e89f172ad72f71755e8f615278b94bfba56e04eb",
+    "483822009-483953080.bgzfpart": "b21693b66b458b8a7a3d6ef01ddfc613222796ab269afd15ad523846d638c0be",
+    "483939243-484070314.bgzfpart": "9e14207b8080a78620113e2c087cf66b5dbee61eef7f97ed36bc63d5a6c8e17f",
+    "487690710-487821781.bgzfpart": "b7523912f69abd0b04064ac0b8e49fdd7b9f358e7972ffcfddb8886d05cf5bad",
+    "491442177-491573248.bgzfpart": "f87e1eb2fc1cc831de8e626af97b683913c6406ee12d2f5070b568cc5c3288c5",
+    "493317910-493448981.bgzfpart": "a20273cb9b6b4650df0aa93461749b89b66060f1ce4d63ab07a19cee039cbd68",
+    "493786843-493917914.bgzfpart": "ced1dbe6468cd21bc1654de4580862cb5c002d6a95a2ce6f3a2ab47dee5caee1",
+    "493948854-495157810.bgzfpart": "bfb3f625c96012a02e91a829e1efa2e31f19a9acf11ae0ef09118224ee65fe0c",
+    "494021310-494152381.bgzfpart": "408d8531d7ee0480e93b8aa10fdc7c41d4547880d4845fca4130c70cb74adc56",
+    "494079926-494210997.bgzfpart": "01f627885ad336aa353640b570147de8738e6b1c47b2f56f40d3096d551d856a",
+    "494109234-494240305.bgzfpart": "6837746ecbb227fd06e833359ac6b4304dd9c64f49c2640ed49f3fcd298681c5",
+    "494138543-494269614.bgzfpart": "b62d2b58e872d39f6aad6d2d1ef5e943612167df3bfad1c9eff618f65576c26f",
+    "494255777-494386848.bgzfpart": "68f100ba5da395e129b5209ee2f021588e20217420e21affd858ac1030ceadcb",
+    "495193644-495324715.bgzfpart": "efaf2559247d10163371a423257a8972a265469c0d3e7179b68e1c18a1e54f58",
+    "510199512-510330583.bgzfpart": "b2e65d6b1d93278da2a696042896b594d7ff7ab1f966a222d3251154ebe3b873",
+    "540211248-540342319.bgzfpart": "5f18999ac364d1b1d359f72743da7eaa03d5b9ef26ea9dcbebaee9802337c19c",
+    "600234720-600365791.bgzfpart": "9cf133ecc4af9d297b92076e7d2eff1eb20c8edcb0fa9d12debf5a6d4f357e39",
+    "660258192-660389263.bgzfpart": "7a85cb9fa02a2fd3d26b59bc8d0134d75b880020b8c79433e6482dc4e9216a33",
+    "690269928-690400999.bgzfpart": "ed9bbe78c4207830c868f50d180444e896c79909f6ee9c611215d1120846f008",
+    "697772862-697903933.bgzfpart": "2457dfbe2553ff05c1786fd7ca23648cdb6150998abc7c3592160ce9e6e5e828",
+    "701524329-701655400.bgzfpart": "99afec6bef1f57be849956b17bd57c5b0d4f2dfdc872a2cd51bbfee95f23752f",
+    "703400062-703531133.bgzfpart": "dfc4c0aa584de57260380f0ddae79f498b2cc0e792e79215d4a988821b32b518",
+    "704337929-704469000.bgzfpart": "f30ac586014b8edfc223127dd1c4e0e60686ad77e39d05b71fc499de9b52b9b8",
+    "704499939-705708895.bgzfpart": "c007237a3aef8370115adddb2ab9a9fa01781f25c2cb671949d80b8cb98028bf",
+    "704572395-704703466.bgzfpart": "b53d4e166122f988d6389baf423ccd569fc497acef790cf449d22849d5e4b5fe",
+    "704631011-704762082.bgzfpart": "03b33675fbb6b6f105576843803f87d05bdcb93297a2a27debbf22c4afadc809",
+    "704660319-704791390.bgzfpart": "d24ba38c3ba3de48e2542f3ae9b3206bc00cc452a26d7d0fa03b2dfe01a1dad7",
+    "704689628-704820699.bgzfpart": "8a7f0ec27ed4cbcb0f8677286ef1ebc0eb81e2750189ccb63503c60544fdc7ca",
+    "704806862-704937933.bgzfpart": "52f0ae12a316232ee70842a716706e588a1c88eb101f76386fe57a8983a45ef7",
+    "705275796-705406867.bgzfpart": "4341a07b330acff7179c0eece624a620ca4d33cc22bcc105d84c8cb311db5722",
+    "720281664-720412735.bgzfpart": "0d0a5799c8563169931fa82c40a6b7b4877c4bfb476dffa559fb8dc95c5c8d07",
+    "960375552-960506623.bgzfpart": "355fe5e75321348f4ba78b88e85aeb89c00f98f325624a8daeb5ac89fc607688"
+  }
+}

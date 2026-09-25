@@ -1,0 +1,137 @@
+{
+  "target": {
+    "name": "CD3D_feature_control",
+    "chrom": "NC_006587.4",
+    "start": 15443060,
+    "end": 15444060,
+    "kind": "gene_feature_control_not_verified_TSS"
+  },
+  "search_steps": [
+    [
+      960375552,
+      [
+        13,
+        30495316
+      ]
+    ],
+    [
+      480187776,
+      [
+        6,
+        13379522
+      ]
+    ],
+    [
+      240093888,
+      [
+        2,
+        77100770
+      ]
+    ],
+    [
+      360140832,
+      [
+        4,
+        55506030
+      ]
+    ],
+    [
+      300117360,
+      [
+        3,
+        59366189
+      ]
+    ],
+    [
+      330129096,
+      [
+        4,
+        15153991
+      ]
+    ],
+    [
+      345134964,
+      [
+        4,
+        33731655
+      ]
+    ],
+    [
+      337632030,
+      [
+        4,
+        26104259
+      ]
+    ],
+    [
+      333880563,
+      [
+        4,
+        19055080
+      ]
+    ],
+    [
+      332004829,
+      [
+        4,
+        16581279
+      ]
+    ],
+    [
+      331066962,
+      [
+        4,
+        15729950
+      ]
+    ],
+    [
+      330598029,
+      [
+        4,
+        15352602
+      ]
+    ],
+    [
+      330832495,
+      [
+        4,
+        15539627
+      ]
+    ],
+    [
+      330715262,
+      [
+        4,
+        15426241
+      ]
+    ],
+    [
+      330773878,
+      [
+        4,
+        15464273
+      ]
+    ],
+    [
+      330744570,
+      [
+        4,
+        15428061
+      ]
+    ]
+  ],
+  "range_start": 330613498,
+  "range_end": 331822454,
+  "first_key": [
+    4,
+    15360137
+  ],
+  "last_key": [
+    4,
+    16448073
+  ],
+  "fragment_rows": 113,
+  "starts_in_window": 102,
+  "raw_file": "CD3D_feature_control.fragments.tsv",
+  "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+}

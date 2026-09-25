@@ -1,0 +1,81 @@
+{
+  "utc": "2026-09-23T03:55:21.225844+00:00",
+  "status": "passed_internal_consistency_and_reference_extent_checks",
+  "segments": 76180,
+  "bases_scanned": 2396858295,
+  "eligible_after_TAD_EpiC_ids": [
+    "bg1k_0117",
+    "bg1k_0202",
+    "bg1k_0442",
+    "bg1k_0878",
+    "bg1k_2686",
+    "bg1k_2848",
+    "bg1k_2901"
+  ],
+  "twenty_base_summary": [
+    {
+      "window_id": "bg1k_2848",
+      "length": 20,
+      "segments": 981,
+      "unique": 787,
+      "nonunique": 194,
+      "max_locus_count": 76666
+    },
+    {
+      "window_id": "bg1k_0442",
+      "length": 20,
+      "segments": 981,
+      "unique": 918,
+      "nonunique": 63,
+      "max_locus_count": 13
+    },
+    {
+      "window_id": "bg1k_2901",
+      "length": 20,
+      "segments": 981,
+      "unique": 914,
+      "nonunique": 67,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "bg1k_0202",
+      "length": 20,
+      "segments": 981,
+      "unique": 705,
+      "nonunique": 276,
+      "max_locus_count": 91641
+    },
+    {
+      "window_id": "bg1k_2686",
+      "length": 20,
+      "segments": 981,
+      "unique": 316,
+      "nonunique": 665,
+      "max_locus_count": 29562
+    },
+    {
+      "window_id": "bg1k_0878",
+      "length": 20,
+      "segments": 981,
+      "unique": 550,
+      "nonunique": 431,
+      "max_locus_count": 314222
+    },
+    {
+      "window_id": "bg1k_0117",
+      "length": 20,
+      "segments": 981,
+      "unique": 15,
+      "nonunique": 966,
+      "max_locus_count": 10000
+    }
+  ],
+  "sha256": {
+    "exact_sequence_review.json": "efc96f68cb9a28775718b1e67c87179e187a18f4cdb10a69536bec79026d5d57",
+    "all_short_segments_exact_uniqueness.tsv": "90f0b73617f6520b826b1eaf32ce781c48bd1da45f0ac6562cc9dd1cb88e5c27"
+  },
+  "limitations": [
+    "Consistency verification and existing brute-force toy self-test; not an independent full-genome reimplementation",
+    "Exact counts do not establish PAM suitability, variant clearance or mismatch/bulge specificity"
+  ]
+}

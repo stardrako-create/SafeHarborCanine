@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-22T19:47:15.229107+00:00",
+  "reviewed": 20,
+  "counts": {
+    "no_risk_catalogue_hit_in_containing_intervals": 18,
+    "no_containing_TAD_interval_unresolved": 2
+  },
+  "sources_sha256": {
+    "canine_tad_intervals.bed": "3c2f95dbc9bc9140035f173e2b7e2412632bded8a818836b76406e9aeec35f52",
+    "canine_all_genes.bed": "47616006c685ae37b68c7c19fdbfd647cd3a949cd89b40949416c705c30c59e6",
+    "canine_risk_genes.tsv": "3b59768c866e3bc04c9cffc38ac4a59007bc896a45917563771f954e54c76e2a"
+  },
+  "limitations": [
+    "Containing interval proxy only; no absence-of-risk conclusion for uncovered windows",
+    "No experimental T-cell TAD evidence",
+    "Multi-scale sensitivity remains pending for these control windows"
+  ]
+}

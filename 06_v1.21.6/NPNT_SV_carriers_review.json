@@ -1,0 +1,300 @@
+{
+  "id": "chr32:4707939:DG",
+  "info": {
+    "ABHet": 0.3905999958515167,
+    "ABHetMulti": [
+      0.3905999958515167,
+      0.6093999743461609
+    ],
+    "ABHom": 0.9997000098228455,
+    "ABHomMulti": [
+      0.9997000098228455,
+      -1.0
+    ],
+    "AC": [
+      4
+    ],
+    "AF": [
+      0.0010639999527484179
+    ],
+    "AN": 3758,
+    "CR": 0,
+    "CRal": [
+      "0",
+      "0"
+    ],
+    "CRalt": [
+      0.0
+    ],
+    "MMal": [
+      "59564",
+      "284"
+    ],
+    "MMalt": [
+      0.8114290237426758
+    ],
+    "MQ": 60,
+    "MQSal": [
+      "114958800",
+      "106000"
+    ],
+    "MQalt": [
+      55
+    ],
+    "MQsquared": [
+      "115766800"
+    ],
+    "MaxAAS": [
+      11
+    ],
+    "MaxAASR": [
+      0.6470999717712402
+    ],
+    "MaxAltPP": 11,
+    "NHet": 4,
+    "NHomAlt": 0,
+    "NHomRef": 1875,
+    "NUM_MERGED_SVS": 2,
+    "PASS_AC": [
+      3
+    ],
+    "PASS_AN": 3530,
+    "PASS_ratio": 0.939300000667572,
+    "QD": 13.170000076293945,
+    "QDalt": [
+      13.170000076293945
+    ],
+    "RefLen": 1,
+    "SB": 0.48669999837875366,
+    "SBAlt": 0.4000000059604645,
+    "SBF": [
+      15544,
+      14
+    ],
+    "SBF1": [
+      7966,
+      11
+    ],
+    "SBF2": [
+      7578,
+      3
+    ],
+    "SBR": [
+      16389,
+      21
+    ],
+    "SBR1": [
+      8412,
+      12
+    ],
+    "SBR2": [
+      7977,
+      9
+    ],
+    "SDal": [
+      "4155442",
+      "2200"
+    ],
+    "SDalt": [
+      62.85710144042969
+    ],
+    "SVLEN": 28905369,
+    "SVMODEL": "AGGREGATED",
+    "SVSIZE": 28905369,
+    "SVTYPE": "DEL",
+    "SV_ID": 1032,
+    "SeqDepth": 32163,
+    "VarType": "DG"
+  },
+  "carriers": [
+    {
+      "sample": "BFDB000001",
+      "metadata": {
+        "sampleName": "BFDB000001",
+        "Breed/Type": "Basset Fauve de Bretagne",
+        "Category": "Breed_Dogs",
+        "BIOSAMID": "SAMN20151373",
+        "runID": "SRR15100208",
+        "sampleName2": "BB086",
+        "sampleName3": "FAM005221",
+        "sampleName4": "",
+        "Source": "Helsinki",
+        "AlignmentCenter": "Helsinki",
+        "Note": "",
+        "inVCF": "YES",
+        "inAnalyzedSNV": "TRUE",
+        "inAnalyzedCNV": "TRUE",
+        "effectiveAutosomalMeanCoverage": "18.38",
+        "Sex": "Female"
+      },
+      "SV_genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "FAIL3",
+        "AD": [
+          15,
+          3
+        ],
+        "MD": 0,
+        "DP": 18,
+        "RA": [
+          15,
+          3
+        ],
+        "PP": 3,
+        "GQ": 9,
+        "PL": [
+          9,
+          0,
+          255
+        ]
+      },
+      "local_PASS_SNPs_called": 23,
+      "local_heterozygous_SNPs": []
+    },
+    {
+      "sample": "GBGV000001",
+      "metadata": {
+        "sampleName": "GBGV000001",
+        "Breed/Type": "Grand Basset Griffon Vendeen",
+        "Category": "Breed_Dogs",
+        "BIOSAMID": "SAMN15625855",
+        "runID": "SRR12330331",
+        "sampleName2": "FAM007353",
+        "sampleName3": "5370",
+        "sampleName4": "",
+        "Source": "NHGRI",
+        "AlignmentCenter": "Uppsala",
+        "Note": "",
+        "inVCF": "YES",
+        "inAnalyzedSNV": "TRUE",
+        "inAnalyzedCNV": "TRUE",
+        "effectiveAutosomalMeanCoverage": "18.81",
+        "Sex": "Female"
+      },
+      "SV_genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "PASS",
+        "AD": [
+          4,
+          3
+        ],
+        "MD": 0,
+        "DP": 7,
+        "RA": [
+          4,
+          3
+        ],
+        "PP": 3,
+        "GQ": 42,
+        "PL": [
+          42,
+          0,
+          75
+        ]
+      },
+      "local_PASS_SNPs_called": 23,
+      "local_heterozygous_SNPs": []
+    },
+    {
+      "sample": "PBGV000010",
+      "metadata": {
+        "sampleName": "PBGV000010",
+        "Breed/Type": "Petit Basset Griffon Vendeen",
+        "Category": "Breed_Dogs",
+        "BIOSAMID": "SAMN21036425",
+        "runID": "SRR15734832",
+        "sampleName2": "PG001",
+        "sampleName3": "FAM005438",
+        "sampleName4": "",
+        "Source": "Bern",
+        "AlignmentCenter": "Bern",
+        "Note": "",
+        "inVCF": "YES",
+        "inAnalyzedSNV": "TRUE",
+        "inAnalyzedCNV": "TRUE",
+        "effectiveAutosomalMeanCoverage": "19.01",
+        "Sex": "Male"
+      },
+      "SV_genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "PASS",
+        "AD": [
+          14,
+          8
+        ],
+        "MD": 0,
+        "DP": 22,
+        "RA": [
+          14,
+          8
+        ],
+        "PP": 8,
+        "GQ": 93,
+        "PL": [
+          93,
+          0,
+          255
+        ]
+      },
+      "local_PASS_SNPs_called": 23,
+      "local_heterozygous_SNPs": []
+    },
+    {
+      "sample": "PBGV000012",
+      "metadata": {
+        "sampleName": "PBGV000012",
+        "Breed/Type": "Petit Basset Griffon Vendeen",
+        "Category": "Breed_Dogs",
+        "BIOSAMID": "SAMN19522896",
+        "runID": "SRR14750332",
+        "sampleName2": "FAM006613",
+        "sampleName3": "3-ADNPR3911_2",
+        "sampleName4": "",
+        "Source": "Rennes",
+        "AlignmentCenter": "Michigan",
+        "Note": "",
+        "inVCF": "YES",
+        "inAnalyzedSNV": "TRUE",
+        "inAnalyzedCNV": "TRUE",
+        "effectiveAutosomalMeanCoverage": "21.71",
+        "Sex": "Female"
+      },
+      "SV_genotype": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "PASS",
+        "AD": [
+          6,
+          11
+        ],
+        "MD": 2,
+        "DP": 19,
+        "RA": [
+          8,
+          13
+        ],
+        "PP": 11,
+        "GQ": 87,
+        "PL": [
+          172,
+          0,
+          87
+        ]
+      },
+      "local_PASS_SNPs_called": 23,
+      "local_heterozygous_SNPs": []
+    }
+  ],
+  "interpretation": "Catalogue genotype audit only. Heterozygous SNP evidence within a claimed deletion may be inconsistent with simple hemizygosity but requires read-level validation; no automatic acceptance or rejection."
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-09-25T09:41:23.580370+00:00",
+  "geometry_assertions_passed": 5,
+  "spanning_name_groups": 7,
+  "with_finite_comparison": 5,
+  "without_reported_inward_genomic_alternative": 2,
+  "margins_stable_across_tested_bounds": true,
+  "report_sha256": "4817e433d7cda6b6d4154f1cf691f2b7db996175e95f982115f92c132b2a479e",
+  "limitations": "Bounds are descriptive; checks do not calibrate insert-size likelihood or establish independent molecule counts"
+}

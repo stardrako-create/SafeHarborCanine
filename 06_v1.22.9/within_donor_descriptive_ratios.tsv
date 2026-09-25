@@ -1,0 +1,361 @@
+gene	comparison	reported_donor	numerator_CPM	denominator_CPM	log2_ratio	status
+AIMP1	single_vs_control	B	58.67426601995757	42.87056078590832	0.45274060056658466	descriptive_both_positive
+AIMP1	single_vs_control	E	47.927869949330564	43.31209499259218	0.14609486711174624	descriptive_both_positive
+AIMP1	single_vs_control	M	49.98412930326727	41.98169682381489	0.2517096117680261	descriptive_both_positive
+AIMP1	dual_vs_control	B	49.09969684510684	42.87056078590832	0.19572682793459373	descriptive_both_positive
+AIMP1	dual_vs_control	E	58.18384932710378	43.31209499259218	0.4258487886095422	descriptive_both_positive
+AIMP1	dual_vs_control	M	67.70728684589176	41.98169682381489	0.6895506300777814	descriptive_both_positive
+AIMP1	dual_vs_single	B	49.09969684510684	58.67426601995757	-0.25701377263199093	descriptive_both_positive
+AIMP1	dual_vs_single	E	58.18384932710378	47.927869949330564	0.27975392149779577	descriptive_both_positive
+AIMP1	dual_vs_single	M	67.70728684589176	49.98412930326727	0.4378410183097553	descriptive_both_positive
+ANO2	single_vs_control	B	0.07022653024531128	0.061862281076346774	0.18295612464261074	descriptive_both_positive
+ANO2	single_vs_control	E	0.0	0.0		zero_no_ratio
+ANO2	single_vs_control	M	0.021019398361340317	0.0		zero_no_ratio
+ANO2	dual_vs_control	B	0.0	0.061862281076346774		zero_no_ratio
+ANO2	dual_vs_control	E	0.0	0.0		zero_no_ratio
+ANO2	dual_vs_control	M	0.02218456318672731	0.0		zero_no_ratio
+ANO2	dual_vs_single	B	0.0	0.07022653024531128		zero_no_ratio
+ANO2	dual_vs_single	E	0.0	0.0		zero_no_ratio
+ANO2	dual_vs_single	M	0.02218456318672731	0.021019398361340317	0.07783477122088045	descriptive_both_positive
+APOBEC4	single_vs_control	B	0.0	0.061862281076346774		zero_no_ratio
+APOBEC4	single_vs_control	E	0.0	0.0		zero_no_ratio
+APOBEC4	single_vs_control	M	0.042038796722680634	0.0666023746543864	-0.6638522407490243	descriptive_both_positive
+APOBEC4	dual_vs_control	B	0.10720457826442542	0.061862281076346774	0.7932345819748636	descriptive_both_positive
+APOBEC4	dual_vs_control	E	0.0505946515887859	0.0		zero_no_ratio
+APOBEC4	dual_vs_control	M	0.06655368956018194	0.0666023746543864	-0.0010549688069875689	descriptive_both_positive
+APOBEC4	dual_vs_single	B	0.10720457826442542	0.0		zero_no_ratio
+APOBEC4	dual_vs_single	E	0.0505946515887859	0.0		zero_no_ratio
+APOBEC4	dual_vs_single	M	0.06655368956018194	0.042038796722680634	0.6627972719420366	descriptive_both_positive
+ARHGEF38	single_vs_control	B	0.0	0.12372456215269355		zero_no_ratio
+ARHGEF38	single_vs_control	E	0.04039432781233086	0.053770446918177756	-0.4126607393756329	descriptive_both_positive
+ARHGEF38	single_vs_control	M	0.06305819508402094	0.04440158310292427	0.5060727606932878	descriptive_both_positive
+ARHGEF38	dual_vs_control	B	0.03573485942147514	0.12372456215269355	-1.7917279187462924	descriptive_both_positive
+ARHGEF38	dual_vs_control	E	0.02529732579439295	0.053770446918177756	-1.0878285785156265	descriptive_both_positive
+ARHGEF38	dual_vs_control	M	0.06655368956018194	0.04440158310292427	0.5839075319141684	descriptive_both_positive
+ARHGEF38	dual_vs_single	B	0.03573485942147514	0.0		zero_no_ratio
+ARHGEF38	dual_vs_single	E	0.02529732579439295	0.04039432781233086	-0.6751678391399938	descriptive_both_positive
+ARHGEF38	dual_vs_single	M	0.06655368956018194	0.06305819508402094	0.07783477122088074	descriptive_both_positive
+ARPC5	single_vs_control	B	531.8781834454263	560.4104042706255	-0.0753878785248414	descriptive_both_positive
+ARPC5	single_vs_control	E	482.5506400461045	486.94516729101775	-0.013078975765856302	descriptive_both_positive
+ARPC5	single_vs_control	M	508.52230455590626	579.3296555354044	-0.18807346333550587	descriptive_both_positive
+ARPC5	dual_vs_control	B	524.8021454637839	560.4104042706255	-0.0947101223931774	descriptive_both_positive
+ARPC5	dual_vs_control	E	491.8812027461765	486.94516729101775	0.01455059744107249	descriptive_both_positive
+ARPC5	dual_vs_control	M	444.2236932510277	579.3296555354044	-0.38309817462653706	descriptive_both_positive
+ARPC5	dual_vs_single	B	524.8021454637839	531.8781834454263	-0.01932224386833596	descriptive_both_positive
+ARPC5	dual_vs_single	E	491.8812027461765	482.5506400461045	0.027629573206928815	descriptive_both_positive
+ARPC5	dual_vs_single	M	444.2236932510277	508.52230455590626	-0.19502471129103116	descriptive_both_positive
+C7H1orf21	single_vs_control	B	32.00574115930061	24.621187868386016	0.378430350138096	descriptive_both_positive
+C7H1orf21	single_vs_control	E	31.28540689065025	33.12259530159749	-0.08232585128096571	descriptive_both_positive
+C7H1orf21	single_vs_control	M	23.583764961423835	21.64577176267558	0.12370881194395175	descriptive_both_positive
+C7H1orf21	dual_vs_control	B	24.728522719660795	24.621187868386016	0.006275688346782979	descriptive_both_positive
+C7H1orf21	dual_vs_control	E	31.24219735607529	33.12259530159749	-0.08431979273848783	descriptive_both_positive
+C7H1orf21	dual_vs_control	M	16.74934520597912	21.64577176267558	-0.3699805432315194	descriptive_both_positive
+C7H1orf21	dual_vs_single	B	24.728522719660795	32.00574115930061	-0.37215466179131274	descriptive_both_positive
+C7H1orf21	dual_vs_single	E	31.24219735607529	31.28540689065025	-0.0019939414575221768	descriptive_both_positive
+C7H1orf21	dual_vs_single	M	16.74934520597912	23.583764961423835	-0.49368935517547113	descriptive_both_positive
+CD247	single_vs_control	B	212.66349021536388	317.2297773595063	-0.576955824040619	descriptive_both_positive
+CD247	single_vs_control	E	317.1762619824219	313.42793508605814	0.01715103178403747	descriptive_both_positive
+CD247	single_vs_control	M	202.6690390000433	322.9327139075682	-0.6721078865934342	descriptive_both_positive
+CD247	dual_vs_control	B	286.36129597399105	317.2297773595063	-0.1476916846632237	descriptive_both_positive
+CD247	dual_vs_control	E	266.9373817824344	313.42793508605814	-0.23163241557058264	descriptive_both_positive
+CD247	dual_vs_control	M	150.85502966974573	322.9327139075682	-1.0980707987437395	descriptive_both_positive
+CD247	dual_vs_single	B	286.36129597399105	212.66349021536388	0.4292641393773952	descriptive_both_positive
+CD247	dual_vs_single	E	266.9373817824344	317.1762619824219	-0.2487834473546201	descriptive_both_positive
+CD247	dual_vs_single	M	150.85502966974573	202.6690390000433	-0.42596291215030513	descriptive_both_positive
+CD3D	single_vs_control	B	140.06681457427334	184.98884117863565	-0.4013230629587128	descriptive_both_positive
+CD3D	single_vs_control	E	159.0324685971466	194.89098485493525	-0.29334601586194076	descriptive_both_positive
+CD3D	single_vs_control	M	122.56411184497539	202.89303398881245	-0.7271827298183439	descriptive_both_positive
+CD3D	dual_vs_control	B	160.18150735676232	184.98884117863565	-0.2077306466790419	descriptive_both_positive
+CD3D	dual_vs_control	E	115.73526550934774	194.89098485493525	-0.7518388241022084	descriptive_both_positive
+CD3D	dual_vs_control	M	90.04714197492616	202.89303398881245	-1.171966941322922	descriptive_both_positive
+CD3D	dual_vs_single	B	160.18150735676232	140.06681457427334	0.19359241627967078	descriptive_both_positive
+CD3D	dual_vs_single	E	115.73526550934774	159.0324685971466	-0.4584928082402676	descriptive_both_positive
+CD3D	dual_vs_single	M	90.04714197492616	122.56411184497539	-0.44478421150457803	descriptive_both_positive
+CD3E	single_vs_control	B	628.106086514064	827.8616661240313	-0.3983814671715692	descriptive_both_positive
+CD3E	single_vs_control	E	672.6261495670274	807.1750639122254	-0.2630767385508669	descriptive_both_positive
+CD3E	single_vs_control	M	454.9018193361271	830.3096040246838	-0.8680941811815032	descriptive_both_positive
+CD3E	dual_vs_control	B	683.5363910139764	827.8616661240313	-0.27637156869203455	descriptive_both_positive
+CD3E	dual_vs_control	E	558.8179267981402	807.1750639122254	-0.5305033029661501	descriptive_both_positive
+CD3E	dual_vs_control	M	394.21968782814434	830.3096040246838	-1.0746495575533086	descriptive_both_positive
+CD3E	dual_vs_single	B	683.5363910139764	628.106086514064	0.12200989847953468	descriptive_both_positive
+CD3E	dual_vs_single	E	558.8179267981402	672.6261495670274	-0.26742656441528306	descriptive_both_positive
+CD3E	dual_vs_single	M	394.21968782814434	454.9018193361271	-0.2065553763718055	descriptive_both_positive
+CD3G	single_vs_control	B	127.00467994864545	231.1793443823079	-0.8641308410823598	descriptive_both_positive
+CD3G	single_vs_control	E	196.61939062652047	239.5204557970228	-0.284743264454896	descriptive_both_positive
+CD3G	single_vs_control	M	143.85676238501313	215.50308359004293	-0.583075472151637	descriptive_both_positive
+CD3G	dual_vs_control	B	217.44661957967622	231.1793443823079	-0.08835121952594638	descriptive_both_positive
+CD3G	dual_vs_control	E	121.60424509364691	239.5204557970228	-0.9779552790646512	descriptive_both_positive
+CD3G	dual_vs_control	M	94.19565529084417	215.50308359004293	-1.1939760895147922	descriptive_both_positive
+CD3G	dual_vs_single	B	217.44661957967622	127.00467994864545	0.7757796215564133	descriptive_both_positive
+CD3G	dual_vs_single	E	121.60424509364691	196.61939062652047	-0.6932120146097551	descriptive_both_positive
+CD3G	dual_vs_single	M	94.19565529084417	143.85676238501313	-0.610900617363155	descriptive_both_positive
+CD4	single_vs_control	B	63.3618869138321	172.6163849633663	-1.4458822088798433	descriptive_both_positive
+CD4	single_vs_control	E	161.6580999049481	223.0935842635195	-0.4647032293415419	descriptive_both_positive
+CD4	single_vs_control	M	183.625464084669	297.62381153890135	-0.6967238176147716	descriptive_both_positive
+CD4	dual_vs_control	B	126.87661837594749	172.6163849633663	-0.44414318871020836	descriptive_both_positive
+CD4	dual_vs_control	E	100.55687003271197	223.0935842635195	-1.1496373753281968	descriptive_both_positive
+CD4	dual_vs_control	M	118.99799693360531	297.62381153890135	-1.3225526654092699	descriptive_both_positive
+CD4	dual_vs_single	B	126.87661837594749	63.3618869138321	1.001739020169635	descriptive_both_positive
+CD4	dual_vs_single	E	100.55687003271197	161.6580999049481	-0.6849341459866547	descriptive_both_positive
+CD4	dual_vs_single	M	118.99799693360531	183.625464084669	-0.6258288477944981	descriptive_both_positive
+CD8A	single_vs_control	B	318.0910687461374	207.17677932468536	0.6185775522176512	descriptive_both_positive
+CD8A	single_vs_control	E	234.95360772042247	152.70806924762482	0.6215996229365102	descriptive_both_positive
+CD8A	single_vs_control	M	51.854855757426556	88.1815440424076	-0.7659976472561192	descriptive_both_positive
+CD8A	dual_vs_control	B	377.55665721759556	207.17677932468536	0.8658308428498159	descriptive_both_positive
+CD8A	dual_vs_control	E	231.92588288299456	152.70806924762482	0.6028875358492339	descriptive_both_positive
+CD8A	dual_vs_control	M	50.82483426079227	88.1815440424076	-0.7949431330306866	descriptive_both_positive
+CD8A	dual_vs_single	B	377.55665721759556	318.0910687461374	0.24725329063216486	descriptive_both_positive
+CD8A	dual_vs_single	E	231.92588288299456	234.95360772042247	-0.01871208708727621	descriptive_both_positive
+CD8A	dual_vs_single	M	50.82483426079227	51.854855757426556	-0.02894548577456747	descriptive_both_positive
+CD8B	single_vs_control	B	217.0877616208185	133.12762887629827	0.7054683813632866	descriptive_both_positive
+CD8B	single_vs_control	E	155.0132329798197	86.7855013259389	0.836865432491491	descriptive_both_positive
+CD8B	single_vs_control	M	11.602707895459854	21.690173345778504	-0.9025800352180845	descriptive_both_positive
+CD8B	dual_vs_control	B	305.62238520216613	133.12762887629827	1.1989402023523454	descriptive_both_positive
+CD8B	dual_vs_control	E	169.59327212561033	86.7855013259389	0.9665529919059447	descriptive_both_positive
+CD8B	dual_vs_control	M	10.40456013457511	21.690173345778504	-1.0598256082599964	descriptive_both_positive
+CD8B	dual_vs_single	B	305.62238520216613	217.0877616208185	0.4934718209890588	descriptive_both_positive
+CD8B	dual_vs_single	E	169.59327212561033	155.0132329798197	0.12968755941445356	descriptive_both_positive
+CD8B	dual_vs_single	M	10.40456013457511	11.602707895459854	-0.157245573041912	descriptive_both_positive
+CD9	single_vs_control	B	0.33357601866522857	1.670281589061363	-2.324003864077272	descriptive_both_positive
+CD9	single_vs_control	E	0.9896610314021062	3.2262268150906652	-1.704841490868943	descriptive_both_positive
+CD9	single_vs_control	M	3.9726662902933194	5.483595513211148	-0.4650145473914735	descriptive_both_positive
+CD9	dual_vs_control	B	0.7146971884295028	1.670281589061363	-1.2246873260223987	descriptive_both_positive
+CD9	dual_vs_control	E	0.6830277964486097	3.2262268150906652	-2.2398316719606766	descriptive_both_positive
+CD9	dual_vs_control	M	2.1740871922992766	5.483595513211148	-1.3347123562764573	descriptive_both_positive
+CD9	dual_vs_single	B	0.7146971884295028	0.33357601866522857	1.099316538054874	descriptive_both_positive
+CD9	dual_vs_single	E	0.6830277964486097	0.9896610314021062	-0.5349901810917334	descriptive_both_positive
+CD9	dual_vs_single	M	2.1740871922992766	3.9726662902933194	-0.8696978088849837	descriptive_both_positive
+COLGALT2	single_vs_control	B	0.0877831628066391	0.0		zero_no_ratio
+COLGALT2	single_vs_control	E	0.04039432781233086	0.2419670111317999	-2.582585740817945	descriptive_both_positive
+COLGALT2	single_vs_control	M	0.12611639016804188	0.28861029016900774	-1.1943669574478044	descriptive_both_positive
+COLGALT2	dual_vs_control	B	0.05360228913221271	0.0		zero_no_ratio
+COLGALT2	dual_vs_control	E	0.0	0.2419670111317999		zero_no_ratio
+COLGALT2	dual_vs_control	M	0.11092281593363656	0.28861029016900774	-1.3795665920607176	descriptive_both_positive
+COLGALT2	dual_vs_single	B	0.05360228913221271	0.0877831628066391	-0.7116496375551092	descriptive_both_positive
+COLGALT2	dual_vs_single	E	0.0	0.04039432781233086		zero_no_ratio
+COLGALT2	dual_vs_single	M	0.11092281593363656	0.12611639016804188	-0.18519963461291322	descriptive_both_positive
+EDEM3	single_vs_control	B	71.3150414641136	76.15246800498288	-0.09468439754569369	descriptive_both_positive
+EDEM3	single_vs_control	E	68.34720265846381	54.818970633082216	0.3182070537277205	descriptive_both_positive
+EDEM3	single_vs_control	M	116.13217594640524	90.73463507082575	0.35604248111762926	descriptive_both_positive
+EDEM3	dual_vs_control	B	93.26798309005011	76.15246800498288	0.2924911262264969	descriptive_both_positive
+EDEM3	dual_vs_control	E	56.38773919570188	54.818970633082216	0.040706262727529474	descriptive_both_positive
+EDEM3	dual_vs_control	M	84.45663205187088	90.73463507082575	-0.10344264226538431	descriptive_both_positive
+EDEM3	dual_vs_single	B	93.26798309005011	71.3150414641136	0.3871755237721906	descriptive_both_positive
+EDEM3	dual_vs_single	E	56.38773919570188	68.34720265846381	-0.277500791000191	descriptive_both_positive
+EDEM3	dual_vs_single	M	84.45663205187088	116.13217594640524	-0.4594851233830135	descriptive_both_positive
+GALNT8	single_vs_control	B	0.0	0.08248304143512904		zero_no_ratio
+GALNT8	single_vs_control	E	0.0	0.10754089383635551		zero_no_ratio
+GALNT8	single_vs_control	M	0.0	0.08880316620584854		zero_no_ratio
+GALNT8	dual_vs_control	B	0.08933714855368785	0.08248304143512904	0.11516267686222605	descriptive_both_positive
+GALNT8	dual_vs_control	E	0.0	0.10754089383635551		zero_no_ratio
+GALNT8	dual_vs_control	M	0.02218456318672731	0.08880316620584854	-2.001054968806988	descriptive_both_positive
+GALNT8	dual_vs_single	B	0.08933714855368785	0.0		zero_no_ratio
+GALNT8	dual_vs_single	E	0.0	0.0		zero_no_ratio
+GALNT8	dual_vs_single	M	0.02218456318672731	0.0		zero_no_ratio
+GIMD1	single_vs_control	B	0.12289642792929474	0.12372456215269355	-0.009688953299785271	descriptive_both_positive
+GIMD1	single_vs_control	E	0.08078865562466173	0.053770446918177756	0.587339260624367	descriptive_both_positive
+GIMD1	single_vs_control	M	0.12611639016804188	0.17760633241169707	-0.49392723930671223	descriptive_both_positive
+GIMD1	dual_vs_control	B	0.08933714855368785	0.12372456215269355	-0.46979982385893015	descriptive_both_positive
+GIMD1	dual_vs_control	E	0.1517839547663577	0.053770446918177756	1.4971339222055295	descriptive_both_positive
+GIMD1	dual_vs_control	M	0.02218456318672731	0.17760633241169707	-3.001054968806988	descriptive_both_positive
+GIMD1	dual_vs_single	B	0.08933714855368785	0.12289642792929474	-0.46011087055914485	descriptive_both_positive
+GIMD1	dual_vs_single	E	0.1517839547663577	0.08078865562466173	0.9097946615811624	descriptive_both_positive
+GIMD1	dual_vs_single	M	0.02218456318672731	0.12611639016804188	-2.5071277295002754	descriptive_both_positive
+GSTCD	single_vs_control	B	9.954610662272874	5.4645014950772985	0.8652750008554341	descriptive_both_positive
+GSTCD	single_vs_control	E	6.624669761222261	4.086553965781509	0.6969637517988653	descriptive_both_positive
+GSTCD	single_vs_control	M	10.131350010166033	7.503867544394201	0.43312015991990915	descriptive_both_positive
+GSTCD	dual_vs_control	B	6.092793531361512	5.4645014950772985	0.15701396154847463	descriptive_both_positive
+GSTCD	dual_vs_control	E	11.737959168598328	4.086553965781509	1.52222490316836	descriptive_both_positive
+GSTCD	dual_vs_control	M	21.71868735980604	7.503867544394201	1.533230644514523	descriptive_both_positive
+GSTCD	dual_vs_single	B	6.092793531361512	9.954610662272874	-0.7082610393069595	descriptive_both_positive
+GSTCD	dual_vs_single	E	11.737959168598328	6.624669761222261	0.8252611513694946	descriptive_both_positive
+GSTCD	dual_vs_single	M	21.71868735980604	10.131350010166033	1.100110484594614	descriptive_both_positive
+INTS12	single_vs_control	B	19.206956022092633	12.125007090963969	0.6636433033199588	descriptive_both_positive
+INTS12	single_vs_control	E	12.90598773603971	12.797366366526305	0.012193618263418063	descriptive_both_positive
+INTS12	single_vs_control	M	14.419307275879456	15.09653825499425	-0.06621590999275774	descriptive_both_positive
+INTS12	dual_vs_control	B	14.454750635986693	12.125007090963969	0.25355812956847673	descriptive_both_positive
+INTS12	dual_vs_control	E	14.723043612336696	12.797366366526305	0.2022290010847138	descriptive_both_positive
+INTS12	dual_vs_control	M	17.08211365378003	15.09653825499425	0.17826873063757429	descriptive_both_positive
+INTS12	dual_vs_single	B	14.454750635986693	19.206956022092633	-0.4100851737514821	descriptive_both_positive
+INTS12	dual_vs_single	E	14.723043612336696	12.90598773603971	0.19003538282129548	descriptive_both_positive
+INTS12	dual_vs_single	M	17.08211365378003	14.419307275879456	0.24448464063033185	descriptive_both_positive
+KCNA1	single_vs_control	B	0.0	0.02062076035878226		zero_no_ratio
+KCNA1	single_vs_control	E	0.0	0.0		zero_no_ratio
+KCNA1	single_vs_control	M	0.0	0.0		zero_no_ratio
+KCNA1	dual_vs_control	B	0.08933714855368785	0.02062076035878226	2.115162676862226	descriptive_both_positive
+KCNA1	dual_vs_control	E	0.0	0.0		zero_no_ratio
+KCNA1	dual_vs_control	M	0.0	0.0		zero_no_ratio
+KCNA1	dual_vs_single	B	0.08933714855368785	0.0		zero_no_ratio
+KCNA1	dual_vs_single	E	0.0	0.0		zero_no_ratio
+KCNA1	dual_vs_single	M	0.0	0.0		zero_no_ratio
+KCNA5	single_vs_control	B	0.0	0.0		zero_no_ratio
+KCNA5	single_vs_control	E	0.0	0.0		zero_no_ratio
+KCNA5	single_vs_control	M	0.0	0.0		zero_no_ratio
+KCNA5	dual_vs_control	B	0.0	0.0		zero_no_ratio
+KCNA5	dual_vs_control	E	0.0	0.0		zero_no_ratio
+KCNA5	dual_vs_control	M	0.0	0.0		zero_no_ratio
+KCNA5	dual_vs_single	B	0.0	0.0		zero_no_ratio
+KCNA5	dual_vs_single	E	0.0	0.0		zero_no_ratio
+KCNA5	dual_vs_single	M	0.0	0.0		zero_no_ratio
+KCNA6	single_vs_control	B	0.0	0.0		zero_no_ratio
+KCNA6	single_vs_control	E	0.0	0.0		zero_no_ratio
+KCNA6	single_vs_control	M	0.0	0.0		zero_no_ratio
+KCNA6	dual_vs_control	B	0.0	0.0		zero_no_ratio
+KCNA6	dual_vs_control	E	0.0	0.0		zero_no_ratio
+KCNA6	dual_vs_control	M	0.0	0.0		zero_no_ratio
+KCNA6	dual_vs_single	B	0.0	0.0		zero_no_ratio
+KCNA6	dual_vs_single	E	0.0	0.0		zero_no_ratio
+KCNA6	dual_vs_single	M	0.0	0.0		zero_no_ratio
+LCK	single_vs_control	B	455.06791598961706	501.166959759844	-0.13920943136632974	descriptive_both_positive
+LCK	single_vs_control	E	420.3029808873026	470.89468888594166	-0.1639747624423609	descriptive_both_positive
+LCK	single_vs_control	M	172.16989197773853	324.508970107722	-0.914425482820382	descriptive_both_positive
+LCK	dual_vs_control	B	508.113966113955	501.166959759844	0.019860813064582948	descriptive_both_positive
+LCK	dual_vs_control	E	363.674355620193	470.89468888594166	-0.37275725269511	descriptive_both_positive
+LCK	dual_vs_control	M	125.4093356945695	324.508970107722	-1.3716136089598105	descriptive_both_positive
+LCK	dual_vs_single	B	508.113966113955	455.06791598961706	0.15907024443091247	descriptive_both_positive
+LCK	dual_vs_single	E	363.674355620193	420.3029808873026	-0.20878249025274906	descriptive_both_positive
+LCK	dual_vs_single	M	125.4093356945695	172.16989197773853	-0.4571881261394286	descriptive_both_positive
+LOC119867197	single_vs_control	B	0.772491832698424	0.721726612557379	0.09806722705609772	descriptive_both_positive
+LOC119867197	single_vs_control	E	0.5453234254664666	0.4839340222635998	0.17230176134552333	descriptive_both_positive
+LOC119867197	single_vs_control	M	1.1140281131510368	0.46621662258070484	1.2567132917565706	descriptive_both_positive
+LOC119867197	dual_vs_control	B	0.750432047850978	0.721726612557379	0.05626898780865761	descriptive_both_positive
+LOC119867197	dual_vs_control	E	0.7336224480373955	0.4839340222635998	0.6002274151696332	descriptive_both_positive
+LOC119867197	dual_vs_control	M	0.7320905851620013	0.46621662258070484	0.6510217277727054	descriptive_both_positive
+LOC119867197	dual_vs_single	B	0.750432047850978	0.772491832698424	-0.0417982392474401	descriptive_both_positive
+LOC119867197	dual_vs_single	E	0.7336224480373955	0.5453234254664666	0.4279256538241098	descriptive_both_positive
+LOC119867197	dual_vs_single	M	0.7320905851620013	1.1140281131510368	-0.6056915639838653	descriptive_both_positive
+LOC119872513	single_vs_control	B	0.0	0.0		zero_no_ratio
+LOC119872513	single_vs_control	E	0.0	0.0		zero_no_ratio
+LOC119872513	single_vs_control	M	0.0	0.0		zero_no_ratio
+LOC119872513	dual_vs_control	B	0.0	0.0		zero_no_ratio
+LOC119872513	dual_vs_control	E	0.0	0.0		zero_no_ratio
+LOC119872513	dual_vs_control	M	0.0	0.0		zero_no_ratio
+LOC119872513	dual_vs_single	B	0.0	0.0		zero_no_ratio
+LOC119872513	dual_vs_single	E	0.0	0.0		zero_no_ratio
+LOC119872513	dual_vs_single	M	0.0	0.0		zero_no_ratio
+LOC119876429	single_vs_control	B	0.5618122419624902	0.4536567278932097	0.3084870067264695	descriptive_both_positive
+LOC119876429	single_vs_control	E	0.38374611421714316	0.6990158099363107	-0.8651729440731394	descriptive_both_positive
+LOC119876429	single_vs_control	M	0.23121338197474348	0.3774134563748563	-0.7069209626409104	descriptive_both_positive
+LOC119876429	dual_vs_control	B	0.0	0.4536567278932097		zero_no_ratio
+LOC119876429	dual_vs_control	E	0.4300545385046801	0.6990158099363107	-0.7008054554063792	descriptive_both_positive
+LOC119876429	dual_vs_control	M	0.3105838846141824	0.3774134563748563	-0.28116288799972294	descriptive_both_positive
+LOC119876429	dual_vs_single	B	0.0	0.5618122419624902		zero_no_ratio
+LOC119876429	dual_vs_single	E	0.4300545385046801	0.38374611421714316	0.1643674886667603	descriptive_both_positive
+LOC119876429	dual_vs_single	M	0.3105838846141824	0.23121338197474348	0.4257580746411874	descriptive_both_positive
+NCF2	single_vs_control	B	2.036569377114027	11.898178727017363	-2.5465278881541438	descriptive_both_positive
+NCF2	single_vs_control	E	1.595575948587069	6.264257065967708	-1.9730661358528103	descriptive_both_positive
+NCF2	single_vs_control	M	23.92007533520528	17.028007119971456	0.4903123347757803	descriptive_both_positive
+NCF2	dual_vs_control	B	5.681842648014547	11.898178727017363	-1.0663099713862636	descriptive_both_positive
+NCF2	dual_vs_control	E	0.7083251222430026	6.264257065967708	-3.1446598011123026	descriptive_both_positive
+NCF2	dual_vs_control	M	24.846710769134592	17.028007119971456	0.5451452806350456	descriptive_both_positive
+NCF2	dual_vs_single	B	5.681842648014547	2.036569377114027	1.4802179167678802	descriptive_both_positive
+NCF2	dual_vs_single	E	0.7083251222430026	1.595575948587069	-1.1715936652594927	descriptive_both_positive
+NCF2	dual_vs_single	M	24.846710769134592	23.92007533520528	0.0548329458592651	descriptive_both_positive
+NIBAN1	single_vs_control	B	277.3596812038569	277.78226279315584	-0.002196398552115915	descriptive_both_positive
+NIBAN1	single_vs_control	E	429.1291415142969	400.9662226688515	0.09793116626552562	descriptive_both_positive
+NIBAN1	single_vs_control	M	481.6595134501133	453.7175769372316	0.08621911079691114	descriptive_both_positive
+NIBAN1	dual_vs_control	B	334.3889470364536	277.78226279315584	0.26757267907908583	descriptive_both_positive
+NIBAN1	dual_vs_control	E	358.31132255178176	400.9662226688515	-0.16226707631094947	descriptive_both_positive
+NIBAN1	dual_vs_control	M	411.5014625506049	453.7175769372316	-0.14089699226231478	descriptive_both_positive
+NIBAN1	dual_vs_single	B	334.3889470364536	277.3596812038569	0.26976907763120184	descriptive_both_positive
+NIBAN1	dual_vs_single	E	358.31132255178176	429.1291415142969	-0.2601982425764749	descriptive_both_positive
+NIBAN1	dual_vs_single	M	411.5014625506049	481.6595134501133	-0.22711610305922564	descriptive_both_positive
+NPNT	single_vs_control	B	0.05266989768398346	0.12372456215269355	-1.2320813746362331	descriptive_both_positive
+NPNT	single_vs_control	E	0.02019716390616543	0.026885223459088878	-0.4126607393756329	descriptive_both_positive
+NPNT	single_vs_control	M	0.021019398361340317	0.28861029016900774	-3.7793294581689603	descriptive_both_positive
+NPNT	dual_vs_control	B	0.0	0.12372456215269355		zero_no_ratio
+NPNT	dual_vs_control	E	0.0	0.026885223459088878		zero_no_ratio
+NPNT	dual_vs_control	M	0.11092281593363656	0.28861029016900774	-1.3795665920607176	descriptive_both_positive
+NPNT	dual_vs_single	B	0.0	0.05266989768398346		zero_no_ratio
+NPNT	dual_vs_single	E	0.0	0.02019716390616543		zero_no_ratio
+NPNT	dual_vs_single	M	0.11092281593363656	0.021019398361340317	2.399762866108243	descriptive_both_positive
+NTF3	single_vs_control	B	0.0	0.0		zero_no_ratio
+NTF3	single_vs_control	E	0.08078865562466173	0.0		zero_no_ratio
+NTF3	single_vs_control	M	0.0	0.0		zero_no_ratio
+NTF3	dual_vs_control	B	0.0	0.0		zero_no_ratio
+NTF3	dual_vs_control	E	0.0	0.0		zero_no_ratio
+NTF3	dual_vs_control	M	0.0	0.0		zero_no_ratio
+NTF3	dual_vs_single	B	0.0	0.0		zero_no_ratio
+NTF3	dual_vs_single	E	0.0	0.08078865562466173		zero_no_ratio
+NTF3	dual_vs_single	M	0.0	0.0		zero_no_ratio
+PLEKHG6	single_vs_control	B	0.772491832698424	0.4948982486107742	0.6423877432799078	descriptive_both_positive
+PLEKHG6	single_vs_control	E	1.5147872929624073	1.6399986310044214	-0.11457938644263824	descriptive_both_positive
+PLEKHG6	single_vs_control	M	0.21019398361340316	0.5328189972350912	-1.341924145861662	descriptive_both_positive
+PLEKHG6	dual_vs_control	B	0.2858788753718011	0.4948982486107742	-0.7917279187462924	descriptive_both_positive
+PLEKHG6	dual_vs_control	E	0.7842170996261815	1.6399986310044214	-1.0643696056916376	descriptive_both_positive
+PLEKHG6	dual_vs_control	M	0.1774765054938185	0.5328189972350912	-1.586017469528144	descriptive_both_positive
+PLEKHG6	dual_vs_single	B	0.2858788753718011	0.772491832698424	-1.4341156620262003	descriptive_both_positive
+PLEKHG6	dual_vs_single	E	0.7842170996261815	1.5147872929624073	-0.9497902192489994	descriptive_both_positive
+PLEKHG6	dual_vs_single	M	0.1774765054938185	0.21019398361340316	-0.244093323666482	descriptive_both_positive
+PPA2	single_vs_control	B	58.63915275483492	51.160106450138784	0.19684499283275045	descriptive_both_positive
+PPA2	single_vs_control	E	57.157973854448166	60.411097112572705	-0.07985881083629541	descriptive_both_positive
+PPA2	single_vs_control	M	38.88588696847958	48.95274537097401	-0.33214312506907673	descriptive_both_positive
+PPA2	dual_vs_control	B	52.1728947553537	51.160106450138784	0.02828121584981212	descriptive_both_positive
+PPA2	dual_vs_control	E	57.247848272711245	60.411097112572705	-0.07759211842864122	descriptive_both_positive
+PPA2	dual_vs_control	M	49.27191483772136	48.95274537097401	0.009375768295110045	descriptive_both_positive
+PPA2	dual_vs_single	B	52.1728947553537	58.63915275483492	-0.16856377698293826	descriptive_both_positive
+PPA2	dual_vs_single	E	57.247848272711245	57.157973854448166	0.002266692407654258	descriptive_both_positive
+PPA2	dual_vs_single	M	49.27191483772136	38.88588696847958	0.34151889336418695	descriptive_both_positive
+RGL1	single_vs_control	B	2.2999188655339444	1.2784871422445	0.8471453165143418	descriptive_both_positive
+RGL1	single_vs_control	E	1.1512383426514297	0.18819656421362213	2.612874352731505	descriptive_both_positive
+RGL1	single_vs_control	M	5.864412142813948	3.196913983410547	0.8753065703590069	descriptive_both_positive
+RGL1	dual_vs_control	B	1.5544663848341684	1.2784871422445	0.2819817674367164	descriptive_both_positive
+RGL1	dual_vs_control	E	2.3526512988785444	0.18819656421362213	3.6439753105348007	descriptive_both_positive
+RGL1	dual_vs_control	M	5.191187785694191	3.196913983410547	0.6993847493341043	descriptive_both_positive
+RGL1	dual_vs_single	B	1.5544663848341684	2.2999188655339444	-0.5651635490776254	descriptive_both_positive
+RGL1	dual_vs_single	E	2.3526512988785444	1.1512383426514297	1.031100957803296	descriptive_both_positive
+RGL1	dual_vs_single	M	5.191187785694191	5.864412142813948	-0.17592182102490259	descriptive_both_positive
+SMG7	single_vs_control	B	226.74390952954877	175.09087620642015	0.3729598911910148	descriptive_both_positive
+SMG7	single_vs_control	E	186.21785121484527	168.11330228968274	0.1475574940299335	descriptive_both_positive
+SMG7	single_vs_control	M	193.1682709407175	177.89494270186609	0.11883264479226249	descriptive_both_positive
+SMG7	dual_vs_control	B	196.5059919586918	175.09087620642015	0.16646939605779118	descriptive_both_positive
+SMG7	dual_vs_control	E	195.902490951779	168.11330228968274	0.2207018568478338	descriptive_both_positive
+SMG7	dual_vs_control	M	204.14235044426474	177.89494270186609	0.1985500109399911	descriptive_both_positive
+SMG7	dual_vs_single	B	196.5059919586918	226.74390952954877	-0.20649049513322368	descriptive_both_positive
+SMG7	dual_vs_single	E	195.902490951779	186.21785121484527	0.07314436281790052	descriptive_both_positive
+SMG7	dual_vs_single	M	204.14235044426474	193.1682709407175	0.0797173661477287	descriptive_both_positive
+TBCK	single_vs_control	B	19.979447854791058	23.693253652240816	-0.24595961497576468	descriptive_both_positive
+TBCK	single_vs_control	E	18.177447515548888	20.190802817775747	-0.1515486456728676	descriptive_both_positive
+TBCK	single_vs_control	M	19.001536118651646	20.80214168372002	-0.13061601527186728	descriptive_both_positive
+TBCK	dual_vs_control	B	21.208639066645496	23.693253652240816	-0.159824281029343	descriptive_both_positive
+TBCK	dual_vs_control	E	18.745318413645176	20.190802817775747	-0.10716794372406449	descriptive_both_positive
+TBCK	dual_vs_control	M	20.409798131789127	20.80214168372002	-0.02747015552179939	descriptive_both_positive
+TBCK	dual_vs_single	B	21.208639066645496	19.979447854791058	0.08613533394642169	descriptive_both_positive
+TBCK	dual_vs_single	E	18.745318413645176	18.177447515548888	0.044380701948803204	descriptive_both_positive
+TBCK	dual_vs_single	M	20.409798131789127	19.001536118651646	0.10314585975006788	descriptive_both_positive
+TET2	single_vs_control	B	60.48259917377434	60.70751849625497	-0.005355063101592413	descriptive_both_positive
+TET2	single_vs_control	E	67.0141898406569	63.744864821499725	0.07215748409822262	descriptive_both_positive
+TET2	single_vs_control	M	64.63464996112147	64.67090578940919	-0.0008090310542519856	descriptive_both_positive
+TET2	dual_vs_control	B	62.428799409317065	60.70751849625497	0.040336518834610015	descriptive_both_positive
+TET2	dual_vs_control	E	63.92634228243098	63.744864821499725	0.004101422947140499	descriptive_both_positive
+TET2	dual_vs_control	M	55.794176414619194	64.67090578940919	-0.21300227025444649	descriptive_both_positive
+TET2	dual_vs_single	B	62.428799409317065	60.48259917377434	0.0456915819362027	descriptive_both_positive
+TET2	dual_vs_single	E	63.92634228243098	67.0141898406569	-0.06805606115108181	descriptive_both_positive
+TET2	dual_vs_single	M	55.794176414619194	64.63464996112147	-0.21219323920019448	descriptive_both_positive
+TNFRSF1A	single_vs_control	B	14.65978818870873	23.693253652240816	-0.692612069920932	descriptive_both_positive
+TNFRSF1A	single_vs_control	E	24.903103096301976	25.057028263870833	-0.008889799627074011	descriptive_both_positive
+TNFRSF1A	single_vs_control	M	7.0835372477716865	15.052136671891327	-1.0874264219823537	descriptive_both_positive
+TNFRSF1A	dual_vs_control	B	23.90662095296687	23.693253652240816	0.012933899970211146	descriptive_both_positive
+TNFRSF1A	dual_vs_control	E	19.529535513271355	25.057028263870833	-0.35955768590182646	descriptive_both_positive
+TNFRSF1A	dual_vs_control	M	6.122939439536738	15.052136671891327	-1.2976719751651626	descriptive_both_positive
+TNFRSF1A	dual_vs_single	B	23.90662095296687	14.65978818870873	0.7055459698911433	descriptive_both_positive
+TNFRSF1A	dual_vs_single	E	19.529535513271355	24.903103096301976	-0.3506678862747525	descriptive_both_positive
+TNFRSF1A	dual_vs_single	M	6.122939439536738	7.0835372477716865	-0.210245553182809	descriptive_both_positive
+TSEN15	single_vs_control	B	48.21051301340619	43.468562836313005	0.14937538387365273	descriptive_both_positive
+TSEN15	single_vs_control	E	45.30223864152906	44.14553691982393	0.03731475393283462	descriptive_both_positive
+TSEN15	single_vs_control	M	37.120257506127	41.6264841589915	-0.16529499265000785	descriptive_both_positive
+TSEN15	dual_vs_control	B	39.647826528126664	43.468562836313005	-0.13273061746533985	descriptive_both_positive
+TSEN15	dual_vs_control	E	44.422104094954015	44.14553691982393	0.009010139241926967	descriptive_both_positive
+TSEN15	dual_vs_control	M	42.48343850258281	41.6264841589915	0.029398827734726133	descriptive_both_positive
+TSEN15	dual_vs_single	B	39.647826528126664	48.21051301340619	-0.28210600133899244	descriptive_both_positive
+TSEN15	dual_vs_single	E	44.422104094954015	45.30223864152906	-0.028304614690907885	descriptive_both_positive
+TSEN15	dual_vs_single	M	42.48343850258281	37.120257506127	0.19469382038473423	descriptive_both_positive
+VWF	single_vs_control	B	0.0	0.16496608287025807		zero_no_ratio
+VWF	single_vs_control	E	0.0	0.0		zero_no_ratio
+VWF	single_vs_control	M	0.08407759344536127	0.08880316620584854	-0.07888974002786817	descriptive_both_positive
+VWF	dual_vs_control	B	0.0	0.16496608287025807		zero_no_ratio
+VWF	dual_vs_control	E	0.12648662897196475	0.0		zero_no_ratio
+VWF	dual_vs_control	M	0.11092281593363656	0.08880316620584854	0.3208731260803746	descriptive_both_positive
+VWF	dual_vs_single	B	0.0	0.0		zero_no_ratio
+VWF	dual_vs_single	E	0.12648662897196475	0.0		zero_no_ratio
+VWF	dual_vs_single	M	0.11092281593363656	0.08407759344536127	0.3997628661082428	descriptive_both_positive

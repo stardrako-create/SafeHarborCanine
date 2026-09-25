@@ -1,0 +1,2 @@
+genes	vcf_chrom	start	end	id	type	AF	filter
+NPNT/TBCK	chr32	4707938	33613308	chr32:4707939:DG	DEL	(0.0010639999527484179,)	PASS

@@ -1,0 +1,362 @@
+[
+  {
+    "file": "SRR26729592_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.001,
+    "top_6mer": [
+      [
+        "CTGGCT",
+        30
+      ],
+      [
+        "CTGGGG",
+        29
+      ],
+      [
+        "CTGGGT",
+        25
+      ]
+    ],
+    "GC_fraction": 0.521304
+  },
+  {
+    "file": "SRR26729592_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0009,
+    "top_6mer": [
+      [
+        "GGAGAA",
+        28
+      ],
+      [
+        "CTCCTC",
+        26
+      ],
+      [
+        "GGAAAA",
+        24
+      ]
+    ],
+    "GC_fraction": 0.5210633333333333
+  },
+  {
+    "file": "SRR26729593_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0006,
+    "top_6mer": [
+      [
+        "GGAAGA",
+        33
+      ],
+      [
+        "GGAAAA",
+        26
+      ],
+      [
+        "CTGGAA",
+        24
+      ]
+    ],
+    "GC_fraction": 0.518962
+  },
+  {
+    "file": "SRR26729593_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0008,
+    "top_6mer": [
+      [
+        "GGAAAA",
+        27
+      ],
+      [
+        "CTGGGG",
+        27
+      ],
+      [
+        "GGAAGA",
+        23
+      ]
+    ],
+    "GC_fraction": 0.5183046666666666
+  },
+  {
+    "file": "SRR26729594_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0007,
+    "top_6mer": [
+      [
+        "CTTCCT",
+        23
+      ],
+      [
+        "GGAGAA",
+        23
+      ],
+      [
+        "CTGGAA",
+        22
+      ]
+    ],
+    "GC_fraction": 0.5237873333333334
+  },
+  {
+    "file": "SRR26729594_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0009,
+    "top_6mer": [
+      [
+        "GGAAAA",
+        30
+      ],
+      [
+        "CTGGGG",
+        29
+      ],
+      [
+        "GGAAGA",
+        24
+      ]
+    ],
+    "GC_fraction": 0.523124
+  },
+  {
+    "file": "SRR26729595_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0007,
+    "top_6mer": [
+      [
+        "CTGGAG",
+        27
+      ],
+      [
+        "GGAAAA",
+        24
+      ],
+      [
+        "CTCCTC",
+        21
+      ]
+    ],
+    "GC_fraction": 0.519614
+  },
+  {
+    "file": "SRR26729595_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0008,
+    "top_6mer": [
+      [
+        "CCGGGG",
+        24
+      ],
+      [
+        "GGAAGA",
+        24
+      ],
+      [
+        "CTGGAA",
+        21
+      ]
+    ],
+    "GC_fraction": 0.5176006666666667
+  },
+  {
+    "file": "SRR26729596_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0004,
+    "top_6mer": [
+      [
+        "CGGCGG",
+        23
+      ],
+      [
+        "CTTTTT",
+        22
+      ],
+      [
+        "AAAGAA",
+        22
+      ]
+    ],
+    "GC_fraction": 0.5203933333333334
+  },
+  {
+    "file": "SRR26729596_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0007,
+    "top_6mer": [
+      [
+        "CTGGGC",
+        23
+      ],
+      [
+        "GGAAGA",
+        23
+      ],
+      [
+        "CTCCTC",
+        20
+      ]
+    ],
+    "GC_fraction": 0.5206353333333333
+  },
+  {
+    "file": "SRR26729597_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.001,
+    "top_6mer": [
+      [
+        "CTCCTC",
+        24
+      ],
+      [
+        "GGAGAA",
+        23
+      ],
+      [
+        "GGAAAA",
+        22
+      ]
+    ],
+    "GC_fraction": 0.519526
+  },
+  {
+    "file": "SRR26729597_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0006,
+    "top_6mer": [
+      [
+        "CTGGAA",
+        23
+      ],
+      [
+        "GGAAGA",
+        21
+      ],
+      [
+        "CTGGGC",
+        20
+      ]
+    ],
+    "GC_fraction": 0.5206266666666667
+  },
+  {
+    "file": "SRR26729598_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0007,
+    "top_6mer": [
+      [
+        "CTGGAA",
+        32
+      ],
+      [
+        "GGAAAA",
+        30
+      ],
+      [
+        "CTCCTC",
+        27
+      ]
+    ],
+    "GC_fraction": 0.521618
+  },
+  {
+    "file": "SRR26729598_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0004,
+    "top_6mer": [
+      [
+        "CTCCTC",
+        30
+      ],
+      [
+        "GGAAGA",
+        27
+      ],
+      [
+        "CTGGGA",
+        21
+      ]
+    ],
+    "GC_fraction": 0.5216746666666666
+  },
+  {
+    "file": "SRR26729599_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0003,
+    "top_6mer": [
+      [
+        "CTCCTC",
+        25
+      ],
+      [
+        "GGAGAA",
+        24
+      ],
+      [
+        "GGGGGA",
+        23
+      ]
+    ],
+    "GC_fraction": 0.51227
+  },
+  {
+    "file": "SRR26729599_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0008,
+    "top_6mer": [
+      [
+        "CTCCTC",
+        29
+      ],
+      [
+        "GGAAGA",
+        27
+      ],
+      [
+        "GGAGAA",
+        24
+      ]
+    ],
+    "GC_fraction": 0.5130266666666666
+  },
+  {
+    "file": "SRR26729600_1.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0009,
+    "top_6mer": [
+      [
+        "GGGAGA",
+        26
+      ],
+      [
+        "CTGGGA",
+        25
+      ],
+      [
+        "CTGGAA",
+        24
+      ]
+    ],
+    "GC_fraction": 0.5139853333333333
+  },
+  {
+    "file": "SRR26729600_2.fastq.gz",
+    "reads_sampled": 10000,
+    "position7_26_T80_fraction": 0.0012,
+    "top_6mer": [
+      [
+        "GGAAGA",
+        26
+      ],
+      [
+        "GGGGGG",
+        23
+      ],
+      [
+        "CTGGGG",
+        22
+      ]
+    ],
+    "GC_fraction": 0.5151966666666666
+  }
+]

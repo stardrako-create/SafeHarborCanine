@@ -183,6 +183,7 @@ rule qc_metrics:
         peaks=rules.macs2_peaks.output.narrowpeak,
         tss=TSS_BED,
         chrom_sizes=CHROM_SIZES,
+        raw_bw=rules.raw_bigwig.output.bw,
     output:
         qc=os.path.join(PER_DOG, "{sample}", "qc", "{sample}.qc.tsv"),
     params:
@@ -199,5 +200,6 @@ rule qc_metrics:
             --chrom-sizes "{input.chrom_sizes}" \
             --tss-flank {params.tss_flank} \
             --tss-bg {params.tss_bg} \
+            --raw-bw "{input.raw_bw}" \
             --out "{output.qc}"
         """

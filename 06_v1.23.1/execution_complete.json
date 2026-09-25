@@ -1,0 +1,475 @@
+{
+  "samples": 9,
+  "alignments": 27,
+  "subset_pairs_per_sample": 100000,
+  "metrics": [
+    {
+      "sample": "B_B7H3_CAR_T",
+      "run": "SRR26729600",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 92.09,
+      "assigned_unstranded": 79506,
+      "assigned_pct": 79.506,
+      "detected_genes": 8832
+    },
+    {
+      "sample": "B_B7H3_CAR_T",
+      "run": "SRR26729600",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 90.52,
+      "assigned_unstranded": 78120,
+      "assigned_pct": 78.12,
+      "detected_genes": 8846
+    },
+    {
+      "sample": "B_B7H3_CAR_T",
+      "run": "SRR26729600",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 90.51,
+      "assigned_unstranded": 78106,
+      "assigned_pct": 78.106,
+      "detected_genes": 8842
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "run": "SRR26729599",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 91.88,
+      "assigned_unstranded": 76483,
+      "assigned_pct": 76.483,
+      "detected_genes": 9127
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "run": "SRR26729599",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 90.49,
+      "assigned_unstranded": 74910,
+      "assigned_pct": 74.91,
+      "detected_genes": 9135
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "run": "SRR26729599",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 90.71,
+      "assigned_unstranded": 74993,
+      "assigned_pct": 74.993,
+      "detected_genes": 9108
+    },
+    {
+      "sample": "B_T_cell",
+      "run": "SRR26729598",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 91.14,
+      "assigned_unstranded": 76506,
+      "assigned_pct": 76.506,
+      "detected_genes": 9117
+    },
+    {
+      "sample": "B_T_cell",
+      "run": "SRR26729598",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 89.89,
+      "assigned_unstranded": 75217,
+      "assigned_pct": 75.217,
+      "detected_genes": 9105
+    },
+    {
+      "sample": "B_T_cell",
+      "run": "SRR26729598",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 89.8,
+      "assigned_unstranded": 75181,
+      "assigned_pct": 75.181,
+      "detected_genes": 9098
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "run": "SRR26729597",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 93.08,
+      "assigned_unstranded": 77153,
+      "assigned_pct": 77.153,
+      "detected_genes": 9086
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "run": "SRR26729597",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 91.62,
+      "assigned_unstranded": 75457,
+      "assigned_pct": 75.457,
+      "detected_genes": 9067
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "run": "SRR26729597",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 91.7,
+      "assigned_unstranded": 75651,
+      "assigned_pct": 75.651,
+      "detected_genes": 9050
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "run": "SRR26729596",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 93.04,
+      "assigned_unstranded": 78793,
+      "assigned_pct": 78.793,
+      "detected_genes": 8954
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "run": "SRR26729596",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 91.44,
+      "assigned_unstranded": 77205,
+      "assigned_pct": 77.205,
+      "detected_genes": 8946
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "run": "SRR26729596",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 91.65,
+      "assigned_unstranded": 77303,
+      "assigned_pct": 77.303,
+      "detected_genes": 8959
+    },
+    {
+      "sample": "E_T_cell",
+      "run": "SRR26729595",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 93.19,
+      "assigned_unstranded": 77976,
+      "assigned_pct": 77.976,
+      "detected_genes": 9266
+    },
+    {
+      "sample": "E_T_cell",
+      "run": "SRR26729595",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 91.49,
+      "assigned_unstranded": 76174,
+      "assigned_pct": 76.174,
+      "detected_genes": 9229
+    },
+    {
+      "sample": "E_T_cell",
+      "run": "SRR26729595",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 91.88,
+      "assigned_unstranded": 76470,
+      "assigned_pct": 76.47,
+      "detected_genes": 9192
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "run": "SRR26729594",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 88.99,
+      "assigned_unstranded": 74810,
+      "assigned_pct": 74.81,
+      "detected_genes": 9258
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "run": "SRR26729594",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 87.63,
+      "assigned_unstranded": 73431,
+      "assigned_pct": 73.431,
+      "detected_genes": 9272
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "run": "SRR26729594",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 87.75,
+      "assigned_unstranded": 73535,
+      "assigned_pct": 73.535,
+      "detected_genes": 9243
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "run": "SRR26729593",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 90.7,
+      "assigned_unstranded": 77402,
+      "assigned_pct": 77.402,
+      "detected_genes": 9161
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "run": "SRR26729593",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 89.4,
+      "assigned_unstranded": 76094,
+      "assigned_pct": 76.094,
+      "detected_genes": 9168
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "run": "SRR26729593",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 89.48,
+      "assigned_unstranded": 76082,
+      "assigned_pct": 76.082,
+      "detected_genes": 9156
+    },
+    {
+      "sample": "M_T_cell",
+      "run": "SRR26729592",
+      "mode": "paired",
+      "input_units": 100000,
+      "unique_pct": 89.19,
+      "assigned_unstranded": 75714,
+      "assigned_pct": 75.714,
+      "detected_genes": 9165
+    },
+    {
+      "sample": "M_T_cell",
+      "run": "SRR26729592",
+      "mode": "R1",
+      "input_units": 100000,
+      "unique_pct": 88.07,
+      "assigned_unstranded": 74720,
+      "assigned_pct": 74.72,
+      "detected_genes": 9173
+    },
+    {
+      "sample": "M_T_cell",
+      "run": "SRR26729592",
+      "mode": "R2",
+      "input_units": 100000,
+      "unique_pct": 88.17,
+      "assigned_unstranded": 74774,
+      "assigned_pct": 74.774,
+      "detected_genes": 9166
+    }
+  ],
+  "comparisons": [
+    {
+      "sample": "B_B7H3_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 8981,
+      "spearman_nonzero_either": 0.982763650343772
+    },
+    {
+      "sample": "B_B7H3_CAR_T",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 8993,
+      "spearman_nonzero_either": 0.9802624255702029
+    },
+    {
+      "sample": "B_B7H3_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9085,
+      "spearman_nonzero_either": 0.9748531252810992
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9301,
+      "spearman_nonzero_either": 0.9788103019211912
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9291,
+      "spearman_nonzero_either": 0.9803100499275313
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9397,
+      "spearman_nonzero_either": 0.9699072400400068
+    },
+    {
+      "sample": "B_T_cell",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9288,
+      "spearman_nonzero_either": 0.9753604900085169
+    },
+    {
+      "sample": "B_T_cell",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9289,
+      "spearman_nonzero_either": 0.9750582744935259
+    },
+    {
+      "sample": "B_T_cell",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9380,
+      "spearman_nonzero_either": 0.9657431142689424
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9258,
+      "spearman_nonzero_either": 0.9792617695545479
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9240,
+      "spearman_nonzero_either": 0.9807557747527997
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9353,
+      "spearman_nonzero_either": 0.970706058078205
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9100,
+      "spearman_nonzero_either": 0.9816091849157074
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9101,
+      "spearman_nonzero_either": 0.9811884864895625
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9195,
+      "spearman_nonzero_either": 0.9723543836395682
+    },
+    {
+      "sample": "E_T_cell",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9433,
+      "spearman_nonzero_either": 0.9772900177493354
+    },
+    {
+      "sample": "E_T_cell",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9395,
+      "spearman_nonzero_either": 0.9796499697476704
+    },
+    {
+      "sample": "E_T_cell",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9495,
+      "spearman_nonzero_either": 0.9685538039101028
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9440,
+      "spearman_nonzero_either": 0.9770328067326608
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9413,
+      "spearman_nonzero_either": 0.9762211430457106
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9525,
+      "spearman_nonzero_either": 0.968007613593482
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9324,
+      "spearman_nonzero_either": 0.9787144645965171
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9323,
+      "spearman_nonzero_either": 0.9784616204338643
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9419,
+      "spearman_nonzero_either": 0.9711332218933054
+    },
+    {
+      "sample": "M_T_cell",
+      "mode_a": "R1",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9336,
+      "spearman_nonzero_either": 0.9772431374845139
+    },
+    {
+      "sample": "M_T_cell",
+      "mode_a": "R2",
+      "mode_b": "paired",
+      "genes_nonzero_either": 9316,
+      "spearman_nonzero_either": 0.9784709031358864
+    },
+    {
+      "sample": "M_T_cell",
+      "mode_a": "R1",
+      "mode_b": "R2",
+      "genes_nonzero_either": 9426,
+      "spearman_nonzero_either": 0.9700192943768584
+    }
+  ],
+  "limitations": [
+    "Initial subset, not randomized or full-library verification",
+    "Single-end input units are reads; paired input units are pairs",
+    "No proof of library kit, physical sample identity or biological safety",
+    "Different sensitivity/multimapping of single versus paired alignment expected",
+    "Subset too shallow to interpret zero counts of low-expression candidate-neighbor genes"
+  ]
+}

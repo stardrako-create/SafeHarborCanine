@@ -1,0 +1,920 @@
+{
+  "utc": "2026-09-23T16:50:25.805986+00:00",
+  "results": [
+    {
+      "id": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097112,
+      "uu_chrom": "NC_049243.1",
+      "uu_start0": 45799914,
+      "uu_end0": 45800913,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "968M1I31M",
+      "NM": 8,
+      "exact_bp": 992,
+      "mismatch_bp": 7,
+      "query_unaligned_or_inserted_bp": 1,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 79,
+          "first_uu_pos0": 45799914,
+          "last_uu_pos0": 45799992
+        },
+        {
+          "ros_relative_start0": 80,
+          "ros_relative_end0": 191,
+          "first_uu_pos0": 45799994,
+          "last_uu_pos0": 45800104
+        },
+        {
+          "ros_relative_start0": 192,
+          "ros_relative_end0": 207,
+          "first_uu_pos0": 45800106,
+          "last_uu_pos0": 45800120
+        },
+        {
+          "ros_relative_start0": 208,
+          "ros_relative_end0": 527,
+          "first_uu_pos0": 45800122,
+          "last_uu_pos0": 45800440
+        },
+        {
+          "ros_relative_start0": 528,
+          "ros_relative_end0": 560,
+          "first_uu_pos0": 45800442,
+          "last_uu_pos0": 45800473
+        },
+        {
+          "ros_relative_start0": 562,
+          "ros_relative_end0": 699,
+          "first_uu_pos0": 45800476,
+          "last_uu_pos0": 45800612
+        },
+        {
+          "ros_relative_start0": 700,
+          "ros_relative_end0": 968,
+          "first_uu_pos0": 45800614,
+          "last_uu_pos0": 45800881
+        },
+        {
+          "ros_relative_start0": 969,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 45800882,
+          "last_uu_pos0": 45800912
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_0567",
+      "ros_chrom": "NC_051823.1",
+      "ros_start0": 3770399,
+      "uu_chrom": "NC_049240.1",
+      "uu_start0": 4424922,
+      "uu_end0": 4425922,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 4424922,
+          "last_uu_pos0": 4425921
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_2848",
+      "ros_chrom": "NC_051840.1",
+      "ros_start0": 28808728,
+      "uu_chrom": "NC_049257.1",
+      "uu_start0": 28969522,
+      "uu_end0": 28970522,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 28969522,
+          "last_uu_pos0": 28970521
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9610913,
+      "uu_chrom": "NC_049242.1",
+      "uu_start0": 9513513,
+      "uu_end0": 9514464,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "251M2D290M1I137M48I40M2I231M",
+      "NM": 58,
+      "exact_bp": 944,
+      "mismatch_bp": 5,
+      "query_unaligned_or_inserted_bp": 51,
+      "reference_only_bp": 2,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 40,
+          "first_uu_pos0": 9513513,
+          "last_uu_pos0": 9513552
+        },
+        {
+          "ros_relative_start0": 41,
+          "ros_relative_end0": 75,
+          "first_uu_pos0": 9513554,
+          "last_uu_pos0": 9513587
+        },
+        {
+          "ros_relative_start0": 76,
+          "ros_relative_end0": 251,
+          "first_uu_pos0": 9513589,
+          "last_uu_pos0": 9513763
+        },
+        {
+          "ros_relative_start0": 252,
+          "ros_relative_end0": 489,
+          "first_uu_pos0": 9513767,
+          "last_uu_pos0": 9514003
+        },
+        {
+          "ros_relative_start0": 490,
+          "ros_relative_end0": 541,
+          "first_uu_pos0": 9514005,
+          "last_uu_pos0": 9514055
+        },
+        {
+          "ros_relative_start0": 542,
+          "ros_relative_end0": 675,
+          "first_uu_pos0": 9514056,
+          "last_uu_pos0": 9514188
+        },
+        {
+          "ros_relative_start0": 676,
+          "ros_relative_end0": 679,
+          "first_uu_pos0": 9514190,
+          "last_uu_pos0": 9514192
+        },
+        {
+          "ros_relative_start0": 727,
+          "ros_relative_end0": 767,
+          "first_uu_pos0": 9514193,
+          "last_uu_pos0": 9514232
+        },
+        {
+          "ros_relative_start0": 769,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 9514233,
+          "last_uu_pos0": 9514463
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_2865",
+      "ros_chrom": "NC_051815.1",
+      "ros_start0": 42906991,
+      "uu_chrom": "NC_049232.1",
+      "uu_start0": 42114139,
+      "uu_end0": 42115139,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 2,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 42114139,
+          "last_uu_pos0": 42115138
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_0442",
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 10430486,
+      "uu_chrom": "NC_049254.1",
+      "uu_start0": 10777598,
+      "uu_end0": 10778598,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 10777598,
+          "last_uu_pos0": 10778597
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_2901",
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27679801,
+      "uu_chrom": "NC_049248.1",
+      "uu_start0": 18802349,
+      "uu_end0": 18803349,
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 2,
+      "exact_bp": 998,
+      "mismatch_bp": 2,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 227,
+          "first_uu_pos0": 18803348,
+          "last_uu_pos0": 18803122
+        },
+        {
+          "ros_relative_start0": 228,
+          "ros_relative_end0": 595,
+          "first_uu_pos0": 18803120,
+          "last_uu_pos0": 18802754
+        },
+        {
+          "ros_relative_start0": 596,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 18802752,
+          "last_uu_pos0": 18802349
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227611,
+      "uu_chrom": "NC_049233.1",
+      "uu_start0": 29853313,
+      "uu_end0": 29854314,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "350M1I57M1D135M1D457M",
+      "NM": 10,
+      "exact_bp": 992,
+      "mismatch_bp": 7,
+      "query_unaligned_or_inserted_bp": 1,
+      "reference_only_bp": 2,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 248,
+          "first_uu_pos0": 29853313,
+          "last_uu_pos0": 29853560
+        },
+        {
+          "ros_relative_start0": 249,
+          "ros_relative_end0": 312,
+          "first_uu_pos0": 29853562,
+          "last_uu_pos0": 29853624
+        },
+        {
+          "ros_relative_start0": 313,
+          "ros_relative_end0": 350,
+          "first_uu_pos0": 29853626,
+          "last_uu_pos0": 29853662
+        },
+        {
+          "ros_relative_start0": 351,
+          "ros_relative_end0": 373,
+          "first_uu_pos0": 29853663,
+          "last_uu_pos0": 29853684
+        },
+        {
+          "ros_relative_start0": 374,
+          "ros_relative_end0": 404,
+          "first_uu_pos0": 29853686,
+          "last_uu_pos0": 29853715
+        },
+        {
+          "ros_relative_start0": 405,
+          "ros_relative_end0": 408,
+          "first_uu_pos0": 29853717,
+          "last_uu_pos0": 29853719
+        },
+        {
+          "ros_relative_start0": 408,
+          "ros_relative_end0": 467,
+          "first_uu_pos0": 29853721,
+          "last_uu_pos0": 29853779
+        },
+        {
+          "ros_relative_start0": 468,
+          "ros_relative_end0": 543,
+          "first_uu_pos0": 29853781,
+          "last_uu_pos0": 29853855
+        },
+        {
+          "ros_relative_start0": 543,
+          "ros_relative_end0": 667,
+          "first_uu_pos0": 29853857,
+          "last_uu_pos0": 29853980
+        },
+        {
+          "ros_relative_start0": 668,
+          "ros_relative_end0": 683,
+          "first_uu_pos0": 29853982,
+          "last_uu_pos0": 29853996
+        },
+        {
+          "ros_relative_start0": 684,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 29853998,
+          "last_uu_pos0": 29854313
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_0334",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 16855903,
+      "uu_chrom": "NC_049242.1",
+      "uu_start0": 16780469,
+      "uu_end0": 16781469,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 2,
+      "exact_bp": 998,
+      "mismatch_bp": 2,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 31,
+          "first_uu_pos0": 16780469,
+          "last_uu_pos0": 16780499
+        },
+        {
+          "ros_relative_start0": 32,
+          "ros_relative_end0": 957,
+          "first_uu_pos0": 16780501,
+          "last_uu_pos0": 16781425
+        },
+        {
+          "ros_relative_start0": 958,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 16781427,
+          "last_uu_pos0": 16781468
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_2545",
+      "ros_chrom": "NC_051839.1",
+      "ros_start0": 1367230,
+      "uu_chrom": "NC_049256.1",
+      "uu_start0": 2699018,
+      "uu_end0": 2700018,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 1,
+      "exact_bp": 999,
+      "mismatch_bp": 1,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 20,
+          "first_uu_pos0": 2699018,
+          "last_uu_pos0": 2699037
+        },
+        {
+          "ros_relative_start0": 21,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 2699039,
+          "last_uu_pos0": 2700017
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_0228",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 56546547,
+      "uu_chrom": "NC_049243.1",
+      "uu_start0": 56171941,
+      "uu_end0": 56172942,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "543M1D457M",
+      "NM": 3,
+      "exact_bp": 998,
+      "mismatch_bp": 2,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 1,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 543,
+          "first_uu_pos0": 56171941,
+          "last_uu_pos0": 56172483
+        },
+        {
+          "ros_relative_start0": 543,
+          "ros_relative_end0": 567,
+          "first_uu_pos0": 56172485,
+          "last_uu_pos0": 56172508
+        },
+        {
+          "ros_relative_start0": 568,
+          "ros_relative_end0": 691,
+          "first_uu_pos0": 56172510,
+          "last_uu_pos0": 56172632
+        },
+        {
+          "ros_relative_start0": 692,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 56172634,
+          "last_uu_pos0": 56172941
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_1958",
+      "ros_chrom": "NC_051809.1",
+      "ros_start0": 83663220,
+      "uu_chrom": "NC_049226.1",
+      "uu_start0": 83812948,
+      "uu_end0": 83813948,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 1,
+      "exact_bp": 999,
+      "mismatch_bp": 1,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 676,
+          "first_uu_pos0": 83812948,
+          "last_uu_pos0": 83813623
+        },
+        {
+          "ros_relative_start0": 677,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 83813625,
+          "last_uu_pos0": 83813947
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_2686",
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7716819,
+      "uu_chrom": "NC_049254.1",
+      "uu_start0": 7982812,
+      "uu_end0": 7983812,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 3,
+      "exact_bp": 997,
+      "mismatch_bp": 3,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 78,
+          "first_uu_pos0": 7982812,
+          "last_uu_pos0": 7982889
+        },
+        {
+          "ros_relative_start0": 79,
+          "ros_relative_end0": 476,
+          "first_uu_pos0": 7982891,
+          "last_uu_pos0": 7983287
+        },
+        {
+          "ros_relative_start0": 477,
+          "ros_relative_end0": 616,
+          "first_uu_pos0": 7983289,
+          "last_uu_pos0": 7983427
+        },
+        {
+          "ros_relative_start0": 617,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 7983429,
+          "last_uu_pos0": 7983811
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_1023",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 46678467,
+      "uu_chrom": "NC_049233.1",
+      "uu_start0": 46123851,
+      "uu_end0": 46124851,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 46123851,
+          "last_uu_pos0": 46124850
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_0023",
+      "ros_chrom": "NC_051830.1",
+      "ros_start0": 35042788,
+      "uu_chrom": "NC_049243.1",
+      "uu_start0": 54322502,
+      "uu_end0": 54323407,
+      "strand": "-",
+      "mapq": 0,
+      "cigar": "95S905M",
+      "NM": 3,
+      "exact_bp": 902,
+      "mismatch_bp": 3,
+      "query_unaligned_or_inserted_bp": 95,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 19,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 81,
+          "first_uu_pos0": 54323406,
+          "last_uu_pos0": 54323326
+        },
+        {
+          "ros_relative_start0": 82,
+          "ros_relative_end0": 349,
+          "first_uu_pos0": 54323324,
+          "last_uu_pos0": 54323058
+        },
+        {
+          "ros_relative_start0": 350,
+          "ros_relative_end0": 838,
+          "first_uu_pos0": 54323056,
+          "last_uu_pos0": 54322569
+        },
+        {
+          "ros_relative_start0": 839,
+          "ros_relative_end0": 905,
+          "first_uu_pos0": 54322567,
+          "last_uu_pos0": 54322502
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_0878",
+      "ros_chrom": "NC_051811.1",
+      "ros_start0": 52129900,
+      "uu_chrom": "NC_049228.1",
+      "uu_start0": 52130284,
+      "uu_end0": 52131284,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 52130284,
+          "last_uu_pos0": 52131283
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195668,
+      "uu_chrom": "NC_049245.1",
+      "uu_start0": 194969,
+      "uu_end0": 195953,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "594M4I197M9I31M2I16M1I146M",
+      "NM": 24,
+      "exact_bp": 976,
+      "mismatch_bp": 8,
+      "query_unaligned_or_inserted_bp": 16,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 242,
+          "first_uu_pos0": 194969,
+          "last_uu_pos0": 195210
+        },
+        {
+          "ros_relative_start0": 243,
+          "ros_relative_end0": 275,
+          "first_uu_pos0": 195212,
+          "last_uu_pos0": 195243
+        },
+        {
+          "ros_relative_start0": 276,
+          "ros_relative_end0": 294,
+          "first_uu_pos0": 195245,
+          "last_uu_pos0": 195262
+        },
+        {
+          "ros_relative_start0": 295,
+          "ros_relative_end0": 375,
+          "first_uu_pos0": 195264,
+          "last_uu_pos0": 195343
+        },
+        {
+          "ros_relative_start0": 376,
+          "ros_relative_end0": 460,
+          "first_uu_pos0": 195345,
+          "last_uu_pos0": 195428
+        },
+        {
+          "ros_relative_start0": 461,
+          "ros_relative_end0": 594,
+          "first_uu_pos0": 195430,
+          "last_uu_pos0": 195562
+        },
+        {
+          "ros_relative_start0": 598,
+          "ros_relative_end0": 795,
+          "first_uu_pos0": 195563,
+          "last_uu_pos0": 195759
+        },
+        {
+          "ros_relative_start0": 804,
+          "ros_relative_end0": 805,
+          "first_uu_pos0": 195760,
+          "last_uu_pos0": 195760
+        },
+        {
+          "ros_relative_start0": 806,
+          "ros_relative_end0": 835,
+          "first_uu_pos0": 195762,
+          "last_uu_pos0": 195790
+        },
+        {
+          "ros_relative_start0": 837,
+          "ros_relative_end0": 841,
+          "first_uu_pos0": 195791,
+          "last_uu_pos0": 195794
+        },
+        {
+          "ros_relative_start0": 843,
+          "ros_relative_end0": 853,
+          "first_uu_pos0": 195797,
+          "last_uu_pos0": 195806
+        },
+        {
+          "ros_relative_start0": 854,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 195807,
+          "last_uu_pos0": 195952
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_2228",
+      "ros_chrom": "NC_051806.1",
+      "ros_start0": 39725551,
+      "uu_chrom": "NC_049223.1",
+      "uu_start0": 38414248,
+      "uu_end0": 38415248,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 0,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 38414248,
+          "last_uu_pos0": 38415247
+        }
+      ],
+      "status": "whole_window_exact"
+    },
+    {
+      "id": "bg1k_2867",
+      "ros_chrom": "NC_051829.1",
+      "ros_start0": 33663188,
+      "uu_chrom": "NC_049256.1",
+      "uu_start0": 5527867,
+      "uu_end0": 5528060,
+      "strand": "+",
+      "mapq": 0,
+      "cigar": "798S60M3D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+      "NM": 19,
+      "exact_bp": 186,
+      "mismatch_bp": 4,
+      "query_unaligned_or_inserted_bp": 810,
+      "reference_only_bp": 3,
+      "additional_reported_alignments": 78,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 798,
+          "ros_relative_end0": 858,
+          "first_uu_pos0": 5527867,
+          "last_uu_pos0": 5527926
+        },
+        {
+          "ros_relative_start0": 858,
+          "ros_relative_end0": 863,
+          "first_uu_pos0": 5527930,
+          "last_uu_pos0": 5527934
+        },
+        {
+          "ros_relative_start0": 864,
+          "ros_relative_end0": 876,
+          "first_uu_pos0": 5527935,
+          "last_uu_pos0": 5527946
+        },
+        {
+          "ros_relative_start0": 877,
+          "ros_relative_end0": 887,
+          "first_uu_pos0": 5527947,
+          "last_uu_pos0": 5527956
+        },
+        {
+          "ros_relative_start0": 890,
+          "ros_relative_end0": 900,
+          "first_uu_pos0": 5527958,
+          "last_uu_pos0": 5527967
+        },
+        {
+          "ros_relative_start0": 901,
+          "ros_relative_end0": 912,
+          "first_uu_pos0": 5527968,
+          "last_uu_pos0": 5527978
+        },
+        {
+          "ros_relative_start0": 913,
+          "ros_relative_end0": 918,
+          "first_uu_pos0": 5527979,
+          "last_uu_pos0": 5527983
+        },
+        {
+          "ros_relative_start0": 919,
+          "ros_relative_end0": 928,
+          "first_uu_pos0": 5527984,
+          "last_uu_pos0": 5527992
+        },
+        {
+          "ros_relative_start0": 930,
+          "ros_relative_end0": 933,
+          "first_uu_pos0": 5527993,
+          "last_uu_pos0": 5527995
+        },
+        {
+          "ros_relative_start0": 934,
+          "ros_relative_end0": 938,
+          "first_uu_pos0": 5527997,
+          "last_uu_pos0": 5528000
+        },
+        {
+          "ros_relative_start0": 939,
+          "ros_relative_end0": 940,
+          "first_uu_pos0": 5528001,
+          "last_uu_pos0": 5528001
+        },
+        {
+          "ros_relative_start0": 941,
+          "ros_relative_end0": 944,
+          "first_uu_pos0": 5528003,
+          "last_uu_pos0": 5528005
+        },
+        {
+          "ros_relative_start0": 945,
+          "ros_relative_end0": 962,
+          "first_uu_pos0": 5528006,
+          "last_uu_pos0": 5528022
+        },
+        {
+          "ros_relative_start0": 963,
+          "ros_relative_end0": 980,
+          "first_uu_pos0": 5528023,
+          "last_uu_pos0": 5528039
+        },
+        {
+          "ros_relative_start0": 981,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 5528041,
+          "last_uu_pos0": 5528059
+        }
+      ],
+      "status": "partial_mapping_only_not_window_clearance"
+    },
+    {
+      "id": "bg1k_0117",
+      "ros_chrom": "NC_051819.1",
+      "ros_start0": 26093664,
+      "uu_chrom": "NC_049236.1",
+      "uu_start0": 25832148,
+      "uu_end0": 25833148,
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "NM": 0,
+      "exact_bp": 1000,
+      "mismatch_bp": 0,
+      "query_unaligned_or_inserted_bp": 0,
+      "reference_only_bp": 0,
+      "additional_reported_alignments": 1,
+      "exact_runs": [
+        {
+          "ros_relative_start0": 0,
+          "ros_relative_end0": 1000,
+          "first_uu_pos0": 25832148,
+          "last_uu_pos0": 25833147
+        }
+      ],
+      "status": "whole_window_exact"
+    }
+  ],
+  "limitations": [
+    "Primary alignment plus reported secondary/supplementary evidence; not an exhaustive uniqueness proof",
+    "Only REF spans fully within one exact run may be considered for simple allele transfer; gaps and mismatches remain explicit",
+    "Partial mapping does not satisfy original full-window criterion"
+  ]
+}

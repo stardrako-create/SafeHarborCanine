@@ -1,0 +1,32 @@
+[
+  {
+    "chunk": "chunk_000",
+    "hash_ok": true,
+    "counts_ok": true,
+    "generated_temporaries_remaining": 0
+  },
+  {
+    "chunk": "chunk_001",
+    "hash_ok": true,
+    "counts_ok": true,
+    "generated_temporaries_remaining": 0
+  },
+  {
+    "chunk": "chunk_002",
+    "hash_ok": true,
+    "counts_ok": true,
+    "generated_temporaries_remaining": 0
+  },
+  {
+    "chunk": "chunk_003",
+    "hash_ok": true,
+    "counts_ok": true,
+    "generated_temporaries_remaining": 0
+  },
+  {
+    "chunk": "chunk_004",
+    "hash_ok": true,
+    "counts_ok": true,
+    "generated_temporaries_remaining": 0
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "target": {
+    "name": "ANO2_frontier_span",
+    "kind": "exploratory_frontier_span",
+    "chrom": "NC_006609.4",
+    "start": 7237047,
+    "end": 7290501
+  },
+  "search_steps": [
+    [
+      960375552,
+      [
+        13,
+        30495316
+      ]
+    ],
+    [
+      1440563328,
+      [
+        24,
+        46417061
+      ]
+    ],
+    [
+      1680657216,
+      [
+        32,
+        11527934
+      ]
+    ],
+    [
+      1560610272,
+      [
+        27,
+        37044645
+      ]
+    ],
+    [
+      1500586800,
+      [
+        26,
+        18778273
+      ]
+    ],
+    [
+      1470575064,
+      [
+        25,
+        23375515
+      ]
+    ],
+    [
+      1485580932,
+      [
+        26,
+        1332585
+      ]
+    ],
+    [
+      1493083866,
+      [
+        26,
+        8481405
+      ]
+    ],
+    [
+      1489332399,
+      [
+        26,
+        5113514
+      ]
+    ],
+    [
+      1491208132,
+      [
+        26,
+        7707407
+      ]
+    ],
+    [
+      1490270265,
+      [
+        26,
+        6132768
+      ]
+    ],
+    [
+      1490739198,
+      [
+        26,
+        7140697
+      ]
+    ],
+    [
+      1490973665,
+      [
+        26,
+        7392416
+      ]
+    ],
+    [
+      1490856431,
+      [
+        26,
+        7281386
+      ]
+    ],
+    [
+      1490797814,
+      [
+        26,
+        7223661
+      ]
+    ],
+    [
+      1490827122,
+      [
+        26,
+        7242674
+      ]
+    ]
+  ],
+  "range_start": 1490666742,
+  "range_end": 1491875698,
+  "first_key": [
+    26,
+    6952616
+  ],
+  "last_key": [
+    26,
+    8008529
+  ],
+  "fragment_rows": 4613,
+  "starts_in_window": 4604,
+  "raw_file": "ANO2_frontier_span.fragments.tsv",
+  "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+}

@@ -1,0 +1,78 @@
+{
+  "status": "independent_review_passed",
+  "validated_alignments": [
+    "SRR26729600/paired",
+    "SRR26729600/R1",
+    "SRR26729600/R2",
+    "SRR26729599/paired",
+    "SRR26729599/R1",
+    "SRR26729599/R2",
+    "SRR26729598/paired",
+    "SRR26729598/R1",
+    "SRR26729598/R2",
+    "SRR26729597/paired",
+    "SRR26729597/R1",
+    "SRR26729597/R2",
+    "SRR26729596/paired",
+    "SRR26729596/R1",
+    "SRR26729596/R2",
+    "SRR26729595/paired",
+    "SRR26729595/R1",
+    "SRR26729595/R2",
+    "SRR26729594/paired",
+    "SRR26729594/R1",
+    "SRR26729594/R2",
+    "SRR26729593/paired",
+    "SRR26729593/R1",
+    "SRR26729593/R2",
+    "SRR26729592/paired",
+    "SRR26729592/R1",
+    "SRR26729592/R2"
+  ],
+  "mode_ranges": {
+    "paired": {
+      "unique_pct": [
+        88.99,
+        93.19
+      ],
+      "assigned_pct": [
+        74.81,
+        79.506
+      ]
+    },
+    "R1": {
+      "unique_pct": [
+        87.63,
+        91.62
+      ],
+      "assigned_pct": [
+        73.431,
+        78.12
+      ]
+    },
+    "R2": {
+      "unique_pct": [
+        87.75,
+        91.88
+      ],
+      "assigned_pct": [
+        73.535,
+        78.106
+      ]
+    }
+  },
+  "correlation_ranges": {
+    "R1_paired": [
+      0.9753604900085169,
+      0.982763650343772
+    ],
+    "R2_paired": [
+      0.9750582744935259,
+      0.9811884864895625
+    ],
+    "R1_R2": [
+      0.9657431142689424,
+      0.9748531252810992
+    ]
+  }
+}

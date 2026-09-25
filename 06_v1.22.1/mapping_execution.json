@@ -1,0 +1,150 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+        "mem",
+        "-a",
+        "-t",
+        "4",
+        "/mnt/d/Jin2024_work/uu_gsd/genome_uu_gsd.fa",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.1/windows.fa"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+        "mem",
+        "-a",
+        "-t",
+        "4",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fa",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.1/tiles.fa"
+      ],
+      "returncode": 0
+    }
+  ],
+  "windows": 16,
+  "eligible": 15,
+  "SV_records": [
+    {
+      "window_id": "w07",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w07",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 13081503,
+      "end": 13081577,
+      "id": "chr32:13081504:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.09126999974250793,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w08",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w09",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w10",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w11",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w12",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w13",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w14",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    },
+    {
+      "window_id": "w15",
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    }
+  ],
+  "tile_tests": 1648,
+  "tile_proxy_failures": 8,
+  "limitations": [
+    "BWA reported alignments are a mappability proxy, not exhaustive uniqueness or guide off-target assessment",
+    "Dog10K alias requires unique exact reference length match",
+    "16 overlapping windows are not independent loci",
+    "Reference differences do not identify the genotype of the experimental donor"
+  ]
+}

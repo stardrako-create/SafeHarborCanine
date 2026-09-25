@@ -1,0 +1,1716 @@
+{
+  "utc": "2026-09-23T18:57:33.753625+00:00",
+  "pending_allele_entries_examined": 48,
+  "source_records_examined": 41,
+  "record_status_counts": {
+    "allele_set_rebased_counts_preserved": 32,
+    "ROS_allele_absent_from_source_record": 7,
+    "noncanonical_or_duplicate_alleles_need_context": 2
+  },
+  "normalized_rebased_ALT_records": 34,
+  "records": [
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 0,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__1"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9610953,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "A",
+        "T"
+      ],
+      "original_AF": [
+        0.35100001096725464
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1395
+      ],
+      "original_AN": 3972,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "T",
+        "A"
+      ],
+      "ROS_counts": [
+        1395,
+        2577
+      ],
+      "ROS_count_frequencies": [
+        0.3512084592145015,
+        0.6487915407854985
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 2,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__3"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9610988,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "A",
+        "G"
+      ],
+      "original_AF": [
+        0.8529999852180481
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3390
+      ],
+      "original_AN": 3972,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        3390,
+        582
+      ],
+      "ROS_count_frequencies": [
+        0.8534743202416919,
+        0.14652567975830816
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 13,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__14"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611402,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "C",
+        "A"
+      ],
+      "original_AF": [
+        0.3499999940395355
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1389
+      ],
+      "original_AN": 3972,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "C"
+      ],
+      "ROS_counts": [
+        1389,
+        2583
+      ],
+      "ROS_count_frequencies": [
+        0.3496978851963746,
+        0.6503021148036254
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 2,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.nonSNPs.filter__6",
+        "bg1k_0045__AutoAndXPAR.nonSNPs.filter__7"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611164,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "A",
+        "T",
+        "ATT"
+      ],
+      "original_AF": [
+        0.33899998664855957,
+        0.009999999776482582
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1338,
+        40
+      ],
+      "original_AN": 3952,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0,
+        2
+      ],
+      "ROS_alleles": [
+        "T",
+        "A",
+        "ATT"
+      ],
+      "ROS_counts": [
+        1338,
+        2574,
+        40
+      ],
+      "ROS_count_frequencies": [
+        0.33856275303643724,
+        0.6513157894736842,
+        0.010121457489878543
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 7,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.nonSNPs.filter__16"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611581,
+      "ros_reference": "TCTTCTTTTTC",
+      "source_alleles_oriented": [
+        "TCTTCTTCTTC",
+        "T"
+      ],
+      "original_AF": [
+        0.0005191999953240156
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        2
+      ],
+      "original_AN": 3852,
+      "status": "ROS_allele_absent_from_source_record"
+    },
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 10,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.nonSNPs.filter__22"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611587,
+      "ros_reference": "TT",
+      "source_alleles_oriented": [
+        "TC",
+        "*",
+        "T"
+      ],
+      "original_AF": [
+        0.032999999821186066,
+        0.0031850000377744436
+      ],
+      "filters": [
+        "QD2"
+      ],
+      "original_AC": [
+        123,
+        12
+      ],
+      "original_AN": 3768,
+      "status": "ROS_allele_absent_from_source_record"
+    },
+    {
+      "source_file": "bg1k_0045__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 11,
+      "pending_ids": [
+        "bg1k_0045__AutoAndXPAR.nonSNPs.filter__23"
+      ],
+      "window": "bg1k_0045",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611588,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "C",
+        "CT",
+        "*"
+      ],
+      "original_AF": [
+        0.43700000643730164,
+        0.035999998450279236
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1644,
+        134
+      ],
+      "original_AN": 3766,
+      "status": "ROS_allele_absent_from_source_record"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 7,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__8"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227859,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "C",
+        "T"
+      ],
+      "original_AF": [
+        0.44200000166893005
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1753
+      ],
+      "original_AN": 3970,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1753,
+        2217
+      ],
+      "ROS_count_frequencies": [
+        0.4415617128463476,
+        0.5584382871536524
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 9,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__10"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227923,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "T",
+        "A"
+      ],
+      "original_AF": [
+        0.4440000057220459
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1755
+      ],
+      "original_AN": 3954,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "T"
+      ],
+      "ROS_counts": [
+        1755,
+        2199
+      ],
+      "ROS_count_frequencies": [
+        0.44385432473444614,
+        0.5561456752655539
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 12,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__13"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227984,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "G",
+        "C"
+      ],
+      "original_AF": [
+        0.44200000166893005
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1751
+      ],
+      "original_AN": 3958,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "G"
+      ],
+      "ROS_counts": [
+        1751,
+        2207
+      ],
+      "ROS_count_frequencies": [
+        0.44239514906518446,
+        0.5576048509348156
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 13,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__14"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228015,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "T",
+        "C"
+      ],
+      "original_AF": [
+        0.4659999907016754
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1846
+      ],
+      "original_AN": 3960,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        1846,
+        2114
+      ],
+      "ROS_count_frequencies": [
+        0.46616161616161617,
+        0.5338383838383839
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 16,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__17"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228078,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "T",
+        "C"
+      ],
+      "original_AF": [
+        0.4429999887943268
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1762
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        1762,
+        2212
+      ],
+      "ROS_count_frequencies": [
+        0.44338198288877706,
+        0.5566180171112229
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 23,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__24"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228278,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "G",
+        "C"
+      ],
+      "original_AF": [
+        0.164000004529953
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        651
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "G"
+      ],
+      "ROS_counts": [
+        651,
+        3323
+      ],
+      "ROS_count_frequencies": [
+        0.1638147961751384,
+        0.8361852038248616
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 24,
+      "pending_ids": [
+        "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__25"
+      ],
+      "window": "bg1k_0202",
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228294,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "G",
+        "C"
+      ],
+      "original_AF": [
+        0.45899999141693115
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1823
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "G"
+      ],
+      "ROS_counts": [
+        1823,
+        2151
+      ],
+      "ROS_count_frequencies": [
+        0.4587317564167086,
+        0.5412682435832914
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0228__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 9,
+      "pending_ids": [
+        "bg1k_0228__AutoAndXPAR.SNPs.vqsr99__10"
+      ],
+      "window": "bg1k_0228",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 56547114,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "A",
+        "G"
+      ],
+      "original_AF": [
+        0.289000004529953
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1149
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1149,
+        2825
+      ],
+      "ROS_count_frequencies": [
+        0.2891293407146452,
+        0.7108706592853548
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0228__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 11,
+      "pending_ids": [
+        "bg1k_0228__AutoAndXPAR.SNPs.vqsr99__12"
+      ],
+      "window": "bg1k_0228",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 56547238,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "C",
+        "T"
+      ],
+      "original_AF": [
+        0.18400000035762787
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        730
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        730,
+        3244
+      ],
+      "ROS_count_frequencies": [
+        0.18369401107196778,
+        0.8163059889280322
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0334__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 1,
+      "pending_ids": [
+        "bg1k_0334__AutoAndXPAR.SNPs.vqsr99__2"
+      ],
+      "window": "bg1k_0334",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 16855934,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.3479999899864197
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1381
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1381,
+        2593
+      ],
+      "ROS_count_frequencies": [
+        0.3475088072471062,
+        0.6524911927528938
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_0334__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 20,
+      "pending_ids": [
+        "bg1k_0334__AutoAndXPAR.SNPs.vqsr99__21"
+      ],
+      "window": "bg1k_0334",
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 16856860,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "C",
+        "T"
+      ],
+      "original_AF": [
+        0.2669999897480011
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1061
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1061,
+        2913
+      ],
+      "ROS_count_frequencies": [
+        0.2669854051333669,
+        0.7330145948666331
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 14,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__15"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195910,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.16300000250339508
+      ],
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "original_AC": [
+        647
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        647,
+        3327
+      ],
+      "ROS_count_frequencies": [
+        0.16280825364871665,
+        0.8371917463512834
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 16,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__17"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195943,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.49900001287460327
+      ],
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "original_AC": [
+        1985
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1985,
+        1989
+      ],
+      "ROS_count_frequencies": [
+        0.49949672873678913,
+        0.5005032712632109
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 19,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__20"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195962,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "A",
+        "G"
+      ],
+      "original_AF": [
+        0.5
+      ],
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "original_AC": [
+        1988
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1988,
+        1986
+      ],
+      "ROS_count_frequencies": [
+        0.5002516356316055,
+        0.49974836436839454
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 21,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__22"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196043,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "C",
+        "T"
+      ],
+      "original_AF": [
+        0.5009999871253967
+      ],
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "original_AC": [
+        1989
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1989,
+        1985
+      ],
+      "ROS_count_frequencies": [
+        0.5005032712632109,
+        0.49949672873678913
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 25,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__26"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196128,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "T",
+        "C"
+      ],
+      "original_AF": [
+        0.5009999871253967
+      ],
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "original_AC": [
+        1990
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        1990,
+        1984
+      ],
+      "ROS_count_frequencies": [
+        0.5007549068948163,
+        0.49924509310518367
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 9,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.nonSNPs.filter__12"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196472,
+      "ros_reference": "TT",
+      "source_alleles_oriented": [
+        "TA",
+        "T",
+        "*"
+      ],
+      "original_AF": [
+        0.0027920000720769167,
+        0.001269000000320375
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        11,
+        5
+      ],
+      "original_AN": 3940,
+      "status": "ROS_allele_absent_from_source_record"
+    },
+    {
+      "source_file": "bg1k_1650__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 10,
+      "pending_ids": [
+        "bg1k_1650__AutoAndXPAR.nonSNPs.filter__14",
+        "bg1k_1650__AutoAndXPAR.nonSNPs.filter__16",
+        "bg1k_1650__AutoAndXPAR.nonSNPs.filter__17",
+        "bg1k_1650__AutoAndXPAR.nonSNPs.filter__18",
+        "bg1k_1650__AutoAndXPAR.nonSNPs.filter__19"
+      ],
+      "window": "bg1k_1650",
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196473,
+      "ros_reference": "TT",
+      "source_alleles_oriented": [
+        "AT",
+        "A",
+        "*",
+        "ATTT",
+        "ATTTTATTT",
+        "ATTTTATTTTATTTTATTT",
+        "ATTTTATTTTATTT"
+      ],
+      "original_AF": [
+        0.4959999918937683,
+        0.003834000090137124,
+        0.3310000002384186,
+        0.13199999928474426,
+        0.007412999868392944,
+        0.019999999552965164
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1941,
+        15,
+        1294,
+        517,
+        29,
+        77
+      ],
+      "original_AN": 3912,
+      "status": "ROS_allele_absent_from_source_record"
+    },
+    {
+      "source_file": "bg1k_1958__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 10,
+      "pending_ids": [
+        "bg1k_1958__AutoAndXPAR.SNPs.vqsr99__11"
+      ],
+      "window": "bg1k_1958",
+      "ros_chrom": "NC_051809.1",
+      "ros_start0": 83663896,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "T",
+        "C",
+        "*"
+      ],
+      "original_AF": [
+        0.8870000243186951,
+        0.001006999984383583
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3523,
+        4
+      ],
+      "original_AN": 3974,
+      "status": "noncanonical_or_duplicate_alleles_need_context"
+    },
+    {
+      "source_file": "bg1k_1958__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 1,
+      "pending_ids": [
+        "bg1k_1958__AutoAndXPAR.nonSNPs.filter__2",
+        "bg1k_1958__AutoAndXPAR.nonSNPs.filter__3"
+      ],
+      "window": "bg1k_1958",
+      "ros_chrom": "NC_051809.1",
+      "ros_start0": 83663893,
+      "ros_reference": "CCAC",
+      "source_alleles_oriented": [
+        "CCAT",
+        "TCAT",
+        "C"
+      ],
+      "original_AF": [
+        0.0005032999906688929,
+        0.001006999984383583
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        2,
+        4
+      ],
+      "original_AN": 3974,
+      "status": "ROS_allele_absent_from_source_record"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 0,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__1"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097191,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "T",
+        "C"
+      ],
+      "original_AF": [
+        0.8960000276565552
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3559
+      ],
+      "original_AN": 3972,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        3559,
+        413
+      ],
+      "ROS_count_frequencies": [
+        0.8960221550855992,
+        0.1039778449144008
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 2,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__3"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097303,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "C",
+        "G"
+      ],
+      "original_AF": [
+        0.8949999809265137
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3558
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "C"
+      ],
+      "ROS_counts": [
+        3558,
+        416
+      ],
+      "ROS_count_frequencies": [
+        0.895319577252139,
+        0.1046804227478611
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 3,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__4"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097319,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "C",
+        "A"
+      ],
+      "original_AF": [
+        0.8949999809265137
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3558
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "C"
+      ],
+      "ROS_counts": [
+        3558,
+        416
+      ],
+      "ROS_count_frequencies": [
+        0.895319577252139,
+        0.1046804227478611
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 11,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__12"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097639,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.8930000066757202
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3535
+      ],
+      "original_AN": 3958,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        3535,
+        423
+      ],
+      "ROS_count_frequencies": [
+        0.8931278423446185,
+        0.10687215765538151
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 14,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__15",
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__16"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097672,
+      "ros_reference": "T",
+      "source_alleles_oriented": [
+        "C",
+        "T",
+        "A"
+      ],
+      "original_AF": [
+        0.8930000066757202,
+        0.0005042999982833862
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3540,
+        2
+      ],
+      "original_AN": 3966,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0,
+        2
+      ],
+      "ROS_alleles": [
+        "T",
+        "C",
+        "A"
+      ],
+      "ROS_counts": [
+        3540,
+        424,
+        2
+      ],
+      "ROS_count_frequencies": [
+        0.8925869894099848,
+        0.10690872415532023,
+        0.0005042864346949068
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 15,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__17"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097673,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "A",
+        "G"
+      ],
+      "original_AF": [
+        0.8949999809265137
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3546
+      ],
+      "original_AN": 3964,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        3546,
+        418
+      ],
+      "ROS_count_frequencies": [
+        0.8945509586276489,
+        0.10544904137235116
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 21,
+      "pending_ids": [
+        "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__23"
+      ],
+      "window": "bg1k_2054",
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097811,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.8870000243186951
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3521
+      ],
+      "original_AN": 3968,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        3521,
+        447
+      ],
+      "ROS_count_frequencies": [
+        0.8873487903225806,
+        0.11265120967741936
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2545__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 0,
+      "pending_ids": [
+        "bg1k_2545__AutoAndXPAR.SNPs.vqsr99__1"
+      ],
+      "window": "bg1k_2545",
+      "ros_chrom": "NC_051839.1",
+      "ros_start0": 1367250,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "A",
+        "G"
+      ],
+      "original_AF": [
+        0.15000000596046448
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        596
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        596,
+        3378
+      ],
+      "ROS_count_frequencies": [
+        0.14997483643683945,
+        0.8500251635631605
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 0,
+      "pending_ids": [
+        "bg1k_2686__AutoAndXPAR.SNPs.vqsr99__1"
+      ],
+      "window": "bg1k_2686",
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7716897,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.36800000071525574
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1462
+      ],
+      "original_AN": 3972,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1462,
+        2510
+      ],
+      "ROS_count_frequencies": [
+        0.3680765357502518,
+        0.6319234642497482
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 15,
+      "pending_ids": [
+        "bg1k_2686__AutoAndXPAR.SNPs.vqsr99__16"
+      ],
+      "window": "bg1k_2686",
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7717295,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A"
+      ],
+      "original_AF": [
+        0.4959999918937683
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1970
+      ],
+      "original_AN": 3972,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1970,
+        2002
+      ],
+      "ROS_count_frequencies": [
+        0.4959718026183283,
+        0.5040281973816717
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 28,
+      "pending_ids": [
+        "bg1k_2686__AutoAndXPAR.SNPs.vqsr99__29"
+      ],
+      "window": "bg1k_2686",
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7717435,
+      "ros_reference": "G",
+      "source_alleles_oriented": [
+        "T",
+        "G"
+      ],
+      "original_AF": [
+        0.5550000071525574
+      ],
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "original_AC": [
+        2196
+      ],
+      "original_AN": 3954,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        2196,
+        1758
+      ],
+      "ROS_count_frequencies": [
+        0.5553869499241275,
+        0.44461305007587254
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2901__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 2,
+      "pending_ids": [
+        "bg1k_2901__AutoAndXPAR.SNPs.vqsr99__3"
+      ],
+      "window": "bg1k_2901",
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27680396,
+      "ros_reference": "A",
+      "source_alleles_oriented": [
+        "G",
+        "A",
+        "*"
+      ],
+      "original_AF": [
+        0.8930000066757202,
+        0.00025209999876096845
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3542,
+        1
+      ],
+      "original_AN": 3966,
+      "status": "noncanonical_or_duplicate_alleles_need_context"
+    },
+    {
+      "source_file": "bg1k_2901__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_record_index0": 6,
+      "pending_ids": [
+        "bg1k_2901__AutoAndXPAR.SNPs.vqsr99__8"
+      ],
+      "window": "bg1k_2901",
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27680028,
+      "ros_reference": "C",
+      "source_alleles_oriented": [
+        "A",
+        "C"
+      ],
+      "original_AF": [
+        0.7770000100135803
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        3089
+      ],
+      "original_AN": 3974,
+      "status": "allele_set_rebased_counts_preserved",
+      "source_index_for_ROS_REF": 1,
+      "source_indices_in_ROS_order": [
+        1,
+        0
+      ],
+      "ROS_alleles": [
+        "C",
+        "A"
+      ],
+      "ROS_counts": [
+        3089,
+        885
+      ],
+      "ROS_count_frequencies": [
+        0.7773024660291897,
+        0.22269753397081027
+      ],
+      "frequency_method": "AC/AN; source REF count = AN - sum(all ALT AC); original rounded AF retained separately"
+    },
+    {
+      "source_file": "bg1k_2901__AutoAndXPAR.nonSNPs.filter.vcf",
+      "source_record_index0": 2,
+      "pending_ids": [
+        "bg1k_2901__AutoAndXPAR.nonSNPs.filter__3"
+      ],
+      "window": "bg1k_2901",
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27680376,
+      "ros_reference": "TATGGTGTTTATTATAAGTCATATAAATTCTAAGTTTTC",
+      "source_alleles_oriented": [
+        "TATGGTGTTTATTATAAGTCGTATAAATTCTAAGTTTTC",
+        "C"
+      ],
+      "original_AF": [
+        0.00025179999647662044
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "original_AC": [
+        1
+      ],
+      "original_AN": 3972,
+      "status": "ROS_allele_absent_from_source_record"
+    }
+  ],
+  "limitations": [
+    "Locus allele-set representation only, not whole-window clearance or donor genotyping",
+    "Counts are permuted from each source record, never pooled across records or treated as phase",
+    "Normalized ROS haplotype equivalence checked; cross-assembly local sequence differences outside the locus remain",
+    "Kept separate from 319 full-window and 334 partial exact-run allele records",
+    "Not a final solution for symbolic alleles, mapping gaps or w11 structural uncertainty"
+  ]
+}

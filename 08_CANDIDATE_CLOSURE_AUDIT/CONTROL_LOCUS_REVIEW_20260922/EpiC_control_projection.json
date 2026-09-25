@@ -1,0 +1,199 @@
+{
+  "chain_sha256": "b40c1e4e2f65fbbabc0f01a1701818f43089827b2366b0b02787dd25f5eaa87e",
+  "results": [
+    {
+      "id": "bg1k_2054",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr22",
+      "strand": "+",
+      "start0": 45666820,
+      "end0": 45667820,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_0567",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr19",
+      "strand": "+",
+      "start0": 3695105,
+      "end0": 3696105,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_2848",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr36",
+      "strand": "+",
+      "start0": 28583681,
+      "end0": 28584681,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_0045",
+      "unmapped_bp": 48,
+      "multiple_target_bp": 0,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_2865",
+      "unmapped_bp": 54,
+      "multiple_target_bp": 0,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_0442",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr33",
+      "strand": "+",
+      "start0": 10275009,
+      "end0": 10276009,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_2901",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr27",
+      "strand": "+",
+      "start0": 27351665,
+      "end0": 27352665,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_0202",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr12",
+      "strand": "+",
+      "start0": 29681805,
+      "end0": 29682805,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_0334",
+      "unmapped_bp": 9,
+      "multiple_target_bp": 0,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_2545",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": false,
+      "target": "chr35",
+      "strand": "+",
+      "start0": 1408638,
+      "end0": 1409640,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_0228",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": false,
+      "target": "chr22",
+      "strand": "+",
+      "start0": 56029245,
+      "end0": 56030246,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_1958",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr5",
+      "strand": "+",
+      "start0": 83227996,
+      "end0": 83228996,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_2686",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr33",
+      "strand": "+",
+      "start0": 7575733,
+      "end0": 7576733,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_1023",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": false,
+      "target": "chr12",
+      "strand": "+",
+      "start0": 45907407,
+      "end0": 45908411,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_0023",
+      "unmapped_bp": 1,
+      "multiple_target_bp": 0,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_0878",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr7",
+      "strand": "+",
+      "start0": 52171893,
+      "end0": 52172893,
+      "status": "eligible_unique_contiguous_base_mapping"
+    },
+    {
+      "id": "bg1k_1650",
+      "unmapped_bp": 17,
+      "multiple_target_bp": 0,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_2228",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": false,
+      "target": "chr2",
+      "strand": "+",
+      "start0": 39270820,
+      "end0": 39271823,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_2867",
+      "unmapped_bp": 410,
+      "multiple_target_bp": 0,
+      "status": "unresolved_projection"
+    },
+    {
+      "id": "bg1k_0117",
+      "unmapped_bp": 0,
+      "multiple_target_bp": 0,
+      "contiguous": true,
+      "target": "chr15",
+      "strand": "+",
+      "start0": 25582773,
+      "end0": 25583773,
+      "status": "eligible_unique_contiguous_base_mapping"
+    }
+  ],
+  "limitations": [
+    "Uniqueness within supplied chain set only; not independent sequence or reciprocal validation",
+    "Only fully mapped single-target contiguous 1kb windows intersected; unresolved cases not cleared"
+  ]
+}

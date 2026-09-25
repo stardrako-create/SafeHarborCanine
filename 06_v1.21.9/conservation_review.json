@@ -1,0 +1,135 @@
+{
+  "model_source": "https://cgl.gi.ucsc.edu/data/cactus/241-mammals-human-phylop-models/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod",
+  "model_training": "General model from ancestral repeat positions, per source README",
+  "matching_leaf_sets": 241,
+  "local_windows": 2091,
+  "summary": [
+    {
+      "gene": "LOC119876429",
+      "scope": "region",
+      "model": "pilot",
+      "bp": 56805,
+      "observed_fraction": 0.9989085467828536,
+      "mean": 0.27962261424316653,
+      "max50bp_mean": 4.013520000000001,
+      "fraction_observed_ge2": 0.062633276351268
+    },
+    {
+      "gene": "LOC119876429",
+      "scope": "region",
+      "model": "published",
+      "bp": 56805,
+      "observed_fraction": 0.9989085467828536,
+      "mean": 0.04268813774386268,
+      "max50bp_mean": 3.2294800000000006,
+      "fraction_observed_ge2": 0.029642422853920308
+    },
+    {
+      "gene": "ANO2",
+      "scope": "region",
+      "model": "pilot",
+      "bp": 62427,
+      "observed_fraction": 0.9983660915949829,
+      "mean": 0.27473830726032894,
+      "max50bp_mean": 5.1012200000000005,
+      "fraction_observed_ge2": 0.06923385479342158
+    },
+    {
+      "gene": "ANO2",
+      "scope": "region",
+      "model": "published",
+      "bp": 62427,
+      "observed_fraction": 0.9983660915949829,
+      "mean": 0.02725253108704371,
+      "max50bp_mean": 4.3769,
+      "fraction_observed_ge2": 0.0371760930605696
+    },
+    {
+      "gene": "NPNT",
+      "scope": "region",
+      "model": "pilot",
+      "bp": 57293,
+      "observed_fraction": 0.9993192885692842,
+      "mean": 0.1954183987145003,
+      "max50bp_mean": 4.2259199999999995,
+      "fraction_observed_ge2": 0.05403989240926398
+    },
+    {
+      "gene": "NPNT",
+      "scope": "region",
+      "model": "published",
+      "bp": 57293,
+      "observed_fraction": 0.9993192885692842,
+      "mean": -0.008329618891256508,
+      "max50bp_mean": 3.26356,
+      "fraction_observed_ge2": 0.027247004576099486
+    },
+    {
+      "gene": "LOC119876429",
+      "scope": "previous_selected_1kb",
+      "model": "pilot",
+      "bp": 1000,
+      "observed_fraction": 1.0,
+      "mean": 0.2901990000000001,
+      "max50bp_mean": 0.97258,
+      "fraction_observed_ge2": 0.083
+    },
+    {
+      "gene": "LOC119876429",
+      "scope": "previous_selected_1kb",
+      "model": "published",
+      "bp": 1000,
+      "observed_fraction": 1.0,
+      "mean": -0.035352,
+      "max50bp_mean": 0.6249399999999999,
+      "fraction_observed_ge2": 0.029
+    },
+    {
+      "gene": "ANO2",
+      "scope": "previous_selected_1kb",
+      "model": "pilot",
+      "bp": 1000,
+      "observed_fraction": 1.0,
+      "mean": 0.41943199999999997,
+      "max50bp_mean": 1.99976,
+      "fraction_observed_ge2": 0.104
+    },
+    {
+      "gene": "ANO2",
+      "scope": "previous_selected_1kb",
+      "model": "published",
+      "bp": 1000,
+      "observed_fraction": 1.0,
+      "mean": 0.04605499999999998,
+      "max50bp_mean": 1.4749600000000003,
+      "fraction_observed_ge2": 0.045
+    },
+    {
+      "gene": "NPNT",
+      "scope": "previous_selected_1kb",
+      "model": "pilot",
+      "bp": 1000,
+      "observed_fraction": 1.0,
+      "mean": 0.367814,
+      "max50bp_mean": 1.5662800000000001,
+      "fraction_observed_ge2": 0.113
+    },
+    {
+      "gene": "NPNT",
+      "scope": "previous_selected_1kb",
+      "model": "published",
+      "bp": 1000,
+      "observed_fraction": 1.0,
+      "mean": 0.026737999999999977,
+      "max50bp_mean": 1.09474,
+      "fraction_observed_ge2": 0.056
+    }
+  ],
+  "limitations": [
+    "Same underlying alignment; independent neutral calibration, not independent biological data",
+    "No genome-wide FDR calculation reproduced",
+    "Old max50bp threshold 6.5 not validated under this model; no automatic safety pass",
+    "Only three full regions scored with published model in this run",
+    "No new functional or T-cell validation"
+  ]
+}

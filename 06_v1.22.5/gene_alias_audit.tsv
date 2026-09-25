@@ -1,0 +1,41 @@
+requested_symbol	exact_in_CPM	NCBI_gene_ids	current_NCBI_symbols	CPM_alias_candidates	alias_symbol_to_gene_ids	unambiguous_alias_recovery	status
+AIMP1	True	487893	AIMP1	AIMP1	"{""AIMP1"": [""487893""]}"	False	exact_present
+ANO2	False	100687505	ANO2		{}	False	no_CPM_alias_match
+APOBEC4	False	610630	APOBEC4		{}	False	no_CPM_alias_match
+ARHGEF38	False	487888	ARHGEF38		{}	False	no_CPM_alias_match
+ARPC5	True	480037	ARPC5	ARPC5	"{""ARPC5"": [""480037""]}"	False	exact_present
+C7H1orf21	True	610661	C7H1orf21	C7H1orf21	"{""C7H1orf21"": [""610661""]}"	False	exact_present
+CD247	False	611571	CD247		{}	False	no_CPM_alias_match
+CD3D	True	479419	CD3D	CD3D	"{""CD3D"": [""479419""]}"	False	exact_present
+CD3E	True	442981	CD3E	CD3E	"{""CD3E"": [""442981""]}"	False	exact_present
+CD3G	True	489383	CD3G	CD3G	"{""CD3G"": [""489383""]}"	False	exact_present
+CD4	True	403931	CD4	CD4	"{""CD4"": [""403931""]}"	False	exact_present
+CD8A	True	403157	CD8A	CD8A	"{""CD8A"": [""403157""]}"	False	exact_present
+CD8B	False	483076	CD8B		{}	False	no_CPM_alias_match
+CD9	True	611695	CD9	CD9	"{""CD9"": [""611695""]}"	False	exact_present
+COLGALT2	False	608413	COLGALT2		{}	False	no_CPM_alias_match
+EDEM3	True	480040	EDEM3	EDEM3	"{""EDEM3"": [""480040""]}"	False	exact_present
+GALNT8	False	486734	GALNT8		{}	False	no_CPM_alias_match
+GIMD1	False	100687080	GIMD1		{}	False	no_CPM_alias_match
+GSTCD	True	487890	GSTCD	GSTCD	"{""GSTCD"": [""487890""]}"	False	exact_present
+INTS12	True	487889	INTS12	INTS12	"{""INTS12"": [""487889""]}"	False	exact_present
+KCNA1	False	486732	KCNA1		{}	False	no_CPM_alias_match
+KCNA5	False	403995	KCNA5		{}	False	no_CPM_alias_match
+KCNA6	False	486733	KCNA6		{}	False	no_CPM_alias_match
+LCK	True	478151	LCK	LCK	"{""LCK"": [""478151""]}"	False	exact_present
+LOC119867197	False	119867197	LOC119867197		{}	False	no_CPM_alias_match
+LOC119872513	False	119872513	LOC119872513		{}	False	no_CPM_alias_match
+LOC119876429	False	119876429	LOC119876429		{}	False	no_CPM_alias_match
+NCF2	True	480036	NCF2	NCF2	"{""NCF2"": [""480036""]}"	False	exact_present
+NIBAN1	True	480041	NIBAN1	NIBAN1	"{""NIBAN1"": [""480041""]}"	False	exact_present
+NPNT	True	487891	NPNT	NPNT	"{""NPNT"": [""487891""]}"	False	exact_present
+NTF3	False	486731	NTF3		{}	False	no_CPM_alias_match
+PLEKHG6	True	477717	PLEKHG6	PLEKHG6	"{""PLEKHG6"": [""477717""]}"	False	exact_present
+PPA2	True	478500	PPA2	PPA2	"{""PPA2"": [""478500""]}"	False	exact_present
+RGL1	True	480038	RGL1	RGL1	"{""RGL1"": [""480038""]}"	False	exact_present
+SMG7	True	480035	SMG7	SMG7	"{""SMG7"": [""480035""]}"	False	exact_present
+TBCK	True	487892	TBCK	TBCK	"{""TBCK"": [""487892""]}"	False	exact_present
+TET2	True	478499	TET2	TET2	"{""TET2"": [""478499""]}"	False	exact_present
+TNFRSF1A	True	403634	TNFRSF1A	TNFRSF1A	"{""TNFRSF1A"": [""403634""]}"	False	exact_present
+TSEN15	True	610637	TSEN15	TSEN15	"{""TSEN15"": [""610637""]}"	False	exact_present
+VWF	True	399544	VWF	VWF	"{""VWF"": [""399544""]}"	False	exact_present

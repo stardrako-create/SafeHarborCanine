@@ -1,0 +1,16 @@
+[
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+    "index",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/joint_alternative_panel_20260925/panel.fa"
+  ],
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+    "mem",
+    "-a",
+    "-t",
+    "2",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/joint_alternative_panel_20260925/panel.fa",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/joint_alternative_panel_20260925/reads.fa"
+  ]
+]

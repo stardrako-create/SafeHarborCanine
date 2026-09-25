@@ -1,0 +1,93 @@
+{
+  "status": "descriptive_metrics_complete_pending_review",
+  "coverage": [
+    {
+      "MAPQ_min": 20,
+      "exclude_marked_duplicates": false,
+      "eligible_window_counts": {
+        "inside": 288,
+        "outside": 112
+      },
+      "median_depth": {
+        "inside": 22.992425,
+        "outside": 22.721989999999998
+      },
+      "inside_outside_median_ratio": 1.0119019064791421
+    },
+    {
+      "MAPQ_min": 20,
+      "exclude_marked_duplicates": true,
+      "eligible_window_counts": {
+        "inside": 288,
+        "outside": 112
+      },
+      "median_depth": {
+        "inside": 19.76283,
+        "outside": 19.55276
+      },
+      "inside_outside_median_ratio": 1.0107437517772428
+    },
+    {
+      "MAPQ_min": 30,
+      "exclude_marked_duplicates": false,
+      "eligible_window_counts": {
+        "inside": 288,
+        "outside": 112
+      },
+      "median_depth": {
+        "inside": 22.9657,
+        "outside": 22.700975
+      },
+      "inside_outside_median_ratio": 1.0116613933983012
+    },
+    {
+      "MAPQ_min": 30,
+      "exclude_marked_duplicates": true,
+      "eligible_window_counts": {
+        "inside": 288,
+        "outside": 112
+      },
+      "median_depth": {
+        "inside": 19.740185,
+        "outside": 19.54444
+      },
+      "inside_outside_median_ratio": 1.0100153803332304
+    }
+  ],
+  "boundary_flag_counts": [
+    {
+      "label": "left",
+      "catalogue_boundary0": 4707938,
+      "counts": {
+        "records_MAPQ30": 2931,
+        "supplementary": 0,
+        "with_SA_tag": 19,
+        "marked_duplicate": 472,
+        "paired_not_proper": 16
+      }
+    },
+    {
+      "label": "right",
+      "catalogue_boundary0": 33613308,
+      "counts": {
+        "records_MAPQ30": 3084,
+        "supplementary": 7,
+        "with_SA_tag": 27,
+        "marked_duplicate": 410,
+        "paired_not_proper": 29
+      }
+    }
+  ],
+  "record_counts": {
+    "all_records": 6243130,
+    "primary_nonQCfail": 6209005
+  },
+  "limitations": [
+    "Aligned read-base depth counts overlapping mates twice; not fragment depth",
+    "No base-quality filtering or GC/mappability correction in these metrics",
+    "Outside windows are not independently confirmed diploid controls",
+    "Duplicate flags derived from regional-retention BAM",
+    "SA/discordant flags do not establish breakpoint support or SV truth",
+    "Single catalogue carrier does not establish prospective CAR-T donor genotype"
+  ]
+}

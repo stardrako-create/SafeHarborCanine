@@ -1,0 +1,78 @@
+{
+  "utc": "2026-09-23T16:47:43.851426+00:00",
+  "results": [
+    {
+      "id": "bg1k_0117",
+      "reference_bp": 1000,
+      "species_total": 1,
+      "bp_with_non_dog_ACGT": 0,
+      "bp_with_at_least_10_non_dog_species": 0,
+      "status": "no_comparative_alignment_no_conservation_score"
+    },
+    {
+      "id": "bg1k_0202",
+      "reference_bp": 1000,
+      "species_total": 213,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 880,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_0442",
+      "reference_bp": 1000,
+      "species_total": 203,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 993,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_0878",
+      "reference_bp": 1000,
+      "species_total": 236,
+      "bp_with_non_dog_ACGT": 807,
+      "bp_with_at_least_10_non_dog_species": 590,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_1958",
+      "reference_bp": 1000,
+      "species_total": 187,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 999,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_2054",
+      "reference_bp": 1000,
+      "species_total": 196,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 796,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_2686",
+      "reference_bp": 1000,
+      "species_total": 181,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 442,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_2848",
+      "reference_bp": 1000,
+      "species_total": 224,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 806,
+      "status": "scores_available_with_alignment_support_reported"
+    },
+    {
+      "id": "bg1k_2901",
+      "reference_bp": 1000,
+      "species_total": 240,
+      "bp_with_non_dog_ACGT": 1000,
+      "bp_with_at_least_10_non_dog_species": 1000,
+      "status": "scores_available_with_alignment_support_reported"
+    }
+  ],
+  "note": "Original execution status and partial outputs preserved. bg1k_0117 has only reference sequence; empty phyloP output is missing comparative evidence, not zero conservation. Alignment support counts are descriptive, not new pass thresholds."
+}

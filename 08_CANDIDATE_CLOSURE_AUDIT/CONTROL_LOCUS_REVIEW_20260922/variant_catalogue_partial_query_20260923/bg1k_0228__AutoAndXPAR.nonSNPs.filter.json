@@ -1,0 +1,83 @@
+{
+  "utc": "2026-09-23T16:52:07.490313+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "bg1k_0228",
+  "mapping": {
+    "chrom": "NC_049243.1",
+    "start0": 56171941,
+    "end0": 56172942,
+    "strand": "+",
+    "partial_only": true
+  },
+  "vcf_contig": "chr22",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 3,
+  "allele_count": 4,
+  "alleles": [
+    {
+      "chrom": "chr22",
+      "uu_chrom": "NC_049243.1",
+      "pos1": 56172299,
+      "id": null,
+      "ref": "CG",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr22",
+      "uu_chrom": "NC_049243.1",
+      "pos1": 56172484,
+      "id": null,
+      "ref": "CT",
+      "alt": "CTT",
+      "alt_index1": 1,
+      "AF": 0.005787999834865332,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr22",
+      "uu_chrom": "NC_049243.1",
+      "pos1": 56172484,
+      "id": null,
+      "ref": "CT",
+      "alt": "C",
+      "alt_index1": 2,
+      "AF": 0.3160000145435333,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr22",
+      "uu_chrom": "NC_049243.1",
+      "pos1": 56172840,
+      "id": null,
+      "ref": "A",
+      "alt": "AT",
+      "alt_index1": 1,
+      "AF": 0.0007548999856226146,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "1be836e2178fb3c688574b6369912a95ba7a0e4389386eaa38b8370f07d3bb5f"
+}

@@ -1,0 +1,67 @@
+{
+  "reference_alleles_checked": 78,
+  "all_reference_alleles_match": true,
+  "independent_htslib_remote_counts_match": true,
+  "results": [
+    {
+      "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "genes": "ANO2/NTF3",
+      "all_records": 24,
+      "PASS_records": 20,
+      "PASS_AF_ge_001": 8,
+      "max_PASS_AF": 0.6919999718666077,
+      "callset_samples": 1987
+    },
+    {
+      "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "genes": "LOC119876429/LOC119872513",
+      "all_records": 20,
+      "PASS_records": 13,
+      "PASS_AF_ge_001": 3,
+      "max_PASS_AF": 0.2150000035762787,
+      "callset_samples": 1987
+    },
+    {
+      "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "genes": "NPNT/TBCK",
+      "all_records": 23,
+      "PASS_records": 23,
+      "PASS_AF_ge_001": 9,
+      "max_PASS_AF": 0.32199999690055847,
+      "callset_samples": 1987
+    },
+    {
+      "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "genes": "ANO2/NTF3",
+      "all_records": 1,
+      "PASS_records": 1,
+      "PASS_AF_ge_001": 1,
+      "max_PASS_AF": 0.335999995470047,
+      "callset_samples": 1987
+    },
+    {
+      "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "genes": "LOC119876429/LOC119872513",
+      "all_records": 2,
+      "PASS_records": 2,
+      "PASS_AF_ge_001": 0,
+      "max_PASS_AF": 0.0005032999906688929,
+      "callset_samples": 1987
+    },
+    {
+      "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "genes": "NPNT/TBCK",
+      "all_records": 8,
+      "PASS_records": 8,
+      "PASS_AF_ge_001": 3,
+      "max_PASS_AF": 0.3240000009536743,
+      "callset_samples": 1987
+    }
+  ],
+  "limitations": [
+    "1987-sample release; do not equate to published 1929-sample subset or 76 project dogs",
+    "AF is catalogue allele frequency, not individual carrier probability",
+    "SNP/nonSNP release and SV release have different sample sets",
+    "Window overlaps on UU assembly; no insertion point or guide selected"
+  ]
+}

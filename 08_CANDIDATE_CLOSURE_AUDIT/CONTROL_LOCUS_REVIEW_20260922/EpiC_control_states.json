@@ -1,0 +1,1137 @@
+{
+  "utc": "2026-09-22T22:52:32.598477+00:00",
+  "windows": 20,
+  "strictly_projected": 10,
+  "unresolved_ids": [
+    "bg1k_0045",
+    "bg1k_2865",
+    "bg1k_0334",
+    "bg1k_2545",
+    "bg1k_0228",
+    "bg1k_1023",
+    "bg1k_0023",
+    "bg1k_1650",
+    "bg1k_2228",
+    "bg1k_2867"
+  ],
+  "window_tissue_records": 110,
+  "nonquiescent_ids": [
+    "bg1k_1958",
+    "bg1k_2054",
+    "bg1k_2848",
+    "bg1k_2901"
+  ],
+  "incomplete_coverage_ids": [],
+  "annotations": [
+    {
+      "id": "bg1k_2054",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 804,
+        "12": 196
+      },
+      "nonquiescent_bp": 196
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "7": 180,
+        "13": 820
+      },
+      "nonquiescent_bp": 180
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "12": 535,
+        "13": 465
+      },
+      "nonquiescent_bp": 535
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "7": 380,
+        "13": 620
+      },
+      "nonquiescent_bp": 380
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 600,
+        "9": 400
+      },
+      "nonquiescent_bp": 400
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "sum_state_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "nonquiescent_bp": 0
+    }
+  ],
+  "limitations": [
+    "States reported as source labels; state13 treated as quiescent consistently with existing pipeline",
+    "Nonquiescent includes diverse states and is not automatically promoter/enhancer",
+    "No CAR-T-specific regulatory clearance; independent mapping validation remains pending"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "utc": "2026-09-22T14:42:16.460000+00:00",
+  "clips": 16,
+  "mapped_clips": 9,
+  "opposite_boundary_hits": [
+    {
+      "clip_id": "clip2",
+      "chrom": "NC_049253.1",
+      "start0": 33613308,
+      "end0": 33613339,
+      "mapq": 0,
+      "cigar": "31M",
+      "reverse": false,
+      "secondary": true,
+      "supplementary": false,
+      "NM": 0,
+      "AS": 31,
+      "aligned_query_bases": 31,
+      "near_opposite_boundary": true
+    },
+    {
+      "clip_id": "clip3",
+      "chrom": "NC_049253.1",
+      "start0": 33613308,
+      "end0": 33613352,
+      "mapq": 0,
+      "cigar": "44M",
+      "reverse": false,
+      "secondary": true,
+      "supplementary": false,
+      "NM": 0,
+      "AS": 44,
+      "aligned_query_bases": 44,
+      "near_opposite_boundary": true
+    },
+    {
+      "clip_id": "clip4",
+      "chrom": "NC_049253.1",
+      "start0": 33613308,
+      "end0": 33613355,
+      "mapq": 0,
+      "cigar": "47M",
+      "reverse": false,
+      "secondary": true,
+      "supplementary": false,
+      "NM": 0,
+      "AS": 47,
+      "aligned_query_bases": 47,
+      "near_opposite_boundary": true
+    },
+    {
+      "clip_id": "clip5",
+      "chrom": "NC_049253.1",
+      "start0": 33613308,
+      "end0": 33613358,
+      "mapq": 0,
+      "cigar": "50M",
+      "reverse": false,
+      "secondary": true,
+      "supplementary": false,
+      "NM": 0,
+      "AS": 50,
+      "aligned_query_bases": 50,
+      "near_opposite_boundary": true
+    },
+    {
+      "clip_id": "clip6",
+      "chrom": "NC_049253.1",
+      "start0": 33613308,
+      "end0": 33613374,
+      "mapq": 0,
+      "cigar": "66M",
+      "reverse": false,
+      "secondary": true,
+      "supplementary": false,
+      "NM": 0,
+      "AS": 66,
+      "aligned_query_bases": 66,
+      "near_opposite_boundary": true
+    }
+  ],
+  "limitations": [
+    "BWA mem default seed/score thresholds; short clips can be unmapped despite homology",
+    "Clip-only mapping quality is not an SV likelihood",
+    "Anchors within +/-1kb; clip length >=20; MAPQ30 nonduplicate primary anchors",
+    "Clips are aligned in BAM reference-oriented sequence; junction orientation must be interpreted with anchor"
+  ]
+}

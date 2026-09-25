@@ -1,0 +1,37 @@
+[
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+    "mem",
+    "-t",
+    "8",
+    "-R",
+    "@RG\\tID:PBGV000010\\tSM:PBGV000010\\tPL:ILLUMINA",
+    "/mnt/d/Jin2024_work/uu_gsd/genome_uu_gsd.fa",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/SRR15734832_1.fastq.gz",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/SRR15734832_2.fastq.gz"
+  ],
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/samtools",
+    "view",
+    "-u",
+    "--save-counts",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment/selection_counts.json",
+    "-e",
+    "rname == \"NC_049253.1\" || rnext == \"NC_049253.1\"",
+    "-"
+  ],
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/samtools",
+    "sort",
+    "-n",
+    "-@",
+    "2",
+    "-m",
+    "512M",
+    "-T",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment/name_sort_tmp",
+    "-o",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment/selected_namesort.bam",
+    "-"
+  ]
+]

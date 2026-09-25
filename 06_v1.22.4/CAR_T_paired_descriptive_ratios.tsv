@@ -1,0 +1,361 @@
+gene	comparison	biological_replicate	numerator_CPM	denominator_CPM	log2_ratio	ratio_status
+AIMP1	single_vs_control	B	59.6487	40.6549	0.5530614497557046	both_positive_descriptive_only
+AIMP1	single_vs_control	E	45.6322	40.7245	0.16415522405733435	both_positive_descriptive_only
+AIMP1	single_vs_control	M	44.1633	38.576	0.19514442212634642	both_positive_descriptive_only
+AIMP1	dual_vs_control	B	44.092	40.6549	0.11708767263654155	both_positive_descriptive_only
+AIMP1	dual_vs_control	E	53.0246	40.7245	0.380764846588112	both_positive_descriptive_only
+AIMP1	dual_vs_control	M	59.9463	38.576	0.6359671544440902	both_positive_descriptive_only
+AIMP1	dual_vs_single	B	44.092	59.6487	-0.43597377711916296	both_positive_descriptive_only
+AIMP1	dual_vs_single	E	53.0246	45.6322	0.21660962253077776	both_positive_descriptive_only
+AIMP1	dual_vs_single	M	59.9463	44.1633	0.4408227323177439	both_positive_descriptive_only
+ANO2	single_vs_control	B				gene_absent_from_processed_table
+ANO2	single_vs_control	E				gene_absent_from_processed_table
+ANO2	single_vs_control	M				gene_absent_from_processed_table
+ANO2	dual_vs_control	B				gene_absent_from_processed_table
+ANO2	dual_vs_control	E				gene_absent_from_processed_table
+ANO2	dual_vs_control	M				gene_absent_from_processed_table
+ANO2	dual_vs_single	B				gene_absent_from_processed_table
+ANO2	dual_vs_single	E				gene_absent_from_processed_table
+ANO2	dual_vs_single	M				gene_absent_from_processed_table
+APOBEC4	single_vs_control	B				gene_absent_from_processed_table
+APOBEC4	single_vs_control	E				gene_absent_from_processed_table
+APOBEC4	single_vs_control	M				gene_absent_from_processed_table
+APOBEC4	dual_vs_control	B				gene_absent_from_processed_table
+APOBEC4	dual_vs_control	E				gene_absent_from_processed_table
+APOBEC4	dual_vs_control	M				gene_absent_from_processed_table
+APOBEC4	dual_vs_single	B				gene_absent_from_processed_table
+APOBEC4	dual_vs_single	E				gene_absent_from_processed_table
+APOBEC4	dual_vs_single	M				gene_absent_from_processed_table
+ARHGEF38	single_vs_control	B				gene_absent_from_processed_table
+ARHGEF38	single_vs_control	E				gene_absent_from_processed_table
+ARHGEF38	single_vs_control	M				gene_absent_from_processed_table
+ARHGEF38	dual_vs_control	B				gene_absent_from_processed_table
+ARHGEF38	dual_vs_control	E				gene_absent_from_processed_table
+ARHGEF38	dual_vs_control	M				gene_absent_from_processed_table
+ARHGEF38	dual_vs_single	B				gene_absent_from_processed_table
+ARHGEF38	dual_vs_single	E				gene_absent_from_processed_table
+ARHGEF38	dual_vs_single	M				gene_absent_from_processed_table
+ARPC5	single_vs_control	B	135.079	148.946	-0.14098597588034764	both_positive_descriptive_only
+ARPC5	single_vs_control	E	134.206	134.944	-0.007911659732354534	both_positive_descriptive_only
+ARPC5	single_vs_control	M	130.669	160.888	-0.3001398093525631	both_positive_descriptive_only
+ARPC5	dual_vs_control	B	138.705	148.946	-0.10276958552183753	both_positive_descriptive_only
+ARPC5	dual_vs_control	E	123.122	134.944	-0.13227225966194908	both_positive_descriptive_only
+ARPC5	dual_vs_control	M	114.235	160.888	-0.4940519852208206	both_positive_descriptive_only
+ARPC5	dual_vs_single	B	138.705	135.079	0.03821639035851017	both_positive_descriptive_only
+ARPC5	dual_vs_single	E	123.122	134.206	-0.12436059992959457	both_positive_descriptive_only
+ARPC5	dual_vs_single	M	114.235	130.669	-0.19391217586825768	both_positive_descriptive_only
+C7H1orf21	single_vs_control	B	6.81289	6.69051	0.026150725483961693	both_positive_descriptive_only
+C7H1orf21	single_vs_control	E	7.89448	9.649	-0.289535191947057	both_positive_descriptive_only
+C7H1orf21	single_vs_control	M	5.46239	6.08075	-0.15471695438158806	both_positive_descriptive_only
+C7H1orf21	dual_vs_control	B	8.10537	6.69051	0.276761856558556	both_positive_descriptive_only
+C7H1orf21	dual_vs_control	E	7.99885	9.649	-0.27058683487671176	both_positive_descriptive_only
+C7H1orf21	dual_vs_control	M	5.09543	6.08075	-0.2550453771018095	both_positive_descriptive_only
+C7H1orf21	dual_vs_single	B	8.10537	6.81289	0.2506111310745946	both_positive_descriptive_only
+C7H1orf21	dual_vs_single	E	7.99885	7.89448	0.018948357070345243	both_positive_descriptive_only
+C7H1orf21	dual_vs_single	M	5.09543	5.46239	-0.10032842272022144	both_positive_descriptive_only
+CD247	single_vs_control	B				gene_absent_from_processed_table
+CD247	single_vs_control	E				gene_absent_from_processed_table
+CD247	single_vs_control	M				gene_absent_from_processed_table
+CD247	dual_vs_control	B				gene_absent_from_processed_table
+CD247	dual_vs_control	E				gene_absent_from_processed_table
+CD247	dual_vs_control	M				gene_absent_from_processed_table
+CD247	dual_vs_single	B				gene_absent_from_processed_table
+CD247	dual_vs_single	E				gene_absent_from_processed_table
+CD247	dual_vs_single	M				gene_absent_from_processed_table
+CD3D	single_vs_control	B	176.072	263.008	-0.5789411815100265	both_positive_descriptive_only
+CD3D	single_vs_control	E	226.569	283.228	-0.3220134178657469	both_positive_descriptive_only
+CD3D	single_vs_control	M	168.549	284.712	-0.7563352330143146	both_positive_descriptive_only
+CD3D	dual_vs_control	B	216.528	263.008	-0.2805530861062513	both_positive_descriptive_only
+CD3D	dual_vs_control	E	151.505	283.228	-0.9025984910999382	both_positive_descriptive_only
+CD3D	dual_vs_control	M	118.955	284.712	-1.2590873874551212	both_positive_descriptive_only
+CD3D	dual_vs_single	B	216.528	176.072	0.29838809540377526	both_positive_descriptive_only
+CD3D	dual_vs_single	E	151.505	226.569	-0.5805850732341914	both_positive_descriptive_only
+CD3D	dual_vs_single	M	118.955	168.549	-0.5027521544408066	both_positive_descriptive_only
+CD3E	single_vs_control	B	829.222	1162.52	-0.4874252385117908	both_positive_descriptive_only
+CD3E	single_vs_control	E	957.557	1131.29	-0.2405385304478648	both_positive_descriptive_only
+CD3E	single_vs_control	M	633.693	1203.16	-0.9249725251888092	both_positive_descriptive_only
+CD3E	dual_vs_control	B	914.246	1162.52	-0.3466012219388993	both_positive_descriptive_only
+CD3E	dual_vs_control	E	770.629	1131.29	-0.5538604206652302	both_positive_descriptive_only
+CD3E	dual_vs_control	M	540.029	1203.16	-1.1557197210193315	both_positive_descriptive_only
+CD3E	dual_vs_single	B	914.246	829.222	0.14082401657289137	both_positive_descriptive_only
+CD3E	dual_vs_single	E	770.629	957.557	-0.31332189021736523	both_positive_descriptive_only
+CD3E	dual_vs_single	M	540.029	633.693	-0.23074719583052236	both_positive_descriptive_only
+CD3G	single_vs_control	B	63.8744	104.818	-0.7145767473659946	both_positive_descriptive_only
+CD3G	single_vs_control	E	96.079	111.389	-0.21331372870415788	both_positive_descriptive_only
+CD3G	single_vs_control	M	59.8721	93.9999	-0.650775348685894	both_positive_descriptive_only
+CD3G	dual_vs_control	B	96.2284	104.818	-0.12335184050839498	both_positive_descriptive_only
+CD3G	dual_vs_control	E	53.4977	111.389	-1.0580579963322603	both_positive_descriptive_only
+CD3G	dual_vs_control	M	36.7546	93.9999	-1.35473440112289	both_positive_descriptive_only
+CD3G	dual_vs_single	B	96.2284	63.8744	0.5912249068575998	both_positive_descriptive_only
+CD3G	dual_vs_single	E	53.4977	96.079	-0.8447442676281024	both_positive_descriptive_only
+CD3G	dual_vs_single	M	36.7546	59.8721	-0.7039590524369957	both_positive_descriptive_only
+CD4	single_vs_control	B	49.4437	150.555	-1.6064320084191344	both_positive_descriptive_only
+CD4	single_vs_control	E	143.021	188.534	-0.39859772512932745	both_positive_descriptive_only
+CD4	single_vs_control	M	159.73	269.954	-0.757078293079886	both_positive_descriptive_only
+CD4	dual_vs_control	B	102.384	150.555	-0.556300344791522	both_positive_descriptive_only
+CD4	dual_vs_control	E	87.9013	188.534	-1.1008683137744852	both_positive_descriptive_only
+CD4	dual_vs_control	M	97.4502	269.954	-1.4699765423617877	both_positive_descriptive_only
+CD4	dual_vs_single	B	102.384	49.4437	1.0501316636276123	both_positive_descriptive_only
+CD4	dual_vs_single	E	87.9013	143.021	-0.702270588645158	both_positive_descriptive_only
+CD4	dual_vs_single	M	97.4502	159.73	-0.7128982492819012	both_positive_descriptive_only
+CD8A	single_vs_control	B	572.171	373.245	0.6163234436363045	both_positive_descriptive_only
+CD8A	single_vs_control	E	421.719	285.31	0.5637517081434311	both_positive_descriptive_only
+CD8A	single_vs_control	M	96.1099	170.492	-0.8269470936582336	both_positive_descriptive_only
+CD8A	dual_vs_control	B	685.579	373.245	0.8771999847650969	both_positive_descriptive_only
+CD8A	dual_vs_control	E	406.437	285.31	0.5105014301759586	both_positive_descriptive_only
+CD8A	dual_vs_control	M	89.5819	170.492	-0.928424874549749	both_positive_descriptive_only
+CD8A	dual_vs_single	B	685.579	572.171	0.2608765411287925	both_positive_descriptive_only
+CD8A	dual_vs_single	E	406.437	421.719	-0.05325027796747252	both_positive_descriptive_only
+CD8A	dual_vs_single	M	89.5819	96.1099	-0.10147778089151527	both_positive_descriptive_only
+CD8B	single_vs_control	B				gene_absent_from_processed_table
+CD8B	single_vs_control	E				gene_absent_from_processed_table
+CD8B	single_vs_control	M				gene_absent_from_processed_table
+CD8B	dual_vs_control	B				gene_absent_from_processed_table
+CD8B	dual_vs_control	E				gene_absent_from_processed_table
+CD8B	dual_vs_control	M				gene_absent_from_processed_table
+CD8B	dual_vs_single	B				gene_absent_from_processed_table
+CD8B	dual_vs_single	E				gene_absent_from_processed_table
+CD8B	dual_vs_single	M				gene_absent_from_processed_table
+CD9	single_vs_control	B	0.143732	1.64521	-3.516818546691802	both_positive_descriptive_only
+CD9	single_vs_control	E	1.23904	2.97984	-1.2660121056336893	both_positive_descriptive_only
+CD9	single_vs_control	M	3.6059	4.84136	-0.4250529879053998	both_positive_descriptive_only
+CD9	dual_vs_control	B	0.548484	1.64521	-1.5847503049985179	both_positive_descriptive_only
+CD9	dual_vs_control	E	0.602064	2.97984	-2.307246108309196	both_positive_descriptive_only
+CD9	dual_vs_control	M	2.06065	4.84136	-1.2323128910249204	both_positive_descriptive_only
+CD9	dual_vs_single	B	0.548484	0.143732	1.9320682416932842	both_positive_descriptive_only
+CD9	dual_vs_single	E	0.602064	1.23904	-1.041234002675507	both_positive_descriptive_only
+CD9	dual_vs_single	M	2.06065	3.6059	-0.8072599031195204	both_positive_descriptive_only
+COLGALT2	single_vs_control	B				gene_absent_from_processed_table
+COLGALT2	single_vs_control	E				gene_absent_from_processed_table
+COLGALT2	single_vs_control	M				gene_absent_from_processed_table
+COLGALT2	dual_vs_control	B				gene_absent_from_processed_table
+COLGALT2	dual_vs_control	E				gene_absent_from_processed_table
+COLGALT2	dual_vs_control	M				gene_absent_from_processed_table
+COLGALT2	dual_vs_single	B				gene_absent_from_processed_table
+COLGALT2	dual_vs_single	E				gene_absent_from_processed_table
+COLGALT2	dual_vs_single	M				gene_absent_from_processed_table
+EDEM3	single_vs_control	B	68.5604	73.9608	-0.10938530324628187	both_positive_descriptive_only
+EDEM3	single_vs_control	E	64.4658	51.3194	0.32902969049901604	both_positive_descriptive_only
+EDEM3	single_vs_control	M	107.321	90.5917	0.2444816206732475	both_positive_descriptive_only
+EDEM3	dual_vs_control	B	84.8923	73.9608	0.19887287291512068	both_positive_descriptive_only
+EDEM3	dual_vs_control	E	52.4654	51.3194	0.03186200131789213	both_positive_descriptive_only
+EDEM3	dual_vs_control	M	73.7344	90.5917	-0.2970410263884328	both_positive_descriptive_only
+EDEM3	dual_vs_single	B	84.8923	68.5604	0.3082581761614023	both_positive_descriptive_only
+EDEM3	dual_vs_single	E	52.4654	64.4658	-0.2971676891811239	both_positive_descriptive_only
+EDEM3	dual_vs_single	M	73.7344	107.321	-0.5415226470616804	both_positive_descriptive_only
+GALNT8	single_vs_control	B				gene_absent_from_processed_table
+GALNT8	single_vs_control	E				gene_absent_from_processed_table
+GALNT8	single_vs_control	M				gene_absent_from_processed_table
+GALNT8	dual_vs_control	B				gene_absent_from_processed_table
+GALNT8	dual_vs_control	E				gene_absent_from_processed_table
+GALNT8	dual_vs_control	M				gene_absent_from_processed_table
+GALNT8	dual_vs_single	B				gene_absent_from_processed_table
+GALNT8	dual_vs_single	E				gene_absent_from_processed_table
+GALNT8	dual_vs_single	M				gene_absent_from_processed_table
+GIMD1	single_vs_control	B				gene_absent_from_processed_table
+GIMD1	single_vs_control	E				gene_absent_from_processed_table
+GIMD1	single_vs_control	M				gene_absent_from_processed_table
+GIMD1	dual_vs_control	B				gene_absent_from_processed_table
+GIMD1	dual_vs_control	E				gene_absent_from_processed_table
+GIMD1	dual_vs_control	M				gene_absent_from_processed_table
+GIMD1	dual_vs_single	B				gene_absent_from_processed_table
+GIMD1	dual_vs_single	E				gene_absent_from_processed_table
+GIMD1	dual_vs_single	M				gene_absent_from_processed_table
+GSTCD	single_vs_control	B	7.24408	3.54634	1.0304716197001718	both_positive_descriptive_only
+GSTCD	single_vs_control	E	3.25691	2.64875	0.29819217089514644	both_positive_descriptive_only
+GSTCD	single_vs_control	M	5.6409	3.87309	0.5424403355155945	both_positive_descriptive_only
+GSTCD	dual_vs_control	B	3.9308	3.54634	0.14849210189776263	both_positive_descriptive_only
+GSTCD	dual_vs_control	E	6.88073	2.64875	1.377249950863478	both_positive_descriptive_only
+GSTCD	dual_vs_control	M	12.4763	3.87309	1.687633217547444	both_positive_descriptive_only
+GSTCD	dual_vs_single	B	3.9308	7.24408	-0.8819795178024092	both_positive_descriptive_only
+GSTCD	dual_vs_single	E	6.88073	3.25691	1.0790577799683314	both_positive_descriptive_only
+GSTCD	dual_vs_single	M	12.4763	5.6409	1.1451928820318498	both_positive_descriptive_only
+INTS12	single_vs_control	B	24.1181	15.4649	0.6411187530078452	both_positive_descriptive_only
+INTS12	single_vs_control	E	17.736	14.4262	0.29798934521359405	both_positive_descriptive_only
+INTS12	single_vs_control	M	18.5651	20.9147	-0.1719242179245925	both_positive_descriptive_only
+INTS12	dual_vs_control	B	18.2218	15.4649	0.23666797497929645	both_positive_descriptive_only
+INTS12	dual_vs_control	E	18.75	14.4262	0.3781992655042548	both_positive_descriptive_only
+INTS12	dual_vs_control	M	21.0936	20.9147	0.012288033705411162	both_positive_descriptive_only
+INTS12	dual_vs_single	B	18.2218	24.1181	-0.4044507780285487	both_positive_descriptive_only
+INTS12	dual_vs_single	E	18.75	17.736	0.08020992029066072	both_positive_descriptive_only
+INTS12	dual_vs_single	M	21.0936	18.5651	0.18421225163000368	both_positive_descriptive_only
+KCNA1	single_vs_control	B				gene_absent_from_processed_table
+KCNA1	single_vs_control	E				gene_absent_from_processed_table
+KCNA1	single_vs_control	M				gene_absent_from_processed_table
+KCNA1	dual_vs_control	B				gene_absent_from_processed_table
+KCNA1	dual_vs_control	E				gene_absent_from_processed_table
+KCNA1	dual_vs_control	M				gene_absent_from_processed_table
+KCNA1	dual_vs_single	B				gene_absent_from_processed_table
+KCNA1	dual_vs_single	E				gene_absent_from_processed_table
+KCNA1	dual_vs_single	M				gene_absent_from_processed_table
+KCNA5	single_vs_control	B				gene_absent_from_processed_table
+KCNA5	single_vs_control	E				gene_absent_from_processed_table
+KCNA5	single_vs_control	M				gene_absent_from_processed_table
+KCNA5	dual_vs_control	B				gene_absent_from_processed_table
+KCNA5	dual_vs_control	E				gene_absent_from_processed_table
+KCNA5	dual_vs_control	M				gene_absent_from_processed_table
+KCNA5	dual_vs_single	B				gene_absent_from_processed_table
+KCNA5	dual_vs_single	E				gene_absent_from_processed_table
+KCNA5	dual_vs_single	M				gene_absent_from_processed_table
+KCNA6	single_vs_control	B				gene_absent_from_processed_table
+KCNA6	single_vs_control	E				gene_absent_from_processed_table
+KCNA6	single_vs_control	M				gene_absent_from_processed_table
+KCNA6	dual_vs_control	B				gene_absent_from_processed_table
+KCNA6	dual_vs_control	E				gene_absent_from_processed_table
+KCNA6	dual_vs_control	M				gene_absent_from_processed_table
+KCNA6	dual_vs_single	B				gene_absent_from_processed_table
+KCNA6	dual_vs_single	E				gene_absent_from_processed_table
+KCNA6	dual_vs_single	M				gene_absent_from_processed_table
+LCK	single_vs_control	B	431.971	509.356	-0.23773987826313805	both_positive_descriptive_only
+LCK	single_vs_control	E	416.425	466.605	-0.16414508371999317	both_positive_descriptive_only
+LCK	single_vs_control	M	170.548	336.029	-0.9784079092482995	both_positive_descriptive_only
+LCK	dual_vs_control	B	485.987	509.356	-0.067756617110474	both_positive_descriptive_only
+LCK	dual_vs_control	E	345.585	466.605	-0.4331611677244642	both_positive_descriptive_only
+LCK	dual_vs_control	M	114.797	336.029	-1.5495008055217043	both_positive_descriptive_only
+LCK	dual_vs_single	B	485.987	431.971	0.16998326115266413	both_positive_descriptive_only
+LCK	dual_vs_single	E	345.585	416.425	-0.26901608400447125	both_positive_descriptive_only
+LCK	dual_vs_single	M	114.797	170.548	-0.5710928962734048	both_positive_descriptive_only
+LOC119867197	single_vs_control	B				gene_absent_from_processed_table
+LOC119867197	single_vs_control	E				gene_absent_from_processed_table
+LOC119867197	single_vs_control	M				gene_absent_from_processed_table
+LOC119867197	dual_vs_control	B				gene_absent_from_processed_table
+LOC119867197	dual_vs_control	E				gene_absent_from_processed_table
+LOC119867197	dual_vs_control	M				gene_absent_from_processed_table
+LOC119867197	dual_vs_single	B				gene_absent_from_processed_table
+LOC119867197	dual_vs_single	E				gene_absent_from_processed_table
+LOC119867197	dual_vs_single	M				gene_absent_from_processed_table
+LOC119872513	single_vs_control	B				gene_absent_from_processed_table
+LOC119872513	single_vs_control	E				gene_absent_from_processed_table
+LOC119872513	single_vs_control	M				gene_absent_from_processed_table
+LOC119872513	dual_vs_control	B				gene_absent_from_processed_table
+LOC119872513	dual_vs_control	E				gene_absent_from_processed_table
+LOC119872513	dual_vs_control	M				gene_absent_from_processed_table
+LOC119872513	dual_vs_single	B				gene_absent_from_processed_table
+LOC119872513	dual_vs_single	E				gene_absent_from_processed_table
+LOC119872513	dual_vs_single	M				gene_absent_from_processed_table
+LOC119876429	single_vs_control	B				gene_absent_from_processed_table
+LOC119876429	single_vs_control	E				gene_absent_from_processed_table
+LOC119876429	single_vs_control	M				gene_absent_from_processed_table
+LOC119876429	dual_vs_control	B				gene_absent_from_processed_table
+LOC119876429	dual_vs_control	E				gene_absent_from_processed_table
+LOC119876429	dual_vs_control	M				gene_absent_from_processed_table
+LOC119876429	dual_vs_single	B				gene_absent_from_processed_table
+LOC119876429	dual_vs_single	E				gene_absent_from_processed_table
+LOC119876429	dual_vs_single	M				gene_absent_from_processed_table
+NCF2	single_vs_control	B	8.36519	20.1082	-1.2653137296087262	both_positive_descriptive_only
+NCF2	single_vs_control	E	9.94775	11.068	-0.15395239275536082	both_positive_descriptive_only
+NCF2	single_vs_control	M	27.9903	21.4182	0.386089709680722	both_positive_descriptive_only
+NCF2	dual_vs_control	B	10.604	20.1082	-0.9231753682200537	both_positive_descriptive_only
+NCF2	dual_vs_control	E	7.86983	11.068	-0.49199017223110353	both_positive_descriptive_only
+NCF2	dual_vs_control	M	31.8841	21.4182	0.5739999183630139	both_positive_descriptive_only
+NCF2	dual_vs_single	B	10.604	8.36519	0.3421383613886725	both_positive_descriptive_only
+NCF2	dual_vs_single	E	7.86983	9.94775	-0.3380377794757427	both_positive_descriptive_only
+NCF2	dual_vs_single	M	31.8841	27.9903	0.18791020868229188	both_positive_descriptive_only
+NIBAN1	single_vs_control	B	193.671	203.161	-0.06901553716548911	both_positive_descriptive_only
+NIBAN1	single_vs_control	E	318.382	290.612	0.131664497974008	both_positive_descriptive_only
+NIBAN1	single_vs_control	M	337.394	333.367	0.017323018876522447	both_positive_descriptive_only
+NIBAN1	dual_vs_control	B	239.785	203.161	0.23911793196153153	both_positive_descriptive_only
+NIBAN1	dual_vs_control	E	250.45	290.612	-0.21457166461325253	both_positive_descriptive_only
+NIBAN1	dual_vs_control	M	285.268	333.367	-0.2247933776417664	both_positive_descriptive_only
+NIBAN1	dual_vs_single	B	239.785	193.671	0.3081334691270206	both_positive_descriptive_only
+NIBAN1	dual_vs_single	E	250.45	318.382	-0.34623616258726037	both_positive_descriptive_only
+NIBAN1	dual_vs_single	M	285.268	337.394	-0.24211639651828867	both_positive_descriptive_only
+NPNT	single_vs_control	B	0.0862391	0.0731203	0.23807013251966164	both_positive_descriptive_only
+NPNT	single_vs_control	E	0.0	0.047299		zero_value_no_pseudocount
+NPNT	single_vs_control	M	0.0357019	0.232385	-2.7024441891745665	both_positive_descriptive_only
+NPNT	dual_vs_control	B	0.152357	0.0731203	1.0591118911195505	both_positive_descriptive_only
+NPNT	dual_vs_control	E	0.0	0.047299		zero_value_no_pseudocount
+NPNT	dual_vs_control	M	0.149866	0.232385	-0.6328438314465995	both_positive_descriptive_only
+NPNT	dual_vs_single	B	0.152357	0.0862391	0.8210417585998889	both_positive_descriptive_only
+NPNT	dual_vs_single	E	0.0	0.0		zero_value_no_pseudocount
+NPNT	dual_vs_single	M	0.149866	0.0357019	2.069600357727967	both_positive_descriptive_only
+NTF3	single_vs_control	B				gene_absent_from_processed_table
+NTF3	single_vs_control	E				gene_absent_from_processed_table
+NTF3	single_vs_control	M				gene_absent_from_processed_table
+NTF3	dual_vs_control	B				gene_absent_from_processed_table
+NTF3	dual_vs_control	E				gene_absent_from_processed_table
+NTF3	dual_vs_control	M				gene_absent_from_processed_table
+NTF3	dual_vs_single	B				gene_absent_from_processed_table
+NTF3	dual_vs_single	E				gene_absent_from_processed_table
+NTF3	dual_vs_single	M				gene_absent_from_processed_table
+PLEKHG6	single_vs_control	B	0.459942	0.0		zero_value_no_pseudocount
+PLEKHG6	single_vs_control	E	0.318611	0.0945981	1.7519129640849127	both_positive_descriptive_only
+PLEKHG6	single_vs_control	M	0.0357019	0.0		zero_value_no_pseudocount
+PLEKHG6	dual_vs_control	B	0.0609426	0.0		zero_value_no_pseudocount
+PLEKHG6	dual_vs_control	E	0.172018	0.0945981	0.8626764242597112	both_positive_descriptive_only
+PLEKHG6	dual_vs_control	M	0.187332	0.0		zero_value_no_pseudocount
+PLEKHG6	dual_vs_single	B	0.0609426	0.459942	-2.915928988386676	both_positive_descriptive_only
+PLEKHG6	dual_vs_single	E	0.172018	0.318611	-0.8892365398252018	both_positive_descriptive_only
+PLEKHG6	dual_vs_single	M	0.187332	0.0357019	2.3915246019835217	both_positive_descriptive_only
+PPA2	single_vs_control	B	29.595	27.8538	0.0874792937711256	both_positive_descriptive_only
+PPA2	single_vs_control	E	33.6717	35.4495	-0.0742287179410526	both_positive_descriptive_only
+PPA2	single_vs_control	M	20.058	29.4541	-0.5542907098697555	both_positive_descriptive_only
+PPA2	dual_vs_control	B	29.7753	27.8538	0.09624188097484379	both_positive_descriptive_only
+PPA2	dual_vs_control	E	33.3775	35.4495	-0.08688937921603786	both_positive_descriptive_only
+PPA2	dual_vs_control	M	26.1472	29.4541	-0.17181200840830288	both_positive_descriptive_only
+PPA2	dual_vs_single	B	29.7753	29.595	0.008762587203718128	both_positive_descriptive_only
+PPA2	dual_vs_single	E	33.3775	33.6717	-0.012660661274985302	both_positive_descriptive_only
+PPA2	dual_vs_single	M	26.1472	20.058	0.38247870146145235	both_positive_descriptive_only
+RGL1	single_vs_control	B	2.75965	1.46241	0.916137464213346	both_positive_descriptive_only
+RGL1	single_vs_control	E	1.45145	0.283794	2.3545788811776776	both_positive_descriptive_only
+RGL1	single_vs_control	M	5.81941	3.60197	0.6920867277189439	both_positive_descriptive_only
+RGL1	dual_vs_control	B	1.15791	1.46241	-0.3368247183188222	both_positive_descriptive_only
+RGL1	dual_vs_control	E	2.58027	0.283794	3.1846060442261224	both_positive_descriptive_only
+RGL1	dual_vs_control	M	5.6949	3.60197	0.660884343639115	both_positive_descriptive_only
+RGL1	dual_vs_single	B	1.15791	2.75965	-1.2529621825321682	both_positive_descriptive_only
+RGL1	dual_vs_single	E	2.58027	1.45145	0.8300271630484445	both_positive_descriptive_only
+RGL1	dual_vs_single	M	5.6949	5.81941	-0.031202384079828994	both_positive_descriptive_only
+SMG7	single_vs_control	B	173.167	140.21	0.3045747771686087	both_positive_descriptive_only
+SMG7	single_vs_control	E	148.12	128.562	0.20430217675324033	both_positive_descriptive_only
+SMG7	single_vs_control	M	149.552	144.507	0.049507824769285246	both_positive_descriptive_only
+SMG7	dual_vs_control	B	148.854	140.21	0.08630874183168559	both_positive_descriptive_only
+SMG7	dual_vs_control	E	148.236	128.562	0.20543157945330257	both_positive_descriptive_only
+SMG7	dual_vs_control	M	162.863	144.507	0.17251950331305316	both_positive_descriptive_only
+SMG7	dual_vs_single	B	148.854	173.167	-0.21826603533692304	both_positive_descriptive_only
+SMG7	dual_vs_single	E	148.236	148.12	0.0011294027000624198	both_positive_descriptive_only
+SMG7	dual_vs_single	M	162.863	149.552	0.12301167854376796	both_positive_descriptive_only
+TBCK	single_vs_control	B	16.8166	17.6951	-0.07346386556995366	both_positive_descriptive_only
+TBCK	single_vs_control	E	14.6561	17.0276	-0.21637385265719497	both_positive_descriptive_only
+TBCK	single_vs_control	M	15.2804	16.0733	-0.07298384854916869	both_positive_descriptive_only
+TBCK	dual_vs_control	B	17.7343	17.6951	0.00319247114995497	both_positive_descriptive_only
+TBCK	dual_vs_control	E	16.2127	17.0276	-0.07075073320268035	both_positive_descriptive_only
+TBCK	dual_vs_control	M	17.3845	16.0733	0.11313541563099763	both_positive_descriptive_only
+TBCK	dual_vs_single	B	17.7343	16.8166	0.07665633671990868	both_positive_descriptive_only
+TBCK	dual_vs_single	E	16.2127	14.6561	0.14562311945451448	both_positive_descriptive_only
+TBCK	dual_vs_single	M	17.3845	15.2804	0.18611926418016628	both_positive_descriptive_only
+TET2	single_vs_control	B	87.5626	86.9764	0.00969079704632472	both_positive_descriptive_only
+TET2	single_vs_control	E	94.4514	93.2744	0.01809100628569394	both_positive_descriptive_only
+TET2	single_vs_control	M	92.5399	94.7749	-0.03442948925725962	both_positive_descriptive_only
+TET2	dual_vs_control	B	87.392	86.9764	0.006877223102183775	both_positive_descriptive_only
+TET2	dual_vs_control	E	90.5239	93.2744	-0.043182433826083375	both_positive_descriptive_only
+TET2	dual_vs_control	M	78.2295	94.7749	-0.2767922850810154	both_positive_descriptive_only
+TET2	dual_vs_single	B	87.392	87.5626	-0.00281357394414092	both_positive_descriptive_only
+TET2	dual_vs_single	E	90.5239	94.4514	-0.061273440111777426	both_positive_descriptive_only
+TET2	dual_vs_single	M	78.2295	92.5399	-0.2423627958237558	both_positive_descriptive_only
+TNFRSF1A	single_vs_control	B	18.0527	32.3557	-0.8418052637982532	both_positive_descriptive_only
+TNFRSF1A	single_vs_control	E	34.0561	34.008	0.002039067379679604	both_positive_descriptive_only
+TNFRSF1A	single_vs_control	M	9.38961	18.6295	-0.988451812580297	both_positive_descriptive_only
+TNFRSF1A	dual_vs_control	B	30.4713	32.3557	-0.08656883839559147	both_positive_descriptive_only
+TNFRSF1A	dual_vs_control	E	26.7919	34.008	-0.34407726774036196	both_positive_descriptive_only
+TNFRSF1A	dual_vs_control	M	7.45582	18.6295	-1.3211500184130558	both_positive_descriptive_only
+TNFRSF1A	dual_vs_single	B	30.4713	18.0527	0.7552364254026616	both_positive_descriptive_only
+TNFRSF1A	dual_vs_single	E	26.7919	34.0561	-0.3461163351200417	both_positive_descriptive_only
+TNFRSF1A	dual_vs_single	M	7.45582	9.38961	-0.33269820583275866	both_positive_descriptive_only
+TSEN15	single_vs_control	B	9.08387	5.55715	0.7089618772630073	both_positive_descriptive_only
+TSEN15	single_vs_control	E	8.99193	8.08813	0.1528246187975511	both_positive_descriptive_only
+TSEN15	single_vs_control	M	8.46138	10.6897	-0.3372564827583549	both_positive_descriptive_only
+TSEN15	dual_vs_control	B	8.04444	5.55715	0.5336468112803876	both_positive_descriptive_only
+TSEN15	dual_vs_control	E	7.31078	8.08813	-0.1457808477076094	both_positive_descriptive_only
+TSEN15	dual_vs_control	M	8.3925	10.6897	-0.34904882822261624	both_positive_descriptive_only
+TSEN15	dual_vs_single	B	8.04444	9.08387	-0.17531506598261962	both_positive_descriptive_only
+TSEN15	dual_vs_single	E	7.31078	8.99193	-0.2986054665051606	both_positive_descriptive_only
+TSEN15	dual_vs_single	M	8.3925	8.46138	-0.011792345464261481	both_positive_descriptive_only
+VWF	single_vs_control	B	0.0	0.292481		zero_value_no_pseudocount
+VWF	single_vs_control	E	0.0708025	0.0		zero_value_no_pseudocount
+VWF	single_vs_control	M	0.107106	0.0774618	0.4674823699274635	both_positive_descriptive_only
+VWF	dual_vs_control	B	0.0	0.292481		zero_value_no_pseudocount
+VWF	dual_vs_control	E	0.215023	0.0		zero_value_no_pseudocount
+VWF	dual_vs_control	M	0.149866	0.0774618	0.9521161859924187	both_positive_descriptive_only
+VWF	dual_vs_single	B	0.0	0.0		zero_value_no_pseudocount
+VWF	dual_vs_single	E	0.215023	0.0708025	1.6026187792355124	both_positive_descriptive_only
+VWF	dual_vs_single	M	0.149866	0.107106	0.48463381606495504	both_positive_descriptive_only

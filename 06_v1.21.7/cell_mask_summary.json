@@ -1,0 +1,19 @@
+{
+  "total_nuclei": 5969,
+  "masks": {
+    "all_QC": 5849,
+    "T_marker_2plus": 93,
+    "T_marker_strict": 58,
+    "T_marker_broad": 133
+  },
+  "method": "Author RNA/ATAC count-feature QC. Exploratory transcript-only marker masks fixed without looking at target ATAC counts. Not reproduced WNN clusters or validated cell labels.",
+  "core": "CD3D/E/G",
+  "support": "CD247/CD2/LCK",
+  "strict": ">=2 core and >=1 support; <2 myeloid and <2 B markers",
+  "limitations": [
+    "One tumor donor",
+    "Marker dropout and doublets remain",
+    "QC count thresholds do not replace TSS enrichment, nucleosome signal or doublet assessment",
+    "No clinical or functional validation"
+  ]
+}

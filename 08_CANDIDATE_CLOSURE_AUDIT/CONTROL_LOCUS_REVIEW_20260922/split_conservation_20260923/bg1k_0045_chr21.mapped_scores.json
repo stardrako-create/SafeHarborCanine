@@ -1,0 +1,7913 @@
+[
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 0,
+    "target_chrom": "chr21",
+    "target_pos0": 9431274,
+    "non_dog_species": 152,
+    "score": 0.358,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 1,
+    "target_chrom": "chr21",
+    "target_pos0": 9431275,
+    "non_dog_species": 152,
+    "score": 0.11,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 2,
+    "target_chrom": "chr21",
+    "target_pos0": 9431276,
+    "non_dog_species": 151,
+    "score": -0.201,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 3,
+    "target_chrom": "chr21",
+    "target_pos0": 9431277,
+    "non_dog_species": 157,
+    "score": -0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 4,
+    "target_chrom": "chr21",
+    "target_pos0": 9431278,
+    "non_dog_species": 159,
+    "score": 0.536,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 5,
+    "target_chrom": "chr21",
+    "target_pos0": 9431279,
+    "non_dog_species": 157,
+    "score": 0.656,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 6,
+    "target_chrom": "chr21",
+    "target_pos0": 9431280,
+    "non_dog_species": 158,
+    "score": -0.529,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 7,
+    "target_chrom": "chr21",
+    "target_pos0": 9431281,
+    "non_dog_species": 90,
+    "score": -0.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 8,
+    "target_chrom": "chr21",
+    "target_pos0": 9431282,
+    "non_dog_species": 158,
+    "score": 0.485,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 9,
+    "target_chrom": "chr21",
+    "target_pos0": 9431283,
+    "non_dog_species": 158,
+    "score": -0.289,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 10,
+    "target_chrom": "chr21",
+    "target_pos0": 9431284,
+    "non_dog_species": 160,
+    "score": -3.617,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 11,
+    "target_chrom": "chr21",
+    "target_pos0": 9431285,
+    "non_dog_species": 160,
+    "score": -0.848,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 12,
+    "target_chrom": "chr21",
+    "target_pos0": 9431286,
+    "non_dog_species": 159,
+    "score": -0.234,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 13,
+    "target_chrom": "chr21",
+    "target_pos0": 9431287,
+    "non_dog_species": 158,
+    "score": -0.253,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 14,
+    "target_chrom": "chr21",
+    "target_pos0": 9431288,
+    "non_dog_species": 128,
+    "score": 0.015,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 15,
+    "target_chrom": "chr21",
+    "target_pos0": 9431289,
+    "non_dog_species": 124,
+    "score": -0.051,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 16,
+    "target_chrom": "chr21",
+    "target_pos0": 9431290,
+    "non_dog_species": 144,
+    "score": -1.379,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 17,
+    "target_chrom": "chr21",
+    "target_pos0": 9431291,
+    "non_dog_species": 142,
+    "score": -0.391,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 18,
+    "target_chrom": "chr21",
+    "target_pos0": 9431292,
+    "non_dog_species": 144,
+    "score": -0.681,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 19,
+    "target_chrom": "chr21",
+    "target_pos0": 9431293,
+    "non_dog_species": 136,
+    "score": 0.155,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 20,
+    "target_chrom": "chr21",
+    "target_pos0": 9431294,
+    "non_dog_species": 145,
+    "score": -1.255,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 21,
+    "target_chrom": "chr21",
+    "target_pos0": 9431295,
+    "non_dog_species": 144,
+    "score": -0.182,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 22,
+    "target_chrom": "chr21",
+    "target_pos0": 9431296,
+    "non_dog_species": 145,
+    "score": -1.058,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 23,
+    "target_chrom": "chr21",
+    "target_pos0": 9431297,
+    "non_dog_species": 158,
+    "score": 0.098,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 24,
+    "target_chrom": "chr21",
+    "target_pos0": 9431298,
+    "non_dog_species": 158,
+    "score": -0.288,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 25,
+    "target_chrom": "chr21",
+    "target_pos0": 9431299,
+    "non_dog_species": 189,
+    "score": -0.633,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 26,
+    "target_chrom": "chr21",
+    "target_pos0": 9431300,
+    "non_dog_species": 191,
+    "score": -0.018,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 27,
+    "target_chrom": "chr21",
+    "target_pos0": 9431301,
+    "non_dog_species": 191,
+    "score": 0.336,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 28,
+    "target_chrom": "chr21",
+    "target_pos0": 9431302,
+    "non_dog_species": 191,
+    "score": -0.378,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 29,
+    "target_chrom": "chr21",
+    "target_pos0": 9431303,
+    "non_dog_species": 183,
+    "score": 0.013,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 30,
+    "target_chrom": "chr21",
+    "target_pos0": 9431304,
+    "non_dog_species": 181,
+    "score": 0.056,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 31,
+    "target_chrom": "chr21",
+    "target_pos0": 9431305,
+    "non_dog_species": 178,
+    "score": -0.874,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 32,
+    "target_chrom": "chr21",
+    "target_pos0": 9431306,
+    "non_dog_species": 174,
+    "score": -0.406,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 33,
+    "target_chrom": "chr21",
+    "target_pos0": 9431307,
+    "non_dog_species": 172,
+    "score": -1.281,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 34,
+    "target_chrom": "chr21",
+    "target_pos0": 9431308,
+    "non_dog_species": 171,
+    "score": 0.734,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 35,
+    "target_chrom": "chr21",
+    "target_pos0": 9431309,
+    "non_dog_species": 174,
+    "score": -0.316,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 36,
+    "target_chrom": "chr21",
+    "target_pos0": 9431310,
+    "non_dog_species": 175,
+    "score": 4.318,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 37,
+    "target_chrom": "chr21",
+    "target_pos0": 9431311,
+    "non_dog_species": 175,
+    "score": 0.929,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 38,
+    "target_chrom": "chr21",
+    "target_pos0": 9431312,
+    "non_dog_species": 185,
+    "score": -0.535,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 39,
+    "target_chrom": "chr21",
+    "target_pos0": 9431313,
+    "non_dog_species": 171,
+    "score": -0.277,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 40,
+    "target_chrom": "chr21",
+    "target_pos0": 9431314,
+    "non_dog_species": 171,
+    "score": -0.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 41,
+    "target_chrom": "chr21",
+    "target_pos0": 9431315,
+    "non_dog_species": 160,
+    "score": -0.029,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 42,
+    "target_chrom": "chr21",
+    "target_pos0": 9431316,
+    "non_dog_species": 170,
+    "score": -0.125,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 43,
+    "target_chrom": "chr21",
+    "target_pos0": 9431317,
+    "non_dog_species": 173,
+    "score": -0.957,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 44,
+    "target_chrom": "chr21",
+    "target_pos0": 9431318,
+    "non_dog_species": 174,
+    "score": -0.883,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 45,
+    "target_chrom": "chr21",
+    "target_pos0": 9431319,
+    "non_dog_species": 163,
+    "score": 0.16,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 46,
+    "target_chrom": "chr21",
+    "target_pos0": 9431320,
+    "non_dog_species": 163,
+    "score": -4.753,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 47,
+    "target_chrom": "chr21",
+    "target_pos0": 9431321,
+    "non_dog_species": 181,
+    "score": 1.714,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 48,
+    "target_chrom": "chr21",
+    "target_pos0": 9431322,
+    "non_dog_species": 187,
+    "score": 0.33,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 49,
+    "target_chrom": "chr21",
+    "target_pos0": 9431323,
+    "non_dog_species": 186,
+    "score": -0.274,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 50,
+    "target_chrom": "chr21",
+    "target_pos0": 9431324,
+    "non_dog_species": 182,
+    "score": 1.802,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 51,
+    "target_chrom": "chr21",
+    "target_pos0": 9431325,
+    "non_dog_species": 182,
+    "score": 1.221,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 52,
+    "target_chrom": "chr21",
+    "target_pos0": 9431326,
+    "non_dog_species": 179,
+    "score": -1.093,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 53,
+    "target_chrom": "chr21",
+    "target_pos0": 9431327,
+    "non_dog_species": 177,
+    "score": 0.832,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 54,
+    "target_chrom": "chr21",
+    "target_pos0": 9431328,
+    "non_dog_species": 168,
+    "score": 0.271,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 55,
+    "target_chrom": "chr21",
+    "target_pos0": 9431329,
+    "non_dog_species": 164,
+    "score": 0.681,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 56,
+    "target_chrom": "chr21",
+    "target_pos0": 9431330,
+    "non_dog_species": 167,
+    "score": -0.295,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 57,
+    "target_chrom": "chr21",
+    "target_pos0": 9431331,
+    "non_dog_species": 169,
+    "score": -0.433,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 58,
+    "target_chrom": "chr21",
+    "target_pos0": 9431332,
+    "non_dog_species": 173,
+    "score": 0.183,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 59,
+    "target_chrom": "chr21",
+    "target_pos0": 9431333,
+    "non_dog_species": 181,
+    "score": -0.503,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 60,
+    "target_chrom": "chr21",
+    "target_pos0": 9431334,
+    "non_dog_species": 188,
+    "score": -0.102,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 61,
+    "target_chrom": "chr21",
+    "target_pos0": 9431335,
+    "non_dog_species": 188,
+    "score": 0.27,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 62,
+    "target_chrom": "chr21",
+    "target_pos0": 9431336,
+    "non_dog_species": 174,
+    "score": -0.194,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 63,
+    "target_chrom": "chr21",
+    "target_pos0": 9431337,
+    "non_dog_species": 178,
+    "score": 0.022,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 64,
+    "target_chrom": "chr21",
+    "target_pos0": 9431338,
+    "non_dog_species": 180,
+    "score": 0.981,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 65,
+    "target_chrom": "chr21",
+    "target_pos0": 9431339,
+    "non_dog_species": 180,
+    "score": 1.009,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 66,
+    "target_chrom": "chr21",
+    "target_pos0": 9431340,
+    "non_dog_species": 190,
+    "score": -0.397,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 67,
+    "target_chrom": "chr21",
+    "target_pos0": 9431341,
+    "non_dog_species": 179,
+    "score": 0.148,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 68,
+    "target_chrom": "chr21",
+    "target_pos0": 9431342,
+    "non_dog_species": 176,
+    "score": 0.384,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 69,
+    "target_chrom": "chr21",
+    "target_pos0": 9431343,
+    "non_dog_species": 178,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 70,
+    "target_chrom": "chr21",
+    "target_pos0": 9431344,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 71,
+    "target_chrom": "chr21",
+    "target_pos0": 9431345,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 72,
+    "target_chrom": "chr21",
+    "target_pos0": 9431346,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 73,
+    "target_chrom": "chr21",
+    "target_pos0": 9431347,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 74,
+    "target_chrom": "chr21",
+    "target_pos0": 9431348,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 75,
+    "target_chrom": "chr21",
+    "target_pos0": 9431349,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 76,
+    "target_chrom": "chr21",
+    "target_pos0": 9431350,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 77,
+    "target_chrom": "chr21",
+    "target_pos0": 9431351,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 78,
+    "target_chrom": "chr21",
+    "target_pos0": 9431352,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 79,
+    "target_chrom": "chr21",
+    "target_pos0": 9431353,
+    "non_dog_species": 3,
+    "score": -1.875,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 80,
+    "target_chrom": "chr21",
+    "target_pos0": 9431354,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 81,
+    "target_chrom": "chr21",
+    "target_pos0": 9431355,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 82,
+    "target_chrom": "chr21",
+    "target_pos0": 9431356,
+    "non_dog_species": 3,
+    "score": -1.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 83,
+    "target_chrom": "chr21",
+    "target_pos0": 9431357,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 84,
+    "target_chrom": "chr21",
+    "target_pos0": 9431358,
+    "non_dog_species": 3,
+    "score": -1.712,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 85,
+    "target_chrom": "chr21",
+    "target_pos0": 9431359,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 86,
+    "target_chrom": "chr21",
+    "target_pos0": 9431360,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 87,
+    "target_chrom": "chr21",
+    "target_pos0": 9431361,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 88,
+    "target_chrom": "chr21",
+    "target_pos0": 9431362,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 89,
+    "target_chrom": "chr21",
+    "target_pos0": 9431363,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 90,
+    "target_chrom": "chr21",
+    "target_pos0": 9431364,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 91,
+    "target_chrom": "chr21",
+    "target_pos0": 9431365,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 92,
+    "target_chrom": "chr21",
+    "target_pos0": 9431366,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 93,
+    "target_chrom": "chr21",
+    "target_pos0": 9431367,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 94,
+    "target_chrom": "chr21",
+    "target_pos0": 9431368,
+    "non_dog_species": 3,
+    "score": -1.873,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 95,
+    "target_chrom": "chr21",
+    "target_pos0": 9431369,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 96,
+    "target_chrom": "chr21",
+    "target_pos0": 9431370,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 97,
+    "target_chrom": "chr21",
+    "target_pos0": 9431371,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 98,
+    "target_chrom": "chr21",
+    "target_pos0": 9431372,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 99,
+    "target_chrom": "chr21",
+    "target_pos0": 9431373,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 100,
+    "target_chrom": "chr21",
+    "target_pos0": 9431374,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 101,
+    "target_chrom": "chr21",
+    "target_pos0": 9431375,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 102,
+    "target_chrom": "chr21",
+    "target_pos0": 9431376,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 103,
+    "target_chrom": "chr21",
+    "target_pos0": 9431377,
+    "non_dog_species": 3,
+    "score": -1.712,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 104,
+    "target_chrom": "chr21",
+    "target_pos0": 9431378,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 105,
+    "target_chrom": "chr21",
+    "target_pos0": 9431379,
+    "non_dog_species": 3,
+    "score": -1.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 106,
+    "target_chrom": "chr21",
+    "target_pos0": 9431380,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 107,
+    "target_chrom": "chr21",
+    "target_pos0": 9431381,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 108,
+    "target_chrom": "chr21",
+    "target_pos0": 9431382,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 109,
+    "target_chrom": "chr21",
+    "target_pos0": 9431383,
+    "non_dog_species": 3,
+    "score": -1.702,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 110,
+    "target_chrom": "chr21",
+    "target_pos0": 9431384,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 111,
+    "target_chrom": "chr21",
+    "target_pos0": 9431385,
+    "non_dog_species": 3,
+    "score": -1.95,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 112,
+    "target_chrom": "chr21",
+    "target_pos0": 9431386,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 113,
+    "target_chrom": "chr21",
+    "target_pos0": 9431387,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 114,
+    "target_chrom": "chr21",
+    "target_pos0": 9431388,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 115,
+    "target_chrom": "chr21",
+    "target_pos0": 9431389,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 116,
+    "target_chrom": "chr21",
+    "target_pos0": 9431390,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 117,
+    "target_chrom": "chr21",
+    "target_pos0": 9431391,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 118,
+    "target_chrom": "chr21",
+    "target_pos0": 9431392,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 119,
+    "target_chrom": "chr21",
+    "target_pos0": 9431393,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 120,
+    "target_chrom": "chr21",
+    "target_pos0": 9431394,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 121,
+    "target_chrom": "chr21",
+    "target_pos0": 9431395,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 122,
+    "target_chrom": "chr21",
+    "target_pos0": 9431396,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 123,
+    "target_chrom": "chr21",
+    "target_pos0": 9431397,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 124,
+    "target_chrom": "chr21",
+    "target_pos0": 9431398,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 125,
+    "target_chrom": "chr21",
+    "target_pos0": 9431399,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 126,
+    "target_chrom": "chr21",
+    "target_pos0": 9431400,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 127,
+    "target_chrom": "chr21",
+    "target_pos0": 9431401,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 128,
+    "target_chrom": "chr21",
+    "target_pos0": 9431402,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 129,
+    "target_chrom": "chr21",
+    "target_pos0": 9431403,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 130,
+    "target_chrom": "chr21",
+    "target_pos0": 9431404,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 131,
+    "target_chrom": "chr21",
+    "target_pos0": 9431405,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 132,
+    "target_chrom": "chr21",
+    "target_pos0": 9431406,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 133,
+    "target_chrom": "chr21",
+    "target_pos0": 9431407,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 134,
+    "target_chrom": "chr21",
+    "target_pos0": 9431408,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 135,
+    "target_chrom": "chr21",
+    "target_pos0": 9431409,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 136,
+    "target_chrom": "chr21",
+    "target_pos0": 9431410,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 137,
+    "target_chrom": "chr21",
+    "target_pos0": 9431411,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 138,
+    "target_chrom": "chr21",
+    "target_pos0": 9431412,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 139,
+    "target_chrom": "chr21",
+    "target_pos0": 9431413,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 140,
+    "target_chrom": "chr21",
+    "target_pos0": 9431414,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 141,
+    "target_chrom": "chr21",
+    "target_pos0": 9431415,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 142,
+    "target_chrom": "chr21",
+    "target_pos0": 9431416,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 143,
+    "target_chrom": "chr21",
+    "target_pos0": 9431417,
+    "non_dog_species": 3,
+    "score": -3.945,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 144,
+    "target_chrom": "chr21",
+    "target_pos0": 9431418,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 145,
+    "target_chrom": "chr21",
+    "target_pos0": 9431419,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 146,
+    "target_chrom": "chr21",
+    "target_pos0": 9431420,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 147,
+    "target_chrom": "chr21",
+    "target_pos0": 9431421,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 148,
+    "target_chrom": "chr21",
+    "target_pos0": 9431422,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 149,
+    "target_chrom": "chr21",
+    "target_pos0": 9431423,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 150,
+    "target_chrom": "chr21",
+    "target_pos0": 9431424,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 151,
+    "target_chrom": "chr21",
+    "target_pos0": 9431425,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 152,
+    "target_chrom": "chr21",
+    "target_pos0": 9431426,
+    "non_dog_species": 3,
+    "score": -1.863,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 153,
+    "target_chrom": "chr21",
+    "target_pos0": 9431427,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 154,
+    "target_chrom": "chr21",
+    "target_pos0": 9431428,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 155,
+    "target_chrom": "chr21",
+    "target_pos0": 9431429,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 156,
+    "target_chrom": "chr21",
+    "target_pos0": 9431430,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 157,
+    "target_chrom": "chr21",
+    "target_pos0": 9431431,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 158,
+    "target_chrom": "chr21",
+    "target_pos0": 9431432,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 159,
+    "target_chrom": "chr21",
+    "target_pos0": 9431433,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 160,
+    "target_chrom": "chr21",
+    "target_pos0": 9431434,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 161,
+    "target_chrom": "chr21",
+    "target_pos0": 9431435,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 162,
+    "target_chrom": "chr21",
+    "target_pos0": 9431436,
+    "non_dog_species": 3,
+    "score": -1.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 163,
+    "target_chrom": "chr21",
+    "target_pos0": 9431437,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 164,
+    "target_chrom": "chr21",
+    "target_pos0": 9431438,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 165,
+    "target_chrom": "chr21",
+    "target_pos0": 9431439,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 166,
+    "target_chrom": "chr21",
+    "target_pos0": 9431440,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 167,
+    "target_chrom": "chr21",
+    "target_pos0": 9431441,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 168,
+    "target_chrom": "chr21",
+    "target_pos0": 9431442,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 169,
+    "target_chrom": "chr21",
+    "target_pos0": 9431443,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 170,
+    "target_chrom": "chr21",
+    "target_pos0": 9431444,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 171,
+    "target_chrom": "chr21",
+    "target_pos0": 9431445,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 172,
+    "target_chrom": "chr21",
+    "target_pos0": 9431446,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 173,
+    "target_chrom": "chr21",
+    "target_pos0": 9431447,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 174,
+    "target_chrom": "chr21",
+    "target_pos0": 9431448,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 175,
+    "target_chrom": "chr21",
+    "target_pos0": 9431449,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 176,
+    "target_chrom": "chr21",
+    "target_pos0": 9431450,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 177,
+    "target_chrom": "chr21",
+    "target_pos0": 9431451,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 178,
+    "target_chrom": "chr21",
+    "target_pos0": 9431452,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 179,
+    "target_chrom": "chr21",
+    "target_pos0": 9431453,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 180,
+    "target_chrom": "chr21",
+    "target_pos0": 9431454,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 181,
+    "target_chrom": "chr21",
+    "target_pos0": 9431455,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 182,
+    "target_chrom": "chr21",
+    "target_pos0": 9431456,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 183,
+    "target_chrom": "chr21",
+    "target_pos0": 9431457,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 184,
+    "target_chrom": "chr21",
+    "target_pos0": 9431458,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 185,
+    "target_chrom": "chr21",
+    "target_pos0": 9431459,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 186,
+    "target_chrom": "chr21",
+    "target_pos0": 9431460,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 187,
+    "target_chrom": "chr21",
+    "target_pos0": 9431461,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 188,
+    "target_chrom": "chr21",
+    "target_pos0": 9431462,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 189,
+    "target_chrom": "chr21",
+    "target_pos0": 9431463,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 190,
+    "target_chrom": "chr21",
+    "target_pos0": 9431464,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 191,
+    "target_chrom": "chr21",
+    "target_pos0": 9431465,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 192,
+    "target_chrom": "chr21",
+    "target_pos0": 9431466,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 193,
+    "target_chrom": "chr21",
+    "target_pos0": 9431467,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 194,
+    "target_chrom": "chr21",
+    "target_pos0": 9431468,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 195,
+    "target_chrom": "chr21",
+    "target_pos0": 9431469,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 196,
+    "target_chrom": "chr21",
+    "target_pos0": 9431470,
+    "non_dog_species": 3,
+    "score": -1.7,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 197,
+    "target_chrom": "chr21",
+    "target_pos0": 9431471,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 198,
+    "target_chrom": "chr21",
+    "target_pos0": 9431472,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 199,
+    "target_chrom": "chr21",
+    "target_pos0": 9431473,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 200,
+    "target_chrom": "chr21",
+    "target_pos0": 9431474,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 201,
+    "target_chrom": "chr21",
+    "target_pos0": 9431475,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 202,
+    "target_chrom": "chr21",
+    "target_pos0": 9431476,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 203,
+    "target_chrom": "chr21",
+    "target_pos0": 9431477,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 204,
+    "target_chrom": "chr21",
+    "target_pos0": 9431478,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 205,
+    "target_chrom": "chr21",
+    "target_pos0": 9431479,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 206,
+    "target_chrom": "chr21",
+    "target_pos0": 9431480,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 207,
+    "target_chrom": "chr21",
+    "target_pos0": 9431481,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 208,
+    "target_chrom": "chr21",
+    "target_pos0": 9431482,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 209,
+    "target_chrom": "chr21",
+    "target_pos0": 9431483,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 210,
+    "target_chrom": "chr21",
+    "target_pos0": 9431484,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 211,
+    "target_chrom": "chr21",
+    "target_pos0": 9431485,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 212,
+    "target_chrom": "chr21",
+    "target_pos0": 9431486,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 213,
+    "target_chrom": "chr21",
+    "target_pos0": 9431487,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 214,
+    "target_chrom": "chr21",
+    "target_pos0": 9431488,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 215,
+    "target_chrom": "chr21",
+    "target_pos0": 9431489,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 216,
+    "target_chrom": "chr21",
+    "target_pos0": 9431490,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 217,
+    "target_chrom": "chr21",
+    "target_pos0": 9431491,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 218,
+    "target_chrom": "chr21",
+    "target_pos0": 9431492,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 219,
+    "target_chrom": "chr21",
+    "target_pos0": 9431493,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 220,
+    "target_chrom": "chr21",
+    "target_pos0": 9431494,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 221,
+    "target_chrom": "chr21",
+    "target_pos0": 9431495,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 222,
+    "target_chrom": "chr21",
+    "target_pos0": 9431496,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 223,
+    "target_chrom": "chr21",
+    "target_pos0": 9431497,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 224,
+    "target_chrom": "chr21",
+    "target_pos0": 9431498,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 225,
+    "target_chrom": "chr21",
+    "target_pos0": 9431499,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 226,
+    "target_chrom": "chr21",
+    "target_pos0": 9431500,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 227,
+    "target_chrom": "chr21",
+    "target_pos0": 9431501,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 228,
+    "target_chrom": "chr21",
+    "target_pos0": 9431502,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 229,
+    "target_chrom": "chr21",
+    "target_pos0": 9431503,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 230,
+    "target_chrom": "chr21",
+    "target_pos0": 9431504,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 231,
+    "target_chrom": "chr21",
+    "target_pos0": 9431505,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 232,
+    "target_chrom": "chr21",
+    "target_pos0": 9431506,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 233,
+    "target_chrom": "chr21",
+    "target_pos0": 9431507,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 234,
+    "target_chrom": "chr21",
+    "target_pos0": 9431508,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 235,
+    "target_chrom": "chr21",
+    "target_pos0": 9431509,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 236,
+    "target_chrom": "chr21",
+    "target_pos0": 9431510,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 237,
+    "target_chrom": "chr21",
+    "target_pos0": 9431511,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 238,
+    "target_chrom": "chr21",
+    "target_pos0": 9431512,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 239,
+    "target_chrom": "chr21",
+    "target_pos0": 9431513,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 240,
+    "target_chrom": "chr21",
+    "target_pos0": 9431514,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 241,
+    "target_chrom": "chr21",
+    "target_pos0": 9431515,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 242,
+    "target_chrom": "chr21",
+    "target_pos0": 9431516,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 243,
+    "target_chrom": "chr21",
+    "target_pos0": 9431517,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 244,
+    "target_chrom": "chr21",
+    "target_pos0": 9431518,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 245,
+    "target_chrom": "chr21",
+    "target_pos0": 9431519,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 246,
+    "target_chrom": "chr21",
+    "target_pos0": 9431520,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 247,
+    "target_chrom": "chr21",
+    "target_pos0": 9431521,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 248,
+    "target_chrom": "chr21",
+    "target_pos0": 9431522,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 249,
+    "target_chrom": "chr21",
+    "target_pos0": 9431523,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 250,
+    "target_chrom": "chr21",
+    "target_pos0": 9431524,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 259,
+    "target_chrom": "chr21",
+    "target_pos0": 9431535,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 260,
+    "target_chrom": "chr21",
+    "target_pos0": 9431536,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 261,
+    "target_chrom": "chr21",
+    "target_pos0": 9431537,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 262,
+    "target_chrom": "chr21",
+    "target_pos0": 9431538,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 263,
+    "target_chrom": "chr21",
+    "target_pos0": 9431539,
+    "non_dog_species": 182,
+    "score": 0.432,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 264,
+    "target_chrom": "chr21",
+    "target_pos0": 9431540,
+    "non_dog_species": 191,
+    "score": -0.271,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 265,
+    "target_chrom": "chr21",
+    "target_pos0": 9431541,
+    "non_dog_species": 191,
+    "score": 1.721,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 266,
+    "target_chrom": "chr21",
+    "target_pos0": 9431542,
+    "non_dog_species": 190,
+    "score": -0.247,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 267,
+    "target_chrom": "chr21",
+    "target_pos0": 9431543,
+    "non_dog_species": 190,
+    "score": -0.006,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 268,
+    "target_chrom": "chr21",
+    "target_pos0": 9431544,
+    "non_dog_species": 189,
+    "score": 0.269,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 269,
+    "target_chrom": "chr21",
+    "target_pos0": 9431545,
+    "non_dog_species": 184,
+    "score": 2.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 270,
+    "target_chrom": "chr21",
+    "target_pos0": 9431546,
+    "non_dog_species": 160,
+    "score": 0.931,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 271,
+    "target_chrom": "chr21",
+    "target_pos0": 9431547,
+    "non_dog_species": 159,
+    "score": 0.224,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 272,
+    "target_chrom": "chr21",
+    "target_pos0": 9431548,
+    "non_dog_species": 143,
+    "score": -0.51,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 273,
+    "target_chrom": "chr21",
+    "target_pos0": 9431549,
+    "non_dog_species": 143,
+    "score": 0.292,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 274,
+    "target_chrom": "chr21",
+    "target_pos0": 9431550,
+    "non_dog_species": 143,
+    "score": -0.256,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 275,
+    "target_chrom": "chr21",
+    "target_pos0": 9431551,
+    "non_dog_species": 169,
+    "score": 0.439,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 276,
+    "target_chrom": "chr21",
+    "target_pos0": 9431552,
+    "non_dog_species": 171,
+    "score": 0.234,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 277,
+    "target_chrom": "chr21",
+    "target_pos0": 9431553,
+    "non_dog_species": 171,
+    "score": 0.218,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 278,
+    "target_chrom": "chr21",
+    "target_pos0": 9431554,
+    "non_dog_species": 169,
+    "score": -1.936,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 279,
+    "target_chrom": "chr21",
+    "target_pos0": 9431555,
+    "non_dog_species": 185,
+    "score": -0.074,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 280,
+    "target_chrom": "chr21",
+    "target_pos0": 9431556,
+    "non_dog_species": 185,
+    "score": 0.057,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 281,
+    "target_chrom": "chr21",
+    "target_pos0": 9431557,
+    "non_dog_species": 184,
+    "score": -0.476,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 282,
+    "target_chrom": "chr21",
+    "target_pos0": 9431558,
+    "non_dog_species": 186,
+    "score": -0.309,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 283,
+    "target_chrom": "chr21",
+    "target_pos0": 9431559,
+    "non_dog_species": 188,
+    "score": 0.136,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 284,
+    "target_chrom": "chr21",
+    "target_pos0": 9431560,
+    "non_dog_species": 181,
+    "score": 1.012,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 285,
+    "target_chrom": "chr21",
+    "target_pos0": 9431561,
+    "non_dog_species": 186,
+    "score": 0.235,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 286,
+    "target_chrom": "chr21",
+    "target_pos0": 9431562,
+    "non_dog_species": 189,
+    "score": -0.911,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 287,
+    "target_chrom": "chr21",
+    "target_pos0": 9431563,
+    "non_dog_species": 189,
+    "score": 0.286,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 288,
+    "target_chrom": "chr21",
+    "target_pos0": 9431564,
+    "non_dog_species": 189,
+    "score": -0.053,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 289,
+    "target_chrom": "chr21",
+    "target_pos0": 9431565,
+    "non_dog_species": 190,
+    "score": 0.174,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 290,
+    "target_chrom": "chr21",
+    "target_pos0": 9431566,
+    "non_dog_species": 190,
+    "score": 0.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 291,
+    "target_chrom": "chr21",
+    "target_pos0": 9431567,
+    "non_dog_species": 183,
+    "score": -0.07,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 292,
+    "target_chrom": "chr21",
+    "target_pos0": 9431568,
+    "non_dog_species": 183,
+    "score": -0.086,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 293,
+    "target_chrom": "chr21",
+    "target_pos0": 9431569,
+    "non_dog_species": 190,
+    "score": -0.385,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 294,
+    "target_chrom": "chr21",
+    "target_pos0": 9431570,
+    "non_dog_species": 190,
+    "score": -0.024,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 295,
+    "target_chrom": "chr21",
+    "target_pos0": 9431571,
+    "non_dog_species": 190,
+    "score": -0.696,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 296,
+    "target_chrom": "chr21",
+    "target_pos0": 9431572,
+    "non_dog_species": 183,
+    "score": 1.185,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 297,
+    "target_chrom": "chr21",
+    "target_pos0": 9431573,
+    "non_dog_species": 190,
+    "score": 0.289,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 298,
+    "target_chrom": "chr21",
+    "target_pos0": 9431574,
+    "non_dog_species": 158,
+    "score": -0.783,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 299,
+    "target_chrom": "chr21",
+    "target_pos0": 9431575,
+    "non_dog_species": 159,
+    "score": 1.303,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 300,
+    "target_chrom": "chr21",
+    "target_pos0": 9431576,
+    "non_dog_species": 159,
+    "score": -0.464,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 301,
+    "target_chrom": "chr21",
+    "target_pos0": 9431577,
+    "non_dog_species": 159,
+    "score": -1.338,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 302,
+    "target_chrom": "chr21",
+    "target_pos0": 9431578,
+    "non_dog_species": 159,
+    "score": -2.274,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 303,
+    "target_chrom": "chr21",
+    "target_pos0": 9431579,
+    "non_dog_species": 159,
+    "score": 0.254,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 304,
+    "target_chrom": "chr21",
+    "target_pos0": 9431580,
+    "non_dog_species": 158,
+    "score": 0.28,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 305,
+    "target_chrom": "chr21",
+    "target_pos0": 9431581,
+    "non_dog_species": 158,
+    "score": -1.262,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 306,
+    "target_chrom": "chr21",
+    "target_pos0": 9431582,
+    "non_dog_species": 158,
+    "score": 1.897,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 307,
+    "target_chrom": "chr21",
+    "target_pos0": 9431583,
+    "non_dog_species": 158,
+    "score": -0.167,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 308,
+    "target_chrom": "chr21",
+    "target_pos0": 9431584,
+    "non_dog_species": 158,
+    "score": 0.239,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 309,
+    "target_chrom": "chr21",
+    "target_pos0": 9431585,
+    "non_dog_species": 158,
+    "score": 0.076,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 310,
+    "target_chrom": "chr21",
+    "target_pos0": 9431586,
+    "non_dog_species": 158,
+    "score": -0.101,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 311,
+    "target_chrom": "chr21",
+    "target_pos0": 9431587,
+    "non_dog_species": 154,
+    "score": -0.288,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 312,
+    "target_chrom": "chr21",
+    "target_pos0": 9431588,
+    "non_dog_species": 156,
+    "score": 1.177,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 313,
+    "target_chrom": "chr21",
+    "target_pos0": 9431589,
+    "non_dog_species": 158,
+    "score": 0.08,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 314,
+    "target_chrom": "chr21",
+    "target_pos0": 9431590,
+    "non_dog_species": 151,
+    "score": 0.125,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 315,
+    "target_chrom": "chr21",
+    "target_pos0": 9431591,
+    "non_dog_species": 158,
+    "score": -0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 316,
+    "target_chrom": "chr21",
+    "target_pos0": 9431592,
+    "non_dog_species": 178,
+    "score": -1.042,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 317,
+    "target_chrom": "chr21",
+    "target_pos0": 9431593,
+    "non_dog_species": 178,
+    "score": 1.4,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 318,
+    "target_chrom": "chr21",
+    "target_pos0": 9431594,
+    "non_dog_species": 178,
+    "score": -0.34,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 319,
+    "target_chrom": "chr21",
+    "target_pos0": 9431595,
+    "non_dog_species": 177,
+    "score": -0.692,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 320,
+    "target_chrom": "chr21",
+    "target_pos0": 9431596,
+    "non_dog_species": 177,
+    "score": -0.822,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 321,
+    "target_chrom": "chr21",
+    "target_pos0": 9431597,
+    "non_dog_species": 177,
+    "score": -0.022,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 322,
+    "target_chrom": "chr21",
+    "target_pos0": 9431598,
+    "non_dog_species": 177,
+    "score": 0.176,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 323,
+    "target_chrom": "chr21",
+    "target_pos0": 9431599,
+    "non_dog_species": 168,
+    "score": 0.429,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 324,
+    "target_chrom": "chr21",
+    "target_pos0": 9431600,
+    "non_dog_species": 159,
+    "score": 0.542,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 325,
+    "target_chrom": "chr21",
+    "target_pos0": 9431601,
+    "non_dog_species": 168,
+    "score": 0.407,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 326,
+    "target_chrom": "chr21",
+    "target_pos0": 9431602,
+    "non_dog_species": 167,
+    "score": 0.751,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 327,
+    "target_chrom": "chr21",
+    "target_pos0": 9431603,
+    "non_dog_species": 173,
+    "score": -0.075,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 328,
+    "target_chrom": "chr21",
+    "target_pos0": 9431604,
+    "non_dog_species": 174,
+    "score": -0.044,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 329,
+    "target_chrom": "chr21",
+    "target_pos0": 9431605,
+    "non_dog_species": 174,
+    "score": -1.149,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 330,
+    "target_chrom": "chr21",
+    "target_pos0": 9431606,
+    "non_dog_species": 176,
+    "score": -0.834,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 331,
+    "target_chrom": "chr21",
+    "target_pos0": 9431607,
+    "non_dog_species": 176,
+    "score": -0.745,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 332,
+    "target_chrom": "chr21",
+    "target_pos0": 9431608,
+    "non_dog_species": 178,
+    "score": 0.602,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 333,
+    "target_chrom": "chr21",
+    "target_pos0": 9431609,
+    "non_dog_species": 178,
+    "score": 0.428,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 334,
+    "target_chrom": "chr21",
+    "target_pos0": 9431610,
+    "non_dog_species": 177,
+    "score": 0.655,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 335,
+    "target_chrom": "chr21",
+    "target_pos0": 9431611,
+    "non_dog_species": 178,
+    "score": 0.905,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 336,
+    "target_chrom": "chr21",
+    "target_pos0": 9431612,
+    "non_dog_species": 177,
+    "score": 0.625,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 337,
+    "target_chrom": "chr21",
+    "target_pos0": 9431613,
+    "non_dog_species": 171,
+    "score": -0.237,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 338,
+    "target_chrom": "chr21",
+    "target_pos0": 9431614,
+    "non_dog_species": 175,
+    "score": 1.96,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 339,
+    "target_chrom": "chr21",
+    "target_pos0": 9431615,
+    "non_dog_species": 174,
+    "score": 1.95,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 340,
+    "target_chrom": "chr21",
+    "target_pos0": 9431616,
+    "non_dog_species": 175,
+    "score": -0.045,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 341,
+    "target_chrom": "chr21",
+    "target_pos0": 9431617,
+    "non_dog_species": 181,
+    "score": -0.283,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 342,
+    "target_chrom": "chr21",
+    "target_pos0": 9431618,
+    "non_dog_species": 180,
+    "score": -0.147,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 343,
+    "target_chrom": "chr21",
+    "target_pos0": 9431619,
+    "non_dog_species": 181,
+    "score": -0.334,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 344,
+    "target_chrom": "chr21",
+    "target_pos0": 9431620,
+    "non_dog_species": 181,
+    "score": 0.499,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 345,
+    "target_chrom": "chr21",
+    "target_pos0": 9431621,
+    "non_dog_species": 174,
+    "score": 0.089,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 346,
+    "target_chrom": "chr21",
+    "target_pos0": 9431622,
+    "non_dog_species": 180,
+    "score": -1.273,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 347,
+    "target_chrom": "chr21",
+    "target_pos0": 9431623,
+    "non_dog_species": 177,
+    "score": -0.196,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 348,
+    "target_chrom": "chr21",
+    "target_pos0": 9431624,
+    "non_dog_species": 179,
+    "score": 0.132,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 349,
+    "target_chrom": "chr21",
+    "target_pos0": 9431625,
+    "non_dog_species": 180,
+    "score": -0.525,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 350,
+    "target_chrom": "chr21",
+    "target_pos0": 9431626,
+    "non_dog_species": 181,
+    "score": 0.31,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 351,
+    "target_chrom": "chr21",
+    "target_pos0": 9431627,
+    "non_dog_species": 180,
+    "score": -0.031,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 352,
+    "target_chrom": "chr21",
+    "target_pos0": 9431628,
+    "non_dog_species": 180,
+    "score": -0.8,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 353,
+    "target_chrom": "chr21",
+    "target_pos0": 9431629,
+    "non_dog_species": 168,
+    "score": -0.291,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 354,
+    "target_chrom": "chr21",
+    "target_pos0": 9431630,
+    "non_dog_species": 162,
+    "score": -0.709,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 355,
+    "target_chrom": "chr21",
+    "target_pos0": 9431631,
+    "non_dog_species": 178,
+    "score": -0.028,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 356,
+    "target_chrom": "chr21",
+    "target_pos0": 9431632,
+    "non_dog_species": 95,
+    "score": -1.097,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 357,
+    "target_chrom": "chr21",
+    "target_pos0": 9431633,
+    "non_dog_species": 95,
+    "score": 0.469,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 358,
+    "target_chrom": "chr21",
+    "target_pos0": 9431634,
+    "non_dog_species": 178,
+    "score": -1.384,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 359,
+    "target_chrom": "chr21",
+    "target_pos0": 9431635,
+    "non_dog_species": 179,
+    "score": -0.313,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 360,
+    "target_chrom": "chr21",
+    "target_pos0": 9431636,
+    "non_dog_species": 181,
+    "score": -0.788,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 361,
+    "target_chrom": "chr21",
+    "target_pos0": 9431637,
+    "non_dog_species": 181,
+    "score": 0.01,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 362,
+    "target_chrom": "chr21",
+    "target_pos0": 9431638,
+    "non_dog_species": 182,
+    "score": -1.703,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 363,
+    "target_chrom": "chr21",
+    "target_pos0": 9431639,
+    "non_dog_species": 182,
+    "score": -3.491,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 364,
+    "target_chrom": "chr21",
+    "target_pos0": 9431640,
+    "non_dog_species": 182,
+    "score": 0.29,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 365,
+    "target_chrom": "chr21",
+    "target_pos0": 9431641,
+    "non_dog_species": 180,
+    "score": 0.626,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 366,
+    "target_chrom": "chr21",
+    "target_pos0": 9431642,
+    "non_dog_species": 176,
+    "score": 0.532,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 367,
+    "target_chrom": "chr21",
+    "target_pos0": 9431643,
+    "non_dog_species": 176,
+    "score": 0.309,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 368,
+    "target_chrom": "chr21",
+    "target_pos0": 9431644,
+    "non_dog_species": 176,
+    "score": -0.655,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 369,
+    "target_chrom": "chr21",
+    "target_pos0": 9431645,
+    "non_dog_species": 176,
+    "score": 0.477,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 370,
+    "target_chrom": "chr21",
+    "target_pos0": 9431646,
+    "non_dog_species": 176,
+    "score": -0.102,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 371,
+    "target_chrom": "chr21",
+    "target_pos0": 9431647,
+    "non_dog_species": 177,
+    "score": 0.621,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 372,
+    "target_chrom": "chr21",
+    "target_pos0": 9431648,
+    "non_dog_species": 177,
+    "score": -1.19,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 373,
+    "target_chrom": "chr21",
+    "target_pos0": 9431649,
+    "non_dog_species": 179,
+    "score": -1.978,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 374,
+    "target_chrom": "chr21",
+    "target_pos0": 9431650,
+    "non_dog_species": 179,
+    "score": -0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 375,
+    "target_chrom": "chr21",
+    "target_pos0": 9431651,
+    "non_dog_species": 178,
+    "score": -1.906,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 376,
+    "target_chrom": "chr21",
+    "target_pos0": 9431652,
+    "non_dog_species": 177,
+    "score": -0.708,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 377,
+    "target_chrom": "chr21",
+    "target_pos0": 9431653,
+    "non_dog_species": 177,
+    "score": -1.063,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 378,
+    "target_chrom": "chr21",
+    "target_pos0": 9431654,
+    "non_dog_species": 177,
+    "score": -0.651,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 379,
+    "target_chrom": "chr21",
+    "target_pos0": 9431655,
+    "non_dog_species": 178,
+    "score": 0.813,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 380,
+    "target_chrom": "chr21",
+    "target_pos0": 9431656,
+    "non_dog_species": 178,
+    "score": -0.258,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 381,
+    "target_chrom": "chr21",
+    "target_pos0": 9431657,
+    "non_dog_species": 174,
+    "score": -1.749,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 382,
+    "target_chrom": "chr21",
+    "target_pos0": 9431658,
+    "non_dog_species": 174,
+    "score": -0.163,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 383,
+    "target_chrom": "chr21",
+    "target_pos0": 9431659,
+    "non_dog_species": 173,
+    "score": -0.322,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 384,
+    "target_chrom": "chr21",
+    "target_pos0": 9431660,
+    "non_dog_species": 173,
+    "score": 1.458,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 385,
+    "target_chrom": "chr21",
+    "target_pos0": 9431661,
+    "non_dog_species": 164,
+    "score": 0.06,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 386,
+    "target_chrom": "chr21",
+    "target_pos0": 9431662,
+    "non_dog_species": 162,
+    "score": 0.16,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 387,
+    "target_chrom": "chr21",
+    "target_pos0": 9431663,
+    "non_dog_species": 175,
+    "score": -1.212,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 388,
+    "target_chrom": "chr21",
+    "target_pos0": 9431664,
+    "non_dog_species": 172,
+    "score": 2.88,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 389,
+    "target_chrom": "chr21",
+    "target_pos0": 9431665,
+    "non_dog_species": 176,
+    "score": 0.351,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 390,
+    "target_chrom": "chr21",
+    "target_pos0": 9431666,
+    "non_dog_species": 166,
+    "score": 0.613,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 391,
+    "target_chrom": "chr21",
+    "target_pos0": 9431667,
+    "non_dog_species": 174,
+    "score": -0.214,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 392,
+    "target_chrom": "chr21",
+    "target_pos0": 9431668,
+    "non_dog_species": 180,
+    "score": 0.343,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 393,
+    "target_chrom": "chr21",
+    "target_pos0": 9431669,
+    "non_dog_species": 179,
+    "score": 1.479,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 394,
+    "target_chrom": "chr21",
+    "target_pos0": 9431670,
+    "non_dog_species": 163,
+    "score": 0.153,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 395,
+    "target_chrom": "chr21",
+    "target_pos0": 9431671,
+    "non_dog_species": 117,
+    "score": 0.374,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 396,
+    "target_chrom": "chr21",
+    "target_pos0": 9431672,
+    "non_dog_species": 145,
+    "score": 0.218,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 397,
+    "target_chrom": "chr21",
+    "target_pos0": 9431673,
+    "non_dog_species": 147,
+    "score": -0.899,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 398,
+    "target_chrom": "chr21",
+    "target_pos0": 9431674,
+    "non_dog_species": 137,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 399,
+    "target_chrom": "chr21",
+    "target_pos0": 9431675,
+    "non_dog_species": 146,
+    "score": -0.067,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 400,
+    "target_chrom": "chr21",
+    "target_pos0": 9431676,
+    "non_dog_species": 136,
+    "score": -0.169,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 401,
+    "target_chrom": "chr21",
+    "target_pos0": 9431677,
+    "non_dog_species": 121,
+    "score": -0.372,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 402,
+    "target_chrom": "chr21",
+    "target_pos0": 9431678,
+    "non_dog_species": 132,
+    "score": -0.044,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 403,
+    "target_chrom": "chr21",
+    "target_pos0": 9431679,
+    "non_dog_species": 141,
+    "score": 0.701,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 404,
+    "target_chrom": "chr21",
+    "target_pos0": 9431680,
+    "non_dog_species": 127,
+    "score": 0.419,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 405,
+    "target_chrom": "chr21",
+    "target_pos0": 9431681,
+    "non_dog_species": 128,
+    "score": 0.833,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 406,
+    "target_chrom": "chr21",
+    "target_pos0": 9431682,
+    "non_dog_species": 143,
+    "score": -0.113,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 407,
+    "target_chrom": "chr21",
+    "target_pos0": 9431683,
+    "non_dog_species": 143,
+    "score": -0.074,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 408,
+    "target_chrom": "chr21",
+    "target_pos0": 9431684,
+    "non_dog_species": 179,
+    "score": 1.098,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 409,
+    "target_chrom": "chr21",
+    "target_pos0": 9431685,
+    "non_dog_species": 38,
+    "score": 0.07,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 410,
+    "target_chrom": "chr21",
+    "target_pos0": 9431686,
+    "non_dog_species": 38,
+    "score": -1.487,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 411,
+    "target_chrom": "chr21",
+    "target_pos0": 9431687,
+    "non_dog_species": 38,
+    "score": -0.313,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 412,
+    "target_chrom": "chr21",
+    "target_pos0": 9431688,
+    "non_dog_species": 178,
+    "score": 0.601,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 413,
+    "target_chrom": "chr21",
+    "target_pos0": 9431689,
+    "non_dog_species": 172,
+    "score": -0.065,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 414,
+    "target_chrom": "chr21",
+    "target_pos0": 9431690,
+    "non_dog_species": 170,
+    "score": -0.905,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 415,
+    "target_chrom": "chr21",
+    "target_pos0": 9431691,
+    "non_dog_species": 180,
+    "score": 0.15,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 416,
+    "target_chrom": "chr21",
+    "target_pos0": 9431692,
+    "non_dog_species": 165,
+    "score": 0.269,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 417,
+    "target_chrom": "chr21",
+    "target_pos0": 9431693,
+    "non_dog_species": 172,
+    "score": -1.692,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 418,
+    "target_chrom": "chr21",
+    "target_pos0": 9431694,
+    "non_dog_species": 154,
+    "score": -0.074,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 419,
+    "target_chrom": "chr21",
+    "target_pos0": 9431695,
+    "non_dog_species": 173,
+    "score": -0.726,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 420,
+    "target_chrom": "chr21",
+    "target_pos0": 9431696,
+    "non_dog_species": 175,
+    "score": 0.173,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 421,
+    "target_chrom": "chr21",
+    "target_pos0": 9431697,
+    "non_dog_species": 176,
+    "score": -0.408,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 422,
+    "target_chrom": "chr21",
+    "target_pos0": 9431698,
+    "non_dog_species": 178,
+    "score": 0.132,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 423,
+    "target_chrom": "chr21",
+    "target_pos0": 9431699,
+    "non_dog_species": 178,
+    "score": 0.361,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 424,
+    "target_chrom": "chr21",
+    "target_pos0": 9431700,
+    "non_dog_species": 175,
+    "score": 0.328,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 425,
+    "target_chrom": "chr21",
+    "target_pos0": 9431701,
+    "non_dog_species": 176,
+    "score": -0.544,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 426,
+    "target_chrom": "chr21",
+    "target_pos0": 9431702,
+    "non_dog_species": 166,
+    "score": -0.108,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 427,
+    "target_chrom": "chr21",
+    "target_pos0": 9431703,
+    "non_dog_species": 166,
+    "score": -1.094,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 428,
+    "target_chrom": "chr21",
+    "target_pos0": 9431704,
+    "non_dog_species": 175,
+    "score": 0.341,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 429,
+    "target_chrom": "chr21",
+    "target_pos0": 9431705,
+    "non_dog_species": 174,
+    "score": -0.61,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 430,
+    "target_chrom": "chr21",
+    "target_pos0": 9431706,
+    "non_dog_species": 177,
+    "score": 0.629,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 431,
+    "target_chrom": "chr21",
+    "target_pos0": 9431707,
+    "non_dog_species": 179,
+    "score": -0.025,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 432,
+    "target_chrom": "chr21",
+    "target_pos0": 9431708,
+    "non_dog_species": 177,
+    "score": -0.019,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 433,
+    "target_chrom": "chr21",
+    "target_pos0": 9431709,
+    "non_dog_species": 178,
+    "score": -0.174,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 434,
+    "target_chrom": "chr21",
+    "target_pos0": 9431710,
+    "non_dog_species": 178,
+    "score": -0.151,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 435,
+    "target_chrom": "chr21",
+    "target_pos0": 9431711,
+    "non_dog_species": 176,
+    "score": 0.583,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 436,
+    "target_chrom": "chr21",
+    "target_pos0": 9431712,
+    "non_dog_species": 178,
+    "score": -0.047,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 437,
+    "target_chrom": "chr21",
+    "target_pos0": 9431713,
+    "non_dog_species": 178,
+    "score": -0.905,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 438,
+    "target_chrom": "chr21",
+    "target_pos0": 9431714,
+    "non_dog_species": 177,
+    "score": 0.942,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 439,
+    "target_chrom": "chr21",
+    "target_pos0": 9431715,
+    "non_dog_species": 178,
+    "score": 1.121,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 440,
+    "target_chrom": "chr21",
+    "target_pos0": 9431716,
+    "non_dog_species": 164,
+    "score": 0.647,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 441,
+    "target_chrom": "chr21",
+    "target_pos0": 9431717,
+    "non_dog_species": 177,
+    "score": -0.855,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 442,
+    "target_chrom": "chr21",
+    "target_pos0": 9431718,
+    "non_dog_species": 176,
+    "score": 0.724,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 443,
+    "target_chrom": "chr21",
+    "target_pos0": 9431719,
+    "non_dog_species": 177,
+    "score": 0.251,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 444,
+    "target_chrom": "chr21",
+    "target_pos0": 9431720,
+    "non_dog_species": 179,
+    "score": 0.97,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 445,
+    "target_chrom": "chr21",
+    "target_pos0": 9431721,
+    "non_dog_species": 180,
+    "score": 0.351,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 446,
+    "target_chrom": "chr21",
+    "target_pos0": 9431722,
+    "non_dog_species": 182,
+    "score": 0.055,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 447,
+    "target_chrom": "chr21",
+    "target_pos0": 9431723,
+    "non_dog_species": 182,
+    "score": 2.067,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 448,
+    "target_chrom": "chr21",
+    "target_pos0": 9431724,
+    "non_dog_species": 181,
+    "score": 0.139,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 449,
+    "target_chrom": "chr21",
+    "target_pos0": 9431725,
+    "non_dog_species": 182,
+    "score": 0.62,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 450,
+    "target_chrom": "chr21",
+    "target_pos0": 9431726,
+    "non_dog_species": 182,
+    "score": -0.177,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 451,
+    "target_chrom": "chr21",
+    "target_pos0": 9431727,
+    "non_dog_species": 182,
+    "score": 1.987,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 452,
+    "target_chrom": "chr21",
+    "target_pos0": 9431728,
+    "non_dog_species": 182,
+    "score": 0.411,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 453,
+    "target_chrom": "chr21",
+    "target_pos0": 9431729,
+    "non_dog_species": 181,
+    "score": 0.213,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 454,
+    "target_chrom": "chr21",
+    "target_pos0": 9431730,
+    "non_dog_species": 181,
+    "score": -0.274,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 455,
+    "target_chrom": "chr21",
+    "target_pos0": 9431731,
+    "non_dog_species": 181,
+    "score": 0.615,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 456,
+    "target_chrom": "chr21",
+    "target_pos0": 9431732,
+    "non_dog_species": 182,
+    "score": -0.431,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 457,
+    "target_chrom": "chr21",
+    "target_pos0": 9431733,
+    "non_dog_species": 159,
+    "score": -0.511,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 458,
+    "target_chrom": "chr21",
+    "target_pos0": 9431734,
+    "non_dog_species": 158,
+    "score": -0.009,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 459,
+    "target_chrom": "chr21",
+    "target_pos0": 9431735,
+    "non_dog_species": 158,
+    "score": 0.725,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 460,
+    "target_chrom": "chr21",
+    "target_pos0": 9431736,
+    "non_dog_species": 159,
+    "score": 0.827,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 461,
+    "target_chrom": "chr21",
+    "target_pos0": 9431737,
+    "non_dog_species": 181,
+    "score": -0.031,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 462,
+    "target_chrom": "chr21",
+    "target_pos0": 9431738,
+    "non_dog_species": 181,
+    "score": 0.591,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 463,
+    "target_chrom": "chr21",
+    "target_pos0": 9431739,
+    "non_dog_species": 178,
+    "score": 0.063,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 464,
+    "target_chrom": "chr21",
+    "target_pos0": 9431740,
+    "non_dog_species": 180,
+    "score": 0.141,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 465,
+    "target_chrom": "chr21",
+    "target_pos0": 9431741,
+    "non_dog_species": 180,
+    "score": 0.135,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 466,
+    "target_chrom": "chr21",
+    "target_pos0": 9431742,
+    "non_dog_species": 170,
+    "score": -0.988,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 467,
+    "target_chrom": "chr21",
+    "target_pos0": 9431743,
+    "non_dog_species": 172,
+    "score": 0.058,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 468,
+    "target_chrom": "chr21",
+    "target_pos0": 9431744,
+    "non_dog_species": 175,
+    "score": -0.586,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 469,
+    "target_chrom": "chr21",
+    "target_pos0": 9431745,
+    "non_dog_species": 174,
+    "score": 0.287,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 470,
+    "target_chrom": "chr21",
+    "target_pos0": 9431746,
+    "non_dog_species": 175,
+    "score": 0.091,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 471,
+    "target_chrom": "chr21",
+    "target_pos0": 9431747,
+    "non_dog_species": 173,
+    "score": -0.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 472,
+    "target_chrom": "chr21",
+    "target_pos0": 9431748,
+    "non_dog_species": 171,
+    "score": -0.07,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 473,
+    "target_chrom": "chr21",
+    "target_pos0": 9431749,
+    "non_dog_species": 172,
+    "score": 0.08,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 474,
+    "target_chrom": "chr21",
+    "target_pos0": 9431750,
+    "non_dog_species": 173,
+    "score": -0.154,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 475,
+    "target_chrom": "chr21",
+    "target_pos0": 9431751,
+    "non_dog_species": 173,
+    "score": -0.323,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 476,
+    "target_chrom": "chr21",
+    "target_pos0": 9431752,
+    "non_dog_species": 165,
+    "score": 0.129,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 477,
+    "target_chrom": "chr21",
+    "target_pos0": 9431753,
+    "non_dog_species": 169,
+    "score": 2.067,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 478,
+    "target_chrom": "chr21",
+    "target_pos0": 9431754,
+    "non_dog_species": 180,
+    "score": -0.049,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 479,
+    "target_chrom": "chr21",
+    "target_pos0": 9431755,
+    "non_dog_species": 184,
+    "score": -0.2,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 480,
+    "target_chrom": "chr21",
+    "target_pos0": 9431756,
+    "non_dog_species": 185,
+    "score": 0.659,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 481,
+    "target_chrom": "chr21",
+    "target_pos0": 9431757,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 482,
+    "target_chrom": "chr21",
+    "target_pos0": 9431758,
+    "non_dog_species": 122,
+    "score": -0.496,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 483,
+    "target_chrom": "chr21",
+    "target_pos0": 9431759,
+    "non_dog_species": 121,
+    "score": 0.241,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 484,
+    "target_chrom": "chr21",
+    "target_pos0": 9431760,
+    "non_dog_species": 144,
+    "score": 0.463,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 485,
+    "target_chrom": "chr21",
+    "target_pos0": 9431761,
+    "non_dog_species": 159,
+    "score": -1.497,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 486,
+    "target_chrom": "chr21",
+    "target_pos0": 9431762,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 487,
+    "target_chrom": "chr21",
+    "target_pos0": 9431763,
+    "non_dog_species": 183,
+    "score": -0.11,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 488,
+    "target_chrom": "chr21",
+    "target_pos0": 9431764,
+    "non_dog_species": 184,
+    "score": -1.037,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 489,
+    "target_chrom": "chr21",
+    "target_pos0": 9431765,
+    "non_dog_species": 184,
+    "score": -1.282,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 490,
+    "target_chrom": "chr21",
+    "target_pos0": 9431766,
+    "non_dog_species": 109,
+    "score": -1.201,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 491,
+    "target_chrom": "chr21",
+    "target_pos0": 9431767,
+    "non_dog_species": 183,
+    "score": -0.42,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 492,
+    "target_chrom": "chr21",
+    "target_pos0": 9431768,
+    "non_dog_species": 183,
+    "score": 0.119,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 493,
+    "target_chrom": "chr21",
+    "target_pos0": 9431769,
+    "non_dog_species": 182,
+    "score": 0.762,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 494,
+    "target_chrom": "chr21",
+    "target_pos0": 9431770,
+    "non_dog_species": 184,
+    "score": 1.065,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 495,
+    "target_chrom": "chr21",
+    "target_pos0": 9431771,
+    "non_dog_species": 184,
+    "score": -0.199,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 496,
+    "target_chrom": "chr21",
+    "target_pos0": 9431772,
+    "non_dog_species": 184,
+    "score": 0.41,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 497,
+    "target_chrom": "chr21",
+    "target_pos0": 9431773,
+    "non_dog_species": 184,
+    "score": -0.138,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 498,
+    "target_chrom": "chr21",
+    "target_pos0": 9431774,
+    "non_dog_species": 185,
+    "score": -0.891,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 499,
+    "target_chrom": "chr21",
+    "target_pos0": 9431775,
+    "non_dog_species": 185,
+    "score": 0.419,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 500,
+    "target_chrom": "chr21",
+    "target_pos0": 9431776,
+    "non_dog_species": 182,
+    "score": 0.406,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 501,
+    "target_chrom": "chr21",
+    "target_pos0": 9431777,
+    "non_dog_species": 182,
+    "score": 0.2,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 502,
+    "target_chrom": "chr21",
+    "target_pos0": 9431778,
+    "non_dog_species": 183,
+    "score": -0.827,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 503,
+    "target_chrom": "chr21",
+    "target_pos0": 9431779,
+    "non_dog_species": 185,
+    "score": -1.725,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 504,
+    "target_chrom": "chr21",
+    "target_pos0": 9431780,
+    "non_dog_species": 185,
+    "score": -0.122,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 505,
+    "target_chrom": "chr21",
+    "target_pos0": 9431781,
+    "non_dog_species": 185,
+    "score": 0.209,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 506,
+    "target_chrom": "chr21",
+    "target_pos0": 9431782,
+    "non_dog_species": 184,
+    "score": 0.033,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 507,
+    "target_chrom": "chr21",
+    "target_pos0": 9431783,
+    "non_dog_species": 39,
+    "score": 0.26,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 508,
+    "target_chrom": "chr21",
+    "target_pos0": 9431784,
+    "non_dog_species": 39,
+    "score": -0.281,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 509,
+    "target_chrom": "chr21",
+    "target_pos0": 9431785,
+    "non_dog_species": 39,
+    "score": 0.081,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 510,
+    "target_chrom": "chr21",
+    "target_pos0": 9431786,
+    "non_dog_species": 39,
+    "score": 0.937,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 511,
+    "target_chrom": "chr21",
+    "target_pos0": 9431787,
+    "non_dog_species": 176,
+    "score": -0.197,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 512,
+    "target_chrom": "chr21",
+    "target_pos0": 9431788,
+    "non_dog_species": 179,
+    "score": -1.492,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 513,
+    "target_chrom": "chr21",
+    "target_pos0": 9431789,
+    "non_dog_species": 185,
+    "score": -0.917,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 514,
+    "target_chrom": "chr21",
+    "target_pos0": 9431790,
+    "non_dog_species": 185,
+    "score": -0.93,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 515,
+    "target_chrom": "chr21",
+    "target_pos0": 9431791,
+    "non_dog_species": 184,
+    "score": -0.018,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 516,
+    "target_chrom": "chr21",
+    "target_pos0": 9431792,
+    "non_dog_species": 182,
+    "score": 0.165,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 517,
+    "target_chrom": "chr21",
+    "target_pos0": 9431793,
+    "non_dog_species": 184,
+    "score": 0.621,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 518,
+    "target_chrom": "chr21",
+    "target_pos0": 9431794,
+    "non_dog_species": 183,
+    "score": 2.987,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 519,
+    "target_chrom": "chr21",
+    "target_pos0": 9431795,
+    "non_dog_species": 183,
+    "score": -0.876,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 520,
+    "target_chrom": "chr21",
+    "target_pos0": 9431796,
+    "non_dog_species": 184,
+    "score": 0.372,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 521,
+    "target_chrom": "chr21",
+    "target_pos0": 9431797,
+    "non_dog_species": 184,
+    "score": -0.432,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 522,
+    "target_chrom": "chr21",
+    "target_pos0": 9431798,
+    "non_dog_species": 184,
+    "score": 1.046,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 523,
+    "target_chrom": "chr21",
+    "target_pos0": 9431799,
+    "non_dog_species": 184,
+    "score": 1.039,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 524,
+    "target_chrom": "chr21",
+    "target_pos0": 9431800,
+    "non_dog_species": 184,
+    "score": 1.036,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 525,
+    "target_chrom": "chr21",
+    "target_pos0": 9431801,
+    "non_dog_species": 184,
+    "score": 0.216,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 526,
+    "target_chrom": "chr21",
+    "target_pos0": 9431802,
+    "non_dog_species": 184,
+    "score": 0.223,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 527,
+    "target_chrom": "chr21",
+    "target_pos0": 9431803,
+    "non_dog_species": 184,
+    "score": -0.994,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 528,
+    "target_chrom": "chr21",
+    "target_pos0": 9431804,
+    "non_dog_species": 183,
+    "score": -0.214,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 529,
+    "target_chrom": "chr21",
+    "target_pos0": 9431805,
+    "non_dog_species": 174,
+    "score": -0.556,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 530,
+    "target_chrom": "chr21",
+    "target_pos0": 9431806,
+    "non_dog_species": 181,
+    "score": 0.145,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 531,
+    "target_chrom": "chr21",
+    "target_pos0": 9431807,
+    "non_dog_species": 181,
+    "score": 0.183,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 532,
+    "target_chrom": "chr21",
+    "target_pos0": 9431808,
+    "non_dog_species": 162,
+    "score": -0.46,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 533,
+    "target_chrom": "chr21",
+    "target_pos0": 9431809,
+    "non_dog_species": 163,
+    "score": 0.161,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 534,
+    "target_chrom": "chr21",
+    "target_pos0": 9431810,
+    "non_dog_species": 183,
+    "score": -0.319,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 535,
+    "target_chrom": "chr21",
+    "target_pos0": 9431811,
+    "non_dog_species": 184,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 536,
+    "target_chrom": "chr21",
+    "target_pos0": 9431812,
+    "non_dog_species": 185,
+    "score": 0.201,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 537,
+    "target_chrom": "chr21",
+    "target_pos0": 9431813,
+    "non_dog_species": 181,
+    "score": -0.916,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 538,
+    "target_chrom": "chr21",
+    "target_pos0": 9431814,
+    "non_dog_species": 76,
+    "score": 0.184,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 539,
+    "target_chrom": "chr21",
+    "target_pos0": 9431815,
+    "non_dog_species": 76,
+    "score": 0.606,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 540,
+    "target_chrom": "chr21",
+    "target_pos0": 9431816,
+    "non_dog_species": 88,
+    "score": 0.029,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 549,
+    "target_chrom": "chr21",
+    "target_pos0": 9431824,
+    "non_dog_species": 125,
+    "score": -3.27,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 550,
+    "target_chrom": "chr21",
+    "target_pos0": 9431825,
+    "non_dog_species": 130,
+    "score": 0.18,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 551,
+    "target_chrom": "chr21",
+    "target_pos0": 9431826,
+    "non_dog_species": 171,
+    "score": -0.015,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 552,
+    "target_chrom": "chr21",
+    "target_pos0": 9431827,
+    "non_dog_species": 155,
+    "score": 1.147,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 553,
+    "target_chrom": "chr21",
+    "target_pos0": 9431828,
+    "non_dog_species": 155,
+    "score": -0.225,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 554,
+    "target_chrom": "chr21",
+    "target_pos0": 9431829,
+    "non_dog_species": 155,
+    "score": 1.072,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 555,
+    "target_chrom": "chr21",
+    "target_pos0": 9431830,
+    "non_dog_species": 155,
+    "score": 0.015,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 556,
+    "target_chrom": "chr21",
+    "target_pos0": 9431831,
+    "non_dog_species": 158,
+    "score": -0.176,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 557,
+    "target_chrom": "chr21",
+    "target_pos0": 9431832,
+    "non_dog_species": 158,
+    "score": -0.001,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 558,
+    "target_chrom": "chr21",
+    "target_pos0": 9431833,
+    "non_dog_species": 158,
+    "score": 0.99,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 559,
+    "target_chrom": "chr21",
+    "target_pos0": 9431834,
+    "non_dog_species": 158,
+    "score": 0.087,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 560,
+    "target_chrom": "chr21",
+    "target_pos0": 9431835,
+    "non_dog_species": 175,
+    "score": -1.773,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 561,
+    "target_chrom": "chr21",
+    "target_pos0": 9431836,
+    "non_dog_species": 157,
+    "score": -0.938,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 562,
+    "target_chrom": "chr21",
+    "target_pos0": 9431837,
+    "non_dog_species": 165,
+    "score": 0.55,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 563,
+    "target_chrom": "chr21",
+    "target_pos0": 9431838,
+    "non_dog_species": 175,
+    "score": 0.108,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 564,
+    "target_chrom": "chr21",
+    "target_pos0": 9431839,
+    "non_dog_species": 174,
+    "score": 0.803,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 565,
+    "target_chrom": "chr21",
+    "target_pos0": 9431840,
+    "non_dog_species": 190,
+    "score": -0.246,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 566,
+    "target_chrom": "chr21",
+    "target_pos0": 9431841,
+    "non_dog_species": 189,
+    "score": 0.266,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 567,
+    "target_chrom": "chr21",
+    "target_pos0": 9431842,
+    "non_dog_species": 147,
+    "score": -0.157,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 568,
+    "target_chrom": "chr21",
+    "target_pos0": 9431843,
+    "non_dog_species": 190,
+    "score": -1.765,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 569,
+    "target_chrom": "chr21",
+    "target_pos0": 9431844,
+    "non_dog_species": 191,
+    "score": -0.288,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 570,
+    "target_chrom": "chr21",
+    "target_pos0": 9431845,
+    "non_dog_species": 191,
+    "score": -0.337,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 571,
+    "target_chrom": "chr21",
+    "target_pos0": 9431846,
+    "non_dog_species": 191,
+    "score": -0.352,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 572,
+    "target_chrom": "chr21",
+    "target_pos0": 9431847,
+    "non_dog_species": 190,
+    "score": -0.248,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 573,
+    "target_chrom": "chr21",
+    "target_pos0": 9431848,
+    "non_dog_species": 190,
+    "score": -0.354,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 574,
+    "target_chrom": "chr21",
+    "target_pos0": 9431849,
+    "non_dog_species": 191,
+    "score": -0.344,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 575,
+    "target_chrom": "chr21",
+    "target_pos0": 9431850,
+    "non_dog_species": 192,
+    "score": -0.02,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 576,
+    "target_chrom": "chr21",
+    "target_pos0": 9431851,
+    "non_dog_species": 193,
+    "score": -0.498,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 577,
+    "target_chrom": "chr21",
+    "target_pos0": 9431852,
+    "non_dog_species": 193,
+    "score": 0.603,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 578,
+    "target_chrom": "chr21",
+    "target_pos0": 9431853,
+    "non_dog_species": 193,
+    "score": -0.612,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 579,
+    "target_chrom": "chr21",
+    "target_pos0": 9431854,
+    "non_dog_species": 191,
+    "score": -1.245,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 580,
+    "target_chrom": "chr21",
+    "target_pos0": 9431855,
+    "non_dog_species": 171,
+    "score": -0.932,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 581,
+    "target_chrom": "chr21",
+    "target_pos0": 9431856,
+    "non_dog_species": 171,
+    "score": 0.027,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 582,
+    "target_chrom": "chr21",
+    "target_pos0": 9431857,
+    "non_dog_species": 171,
+    "score": -0.336,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 583,
+    "target_chrom": "chr21",
+    "target_pos0": 9431858,
+    "non_dog_species": 159,
+    "score": -0.054,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 584,
+    "target_chrom": "chr21",
+    "target_pos0": 9431859,
+    "non_dog_species": 180,
+    "score": 0.075,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 585,
+    "target_chrom": "chr21",
+    "target_pos0": 9431860,
+    "non_dog_species": 187,
+    "score": -1.024,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 586,
+    "target_chrom": "chr21",
+    "target_pos0": 9431861,
+    "non_dog_species": 190,
+    "score": -1.266,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 587,
+    "target_chrom": "chr21",
+    "target_pos0": 9431862,
+    "non_dog_species": 184,
+    "score": -0.489,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 588,
+    "target_chrom": "chr21",
+    "target_pos0": 9431863,
+    "non_dog_species": 190,
+    "score": -0.629,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 589,
+    "target_chrom": "chr21",
+    "target_pos0": 9431864,
+    "non_dog_species": 191,
+    "score": -0.475,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 590,
+    "target_chrom": "chr21",
+    "target_pos0": 9431865,
+    "non_dog_species": 159,
+    "score": -1.992,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 591,
+    "target_chrom": "chr21",
+    "target_pos0": 9431866,
+    "non_dog_species": 159,
+    "score": -2.332,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 592,
+    "target_chrom": "chr21",
+    "target_pos0": 9431867,
+    "non_dog_species": 191,
+    "score": 0.254,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 593,
+    "target_chrom": "chr21",
+    "target_pos0": 9431868,
+    "non_dog_species": 191,
+    "score": -0.156,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 594,
+    "target_chrom": "chr21",
+    "target_pos0": 9431869,
+    "non_dog_species": 191,
+    "score": -1.476,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 595,
+    "target_chrom": "chr21",
+    "target_pos0": 9431870,
+    "non_dog_species": 190,
+    "score": -0.816,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 596,
+    "target_chrom": "chr21",
+    "target_pos0": 9431871,
+    "non_dog_species": 188,
+    "score": -0.101,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 597,
+    "target_chrom": "chr21",
+    "target_pos0": 9431872,
+    "non_dog_species": 183,
+    "score": 1.112,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 598,
+    "target_chrom": "chr21",
+    "target_pos0": 9431873,
+    "non_dog_species": 183,
+    "score": -0.213,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 599,
+    "target_chrom": "chr21",
+    "target_pos0": 9431874,
+    "non_dog_species": 183,
+    "score": -0.162,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 600,
+    "target_chrom": "chr21",
+    "target_pos0": 9431875,
+    "non_dog_species": 173,
+    "score": 0.758,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 601,
+    "target_chrom": "chr21",
+    "target_pos0": 9431876,
+    "non_dog_species": 179,
+    "score": 1.482,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 602,
+    "target_chrom": "chr21",
+    "target_pos0": 9431877,
+    "non_dog_species": 15,
+    "score": -1.272,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 603,
+    "target_chrom": "chr21",
+    "target_pos0": 9431878,
+    "non_dog_species": 15,
+    "score": -1.024,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 604,
+    "target_chrom": "chr21",
+    "target_pos0": 9431879,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 605,
+    "target_chrom": "chr21",
+    "target_pos0": 9431880,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 606,
+    "target_chrom": "chr21",
+    "target_pos0": 9431881,
+    "non_dog_species": 15,
+    "score": -0.185,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 607,
+    "target_chrom": "chr21",
+    "target_pos0": 9431882,
+    "non_dog_species": 15,
+    "score": -0.166,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 608,
+    "target_chrom": "chr21",
+    "target_pos0": 9431883,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 609,
+    "target_chrom": "chr21",
+    "target_pos0": 9431884,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 610,
+    "target_chrom": "chr21",
+    "target_pos0": 9431885,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 611,
+    "target_chrom": "chr21",
+    "target_pos0": 9431886,
+    "non_dog_species": 15,
+    "score": -0.207,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 612,
+    "target_chrom": "chr21",
+    "target_pos0": 9431887,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 613,
+    "target_chrom": "chr21",
+    "target_pos0": 9431888,
+    "non_dog_species": 15,
+    "score": -0.17,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 614,
+    "target_chrom": "chr21",
+    "target_pos0": 9431889,
+    "non_dog_species": 15,
+    "score": -0.812,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 615,
+    "target_chrom": "chr21",
+    "target_pos0": 9431890,
+    "non_dog_species": 15,
+    "score": -0.373,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 616,
+    "target_chrom": "chr21",
+    "target_pos0": 9431891,
+    "non_dog_species": 15,
+    "score": -0.676,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 617,
+    "target_chrom": "chr21",
+    "target_pos0": 9431892,
+    "non_dog_species": 14,
+    "score": -0.358,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 618,
+    "target_chrom": "chr21",
+    "target_pos0": 9431893,
+    "non_dog_species": 14,
+    "score": 0.465,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 619,
+    "target_chrom": "chr21",
+    "target_pos0": 9431894,
+    "non_dog_species": 13,
+    "score": -1.18,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 620,
+    "target_chrom": "chr21",
+    "target_pos0": 9431895,
+    "non_dog_species": 13,
+    "score": 0.462,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 621,
+    "target_chrom": "chr21",
+    "target_pos0": 9431896,
+    "non_dog_species": 13,
+    "score": -1.242,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 622,
+    "target_chrom": "chr21",
+    "target_pos0": 9431897,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 623,
+    "target_chrom": "chr21",
+    "target_pos0": 9431898,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 624,
+    "target_chrom": "chr21",
+    "target_pos0": 9431899,
+    "non_dog_species": 3,
+    "score": -1.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 625,
+    "target_chrom": "chr21",
+    "target_pos0": 9431900,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 626,
+    "target_chrom": "chr21",
+    "target_pos0": 9431901,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 627,
+    "target_chrom": "chr21",
+    "target_pos0": 9431902,
+    "non_dog_species": 3,
+    "score": -1.648,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 628,
+    "target_chrom": "chr21",
+    "target_pos0": 9431903,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 629,
+    "target_chrom": "chr21",
+    "target_pos0": 9431904,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 630,
+    "target_chrom": "chr21",
+    "target_pos0": 9431905,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 631,
+    "target_chrom": "chr21",
+    "target_pos0": 9431906,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 632,
+    "target_chrom": "chr21",
+    "target_pos0": 9431907,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 633,
+    "target_chrom": "chr21",
+    "target_pos0": 9431908,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 634,
+    "target_chrom": "chr21",
+    "target_pos0": 9431909,
+    "non_dog_species": 2,
+    "score": -2.3,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 635,
+    "target_chrom": "chr21",
+    "target_pos0": 9431910,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 636,
+    "target_chrom": "chr21",
+    "target_pos0": 9431911,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 637,
+    "target_chrom": "chr21",
+    "target_pos0": 9431912,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 638,
+    "target_chrom": "chr21",
+    "target_pos0": 9431913,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 639,
+    "target_chrom": "chr21",
+    "target_pos0": 9431914,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 640,
+    "target_chrom": "chr21",
+    "target_pos0": 9431915,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 641,
+    "target_chrom": "chr21",
+    "target_pos0": 9431916,
+    "non_dog_species": 2,
+    "score": 0.04,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 642,
+    "target_chrom": "chr21",
+    "target_pos0": 9431917,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 643,
+    "target_chrom": "chr21",
+    "target_pos0": 9431918,
+    "non_dog_species": 2,
+    "score": 0.048,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 644,
+    "target_chrom": "chr21",
+    "target_pos0": 9431919,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 645,
+    "target_chrom": "chr21",
+    "target_pos0": 9431920,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 646,
+    "target_chrom": "chr21",
+    "target_pos0": 9431921,
+    "non_dog_species": 2,
+    "score": -2.09,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 647,
+    "target_chrom": "chr21",
+    "target_pos0": 9431922,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 648,
+    "target_chrom": "chr21",
+    "target_pos0": 9431923,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 649,
+    "target_chrom": "chr21",
+    "target_pos0": 9431924,
+    "non_dog_species": 2,
+    "score": 0.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 650,
+    "target_chrom": "chr21",
+    "target_pos0": 9431925,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 651,
+    "target_chrom": "chr21",
+    "target_pos0": 9431926,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 652,
+    "target_chrom": "chr21",
+    "target_pos0": 9431927,
+    "non_dog_species": 2,
+    "score": 0.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 653,
+    "target_chrom": "chr21",
+    "target_pos0": 9431928,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 654,
+    "target_chrom": "chr21",
+    "target_pos0": 9431929,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 655,
+    "target_chrom": "chr21",
+    "target_pos0": 9431930,
+    "non_dog_species": 2,
+    "score": 0.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 656,
+    "target_chrom": "chr21",
+    "target_pos0": 9431931,
+    "non_dog_species": 2,
+    "score": -1.744,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 657,
+    "target_chrom": "chr21",
+    "target_pos0": 9431932,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 658,
+    "target_chrom": "chr21",
+    "target_pos0": 9431933,
+    "non_dog_species": 2,
+    "score": -1.757,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 659,
+    "target_chrom": "chr21",
+    "target_pos0": 9431934,
+    "non_dog_species": 2,
+    "score": -1.744,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 660,
+    "target_chrom": "chr21",
+    "target_pos0": 9431935,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 661,
+    "target_chrom": "chr21",
+    "target_pos0": 9431936,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 662,
+    "target_chrom": "chr21",
+    "target_pos0": 9431937,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 663,
+    "target_chrom": "chr21",
+    "target_pos0": 9431938,
+    "non_dog_species": 2,
+    "score": -1.757,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 664,
+    "target_chrom": "chr21",
+    "target_pos0": 9431939,
+    "non_dog_species": 2,
+    "score": 0.078,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 665,
+    "target_chrom": "chr21",
+    "target_pos0": 9431940,
+    "non_dog_species": 2,
+    "score": 0.095,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 771,
+    "target_chrom": "chr21",
+    "target_pos0": 9431999,
+    "non_dog_species": 11,
+    "score": -1.25,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 772,
+    "target_chrom": "chr21",
+    "target_pos0": 9432000,
+    "non_dog_species": 12,
+    "score": -0.42,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 773,
+    "target_chrom": "chr21",
+    "target_pos0": 9432001,
+    "non_dog_species": 12,
+    "score": -0.405,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 774,
+    "target_chrom": "chr21",
+    "target_pos0": 9432002,
+    "non_dog_species": 12,
+    "score": -1.14,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 775,
+    "target_chrom": "chr21",
+    "target_pos0": 9432003,
+    "non_dog_species": 9,
+    "score": 0.382,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 776,
+    "target_chrom": "chr21",
+    "target_pos0": 9432004,
+    "non_dog_species": 9,
+    "score": 0.382,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 777,
+    "target_chrom": "chr21",
+    "target_pos0": 9432005,
+    "non_dog_species": 9,
+    "score": -1.644,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 778,
+    "target_chrom": "chr21",
+    "target_pos0": 9432006,
+    "non_dog_species": 4,
+    "score": 0.256,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 779,
+    "target_chrom": "chr21",
+    "target_pos0": 9432007,
+    "non_dog_species": 4,
+    "score": 0.256,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 780,
+    "target_chrom": "chr21",
+    "target_pos0": 9432008,
+    "non_dog_species": 4,
+    "score": -0.709,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 781,
+    "target_chrom": "chr21",
+    "target_pos0": 9432009,
+    "non_dog_species": 9,
+    "score": -0.95,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 782,
+    "target_chrom": "chr21",
+    "target_pos0": 9432010,
+    "non_dog_species": 9,
+    "score": 0.382,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 783,
+    "target_chrom": "chr21",
+    "target_pos0": 9432011,
+    "non_dog_species": 9,
+    "score": 0.382,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 784,
+    "target_chrom": "chr21",
+    "target_pos0": 9432012,
+    "non_dog_species": 10,
+    "score": -0.481,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 785,
+    "target_chrom": "chr21",
+    "target_pos0": 9432013,
+    "non_dog_species": 7,
+    "score": -3.771,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 786,
+    "target_chrom": "chr21",
+    "target_pos0": 9432014,
+    "non_dog_species": 7,
+    "score": 0.339,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 787,
+    "target_chrom": "chr21",
+    "target_pos0": 9432015,
+    "non_dog_species": 10,
+    "score": 0.383,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 788,
+    "target_chrom": "chr21",
+    "target_pos0": 9432016,
+    "non_dog_species": 10,
+    "score": 0.383,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 789,
+    "target_chrom": "chr21",
+    "target_pos0": 9432017,
+    "non_dog_species": 11,
+    "score": -0.461,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 790,
+    "target_chrom": "chr21",
+    "target_pos0": 9432018,
+    "non_dog_species": 11,
+    "score": 0.387,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 791,
+    "target_chrom": "chr21",
+    "target_pos0": 9432019,
+    "non_dog_species": 11,
+    "score": 0.387,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 792,
+    "target_chrom": "chr21",
+    "target_pos0": 9432020,
+    "non_dog_species": 11,
+    "score": -0.509,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 793,
+    "target_chrom": "chr21",
+    "target_pos0": 9432021,
+    "non_dog_species": 11,
+    "score": -0.488,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 794,
+    "target_chrom": "chr21",
+    "target_pos0": 9432022,
+    "non_dog_species": 11,
+    "score": -0.474,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 795,
+    "target_chrom": "chr21",
+    "target_pos0": 9432023,
+    "non_dog_species": 11,
+    "score": 0.487,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 796,
+    "target_chrom": "chr21",
+    "target_pos0": 9432024,
+    "non_dog_species": 11,
+    "score": 0.386,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 797,
+    "target_chrom": "chr21",
+    "target_pos0": 9432025,
+    "non_dog_species": 11,
+    "score": 0.387,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 798,
+    "target_chrom": "chr21",
+    "target_pos0": 9432026,
+    "non_dog_species": 5,
+    "score": 0.232,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 799,
+    "target_chrom": "chr21",
+    "target_pos0": 9432027,
+    "non_dog_species": 5,
+    "score": 0.232,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 800,
+    "target_chrom": "chr21",
+    "target_pos0": 9432028,
+    "non_dog_species": 5,
+    "score": -0.824,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 801,
+    "target_chrom": "chr21",
+    "target_pos0": 9432029,
+    "non_dog_species": 5,
+    "score": 0.232,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 802,
+    "target_chrom": "chr21",
+    "target_pos0": 9432030,
+    "non_dog_species": 11,
+    "score": 0.387,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 803,
+    "target_chrom": "chr21",
+    "target_pos0": 9432031,
+    "non_dog_species": 11,
+    "score": 0.387,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 804,
+    "target_chrom": "chr21",
+    "target_pos0": 9432032,
+    "non_dog_species": 11,
+    "score": 0.386,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 805,
+    "target_chrom": "chr21",
+    "target_pos0": 9432033,
+    "non_dog_species": 11,
+    "score": -0.509,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 806,
+    "target_chrom": "chr21",
+    "target_pos0": 9432034,
+    "non_dog_species": 11,
+    "score": -0.559,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 807,
+    "target_chrom": "chr21",
+    "target_pos0": 9432035,
+    "non_dog_species": 11,
+    "score": -0.559,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 808,
+    "target_chrom": "chr21",
+    "target_pos0": 9432036,
+    "non_dog_species": 11,
+    "score": -0.559,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 809,
+    "target_chrom": "chr21",
+    "target_pos0": 9432037,
+    "non_dog_species": 11,
+    "score": -0.479,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 810,
+    "target_chrom": "chr21",
+    "target_pos0": 9432038,
+    "non_dog_species": 15,
+    "score": -0.2,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 811,
+    "target_chrom": "chr21",
+    "target_pos0": 9432039,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 812,
+    "target_chrom": "chr21",
+    "target_pos0": 9432040,
+    "non_dog_species": 14,
+    "score": 0.58,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 813,
+    "target_chrom": "chr21",
+    "target_pos0": 9432041,
+    "non_dog_species": 14,
+    "score": -1.223,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 814,
+    "target_chrom": "chr21",
+    "target_pos0": 9432042,
+    "non_dog_species": 5,
+    "score": 0.307,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 815,
+    "target_chrom": "chr21",
+    "target_pos0": 9432043,
+    "non_dog_species": 5,
+    "score": -3.431,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 816,
+    "target_chrom": "chr21",
+    "target_pos0": 9432044,
+    "non_dog_species": 5,
+    "score": -0.958,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 817,
+    "target_chrom": "chr21",
+    "target_pos0": 9432045,
+    "non_dog_species": 5,
+    "score": -0.745,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 818,
+    "target_chrom": "chr21",
+    "target_pos0": 9432046,
+    "non_dog_species": 5,
+    "score": 0.307,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 819,
+    "target_chrom": "chr21",
+    "target_pos0": 9432047,
+    "non_dog_species": 5,
+    "score": 0.246,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 820,
+    "target_chrom": "chr21",
+    "target_pos0": 9432048,
+    "non_dog_species": 15,
+    "score": -0.19,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 821,
+    "target_chrom": "chr21",
+    "target_pos0": 9432049,
+    "non_dog_species": 15,
+    "score": -1.281,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 822,
+    "target_chrom": "chr21",
+    "target_pos0": 9432050,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 823,
+    "target_chrom": "chr21",
+    "target_pos0": 9432051,
+    "non_dog_species": 14,
+    "score": -1.273,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 824,
+    "target_chrom": "chr21",
+    "target_pos0": 9432052,
+    "non_dog_species": 14,
+    "score": 0.594,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 825,
+    "target_chrom": "chr21",
+    "target_pos0": 9432053,
+    "non_dog_species": 14,
+    "score": -1.214,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 826,
+    "target_chrom": "chr21",
+    "target_pos0": 9432054,
+    "non_dog_species": 14,
+    "score": -0.19,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 827,
+    "target_chrom": "chr21",
+    "target_pos0": 9432055,
+    "non_dog_species": 14,
+    "score": -0.894,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 828,
+    "target_chrom": "chr21",
+    "target_pos0": 9432056,
+    "non_dog_species": 14,
+    "score": 0.468,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 829,
+    "target_chrom": "chr21",
+    "target_pos0": 9432057,
+    "non_dog_species": 14,
+    "score": -2.187,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 830,
+    "target_chrom": "chr21",
+    "target_pos0": 9432058,
+    "non_dog_species": 14,
+    "score": -1.866,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 831,
+    "target_chrom": "chr21",
+    "target_pos0": 9432059,
+    "non_dog_species": 14,
+    "score": -2.275,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 832,
+    "target_chrom": "chr21",
+    "target_pos0": 9432060,
+    "non_dog_species": 14,
+    "score": -2.396,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 833,
+    "target_chrom": "chr21",
+    "target_pos0": 9432061,
+    "non_dog_species": 14,
+    "score": 0.469,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 834,
+    "target_chrom": "chr21",
+    "target_pos0": 9432062,
+    "non_dog_species": 14,
+    "score": -0.866,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 835,
+    "target_chrom": "chr21",
+    "target_pos0": 9432063,
+    "non_dog_species": 14,
+    "score": 0.546,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 836,
+    "target_chrom": "chr21",
+    "target_pos0": 9432064,
+    "non_dog_species": 15,
+    "score": -0.39,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 837,
+    "target_chrom": "chr21",
+    "target_pos0": 9432065,
+    "non_dog_species": 15,
+    "score": -0.404,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 838,
+    "target_chrom": "chr21",
+    "target_pos0": 9432066,
+    "non_dog_species": 15,
+    "score": -0.19,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 839,
+    "target_chrom": "chr21",
+    "target_pos0": 9432067,
+    "non_dog_species": 15,
+    "score": -0.179,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 840,
+    "target_chrom": "chr21",
+    "target_pos0": 9432068,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 841,
+    "target_chrom": "chr21",
+    "target_pos0": 9432069,
+    "non_dog_species": 15,
+    "score": -1.788,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 842,
+    "target_chrom": "chr21",
+    "target_pos0": 9432070,
+    "non_dog_species": 15,
+    "score": -0.174,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 843,
+    "target_chrom": "chr21",
+    "target_pos0": 9432071,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 844,
+    "target_chrom": "chr21",
+    "target_pos0": 9432072,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 845,
+    "target_chrom": "chr21",
+    "target_pos0": 9432073,
+    "non_dog_species": 15,
+    "score": -0.298,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 846,
+    "target_chrom": "chr21",
+    "target_pos0": 9432074,
+    "non_dog_species": 15,
+    "score": -0.298,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 847,
+    "target_chrom": "chr21",
+    "target_pos0": 9432075,
+    "non_dog_species": 15,
+    "score": -0.32,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 848,
+    "target_chrom": "chr21",
+    "target_pos0": 9432076,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 849,
+    "target_chrom": "chr21",
+    "target_pos0": 9432077,
+    "non_dog_species": 14,
+    "score": -1.283,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 850,
+    "target_chrom": "chr21",
+    "target_pos0": 9432078,
+    "non_dog_species": 14,
+    "score": -0.991,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 851,
+    "target_chrom": "chr21",
+    "target_pos0": 9432079,
+    "non_dog_species": 14,
+    "score": -0.878,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 852,
+    "target_chrom": "chr21",
+    "target_pos0": 9432080,
+    "non_dog_species": 14,
+    "score": 0.561,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 853,
+    "target_chrom": "chr21",
+    "target_pos0": 9432081,
+    "non_dog_species": 14,
+    "score": -0.219,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 854,
+    "target_chrom": "chr21",
+    "target_pos0": 9432082,
+    "non_dog_species": 14,
+    "score": -0.943,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 855,
+    "target_chrom": "chr21",
+    "target_pos0": 9432083,
+    "non_dog_species": 14,
+    "score": -0.388,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 856,
+    "target_chrom": "chr21",
+    "target_pos0": 9432084,
+    "non_dog_species": 14,
+    "score": 0.443,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 857,
+    "target_chrom": "chr21",
+    "target_pos0": 9432085,
+    "non_dog_species": 14,
+    "score": -1.386,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 858,
+    "target_chrom": "chr21",
+    "target_pos0": 9432086,
+    "non_dog_species": 14,
+    "score": -0.233,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 859,
+    "target_chrom": "chr21",
+    "target_pos0": 9432087,
+    "non_dog_species": 15,
+    "score": -0.816,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 860,
+    "target_chrom": "chr21",
+    "target_pos0": 9432088,
+    "non_dog_species": 15,
+    "score": -0.169,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 861,
+    "target_chrom": "chr21",
+    "target_pos0": 9432089,
+    "non_dog_species": 15,
+    "score": -1.853,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 862,
+    "target_chrom": "chr21",
+    "target_pos0": 9432090,
+    "non_dog_species": 15,
+    "score": -0.297,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 863,
+    "target_chrom": "chr21",
+    "target_pos0": 9432091,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 864,
+    "target_chrom": "chr21",
+    "target_pos0": 9432092,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 865,
+    "target_chrom": "chr21",
+    "target_pos0": 9432093,
+    "non_dog_species": 15,
+    "score": -0.166,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 866,
+    "target_chrom": "chr21",
+    "target_pos0": 9432094,
+    "non_dog_species": 13,
+    "score": 0.541,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 867,
+    "target_chrom": "chr21",
+    "target_pos0": 9432095,
+    "non_dog_species": 13,
+    "score": -0.286,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 868,
+    "target_chrom": "chr21",
+    "target_pos0": 9432096,
+    "non_dog_species": 15,
+    "score": -0.323,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 869,
+    "target_chrom": "chr21",
+    "target_pos0": 9432097,
+    "non_dog_species": 15,
+    "score": -1.174,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 870,
+    "target_chrom": "chr21",
+    "target_pos0": 9432098,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 871,
+    "target_chrom": "chr21",
+    "target_pos0": 9432099,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 872,
+    "target_chrom": "chr21",
+    "target_pos0": 9432100,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 873,
+    "target_chrom": "chr21",
+    "target_pos0": 9432101,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 874,
+    "target_chrom": "chr21",
+    "target_pos0": 9432102,
+    "non_dog_species": 3,
+    "score": 0.099,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 875,
+    "target_chrom": "chr21",
+    "target_pos0": 9432103,
+    "non_dog_species": 3,
+    "score": 0.1,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 876,
+    "target_chrom": "chr21",
+    "target_pos0": 9432104,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 877,
+    "target_chrom": "chr21",
+    "target_pos0": 9432105,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 878,
+    "target_chrom": "chr21",
+    "target_pos0": 9432106,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 879,
+    "target_chrom": "chr21",
+    "target_pos0": 9432107,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 880,
+    "target_chrom": "chr21",
+    "target_pos0": 9432108,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 881,
+    "target_chrom": "chr21",
+    "target_pos0": 9432109,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 882,
+    "target_chrom": "chr21",
+    "target_pos0": 9432110,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 883,
+    "target_chrom": "chr21",
+    "target_pos0": 9432111,
+    "non_dog_species": 15,
+    "score": -0.164,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 884,
+    "target_chrom": "chr21",
+    "target_pos0": 9432112,
+    "non_dog_species": 15,
+    "score": -0.314,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 885,
+    "target_chrom": "chr21",
+    "target_pos0": 9432113,
+    "non_dog_species": 15,
+    "score": -0.83,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 886,
+    "target_chrom": "chr21",
+    "target_pos0": 9432114,
+    "non_dog_species": 15,
+    "score": -0.182,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 887,
+    "target_chrom": "chr21",
+    "target_pos0": 9432115,
+    "non_dog_species": 15,
+    "score": -2.581,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 888,
+    "target_chrom": "chr21",
+    "target_pos0": 9432116,
+    "non_dog_species": 15,
+    "score": -2.231,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 889,
+    "target_chrom": "chr21",
+    "target_pos0": 9432117,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 890,
+    "target_chrom": "chr21",
+    "target_pos0": 9432118,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 891,
+    "target_chrom": "chr21",
+    "target_pos0": 9432119,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 892,
+    "target_chrom": "chr21",
+    "target_pos0": 9432120,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 893,
+    "target_chrom": "chr21",
+    "target_pos0": 9432121,
+    "non_dog_species": 14,
+    "score": 0.566,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 894,
+    "target_chrom": "chr21",
+    "target_pos0": 9432122,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 895,
+    "target_chrom": "chr21",
+    "target_pos0": 9432123,
+    "non_dog_species": 15,
+    "score": -1.066,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 896,
+    "target_chrom": "chr21",
+    "target_pos0": 9432124,
+    "non_dog_species": 15,
+    "score": -0.818,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 897,
+    "target_chrom": "chr21",
+    "target_pos0": 9432125,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 898,
+    "target_chrom": "chr21",
+    "target_pos0": 9432126,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 899,
+    "target_chrom": "chr21",
+    "target_pos0": 9432127,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 900,
+    "target_chrom": "chr21",
+    "target_pos0": 9432128,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 901,
+    "target_chrom": "chr21",
+    "target_pos0": 9432129,
+    "non_dog_species": 15,
+    "score": -0.169,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 902,
+    "target_chrom": "chr21",
+    "target_pos0": 9432130,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 903,
+    "target_chrom": "chr21",
+    "target_pos0": 9432131,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 904,
+    "target_chrom": "chr21",
+    "target_pos0": 9432132,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 905,
+    "target_chrom": "chr21",
+    "target_pos0": 9432133,
+    "non_dog_species": 15,
+    "score": -0.404,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 906,
+    "target_chrom": "chr21",
+    "target_pos0": 9432134,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 907,
+    "target_chrom": "chr21",
+    "target_pos0": 9432135,
+    "non_dog_species": 15,
+    "score": -0.311,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 908,
+    "target_chrom": "chr21",
+    "target_pos0": 9432136,
+    "non_dog_species": 15,
+    "score": -0.872,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 909,
+    "target_chrom": "chr21",
+    "target_pos0": 9432137,
+    "non_dog_species": 15,
+    "score": -0.17,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 910,
+    "target_chrom": "chr21",
+    "target_pos0": 9432138,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 911,
+    "target_chrom": "chr21",
+    "target_pos0": 9432139,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 912,
+    "target_chrom": "chr21",
+    "target_pos0": 9432140,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 913,
+    "target_chrom": "chr21",
+    "target_pos0": 9432141,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 914,
+    "target_chrom": "chr21",
+    "target_pos0": 9432142,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 915,
+    "target_chrom": "chr21",
+    "target_pos0": 9432143,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 916,
+    "target_chrom": "chr21",
+    "target_pos0": 9432144,
+    "non_dog_species": 15,
+    "score": -0.193,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 917,
+    "target_chrom": "chr21",
+    "target_pos0": 9432145,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 918,
+    "target_chrom": "chr21",
+    "target_pos0": 9432146,
+    "non_dog_species": 15,
+    "score": -0.214,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 919,
+    "target_chrom": "chr21",
+    "target_pos0": 9432147,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 920,
+    "target_chrom": "chr21",
+    "target_pos0": 9432148,
+    "non_dog_species": 15,
+    "score": -0.185,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 921,
+    "target_chrom": "chr21",
+    "target_pos0": 9432149,
+    "non_dog_species": 15,
+    "score": -0.169,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 922,
+    "target_chrom": "chr21",
+    "target_pos0": 9432150,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 923,
+    "target_chrom": "chr21",
+    "target_pos0": 9432151,
+    "non_dog_species": 15,
+    "score": -0.196,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 924,
+    "target_chrom": "chr21",
+    "target_pos0": 9432152,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 925,
+    "target_chrom": "chr21",
+    "target_pos0": 9432153,
+    "non_dog_species": 14,
+    "score": -1.212,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 926,
+    "target_chrom": "chr21",
+    "target_pos0": 9432154,
+    "non_dog_species": 3,
+    "score": 0.082,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 927,
+    "target_chrom": "chr21",
+    "target_pos0": 9432155,
+    "non_dog_species": 14,
+    "score": 0.429,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 928,
+    "target_chrom": "chr21",
+    "target_pos0": 9432156,
+    "non_dog_species": 15,
+    "score": -0.817,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 929,
+    "target_chrom": "chr21",
+    "target_pos0": 9432157,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 930,
+    "target_chrom": "chr21",
+    "target_pos0": 9432158,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 931,
+    "target_chrom": "chr21",
+    "target_pos0": 9432159,
+    "non_dog_species": 15,
+    "score": -0.328,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 932,
+    "target_chrom": "chr21",
+    "target_pos0": 9432160,
+    "non_dog_species": 15,
+    "score": -1.728,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 933,
+    "target_chrom": "chr21",
+    "target_pos0": 9432161,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 934,
+    "target_chrom": "chr21",
+    "target_pos0": 9432162,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 935,
+    "target_chrom": "chr21",
+    "target_pos0": 9432163,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 936,
+    "target_chrom": "chr21",
+    "target_pos0": 9432164,
+    "non_dog_species": 15,
+    "score": -0.404,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 937,
+    "target_chrom": "chr21",
+    "target_pos0": 9432165,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 938,
+    "target_chrom": "chr21",
+    "target_pos0": 9432166,
+    "non_dog_species": 15,
+    "score": -0.32,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 939,
+    "target_chrom": "chr21",
+    "target_pos0": 9432167,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 940,
+    "target_chrom": "chr21",
+    "target_pos0": 9432168,
+    "non_dog_species": 15,
+    "score": -1.263,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 941,
+    "target_chrom": "chr21",
+    "target_pos0": 9432169,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 942,
+    "target_chrom": "chr21",
+    "target_pos0": 9432170,
+    "non_dog_species": 15,
+    "score": -0.173,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 943,
+    "target_chrom": "chr21",
+    "target_pos0": 9432171,
+    "non_dog_species": 15,
+    "score": -0.315,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 944,
+    "target_chrom": "chr21",
+    "target_pos0": 9432172,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 945,
+    "target_chrom": "chr21",
+    "target_pos0": 9432173,
+    "non_dog_species": 15,
+    "score": -0.216,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 946,
+    "target_chrom": "chr21",
+    "target_pos0": 9432174,
+    "non_dog_species": 14,
+    "score": 0.457,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 947,
+    "target_chrom": "chr21",
+    "target_pos0": 9432175,
+    "non_dog_species": 15,
+    "score": -0.179,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 948,
+    "target_chrom": "chr21",
+    "target_pos0": 9432176,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 949,
+    "target_chrom": "chr21",
+    "target_pos0": 9432177,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 950,
+    "target_chrom": "chr21",
+    "target_pos0": 9432178,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 951,
+    "target_chrom": "chr21",
+    "target_pos0": 9432179,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 952,
+    "target_chrom": "chr21",
+    "target_pos0": 9432180,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 953,
+    "target_chrom": "chr21",
+    "target_pos0": 9432181,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 954,
+    "target_chrom": "chr21",
+    "target_pos0": 9432182,
+    "non_dog_species": 15,
+    "score": -0.196,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 955,
+    "target_chrom": "chr21",
+    "target_pos0": 9432183,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 956,
+    "target_chrom": "chr21",
+    "target_pos0": 9432184,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 957,
+    "target_chrom": "chr21",
+    "target_pos0": 9432185,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 958,
+    "target_chrom": "chr21",
+    "target_pos0": 9432186,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 959,
+    "target_chrom": "chr21",
+    "target_pos0": 9432187,
+    "non_dog_species": 15,
+    "score": -0.321,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 960,
+    "target_chrom": "chr21",
+    "target_pos0": 9432188,
+    "non_dog_species": 15,
+    "score": -0.194,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 961,
+    "target_chrom": "chr21",
+    "target_pos0": 9432189,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 962,
+    "target_chrom": "chr21",
+    "target_pos0": 9432190,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 963,
+    "target_chrom": "chr21",
+    "target_pos0": 9432191,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 964,
+    "target_chrom": "chr21",
+    "target_pos0": 9432192,
+    "non_dog_species": 15,
+    "score": -0.341,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 965,
+    "target_chrom": "chr21",
+    "target_pos0": 9432193,
+    "non_dog_species": 15,
+    "score": -0.865,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 966,
+    "target_chrom": "chr21",
+    "target_pos0": 9432194,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 967,
+    "target_chrom": "chr21",
+    "target_pos0": 9432195,
+    "non_dog_species": 15,
+    "score": -0.809,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 968,
+    "target_chrom": "chr21",
+    "target_pos0": 9432196,
+    "non_dog_species": 15,
+    "score": -0.949,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 969,
+    "target_chrom": "chr21",
+    "target_pos0": 9432197,
+    "non_dog_species": 14,
+    "score": -0.848,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 970,
+    "target_chrom": "chr21",
+    "target_pos0": 9432198,
+    "non_dog_species": 14,
+    "score": 0.456,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 971,
+    "target_chrom": "chr21",
+    "target_pos0": 9432199,
+    "non_dog_species": 15,
+    "score": -0.296,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 972,
+    "target_chrom": "chr21",
+    "target_pos0": 9432200,
+    "non_dog_species": 15,
+    "score": -0.185,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 973,
+    "target_chrom": "chr21",
+    "target_pos0": 9432201,
+    "non_dog_species": 15,
+    "score": -0.847,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 974,
+    "target_chrom": "chr21",
+    "target_pos0": 9432202,
+    "non_dog_species": 15,
+    "score": -0.174,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 975,
+    "target_chrom": "chr21",
+    "target_pos0": 9432203,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 976,
+    "target_chrom": "chr21",
+    "target_pos0": 9432204,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 977,
+    "target_chrom": "chr21",
+    "target_pos0": 9432205,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 978,
+    "target_chrom": "chr21",
+    "target_pos0": 9432206,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 979,
+    "target_chrom": "chr21",
+    "target_pos0": 9432207,
+    "non_dog_species": 15,
+    "score": -0.829,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 980,
+    "target_chrom": "chr21",
+    "target_pos0": 9432208,
+    "non_dog_species": 15,
+    "score": -1.724,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 981,
+    "target_chrom": "chr21",
+    "target_pos0": 9432209,
+    "non_dog_species": 15,
+    "score": -0.37,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 982,
+    "target_chrom": "chr21",
+    "target_pos0": 9432210,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 983,
+    "target_chrom": "chr21",
+    "target_pos0": 9432211,
+    "non_dog_species": 15,
+    "score": 0.473,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 984,
+    "target_chrom": "chr21",
+    "target_pos0": 9432212,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 985,
+    "target_chrom": "chr21",
+    "target_pos0": 9432213,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 986,
+    "target_chrom": "chr21",
+    "target_pos0": 9432214,
+    "non_dog_species": 15,
+    "score": 0.598,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 987,
+    "target_chrom": "chr21",
+    "target_pos0": 9432215,
+    "non_dog_species": 15,
+    "score": -0.176,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 988,
+    "target_chrom": "chr21",
+    "target_pos0": 9432216,
+    "non_dog_species": 15,
+    "score": 0.604,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 989,
+    "target_chrom": "chr21",
+    "target_pos0": 9432217,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 990,
+    "target_chrom": "chr21",
+    "target_pos0": 9432218,
+    "non_dog_species": 15,
+    "score": -0.179,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 991,
+    "target_chrom": "chr21",
+    "target_pos0": 9432219,
+    "non_dog_species": 15,
+    "score": -0.172,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 992,
+    "target_chrom": "chr21",
+    "target_pos0": 9432220,
+    "non_dog_species": 15,
+    "score": -0.17,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 993,
+    "target_chrom": "chr21",
+    "target_pos0": 9432221,
+    "non_dog_species": 15,
+    "score": 0.471,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 994,
+    "target_chrom": "chr21",
+    "target_pos0": 9432222,
+    "non_dog_species": 15,
+    "score": -2.717,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 995,
+    "target_chrom": "chr21",
+    "target_pos0": 9432223,
+    "non_dog_species": 15,
+    "score": -0.872,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 996,
+    "target_chrom": "chr21",
+    "target_pos0": 9432224,
+    "non_dog_species": 15,
+    "score": -1.105,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 997,
+    "target_chrom": "chr21",
+    "target_pos0": 9432225,
+    "non_dog_species": 15,
+    "score": -0.202,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 998,
+    "target_chrom": "chr21",
+    "target_pos0": 9432226,
+    "non_dog_species": 15,
+    "score": -1.711,
+    "reason": "score_available"
+  },
+  {
+    "id": "bg1k_0045",
+    "ros_relative_pos0": 999,
+    "target_chrom": "chr21",
+    "target_pos0": 9432227,
+    "non_dog_species": 15,
+    "score": -0.811,
+    "reason": "score_available"
+  }
+]

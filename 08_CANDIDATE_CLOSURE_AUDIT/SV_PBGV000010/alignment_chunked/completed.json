@@ -1,0 +1,11 @@
+{
+  "status": "alignment_completed_pending_biological_review",
+  "input_pairs": 185353881,
+  "chunks": 47,
+  "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/selected_markdup.bam",
+  "limitations": [
+    "Regional duplicate marking",
+    "Chunk-specific insert size estimation",
+    "No biological or SV validation implied"
+  ]
+}

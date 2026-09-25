@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-25T07:34:54.6218700Z",
+  "same_reads_as_previous": true,
+  "seven_spanning_reads_same_margins": true,
+  "files": [
+    {
+      "name": "panel.fa",
+      "sha256": "b4b8796a1014b9ae49d51e046533a67b57ca0f0a2912e9d2ee697f10561c8f70"
+    },
+    {
+      "name": "reads.fa",
+      "sha256": "101d49c6ed39df90e733cfad1f2fceda67e9e1e3706e0cef3e27934fe7edd1ef"
+    },
+    {
+      "name": "joint.sam",
+      "sha256": "5be92b1867caf0ec004ee0cc22441a70c729d3c99fc1d8b2e0a1e6c36a969642"
+    },
+    {
+      "name": "review.json",
+      "sha256": "f179ee8631ecfd0ddf1777e6976152bbf6e0a16a81b03aa6638bba1b579d70ec"
+    }
+  ],
+  "scope": "Input identity and comparison with prior evidence; not independent biological validation"
+}

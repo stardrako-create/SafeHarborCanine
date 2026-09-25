@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/home/stardrako/miniforge3/envs/cactus/bin/phyloFit",
+    "--init-model",
+    "/mnt/d/Jin2024_work/zoonomia_hal/neutral_model_1region.mod",
+    "--scale-only",
+    "--no-freqs",
+    "--no-rates",
+    "--precision",
+    "MED",
+    "--msa-format",
+    "MAF",
+    "--out-root",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.6/independent_region_scale",
+    "/mnt/d/Jin2024_work/zoonomia_hal/maf_dog/neutral_2.chr1.97942942.maf"
+  ],
+  "status": 0,
+  "seconds": 72.76305317878723,
+  "limitation": "Sensitivity check on a second random unfiltered region; branch proportions, frequencies and rates inherited from pilot. Not an independently validated neutral model."
+}

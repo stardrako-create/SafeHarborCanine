@@ -1,0 +1,44 @@
+[
+  {
+    "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+    "genes": "ANO2/NTF3",
+    "sample_count": 1987,
+    "records": 24,
+    "PASS": 20
+  },
+  {
+    "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+    "genes": "LOC119876429/LOC119872513",
+    "sample_count": 1987,
+    "records": 20,
+    "PASS": 13
+  },
+  {
+    "callset": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+    "genes": "NPNT/TBCK",
+    "sample_count": 1987,
+    "records": 23,
+    "PASS": 23
+  },
+  {
+    "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+    "genes": "ANO2/NTF3",
+    "sample_count": 1987,
+    "records": 1,
+    "PASS": 1
+  },
+  {
+    "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+    "genes": "LOC119876429/LOC119872513",
+    "sample_count": 1987,
+    "records": 2,
+    "PASS": 2
+  },
+  {
+    "callset": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+    "genes": "NPNT/TBCK",
+    "sample_count": 1987,
+    "records": 8,
+    "PASS": 8
+  }
+]

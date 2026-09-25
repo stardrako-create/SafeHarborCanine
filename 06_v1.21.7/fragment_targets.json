@@ -1,0 +1,51 @@
+[
+  {
+    "name": "ANO2/NTF3",
+    "chrom": "NC_006609.4",
+    "start": 7243778,
+    "end": 7244778,
+    "kind": "candidate"
+  },
+  {
+    "name": "LOC119876429/LOC119872513",
+    "chrom": "NC_006589.4",
+    "start": 17088186,
+    "end": 17089186,
+    "kind": "candidate"
+  },
+  {
+    "name": "NPNT/TBCK",
+    "chrom": "NC_006614.4",
+    "start": 15200069,
+    "end": 15201069,
+    "kind": "candidate"
+  },
+  {
+    "name": "CD3D_feature_control",
+    "chrom": "NC_006587.4",
+    "start": 15443060,
+    "end": 15444060,
+    "kind": "gene_feature_control_not_verified_TSS"
+  },
+  {
+    "name": "CD3E_feature_control",
+    "chrom": "NC_006587.4",
+    "start": 15465578,
+    "end": 15466578,
+    "kind": "gene_feature_control_not_verified_TSS"
+  },
+  {
+    "name": "CD247_feature_control",
+    "chrom": "NC_006589.4",
+    "start": 30436025,
+    "end": 30437025,
+    "kind": "gene_feature_control_not_verified_TSS"
+  },
+  {
+    "name": "LYZ_feature_control",
+    "chrom": "NC_006592.4",
+    "start": 11277889,
+    "end": 11278889,
+    "kind": "gene_feature_control_not_verified_TSS"
+  }
+]

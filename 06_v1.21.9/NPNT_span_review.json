@@ -1,0 +1,391 @@
+{
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+  "intervals": [
+    {
+      "name": "inside_0",
+      "chrom": "chr32",
+      "start": 6000000,
+      "end": 6002000,
+      "inside": true
+    },
+    {
+      "name": "inside_1",
+      "chrom": "chr32",
+      "start": 8888888,
+      "end": 8890888,
+      "inside": true
+    },
+    {
+      "name": "inside_2",
+      "chrom": "chr32",
+      "start": 11777777,
+      "end": 11779777,
+      "inside": true
+    },
+    {
+      "name": "inside_3",
+      "chrom": "chr32",
+      "start": 14666666,
+      "end": 14668666,
+      "inside": true
+    },
+    {
+      "name": "inside_4",
+      "chrom": "chr32",
+      "start": 17555555,
+      "end": 17557555,
+      "inside": true
+    },
+    {
+      "name": "inside_5",
+      "chrom": "chr32",
+      "start": 20444444,
+      "end": 20446444,
+      "inside": true
+    },
+    {
+      "name": "inside_6",
+      "chrom": "chr32",
+      "start": 23333333,
+      "end": 23335333,
+      "inside": true
+    },
+    {
+      "name": "inside_7",
+      "chrom": "chr32",
+      "start": 26222222,
+      "end": 26224222,
+      "inside": true
+    },
+    {
+      "name": "inside_8",
+      "chrom": "chr32",
+      "start": 29111111,
+      "end": 29113111,
+      "inside": true
+    },
+    {
+      "name": "inside_9",
+      "chrom": "chr32",
+      "start": 32000000,
+      "end": 32002000,
+      "inside": true
+    },
+    {
+      "name": "outside_1000000",
+      "chrom": "chr32",
+      "start": 1000000,
+      "end": 1002000,
+      "inside": false
+    },
+    {
+      "name": "outside_3000000",
+      "chrom": "chr32",
+      "start": 3000000,
+      "end": 3002000,
+      "inside": false
+    },
+    {
+      "name": "outside_35000000",
+      "chrom": "chr32",
+      "start": 35000000,
+      "end": 35002000,
+      "inside": false
+    },
+    {
+      "name": "outside_37000000",
+      "chrom": "chr32",
+      "start": 37000000,
+      "end": 37002000,
+      "inside": false
+    }
+  ],
+  "carrier_samples": [
+    "BFDB000001",
+    "GBGV000001",
+    "PBGV000010",
+    "PBGV000012"
+  ],
+  "breed_control_samples": [
+    "BFDB000002",
+    "BFDB000003",
+    "BFDB000004",
+    "BFDB000005",
+    "BFDB000006",
+    "GBGV000002",
+    "GBGV000003",
+    "GBGV000004",
+    "GBGV000005",
+    "PBGV000001",
+    "PBGV000002",
+    "PBGV000003",
+    "PBGV000004",
+    "PBGV000005",
+    "PBGV000006",
+    "PBGV000007",
+    "PBGV000008",
+    "PBGV000009",
+    "PBGV000011"
+  ],
+  "summary": [
+    {
+      "sample": "BFDB000001",
+      "carrier": true,
+      "breed": "Basset Fauve de Bretagne",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 21,
+      "inside_intervals_with_high_quality_het": 5,
+      "inside_median_DP": 18.0,
+      "outside_median_DP": 17.0,
+      "inside_outside_DP_ratio": 1.0588235294117647
+    },
+    {
+      "sample": "GBGV000001",
+      "carrier": true,
+      "breed": "Grand Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 10,
+      "inside_intervals_with_high_quality_het": 5,
+      "inside_median_DP": 19.0,
+      "outside_median_DP": 19.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "PBGV000010",
+      "carrier": true,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 22,
+      "inside_intervals_with_high_quality_het": 7,
+      "inside_median_DP": 19.0,
+      "outside_median_DP": 18.0,
+      "inside_outside_DP_ratio": 1.0555555555555556
+    },
+    {
+      "sample": "PBGV000012",
+      "carrier": true,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 26,
+      "inside_intervals_with_high_quality_het": 4,
+      "inside_median_DP": 19.0,
+      "outside_median_DP": 21.0,
+      "inside_outside_DP_ratio": 0.9047619047619048
+    },
+    {
+      "sample": "BFDB000002",
+      "carrier": false,
+      "breed": "Basset Fauve de Bretagne",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 24,
+      "inside_intervals_with_high_quality_het": 3,
+      "inside_median_DP": 21.0,
+      "outside_median_DP": 21.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "BFDB000003",
+      "carrier": false,
+      "breed": "Basset Fauve de Bretagne",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 10,
+      "inside_intervals_with_high_quality_het": 3,
+      "inside_median_DP": 20.0,
+      "outside_median_DP": 22.0,
+      "inside_outside_DP_ratio": 0.9090909090909091
+    },
+    {
+      "sample": "BFDB000004",
+      "carrier": false,
+      "breed": "Unknown",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 32,
+      "inside_intervals_with_high_quality_het": 6,
+      "inside_median_DP": 16.0,
+      "outside_median_DP": 20.0,
+      "inside_outside_DP_ratio": 0.8
+    },
+    {
+      "sample": "BFDB000005",
+      "carrier": false,
+      "breed": "Basset Fauve de Bretagne",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 4,
+      "inside_intervals_with_high_quality_het": 4,
+      "inside_median_DP": 19.0,
+      "outside_median_DP": 17.0,
+      "inside_outside_DP_ratio": 1.1176470588235294
+    },
+    {
+      "sample": "BFDB000006",
+      "carrier": false,
+      "breed": "Basset Fauve de Bretagne",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 27,
+      "inside_intervals_with_high_quality_het": 4,
+      "inside_median_DP": 18.0,
+      "outside_median_DP": 16.0,
+      "inside_outside_DP_ratio": 1.125
+    },
+    {
+      "sample": "GBGV000002",
+      "carrier": false,
+      "breed": "Grand Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 37,
+      "inside_intervals_with_high_quality_het": 6,
+      "inside_median_DP": 15.0,
+      "outside_median_DP": 15.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "GBGV000003",
+      "carrier": false,
+      "breed": "Grand Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 33,
+      "inside_intervals_with_high_quality_het": 6,
+      "inside_median_DP": 16.0,
+      "outside_median_DP": 16.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "GBGV000004",
+      "carrier": false,
+      "breed": "Grand Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 51,
+      "inside_intervals_with_high_quality_het": 8,
+      "inside_median_DP": 19.0,
+      "outside_median_DP": 20.0,
+      "inside_outside_DP_ratio": 0.95
+    },
+    {
+      "sample": "GBGV000005",
+      "carrier": false,
+      "breed": "Grand Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 45,
+      "inside_intervals_with_high_quality_het": 6,
+      "inside_median_DP": 18.0,
+      "outside_median_DP": 18.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "PBGV000001",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 25,
+      "inside_intervals_with_high_quality_het": 6,
+      "inside_median_DP": 20.0,
+      "outside_median_DP": 19.0,
+      "inside_outside_DP_ratio": 1.0526315789473684
+    },
+    {
+      "sample": "PBGV000002",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 30,
+      "inside_intervals_with_high_quality_het": 5,
+      "inside_median_DP": 16.0,
+      "outside_median_DP": 16.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "PBGV000003",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 18,
+      "inside_intervals_with_high_quality_het": 5,
+      "inside_median_DP": 19.0,
+      "outside_median_DP": 18.0,
+      "inside_outside_DP_ratio": 1.0555555555555556
+    },
+    {
+      "sample": "PBGV000004",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 15,
+      "inside_intervals_with_high_quality_het": 2,
+      "inside_median_DP": 20.0,
+      "outside_median_DP": 20.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "PBGV000005",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 22,
+      "inside_intervals_with_high_quality_het": 3,
+      "inside_median_DP": 20.0,
+      "outside_median_DP": 20.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "PBGV000006",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 29,
+      "inside_intervals_with_high_quality_het": 4,
+      "inside_median_DP": 20.0,
+      "outside_median_DP": 21.0,
+      "inside_outside_DP_ratio": 0.9523809523809523
+    },
+    {
+      "sample": "PBGV000007",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 33,
+      "inside_intervals_with_high_quality_het": 5,
+      "inside_median_DP": 22.0,
+      "outside_median_DP": 22.0,
+      "inside_outside_DP_ratio": 1.0
+    },
+    {
+      "sample": "PBGV000008",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 41,
+      "inside_intervals_with_high_quality_het": 6,
+      "inside_median_DP": 22.0,
+      "outside_median_DP": 21.0,
+      "inside_outside_DP_ratio": 1.0476190476190477
+    },
+    {
+      "sample": "PBGV000009",
+      "carrier": false,
+      "breed": "Petit Basset Griffon Vendeen",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 15,
+      "inside_intervals_with_high_quality_het": 5,
+      "inside_median_DP": 15.0,
+      "outside_median_DP": 16.0,
+      "inside_outside_DP_ratio": 0.9375
+    },
+    {
+      "sample": "PBGV000011",
+      "carrier": false,
+      "breed": "Unknown",
+      "inside_sites": 299,
+      "inside_high_quality_hets": 13,
+      "inside_intervals_with_high_quality_het": 4,
+      "inside_median_DP": 17.0,
+      "outside_median_DP": 18.0,
+      "inside_outside_DP_ratio": 0.9444444444444444
+    }
+  ],
+  "limitations": [
+    "Variant-ascertained sparse sites; DP is not unbiased genome-wide copy number",
+    "Calls cannot exclude mosaicism, complex rearrangements or mapping artefacts",
+    "No raw-read or orthogonal SV validation",
+    "High-quality heterozygosity inside an asserted deletion challenges a simple constitutive one-copy loss at those positions"
+  ]
+}

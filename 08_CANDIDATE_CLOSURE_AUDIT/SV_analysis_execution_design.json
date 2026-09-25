@@ -1,0 +1,26 @@
+{
+  "status": "analysis_design_not_launched",
+  "reference": "Full UU_Cfam_GSD_1.0 assembly; do not align only chr32",
+  "sample": "PBGV000010",
+  "requirements": [
+    "Both mates must match ENA byte count and MD5",
+    "Verify FASTQ mate synchronization and quality before alignment",
+    "Align against all reference contigs to preserve competition for mapping",
+    "Retain chr32 alignments plus reads whose mate maps to chr32 for breakpoint review",
+    "Report duplicate-sensitive and mapping-quality-sensitive coverage; do not equate SNP-site DP with unbiased copy number",
+    "Use distributed inside/outside coverage with GC/mappability context; do not use a single local control as copy number proof",
+    "Inspect both catalogued breakpoint neighborhoods for split and discordant support",
+    "Read evidence from one carrier may resolve this catalogue call but does not genotype intended CAR-T donor"
+  ],
+  "resources_observed": {
+    "WSL_available_RAM_MiB": 31023,
+    "logical_CPUs": 12,
+    "D_free_GiB": 119.38
+  },
+  "storage_strategy": "Retain compressed input mates; stream full-genome alignment into coverage summaries and selected alignments where feasible. Set explicit disk guard before execution; no automatic deletion of unvalidated inputs.",
+  "pending_implementation": [
+    "FASTQ validation and alignment/coverage collector",
+    "Duplicate handling and control-window QC",
+    "Breakpoint evidence summary with read-level support"
+  ]
+}

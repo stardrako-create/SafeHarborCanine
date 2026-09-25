@@ -1,0 +1,4 @@
+genes	wig	wig_values	recomputed_max50	recorded_max50	max50_matches	source_region_scored_fraction	model
+LOC119876429/LOC119872513	/mnt/d/Jin2024_work/zoonomia_hal/new3_phylop/loc1_LOC119876429_LOC119872513.wig	57182	4.013520000000001	4.01352	True	0.9989085467828536	pilot_1region_100kb_not_revalidated
+ANO2/NTF3	/mnt/d/Jin2024_work/zoonomia_hal/phylop_out/cand_36.chr27.39320764.wig	62392	5.1012200000000005	5.1012200000000005	True	0.9983660915949829	pilot_1region_100kb_not_revalidated
+NPNT/TBCK	/mnt/d/Jin2024_work/zoonomia_hal/new3_phylop/loc3_NPNT_TBCK.wig	57335	4.2259199999999995	4.2259199999999995	True	0.9993192885692842	pilot_1region_100kb_not_revalidated

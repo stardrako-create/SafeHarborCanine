@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-23T16:53:08.592687+00:00",
+  "source_alleles": 425,
+  "accepted_partial_allele_records": 334,
+  "pending_records": 91,
+  "pending_reasons": {
+    "REF_not_inside_one_exact_run": 70,
+    "nonsequence_ALT": 21
+  },
+  "per_window": {
+    "bg1k_2054": 28,
+    "bg1k_0045": 67,
+    "bg1k_2901": 10,
+    "bg1k_0202": 50,
+    "bg1k_0334": 22,
+    "bg1k_2545": 31,
+    "bg1k_0228": 21,
+    "bg1k_1958": 21,
+    "bg1k_2686": 37,
+    "bg1k_1650": 47
+  },
+  "limitations": [
+    "Partial exact-run allele transfer only, never whole-window clearance",
+    "Source allele records not deduplicated across catalogues",
+    "Two multialignment windows not queried",
+    "Mismatches, indels and unmapped sequence remain unresolved for full-window variant assessment"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "completed",
+  "all_1962_rows_recomputed_identically": true,
+  "summary": [
+    {
+      "window": "w01",
+      "tested": 981,
+      "nonunique": 19,
+      "variant_overlap": 405,
+      "unflagged": 567
+    },
+    {
+      "window": "w11",
+      "tested": 981,
+      "nonunique": 25,
+      "variant_overlap": 279,
+      "unflagged": 691
+    }
+  ],
+  "SV_carrier_raw_data_accessions_from_local_metadata": [
+    {
+      "sampleName": "BFDB000001",
+      "Breed/Type": "Basset Fauve de Bretagne",
+      "BIOSAMID": "SAMN20151373",
+      "runID": "SRR15100208",
+      "effectiveAutosomalMeanCoverage": "18.38"
+    },
+    {
+      "sampleName": "GBGV000001",
+      "Breed/Type": "Grand Basset Griffon Vendeen",
+      "BIOSAMID": "SAMN15625855",
+      "runID": "SRR12330331",
+      "effectiveAutosomalMeanCoverage": "18.81"
+    },
+    {
+      "sampleName": "PBGV000010",
+      "Breed/Type": "Petit Basset Griffon Vendeen",
+      "BIOSAMID": "SAMN21036425",
+      "runID": "SRR15734832",
+      "effectiveAutosomalMeanCoverage": "19.01"
+    },
+    {
+      "sampleName": "PBGV000012",
+      "Breed/Type": "Petit Basset Griffon Vendeen",
+      "BIOSAMID": "SAMN19522896",
+      "runID": "SRR14750332",
+      "effectiveAutosomalMeanCoverage": "21.71"
+    }
+  ],
+  "local_project_bam_cram": [],
+  "scope": "Project tree only; public run identifiers are metadata, not verified availability or downloaded evidence",
+  "limitations": [
+    "No nuclease selection found in project markdown/yaml/json keyword search",
+    "No prospective donor genotype identified; catalogue carriers are not the intended CAR-T donors",
+    "No raw SV read analysis performed"
+  ]
+}

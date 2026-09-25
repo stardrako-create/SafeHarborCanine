@@ -1,0 +1,48 @@
+{
+  "queries": [
+    {
+      "target": "ANO2/NTF3",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 102
+    },
+    {
+      "target": "LOC119876429/LOC119872513",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 133
+    },
+    {
+      "target": "NPNT/TBCK",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 148
+    },
+    {
+      "target": "CD3D_feature_control",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 113
+    },
+    {
+      "target": "CD3E_feature_control",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 99
+    },
+    {
+      "target": "CD247_feature_control",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 108
+    },
+    {
+      "target": "LYZ_feature_control",
+      "HTSlib_decoded_rows_match": true,
+      "queried_overlap_records": 123
+    }
+  ],
+  "unique_records_not_PCR_support_used_as_primary": true,
+  "limitations": [
+    "Coordinate-sorted BGZF searched by byte probes; only regional data downloaded",
+    "Complete start-based counts within bracketed intervals; overlap counts could omit extremely long fragments from before fetched range",
+    "RNA masks are exploratory, not validated T-cell clusters",
+    "Marker controls are feature-associated intervals, not confirmed promoters",
+    "One tumor donor; nuclei do not supply biological replication",
+    "No normalization to full genomic fragment depth; matrix peak count sum is a different quantity"
+  ]
+}

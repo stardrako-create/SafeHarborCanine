@@ -1,0 +1,16 @@
+{
+  "all_local_windows.tsv": "927b34f65f9f6b32647303eee8d2ef3f9dc75e11b42dc8515b92c6fca6af9a4b",
+  "analysis_manifest.json": "418c46896294814357628030a25ccb4fbdd115fdfcc3a9fc34aeca69dc300052",
+  "chain_alignment_audit.tsv": "44125583366b99843df26c62805368b3c40afa969f2f919566b96f4ad034f46a",
+  "chain_blocks.json": "c87e750b65da6440121fb9732802070f9ef9de01e4f980e2063b75c3832547e0",
+  "conservation_audit.tsv": "fbec0c221a0c4f3d72af2d33e93dbcbde6759d821c0f8cf25a588002b64fcaab",
+  "cpg_reconciliation.json": "695d8332bbe200fa94a7400f6050dc82c9e50199648f557bbccb4f9a63010deb",
+  "CURRENT.md": "c4b17e2420b766b09c734ab7809aaccf55175c1b349be4622aa5b082b464ca25",
+  "local_analysis.py": "4de65e94fa1be1c184046e98f24c3160c3cb3b9cdfc08e2b8ea5066ce777a704",
+  "local_backgrounds.tsv": "ac04585af2c754ecea85b86871ccc06404c028c008d6a7f2ec27a76cc1a3b1c8",
+  "reconcile_cpg.py": "cc1a336e8459e03f6c68c260294e4cec12f3bec7a7a8293b7554dd2a285294ca",
+  "RESULTS.md": "4438cd51de78cc338ad5ede9b6a8c73ff5d3fd15d057591a7bdf57b8f62b7cca",
+  "top_local_windows_exploratory.tsv": "d804200c16b8c0cc45a5df599dea079382cde06dbdb2b00858efda10b6a8d438",
+  "validate_analysis.py": "105823c467d0eee0f3eb14fe3487d27497a4a12c498c2fbc90578018cf29c301",
+  "validation.json": "f11dd429139eae1805148f3bcb8ed73a5fda52b640681902066781e2345dc5e2"
+}

@@ -1,0 +1,26 @@
+{
+  "sample": "PBGV000010",
+  "run": "SRR15734832",
+  "pid": 27164,
+  "status": "download_complete",
+  "validated_files": [
+    {
+      "file": "SRR15734832_1.fastq.gz",
+      "bytes": 14802392696,
+      "md5": "7599c82bf5276df8e650cdeb9d05f730",
+      "validated": true
+    },
+    {
+      "file": "SRR15734832_2.fastq.gz",
+      "bytes": 16512896249,
+      "md5": "597f33fb4418c2c741f2be55cc99baea",
+      "validated": true
+    }
+  ],
+  "file": "SRR15734832_2.fastq.gz",
+  "bytes_received": 16512896249,
+  "expected_bytes": 16512896249,
+  "free_bytes": 56203059200,
+  "updated_utc": "2026-09-20T08:12:59Z",
+  "note": "Both ENA sizes and MD5 verified. No alignment or biological validation performed."
+}

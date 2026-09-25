@@ -1,0 +1,65 @@
+[
+  {
+    "genes": "ANO2/NTF3",
+    "tile_bp": 100,
+    "tested": 37,
+    "passes_remap_proxy": 37,
+    "min_mapq": 60
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "tile_bp": 150,
+    "tested": 35,
+    "passes_remap_proxy": 35,
+    "min_mapq": 60
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "tile_bp": 250,
+    "tested": 31,
+    "passes_remap_proxy": 31,
+    "min_mapq": 60
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "tile_bp": 100,
+    "tested": 37,
+    "passes_remap_proxy": 36,
+    "min_mapq": 60
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "tile_bp": 150,
+    "tested": 35,
+    "passes_remap_proxy": 35,
+    "min_mapq": 60
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "tile_bp": 250,
+    "tested": 31,
+    "passes_remap_proxy": 31,
+    "min_mapq": 60
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "tile_bp": 100,
+    "tested": 37,
+    "passes_remap_proxy": 37,
+    "min_mapq": 60
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "tile_bp": 150,
+    "tested": 35,
+    "passes_remap_proxy": 35,
+    "min_mapq": 60
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "tile_bp": 250,
+    "tested": 31,
+    "passes_remap_proxy": 31,
+    "min_mapq": 60
+  }
+]

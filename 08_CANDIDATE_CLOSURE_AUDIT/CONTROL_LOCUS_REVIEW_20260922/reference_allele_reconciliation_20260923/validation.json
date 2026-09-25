@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-23T18:58:19.610755+00:00",
+  "source_records_reread": 32,
+  "pending_ALT_entries_in_reconciled_records": 34,
+  "checks": [
+    "Inverse permutation reproduces entire source AC/AN count vector",
+    "Original source AF reread unchanged",
+    "ROS allele index0 equals verified reference"
+  ],
+  "sha256": {
+    "review.json": "c5ffceab80a6a94ed4561ea54071406fdc5e2d60b343bf7c562fb6332aac50bf",
+    "normalized_alleles.json": "8934289108ccbe1d09e73048004b5e914a5713192d4faacd5d4ef603e0971b08",
+    "rebased_normalized.vcf": "db56134125dd08bd707cf23d820dc08337d9468efd194bb0af1376c0ac5d9302"
+  }
+}

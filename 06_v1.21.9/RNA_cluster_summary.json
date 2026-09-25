@@ -1,0 +1,37 @@
+{
+  "nuclei": 5849,
+  "genes": 35555,
+  "hvg_count": 2000,
+  "pca_components": 30,
+  "knn": 20,
+  "versions": {
+    "networkx": "3.6.1",
+    "sklearn": "1.9.0"
+  },
+  "hvg_method": "log1p library-size-normalized RNA; variance z-score within 20 mean-expression bins; not Seurat VST",
+  "clustering": "RNA-only weighted kNN Louvain; not authors multimodal WNN reproduction",
+  "T_enriched_rule": ">=20 nuclei; >=30% expressing >=1 CD3D/E/G and >=30% expressing >=1 CD247/LCK/CD2; <20% with >=2 myeloid or B markers. Exploratory cluster label, not validated annotation.",
+  "intersection_n": 155,
+  "union_n": 157,
+  "run_T_counts": {
+    "res0.5_seed0": 155,
+    "res0.5_seed42": 155,
+    "res1.0_seed0": 157,
+    "res1.0_seed42": 157
+  },
+  "ARI": {
+    "res0.5_seed0 vs res0.5_seed42": 0.9096488726561391,
+    "res0.5_seed0 vs res1.0_seed0": 0.7237439669074159,
+    "res0.5_seed0 vs res1.0_seed42": 0.7304011747313776,
+    "res0.5_seed42 vs res1.0_seed0": 0.6928671231175784,
+    "res0.5_seed42 vs res1.0_seed42": 0.7147738527849228,
+    "res1.0_seed0 vs res1.0_seed42": 0.7743621223650998
+  },
+  "limitations": [
+    "Single tumor donor",
+    "No independent barcode-level ground truth",
+    "No doublet detection or full ATAC QC",
+    "Cluster annotation thresholds exploratory; not purity estimates",
+    "Target ATAC counts not used for clustering or annotation"
+  ]
+}

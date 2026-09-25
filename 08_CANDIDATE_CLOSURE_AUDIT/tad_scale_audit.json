@@ -1,0 +1,83 @@
+{
+  "source": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\04_tracks_processadas\\ROS_Cfam_1.0\\zenodo_upload\\HiC_tad_insulation.tsv",
+  "source_sha256": "14633849e748938dae86597231203349ea379e86bdd479147a959d7b20a308fe",
+  "results": [
+    {
+      "window": "w01",
+      "scale": "union",
+      "chrom": "NC_051811.1",
+      "proxy_start": 17125000,
+      "proxy_end": 17350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w01",
+      "scale": "is_boundary_100000",
+      "chrom": "NC_051811.1",
+      "proxy_start": 17050000,
+      "proxy_end": 17350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w01",
+      "scale": "is_boundary_250000",
+      "chrom": "NC_051811.1",
+      "proxy_start": 17125000,
+      "proxy_end": 17650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w01",
+      "scale": "is_boundary_500000",
+      "chrom": "NC_051811.1",
+      "proxy_start": 17025000,
+      "proxy_end": 17675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w11",
+      "scale": "union",
+      "chrom": "NC_051836.1",
+      "proxy_start": 26900000,
+      "proxy_end": 27350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w11",
+      "scale": "is_boundary_100000",
+      "chrom": "NC_051836.1",
+      "proxy_start": 26900000,
+      "proxy_end": 27350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w11",
+      "scale": "is_boundary_250000",
+      "chrom": "NC_051836.1",
+      "proxy_start": 26900000,
+      "proxy_end": 27450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "window": "w11",
+      "scale": "is_boundary_500000",
+      "chrom": "NC_051836.1",
+      "proxy_start": 26800000,
+      "proxy_end": 27475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    }
+  ],
+  "limitations": [
+    "Boundary gaps are proxies, not validated domains or contact maps in canine T cells.",
+    "Union of scales can split a larger-scale boundary gap and hide risk genes detected at another scale.",
+    "Risk catalogue overlap does not establish a regulatory interaction; no overlap does not establish safety."
+  ]
+}

@@ -1,0 +1,4468 @@
+[
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770410,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.002265000017359853,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770418,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.04600000008940697,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770434,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0012580000329762697,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770463,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770470,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770536,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770594,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770622,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.07800000160932541,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770630,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.04899999871850014,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770641,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0005109999910928309,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770661,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0015219999477267265,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770684,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.05000000074505806,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770686,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.02199999988079071,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770758,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.04800000041723251,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__17",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770804,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770835,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.001006999984383583,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770846,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.004780999850481749,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770850,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.006039000116288662,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__21",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770850,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770930,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__23",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770972,
+    "ref": "C",
+    "alt": "A",
+    "AF": 0.03099999949336052,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__24",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770987,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.03099999949336052,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__25",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771093,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__26",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771147,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.08100000023841858,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__27",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771194,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.03099999949336052,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__28",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771281,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__29",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771288,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.08100000023841858,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__30",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771289,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.12999999523162842,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__32",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771342,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.014000000432133675,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__33",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808766,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808820,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.006039000116288662,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808853,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.09700000286102295,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808862,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.09700000286102295,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808868,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.09700000286102295,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808902,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0042779999785125256,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808928,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28808970,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.013000000268220901,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809030,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809066,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809067,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.035999998450279236,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809142,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809266,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809374,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0032709999941289425,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809397,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.19599999487400055,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809408,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.012000000104308128,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809411,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__17",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809458,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.012000000104308128,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809458,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.00025179999647662044,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809564,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.003020999953150749,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809587,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__21",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809654,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809655,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.014999999664723873,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99__23",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907000,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.001269000000320375,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907235,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.04600000008940697,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907252,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0002612000098451972,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907256,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.001044000033289194,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907282,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0010479999473318458,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907311,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.00026359999901615083,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907446,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.00025680000544525683,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907587,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0005096999811939895,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907672,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.0007775999838486314,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907812,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.0054259998723864555,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907937,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0005519000114873052,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430546,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430613,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.1899999976158142,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430634,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430699,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430730,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.289000004529953,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430732,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.08500000089406967,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430818,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.2329999953508377,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430852,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430859,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430867,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.1899999976158142,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430875,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.4779999852180481,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430922,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.009572000242769718,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430934,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.1899999976158142,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430980,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.007809000089764595,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430986,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431005,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431012,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.000755299988668412,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431084,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.1889999955892563,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431085,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431117,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0037750001065433025,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__21",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431127,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.1899999976158142,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431132,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.1899999976158142,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__23",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431233,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.39500001072883606,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__24",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431239,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__25",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431242,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0035230000503361225,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__26",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431268,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.00025179999647662044,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__27",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431302,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.20499999821186066,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__28",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431401,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.008051999844610691,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__29",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678485,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.008307999931275845,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678530,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.013000000268220901,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678531,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678578,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678606,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.008303999900817871,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678685,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.03999999910593033,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678816,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.008303999900817871,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678834,
+    "ref": "C",
+    "alt": "A",
+    "AF": 0.008303999900817871,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679156,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.001006999984383583,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679195,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.0002541000139899552,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679208,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0007715999963693321,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679209,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679213,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.0005101999850012362,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679216,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.0005119999987073243,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679229,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.001294999965466559,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679232,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.39800000190734863,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679232,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.0013360000448301435,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__17",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679235,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679238,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0005048000020906329,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679239,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.005489000119268894,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679293,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.00025189999723806977,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__21",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679295,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.001762000028975308,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679304,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0010079999919980764,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__23",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679341,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.0002528000040911138,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__24",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679342,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0002528000040911138,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__25",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679344,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.03999999910593033,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__26",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679372,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.008829000405967236,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99__27",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52129912,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.10599999874830246,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52129931,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0005039999959990382,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52129940,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0007559999939985573,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52129992,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0002519999979995191,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52129992,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.0005039999959990382,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130053,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.0002519999979995191,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130193,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.0010089999996125698,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130199,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.004540999885648489,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130234,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.00031370000215247273,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130239,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.04699999839067459,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130239,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.004526000004261732,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130240,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.004410000052303076,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130244,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.009859000332653522,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__17",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130245,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.0003487000067252666,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130246,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.027000000700354576,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130246,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.0003391999925952405,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130247,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.03400000184774399,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__24",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130248,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.005609999876469374,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__26",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130248,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0003505999920889735,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__27",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130251,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.052000001072883606,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__29",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130252,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.00395399983972311,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__31",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130256,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.03400000184774399,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__33",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130276,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.01899999938905239,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__34",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130331,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00033420001273043454,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__37",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130343,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00033489998895674944,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__39",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130348,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0002938999969046563,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__41",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130357,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.00057640002341941,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__43",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130363,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00034920001053251326,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__45",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130370,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.0003218000056222081,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__47",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130375,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0009893999667838216,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__49",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130405,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.0008025999995879829,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__50",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130417,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.004344000015407801,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__53",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130425,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.0015140000032261014,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__54",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130442,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.001259000040590763,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__56",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130447,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0007556999917142093,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__58",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130464,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00025179999647662044,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__61",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130468,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.20100000500679016,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__62",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130525,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0005034999921917915,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__64",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130556,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.02800000086426735,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__65",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130562,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__67",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130595,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__68",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130705,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.03099999949336052,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__69",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130710,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__70",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130749,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.10400000214576721,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__71",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130838,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0020129999611526728,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__72",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725578,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0042779999785125256,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725700,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.06599999964237213,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725748,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.06499999761581421,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725787,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725799,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725819,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.06499999761581421,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725834,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725837,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725895,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726012,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726013,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.06400000303983688,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726103,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.004780999850481749,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726116,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.699999988079071,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726168,
+    "ref": "C",
+    "alt": "A",
+    "AF": 0.0025160000659525394,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726240,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.05299999937415123,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726262,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0032709999941289425,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093775,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0038209999911487103,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093870,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.004751000087708235,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093886,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.0430000014603138,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093912,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.04800000041723251,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093961,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.026000000536441803,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093964,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.002652999944984913,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26093976,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.0029529999010264874,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094002,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0011790000135079026,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094031,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0008902000263333321,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094128,
+    "ref": "G",
+    "alt": "T",
+    "AF": 0.0005710999830625951,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094162,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.00027809999301098287,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094166,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0025339999701827765,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094206,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.002828999888151884,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094231,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.007406000047922134,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094232,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.0027979998849332333,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094244,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.164000004529953,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094260,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.003797000041231513,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__17",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094271,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.11500000208616257,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094271,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.008923999965190887,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094310,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.00025240000104531646,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094330,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.003533999901264906,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__21",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094338,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.0073449998162686825,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094367,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.009999999776482582,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__23",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094403,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0005039999959990382,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__24",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094411,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.0037799999117851257,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__25",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094415,
+    "ref": "C",
+    "alt": "A",
+    "AF": 0.0005044999998062849,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__26",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094453,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.0005056000081822276,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__27",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094484,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.00025320000713691115,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__28",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094494,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.00025350000942125916,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__29",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094501,
+    "ref": "T",
+    "alt": "G",
+    "AF": 0.10199999809265137,
+    "filters": [
+      "VQSRTrancheSNP99.00to99.90"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__30",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094502,
+    "ref": "C",
+    "alt": "G",
+    "AF": 0.03500000014901161,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__31",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094564,
+    "ref": "G",
+    "alt": "C",
+    "AF": 0.00025340000865980983,
+    "filters": [
+      "VQSRTrancheSNP99.90to100.00"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__32",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094603,
+    "ref": "A",
+    "alt": "C",
+    "AF": 0.09099999815225601,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__33",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094639,
+    "ref": "T",
+    "alt": "C",
+    "AF": 0.09700000286102295,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__34",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094657,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.02500000037252903,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+    "id": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99__35",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770620,
+    "ref": "T",
+    "alt": "TA",
+    "AF": 0.02199999988079071,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770620,
+    "ref": "TA",
+    "alt": "T",
+    "AF": 0.01899999938905239,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770629,
+    "ref": "AAATTAT",
+    "alt": "A",
+    "AF": 0.028999999165534973,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770640,
+    "ref": "AT",
+    "alt": "A",
+    "AF": 0.0005106999888084829,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770652,
+    "ref": "TTTTA",
+    "alt": "T",
+    "AF": 0.0012740000383928418,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770682,
+    "ref": "CAG",
+    "alt": "C",
+    "AF": 0.017000000923871994,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770682,
+    "ref": "C",
+    "alt": "CAG",
+    "AF": 0.029999999329447746,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770825,
+    "ref": "T",
+    "alt": "TA",
+    "AF": 0.003019999945536256,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3770825,
+    "ref": "TA",
+    "alt": "T",
+    "AF": 0.0032709999941289425,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771235,
+    "ref": "ATGAGGAGTTATT",
+    "alt": "A",
+    "AF": 0.04899999871850014,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771286,
+    "ref": "GGT",
+    "alt": "G",
+    "AF": 0.003019999945536256,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771306,
+    "ref": "CAG",
+    "alt": "C",
+    "AF": 0.22200000286102295,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771306,
+    "ref": "CAGAG",
+    "alt": "C",
+    "AF": 0.03200000151991844,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771306,
+    "ref": "C",
+    "alt": "CAG",
+    "AF": 0.02800000086426735,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771306,
+    "ref": "CAGAGAG",
+    "alt": "C",
+    "AF": 0.0045289997942745686,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0567",
+    "chrom": "NC_051823.1",
+    "start0": 3771306,
+    "ref": "CAGAGAGAG",
+    "alt": "C",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0567__AutoAndXPAR.nonSNPs.filter__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2848",
+    "chrom": "NC_051840.1",
+    "start0": 28809490,
+    "ref": "CAAAT",
+    "alt": "C",
+    "AF": 0.00025209999876096845,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2848__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2848__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907289,
+    "ref": "T",
+    "alt": "TG",
+    "AF": 0.0005237999721430242,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2865__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907366,
+    "ref": "TTTGTATTGAGATTGAGATTGTATTGTA",
+    "alt": "T",
+    "AF": 0.0011080000549554825,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2865__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907477,
+    "ref": "AAG",
+    "alt": "A",
+    "AF": 0.0007633999921381474,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2865__AutoAndXPAR.nonSNPs.filter__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907525,
+    "ref": "GTAGGCTCTACGCTGC",
+    "alt": "G",
+    "AF": 0.0002544999879319221,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2865__AutoAndXPAR.nonSNPs.filter__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2865",
+    "chrom": "NC_051815.1",
+    "start0": 42907600,
+    "ref": "AG",
+    "alt": "A",
+    "AF": 0.0007695999811403453,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2865__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2865__AutoAndXPAR.nonSNPs.filter__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10430804,
+    "ref": "AAC",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431006,
+    "ref": "TAATTTCG",
+    "alt": "T",
+    "AF": 0.1889999955892563,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431076,
+    "ref": "C",
+    "alt": "CA",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431120,
+    "ref": "G",
+    "alt": "GTA",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431137,
+    "ref": "CAT",
+    "alt": "C",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431329,
+    "ref": "CCCT",
+    "alt": "C",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0442",
+    "chrom": "NC_051837.1",
+    "start0": 10431333,
+    "ref": "AG",
+    "alt": "A",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0442__AutoAndXPAR.nonSNPs.filter__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678691,
+    "ref": "AAT",
+    "alt": "A",
+    "AF": 0.0012580000329762697,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678741,
+    "ref": "G",
+    "alt": "GCTAA",
+    "AF": 0.4169999957084656,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678743,
+    "ref": "T",
+    "alt": "TAACC",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678770,
+    "ref": "AC",
+    "alt": "A",
+    "AF": 0.20000000298023224,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678842,
+    "ref": "C",
+    "alt": "CG",
+    "AF": 0.0005032999906688929,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678930,
+    "ref": "CCT",
+    "alt": "C",
+    "AF": 0.002265000017359853,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678960,
+    "ref": "GAATA",
+    "alt": "G",
+    "AF": 0.002518000081181526,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678960,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.001259000040590763,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678982,
+    "ref": "TA",
+    "alt": "T",
+    "AF": 0.06700000166893005,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678982,
+    "ref": "T",
+    "alt": "TA",
+    "AF": 0.3330000042915344,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678982,
+    "ref": "T",
+    "alt": "TAA",
+    "AF": 0.017999999225139618,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__11",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678982,
+    "ref": "TAA",
+    "alt": "T",
+    "AF": 0.0025190000887960196,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678982,
+    "ref": "TAAA",
+    "alt": "T",
+    "AF": 0.004282000008970499,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678982,
+    "ref": "T",
+    "alt": "TAAA",
+    "AF": 0.0005037999944761395,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678996,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.05299999937415123,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46678996,
+    "ref": "GACTC",
+    "alt": "G",
+    "AF": 0.00025179999647662044,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679328,
+    "ref": "T",
+    "alt": "TA",
+    "AF": 0.00025270000332966447,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__17",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679347,
+    "ref": "T",
+    "alt": "TA",
+    "AF": 0.008581999689340591,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679347,
+    "ref": "TA",
+    "alt": "T",
+    "AF": 0.0010100000072270632,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_1023",
+    "chrom": "NC_051816.1",
+    "start0": 46679354,
+    "ref": "AAAC",
+    "alt": "A",
+    "AF": 0.0030269999988377094,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_1023__AutoAndXPAR.nonSNPs.filter__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130074,
+    "ref": "A",
+    "alt": "AG",
+    "AF": 0.00025209999876096845,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130081,
+    "ref": "AC",
+    "alt": "A",
+    "AF": 0.0005042999982833862,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130159,
+    "ref": "C",
+    "alt": "CCAGA",
+    "AF": 0.4569999873638153,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130220,
+    "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+    "alt": "T",
+    "AF": 0.0010179999517276883,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130222,
+    "ref": "CT",
+    "alt": "C",
+    "AF": 0.08900000154972076,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130222,
+    "ref": "C",
+    "alt": "CT",
+    "AF": 0.05299999937415123,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130222,
+    "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCT",
+    "alt": "C",
+    "AF": 0.006513999775052071,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__7",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130222,
+    "ref": "CTT",
+    "alt": "C",
+    "AF": 0.010999999940395355,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__8",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130222,
+    "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTT",
+    "alt": "C",
+    "AF": 0.0054720002226531506,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__9",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130222,
+    "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+    "alt": "C",
+    "AF": 0.001303000026382506,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__10",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130236,
+    "ref": "T",
+    "alt": "TTTTA",
+    "AF": 0.0020000000949949026,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__12",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130236,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.05900000035762787,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__13",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130236,
+    "ref": "T",
+    "alt": "TTTTTA",
+    "AF": 0.007666999939829111,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__14",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130236,
+    "ref": "T",
+    "alt": "TTTTTTA",
+    "AF": 0.017000000923871994,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__15",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130236,
+    "ref": "T",
+    "alt": "TTTTTAA",
+    "AF": 0.003000000026077032,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__16",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130237,
+    "ref": "A",
+    "alt": "AG",
+    "AF": 0.028999999165534973,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__18",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130237,
+    "ref": "A",
+    "alt": "AAG",
+    "AF": 0.02199999988079071,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__19",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130238,
+    "ref": "A",
+    "alt": "AG",
+    "AF": 0.017000000923871994,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__20",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130238,
+    "ref": "A",
+    "alt": "T",
+    "AF": 0.00034410000080242753,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__22",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130238,
+    "ref": "A",
+    "alt": "G",
+    "AF": 0.029999999329447746,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__23",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130238,
+    "ref": "A",
+    "alt": "AGAT",
+    "AF": 0.0006882000016048551,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__24",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130242,
+    "ref": "T",
+    "alt": "TATC",
+    "AF": 0.03099999949336052,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__26",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130253,
+    "ref": "TGATAG",
+    "alt": "T",
+    "AF": 0.007751999888569117,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__28",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130254,
+    "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+    "alt": "G",
+    "AF": 0.00037709999014623463,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__30",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130259,
+    "ref": "T",
+    "alt": "A",
+    "AF": 0.032999999821186066,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__32",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130262,
+    "ref": "CAGAGGGAG",
+    "alt": "C",
+    "AF": 0.028999999165534973,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__34",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130265,
+    "ref": "AGG",
+    "alt": "A",
+    "AF": 0.0007071999716572464,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__36",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130267,
+    "ref": "GGA",
+    "alt": "G",
+    "AF": 0.007548999972641468,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__37",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130267,
+    "ref": "G",
+    "alt": "A",
+    "AF": 0.002876000013202429,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__39",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130267,
+    "ref": "GGAGA",
+    "alt": "G",
+    "AF": 0.0003595000016503036,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__40",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130283,
+    "ref": "G",
+    "alt": "GCA",
+    "AF": 0.027000000700354576,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__41",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130283,
+    "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+    "alt": "G",
+    "AF": 0.0003411000070627779,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__43",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130294,
+    "ref": "GGC",
+    "alt": "G",
+    "AF": 0.00033069998607970774,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__45",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130299,
+    "ref": "AGGGAG",
+    "alt": "A",
+    "AF": 0.00033400001120753586,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__47",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130307,
+    "ref": "GC",
+    "alt": "G",
+    "AF": 0.0003333000058773905,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__49",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130310,
+    "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+    "alt": "G",
+    "AF": 0.0003344000142533332,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__51",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130412,
+    "ref": "CCA",
+    "alt": "C",
+    "AF": 0.0007651000050827861,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__53",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130414,
+    "ref": "ACCTTTTTTT",
+    "alt": "A",
+    "AF": 0.0024999999441206455,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__54",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130416,
+    "ref": "C",
+    "alt": "CT",
+    "AF": 0.04600000008940697,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__56",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130416,
+    "ref": "CT",
+    "alt": "C",
+    "AF": 0.05900000035762787,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__57",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130416,
+    "ref": "C",
+    "alt": "CTT",
+    "AF": 0.0026020000223070383,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__58",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130416,
+    "ref": "CTT",
+    "alt": "C",
+    "AF": 0.0026020000223070383,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__60",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130416,
+    "ref": "C",
+    "alt": "T",
+    "AF": 0.000743500015232712,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__61",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130431,
+    "ref": "T",
+    "alt": "TAA",
+    "AF": 0.0015119999879971147,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__62",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130462,
+    "ref": "CAG",
+    "alt": "C",
+    "AF": 0.001762000028975308,
+    "filters": [
+      "QD2"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__64",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130552,
+    "ref": "ATCAG",
+    "alt": "A",
+    "AF": 0.001006999984383583,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__66",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130638,
+    "ref": "G",
+    "alt": "GT",
+    "AF": 0.008806999772787094,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__67",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0878",
+    "chrom": "NC_051811.1",
+    "start0": 52130638,
+    "ref": "G",
+    "alt": "GTT",
+    "AF": 0.00025159999495372176,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__68",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725756,
+    "ref": "CT",
+    "alt": "C",
+    "AF": 0.0045289997942745686,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2228__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725912,
+    "ref": "GA",
+    "alt": "G",
+    "AF": 0.0017610000213608146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2228__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725938,
+    "ref": "G",
+    "alt": "GGTT",
+    "AF": 0.1289999932050705,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2228__AutoAndXPAR.nonSNPs.filter__3",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725938,
+    "ref": "GGTTGTT",
+    "alt": "G",
+    "AF": 0.041999999433755875,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2228__AutoAndXPAR.nonSNPs.filter__4",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39725938,
+    "ref": "GGTT",
+    "alt": "G",
+    "AF": 0.0007548999856226146,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2228__AutoAndXPAR.nonSNPs.filter__5",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_2228",
+    "chrom": "NC_051806.1",
+    "start0": 39726091,
+    "ref": "T",
+    "alt": "TAG",
+    "AF": 0.6959999799728394,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_2228__AutoAndXPAR.nonSNPs.filter__6",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094123,
+    "ref": "TA",
+    "alt": "T",
+    "AF": 0.0005710999830625951,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0117__AutoAndXPAR.nonSNPs.filter__1",
+    "normalized_within_window": true
+  },
+  {
+    "window": "bg1k_0117",
+    "chrom": "NC_051819.1",
+    "start0": 26094378,
+    "ref": "CAAAG",
+    "alt": "C",
+    "AF": 0.0005039999959990382,
+    "filters": [
+      "PASS"
+    ],
+    "source_key": "bg1k_0117__AutoAndXPAR.nonSNPs.filter",
+    "id": "bg1k_0117__AutoAndXPAR.nonSNPs.filter__2",
+    "normalized_within_window": true
+  }
+]

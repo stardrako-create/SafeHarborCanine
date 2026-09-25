@@ -181,6 +181,10 @@ confidence ≥ 0.2 at that bin.
 Script: `scripts/build_hic_tracks.py`. Not a population track — a single
 German Shepherd's 3 Hi-C libraries, merged, used as structural context only
 (explicitly down-weighted in scoring, see `05_SHIP/README.md`).
+These were assembly-oriented Dovetail Hi-C libraries. Wang et al. report HMW
+DNA extraction from blood, but do not explicitly identify the cell type or
+nuclear preparation used for the Hi-C libraries. They must therefore not be
+described as fibroblast-, PBMC-, or T-cell-specific data.
 
 Pipeline: `pairtools merge` (3 libraries → 1 valid-pairs file) →
 `cooler cload pairs` (1 kb fixed-width bins — no restriction-fragment

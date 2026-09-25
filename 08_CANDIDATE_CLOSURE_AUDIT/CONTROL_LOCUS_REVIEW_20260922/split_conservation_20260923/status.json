@@ -1,0 +1,125 @@
+{
+  "state": "completed",
+  "started_utc": "2026-09-23T17:24:49.630758+00:00",
+  "completed": [
+    {
+      "id": "bg1k_0023",
+      "chrom": "chr26",
+      "reciprocal_mapped_bp": 81,
+      "supported_scored_bp": 62,
+      "mean_supported_only": -0.017500000000000026,
+      "fraction_ge2_supported_only": 0.0,
+      "maf_sha256": "e53922afb2bb58a9c84fe143b978c19d732e0ba41d1c5d9779e5ace7e2020ae2",
+      "mapped_sha256": "9c695498c7745a9ccd33cf32452cd195f2d379f345f4f9cb97b0487f48f13697"
+    },
+    {
+      "id": "bg1k_0045",
+      "chrom": "chr21",
+      "reciprocal_mapped_bp": 879,
+      "supported_scored_bp": 879,
+      "mean_supported_only": -0.09491353811149006,
+      "fraction_ge2_supported_only": 0.006825938566552901,
+      "maf_sha256": "8ef49613dd7a359163d117035309c5f5fc0210047afd1d4a7474696eee357f59",
+      "mapped_sha256": "0d08daae0ab1faeaf15b6758dbcb1f19b9a1a0fda9af20553d8e0f2f3e50ba15"
+    },
+    {
+      "id": "bg1k_0228",
+      "chrom": "chr22",
+      "reciprocal_mapped_bp": 1000,
+      "supported_scored_bp": 1000,
+      "mean_supported_only": -0.02430199999999968,
+      "fraction_ge2_supported_only": 0.011,
+      "maf_sha256": "0ed5e3301ba1aadda9064b3ccd1a4736711f1ddcd171c7550c52f4b75d1be8db",
+      "mapped_sha256": "52dc68c2cb45b0d462c0e08225e3fadc8782c791657773cbe1640773e74b56b7"
+    },
+    {
+      "id": "bg1k_0334",
+      "chrom": "chr21",
+      "reciprocal_mapped_bp": 991,
+      "supported_scored_bp": 991,
+      "mean_supported_only": 0.23971543895055486,
+      "fraction_ge2_supported_only": 0.07669021190716448,
+      "maf_sha256": "886af3aea17f32683879b2bdaee3e54548a7bc08065392acc68ba835bebda0ce",
+      "mapped_sha256": "4c69ab933b4850a1ffab0265812e2f4d1ac7671560fc3ce73697e08b481c9552"
+    },
+    {
+      "id": "bg1k_0567",
+      "chrom": "chr19",
+      "reciprocal_mapped_bp": 980,
+      "supported_scored_bp": 980,
+      "mean_supported_only": -0.08915714285714288,
+      "fraction_ge2_supported_only": 0.00816326530612245,
+      "maf_sha256": "11c390fcdc053ca57ef14c362f6462e0815533b9ac18cc99282c2bdfa303f6ba",
+      "mapped_sha256": "2d18ec4b9e7c3ed6397e927924a59137ebd1b674137815fe3c6723ed8fdaa7c7"
+    },
+    {
+      "id": "bg1k_1023",
+      "chrom": "chr12",
+      "reciprocal_mapped_bp": 987,
+      "supported_scored_bp": 987,
+      "mean_supported_only": 0.04975481256332312,
+      "fraction_ge2_supported_only": 0.008105369807497468,
+      "maf_sha256": "a2c74e74c71cf3302c50e09e83e9fe8633ab510299de3c345e72c1cebddd11e1",
+      "mapped_sha256": "407c503b3e37287c4894c76c3421e2806eeeba51aba7e4961c043e82dfc490c1"
+    },
+    {
+      "id": "bg1k_1650",
+      "chrom": "chr16",
+      "reciprocal_mapped_bp": 935,
+      "supported_scored_bp": 935,
+      "mean_supported_only": 0.021777540106952018,
+      "fraction_ge2_supported_only": 0.0,
+      "maf_sha256": "4d5470f05852f322e5e8e032507ea49b556897f17013bef72d66cc4ff3436f2d",
+      "mapped_sha256": "2e0ccdbc461ac5e21e10962dce750584016a33d1e4e0dae462510c94ed8cce3e"
+    },
+    {
+      "id": "bg1k_2228",
+      "chrom": "chr2",
+      "reciprocal_mapped_bp": 1000,
+      "supported_scored_bp": 1000,
+      "mean_supported_only": 0.3075009999999999,
+      "fraction_ge2_supported_only": 0.058,
+      "maf_sha256": "d157ed7a7456c308a8f9be2a179ac2248b8658105380660901bbe00d3e2d0aa4",
+      "mapped_sha256": "c1caba71b784039c266b1af1cbaaa14eb284bda3610a150fb3ee0b3563baa4ae"
+    },
+    {
+      "id": "bg1k_2545",
+      "chrom": "chr35",
+      "reciprocal_mapped_bp": 979,
+      "supported_scored_bp": 979,
+      "mean_supported_only": -0.023673135852910924,
+      "fraction_ge2_supported_only": 0.03677221654749745,
+      "maf_sha256": "ab4f914771e736af77cc534ce1cb0ac8f02df562325e9d5676db98f13a887859",
+      "mapped_sha256": "5da6e0e75905a21ec33c21a48051961101b74319d7ef0983d3c411d73d693086"
+    },
+    {
+      "id": "bg1k_2865",
+      "chrom": "chr11",
+      "reciprocal_mapped_bp": 946,
+      "supported_scored_bp": 946,
+      "mean_supported_only": -0.057195560253699596,
+      "fraction_ge2_supported_only": 0.011627906976744186,
+      "maf_sha256": "665f3a0ea05050197ff736d13fd2d9a6699c2b6a3638270385f232b008cbacaf",
+      "mapped_sha256": "00f8d0fc5bd6575540f1f7fe3c3b02ac5e03b089cf13dee289cc39b009853ec8"
+    },
+    {
+      "id": "bg1k_2867",
+      "chrom": "chr25",
+      "reciprocal_mapped_bp": 590,
+      "supported_scored_bp": 590,
+      "mean_supported_only": 0.08659661016949163,
+      "fraction_ge2_supported_only": 0.023728813559322035,
+      "maf_sha256": "0bf09cf96515620cdef28d14b49d0423162b83f4ab03b920c357f7cf97719612",
+      "mapped_sha256": "c5dfeb97da7b0cd50896d44272cb138c0cb14e850e2f7cab8ff9734183bdf515"
+    }
+  ],
+  "errors": [],
+  "model_sha256": "71972f351ee732763058bf0d9bcc3970d95e6518ffe318479eb80964b03d6dff",
+  "updated_utc": "2026-09-23T17:25:38.626952+00:00",
+  "limitations": [
+    "Only exact reciprocal coordinate points reported, not whole window approval",
+    "Unsupported positions have null score even when phyloP emits numeric values",
+    "No new conservation threshold introduced; means only over supported scored subset",
+    "Shared chain sources and noDupes extraction retain their original limitations"
+  ]
+}

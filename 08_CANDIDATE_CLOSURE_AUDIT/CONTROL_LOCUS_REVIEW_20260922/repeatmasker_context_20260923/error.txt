@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/review_control_repeats_20260923.py", line 19, in <module>
+    assert p.returncode==0,'RepeatMasker exit '+str(p.returncode)
+           ^^^^^^^^^^^^^^^
+AssertionError: RepeatMasker exit 255

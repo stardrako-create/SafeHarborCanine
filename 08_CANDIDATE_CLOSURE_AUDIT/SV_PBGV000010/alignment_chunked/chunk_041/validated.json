@@ -1,0 +1,11 @@
+{
+  "start_pair0": 164000000,
+  "pairs": 4000000,
+  "primary": 8000000,
+  "read1": 4000000,
+  "read2": 4000000,
+  "all_records": 8040154,
+  "retained_records": 136611,
+  "bam_sha256": "6a156aabe5849c8505c6458cf0ef06a355bf8f2dfad2dfae72f6e9fce3c9f150",
+  "validated_utc": "2026-09-22T05:46:12Z"
+}

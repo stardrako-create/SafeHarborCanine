@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "matrix_rows": 14385,
+  "matrix_columns": [
+    "B_B7H3_CAR_T",
+    "B_BC_CAR_T",
+    "B_T_cell",
+    "E_B7H3_CAR_T",
+    "E_BC_CAR_T",
+    "E_T_cell",
+    "M_B7H3_CAR_T",
+    "M_BC_CAR_T",
+    "M_T_cell"
+  ],
+  "sample_metadata_matched": 9,
+  "biological_replicate_labels": [
+    "B",
+    "E",
+    "M"
+  ],
+  "selected_genes": 40,
+  "genes_present": 25,
+  "genes_absent": [
+    "ANO2",
+    "APOBEC4",
+    "ARHGEF38",
+    "CD247",
+    "CD8B",
+    "COLGALT2",
+    "GALNT8",
+    "GIMD1",
+    "KCNA1",
+    "KCNA5",
+    "KCNA6",
+    "LOC119867197",
+    "LOC119872513",
+    "LOC119876429",
+    "NTF3"
+  ],
+  "gene_selection": "Ten nearest distinct annotated gene symbols per declared region anchor plus predeclared candidate/marker genes; not expression-selected",
+  "methods": "Median/range CPM across three reported replicate labels; within-label log2 ratios only when both values positive; no pseudocount or inferential testing",
+  "limitations": [
+    "Source/tissue fields in GEO may contradict specific sample title/treatment; titles/characteristics used and conflict preserved",
+    "No independent individual donor identity verification beyond biological replicate labels",
+    "Processed CPM is not raw count input for DESeq2",
+    "No local ATAC or post-integration safety inference",
+    "Transcript annotation and gene symbols differ between CanFam3.1 expression processing and ROS genomic context; missing symbols not zero"
+  ],
+  "sources": {
+    "GEO": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE247355",
+    "paper": "https://pubmed.ncbi.nlm.nih.gov/38554158/",
+    "metadata_sha256": "bfedcab6c54d3d4a03aff5173ebf5b0333aa548b22d33fe636ac1f0d2fe9928a",
+    "CPM_sha256": "d3c8a3058cc7ab767e52bee41cfe6c248e728b5f05b903047af9d90f7c4745ce"
+  }
+}

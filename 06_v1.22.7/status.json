@@ -1,0 +1,317 @@
+{
+  "version": "1.22.7",
+  "started": 1789750850.678313,
+  "status": "execution_validated_scientific_review_pending",
+  "samples": {
+    "SRR26729600": {
+      "status": "validated",
+      "sample": "B_B7H3_CAR_T",
+      "unique_pct": "92.35%",
+      "input_pairs": 71312581
+    },
+    "SRR26729599": {
+      "status": "validated",
+      "sample": "B_BC_CAR_T",
+      "unique_pct": "92.08%",
+      "input_pairs": 73105889
+    },
+    "SRR26729598": {
+      "status": "validated",
+      "sample": "B_T_cell",
+      "unique_pct": "91.46%",
+      "input_pairs": 63103725
+    },
+    "SRR26729597": {
+      "status": "validated",
+      "sample": "E_B7H3_CAR_T",
+      "unique_pct": "93.26%",
+      "input_pairs": 63968677
+    },
+    "SRR26729596": {
+      "status": "validated",
+      "sample": "E_BC_CAR_T",
+      "unique_pct": "93.10%",
+      "input_pairs": 50056953
+    },
+    "SRR26729595": {
+      "status": "validated",
+      "sample": "E_T_cell",
+      "unique_pct": "93.54%",
+      "input_pairs": 47628160
+    },
+    "SRR26729594": {
+      "status": "validated",
+      "sample": "M_B7H3_CAR_T",
+      "unique_pct": "89.13%",
+      "input_pairs": 63529252
+    },
+    "SRR26729593": {
+      "status": "validated",
+      "sample": "M_BC_CAR_T",
+      "unique_pct": "90.91%",
+      "input_pairs": 58110849
+    },
+    "SRR26729592": {
+      "status": "validated",
+      "sample": "M_T_cell",
+      "unique_pct": "89.52%",
+      "input_pairs": 59387857
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runMode",
+        "genomeGenerate",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--genomeFastaFiles",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+        "--sjdbGTFfile",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/audit_2026-09-18/ROS_release106.STAR_compatible.gtf",
+        "--sjdbOverhang",
+        "149",
+        "--genomeSAsparseD",
+        "2",
+        "--limitGenomeGenerateRAM",
+        "28000000000",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/index_"
+      ],
+      "returncode": 0,
+      "started": 1789750863.1960778,
+      "finished": 1789752192.0496266
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729600/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729600/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729600/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729600_285"
+      ],
+      "returncode": 0,
+      "started": 1789752336.9011943,
+      "finished": 1789754665.208002
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729599/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729599/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729599/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729599_285"
+      ],
+      "returncode": 0,
+      "started": 1789754711.1986563,
+      "finished": 1789757097.9131126
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729598/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729598/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729598/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729598_285"
+      ],
+      "returncode": 0,
+      "started": 1789757141.225771,
+      "finished": 1789760051.409875
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729597/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729597/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729597/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729597_285"
+      ],
+      "returncode": 0,
+      "started": 1789760090.9699311,
+      "finished": 1789762054.930797
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729596/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729596/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729596/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729596_285"
+      ],
+      "returncode": 0,
+      "started": 1789762086.5519874,
+      "finished": 1789763630.631741
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729595/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729595/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729595/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729595_285"
+      ],
+      "returncode": 0,
+      "started": 1789763663.0701628,
+      "finished": 1789765162.576663
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729594/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729594/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729594/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729594_285"
+      ],
+      "returncode": 0,
+      "started": 1789765201.530895,
+      "finished": 1789769473.70026
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729593/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729593/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729593/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729593_285"
+      ],
+      "returncode": 0,
+      "started": 1789769508.7917101,
+      "finished": 1789772669.6757963
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--readFilesIn",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729592/trimmed_1.fastq.gz",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729592/trimmed_2.fastq.gz",
+        "--readFilesCommand",
+        "zcat",
+        "--outSAMtype",
+        "None",
+        "--quantMode",
+        "GeneCounts",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729592/STAR_",
+        "--outTmpDir",
+        "/tmp/star_v1227_SRR26729592_285"
+      ],
+      "returncode": 0,
+      "started": 1789772707.4568627,
+      "finished": 1789776432.0229652
+    }
+  ],
+  "updated": 1789776433.945858,
+  "free_D_bytes": 146002866176,
+  "active_sample": "SRR26729592"
+}

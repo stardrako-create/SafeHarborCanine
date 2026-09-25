@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-22T15:32:01.379319+00:00",
+  "method": "Error-free reference 150-mers at 1kb spacing; fraction remapping exactly to origin at MAPQ30; not exhaustive mappability",
+  "eligible_windows": 400,
+  "canonical_probes": 39997,
+  "inside_eligible": 288,
+  "inside_matched": 281,
+  "matched_ratio_median": 0.9980626081398078,
+  "control_criteria": "3-5 external windows within absolute GC 0.01 and sampled mapping fraction 0.05; controls reused",
+  "limitations": [
+    "Reference-derived single-end probes omit individual variation, sequencing error and paired-end rescue",
+    "Regular 1kb sampling is a proxy, not exhaustive uniqueness",
+    "Outside regions not confirmed diploid; controls reused and windows correlated",
+    "No formal CNV likelihood or SV genotype; coverage cannot resolve repeat-associated junction"
+  ]
+}

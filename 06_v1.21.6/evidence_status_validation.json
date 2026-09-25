@@ -1,0 +1,39 @@
+{
+  "rows": 2091,
+  "selected_windows": 3,
+  "other_windows_variants_unassessed": 2088,
+  "no_validated_safe_harbor_claim": true,
+  "selected": [
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "start": "17235706",
+      "end": "17236706",
+      "epic_promoter_enhancer_bp_union": "0",
+      "small_variant_PASS_SNP_records": "13",
+      "small_variant_PASS_nonSNP_records": "2",
+      "SV_review": "no_overlapping_record_in_consulted_catalogue",
+      "decision_status": "insufficient_evidence_for_safe_harbor"
+    },
+    {
+      "genes": "ANO2/NTF3",
+      "start": "39728324",
+      "end": "39729324",
+      "epic_promoter_enhancer_bp_union": "800",
+      "small_variant_PASS_SNP_records": "20",
+      "small_variant_PASS_nonSNP_records": "1",
+      "SV_review": "no_overlapping_record_in_consulted_catalogue",
+      "decision_status": "regulatory_conflict_requires_resolution"
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "start": "27057411",
+      "end": "27058411",
+      "epic_promoter_enhancer_bp_union": "662",
+      "small_variant_PASS_SNP_records": "23",
+      "small_variant_PASS_nonSNP_records": "8",
+      "SV_review": "large_catalogue_DEL_unresolved",
+      "decision_status": "regulatory_conflict_requires_resolution"
+    }
+  ],
+  "rule": "Evidence overlay, not a new ranking or automatic variant veto. Missing evidence remains unknown. One overlapping EpiC promoter/enhancer state is a regulatory conflict requiring review, not proof of in vivo activity."
+}

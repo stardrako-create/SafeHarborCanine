@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "alternatives": 16,
+  "prior_frontier": 64,
+  "unpromoted_other_windows": 48,
+  "selected": [
+    "w01",
+    "w11"
+  ],
+  "reserve": [
+    "w03"
+  ],
+  "scope": "Decision panel for experimental validation, not proven safe harbors or guide-ready insertion sites",
+  "source_fields_crosschecked": true
+}

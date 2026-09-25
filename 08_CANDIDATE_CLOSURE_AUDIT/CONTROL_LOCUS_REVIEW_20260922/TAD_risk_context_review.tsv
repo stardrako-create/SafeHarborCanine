@@ -1,0 +1,21 @@
+id	group	chrom	start0	end0	containing_intervals	risk_genes	status	scope
+bg1k_2054	random	NC_051826.1	46097112	46098112	[[45925000, 46325000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0567	random	NC_051823.1	3770399	3771399	[]		no_containing_TAD_interval_unresolved	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2848	random	NC_051840.1	28808728	28809728	[[28225000, 28850000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0045	random	NC_051825.1	9610913	9611913	[[9550000, 10225000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2865	random	NC_051815.1	42906991	42907991	[[42525000, 43650000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0442	random	NC_051837.1	10430486	10431486	[[10275000, 10450000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2901	random	NC_051831.1	27679801	27680801	[[27275000, 27700000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0202	random	NC_051816.1	30227611	30228611	[[30225000, 30650000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0334	random	NC_051825.1	16855903	16856903	[[16575000, 17000000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2545	random	NC_051839.1	1367230	1368230	[[1100000, 1700000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0228	low_ATAC	NC_051826.1	56546547	56547547	[[56350000, 56575000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_1958	low_ATAC	NC_051809.1	83663220	83664220	[[83375000, 83725000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2686	low_ATAC	NC_051837.1	7716819	7717819	[[7450000, 7850000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_1023	low_ATAC	NC_051816.1	46678467	46679467	[[46575000, 47250000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0023	low_ATAC	NC_051830.1	35042788	35043788	[[34775000, 35750000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0878	low_ATAC	NC_051811.1	52129900	52130900	[[50850000, 52575000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_1650	low_ATAC	NC_051820.1	195668	196668	[]		no_containing_TAD_interval_unresolved	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2228	low_ATAC	NC_051806.1	39725551	39726551	[[39450000, 40000000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_2867	low_ATAC	NC_051829.1	33663188	33664188	[[33225000, 33900000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit
+bg1k_0117	low_ATAC	NC_051819.1	26093664	26094664	[[25150000, 26375000]]		no_risk_catalogue_hit_in_containing_intervals	Existing interval proxy only; no T-cell contact validation or multi-scale audit

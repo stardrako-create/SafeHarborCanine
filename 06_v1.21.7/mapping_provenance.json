@@ -1,0 +1,145 @@
+{
+  "forward": {
+    "ANO2/NTF3": {
+      "27": {
+        "chain_id": "27",
+        "score": 4221437687,
+        "chrom": "chr27",
+        "strand": "-",
+        "mapped_bp": 1000,
+        "blocks": [
+          [
+            39371749,
+            39372749,
+            7243778,
+            7244778
+          ]
+        ]
+      }
+    },
+    "LOC119876429/LOC119872513": {
+      "7": {
+        "chain_id": "7",
+        "score": 7495954142,
+        "chrom": "chr7",
+        "strand": "+",
+        "mapped_bp": 1000,
+        "blocks": [
+          [
+            17501392,
+            17502392,
+            17088186,
+            17089186
+          ]
+        ]
+      }
+    },
+    "NPNT/TBCK": {
+      "32": {
+        "chain_id": "32",
+        "score": 3588889878,
+        "chrom": "chr32",
+        "strand": "-",
+        "mapped_bp": 1000,
+        "blocks": [
+          [
+            26825338,
+            26826338,
+            15200069,
+            15201069
+          ]
+        ]
+      }
+    }
+  },
+  "direct_inverse": {
+    "ANO2/NTF3": {
+      "27": {
+        "chain_id": "27",
+        "score": 4209264907,
+        "chrom": "chr27",
+        "strand": "-",
+        "mapped_bp": 1000,
+        "blocks": [
+          [
+            39728324,
+            39729324,
+            7243778,
+            7244778
+          ]
+        ]
+      }
+    },
+    "LOC119876429/LOC119872513": {
+      "7": {
+        "chain_id": "7",
+        "score": 7516188481,
+        "chrom": "chr7",
+        "strand": "+",
+        "mapped_bp": 1000,
+        "blocks": [
+          [
+            17235706,
+            17236706,
+            17088186,
+            17089186
+          ]
+        ]
+      }
+    },
+    "NPNT/TBCK": {
+      "33": {
+        "chain_id": "33",
+        "score": 3584218321,
+        "chrom": "chr32",
+        "strand": "-",
+        "mapped_bp": 1000,
+        "blocks": [
+          [
+            27057411,
+            27058411,
+            15200069,
+            15201069
+          ]
+        ]
+      }
+    }
+  },
+  "summary": [
+    {
+      "genes": "ANO2/NTF3",
+      "chrom": "chr27",
+      "start": 7243778,
+      "end": 7244778,
+      "canfam3_chain_id": "27",
+      "direct_chain_id": "27",
+      "two_paths_identical": true,
+      "mapped_bp": 1000
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "chrom": "chr7",
+      "start": 17088186,
+      "end": 17089186,
+      "canfam3_chain_id": "7",
+      "direct_chain_id": "7",
+      "two_paths_identical": true,
+      "mapped_bp": 1000
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "chrom": "chr32",
+      "start": 15200069,
+      "end": 15201069,
+      "canfam3_chain_id": "32",
+      "direct_chain_id": "33",
+      "two_paths_identical": true,
+      "mapped_bp": 1000
+    }
+  ],
+  "chain_sha256": {
+    "canFam3ToCanFam6.over.chain.gz": "0ca70757a47aab3256f1d9f2c0c8fc6c8da4d232159616dab198ba56d1d089a3",
+    "canFam6ToGCF_014441545.1.over.chain.gz": "3edc868e4e3f3f282e35df8e628b27b4df85240483909ef3b8e5d3c7c40077c6"
+  },
+  "limitations": "Coordinate agreement from two chain paths. No individual donor genotype or sequence-level confirmation in this donor."
+}

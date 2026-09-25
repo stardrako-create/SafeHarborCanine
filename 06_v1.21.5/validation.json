@@ -1,0 +1,76 @@
+{
+  "validation_date": "2026-09-14",
+  "coherent76_score_rows": 461,
+  "score_status_and_atac_veto_identical_to_v1213": true,
+  "statuses": {
+    "excluded": 457,
+    "passes_recorded_checks": 3,
+    "insufficient_evidence": 1
+  },
+  "per_dog_measurements": 456,
+  "samples": 76,
+  "local_read_errors": 0,
+  "remap_tiles": 309,
+  "remap_pass": 308,
+  "epic_tissue_window_pairs": 33,
+  "epic_states_observed": [
+    5,
+    6,
+    7,
+    9,
+    13
+  ],
+  "epic_coverage_by_window_tissue": {
+    "ANO2/NTF3|CL": 1000,
+    "ANO2/NTF3|CO": 1000,
+    "ANO2/NTF3|CR": 1000,
+    "ANO2/NTF3|KI": 1000,
+    "ANO2/NTF3|LI": 1000,
+    "ANO2/NTF3|LU": 1000,
+    "ANO2/NTF3|MG": 1000,
+    "ANO2/NTF3|OV": 1000,
+    "ANO2/NTF3|PA": 1000,
+    "ANO2/NTF3|SP": 1000,
+    "ANO2/NTF3|ST": 1000,
+    "LOC119876429/LOC119872513|CL": 1000,
+    "LOC119876429/LOC119872513|CO": 1000,
+    "LOC119876429/LOC119872513|CR": 1000,
+    "LOC119876429/LOC119872513|KI": 1000,
+    "LOC119876429/LOC119872513|LI": 1000,
+    "LOC119876429/LOC119872513|LU": 1000,
+    "LOC119876429/LOC119872513|MG": 1000,
+    "LOC119876429/LOC119872513|OV": 1000,
+    "LOC119876429/LOC119872513|PA": 1000,
+    "LOC119876429/LOC119872513|SP": 1000,
+    "LOC119876429/LOC119872513|ST": 1000,
+    "NPNT/TBCK|CL": 1000,
+    "NPNT/TBCK|CO": 1000,
+    "NPNT/TBCK|CR": 1000,
+    "NPNT/TBCK|KI": 1000,
+    "NPNT/TBCK|LI": 1000,
+    "NPNT/TBCK|LU": 1000,
+    "NPNT/TBCK|MG": 1000,
+    "NPNT/TBCK|OV": 1000,
+    "NPNT/TBCK|PA": 1000,
+    "NPNT/TBCK|SP": 1000,
+    "NPNT/TBCK|ST": 1000
+  },
+  "qc_frip_at_least_0_2": 2,
+  "qc_note": "FRiP computed against per-sample called peaks; custom TSS metric averages broad windows, not equivalent to ENCODE TSS-peak enrichment. No absolute QC pass claimed.",
+  "NPNT_SV": {
+    "id": "chr32:4707939:DG",
+    "start": 4707938,
+    "end": 33613308,
+    "span_bp": 28905370,
+    "AC": [
+      4
+    ],
+    "AN": 3758,
+    "AF": [
+      0.0010639999527484179
+    ],
+    "carrier_genotypes": 4,
+    "PASS_carriers": 3,
+    "interpretation": "Rare catalogued large deletion overlaps NPNT local window; not verified in project animals, no automatic veto. SNPs/indels not assessed."
+  }
+}

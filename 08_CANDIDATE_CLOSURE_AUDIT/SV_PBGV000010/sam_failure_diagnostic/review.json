@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-09-20T18:35:25.1354531Z",
+  "sam_parse_exit_code": 0,
+  "quickcheck_exit_code": 0,
+  "primary_records": 8000000,
+  "expected_primary_records": 8000000,
+  "status": "bounded_replay_validated_original_failure_unresolved",
+  "full_run_validated": false
+}

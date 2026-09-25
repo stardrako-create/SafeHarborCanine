@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "windows": 64,
+  "full_contiguous": 37,
+  "positive_shared_windows": 13,
+  "positive_union_shared_windows": 16,
+  "consensus_union_differing_windows": 3,
+  "HTSlib_queries_verified": 3,
+  "checks": [
+    "coverage bounds",
+    "consensus counts bounded by union; three differing windows identified",
+    "full/shared count equality on all37 full mappings",
+    "64 distinct original windows preserved"
+  ]
+}

@@ -1,3 +1,5 @@
+> CHECKLIST HISTÓRICA DESATUALIZADA — 2026-09-19: não usar a conclusão 7/8 como estado atual. ATAC soft-score e intervalos entre fronteiras Hi-C não validam acessibilidade ou isolamento em CAR-T. A conservação já foi investigada em versões posteriores. Ver ../08_CANDIDATE_CLOSURE_AUDIT/CURRENT.md.
+
 # Checklist comparison against Ahmed et al. 2026 (Cells)
 
 Ahmed, A., Di Molfetta, D., Iaconisi, G.N., et al. (2026). "Human Genome
@@ -18,7 +20,7 @@ Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
 
 | # | Criterion | Our status | Detail |
 |---|---|---|---|
-| 1 | Distance >=50kb from cancer-unrelated genes | **Yes, reframed** (V3, 2026-08-19) | A literal reading is structurally unsatisfiable for a 50-75kb window that touches genes at both edges by construction (no position inside can be >=50kb from *both* flanking genes at once). Implemented instead as `veto_gene_dense_neighborhood`: is there a THIRD gene within 50kb of either window edge, beyond the two that define it — the real safety concern. Severe: 380/461 candidates excluded (only 45 pass through V3) |
+| 1 | Distance >=50kb from cancer-unrelated genes | **Yes, corrected 2026-09-11** (was wrong 2026-08-19 → 2026-09-10) | The paper's actual body text (Section 2, page 3 — verified directly against the PDF, not just this table's earlier paraphrase) is specific: "at least 50 kilobases (kb), from the **5' end** of coding genes" — not gene-body distance. V3's implementation (2026-08-19) measured distance to the nearest gene-body edge, excluding the two flanking genes by name — a different criterion, not a conservative version of the literal one. That exclusion's own justification (a 50-75kb window can never be 50kb from both flanking genes) is true for body-distance but not for 5'-end distance: SHIP only returns convergent gene pairs, so the flanking genes' near edges (facing the window) are their 3' ends by construction — their 5' ends face outward and aren't automatically clear. **Fixed 2026-09-11**: `scripts/extract_genes_stranded.py` extracts protein-coding genes with real strand from the GFF3 (20,950 genes); `veto_gene_dense_neighborhood` now measures distance to the nearest 5' end (strand-aware), among ALL genes, no exclusion — see `distance_to_nearest_5prime_end()` in `score_ship_candidates_v2.py`. Effect (holding every other veto/threshold fixed): gene-density failures 380→264/461. The old body-distance metric is kept as `gene_dense_clearance_old_bodydist` for comparison only, not used in the veto. |
 | 2 | Distance >=300kb from cancer-related genes | **Yes** (V2, 2026-08-19) | `veto_risk_gene_radius` — genome-wide 300kb radius search against all 41,632 genes, not just the two flanking genes (199 candidates newly excluded; changed the #1-ranked candidate — see `VERSIONS.md`) |
 | 3 | Distance >=300kb from miRNA | **Yes** (2026-08-19) | `scripts/extract_gff3_features.py` pulls all 491 annotated canine miRNA loci from the GFF3; `veto_mirna_nearby` excludes any candidate within 300kb (29 candidates newly excluded) |
 | 4 | Outside transcriptional unit | **Yes** | True by construction — SHIP candidates are always intergenic |
@@ -37,6 +39,74 @@ Rogi2 filtering), plus a "Box 1" of additional proposed criteria and a
 | No alteration of transcriptome/proteome/metabolome | Out of scope for this bioinformatic discovery pipeline — belongs to experimental validation (per project scope: "discovery, filtragem, ranking... validação funcional fica a cargo da equipa experimental") |
 | No negative impact on stem cell pluripotency/differentiation | Same — experimental validation, not applicable to canine PBMC data anyway |
 | "Universal" expression across cell types/tissues | Not tested — our ATAC/RRBS evidence is PBMC-specific; Shrestha et al. 2022 (GEG-SH, already cited in this project) found *zero* shared safe harbors between blood and brain in their own tissue-specific analysis, so "universal" is a genuinely hard bar this pipeline does not claim to clear |
+
+## Project-specific additions beyond Ahmed's 8 criteria (not to be described as "Ahmed criteria")
+
+Two hard vetoes in `score_ship_candidates_v2.py` are this project's own
+additions, not implementations of anything in Ahmed et al. 2026's checklist
+— worth being explicit about this in any future write-up so "passes every
+Ahmed criterion" and "passes every implemented veto" aren't conflated
+(a distinction a 2026-09-11 review correctly pushed on):
+
+- `veto_atac_peak` / `score_low_peak_frequency` — excludes direct overlap
+  with a called ATAC peak, and continuously rewards low peak-frequency
+  nearby. Ahmed's criterion 7 is about being IN active/open chromatin
+  generally, not a rule against sitting near a discrete called peak — this
+  is our own, additional safety margin against disrupting a real
+  regulatory element, layered on top of criterion 7, not a restatement
+  of it.
+- `veto_external_regulatory_element` — hard excludes overlap with
+  `ehsan_regulatory_elements_ROS.bed` (see below).
+
+**The regulatory-element file itself was audited 2026-09-11 and found
+unauditable as received**: 75,600 bare intervals (chrom/start/end only) —
+no element type, no evidence/score, no name, no header. Traced its
+provenance: Ehsan's own CanFam3.1 set, lifted to ROS_Cfam_1.0 by him,
+received 2026-08-21 (`ehsan_crossvalidation.md`, "Update 2026-08-21"). That
+file predates a 2026-09-11 email in which Ehsan cited a regulatory element
+at a locus this file does NOT flag — consistent with his own curation
+having moved on since, not with an error on our side.
+
+**Since the file can't be audited or currently reconciled, an independent,
+self-auditable component was built rather than continuing to depend on it
+blind**: `scripts/build_cpg_islands.py` computes CpG islands natively on
+the ROS_Cfam_1.0 FASTA (no liftover, so no liftover error), both the
+classic Gardiner-Garden & Frommer 1987 (GC>=50%, ObsExp>=0.60, >=200bp) and
+the stricter Takai & Jones 2002 (GC>=55%, ObsExp>=0.65, >=500bp)
+parameterizations, each region typed and carrying its own GC%/ObsExp/CpG-
+count evidence — output: `05_SHIP/cpg_islands_ROS_Cfam_1.0.bed`
+(113,459 islands: 74,242 GGF-only, 38,691 satisfying both, 526 TJ-only).
+CpG islands were part of Ehsan's own stated methodology too ("CanFam3.1
+regulatory elements/**CpG islands** liftover"), so this is comparable to
+his approach, computed independently, not an unrelated substitute.
+
+*(Two real bugs were found and fixed while building this, both confirmed
+via direct inspection of the output before trusting any count: a 1bp
+sliding-window mask that flickered right at the threshold boundary
+fragmented single real islands into dozens of overlapping near-duplicates
+- 1.2M spurious "islands" before a gap-tolerant merge (100bp) fixed it down
+to the biologically plausible 113,459; and the "called by both
+parameterizations" check compared exact (start,end) tuples instead of
+genomic overlap, undercounting agreement between the two independently-
+merged region sets by roughly 1000x - 17 vs. the correct 38,691.)*
+
+**Result: 55.0% of Ehsan's 75,600 elements overlap our independently-built
+CpG islands** — well above chance (CpG islands cover only ~1-2% of the
+genome), a real, independent validation that a majority of his set is
+genuinely promoter/CpG-associated. This is NOT proof his whole set is
+correct (CpG islands are a promoter-specific proxy — they don't cover
+distal enhancers, likely a large share of the remaining 45%), and it does
+NOT resolve the specific rank-#8 dispute: our CpG islands show zero overlap
+there, same as his own file — an honest inconclusive (that locus isn't a
+CpG island in either dataset, consistent with the disputed element being a
+non-CpG-island type our check was never going to catch either way), not a
+refutation of his claim. Still needs him to specify element type/evidence
+for that one.
+
+Not wired into `hard_veto` as a replacement for `veto_external_regulatory_
+element` — it's a complementary, independently-auditable check, not a full
+substitute for an enhancer-inclusive annotation. Whether/how to combine the
+two is an open design question, not yet decided.
 
 ## What's left
 

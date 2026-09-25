@@ -1,0 +1,5 @@
+genes	region_bp	chains_with_aligned_bases	best_chain_covered_bp	best_chain_coverage_fraction	best_chain_target	best_chain_strand	targets_any_chain
+LOC119876429/LOC119872513	56805	1	56743	0.9989085467828536	chr7	+	chr7
+LOC111090199/LOC100682550	71869	16	62605	0.8710988047697895	chr16	+	chr1;chr14;chr15;chr16;chr4;chr5;chr6;chr8;chr9;chrX
+ANO2/NTF3	62427	1	62325	0.9983660915949829	chr27	+	chr27
+NPNT/TBCK	57293	1	57254	0.9993192885692842	chr32	+	chr32

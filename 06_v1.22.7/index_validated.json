@@ -1,0 +1,37 @@
+{
+  "signature": {
+    "fasta_sha256": "b1bca7508b5114e8347489019b1b061685a550dadede24efd21f59c0a3879c7e",
+    "gtf_sha256": "c3d76578ddc4cbb497dcf3df2e0557e04b9bad34c0ac6453e0f772aae5a1d297",
+    "STAR_version": "2.7.11b",
+    "command": [
+      "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+      "--runMode",
+      "genomeGenerate",
+      "--runThreadN",
+      "6",
+      "--genomeDir",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+      "--genomeFastaFiles",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+      "--sjdbGTFfile",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/audit_2026-09-18/ROS_release106.STAR_compatible.gtf",
+      "--sjdbOverhang",
+      "149",
+      "--genomeSAsparseD",
+      "2",
+      "--limitGenomeGenerateRAM",
+      "28000000000",
+      "--outFileNamePrefix",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/index_"
+    ]
+  },
+  "index_sha256": {
+    "Genome": "457a59694fdb59b894b014758cc32ea555eb2a68f824096fe738c60918bee825",
+    "SA": "85ee833758a04c7ff511d419e5a8d9732a3a177dd2bebf42aeb41b5820237149",
+    "SAindex": "f069614a2daa70d8fe868302a3415318be9d1dfc93bb101a4dd2cd8fb95cfea9",
+    "geneInfo.tab": "3d8959a6bc7e1710670a4ce7ae662bb6cc56a434b02e3c64bb495d5ed19070f0",
+    "genomeParameters.txt": "194d798e5c8cd39998606f68beb6eff1be70dc4bd82b4c9acc3b53ba0e38367b"
+  },
+  "genes": 42309,
+  "validated": 1789752242.8394532
+}

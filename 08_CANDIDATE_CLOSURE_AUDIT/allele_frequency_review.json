@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "all_alleles_uniquely_matched": true,
+  "summary": [
+    {
+      "window": "w01",
+      "total_alleles": 27,
+      "PASS_alleles": 25,
+      "PASS_alleles_AF_ge_1pct": 10,
+      "PASS_alleles_misclassified_if_record_max_used": 1
+    },
+    {
+      "window": "w11",
+      "total_alleles": 21,
+      "PASS_alleles": 19,
+      "PASS_alleles_AF_ge_1pct": 9,
+      "PASS_alleles_misclassified_if_record_max_used": 0
+    }
+  ],
+  "corrected_rows": [
+    {
+      "id": "w01_1",
+      "alt": "T",
+      "source_record_max_alt_AF": "0.13500000536441803",
+      "allele_AF": 0.003019999945536256
+    },
+    {
+      "id": "w11_19",
+      "alt": "TTGCTTC",
+      "source_record_max_alt_AF": "0.007801000028848648",
+      "allele_AF": 0.0005032999906688929
+    }
+  ],
+  "output_sha256": "24a7a1b9f475ea91bd8707076753f7c3219b679f27e98300bc93c56f59a85c5b",
+  "limitations": [
+    "Catalogue allele frequencies, not donor genotypes",
+    "No allele deleted or filtered; original outputs preserved",
+    "Normalization and strand reversal preserve original ALT ordering only through verified haplotype matching"
+  ]
+}

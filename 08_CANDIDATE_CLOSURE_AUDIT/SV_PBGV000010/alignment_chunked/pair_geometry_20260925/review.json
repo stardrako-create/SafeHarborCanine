@@ -1,0 +1,2959 @@
+{
+  "utc": "2026-09-25T09:40:28.837794+00:00",
+  "molecule_names": 15,
+  "previous_spanning_molecule_names": 7,
+  "results": [
+    {
+      "molecule_name": "SRR15734832.115369889",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": 44,
+          "genomic": {
+            "best_score_sum": 256,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 316,
+                "score_sum": 256,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 2034,
+                  "end0": 2140,
+                  "AS": 106,
+                  "NM": 0,
+                  "cigar": "106M44H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707833,
+                  "coordinate_end0": 4707939
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1824,
+                  "end0": 1974,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707623,
+                  "coordinate_end0": 4707773
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 360,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 894,
+                  "end0": 1044,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 894,
+                  "coordinate_end0": 1044
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 684,
+                  "end0": 834,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 684,
+                  "coordinate_end0": 834
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": 44,
+          "genomic": {
+            "best_score_sum": 256,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 316,
+                "score_sum": 256,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 2034,
+                  "end0": 2140,
+                  "AS": 106,
+                  "NM": 0,
+                  "cigar": "106M44H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707833,
+                  "coordinate_end0": 4707939
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1824,
+                  "end0": 1974,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707623,
+                  "coordinate_end0": 4707773
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 360,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 894,
+                  "end0": 1044,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 894,
+                  "coordinate_end0": 1044
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 684,
+                  "end0": 834,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 684,
+                  "coordinate_end0": 834
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": 44,
+          "genomic": {
+            "best_score_sum": 256,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 316,
+                "score_sum": 256,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 2034,
+                  "end0": 2140,
+                  "AS": 106,
+                  "NM": 0,
+                  "cigar": "106M44H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707833,
+                  "coordinate_end0": 4707939
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1824,
+                  "end0": 1974,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707623,
+                  "coordinate_end0": 4707773
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 360,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 894,
+                  "end0": 1044,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 894,
+                  "coordinate_end0": 1044
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 684,
+                  "end0": 834,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 684,
+                  "coordinate_end0": 834
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.120202092",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 219,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 270,
+                "score_sum": 219,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1540,
+                  "end0": 1690,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613012,
+                  "coordinate_end0": 33613162
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1736,
+                  "end0": 1810,
+                  "AS": 69,
+                  "NM": 1,
+                  "cigar": "76S74M",
+                  "mapq_panel_only": 16,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613208,
+                  "coordinate_end0": 33613282
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 219,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 270,
+                "score_sum": 219,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1540,
+                  "end0": 1690,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613012,
+                  "coordinate_end0": 33613162
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1736,
+                  "end0": 1810,
+                  "AS": 69,
+                  "NM": 1,
+                  "cigar": "76S74M",
+                  "mapq_panel_only": 16,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613208,
+                  "coordinate_end0": 33613282
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 219,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 270,
+                "score_sum": 219,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1540,
+                  "end0": 1690,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613012,
+                  "coordinate_end0": 33613162
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1736,
+                  "end0": 1810,
+                  "AS": 69,
+                  "NM": 1,
+                  "cigar": "76S74M",
+                  "mapq_panel_only": 16,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613208,
+                  "coordinate_end0": 33613282
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.131535331",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 255,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 243,
+                "score_sum": 255,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1061,
+                  "end0": 1211,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612533,
+                  "coordinate_end0": 33612683
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1189,
+                  "end0": 1304,
+                  "AS": 105,
+                  "NM": 2,
+                  "cigar": "35S115M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612661,
+                  "coordinate_end0": 33612776
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 255,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 243,
+                "score_sum": 255,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1061,
+                  "end0": 1211,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612533,
+                  "coordinate_end0": 33612683
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1189,
+                  "end0": 1304,
+                  "AS": 105,
+                  "NM": 2,
+                  "cigar": "35S115M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612661,
+                  "coordinate_end0": 33612776
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 255,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 243,
+                "score_sum": 255,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1061,
+                  "end0": 1211,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612533,
+                  "coordinate_end0": 33612683
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1189,
+                  "end0": 1304,
+                  "AS": 105,
+                  "NM": 2,
+                  "cigar": "35S115M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612661,
+                  "coordinate_end0": 33612776
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.132880416",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 35,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 136,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 135,
+                "score_sum": 136,
+                "mate1": {
+                  "target": "genomic_831",
+                  "start0": 1000,
+                  "end0": 1135,
+                  "AS": 68,
+                  "NM": 23,
+                  "cigar": "36M10I42M5I57M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049239.1",
+                  "coordinate_start0": 31781935,
+                  "coordinate_end0": 31782070
+                },
+                "mate2": {
+                  "target": "genomic_831",
+                  "start0": 1052,
+                  "end0": 1131,
+                  "AS": 68,
+                  "NM": 3,
+                  "cigar": "9M2D68M73H",
+                  "mapq_panel_only": 35,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049239.1",
+                  "coordinate_start0": 31781987,
+                  "coordinate_end0": 31782066
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 136,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 135,
+                "score_sum": 136,
+                "mate1": {
+                  "target": "genomic_831",
+                  "start0": 1000,
+                  "end0": 1135,
+                  "AS": 68,
+                  "NM": 23,
+                  "cigar": "36M10I42M5I57M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049239.1",
+                  "coordinate_start0": 31781935,
+                  "coordinate_end0": 31782070
+                },
+                "mate2": {
+                  "target": "genomic_831",
+                  "start0": 1052,
+                  "end0": 1131,
+                  "AS": 68,
+                  "NM": 3,
+                  "cigar": "9M2D68M73H",
+                  "mapq_panel_only": 35,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049239.1",
+                  "coordinate_start0": 31781987,
+                  "coordinate_end0": 31782066
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 136,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 135,
+                "score_sum": 136,
+                "mate1": {
+                  "target": "genomic_831",
+                  "start0": 1000,
+                  "end0": 1135,
+                  "AS": 68,
+                  "NM": 23,
+                  "cigar": "36M10I42M5I57M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049239.1",
+                  "coordinate_start0": 31781935,
+                  "coordinate_end0": 31782070
+                },
+                "mate2": {
+                  "target": "genomic_831",
+                  "start0": 1052,
+                  "end0": 1131,
+                  "AS": 68,
+                  "NM": 3,
+                  "cigar": "9M2D68M73H",
+                  "mapq_panel_only": 35,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049239.1",
+                  "coordinate_start0": 31781987,
+                  "coordinate_end0": 31782066
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.162324092",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 188,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 303,
+                "score_sum": 188,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1445,
+                  "end0": 1595,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612917,
+                  "coordinate_end0": 33613067
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1710,
+                  "end0": 1748,
+                  "AS": 38,
+                  "NM": 0,
+                  "cigar": "38M112S",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613182,
+                  "coordinate_end0": 33613220
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 188,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 303,
+                "score_sum": 188,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1445,
+                  "end0": 1595,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612917,
+                  "coordinate_end0": 33613067
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1710,
+                  "end0": 1748,
+                  "AS": 38,
+                  "NM": 0,
+                  "cigar": "38M112S",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613182,
+                  "coordinate_end0": 33613220
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 188,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 303,
+                "score_sum": 188,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1445,
+                  "end0": 1595,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612917,
+                  "coordinate_end0": 33613067
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1710,
+                  "end0": 1748,
+                  "AS": 38,
+                  "NM": 0,
+                  "cigar": "38M112S",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613182,
+                  "coordinate_end0": 33613220
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.176253461",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 218,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 181,
+                "score_sum": 218,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1087,
+                  "end0": 1237,
+                  "AS": 149,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612559,
+                  "coordinate_end0": 33612709
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1189,
+                  "end0": 1268,
+                  "AS": 69,
+                  "NM": 2,
+                  "cigar": "71S79M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612661,
+                  "coordinate_end0": 33612740
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 218,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 181,
+                "score_sum": 218,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1087,
+                  "end0": 1237,
+                  "AS": 149,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612559,
+                  "coordinate_end0": 33612709
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1189,
+                  "end0": 1268,
+                  "AS": 69,
+                  "NM": 2,
+                  "cigar": "71S79M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612661,
+                  "coordinate_end0": 33612740
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 218,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 181,
+                "score_sum": 218,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1087,
+                  "end0": 1237,
+                  "AS": 149,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612559,
+                  "coordinate_end0": 33612709
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1189,
+                  "end0": 1268,
+                  "AS": 69,
+                  "NM": 2,
+                  "cigar": "71S79M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612661,
+                  "coordinate_end0": 33612740
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.19313490",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": 25,
+          "genomic": {
+            "best_score_sum": 275,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 172,
+                "score_sum": 275,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1968,
+                  "end0": 2118,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707767,
+                  "coordinate_end0": 4707917
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2015,
+                  "end0": 2140,
+                  "AS": 125,
+                  "NM": 0,
+                  "cigar": "125M25H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707814,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 197,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 828,
+                  "end0": 978,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 828,
+                  "coordinate_end0": 978
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 875,
+                  "end0": 1025,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 875,
+                  "coordinate_end0": 1025
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": 25,
+          "genomic": {
+            "best_score_sum": 275,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 172,
+                "score_sum": 275,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1968,
+                  "end0": 2118,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707767,
+                  "coordinate_end0": 4707917
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2015,
+                  "end0": 2140,
+                  "AS": 125,
+                  "NM": 0,
+                  "cigar": "125M25H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707814,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 197,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 828,
+                  "end0": 978,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 828,
+                  "coordinate_end0": 978
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 875,
+                  "end0": 1025,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 875,
+                  "coordinate_end0": 1025
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": 25,
+          "genomic": {
+            "best_score_sum": 275,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 172,
+                "score_sum": 275,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1968,
+                  "end0": 2118,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707767,
+                  "coordinate_end0": 4707917
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2015,
+                  "end0": 2140,
+                  "AS": 125,
+                  "NM": 0,
+                  "cigar": "125M25H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707814,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 197,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 828,
+                  "end0": 978,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 828,
+                  "coordinate_end0": 978
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 875,
+                  "end0": 1025,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 875,
+                  "coordinate_end0": 1025
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.27628065",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": 66,
+          "genomic": {
+            "best_score_sum": 229,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 170,
+                "score_sum": 229,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 2056,
+                  "end0": 2140,
+                  "AS": 84,
+                  "NM": 0,
+                  "cigar": "84M66H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707855,
+                  "coordinate_end0": 4707939
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1970,
+                  "end0": 2120,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707769,
+                  "coordinate_end0": 4707919
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 295,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 236,
+                "score_sum": 295,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 916,
+                  "end0": 1066,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 916,
+                  "coordinate_end0": 1066
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 830,
+                  "end0": 980,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 830,
+                  "coordinate_end0": 980
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": 66,
+          "genomic": {
+            "best_score_sum": 229,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 170,
+                "score_sum": 229,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 2056,
+                  "end0": 2140,
+                  "AS": 84,
+                  "NM": 0,
+                  "cigar": "84M66H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707855,
+                  "coordinate_end0": 4707939
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1970,
+                  "end0": 2120,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707769,
+                  "coordinate_end0": 4707919
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 295,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 236,
+                "score_sum": 295,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 916,
+                  "end0": 1066,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 916,
+                  "coordinate_end0": 1066
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 830,
+                  "end0": 980,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 830,
+                  "coordinate_end0": 980
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": 66,
+          "genomic": {
+            "best_score_sum": 229,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 170,
+                "score_sum": 229,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 2056,
+                  "end0": 2140,
+                  "AS": 84,
+                  "NM": 0,
+                  "cigar": "84M66H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707855,
+                  "coordinate_end0": 4707939
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1970,
+                  "end0": 2120,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707769,
+                  "coordinate_end0": 4707919
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 295,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 236,
+                "score_sum": 295,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 916,
+                  "end0": 1066,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 916,
+                  "coordinate_end0": 1066
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 830,
+                  "end0": 980,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 830,
+                  "coordinate_end0": 980
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.33443366",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": 47,
+          "genomic": {
+            "best_score_sum": 253,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 239,
+                "score_sum": 253,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1901,
+                  "end0": 2051,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707700,
+                  "coordinate_end0": 4707850
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2037,
+                  "end0": 2140,
+                  "AS": 103,
+                  "NM": 0,
+                  "cigar": "103M47H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707836,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 286,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 761,
+                  "end0": 911,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 761,
+                  "coordinate_end0": 911
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 897,
+                  "end0": 1047,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 897,
+                  "coordinate_end0": 1047
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": 47,
+          "genomic": {
+            "best_score_sum": 253,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 239,
+                "score_sum": 253,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1901,
+                  "end0": 2051,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707700,
+                  "coordinate_end0": 4707850
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2037,
+                  "end0": 2140,
+                  "AS": 103,
+                  "NM": 0,
+                  "cigar": "103M47H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707836,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 286,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 761,
+                  "end0": 911,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 761,
+                  "coordinate_end0": 911
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 897,
+                  "end0": 1047,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 897,
+                  "coordinate_end0": 1047
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": 47,
+          "genomic": {
+            "best_score_sum": 253,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 239,
+                "score_sum": 253,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1901,
+                  "end0": 2051,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707700,
+                  "coordinate_end0": 4707850
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2037,
+                  "end0": 2140,
+                  "AS": 103,
+                  "NM": 0,
+                  "cigar": "103M47H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707836,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 286,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 761,
+                  "end0": 911,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 761,
+                  "coordinate_end0": 911
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 897,
+                  "end0": 1047,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 897,
+                  "coordinate_end0": 1047
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.42046219",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 270,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 273,
+                "score_sum": 270,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1148,
+                  "end0": 1273,
+                  "AS": 120,
+                  "NM": 1,
+                  "cigar": "25S125M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612620,
+                  "coordinate_end0": 33612745
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1000,
+                  "end0": 1150,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612472,
+                  "coordinate_end0": 33612622
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 270,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 273,
+                "score_sum": 270,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1148,
+                  "end0": 1273,
+                  "AS": 120,
+                  "NM": 1,
+                  "cigar": "25S125M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612620,
+                  "coordinate_end0": 33612745
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1000,
+                  "end0": 1150,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612472,
+                  "coordinate_end0": 33612622
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 270,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 273,
+                "score_sum": 270,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1148,
+                  "end0": 1273,
+                  "AS": 120,
+                  "NM": 1,
+                  "cigar": "25S125M",
+                  "mapq_panel_only": 60,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612620,
+                  "coordinate_end0": 33612745
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 1000,
+                  "end0": 1150,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 60,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33612472,
+                  "coordinate_end0": 33612622
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.42922787",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          },
+          "junction": {
+            "best_score_sum": 281,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 299,
+                "score_sum": 281,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 1074,
+                  "end0": 1220,
+                  "AS": 136,
+                  "NM": 2,
+                  "cigar": "57M2D87M6S",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 1074,
+                  "coordinate_end0": 1220
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 921,
+                  "end0": 1071,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": false,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 921,
+                  "coordinate_end0": 1071
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          },
+          "junction": {
+            "best_score_sum": 281,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 299,
+                "score_sum": 281,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 1074,
+                  "end0": 1220,
+                  "AS": 136,
+                  "NM": 2,
+                  "cigar": "57M2D87M6S",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 1074,
+                  "coordinate_end0": 1220
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 921,
+                  "end0": 1071,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": false,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 921,
+                  "coordinate_end0": 1071
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          },
+          "junction": {
+            "best_score_sum": 281,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 299,
+                "score_sum": 281,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 1074,
+                  "end0": 1220,
+                  "AS": 136,
+                  "NM": 2,
+                  "cigar": "57M2D87M6S",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 1074,
+                  "coordinate_end0": 1220
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 921,
+                  "end0": 1071,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": false,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 921,
+                  "coordinate_end0": 1071
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.66864324",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 318,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 900,
+                  "end0": 1050,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": false,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 900,
+                  "coordinate_end0": 1050
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 1068,
+                  "end0": 1218,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 1068,
+                  "coordinate_end0": 1218
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 318,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 900,
+                  "end0": 1050,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": false,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 900,
+                  "coordinate_end0": 1050
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 1068,
+                  "end0": 1218,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 1068,
+                  "coordinate_end0": 1218
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          },
+          "junction": {
+            "best_score_sum": 300,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 318,
+                "score_sum": 300,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 900,
+                  "end0": 1050,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": false,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 900,
+                  "coordinate_end0": 1050
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 1068,
+                  "end0": 1218,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 1068,
+                  "coordinate_end0": 1218
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.6766145",
+      "previous_spanning_read_selected": true,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 9
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": 31,
+          "genomic": {
+            "best_score_sum": 264,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 228,
+                "score_sum": 264,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1912,
+                  "end0": 2062,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707711,
+                  "coordinate_end0": 4707861
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2021,
+                  "end0": 2140,
+                  "AS": 114,
+                  "NM": 1,
+                  "cigar": "119M31H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707820,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 295,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 259,
+                "score_sum": 295,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 772,
+                  "end0": 922,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 772,
+                  "coordinate_end0": 922
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 881,
+                  "end0": 1031,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 881,
+                  "coordinate_end0": 1031
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": 31,
+          "genomic": {
+            "best_score_sum": 264,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 228,
+                "score_sum": 264,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1912,
+                  "end0": 2062,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707711,
+                  "coordinate_end0": 4707861
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2021,
+                  "end0": 2140,
+                  "AS": 114,
+                  "NM": 1,
+                  "cigar": "119M31H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707820,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 295,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 259,
+                "score_sum": 295,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 772,
+                  "end0": 922,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 772,
+                  "coordinate_end0": 922
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 881,
+                  "end0": 1031,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 881,
+                  "coordinate_end0": 1031
+                }
+              }
+            ]
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": 31,
+          "genomic": {
+            "best_score_sum": 264,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 228,
+                "score_sum": 264,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1912,
+                  "end0": 2062,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707711,
+                  "coordinate_end0": 4707861
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 2021,
+                  "end0": 2140,
+                  "AS": 114,
+                  "NM": 1,
+                  "cigar": "119M31H",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707820,
+                  "coordinate_end0": 4707939
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": 295,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 259,
+                "score_sum": 295,
+                "mate1": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 772,
+                  "end0": 922,
+                  "AS": 150,
+                  "NM": 0,
+                  "cigar": "150M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 772,
+                  "coordinate_end0": 922
+                },
+                "mate2": {
+                  "target": "junction_L4707939_R33613308",
+                  "start0": 881,
+                  "end0": 1031,
+                  "AS": 145,
+                  "NM": 1,
+                  "cigar": "150M",
+                  "mapq_panel_only": 6,
+                  "reverse": true,
+                  "junction_spanning": true,
+                  "genomic": false,
+                  "coordinate_target": "junction_L4707939_R33613308",
+                  "coordinate_start0": 881,
+                  "coordinate_end0": 1031
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.83695087",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 177,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 421,
+                "score_sum": 177,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1295,
+                  "end0": 1421,
+                  "AS": 121,
+                  "NM": 1,
+                  "cigar": "24H126M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707094,
+                  "coordinate_end0": 4707220
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1000,
+                  "end0": 1106,
+                  "AS": 56,
+                  "NM": 10,
+                  "cigar": "106M44S",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4706799,
+                  "coordinate_end0": 4706905
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 177,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 421,
+                "score_sum": 177,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1295,
+                  "end0": 1421,
+                  "AS": 121,
+                  "NM": 1,
+                  "cigar": "24H126M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707094,
+                  "coordinate_end0": 4707220
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1000,
+                  "end0": 1106,
+                  "AS": 56,
+                  "NM": 10,
+                  "cigar": "106M44S",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4706799,
+                  "coordinate_end0": 4706905
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 177,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 421,
+                "score_sum": 177,
+                "mate1": {
+                  "target": "genomic_1273",
+                  "start0": 1295,
+                  "end0": 1421,
+                  "AS": 121,
+                  "NM": 1,
+                  "cigar": "24H126M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4707094,
+                  "coordinate_end0": 4707220
+                },
+                "mate2": {
+                  "target": "genomic_1273",
+                  "start0": 1000,
+                  "end0": 1106,
+                  "AS": 56,
+                  "NM": 10,
+                  "cigar": "106M44S",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 4706799,
+                  "coordinate_end0": 4706905
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    },
+    {
+      "molecule_name": "SRR15734832.84224940",
+      "previous_spanning_read_selected": false,
+      "inward_pair_counts_all_reported_distances": {
+        "genomic": 1,
+        "junction": 0
+      },
+      "sensitivity": [
+        {
+          "max_outer_span_bp": 500,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 171,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 304,
+                "score_sum": 171,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1901,
+                  "end0": 2061,
+                  "AS": 114,
+                  "NM": 14,
+                  "cigar": "66M10D84M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613373,
+                  "coordinate_end0": 33613533
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 2131,
+                  "end0": 2205,
+                  "AS": 57,
+                  "NM": 3,
+                  "cigar": "75H18M1I56M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613603,
+                  "coordinate_end0": 33613677
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 1000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 171,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 304,
+                "score_sum": 171,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1901,
+                  "end0": 2061,
+                  "AS": 114,
+                  "NM": 14,
+                  "cigar": "66M10D84M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613373,
+                  "coordinate_end0": 33613533
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 2131,
+                  "end0": 2205,
+                  "AS": 57,
+                  "NM": 3,
+                  "cigar": "75H18M1I56M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613603,
+                  "coordinate_end0": 33613677
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        },
+        {
+          "max_outer_span_bp": 2000,
+          "junction_minus_genomic_score": null,
+          "genomic": {
+            "best_score_sum": 171,
+            "top_pair_count": 1,
+            "best_pairs": [
+              {
+                "inward": true,
+                "outer_span_bp": 304,
+                "score_sum": 171,
+                "mate1": {
+                  "target": "genomic_1298",
+                  "start0": 1901,
+                  "end0": 2061,
+                  "AS": 114,
+                  "NM": 14,
+                  "cigar": "66M10D84M",
+                  "mapq_panel_only": 0,
+                  "reverse": false,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613373,
+                  "coordinate_end0": 33613533
+                },
+                "mate2": {
+                  "target": "genomic_1298",
+                  "start0": 2131,
+                  "end0": 2205,
+                  "AS": 57,
+                  "NM": 3,
+                  "cigar": "75H18M1I56M",
+                  "mapq_panel_only": 0,
+                  "reverse": true,
+                  "junction_spanning": false,
+                  "genomic": true,
+                  "coordinate_target": "NC_049253.1",
+                  "coordinate_start0": 33613603,
+                  "coordinate_end0": 33613677
+                }
+              }
+            ]
+          },
+          "junction": {
+            "best_score_sum": null,
+            "top_pair_count": 0,
+            "best_pairs": []
+          }
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "all_hits.json": "afdcce35121e15d8f45fd378f4ec21c36c3e215ca8e4bca04177b20305b20d27",
+    "genomic_coordinates.json": "9782723a98b82febf599e639f32aec06f321c91d04e2bd27e3c65cfe274d4d48",
+    "reads.fa": "101d49c6ed39df90e733cfad1f2fceda67e9e1e3706e0cef3e27934fe7edd1ef"
+  },
+  "limitations": [
+    "Same 30 selected reads as prior analysis; no additional independent support",
+    "Single-read BWA candidates enumerated as pairs, not paired realignment or calibrated fragment likelihood",
+    "500/1000/2000bp are explicit descriptive sensitivity bounds, not new acceptance criteria or estimated library distribution",
+    "Panel consists of reported alternatives, not exhaustive whole-genome competitive mapping",
+    "AS sums are alignment scores, not posterior probabilities or genotypes; mates grouped by name do not prove molecule independence"
+  ]
+}

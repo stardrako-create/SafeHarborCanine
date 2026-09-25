@@ -1,0 +1,58 @@
+{
+  "matches": [
+    {
+      "genes": "ANO2/NTF3",
+      "uu_contig": "NC_049248.1",
+      "vcf_contig": "chr27",
+      "start": 6721625,
+      "end": 6722625,
+      "mapq": 60,
+      "NM": 6,
+      "query_aligned_bp": 1000,
+      "alternatives": false,
+      "eligible_for_variant_lookup": true,
+      "sv_records_overlapping": 0
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "uu_contig": "NC_049228.1",
+      "vcf_contig": "chr7",
+      "start": 17383016,
+      "end": 17384016,
+      "mapq": 60,
+      "NM": 1,
+      "query_aligned_bp": 1000,
+      "alternatives": false,
+      "eligible_for_variant_lookup": true,
+      "sv_records_overlapping": 0
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "uu_contig": "NC_049253.1",
+      "vcf_contig": "chr32",
+      "start": 13062402,
+      "end": 13063402,
+      "mapq": 60,
+      "NM": 0,
+      "query_aligned_bp": 1000,
+      "alternatives": false,
+      "eligible_for_variant_lookup": true,
+      "sv_records_overlapping": 1
+    }
+  ],
+  "SV_records": [
+    {
+      "genes": "NPNT/TBCK",
+      "vcf_chrom": "chr32",
+      "start": 4707938,
+      "end": 33613308,
+      "id": "chr32:4707939:DG",
+      "type": "DEL",
+      "AF": "(0.0010639999527484179,)",
+      "filter": "PASS"
+    }
+  ],
+  "reference": "UU_Cfam_GSD_1.0; alias accepted only for exact unique contig-length match",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/Manta-SV_2022-03-28/SV-genotype-v2.merge.agg_only.08032022.vcf.gz",
+  "limitations": "SV callset only; no SNP/indel clearance; no claim of variant absence outside eligible aligned windows"
+}

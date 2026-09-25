@@ -1,0 +1,23 @@
+{
+  "summary": [
+    {
+      "window_id": "w01",
+      "segments": 981,
+      "nonunique_exact": 19,
+      "overlap_PASS_variant_REF": 405,
+      "unflagged_by_two_limited_checks": 567
+    },
+    {
+      "window_id": "w11",
+      "segments": 981,
+      "nonunique_exact": 25,
+      "overlap_PASS_variant_REF": 279,
+      "unflagged_by_two_limited_checks": 691
+    }
+  ],
+  "limitations": [
+    "Unflagged is not experimentally invariant or safe",
+    "REF spans only; insertions, shifted indels and larger rearrangements need more context",
+    "No PAM or nuclease-specific off-target analysis; no guide selected"
+  ]
+}

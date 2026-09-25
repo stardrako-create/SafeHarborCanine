@@ -1,0 +1,2139 @@
+{
+  "utc": "2026-09-23T18:45:45.272973+00:00",
+  "source_pending_records": 91,
+  "diagnosis_counts": {
+    "source_ALT_equals_ROS_reference": 34,
+    "REF_disagreement_ALT_also_differs_from_ROS": 14,
+    "nonsequence_ALT": 21,
+    "source_REF_contains_unmapped_or_nonunique_base": 13,
+    "source_REF_crosses_ROS_insertion_or_discontinuity": 9
+  },
+  "integrated_source_hash_checks": {
+    "transcript_and_boundary_review.tsv": true,
+    "TAD_multiscale_review.json": true,
+    "gapped_projection_20260923/CanFam3_partial_roundtrip_states.json": true,
+    "repeatmasker_context_20260923_v2/review.json": true,
+    "exact_sequences/exact_sequence_review.json": true,
+    "gapped_projection_20260923/UU_review.json": true,
+    "variant_projection_20260923/review.json": true,
+    "partial_variant_projection_20260923_v3/review.json": true,
+    "conservation_20260923/alignment_support_review.json": true,
+    "split_conservation_20260923/status.json": true
+  },
+  "results": [
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__1",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45799994,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.8960000276565552,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097191,
+      "ros_end0": 46097192,
+      "ros_reference": "C",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__3",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800106,
+        "id": null,
+        "ref": "C",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.8949999809265137,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097303,
+      "ros_end0": 46097304,
+      "ros_reference": "G",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__4",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800122,
+        "id": null,
+        "ref": "C",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.8949999809265137,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097319,
+      "ros_end0": 46097320,
+      "ros_reference": "A",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__12",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800442,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.8930000066757202,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097639,
+      "ros_end0": 46097640,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__15",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800475,
+        "id": null,
+        "ref": "C",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.8930000066757202,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097672,
+      "ros_end0": 46097673,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__16",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800475,
+        "id": null,
+        "ref": "C",
+        "alt": "A",
+        "alt_index1": 2,
+        "AF": 0.0005042999982833862,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097672,
+      "ros_end0": 46097673,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "A",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__17",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800476,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.8949999809265137,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097673,
+      "ros_end0": 46097674,
+      "ros_reference": "G",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99__23",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 45800614,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.8870000243186951,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 46097811,
+      "ros_end0": 46097812,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__1",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513554,
+        "id": null,
+        "ref": "A",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.35100001096725464,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9610953,
+      "ros_end0": 9610954,
+      "ros_reference": "T",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__3",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513589,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.8529999852180481,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9610988,
+      "ros_end0": 9610989,
+      "ros_reference": "G",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__14",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514005,
+        "id": null,
+        "ref": "C",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.3499999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611402,
+      "ros_end0": 9611403,
+      "ros_reference": "A",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__20",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514205,
+        "id": null,
+        "ref": "T",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.0002533000078983605,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99__26",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514246,
+        "id": null,
+        "ref": "C",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.006341999862343073,
+        "filters": [
+          "VQSRTrancheSNP99.90to100.00"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_2901__AutoAndXPAR.SNPs.vqsr99__3",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 18802754,
+        "id": null,
+        "ref": "C",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.8930000066757202,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27680396,
+      "ros_end0": 27680397,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2901__AutoAndXPAR.SNPs.vqsr99__4",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 18802754,
+        "id": null,
+        "ref": "C",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.00025209999876096845,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_2901__AutoAndXPAR.SNPs.vqsr99__8",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 18803122,
+        "id": null,
+        "ref": "T",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.7770000100135803,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27680028,
+      "ros_end0": 27680029,
+      "ros_reference": "C",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__8",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853562,
+        "id": null,
+        "ref": "C",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.44200000166893005,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227859,
+      "ros_end0": 30227860,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__10",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853626,
+        "id": null,
+        "ref": "T",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.4440000057220459,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227923,
+      "ros_end0": 30227924,
+      "ros_reference": "A",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__13",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853686,
+        "id": null,
+        "ref": "G",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.44200000166893005,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30227984,
+      "ros_end0": 30227985,
+      "ros_reference": "C",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__14",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853717,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.4659999907016754,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228015,
+      "ros_end0": 30228016,
+      "ros_reference": "C",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__17",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853781,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.4429999887943268,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228078,
+      "ros_end0": 30228079,
+      "ros_reference": "C",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__24",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853982,
+        "id": null,
+        "ref": "G",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.164000004529953,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228278,
+      "ros_end0": 30228279,
+      "ros_reference": "C",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__25",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853998,
+        "id": null,
+        "ref": "G",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.45899999141693115,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051816.1",
+      "ros_start0": 30228294,
+      "ros_end0": 30228295,
+      "ros_reference": "C",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99__30",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29854081,
+        "id": null,
+        "ref": "A",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.0005032999906688929,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0334__AutoAndXPAR.SNPs.vqsr99__2",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 16780501,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.3479999899864197,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 16855934,
+      "ros_end0": 16855935,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0334__AutoAndXPAR.SNPs.vqsr99__21",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 16781427,
+        "id": null,
+        "ref": "C",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.2669999897480011,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 16856860,
+      "ros_end0": 16856861,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2545__AutoAndXPAR.SNPs.vqsr99__1",
+      "source_allele": {
+        "chrom": "chr35",
+        "uu_chrom": "NC_049256.1",
+        "pos1": 2699039,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.15000000596046448,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051839.1",
+      "ros_start0": 1367250,
+      "ros_end0": 1367251,
+      "ros_reference": "G",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0228__AutoAndXPAR.SNPs.vqsr99__10",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 56172510,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.289000004529953,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 56547114,
+      "ros_end0": 56547115,
+      "ros_reference": "G",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0228__AutoAndXPAR.SNPs.vqsr99__12",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 56172634,
+        "id": null,
+        "ref": "C",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.18400000035762787,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051826.1",
+      "ros_start0": 56547238,
+      "ros_end0": 56547239,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1958__AutoAndXPAR.SNPs.vqsr99__11",
+      "source_allele": {
+        "chrom": "chr5",
+        "uu_chrom": "NC_049226.1",
+        "pos1": 83813625,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.8870000243186951,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051809.1",
+      "ros_start0": 83663896,
+      "ros_end0": 83663897,
+      "ros_reference": "C",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1958__AutoAndXPAR.SNPs.vqsr99__12",
+      "source_allele": {
+        "chrom": "chr5",
+        "uu_chrom": "NC_049226.1",
+        "pos1": 83813625,
+        "id": null,
+        "ref": "T",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.001006999984383583,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99__1",
+      "source_allele": {
+        "chrom": "chr33",
+        "uu_chrom": "NC_049254.1",
+        "pos1": 7982891,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.36800000071525574,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7716897,
+      "ros_end0": 7716898,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99__16",
+      "source_allele": {
+        "chrom": "chr33",
+        "uu_chrom": "NC_049254.1",
+        "pos1": 7983289,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.4959999918937683,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7717295,
+      "ros_end0": 7717296,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99__29",
+      "source_allele": {
+        "chrom": "chr33",
+        "uu_chrom": "NC_049254.1",
+        "pos1": 7983429,
+        "id": null,
+        "ref": "T",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.5550000071525574,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051837.1",
+      "ros_start0": 7717435,
+      "ros_end0": 7717436,
+      "ros_reference": "G",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__15",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195212,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.16300000250339508,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195910,
+      "ros_end0": 195911,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__17",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195245,
+        "id": null,
+        "ref": "G",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.49900001287460327,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195943,
+      "ros_end0": 195944,
+      "ros_reference": "A",
+      "oriented_source_ref": "G",
+      "oriented_source_alt": "A",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__20",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195264,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.5,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 195962,
+      "ros_end0": 195963,
+      "ros_reference": "G",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "G",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__22",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195345,
+        "id": null,
+        "ref": "C",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.5009999871253967,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196043,
+      "ros_end0": 196044,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99__26",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195430,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.5009999871253967,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196128,
+      "ros_end0": 196129,
+      "ros_reference": "C",
+      "oriented_source_ref": "T",
+      "oriented_source_alt": "C",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__2",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513764,
+        "id": null,
+        "ref": "TAAA",
+        "alt": "TA",
+        "alt_index1": 1,
+        "AF": 0.33799999952316284,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__3",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513764,
+        "id": null,
+        "ref": "TAAA",
+        "alt": "TAAAA",
+        "alt_index1": 2,
+        "AF": 0.005319000221788883,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__4",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513764,
+        "id": null,
+        "ref": "TAAA",
+        "alt": "T",
+        "alt_index1": 3,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__5",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513764,
+        "id": null,
+        "ref": "TAAA",
+        "alt": "TAA",
+        "alt_index1": 4,
+        "AF": 0.008359000086784363,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__6",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513767,
+        "id": null,
+        "ref": "A",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.33899998664855957,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611164,
+      "ros_end0": 9611165,
+      "ros_reference": "T",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "T",
+      "diagnosis": "source_ALT_equals_ROS_reference"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__7",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9513767,
+        "id": null,
+        "ref": "A",
+        "alt": "ATT",
+        "alt_index1": 2,
+        "AF": 0.009999999776482582,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611164,
+      "ros_end0": 9611165,
+      "ros_reference": "T",
+      "oriented_source_ref": "A",
+      "oriented_source_alt": "ATT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__16",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514183,
+        "id": null,
+        "ref": "TCTTCTTCTTC",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.0005191999953240156,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611581,
+      "ros_end0": 9611592,
+      "ros_reference": "TCTTCTTTTTC",
+      "oriented_source_ref": "TCTTCTTCTTC",
+      "oriented_source_alt": "T",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__18",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514187,
+        "id": null,
+        "ref": "C",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.0005194999976083636,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__19",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514188,
+        "id": null,
+        "ref": "TTCTTCC",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.028999999165534973,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__20",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514188,
+        "id": null,
+        "ref": "TTCTTCC",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.0005167999770492315,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__21",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514189,
+        "id": null,
+        "ref": "TC",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.032999999821186066,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__22",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514189,
+        "id": null,
+        "ref": "TC",
+        "alt": "T",
+        "alt_index1": 2,
+        "AF": 0.0031850000377744436,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611587,
+      "ros_end0": 9611589,
+      "ros_reference": "TT",
+      "oriented_source_ref": "TC",
+      "oriented_source_alt": "T",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__23",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514190,
+        "id": null,
+        "ref": "C",
+        "alt": "CT",
+        "alt_index1": 1,
+        "AF": 0.43700000643730164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051825.1",
+      "ros_start0": 9611588,
+      "ros_end0": 9611589,
+      "ros_reference": "T",
+      "oriented_source_ref": "C",
+      "oriented_source_alt": "CT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__24",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514190,
+        "id": null,
+        "ref": "C",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.035999998450279236,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__25",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514191,
+        "id": null,
+        "ref": "TTCCTTCTTCTTCTTCTTC",
+        "alt": "TTCTTCTTCTTCTCCTTCTTCTTCTTCTTC",
+        "alt_index1": 1,
+        "AF": 0.009072000160813332,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__26",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514191,
+        "id": null,
+        "ref": "TTCCTTCTTCTTCTTCTTC",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.014999999664723873,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__27",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514191,
+        "id": null,
+        "ref": "TTCCTTCTTCTTCTTCTTC",
+        "alt": "TTCTTCTTCTTCTCCTTCTCCTTCTTCTTCTTCTTC",
+        "alt_index1": 3,
+        "AF": 0.003469000104814768,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__28",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514191,
+        "id": null,
+        "ref": "TTCCTTCTTCTTCTTCTTC",
+        "alt": "TTTCTTCTTCTTCTTC",
+        "alt_index1": 4,
+        "AF": 0.013000000268220901,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__29",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514191,
+        "id": null,
+        "ref": "TTCCTTCTTCTTCTTCTTC",
+        "alt": "TCTTCTTCTTCTTCTTC",
+        "alt_index1": 5,
+        "AF": 0.0032019999343901873,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__30",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514191,
+        "id": null,
+        "ref": "TTCCTTCTTCTTCTTCTTC",
+        "alt": "TTTCTTCTTCTTC",
+        "alt_index1": 6,
+        "AF": 0.00773700000718236,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__32",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514192,
+        "id": null,
+        "ref": "TC",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.04100000113248825,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__39",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514194,
+        "id": null,
+        "ref": "C",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.02199999988079071,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__48",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514233,
+        "id": null,
+        "ref": "C",
+        "alt": "*",
+        "alt_index1": 4,
+        "AF": 0.017999999225139618,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0045__AutoAndXPAR.nonSNPs.filter__55",
+      "source_allele": {
+        "chrom": "chr21",
+        "uu_chrom": "NC_049242.1",
+        "pos1": 9514247,
+        "id": null,
+        "ref": "T",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.006113000214099884,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_2901__AutoAndXPAR.nonSNPs.filter__3",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 18802736,
+        "id": null,
+        "ref": "GAAAACTTAGAATTTATACGACTTATAATAAACACCATA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.00025179999647662044,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051831.1",
+      "ros_start0": 27680376,
+      "ros_end0": 27680415,
+      "ros_reference": "TATGGTGTTTATTATAAGTCATATAAATTCTAAGTTTTC",
+      "oriented_source_ref": "TATGGTGTTTATTATAAGTCGTATAAATTCTAAGTTTTC",
+      "oriented_source_alt": "C",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__3",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853720,
+        "id": null,
+        "ref": "AT",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.4440000057220459,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__4",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853721,
+        "id": null,
+        "ref": "TG",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.4440000057220459,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__5",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853721,
+        "id": null,
+        "ref": "TG",
+        "alt": "T",
+        "alt_index1": 2,
+        "AF": 0.5559999942779541,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__6",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853856,
+        "id": null,
+        "ref": "ATT",
+        "alt": "AT",
+        "alt_index1": 1,
+        "AF": 0.43299999833106995,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__7",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853856,
+        "id": null,
+        "ref": "ATT",
+        "alt": "ATTT",
+        "alt_index1": 2,
+        "AF": 0.4860000014305115,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__8",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853856,
+        "id": null,
+        "ref": "ATT",
+        "alt": "ATTTT",
+        "alt_index1": 3,
+        "AF": 0.04800000041723251,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__9",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853856,
+        "id": null,
+        "ref": "ATT",
+        "alt": "A",
+        "alt_index1": 4,
+        "AF": 0.002013999968767166,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__10",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29853856,
+        "id": null,
+        "ref": "ATT",
+        "alt": "ATTTTT",
+        "alt_index1": 5,
+        "AF": 0.001006999984383583,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0202__AutoAndXPAR.nonSNPs.filter__14",
+      "source_allele": {
+        "chrom": "chr12",
+        "uu_chrom": "NC_049233.1",
+        "pos1": 29854079,
+        "id": null,
+        "ref": "CAA",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_0228__AutoAndXPAR.nonSNPs.filter__2",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 56172484,
+        "id": null,
+        "ref": "CT",
+        "alt": "CTT",
+        "alt_index1": 1,
+        "AF": 0.005787999834865332,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_0228__AutoAndXPAR.nonSNPs.filter__3",
+      "source_allele": {
+        "chrom": "chr22",
+        "uu_chrom": "NC_049243.1",
+        "pos1": 56172484,
+        "id": null,
+        "ref": "CT",
+        "alt": "C",
+        "alt_index1": 2,
+        "AF": 0.3160000145435333,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_contains_unmapped_or_nonunique_base"
+    },
+    {
+      "id": "bg1k_1958__AutoAndXPAR.nonSNPs.filter__2",
+      "source_allele": {
+        "chrom": "chr5",
+        "uu_chrom": "NC_049226.1",
+        "pos1": 83813622,
+        "id": null,
+        "ref": "CCAT",
+        "alt": "TCAT",
+        "alt_index1": 1,
+        "AF": 0.0005032999906688929,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051809.1",
+      "ros_start0": 83663893,
+      "ros_end0": 83663897,
+      "ros_reference": "CCAC",
+      "oriented_source_ref": "CCAT",
+      "oriented_source_alt": "TCAT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1958__AutoAndXPAR.nonSNPs.filter__3",
+      "source_allele": {
+        "chrom": "chr5",
+        "uu_chrom": "NC_049226.1",
+        "pos1": 83813622,
+        "id": null,
+        "ref": "CCAT",
+        "alt": "C",
+        "alt_index1": 2,
+        "AF": 0.001006999984383583,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051809.1",
+      "ros_start0": 83663893,
+      "ros_end0": 83663897,
+      "ros_reference": "CCAC",
+      "oriented_source_ref": "CCAT",
+      "oriented_source_alt": "C",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__7",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195754,
+        "id": null,
+        "ref": "ATTTTATTAT",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.0017760000191628933,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__8",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195756,
+        "id": null,
+        "ref": "TTTATTA",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.001521000056527555,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__9",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195756,
+        "id": null,
+        "ref": "TTTATTA",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.0017750000115484,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__10",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195759,
+        "id": null,
+        "ref": "ATTATT",
+        "alt": "ATTTTATT",
+        "alt_index1": 1,
+        "AF": 0.4869999885559082,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "diagnosis": "source_REF_crosses_ROS_insertion_or_discontinuity"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__11",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195759,
+        "id": null,
+        "ref": "ATTATT",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.00202700006775558,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__12",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195761,
+        "id": null,
+        "ref": "TA",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.0027920000720769167,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196472,
+      "ros_end0": 196474,
+      "ros_reference": "TT",
+      "oriented_source_ref": "TA",
+      "oriented_source_alt": "T",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__13",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195761,
+        "id": null,
+        "ref": "TA",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.001269000000320375,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__14",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195762,
+        "id": null,
+        "ref": "AT",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.4959999918937683,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196473,
+      "ros_end0": 196475,
+      "ros_reference": "TT",
+      "oriented_source_ref": "AT",
+      "oriented_source_alt": "A",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__15",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195762,
+        "id": null,
+        "ref": "AT",
+        "alt": "*",
+        "alt_index1": 2,
+        "AF": 0.003834000090137124,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__16",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195762,
+        "id": null,
+        "ref": "AT",
+        "alt": "ATTT",
+        "alt_index1": 3,
+        "AF": 0.3310000002384186,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196473,
+      "ros_end0": 196475,
+      "ros_reference": "TT",
+      "oriented_source_ref": "AT",
+      "oriented_source_alt": "ATTT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__17",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195762,
+        "id": null,
+        "ref": "AT",
+        "alt": "ATTTTATTT",
+        "alt_index1": 4,
+        "AF": 0.13199999928474426,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196473,
+      "ros_end0": 196475,
+      "ros_reference": "TT",
+      "oriented_source_ref": "AT",
+      "oriented_source_alt": "ATTTTATTT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__18",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195762,
+        "id": null,
+        "ref": "AT",
+        "alt": "ATTTTATTTTATTTTATTT",
+        "alt_index1": 5,
+        "AF": 0.007412999868392944,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196473,
+      "ros_end0": 196475,
+      "ros_reference": "TT",
+      "oriented_source_ref": "AT",
+      "oriented_source_alt": "ATTTTATTTTATTTTATTT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__19",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195762,
+        "id": null,
+        "ref": "AT",
+        "alt": "ATTTTATTTTATTT",
+        "alt_index1": 6,
+        "AF": 0.019999999552965164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": true
+      },
+      "ros_chrom": "NC_051820.1",
+      "ros_start0": 196473,
+      "ros_end0": 196475,
+      "ros_reference": "TT",
+      "oriented_source_ref": "AT",
+      "oriented_source_alt": "ATTTTATTTTATTT",
+      "diagnosis": "REF_disagreement_ALT_also_differs_from_ROS"
+    },
+    {
+      "id": "bg1k_1650__AutoAndXPAR.nonSNPs.filter__20",
+      "source_allele": {
+        "chrom": "chr24",
+        "uu_chrom": "NC_049245.1",
+        "pos1": 195763,
+        "id": null,
+        "ref": "T",
+        "alt": "*",
+        "alt_index1": 1,
+        "AF": 0.9700000286102295,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_queried_span_not_exact_window": true,
+        "sequence_allele": false
+      },
+      "diagnosis": "nonsequence_ALT"
+    }
+  ],
+  "limitations": [
+    "Diagnostic aligned-coordinate comparison only; no previously rejected variant promoted",
+    "Source ALT frequency is not converted into ROS ALT frequency or complemented",
+    "ALT matching ROS reference may reflect reference-allele differences; does not establish donor genotype or absence of variation",
+    "Indel/phase reconciliation remains unresolved"
+  ]
+}

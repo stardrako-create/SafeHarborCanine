@@ -1,0 +1,1007 @@
+{
+  "GSM7887650": {
+    "title": [
+      "B_B7H3_CAR_T_1"
+    ],
+    "geo_accession": [
+      "GSM7887650"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "B_B7H3_CAR_T"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "tissue: B_B7H3_CAR_T",
+      "biological replicate: B",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: B7H3_CAR"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165682",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428478"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887651": {
+    "title": [
+      "B_BC_CAR_T_1"
+    ],
+    "geo_accession": [
+      "GSM7887651"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "B_BC_CAR_T"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "tissue: B_BC_CAR_T",
+      "biological replicate: B",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: BC_CAR"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165681",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428479"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887652": {
+    "title": [
+      "B_T_cell_1"
+    ],
+    "geo_accession": [
+      "GSM7887652"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "E_B7H3_CAR_T"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "tissue: E_B7H3_CAR_T",
+      "biological replicate: B",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: Untransduced"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165680",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428480"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887653": {
+    "title": [
+      "E_B7H3_CAR_T_1"
+    ],
+    "geo_accession": [
+      "GSM7887653"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "E_BC_CAR_T"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "tissue: E_BC_CAR_T",
+      "biological replicate: E",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: B7H3_CAR"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165679",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428481"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887654": {
+    "title": [
+      "E_BC_CAR_T_1"
+    ],
+    "geo_accession": [
+      "GSM7887654"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "M_B7H3_CAR_T"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "tissue: M_B7H3_CAR_T",
+      "biological replicate: E",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: BC_CAR"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165678",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428482"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887655": {
+    "title": [
+      "E_T_cell_1"
+    ],
+    "geo_accession": [
+      "GSM7887655"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "M_BC_CAR_T"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "tissue: M_BC_CAR_T",
+      "biological replicate: E",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: Untransduced"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165677",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428483"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887656": {
+    "title": [
+      "M_B7H3_CAR_T_1"
+    ],
+    "geo_accession": [
+      "GSM7887656"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "T cell"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "biological replicate: M",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: B7H3_CAR"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165676",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428484"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887657": {
+    "title": [
+      "M_BC_CAR_T_1"
+    ],
+    "geo_accession": [
+      "GSM7887657"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "T cell"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "biological replicate: M",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: BC_CAR"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165675",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428485"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  },
+  "GSM7887658": {
+    "title": [
+      "M_T_cell_1"
+    ],
+    "geo_accession": [
+      "GSM7887658"
+    ],
+    "status": [
+      "Public on Apr 03 2024"
+    ],
+    "submission_date": [
+      "Nov 08 2023"
+    ],
+    "last_update_date": [
+      "Apr 03 2024"
+    ],
+    "type": [
+      "SRA"
+    ],
+    "channel_count": [
+      "1"
+    ],
+    "source_name_ch1": [
+      "T cell"
+    ],
+    "organism_ch1": [
+      "Canis lupus familiaris"
+    ],
+    "taxid_ch1": [
+      "9615"
+    ],
+    "characteristics_ch1": [
+      "biological replicate: M",
+      "cell type: T cell",
+      "breed: mixed breed",
+      "treatment: Untransduced"
+    ],
+    "growth_protocol_ch1": [
+      "Non-tissue culture treated plates were coated with 24 \u00c2\u00b5g/mL Retronectin (Tankara) according to the manufacture\u00e2\u20ac\u2122s protocol. Frozen B7-H3 retroviral supernatant was thawed in a 37\u00cb\u0161 C water bath and aliquoted into Retronectin coated 6-well plates at 2 ml/well and centrifuged at 32\u00cb\u0161 C for 2.5 hours at 2,000 G. Viral supernatant was discarded after centrifugation and activated PBLs were plated onto retroviral bound plates at a concentration of 5.05 cells/mL and 2 mL per well and incubated overnight. The T cells were transduced once before being rescued from virus and expanded in fresh cTCM media and cytokines. The CAR T cells were transduced twice before being rescued from virus and put into fresh cTCM with fresh cytokines. Half of the medium was changed, and fresh cytokines are added every 2-3 days. The CAR T cells were used for analysis on day 10-14 of culture."
+    ],
+    "molecule_ch1": [
+      "total RNA"
+    ],
+    "extract_protocol_ch1": [
+      "RNA was extracted with a RNeasy mini kit (Qiagen, Hilden Germany).",
+      "Libraries were prepared with SMART-Seq v4 3\u00e2\u20ac\u2122 DE Kit (Takarabio, Japan)"
+    ],
+    "data_processing": [
+      "Raw reads were filtered by removing reads containing adapter and reads containing N>10% and for Phred scores >30. The filtered reads were analyzed using Partek Flow software version 7.0. Filtered reads were aligned with STAR 2.73a CanFam3.1 genome assembly. Aligned reads were annotated and counted using HTseq",
+      "Assembly: CanFam3.1",
+      "Supplementary files format and content: txt files contain CPM normalized data"
+    ],
+    "platform_id": [
+      "GPL24229"
+    ],
+    "contact_name": [
+      "Steven,,Dow"
+    ],
+    "contact_email": [
+      "sdow@colostate.edu"
+    ],
+    "contact_laboratory": [
+      "ACC 254"
+    ],
+    "contact_department": [
+      "Clinical Sciences"
+    ],
+    "contact_institute": [
+      "Colorado State University"
+    ],
+    "contact_address": [
+      "300 W Drake Rd"
+    ],
+    "contact_city": [
+      "Fort Collins"
+    ],
+    "contact_state": [
+      "CO"
+    ],
+    "contact_zip/postal_code": [
+      "80524"
+    ],
+    "contact_country": [
+      "USA"
+    ],
+    "instrument_model": [
+      "Illumina HiSeq 4000"
+    ],
+    "library_selection": [
+      "cDNA"
+    ],
+    "library_source": [
+      "transcriptomic"
+    ],
+    "library_strategy": [
+      "RNA-Seq"
+    ],
+    "relation": [
+      "BioSample: https://www.ncbi.nlm.nih.gov/biosample/SAMN38165674",
+      "SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRX22428486"
+    ],
+    "supplementary_file_1": [
+      "NONE"
+    ],
+    "series_id": [
+      "GSE247355"
+    ],
+    "data_row_count": [
+      "0"
+    ]
+  }
+}

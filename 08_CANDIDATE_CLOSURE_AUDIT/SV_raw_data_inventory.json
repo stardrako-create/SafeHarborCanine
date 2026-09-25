@@ -1,0 +1,51 @@
+{
+  "runs": [
+    {
+      "run_accession": "SRR15100208",
+      "sample_accession": "SAMN20151373",
+      "library_strategy": "WGS",
+      "library_layout": "PAIRED",
+      "fastq_bytes": "13750329083;14259136274",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR151/008/SRR15100208/SRR15100208_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR151/008/SRR15100208/SRR15100208_2.fastq.gz",
+      "submitted_ftp": "",
+      "submitted_format": "",
+      "compressed_bytes": 28009465357
+    },
+    {
+      "run_accession": "SRR12330331",
+      "sample_accession": "SAMN15625855",
+      "library_strategy": "WGS",
+      "library_layout": "PAIRED",
+      "fastq_bytes": "15480575058;17120970767",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR123/031/SRR12330331/SRR12330331_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR123/031/SRR12330331/SRR12330331_2.fastq.gz",
+      "submitted_ftp": "",
+      "submitted_format": "",
+      "compressed_bytes": 32601545825
+    },
+    {
+      "run_accession": "SRR15734832",
+      "sample_accession": "SAMN21036425",
+      "library_strategy": "WGS",
+      "library_layout": "PAIRED",
+      "fastq_bytes": "14802392696;16512896249",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR157/032/SRR15734832/SRR15734832_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR157/032/SRR15734832/SRR15734832_2.fastq.gz",
+      "submitted_ftp": "",
+      "submitted_format": "",
+      "compressed_bytes": 31315288945
+    },
+    {
+      "run_accession": "SRR14750332",
+      "sample_accession": "SAMN19522896",
+      "library_strategy": "WGS",
+      "library_layout": "PAIRED",
+      "fastq_bytes": "17535430604;18630753389",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR147/032/SRR14750332/SRR14750332_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR147/032/SRR14750332/SRR14750332_2.fastq.gz",
+      "submitted_ftp": "",
+      "submitted_format": "",
+      "compressed_bytes": 36166183993
+    }
+  ],
+  "total_compressed_bytes": 128092484120,
+  "downloaded_reads": false,
+  "submitted_alignment_links_returned": false
+}

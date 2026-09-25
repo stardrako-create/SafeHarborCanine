@@ -1,0 +1,23 @@
+{
+  "align_primary_writer_v1218.py": "e74acc505df647a51ec24e4a409db4b7b4a6c70d178337a1fdbce9b7b7574a5a",
+  "compare_v1218.py": "a8fea2bf70afcc9a67bdf667a4d1c685f4877e2e05ab2552bb79662f8b181fbb",
+  "finish_v1218.py": "2c623b5015e9344fe53b92a52b77fe1d596e655985b2db401764171c22a76167",
+  "fix_v1218.py": "bcb5dd6b8afb2d079709870da071ab3c2f005653bb560c116f2c4e14e274b2e5",
+  "harden_and_test_v1218.py": "27e137a26f9abab04ab025ef6cf521f5e344937fb5d672405e584a446c9cc387",
+  "rebuild_atac_v1218.py": "009f9c37914e5503e03f084f850ebb8e1812e56f64a19bc3ff8ed0bcf7c0ea65",
+  "refresh_local_v1218.py": "fee090b0457bdfac87e8168d34ce17373a56fb4a53759d3940f1fb999203c12b",
+  "validate_and_score_v1218.py": "4488eb743fed15a453d6710edc4ad4375f881304e3a7ac7790c3342ecfbac13d",
+  "validate_rebuild_v1218.py": "64448e733b8ce793869387c2fbd9f31ec6e1eba4e1a28ef85cf69d76aa4c58b3",
+  "code\\build_mother_track_v2.py": "b5e9a483ef04eeaf030241f1a40c2932739205ba106c93facb8aec5094aa9fe1",
+  "code\\bw_utils.py": "77f73acbf03b172ad0937db3709675603b7989725e4d52236a6b011533a9f59b",
+  "code\\score_ship_candidates_v2.py": "339d2a27f8f105c40a6c9a79fd34d1bc3254dfc20aafbd6a47bc4fa6f9a73578",
+  "ATAC\\evidence_dogs.bw": "b9ff6f76eb5cd915957afdfbdad078645621205ea08ec017198a846fc8aae8ce",
+  "ATAC\\mother_track_accessibility_level.bw": "54f15fedec1bfbfb238acc2f1a18e0cb5ba638444bd0d7b1edd5d60d9e62ed12",
+  "ATAC\\variability.bw": "c546aaf25243f319e489b52789fb2ec7bba4d365bb63f95716e5a92118d61414",
+  "candidates_integrated_review_v1218.tsv": "64f2a5589ccc0f51de14fce88a650a853a7e844edbcdd3d415efe448e36dd285",
+  "candidates_scored_v1218.tsv": "3b7c214bee09ec6702616548f63ce274f3981bbe4944829078aa9b7592e327bf",
+  "local_background_windows.tsv": "359b61fbe833c9e76b1645b526373883e0f62ce052885f828e7e6d0f2fb036e6",
+  "local_tradeoff_frontier_exploratory.tsv": "37ae142d41e2e282f579e563469e8f6eadc2832d06d2405c5d79f26c2b7d22dc",
+  "local_windows_evidence_status.tsv": "7214ab843e9072d015c5ffc038a637706fbfbbb5f2039b09430a3dcfda8a31c7",
+  "scoring_changes.tsv": "a3f5446563bd15844d912a97a269f0e287e13f6c0980b85734e6cb0d72f90cf2"
+}

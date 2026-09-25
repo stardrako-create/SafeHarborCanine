@@ -1,0 +1,74 @@
+{
+  "utc": "2026-09-22T21:50:39.160160+00:00",
+  "commit": "4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473",
+  "files": [
+    {
+      "file": "CL_13_dense.bed.gz",
+      "bytes_decompressed": 41853311,
+      "sha256": "bacb844def1c18cd76199ed1f789e034140b57c1c01de300582791452f875ced",
+      "matches_manifest": true
+    },
+    {
+      "file": "CO_13_dense.bed.gz",
+      "bytes_decompressed": 21832074,
+      "sha256": "d78379a46cd815d4cb517ddf7a3d7212a333c408671581b95b2a29bedc34c15f",
+      "matches_manifest": true
+    },
+    {
+      "file": "CR_13_dense.bed.gz",
+      "bytes_decompressed": 20259802,
+      "sha256": "c8d3a51d89222f490ebffdc565bbace2e2c6987248c743e01b92f669c15f047d",
+      "matches_manifest": true
+    },
+    {
+      "file": "KI_13_dense.bed.gz",
+      "bytes_decompressed": 35737797,
+      "sha256": "5556819a3b98b78ebcd01ec82500b04c1a906b544695c1c21acf35bafbb0b22c",
+      "matches_manifest": true
+    },
+    {
+      "file": "LI_13_dense.bed.gz",
+      "bytes_decompressed": 27882520,
+      "sha256": "8ffd1609fc3ee0c0c5993ba203e1789d87e3353baf8b3b61d8b7b6f40650f05e",
+      "matches_manifest": true
+    },
+    {
+      "file": "LU_13_dense.bed.gz",
+      "bytes_decompressed": 30866736,
+      "sha256": "5f51fa79e336929128c5e8595e13136b479bd5b400673a1fb9ce26749bdd2d3c",
+      "matches_manifest": true
+    },
+    {
+      "file": "MG_13_dense.bed.gz",
+      "bytes_decompressed": 36995918,
+      "sha256": "f9671db80ac87a24c94a80fb37bfb8f013f84143028bff563786d676aeb9799d",
+      "matches_manifest": true
+    },
+    {
+      "file": "OV_13_dense.bed.gz",
+      "bytes_decompressed": 16137407,
+      "sha256": "3c8aff9db07de82ce9ecf4dc0cae4fe134c059535cb460f0900f1fe22cad3778",
+      "matches_manifest": true
+    },
+    {
+      "file": "PA_13_dense.bed.gz",
+      "bytes_decompressed": 26863526,
+      "sha256": "09083c5a145a5f8ed2e20e872f24a66fd6c41af8b41ca94832b7a7be0c6230fb",
+      "matches_manifest": true
+    },
+    {
+      "file": "SP_13_dense.bed.gz",
+      "bytes_decompressed": 14244800,
+      "sha256": "468f4f15e6761bb2ac229faa163dc302c7a9b58757e5873132b42d3c72c91f56",
+      "matches_manifest": true
+    },
+    {
+      "file": "ST_13_dense.bed.gz",
+      "bytes_decompressed": 13529947,
+      "sha256": "b414a3c4ff487dd16855c8f10ec60f4ba1d51f95f1f3ed23d2957bfb52d358f6",
+      "matches_manifest": true
+    }
+  ],
+  "all_match": true,
+  "scope": "Input integrity only; full canFam3.1 annotations. Regional ROS exports cover old candidates only; new control windows require audited cross-assembly mapping"
+}

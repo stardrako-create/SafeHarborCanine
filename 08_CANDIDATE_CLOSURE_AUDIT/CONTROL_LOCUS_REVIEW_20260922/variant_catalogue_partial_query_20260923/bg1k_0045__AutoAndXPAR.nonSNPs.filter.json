@@ -1,0 +1,947 @@
+{
+  "utc": "2026-09-23T16:51:57.003111+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "bg1k_0045",
+  "mapping": {
+    "chrom": "NC_049242.1",
+    "start0": 9513513,
+    "end0": 9514464,
+    "strand": "+",
+    "partial_only": true
+  },
+  "vcf_contig": "chr21",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 23,
+  "allele_count": 58,
+  "alleles": [
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513715,
+      "id": null,
+      "ref": "CCT",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.006045000161975622,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513764,
+      "id": null,
+      "ref": "TAAA",
+      "alt": "TA",
+      "alt_index1": 1,
+      "AF": 0.33799999952316284,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513764,
+      "id": null,
+      "ref": "TAAA",
+      "alt": "TAAAA",
+      "alt_index1": 2,
+      "AF": 0.005319000221788883,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513764,
+      "id": null,
+      "ref": "TAAA",
+      "alt": "T",
+      "alt_index1": 3,
+      "AF": 0.010999999940395355,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513764,
+      "id": null,
+      "ref": "TAAA",
+      "alt": "TAA",
+      "alt_index1": 4,
+      "AF": 0.008359000086784363,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513767,
+      "id": null,
+      "ref": "A",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.33899998664855957,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513767,
+      "id": null,
+      "ref": "A",
+      "alt": "ATT",
+      "alt_index1": 2,
+      "AF": 0.009999999776482582,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513838,
+      "id": null,
+      "ref": "AG",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.0017689999658614397,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9513997,
+      "id": null,
+      "ref": "T",
+      "alt": "TA",
+      "alt_index1": 1,
+      "AF": 0.009999999776482582,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514056,
+      "id": null,
+      "ref": "A",
+      "alt": "AT",
+      "alt_index1": 1,
+      "AF": 0.3499999940395355,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514056,
+      "id": null,
+      "ref": "A",
+      "alt": "ATT",
+      "alt_index1": 2,
+      "AF": 0.00025179999647662044,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514136,
+      "id": null,
+      "ref": "TCTC",
+      "alt": "TCTCCTCCTC",
+      "alt_index1": 1,
+      "AF": 0.006039000116288662,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514136,
+      "id": null,
+      "ref": "TCTC",
+      "alt": "TCTCCTC",
+      "alt_index1": 2,
+      "AF": 0.0037750001065433025,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514136,
+      "id": null,
+      "ref": "TCTC",
+      "alt": "TCTCCTCCTCCTC",
+      "alt_index1": 3,
+      "AF": 0.0012580000329762697,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514136,
+      "id": null,
+      "ref": "TCTC",
+      "alt": "T",
+      "alt_index1": 4,
+      "AF": 0.0017610000213608146,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514183,
+      "id": null,
+      "ref": "TCTTCTTCTTC",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.0005191999953240156,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514187,
+      "id": null,
+      "ref": "C",
+      "alt": "CT",
+      "alt_index1": 1,
+      "AF": 0.2529999911785126,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514187,
+      "id": null,
+      "ref": "C",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.0005194999976083636,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514188,
+      "id": null,
+      "ref": "TTCTTCC",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.028999999165534973,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514188,
+      "id": null,
+      "ref": "TTCTTCC",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.0005167999770492315,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514189,
+      "id": null,
+      "ref": "TC",
+      "alt": "*",
+      "alt_index1": 1,
+      "AF": 0.032999999821186066,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514189,
+      "id": null,
+      "ref": "TC",
+      "alt": "T",
+      "alt_index1": 2,
+      "AF": 0.0031850000377744436,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514190,
+      "id": null,
+      "ref": "C",
+      "alt": "CT",
+      "alt_index1": 1,
+      "AF": 0.43700000643730164,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514190,
+      "id": null,
+      "ref": "C",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.035999998450279236,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514191,
+      "id": null,
+      "ref": "TTCCTTCTTCTTCTTCTTC",
+      "alt": "TTCTTCTTCTTCTCCTTCTTCTTCTTCTTC",
+      "alt_index1": 1,
+      "AF": 0.009072000160813332,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514191,
+      "id": null,
+      "ref": "TTCCTTCTTCTTCTTCTTC",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.014999999664723873,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514191,
+      "id": null,
+      "ref": "TTCCTTCTTCTTCTTCTTC",
+      "alt": "TTCTTCTTCTTCTCCTTCTCCTTCTTCTTCTTCTTC",
+      "alt_index1": 3,
+      "AF": 0.003469000104814768,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514191,
+      "id": null,
+      "ref": "TTCCTTCTTCTTCTTCTTC",
+      "alt": "TTTCTTCTTCTTCTTC",
+      "alt_index1": 4,
+      "AF": 0.013000000268220901,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514191,
+      "id": null,
+      "ref": "TTCCTTCTTCTTCTTCTTC",
+      "alt": "TCTTCTTCTTCTTCTTC",
+      "alt_index1": 5,
+      "AF": 0.0032019999343901873,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514191,
+      "id": null,
+      "ref": "TTCCTTCTTCTTCTTCTTC",
+      "alt": "TTTCTTCTTCTTC",
+      "alt_index1": 6,
+      "AF": 0.00773700000718236,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514192,
+      "id": null,
+      "ref": "TC",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.009999999776482582,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514192,
+      "id": null,
+      "ref": "TC",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.04100000113248825,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514193,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTTCTCCTTCTTCTTCTTCTTCTTTTT",
+      "alt_index1": 1,
+      "AF": 0.24799999594688416,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514193,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTTCTT",
+      "alt_index1": 2,
+      "AF": 0.08299999684095383,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514193,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 3,
+      "AF": 0.10400000214576721,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514193,
+      "id": null,
+      "ref": "C",
+      "alt": "CTT",
+      "alt_index1": 4,
+      "AF": 0.164000004529953,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514193,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTT",
+      "alt_index1": 5,
+      "AF": 0.09399999678134918,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514193,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTT",
+      "alt_index1": 6,
+      "AF": 0.10899999737739563,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514194,
+      "id": null,
+      "ref": "C",
+      "alt": "*",
+      "alt_index1": 1,
+      "AF": 0.02199999988079071,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514194,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTCCTTCTTCTTCTTCTTCTTT",
+      "alt_index1": 2,
+      "AF": 0.00026500000967644155,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514194,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 3,
+      "AF": 0.0005299000185914338,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514209,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTT",
+      "alt_index1": 1,
+      "AF": 0.007590999826788902,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514210,
+      "id": null,
+      "ref": "T",
+      "alt": "TTTTTCTTCTTCTTCTTCTTCTTCC",
+      "alt_index1": 1,
+      "AF": 0.0002530000056140125,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514232,
+      "id": null,
+      "ref": "TC",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.017000000923871994,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514233,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTT",
+      "alt_index1": 1,
+      "AF": 0.07199999690055847,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514233,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTTCTT",
+      "alt_index1": 2,
+      "AF": 0.04100000113248825,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514233,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTTCTTCTTCTT",
+      "alt_index1": 3,
+      "AF": 0.03799999877810478,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514233,
+      "id": null,
+      "ref": "C",
+      "alt": "*",
+      "alt_index1": 4,
+      "AF": 0.017999999225139618,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514233,
+      "id": null,
+      "ref": "C",
+      "alt": "CTTCTT",
+      "alt_index1": 5,
+      "AF": 0.03799999877810478,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514233,
+      "id": null,
+      "ref": "C",
+      "alt": "CTT",
+      "alt_index1": 6,
+      "AF": 0.020999999716877937,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514245,
+      "id": null,
+      "ref": "CCT",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.006051000207662582,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514245,
+      "id": null,
+      "ref": "CCT",
+      "alt": "CTTCT",
+      "alt_index1": 2,
+      "AF": 0.002773999935016036,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514245,
+      "id": null,
+      "ref": "CCT",
+      "alt": "CTTCTTCTTCTTCTTTTCTTCTTCTTACT",
+      "alt_index1": 3,
+      "AF": 0.00025209999876096845,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514245,
+      "id": null,
+      "ref": "CCT",
+      "alt": "CTTTTCTTCTTCTTACT",
+      "alt_index1": 4,
+      "AF": 0.00025209999876096845,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514247,
+      "id": null,
+      "ref": "T",
+      "alt": "*",
+      "alt_index1": 1,
+      "AF": 0.006113000214099884,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514247,
+      "id": null,
+      "ref": "T",
+      "alt": "TTC",
+      "alt_index1": 2,
+      "AF": 0.0007640999974682927,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514247,
+      "id": null,
+      "ref": "T",
+      "alt": "TTCTTCTTCTTCTTC",
+      "alt_index1": 3,
+      "AF": 0.00025469998945482075,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr21",
+      "uu_chrom": "NC_049242.1",
+      "pos1": 9514265,
+      "id": null,
+      "ref": "AT",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.001769999973475933,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "f2fd14074f4ed9c61ce4f54899e5f1e2d9e9d18f36a6b0756d5ba481968bce20"
+}

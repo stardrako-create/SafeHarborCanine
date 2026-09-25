@@ -1,0 +1,20 @@
+[
+  {
+    "genes": "ANO2/NTF3",
+    "bases_compared": 1000,
+    "max_abs_difference": 0.0,
+    "identical_at_reported_precision": true
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "bases_compared": 1000,
+    "max_abs_difference": 0.03400000000000003,
+    "identical_at_reported_precision": false
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "bases_compared": 1000,
+    "max_abs_difference": 0.03299999999999992,
+    "identical_at_reported_precision": false
+  }
+]

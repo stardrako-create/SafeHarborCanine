@@ -1,0 +1,9 @@
+{
+  "corrected_main_script": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\scripts\\build_cpg_islands.py",
+  "main_bed": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\05_SHIP\\cpg_islands_ROS_Cfam_1.0.bed",
+  "reused_validated_genomewide_calls": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.21.1\\cpg_islands_independent_calls.bed",
+  "main_bed_sha256": "79c622525dd90b2d218dbe16e7a1f704086d6673a11dd753f5e3bf2e97e1a74a",
+  "source_bed_sha256": "79c622525dd90b2d218dbe16e7a1f704086d6673a11dd753f5e3bf2e97e1a74a",
+  "historical_backup": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.21.4\\prior_main",
+  "new_full_genome_build": false
+}

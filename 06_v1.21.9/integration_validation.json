@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checks": [
+    "Three phyloP executions successful; original/new WIG position sets checked during projection",
+    "2091 unique local windows; selected 1kb rolling means independently recomputed with Python sums",
+    "5849 RNA assignments match QC barcode set exactly; T intersection155/union157",
+    "All 42 fragment summaries recomputed from cached rows; no duplicate coordinate/barcode records",
+    "NPNT sample counts and high-quality heterozygote criteria recomputed",
+    "64 previous Pareto windows preserved; conservation annotated without new threshold or rank"
+  ],
+  "frontier": [
+    {
+      "genes": "ANO2/NTF3",
+      "windows": 22,
+      "published_max50_min": 0.10382,
+      "published_max50_max": 3.1736000000000004
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "windows": 12,
+      "published_max50_min": 0.34042,
+      "published_max50_max": 3.2294800000000006
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "windows": 30,
+      "published_max50_min": 0.14982,
+      "published_max50_max": 2.9163800000000006
+    }
+  ],
+  "limitations": [
+    "Checks validate derived arithmetic and bookkeeping, not source experimental quality",
+    "Fragment query completeness retains v1.21.7 assumptions",
+    "No all-461 rescoring with the published conservation model"
+  ]
+}

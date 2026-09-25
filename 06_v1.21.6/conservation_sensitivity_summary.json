@@ -1,0 +1,56 @@
+{
+  "branch_scale_median": 0.8501873011950154,
+  "branch_scale_min": 0.8501835270990432,
+  "branch_scale_max": 0.8501911337269827,
+  "results": [
+    {
+      "genes": "ANO2/NTF3",
+      "model": "pilot",
+      "scored_bp": 1000,
+      "mean": 0.41943199999999997,
+      "max50bp_mean": 1.99976,
+      "fraction_phyloP_ge_2": 0.104
+    },
+    {
+      "genes": "ANO2/NTF3",
+      "model": "scale_check",
+      "scored_bp": 1000,
+      "mean": 0.01442700000000005,
+      "max50bp_mean": 1.4488999999999999,
+      "fraction_phyloP_ge_2": 0.064
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "model": "pilot",
+      "scored_bp": 1000,
+      "mean": 0.29017300000000007,
+      "max50bp_mean": 0.97258,
+      "fraction_phyloP_ge_2": 0.083
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "model": "scale_check",
+      "scored_bp": 1000,
+      "mean": -0.08698399999999999,
+      "max50bp_mean": 0.5437200000000001,
+      "fraction_phyloP_ge_2": 0.039
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "model": "pilot",
+      "scored_bp": 1000,
+      "mean": 0.36778099999999997,
+      "max50bp_mean": 1.5662800000000001,
+      "fraction_phyloP_ge_2": 0.113
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "model": "scale_check",
+      "scored_bp": 1000,
+      "mean": -0.05657100000000001,
+      "max50bp_mean": 1.054,
+      "fraction_phyloP_ge_2": 0.066
+    }
+  ],
+  "limitation": "Second unfiltered random region scale sensitivity; not a fully independent neutral model or production-grade conservation validation."
+}

@@ -1,0 +1,33 @@
+window_id	callset	eligible	records	PASS	PASS_max_alt_AF_ge_0_01
+w00	AutoAndXPAR.SNPs.vqsr99.vcf.gz	False			
+w01	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	26	24	10
+w02	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	31	28	14
+w03	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	35	24	8
+w04	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	25	23	3
+w05	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	22	18	3
+w06	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	18	14	4
+w07	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	25	21	11
+w08	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	25	22	12
+w09	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	25	22	13
+w10	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	18	16	9
+w11	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	18	16	8
+w12	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	16	15	6
+w13	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	21	12	4
+w14	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	27	23	11
+w15	AutoAndXPAR.SNPs.vqsr99.vcf.gz	True	23	22	10
+w00	AutoAndXPAR.nonSNPs.filter.vcf.gz	False			
+w01	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	0	0	0
+w02	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	3	3	2
+w03	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	1	1	1
+w04	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	3	2	0
+w05	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	2	1	0
+w06	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	2	1	0
+w07	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	11	7	6
+w08	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	2	2	1
+w09	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	3	3	2
+w10	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	2	2	0
+w11	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	2	2	1
+w12	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	6	5	1
+w13	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	6	5	1
+w14	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	3	3	2
+w15	AutoAndXPAR.nonSNPs.filter.vcf.gz	True	3	3	2

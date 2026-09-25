@@ -1,0 +1,285 @@
+{
+  "files": [
+    {
+      "sample": "B_B7H3_CAR_T",
+      "run": "SRR26729600",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/000/SRR26729600/SRR26729600_1.fastq.gz",
+      "bytes": 4148428448,
+      "md5": "5439c66c214b00a8aef43c3a691cbcd6",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729600_1.fastq.gz"
+    },
+    {
+      "sample": "B_B7H3_CAR_T",
+      "run": "SRR26729600",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/000/SRR26729600/SRR26729600_2.fastq.gz",
+      "bytes": 4148498307,
+      "md5": "6a6fecbef24e7f303b4405883c10f8ef",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729600_2.fastq.gz"
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "run": "SRR26729599",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/099/SRR26729599/SRR26729599_1.fastq.gz",
+      "bytes": 4248902696,
+      "md5": "a21321381f60533262cc8106aaf7f46f",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729599_1.fastq.gz"
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "run": "SRR26729599",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/099/SRR26729599/SRR26729599_2.fastq.gz",
+      "bytes": 4248666785,
+      "md5": "eeefe78214d0dbcf22d86acefcf888f4",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729599_2.fastq.gz"
+    },
+    {
+      "sample": "B_T_cell",
+      "run": "SRR26729598",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/098/SRR26729598/SRR26729598_1.fastq.gz",
+      "bytes": 3663410970,
+      "md5": "b67b6c27ec6d0efc2e37e03478c79053",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729598_1.fastq.gz"
+    },
+    {
+      "sample": "B_T_cell",
+      "run": "SRR26729598",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/098/SRR26729598/SRR26729598_2.fastq.gz",
+      "bytes": 3663617958,
+      "md5": "88f22541663724de9867be356e1a8a36",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729598_2.fastq.gz"
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "run": "SRR26729597",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/097/SRR26729597/SRR26729597_1.fastq.gz",
+      "bytes": 3717892261,
+      "md5": "c257b56a4a52c304816ebd0b1f82a873",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729597_1.fastq.gz"
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "run": "SRR26729597",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/097/SRR26729597/SRR26729597_2.fastq.gz",
+      "bytes": 3717944576,
+      "md5": "bbf540d69e1dbb6c900076e1ea06b82a",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729597_2.fastq.gz"
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "run": "SRR26729596",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/096/SRR26729596/SRR26729596_1.fastq.gz",
+      "bytes": 2911944944,
+      "md5": "468451396a5ab4075f2aac80a1031086",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729596_1.fastq.gz"
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "run": "SRR26729596",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/096/SRR26729596/SRR26729596_2.fastq.gz",
+      "bytes": 2912046121,
+      "md5": "b54911e9b188bca6bf699a22364915bf",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729596_2.fastq.gz"
+    },
+    {
+      "sample": "E_T_cell",
+      "run": "SRR26729595",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/095/SRR26729595/SRR26729595_1.fastq.gz",
+      "bytes": 2773454005,
+      "md5": "8edb8b4116138e665a1610a94a0cd673",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729595_1.fastq.gz"
+    },
+    {
+      "sample": "E_T_cell",
+      "run": "SRR26729595",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/095/SRR26729595/SRR26729595_2.fastq.gz",
+      "bytes": 2773368039,
+      "md5": "034955705b428fffa9be166a76b44b69",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729595_2.fastq.gz"
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "run": "SRR26729594",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/094/SRR26729594/SRR26729594_1.fastq.gz",
+      "bytes": 3673582811,
+      "md5": "0723b76c75809601a5d5610af94746c1",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729594_1.fastq.gz"
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "run": "SRR26729594",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/094/SRR26729594/SRR26729594_2.fastq.gz",
+      "bytes": 3673855278,
+      "md5": "9e85c278632a3414d647fd14c9cbfa8c",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729594_2.fastq.gz"
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "run": "SRR26729593",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_1.fastq.gz",
+      "bytes": 3372130952,
+      "md5": "5900a2c6dbf0876ba4883989350414c7",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729593_1.fastq.gz"
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "run": "SRR26729593",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_2.fastq.gz",
+      "bytes": 3371995011,
+      "md5": "e109d600916fc5216f87c532d0655b69",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729593_2.fastq.gz"
+    },
+    {
+      "sample": "M_T_cell",
+      "run": "SRR26729592",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/092/SRR26729592/SRR26729592_1.fastq.gz",
+      "bytes": 3435968017,
+      "md5": "c40c448fedc4a7d9136d99df683eb714",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729592_1.fastq.gz"
+    },
+    {
+      "sample": "M_T_cell",
+      "run": "SRR26729592",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/092/SRR26729592/SRR26729592_2.fastq.gz",
+      "bytes": 3436425631,
+      "md5": "697d7c852568fa562de697c876dae717",
+      "path": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.22.6\\raw\\SRR26729592_2.fastq.gz"
+    }
+  ],
+  "metadata": [
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729600&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729600",
+      "experiment_accession": "SRX22428478",
+      "sample_accession": "SAMN38165682",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/000/SRR26729600/SRR26729600_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/000/SRR26729600/SRR26729600_2.fastq.gz",
+      "fastq_bytes": "4148428448;4148498307",
+      "fastq_md5": "5439c66c214b00a8aef43c3a691cbcd6;6a6fecbef24e7f303b4405883c10f8ef",
+      "read_count": "71313021",
+      "base_count": "21393906300",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729599&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729599",
+      "experiment_accession": "SRX22428479",
+      "sample_accession": "SAMN38165681",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/099/SRR26729599/SRR26729599_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/099/SRR26729599/SRR26729599_2.fastq.gz",
+      "fastq_bytes": "4248902696;4248666785",
+      "fastq_md5": "a21321381f60533262cc8106aaf7f46f;eeefe78214d0dbcf22d86acefcf888f4",
+      "read_count": "73106118",
+      "base_count": "21931835400",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729598&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729598",
+      "experiment_accession": "SRX22428480",
+      "sample_accession": "SAMN38165680",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/098/SRR26729598/SRR26729598_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/098/SRR26729598/SRR26729598_2.fastq.gz",
+      "fastq_bytes": "3663410970;3663617958",
+      "fastq_md5": "b67b6c27ec6d0efc2e37e03478c79053;88f22541663724de9867be356e1a8a36",
+      "read_count": "63103912",
+      "base_count": "18931173600",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729597&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729597",
+      "experiment_accession": "SRX22428481",
+      "sample_accession": "SAMN38165679",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/097/SRR26729597/SRR26729597_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/097/SRR26729597/SRR26729597_2.fastq.gz",
+      "fastq_bytes": "3717892261;3717944576",
+      "fastq_md5": "c257b56a4a52c304816ebd0b1f82a873;bbf540d69e1dbb6c900076e1ea06b82a",
+      "read_count": "63968906",
+      "base_count": "19190671800",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729596&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729596",
+      "experiment_accession": "SRX22428482",
+      "sample_accession": "SAMN38165678",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/096/SRR26729596/SRR26729596_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/096/SRR26729596/SRR26729596_2.fastq.gz",
+      "fastq_bytes": "2911944944;2912046121",
+      "fastq_md5": "468451396a5ab4075f2aac80a1031086;b54911e9b188bca6bf699a22364915bf",
+      "read_count": "50057082",
+      "base_count": "15017124600",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729595&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729595",
+      "experiment_accession": "SRX22428483",
+      "sample_accession": "SAMN38165677",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/095/SRR26729595/SRR26729595_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/095/SRR26729595/SRR26729595_2.fastq.gz",
+      "fastq_bytes": "2773454005;2773368039",
+      "fastq_md5": "8edb8b4116138e665a1610a94a0cd673;034955705b428fffa9be166a76b44b69",
+      "read_count": "47628341",
+      "base_count": "14288502300",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729594&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729594",
+      "experiment_accession": "SRX22428484",
+      "sample_accession": "SAMN38165676",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/094/SRR26729594/SRR26729594_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/094/SRR26729594/SRR26729594_2.fastq.gz",
+      "fastq_bytes": "3673582811;3673855278",
+      "fastq_md5": "0723b76c75809601a5d5610af94746c1;9e85c278632a3414d647fd14c9cbfa8c",
+      "read_count": "63529437",
+      "base_count": "19058831100",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729593&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729593",
+      "experiment_accession": "SRX22428485",
+      "sample_accession": "SAMN38165675",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_2.fastq.gz",
+      "fastq_bytes": "3372130952;3371995011",
+      "fastq_md5": "5900a2c6dbf0876ba4883989350414c7;e109d600916fc5216f87c532d0655b69",
+      "read_count": "58110975",
+      "base_count": "17433292500",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    },
+    {
+      "source": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR26729592&result=read_run&fields=run_accession,experiment_accession,sample_accession,fastq_ftp,fastq_bytes,fastq_md5,read_count,base_count,library_strategy,library_layout&format=tsv",
+      "run_accession": "SRR26729592",
+      "experiment_accession": "SRX22428486",
+      "sample_accession": "SAMN38165674",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/092/SRR26729592/SRR26729592_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/092/SRR26729592/SRR26729592_2.fastq.gz",
+      "fastq_bytes": "3435968017;3436425631",
+      "fastq_md5": "c40c448fedc4a7d9136d99df683eb714;697d7c852568fa562de697c876dae717",
+      "read_count": "59388016",
+      "base_count": "17816404800",
+      "library_strategy": "RNA-Seq",
+      "library_layout": "PAIRED"
+    }
+  ]
+}

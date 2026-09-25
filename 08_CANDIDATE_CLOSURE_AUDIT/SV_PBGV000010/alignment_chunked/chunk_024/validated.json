@@ -1,0 +1,12 @@
+{
+  "start_pair0": 96000000,
+  "pairs": 4000000,
+  "primary": 8000000,
+  "read1": 4000000,
+  "read2": 4000000,
+  "all_records": 8041546,
+  "retained_records": 137154,
+  "bam_sha256": "0a617306c3ffd897437d844fa9ab11b8ad8aa1268f8e1a5258628caf190dae82",
+  "validated_utc": "2026-09-21T15:32:29Z",
+  "recovery": "Completed SAM re-read to EOF; interrupted BAM preserved separately"
+}

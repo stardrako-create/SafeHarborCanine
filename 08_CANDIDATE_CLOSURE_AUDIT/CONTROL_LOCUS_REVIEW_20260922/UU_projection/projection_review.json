@@ -1,0 +1,1454 @@
+{
+  "utc": "2026-09-23T06:31:27.253062+00:00",
+  "results": [
+    {
+      "id": "bg1k_2054",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049243.1",
+          "start0": 45799914,
+          "end0": 45800913,
+          "cigar": "968M1I31M",
+          "NM": 8,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0567",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049240.1",
+          "start0": 4424922,
+          "end0": 4425922,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2848",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049257.1",
+          "start0": 28969522,
+          "end0": 28970522,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0045",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049242.1",
+          "start0": 9513513,
+          "end0": 9514464,
+          "cigar": "251M2D290M1I137M48I40M2I231M",
+          "NM": 58,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2865",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049232.1",
+          "start0": 42114139,
+          "end0": 42115139,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 42159126,
+          "end0": 42160070,
+          "cigar": "501M2I54M41I7M13I382M",
+          "NM": 61,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 42210168,
+          "end0": 42211110,
+          "cigar": "122M3D39M1I39M1I179M21I8M33I42M2I82M1I92M1I39M1I297M",
+          "NM": 69,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0442",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049254.1",
+          "start0": 10777598,
+          "end0": 10778598,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2901",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 18802349,
+          "end0": 18803349,
+          "cigar": "1000M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0202",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049233.1",
+          "start0": 29853313,
+          "end0": 29854314,
+          "cigar": "350M1I57M1D135M1D457M",
+          "NM": 10,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0334",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049242.1",
+          "start0": 16780469,
+          "end0": 16781469,
+          "cigar": "1000M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2545",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049256.1",
+          "start0": 2699018,
+          "end0": 2700018,
+          "cigar": "1000M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0228",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049243.1",
+          "start0": 56171941,
+          "end0": 56172942,
+          "cigar": "543M1D457M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1958",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049226.1",
+          "start0": 83812948,
+          "end0": 83813948,
+          "cigar": "1000M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2686",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049254.1",
+          "start0": 7982812,
+          "end0": 7983812,
+          "cigar": "1000M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1023",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049233.1",
+          "start0": 46123851,
+          "end0": 46124851,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0023",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049243.1",
+          "start0": 54322502,
+          "end0": 54323407,
+          "cigar": "95S905M",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 17216061,
+          "end0": 17216965,
+          "cigar": "904M96H",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049226.1",
+          "start0": 10265329,
+          "end0": 10266233,
+          "cigar": "96H904M",
+          "NM": 4,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049233.1",
+          "start0": 27685714,
+          "end0": 27686618,
+          "cigar": "96H904M",
+          "NM": 4,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 63388964,
+          "end0": 63389864,
+          "cigar": "100H900M",
+          "NM": 4,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049227.1",
+          "start0": 27962023,
+          "end0": 27962927,
+          "cigar": "904M96H",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 41993761,
+          "end0": 41994665,
+          "cigar": "904M96H",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049227.1",
+          "start0": 38337134,
+          "end0": 38338036,
+          "cigar": "98H902M",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 113387998,
+          "end0": 113388910,
+          "cigar": "885M3D24M91H",
+          "NM": 8,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 59340610,
+          "end0": 59341500,
+          "cigar": "110H890M",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 60944529,
+          "end0": 60945433,
+          "cigar": "96H904M",
+          "NM": 7,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049244.1",
+          "start0": 23343197,
+          "end0": 23344105,
+          "cigar": "886M4D18M96H",
+          "NM": 9,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049233.1",
+          "start0": 16797074,
+          "end0": 16797978,
+          "cigar": "904M96H",
+          "NM": 7,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 81244675,
+          "end0": 81245558,
+          "cigar": "94M1I789M116H",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049238.1",
+          "start0": 35361313,
+          "end0": 35362203,
+          "cigar": "890M110H",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 54453939,
+          "end0": 54454818,
+          "cigar": "121H879M",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049256.1",
+          "start0": 9890315,
+          "end0": 9891206,
+          "cigar": "891M109H",
+          "NM": 6,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049231.1",
+          "start0": 49404852,
+          "end0": 49405737,
+          "cigar": "115H885M",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 47734930,
+          "end0": 47735516,
+          "cigar": "96H586M318H",
+          "NM": 6,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049247.1",
+          "start0": 33734278,
+          "end0": 33734373,
+          "cigar": "904H19M1I76M",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0878",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 52130284,
+          "end0": 52131284,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1650",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049245.1",
+          "start0": 194969,
+          "end0": 195953,
+          "cigar": "594M4I197M9I31M2I16M1I146M",
+          "NM": 24,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2228",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049223.1",
+          "start0": 38414248,
+          "end0": 38415248,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2867",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049256.1",
+          "start0": 5527867,
+          "end0": 5528060,
+          "cigar": "798S60M3D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049228.1",
+          "start0": 28313068,
+          "end0": 28313259,
+          "cigar": "798H60M1D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 18,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049244.1",
+          "start0": 35573749,
+          "end0": 35573938,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1I61M798H",
+          "NM": 18,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049251.1",
+          "start0": 8718767,
+          "end0": 8718955,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I9M1I9M1I11M2I10M1I12M1I4M1I60M799H",
+          "NM": 18,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049224.1",
+          "start0": 47717603,
+          "end0": 47717796,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M3D60M798H",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 55479163,
+          "end0": 55479350,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1I59M800H",
+          "NM": 18,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049235.1",
+          "start0": 29446050,
+          "end0": 29446237,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1I59M800H",
+          "NM": 18,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049236.1",
+          "start0": 14601031,
+          "end0": 14601219,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1D59M801H",
+          "NM": 18,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049233.1",
+          "start0": 53279886,
+          "end0": 53280081,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M5D60M798H",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049253.1",
+          "start0": 12731951,
+          "end0": 12732142,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I14M1I4M1D60M798H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049229.1",
+          "start0": 65566510,
+          "end0": 65566699,
+          "cigar": "798H59M1I5M1I12M1I10M2I11M1I11M1I5M1I9M2I9M2I21M1I37M",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049233.1",
+          "start0": 46917188,
+          "end0": 46917377,
+          "cigar": "798H59M1I5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049240.1",
+          "start0": 54229965,
+          "end0": 54230154,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1I61M798H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049226.1",
+          "start0": 11728998,
+          "end0": 11729193,
+          "cigar": "798H60M5D5M1I12M1I10M2I11M1I11M1I5M1I9M2I14M2I16M1I37M",
+          "NM": 24,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049257.1",
+          "start0": 13414786,
+          "end0": 13414973,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1D58M802H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 26999773,
+          "end0": 26999969,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M1D35M2D28M795H",
+          "NM": 21,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049238.1",
+          "start0": 16851123,
+          "end0": 16851314,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I9M1I9M1I11M2I10M1I12M1I6M1D60M798H",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 3988666,
+          "end0": 3988852,
+          "cigar": "34M1I18M2I15M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1D37M1D19M804H",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049254.1",
+          "start0": 1931437,
+          "end0": 1931630,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M1D35M3I27M793H",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049225.1",
+          "start0": 46657164,
+          "end0": 46657350,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I54M1I20M802H",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 51147568,
+          "end0": 51147755,
+          "cigar": "800H57M1I5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049242.1",
+          "start0": 6022349,
+          "end0": 6022544,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I7M1D2M2I8M1I11M2I10M1I12M1I6M5D60M798H",
+          "NM": 24,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049223.1",
+          "start0": 50641474,
+          "end0": 50641670,
+          "cigar": "797H61M5D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 24,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049234.1",
+          "start0": 14202688,
+          "end0": 14202858,
+          "cigar": "34M1I24M1I10M2I6M1I9M1I9M1I11M2I10M1I12M1I4M1I41M818H",
+          "NM": 17,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049225.1",
+          "start0": 33480193,
+          "end0": 33480382,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I10M3I5M1D61M798H",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 40370191,
+          "end0": 40370365,
+          "cigar": "53M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M3D40M818H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 54683470,
+          "end0": 54683661,
+          "cigar": "798H60M1D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 21,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 13178213,
+          "end0": 13178410,
+          "cigar": "798H59M7D6M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 26,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049247.1",
+          "start0": 32410676,
+          "end0": 32410880,
+          "cigar": "797H61M13D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 31,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049237.1",
+          "start0": 31944623,
+          "end0": 31944821,
+          "cigar": "797H23M4D38M3D5M1I12M1I10M2I11M1I8M1I8M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 25,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049251.1",
+          "start0": 8508763,
+          "end0": 8508932,
+          "cigar": "38M1I14M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I7M1I38M818H",
+          "NM": 17,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049231.1",
+          "start0": 9100904,
+          "end0": 9101097,
+          "cigar": "798H60M3D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 23,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049244.1",
+          "start0": 26716222,
+          "end0": 26716390,
+          "cigar": "818H37M3I5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I55M",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049236.1",
+          "start0": 43958548,
+          "end0": 43958741,
+          "cigar": "798H60M3D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 23,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049239.1",
+          "start0": 12332708,
+          "end0": 12332895,
+          "cigar": "800H57M1I5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 21,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NW_023331088.1",
+          "start0": 36529,
+          "end0": 36703,
+          "cigar": "818H40M3D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I55M",
+          "NM": 20,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049222.1",
+          "start0": 27552654,
+          "end0": 27552857,
+          "cigar": "796H20M10D42M1D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 29,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049236.1",
+          "start0": 55810795,
+          "end0": 55810980,
+          "cigar": "32M1I23M2I12M2I6M1I8M1I10M1I11M2I10M1I12M1I6M1D54M804H",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 54112406,
+          "end0": 54112573,
+          "cigar": "38M1I14M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I5M3I38M818H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049246.1",
+          "start0": 29944027,
+          "end0": 29944216,
+          "cigar": "798H59M1I5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049226.1",
+          "start0": 64392983,
+          "end0": 64393173,
+          "cigar": "799H21M1D43M1I11M1I11M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 15816537,
+          "end0": 15816627,
+          "cigar": "113H9M1I12M1I6M3D60M798H",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049240.1",
+          "start0": 44414579,
+          "end0": 44414753,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1D45M815H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 54061895,
+          "end0": 54062056,
+          "cigar": "53M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I3M1I33M827H",
+          "NM": 17,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049231.1",
+          "start0": 56688611,
+          "end0": 56688785,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1D45M815H",
+          "NM": 19,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049233.1",
+          "start0": 35782322,
+          "end0": 35782407,
+          "cigar": "113H9M1I12M1I4M1I60M799H",
+          "NM": 3,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049222.1",
+          "start0": 94010751,
+          "end0": 94010940,
+          "cigar": "806H54M1I3M7D12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 26,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049231.1",
+          "start0": 34502495,
+          "end0": 34502682,
+          "cigar": "800H57M1I5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 22,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049229.1",
+          "start0": 43268594,
+          "end0": 43268669,
+          "cigar": "800H57M1I5M1I13M123H",
+          "NM": 2,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 59140289,
+          "end0": 59140490,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M11D60M798H",
+          "NM": 31,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049237.1",
+          "start0": 42703434,
+          "end0": 42703611,
+          "cigar": "34M1I24M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I4M1I18M4I14M3I16M804H",
+          "NM": 24,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049254.1",
+          "start0": 28848658,
+          "end0": 28848837,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I7M12I60M798H",
+          "NM": 30,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049258.1",
+          "start0": 14530430,
+          "end0": 14530606,
+          "cigar": "53M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M5D40M818H",
+          "NM": 23,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 10176341,
+          "end0": 10176517,
+          "cigar": "818H40M5D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I55M",
+          "NM": 23,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049252.1",
+          "start0": 8643210,
+          "end0": 8643270,
+          "cigar": "798H60M142H",
+          "NM": 0,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 96009217,
+          "end0": 96009410,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I9M1I9M1I11M2I10M1I13M3D3M1I62M798H",
+          "NM": 25,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049224.1",
+          "start0": 62928148,
+          "end0": 62928343,
+          "cigar": "798H17M4D42M1D6M1I12M1I10M2I11M1I11M1I5M1I9M2I14M2I16M1I37M",
+          "NM": 27,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049239.1",
+          "start0": 52356200,
+          "end0": 52356313,
+          "cigar": "792H23M3I40M1D5M1I12M1I10M2I11M1I11M88H",
+          "NM": 11,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049249.1",
+          "start0": 12819782,
+          "end0": 12819971,
+          "cigar": "801H14M3I40M5D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I15M1I39M",
+          "NM": 27,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049236.1",
+          "start0": 9474607,
+          "end0": 9474788,
+          "cigar": "813H10M2D35M3D5M1I12M1I10M2I11M1I11M1I5M1I9M2I8M1I5M1I55M",
+          "NM": 24,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 57216436,
+          "end0": 57216631,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M7D29M6I29M794H",
+          "NM": 32,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NW_023331696.1",
+          "start0": 10322,
+          "end0": 10390,
+          "cigar": "113H9M1I59M818H",
+          "NM": 2,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049241.1",
+          "start0": 33010068,
+          "end0": 33010267,
+          "cigar": "34M1I21M2I12M2I6M1I8M1I10M1I11M2I10M1I12M1I4M9D45M4D13M802H",
+          "NM": 33,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049254.1",
+          "start0": 31902663,
+          "end0": 31902834,
+          "cigar": "20M1D33M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I12M1I6M9D30M828H",
+          "NM": 25,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049224.1",
+          "start0": 42104755,
+          "end0": 42104923,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I10M1I11M2I10M1I56M821H",
+          "NM": 21,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049238.1",
+          "start0": 18979281,
+          "end0": 18979477,
+          "cigar": "795H29M2I32M5D5M1I12M1I10M2I11M1I12M1I4M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 29,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049242.1",
+          "start0": 2083577,
+          "end0": 2083784,
+          "cigar": "804H16M1D38M21D5M1I12M1I10M2I11M1I8M1I8M1I9M2I8M1I5M1I55M",
+          "NM": 40,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049227.1",
+          "start0": 21265573,
+          "end0": 21265628,
+          "cigar": "55M945H",
+          "NM": 1,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049237.1",
+          "start0": 35769045,
+          "end0": 35769100,
+          "cigar": "55M945H",
+          "NM": 1,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049222.1",
+          "start0": 8900726,
+          "end0": 8900781,
+          "cigar": "945H55M",
+          "NM": 1,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049238.1",
+          "start0": 33757960,
+          "end0": 33758135,
+          "cigar": "815H42M1D6M1I12M1I10M2I23M1I5M1I9M2I8M1I5M1I17M1I37M",
+          "NM": 23,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049222.1",
+          "start0": 14784216,
+          "end0": 14784403,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I9M1I9M1I11M2I10M1I6M2D48M4I19M800H",
+          "NM": 28,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049238.1",
+          "start0": 44225297,
+          "end0": 44225351,
+          "cigar": "38M1I16M945H",
+          "NM": 1,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NW_023331558.1",
+          "start0": 28662,
+          "end0": 28708,
+          "cigar": "136H46M818H",
+          "NM": 0,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049237.1",
+          "start0": 28077650,
+          "end0": 28077865,
+          "cigar": "34M1I18M1I5M1I10M2I6M1I8M1I9M3I10M2I10M1I12M1I6M23D34M1D29M795H",
+          "NM": 45,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049222.1",
+          "start0": 70874219,
+          "end0": 70874277,
+          "cigar": "34M1I24M941H",
+          "NM": 2,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049250.1",
+          "start0": 16664269,
+          "end0": 16664324,
+          "cigar": "945H55M",
+          "NM": 2,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049222.1",
+          "start0": 69794026,
+          "end0": 69794081,
+          "cigar": "55M945H",
+          "NM": 2,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        },
+        {
+          "chrom": "NC_049246.1",
+          "start0": 33618555,
+          "end0": 33618619,
+          "cigar": "720H16M1I23M2I9M2I16M211H",
+          "NM": 5,
+          "mapq": 0,
+          "strand": "+",
+          "primary": false,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0117",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049236.1",
+          "start0": 25832148,
+          "end0": 25833148,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        },
+        {
+          "chrom": "NC_049236.1",
+          "start0": 24263629,
+          "end0": 24264629,
+          "cigar": "1000M",
+          "NM": 17,
+          "mapq": 0,
+          "strand": "-",
+          "primary": false,
+          "exact_sequence_verified": false
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "unresolved_for_simple_allele_projection": 12,
+    "eligible_exact_window_for_variant_query": 8
+  },
+  "limitations": [
+    "BWA-reported placements, not exhaustive genomic equivalence; independent of donor genotype",
+    "Eligibility only for full-window exact-sequence projection; variants spanning verified interval edges need separate treatment",
+    "No variant absence or AF conclusions from mapping alone"
+  ]
+}

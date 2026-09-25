@@ -1,0 +1,21 @@
+{
+  "reviewed": 20,
+  "additional_flags": {
+    "none_in_this_layer": 19,
+    "TAD_boundary_overlap": 1
+  },
+  "feature_types_scanned": {
+    "mRNA": 25357,
+    "snRNA": 436,
+    "lnc_RNA": 9935,
+    "transcript": 2080,
+    "rRNA": 3,
+    "tRNA": 223,
+    "miRNA": 153,
+    "snoRNA": 171,
+    "guide_RNA": 14,
+    "RNase_P_RNA": 1
+  },
+  "status": "additional_annotation_review_not_final_control_panel",
+  "source_gff_sha256": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019"
+}

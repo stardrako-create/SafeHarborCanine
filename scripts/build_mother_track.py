@@ -17,9 +17,19 @@ genome-wide background rate (lambda) to get a local "confidence" in [0,1]:
 confidence = raw / (raw + lambda). This is what lets a low-depth dog's small
 raw count still count as real signal, while the same raw count from a
 high-depth dog (whose background lambda is much higher) is recognized as
-noise-floor and down-weighted - and lets bins with essentially no coverage
-for a given dog be excluded from that bin's average instead of dragging it
-toward zero as if it were a real "closed chromatin" measurement.
+noise-floor and down-weighted.
+
+confidence_floor gates this per-dog, per-bin: below it, a dog is excluded
+from that bin's mean entirely, instead of contributing a small soft-scaled
+amount. An earlier version used confidence as a continuous soft multiplier
+for every dog with no hard cutoff, which let low-confidence dogs damp real
+peaks toward background - the Mother Track's dynamic range came out so
+compressed (p50-p99.9 ~0.09-0.83, <10x) that no percentile cutoff on it
+could separate peaks from background at all: 0/461 SHIP candidates
+overlapped an actual per-dog ATAC peak. The gated weighted mean is then
+divided by its own genome-wide median (bins with evidence only) to express
+it as fold-enrichment over background, the units ATAC signal is normally
+discussed in.
 
 Signal aggregation is done one chromosome at a time to bound memory.
 """
@@ -84,9 +94,7 @@ def build_weighted_mean_and_variability(samples, weights, per_dog_dir, chrom_siz
     w = np.array(weights, dtype=np.float64)
     total_genome_bp = sum(size for _, size in chrom_sizes)
 
-    mean_bw = pyBigWig.open(out_mean_bw, "w")
     var_bw = pyBigWig.open(out_var_bw, "w")
-    mean_bw.addHeader(chrom_sizes)
     var_bw.addHeader(chrom_sizes)
 
     cpm_handles = {}
@@ -98,6 +106,12 @@ def build_weighted_mean_and_variability(samples, weights, per_dog_dir, chrom_siz
         raw_handles[s] = pyBigWig.open(raw_path)
         lambdas[i] = compute_lambda(raw_path, total_genome_bp)
 
+    # Pass 1: gate + weighted mean, buffered per chromosome (cheap - 1 value
+    # per bin, not per dog) so pass 2 can rescale using a genome-wide
+    # background level. Variability doesn't need rescaling, so it's written
+    # straight out here as before.
+    buffered_mean = {}
+    buffered_evidence = {}
     for chrom, size in chrom_sizes:
         n_bins = math.ceil(size / bin_size)
         cpm_mat = np.zeros((len(samples), n_bins), dtype=np.float32)
@@ -114,19 +128,24 @@ def build_weighted_mean_and_variability(samples, weights, per_dog_dir, chrom_siz
         # can't capture, since the noise floor differs per dog by depth.
         confidence = raw_mat / (raw_mat + lambdas[:, None])
 
-        w_local = w[:, None] * confidence
-        denom = w_local.sum(axis=0)
+        # Gate: a dog below confidence_floor at this bin is excluded from
+        # the mean entirely (weight 0), not soft-scaled down. Above the
+        # floor it counts at its full QC weight - no further continuous
+        # scaling by confidence magnitude, so a handful of low-confidence
+        # dogs can no longer damp a real peak toward background.
+        gate = confidence >= confidence_floor
+        w_gated = np.where(gate, w[:, None], 0.0)
+        denom = w_gated.sum(axis=0)
         has_evidence = denom > 1e-9
         weighted_mean = np.zeros(n_bins, dtype=np.float64)
         weighted_mean[has_evidence] = (
-            (cpm_mat * w_local).sum(axis=0)[has_evidence] / denom[has_evidence]
+            (cpm_mat * w_gated).sum(axis=0)[has_evidence] / denom[has_evidence]
         )
 
-        # variability: IQR computed only over dogs with real local evidence
-        # (confidence above a floor) at that bin, so a bin isn't scored as
-        # "highly variable" just because most dogs simply weren't measured
-        # there.
-        masked = np.where(confidence >= confidence_floor, cpm_mat, np.nan)
+        # variability: IQR computed only over the same gated set of dogs, so
+        # a bin isn't scored as "highly variable" just because most dogs
+        # simply weren't measured there.
+        masked = np.where(gate, cpm_mat, np.nan)
         with np.errstate(invalid="ignore", all="ignore"):
             q75 = np.nanpercentile(masked, 75, axis=0)
             q25 = np.nanpercentile(masked, 25, axis=0)
@@ -135,21 +154,54 @@ def build_weighted_mean_and_variability(samples, weights, per_dog_dir, chrom_siz
         starts = list(range(0, n_bins * bin_size, bin_size))[:n_bins]
         ends = [min(s + bin_size, size) for s in starts]
         chroms_col = [chrom] * n_bins
-
-        mean_bw.addEntries(chroms_col, starts, ends=ends, values=[float(v) for v in weighted_mean])
         var_bw.addEntries(chroms_col, starts, ends=ends, values=[float(v) for v in variability])
 
-        print(f"[weighted_mean/variability] {chrom}: {n_bins} bins done "
+        buffered_mean[chrom] = weighted_mean.astype(np.float32)
+        buffered_evidence[chrom] = has_evidence
+
+        print(f"[weighted_mean/variability pass 1] {chrom}: {n_bins} bins done "
               f"(evidence in {int(has_evidence.sum())}/{n_bins} bins)")
-        del cpm_mat, raw_mat, confidence, w_local
+        del cpm_mat, raw_mat, confidence, gate, w_gated, masked, weighted_mean, variability
         gc.collect()
 
     for bw in cpm_handles.values():
         bw.close()
     for bw in raw_handles.values():
         bw.close()
-    mean_bw.close()
     var_bw.close()
+
+    # Gain: re-express the gated mean as fold-enrichment over the
+    # genome-wide background level (median across bins with evidence),
+    # instead of the raw compressed CPM scale - background bins land near
+    # 1x and real peaks show as multiples above it, the same units Ehsan's
+    # cited 1x-150x range is talking about.
+    all_means = np.concatenate([buffered_mean[c] for c, _ in chrom_sizes])
+    all_evidence = np.concatenate([buffered_evidence[c] for c, _ in chrom_sizes])
+    background = float(np.median(all_means[all_evidence])) if all_evidence.any() else 1.0
+    background = max(background, 1e-9)
+    evidence_vals = all_means[all_evidence]
+    print(f"[gain] genome-wide background level (median of gated weighted mean): {background:.6g}")
+    print(
+        "[gain] pre-rescale gated weighted-mean percentiles: "
+        f"p50={np.percentile(evidence_vals, 50):.4g} "
+        f"p90={np.percentile(evidence_vals, 90):.4g} "
+        f"p99={np.percentile(evidence_vals, 99):.4g} "
+        f"p99.9={np.percentile(evidence_vals, 99.9):.4g} "
+        f"max={evidence_vals.max():.4g}"
+    )
+    del all_means, all_evidence, evidence_vals
+    gc.collect()
+
+    mean_bw = pyBigWig.open(out_mean_bw, "w")
+    mean_bw.addHeader(chrom_sizes)
+    for chrom, size in chrom_sizes:
+        n_bins = math.ceil(size / bin_size)
+        fold = buffered_mean[chrom] / background
+        starts = list(range(0, n_bins * bin_size, bin_size))[:n_bins]
+        ends = [min(s + bin_size, size) for s in starts]
+        chroms_col = [chrom] * n_bins
+        mean_bw.addEntries(chroms_col, starts, ends=ends, values=[float(v) for v in fold])
+    mean_bw.close()
 
 
 def sorted_bed_from_narrowpeak(narrowpeak_path, out_path):

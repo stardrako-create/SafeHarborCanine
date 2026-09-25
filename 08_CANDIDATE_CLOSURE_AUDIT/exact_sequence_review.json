@@ -1,0 +1,81 @@
+{
+  "status": "completed",
+  "summary": [
+    {
+      "window_id": "w01",
+      "length": 20,
+      "segments": 981,
+      "unique": 962,
+      "nonunique": 19,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "w01",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "w01",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "w01",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "w11",
+      "length": 20,
+      "segments": 981,
+      "unique": 956,
+      "nonunique": 25,
+      "max_locus_count": 38
+    },
+    {
+      "window_id": "w11",
+      "length": 25,
+      "segments": 976,
+      "unique": 970,
+      "nonunique": 6,
+      "max_locus_count": 12
+    },
+    {
+      "window_id": "w11",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "w11",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    }
+  ],
+  "bases_scanned": 2396858295,
+  "contigs": 376,
+  "seconds": 81.48215579986572,
+  "self_test": "chunk boundaries and overlapping both-strand counts agree with brute force",
+  "reference": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+  "limitations": [
+    "Exact sequence matches only, not mismatch/bulge off-target analysis",
+    "Includes assembly contigs; alternate/haplotype sequences may inflate locus counts",
+    "No PAM, nuclease, guide or donor genotype specified",
+    "1000bp target windows do not define an insertion base",
+    "Unique exact sequence does not establish editing safety"
+  ]
+}

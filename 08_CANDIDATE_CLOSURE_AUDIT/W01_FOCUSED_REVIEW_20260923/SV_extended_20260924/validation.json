@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-24T15:19:41.6891597Z",
+  "records": 141810,
+  "BND_records": 150,
+  "parsed_BND_ALTs": 150,
+  "checks": [
+    "Completed receipt; SVTYPE counts sum to records scanned",
+    "Parsed BND ALT count equals BND record count",
+    "Only hit matches previously documented w11 DEL coordinates"
+  ],
+  "status_sha256": "3a79aac3a627aeadb6c1d7c8246109d4a69a60140a6b8ebf19d9decf1396204d",
+  "source_sha256": "5a3b02a3ed6c1d46d21babc96041a31317501d306a33a1555e00110132a3b76d",
+  "limitation": "Receipt consistency and input fingerprint; not an independent repeat of the genome-wide scan or experimental validation"
+}

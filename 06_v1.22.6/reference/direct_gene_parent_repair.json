@@ -1,0 +1,4 @@
+{
+  "features_repaired": 7910,
+  "rule": "Add gene_id only when transcript_id exactly matches original GFF gene ID and gene_name agrees; no exon coordinates altered"
+}

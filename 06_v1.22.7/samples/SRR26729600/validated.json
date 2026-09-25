@@ -1,0 +1,103 @@
+{
+  "signature": {
+    "reference": {
+      "fasta_sha256": "b1bca7508b5114e8347489019b1b061685a550dadede24efd21f59c0a3879c7e",
+      "gtf_sha256": "c3d76578ddc4cbb497dcf3df2e0557e04b9bad34c0ac6453e0f772aae5a1d297",
+      "STAR_version": "2.7.11b",
+      "command": [
+        "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+        "--runMode",
+        "genomeGenerate",
+        "--runThreadN",
+        "6",
+        "--genomeDir",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+        "--genomeFastaFiles",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+        "--sjdbGTFfile",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/audit_2026-09-18/ROS_release106.STAR_compatible.gtf",
+        "--sjdbOverhang",
+        "149",
+        "--genomeSAsparseD",
+        "2",
+        "--limitGenomeGenerateRAM",
+        "28000000000",
+        "--outFileNamePrefix",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/index_"
+      ]
+    },
+    "inputs": [
+      {
+        "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729600/trimmed_1.fastq.gz",
+        "bytes": 4289929839,
+        "sha256": "c904680779c3b9222db75a595486770aeafde9b62158ad923d1bb85e1bd3ab7d"
+      },
+      {
+        "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729600/trimmed_2.fastq.gz",
+        "bytes": 4289749577,
+        "sha256": "591b88012d647976e15e9b05be3fa8be82b07af9418810e7cf54fc302dcc3c3c"
+      }
+    ],
+    "sample": "B_B7H3_CAR_T",
+    "alignment_parameters": [
+      "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+      "--runThreadN",
+      "6",
+      "--genomeDir",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/STAR_index",
+      "--readFilesIn",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729600/trimmed_1.fastq.gz",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/samples/SRR26729600/trimmed_2.fastq.gz",
+      "--readFilesCommand",
+      "zcat",
+      "--outSAMtype",
+      "None",
+      "--quantMode",
+      "GeneCounts",
+      "--outFileNamePrefix",
+      "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.7/samples/SRR26729600/STAR_",
+      "--outTmpDir"
+    ]
+  },
+  "output_sha256": {
+    "STAR_ReadsPerGene.out.tab": "c5f10bef1704be7687f1d96be30a1cfd991d000b629997e093bf00961a2f6ff2",
+    "STAR_Log.final.out": "ec873cb92e14453dc25c92cd74fd0ccb881f0715b2103ea2c90b3706af378293",
+    "STAR_Log.out": "73104a21c6deac342521fc04ef1ea52010f170f90287ae5b669282d35741482e",
+    "console.log": "20b21fd24d913e8e2e6cb8b035b1fa18941b6beacdeea5af8e187c915c3a25c4"
+  },
+  "QC": {
+    "Started job on": "Sep 18 19:25:36",
+    "Started mapping on": "Sep 18 19:26:29",
+    "Finished on": "Sep 18 20:04:25",
+    "Mapping speed, Million of reads per hour": "112.80",
+    "Number of input reads": "71312581",
+    "Average input read length": "299",
+    "Uniquely mapped reads number": "65858768",
+    "Uniquely mapped reads %": "92.35%",
+    "Average mapped length": "297.56",
+    "Number of splices: Total": "82821029",
+    "Number of splices: Annotated (sjdb)": "81322801",
+    "Number of splices: GT/AG": "81946618",
+    "Number of splices: GC/AG": "566723",
+    "Number of splices: AT/AC": "96906",
+    "Number of splices: Non-canonical": "210782",
+    "Mismatch rate per base, %": "0.23%",
+    "Deletion rate per base": "0.02%",
+    "Deletion average length": "2.55",
+    "Insertion rate per base": "0.01%",
+    "Insertion average length": "1.96",
+    "Number of reads mapped to multiple loci": "1708612",
+    "% of reads mapped to multiple loci": "2.40%",
+    "Number of reads mapped to too many loci": "62535",
+    "% of reads mapped to too many loci": "0.09%",
+    "Number of reads unmapped: too many mismatches": "0",
+    "% of reads unmapped: too many mismatches": "0.00%",
+    "Number of reads unmapped: too short": "3675783",
+    "% of reads unmapped: too short": "5.15%",
+    "Number of reads unmapped: other": "6883",
+    "% of reads unmapped: other": "0.01%",
+    "Number of chimeric reads": "0",
+    "% of chimeric reads": "0.00%"
+  },
+  "validated": 1789754665.3134005
+}

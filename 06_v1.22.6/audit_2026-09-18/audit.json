@@ -1,0 +1,882 @@
+{
+  "status": "execution_and_matrix_consistency_verified_scientific_review_open",
+  "samples": [
+    {
+      "sample": "B_B7H3_CAR_T",
+      "run": "SRR26729600",
+      "input_pairs": 71312581,
+      "unique_pct": 92.35,
+      "assigned_unstranded": 56941567,
+      "assigned_pct": 79.84785601856144,
+      "forward_share": 0.5003579483643996,
+      "removed_reads": 880,
+      "q30": 1
+    },
+    {
+      "sample": "B_BC_CAR_T",
+      "run": "SRR26729599",
+      "input_pairs": 73105889,
+      "unique_pct": 92.08,
+      "assigned_unstranded": 55946103,
+      "assigned_pct": 76.52749151302982,
+      "forward_share": 0.5018967598308964,
+      "removed_reads": 458,
+      "q30": 1
+    },
+    {
+      "sample": "B_T_cell",
+      "run": "SRR26729598",
+      "input_pairs": 63103725,
+      "unique_pct": 91.46,
+      "assigned_unstranded": 48477298,
+      "assigned_pct": 76.82161076861945,
+      "forward_share": 0.500915090393384,
+      "removed_reads": 374,
+      "q30": 1
+    },
+    {
+      "sample": "E_B7H3_CAR_T",
+      "run": "SRR26729597",
+      "input_pairs": 63968677,
+      "unique_pct": 93.26,
+      "assigned_unstranded": 49493373,
+      "assigned_pct": 77.37126250086429,
+      "forward_share": 0.5018081044142709,
+      "removed_reads": 458,
+      "q30": 1
+    },
+    {
+      "sample": "E_BC_CAR_T",
+      "run": "SRR26729596",
+      "input_pairs": 50056953,
+      "unique_pct": 93.1,
+      "assigned_unstranded": 39518174,
+      "assigned_pct": 78.94642328709061,
+      "forward_share": 0.5012146186840538,
+      "removed_reads": 258,
+      "q30": 1
+    },
+    {
+      "sample": "E_T_cell",
+      "run": "SRR26729595",
+      "input_pairs": 47628160,
+      "unique_pct": 93.54,
+      "assigned_unstranded": 37180496,
+      "assigned_pct": 78.06410325320147,
+      "forward_share": 0.5014548216206411,
+      "removed_reads": 362,
+      "q30": 1
+    },
+    {
+      "sample": "M_B7H3_CAR_T",
+      "run": "SRR26729594",
+      "input_pairs": 63529252,
+      "unique_pct": 89.13,
+      "assigned_unstranded": 47561770,
+      "assigned_pct": 74.86593734804244,
+      "forward_share": 0.5017810089741103,
+      "removed_reads": 370,
+      "q30": 1
+    },
+    {
+      "sample": "M_BC_CAR_T",
+      "run": "SRR26729593",
+      "input_pairs": 58110849,
+      "unique_pct": 90.91,
+      "assigned_unstranded": 45062846,
+      "assigned_pct": 77.54635627505631,
+      "forward_share": 0.5020618965478969,
+      "removed_reads": 252,
+      "q30": 1
+    },
+    {
+      "sample": "M_T_cell",
+      "run": "SRR26729592",
+      "input_pairs": 59387857,
+      "unique_pct": 89.52,
+      "assigned_unstranded": 45031380,
+      "assigned_pct": 75.82590494888542,
+      "forward_share": 0.501841841373695,
+      "removed_reads": 318,
+      "q30": 1
+    }
+  ],
+  "missing_annotation_genes": [
+    "gene-LOC100683543",
+    "gene-LOC100684565",
+    "gene-LOC100686063",
+    "gene-LOC100686444",
+    "gene-LOC100686781",
+    "gene-LOC102156635",
+    "gene-LOC442976",
+    "gene-LOC474576",
+    "gene-LOC474591",
+    "gene-LOC474739",
+    "gene-LOC474744",
+    "gene-LOC474947",
+    "gene-LOC475009",
+    "gene-LOC475060",
+    "gene-LOC475101",
+    "gene-LOC475156",
+    "gene-LOC475191",
+    "gene-LOC475374",
+    "gene-LOC475410",
+    "gene-LOC475434",
+    "gene-LOC475462",
+    "gene-LOC475722",
+    "gene-LOC475961",
+    "gene-LOC476107",
+    "gene-LOC476309",
+    "gene-LOC476346",
+    "gene-LOC476824",
+    "gene-LOC477597",
+    "gene-LOC477883",
+    "gene-LOC477992",
+    "gene-LOC478608",
+    "gene-LOC478703",
+    "gene-LOC479004",
+    "gene-LOC480109",
+    "gene-LOC480813",
+    "gene-LOC481020",
+    "gene-LOC481991",
+    "gene-LOC482334",
+    "gene-LOC482354",
+    "gene-LOC483608",
+    "gene-LOC488481",
+    "gene-LOC490449",
+    "gene-LOC490504",
+    "gene-LOC606843",
+    "gene-LOC606906",
+    "gene-LOC607507",
+    "gene-LOC608210",
+    "gene-LOC608727",
+    "gene-LOC608797",
+    "gene-LOC608929",
+    "gene-LOC609022",
+    "gene-LOC609136",
+    "gene-LOC609509",
+    "gene-LOC609675",
+    "gene-LOC610034",
+    "gene-LOC610641",
+    "gene-LOC612507",
+    "gene-LOC612943",
+    "gene-LOC613013",
+    "gene-PECRP"
+  ],
+  "quality_sample": [
+    {
+      "file": "SRR26729600_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729600_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729599_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729599_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729598_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729598_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729597_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729597_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729596_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729596_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729595_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729595_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729594_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729594_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729593_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729593_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729592_1.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    },
+    {
+      "file": "SRR26729592_2.fastq.gz",
+      "first_reads": 10000,
+      "phred_histogram": {
+        "30": 1500000
+      }
+    }
+  ],
+  "input_certificate_checks": [
+    {
+      "file": "SRR26729600_1.fastq.gz",
+      "bytes": 4148428448,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729600_2.fastq.gz",
+      "bytes": 4148498307,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729599_1.fastq.gz",
+      "bytes": 4248902696,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729599_2.fastq.gz",
+      "bytes": 4248666785,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729598_1.fastq.gz",
+      "bytes": 3663410970,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729598_2.fastq.gz",
+      "bytes": 3663617958,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729597_1.fastq.gz",
+      "bytes": 3717892261,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729597_2.fastq.gz",
+      "bytes": 3717944576,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729596_1.fastq.gz",
+      "bytes": 2911944944,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729596_2.fastq.gz",
+      "bytes": 2912046121,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729595_1.fastq.gz",
+      "bytes": 2773454005,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729595_2.fastq.gz",
+      "bytes": 2773368039,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729594_1.fastq.gz",
+      "bytes": 3673582811,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729594_2.fastq.gz",
+      "bytes": 3673855278,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729593_1.fastq.gz",
+      "bytes": 3372130952,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729593_2.fastq.gz",
+      "bytes": 3371995011,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729592_1.fastq.gz",
+      "bytes": 3435968017,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    },
+    {
+      "file": "SRR26729592_2.fastq.gz",
+      "bytes": 3436425631,
+      "certificate_verified": true,
+      "md5_rehashed_this_audit": false
+    }
+  ],
+  "matrix_sha256": {
+    "gene_counts_unstranded.tsv": "72042f570a50ed003d1c0248cf1855743443f4ccfcff74df6e07041e20961b3e",
+    "gene_counts_forward.tsv": "5a9f49281f81c5a240e839d6ba5b50a57d843bdd2eaa047725f40e9729a66902",
+    "gene_counts_reverse.tsv": "eb81f31b0a26cf075ef79875906ffdfc469dd3ad6b992dfe18bab0307f0f42b2"
+  },
+  "focus_gene_raw_counts_all_orientations": {
+    "ANO2": {
+      "B_B7H3_CAR_T": [
+        4,
+        4,
+        0
+      ],
+      "B_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "B_T_cell": [
+        3,
+        3,
+        0
+      ],
+      "E_B7H3_CAR_T": [
+        0,
+        0,
+        2
+      ],
+      "E_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "E_T_cell": [
+        0,
+        0,
+        0
+      ],
+      "M_B7H3_CAR_T": [
+        1,
+        1,
+        0
+      ],
+      "M_BC_CAR_T": [
+        1,
+        0,
+        1
+      ],
+      "M_T_cell": [
+        0,
+        0,
+        0
+      ]
+    },
+    "NTF3": {
+      "B_B7H3_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "B_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "B_T_cell": [
+        0,
+        0,
+        0
+      ],
+      "E_B7H3_CAR_T": [
+        4,
+        0,
+        4
+      ],
+      "E_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "E_T_cell": [
+        0,
+        0,
+        0
+      ],
+      "M_B7H3_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "M_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "M_T_cell": [
+        0,
+        0,
+        0
+      ]
+    },
+    "CD247": {
+      "B_B7H3_CAR_T": [
+        12113,
+        6031,
+        6083
+      ],
+      "B_BC_CAR_T": [
+        16027,
+        7998,
+        8029
+      ],
+      "B_T_cell": [
+        15384,
+        7719,
+        7665
+      ],
+      "E_B7H3_CAR_T": [
+        15704,
+        7846,
+        7858
+      ],
+      "E_BC_CAR_T": [
+        10552,
+        5284,
+        5268
+      ],
+      "E_T_cell": [
+        11658,
+        5787,
+        5871
+      ],
+      "M_B7H3_CAR_T": [
+        9642,
+        4797,
+        4845
+      ],
+      "M_BC_CAR_T": [
+        6800,
+        3309,
+        3491
+      ],
+      "M_T_cell": [
+        14546,
+        7326,
+        7220
+      ]
+    },
+    "CD8B": {
+      "B_B7H3_CAR_T": [
+        12365,
+        6192,
+        6173
+      ],
+      "B_BC_CAR_T": [
+        17105,
+        8590,
+        8515
+      ],
+      "B_T_cell": [
+        6456,
+        3249,
+        3207
+      ],
+      "E_B7H3_CAR_T": [
+        7675,
+        3926,
+        3749
+      ],
+      "E_BC_CAR_T": [
+        6704,
+        3328,
+        3376
+      ],
+      "E_T_cell": [
+        3228,
+        1660,
+        1568
+      ],
+      "M_B7H3_CAR_T": [
+        552,
+        277,
+        275
+      ],
+      "M_BC_CAR_T": [
+        469,
+        233,
+        236
+      ],
+      "M_T_cell": [
+        977,
+        535,
+        442
+      ]
+    },
+    "NPNT": {
+      "B_B7H3_CAR_T": [
+        3,
+        0,
+        3
+      ],
+      "B_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "B_T_cell": [
+        6,
+        3,
+        3
+      ],
+      "E_B7H3_CAR_T": [
+        1,
+        0,
+        1
+      ],
+      "E_BC_CAR_T": [
+        0,
+        0,
+        0
+      ],
+      "E_T_cell": [
+        1,
+        0,
+        1
+      ],
+      "M_B7H3_CAR_T": [
+        1,
+        0,
+        1
+      ],
+      "M_BC_CAR_T": [
+        5,
+        0,
+        5
+      ],
+      "M_T_cell": [
+        13,
+        1,
+        12
+      ]
+    },
+    "TBCK": {
+      "B_B7H3_CAR_T": [
+        1138,
+        555,
+        583
+      ],
+      "B_BC_CAR_T": [
+        1187,
+        603,
+        584
+      ],
+      "B_T_cell": [
+        1149,
+        589,
+        560
+      ],
+      "E_B7H3_CAR_T": [
+        900,
+        454,
+        447
+      ],
+      "E_BC_CAR_T": [
+        741,
+        375,
+        366
+      ],
+      "E_T_cell": [
+        751,
+        352,
+        399
+      ],
+      "M_B7H3_CAR_T": [
+        904,
+        448,
+        456
+      ],
+      "M_BC_CAR_T": [
+        920,
+        470,
+        450
+      ],
+      "M_T_cell": [
+        937,
+        472,
+        465
+      ]
+    },
+    "TSEN15": {
+      "B_B7H3_CAR_T": [
+        2746,
+        1371,
+        1375
+      ],
+      "B_BC_CAR_T": [
+        2219,
+        1142,
+        1077
+      ],
+      "B_T_cell": [
+        2108,
+        1111,
+        997
+      ],
+      "E_B7H3_CAR_T": [
+        2243,
+        1112,
+        1131
+      ],
+      "E_BC_CAR_T": [
+        1756,
+        845,
+        912
+      ],
+      "E_T_cell": [
+        1642,
+        820,
+        822
+      ],
+      "M_B7H3_CAR_T": [
+        1766,
+        896,
+        870
+      ],
+      "M_BC_CAR_T": [
+        1915,
+        965,
+        950
+      ],
+      "M_T_cell": [
+        1875,
+        940,
+        935
+      ]
+    },
+    "C7H1orf21": {
+      "B_B7H3_CAR_T": [
+        1823,
+        875,
+        954
+      ],
+      "B_BC_CAR_T": [
+        1384,
+        720,
+        682
+      ],
+      "B_T_cell": [
+        1194,
+        596,
+        614
+      ],
+      "E_B7H3_CAR_T": [
+        1549,
+        777,
+        780
+      ],
+      "E_BC_CAR_T": [
+        1235,
+        650,
+        600
+      ],
+      "E_T_cell": [
+        1232,
+        629,
+        624
+      ],
+      "M_B7H3_CAR_T": [
+        1122,
+        575,
+        552
+      ],
+      "M_BC_CAR_T": [
+        755,
+        378,
+        386
+      ],
+      "M_T_cell": [
+        975,
+        473,
+        503
+      ]
+    },
+    "ARPC5": {
+      "B_B7H3_CAR_T": [
+        30295,
+        15434,
+        14861
+      ],
+      "B_BC_CAR_T": [
+        29372,
+        14857,
+        14515
+      ],
+      "B_T_cell": [
+        27177,
+        13884,
+        13293
+      ],
+      "E_B7H3_CAR_T": [
+        23892,
+        12139,
+        11753
+      ],
+      "E_BC_CAR_T": [
+        19444,
+        9913,
+        9531
+      ],
+      "E_T_cell": [
+        18112,
+        9130,
+        8982
+      ],
+      "M_B7H3_CAR_T": [
+        24193,
+        12304,
+        11898
+      ],
+      "M_BC_CAR_T": [
+        20024,
+        10163,
+        9871
+      ],
+      "M_T_cell": [
+        26095,
+        13105,
+        12990
+      ]
+    },
+    "TET2": {
+      "B_B7H3_CAR_T": [
+        3445,
+        1874,
+        2008
+      ],
+      "B_BC_CAR_T": [
+        3494,
+        2108,
+        2195
+      ],
+      "B_T_cell": [
+        2944,
+        1847,
+        1782
+      ],
+      "E_B7H3_CAR_T": [
+        3318,
+        2098,
+        1975
+      ],
+      "E_BC_CAR_T": [
+        2527,
+        1472,
+        1550
+      ],
+      "E_T_cell": [
+        2371,
+        1490,
+        1463
+      ],
+      "M_B7H3_CAR_T": [
+        3075,
+        2010,
+        1689
+      ],
+      "M_BC_CAR_T": [
+        2515,
+        1532,
+        1583
+      ],
+      "M_T_cell": [
+        2913,
+        1758,
+        1753
+      ]
+    }
+  },
+  "disk_free_bytes": 161129865216
+}

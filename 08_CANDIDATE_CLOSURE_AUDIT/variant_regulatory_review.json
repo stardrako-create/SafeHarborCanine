@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "windows": 2,
+  "projected_catalogue_records": 46,
+  "normalized_alleles": 48,
+  "all_REF_and_haplotypes_verified": true,
+  "transcript_5prime_summary": [
+    {
+      "window_id": "w01",
+      "nearest_annotated_transcript_5prime": {
+        "window_id": "w01",
+        "chrom": "NC_051811.1",
+        "feature": "lnc_RNA",
+        "transcript_id": "rna-XR_005429707.1",
+        "gene": "LOC119872513",
+        "strand": "-",
+        "annotated_5prime0": 17289491,
+        "gap_bp": 32785,
+        "window_overlap": false
+      },
+      "RNA_features_within_1Mb": 86,
+      "note": "Annotated 5prime boundaries, not empirically mapped TSS; annotation incompleteness remains"
+    },
+    {
+      "window_id": "w11",
+      "nearest_annotated_transcript_5prime": {
+        "window_id": "w11",
+        "chrom": "NC_051836.1",
+        "feature": "lnc_RNA",
+        "transcript_id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "strand": "+",
+        "annotated_5prime0": 27073049,
+        "gap_bp": 30888,
+        "window_overlap": false
+      },
+      "RNA_features_within_1Mb": 49,
+      "note": "Annotated 5prime boundaries, not empirically mapped TSS; annotation incompleteness remains"
+    }
+  ],
+  "bcftools_command": [
+    "/home/stardrako/miniforge3/envs/atac/bin/bcftools",
+    "norm",
+    "-f",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+    "--check-ref",
+    "e",
+    "-m",
+    "-any",
+    "-Ov",
+    "-o",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/projected_normalized_ROS.vcf",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/projected_unnormalized.vcf"
+  ],
+  "limitations": [
+    "Normalization is allele-level projection, not donor genotype validation",
+    "Maximum AF is source-record maximum, not individual split-allele AF",
+    "PASS variant REF span masks are not whole indel effect ranges",
+    "No guide or cut position selected",
+    "No chromatin contact data or functional regulatory validation"
+  ]
+}

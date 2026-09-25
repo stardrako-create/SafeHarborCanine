@@ -2,11 +2,11 @@
 # regenerable from the public SRA accessions listed in scripts/config*.yaml.
 02_dados_brutos/
 
-# Reference genome and annotation (public, downloadable — see README "Data
+# Reference genome and annotation (public, downloadable â€” see README "Data
 # availability"). Not tracked: ~9 GB.
 01_referencia/
 
-# Processed genome-wide tracks (bigWig, .mcool). Not tracked in git history —
+# Processed genome-wide tracks (bigWig, .mcool). Not tracked in git history â€”
 # released separately via Zenodo (DOI to be added) because several files
 # exceed GitHub's 100 MB per-file limit. See 04_tracks_processadas/README.md.
 04_tracks_processadas/*.bw
@@ -39,3 +39,30 @@ venv/
 .DS_Store
 Thumbs.db
 *.swp
+
+# Large local research inputs/intermediates and publication credentials
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.hal
+*.bwt
+*.pac
+*.sa
+*.bgzfpart
+*.vcf
+*.vcf.gz
+*.vcf.bgz
+*.tbi
+*.csi
+*.dpapi
+.env
+.env.*
+**/MEMPALACE_SYNC_PENDING*.md
+04_tracks_processadas/ROS_Cfam_1.0/zenodo_upload/

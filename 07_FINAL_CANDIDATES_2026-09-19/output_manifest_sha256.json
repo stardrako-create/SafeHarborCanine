@@ -1,0 +1,22 @@
+{
+  "all16_decisions_and_evidence.tsv": "a49206869f6c721d619a003c44fb1a81dee0b63ea48ba4834a72342f422a29d3",
+  "coordinate_crosswalk.tsv": "e632f2b32921e296f1d169e61f2bf814966aed0f3fcd49cdd220940d3a781571",
+  "finalize_candidate_panel.py": "d58852d853f055a4dc20563737340de8fc4d93ce3b638cef3a081a70c1ca5277",
+  "input_manifest_sha256.json": "35f23d6e5b9adc7ca0c9e36cfcc452b246c1ee388b455527f25a26902a09ffae",
+  "integration_checks.json": "1756e11f8e43b06cbf53d62d1e3c63cea4bf98fd02db070868276ab243bb0de6",
+  "LEIA_PRIMEIRO.md": "1d069ed8d13a9bb6445538be8f4975802a790d6074296c66c5c6a0e292cd6553",
+  "mempalace_receipt.json": "8f9b8ea95f8ecb2c832783be57eaebb6c44c95af5b489b0bd350c011131daa8a",
+  "panel_plus_reserve_CONTEXT_flanks.fa": "3b695d2278734d28d88e95defcc8788918ee03bd3c7ddf4d4502cf2b658f8561",
+  "panel_plus_reserve_ROS_reference.fa": "3a1cba3fe4759b04616163f7e099687260c5eecd94ad2bae0c320f632859b240",
+  "previous_MOC.md": "5e57bfd760b9309ca108981091bb9c4d172c452c10ecab5503539edcf48ccc6b",
+  "previous_project_CURRENT.md": "0e6856b2c2225483f8bd52fa3a57577552f41206043704f78042f0f5a1ee7486",
+  "publish_candidate_panel.py": "715f8b55fe9d0d1d3c57c91e8734b9036d7ed2049585412b1f580d2a648ca84b",
+  "RELATORIO_FINAL_CANDIDATOS.md": "1f77425eba42fe7ba6fd42e7a69119add5046379c80fe634645c25071d532847",
+  "remaining48_no_new_biological_veto.tsv": "2d5605233a422de7e8c8c9083a61b48ff36cd6be9802f9f917fec2dc7f68cf7d",
+  "reserve_evidence.tsv": "aadbd7fe4ba66b203caca470d455241e600151f452fba57af20c8a12672f2a12",
+  "reserve_ROS_0based.bed": "37fb4802da1d03ee960b0471819dbeccbbb8ea5b37e08e5f4d51e6588ad07b99",
+  "sequence_validation.json": "64a438b0d7912fd7f656954f95e165c8b0f959bb45e311b8895c6a36c72baa95",
+  "shortlist_evidence.tsv": "14286f85be85a4a0f6153c1999c5233e9da37667a659ad27150674635d8b081f",
+  "shortlist_ROS_0based.bed": "723272f3aa73d09ec84c8f464c4cb05aaa9fbc2dc79e601a49aa06c7d7d268ad",
+  "validate_panel_sequences.py": "bdcd43f9165c0368a6dda0c90fe7de32270cad68f7e9e84f4d7909aa978dbc0b"
+}

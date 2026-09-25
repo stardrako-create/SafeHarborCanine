@@ -1,0 +1,173 @@
+[
+  {
+    "GSM": "GSM7887650",
+    "column": "B_B7H3_CAR_T",
+    "SRX": "SRX22428478",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428478&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729600",
+        "experiment_accession": "SRX22428478",
+        "sample_accession": "SAMN38165682",
+        "sample_alias": "GSM7887650",
+        "experiment_alias": "GSM7887650_r1",
+        "library_name": "GSM7887650",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/000/SRR26729600/SRR26729600_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/000/SRR26729600/SRR26729600_2.fastq.gz",
+        "fastq_bytes": "4148428448;4148498307"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887651",
+    "column": "B_BC_CAR_T",
+    "SRX": "SRX22428479",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428479&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729599",
+        "experiment_accession": "SRX22428479",
+        "sample_accession": "SAMN38165681",
+        "sample_alias": "GSM7887651",
+        "experiment_alias": "GSM7887651_r1",
+        "library_name": "GSM7887651",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/099/SRR26729599/SRR26729599_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/099/SRR26729599/SRR26729599_2.fastq.gz",
+        "fastq_bytes": "4248902696;4248666785"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887652",
+    "column": "B_T_cell",
+    "SRX": "SRX22428480",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428480&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729598",
+        "experiment_accession": "SRX22428480",
+        "sample_accession": "SAMN38165680",
+        "sample_alias": "GSM7887652",
+        "experiment_alias": "GSM7887652_r1",
+        "library_name": "GSM7887652",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/098/SRR26729598/SRR26729598_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/098/SRR26729598/SRR26729598_2.fastq.gz",
+        "fastq_bytes": "3663410970;3663617958"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887653",
+    "column": "E_B7H3_CAR_T",
+    "SRX": "SRX22428481",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428481&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729597",
+        "experiment_accession": "SRX22428481",
+        "sample_accession": "SAMN38165679",
+        "sample_alias": "GSM7887653",
+        "experiment_alias": "GSM7887653_r1",
+        "library_name": "GSM7887653",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/097/SRR26729597/SRR26729597_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/097/SRR26729597/SRR26729597_2.fastq.gz",
+        "fastq_bytes": "3717892261;3717944576"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887654",
+    "column": "E_BC_CAR_T",
+    "SRX": "SRX22428482",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428482&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729596",
+        "experiment_accession": "SRX22428482",
+        "sample_accession": "SAMN38165678",
+        "sample_alias": "GSM7887654",
+        "experiment_alias": "GSM7887654_r1",
+        "library_name": "GSM7887654",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/096/SRR26729596/SRR26729596_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/096/SRR26729596/SRR26729596_2.fastq.gz",
+        "fastq_bytes": "2911944944;2912046121"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887655",
+    "column": "E_T_cell",
+    "SRX": "SRX22428483",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428483&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729595",
+        "experiment_accession": "SRX22428483",
+        "sample_accession": "SAMN38165677",
+        "sample_alias": "GSM7887655",
+        "experiment_alias": "GSM7887655_r1",
+        "library_name": "GSM7887655",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/095/SRR26729595/SRR26729595_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/095/SRR26729595/SRR26729595_2.fastq.gz",
+        "fastq_bytes": "2773454005;2773368039"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887656",
+    "column": "M_B7H3_CAR_T",
+    "SRX": "SRX22428484",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428484&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729594",
+        "experiment_accession": "SRX22428484",
+        "sample_accession": "SAMN38165676",
+        "sample_alias": "GSM7887656",
+        "experiment_alias": "GSM7887656_r1",
+        "library_name": "GSM7887656",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/094/SRR26729594/SRR26729594_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/094/SRR26729594/SRR26729594_2.fastq.gz",
+        "fastq_bytes": "3673582811;3673855278"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887657",
+    "column": "M_BC_CAR_T",
+    "SRX": "SRX22428485",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428485&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729593",
+        "experiment_accession": "SRX22428485",
+        "sample_accession": "SAMN38165675",
+        "sample_alias": "GSM7887657",
+        "experiment_alias": "GSM7887657_r1",
+        "library_name": "GSM7887657",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/093/SRR26729593/SRR26729593_2.fastq.gz",
+        "fastq_bytes": "3372130952;3371995011"
+      }
+    ],
+    "error": null
+  },
+  {
+    "GSM": "GSM7887658",
+    "column": "M_T_cell",
+    "SRX": "SRX22428486",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRX22428486&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,fastq_ftp,fastq_bytes&format=tsv",
+    "records": [
+      {
+        "run_accession": "SRR26729592",
+        "experiment_accession": "SRX22428486",
+        "sample_accession": "SAMN38165674",
+        "sample_alias": "GSM7887658",
+        "experiment_alias": "GSM7887658_r1",
+        "library_name": "GSM7887658",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/092/SRR26729592/SRR26729592_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR267/092/SRR26729592/SRR26729592_2.fastq.gz",
+        "fastq_bytes": "3435968017;3436425631"
+      }
+    ],
+    "error": null
+  }
+]

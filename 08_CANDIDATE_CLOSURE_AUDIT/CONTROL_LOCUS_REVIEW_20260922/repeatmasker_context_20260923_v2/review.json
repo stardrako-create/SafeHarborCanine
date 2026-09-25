@@ -1,0 +1,431 @@
+{
+  "utc": "2026-09-23T14:11:05.930949+00:00",
+  "results": [
+    {
+      "id": "bg1k_2054",
+      "masked_bp_union": 389,
+      "fraction": 0.389,
+      "hits": [
+        {
+          "start0": 46097568,
+          "end0": 46097608,
+          "repeat": "(TTTA)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 46097608,
+          "end0": 46097650,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        },
+        {
+          "start0": 46097805,
+          "end0": 46098112,
+          "repeat": "L1ME3Cz",
+          "class": "LINE/L1"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0567",
+      "masked_bp_union": 223,
+      "fraction": 0.223,
+      "hits": [
+        {
+          "start0": 3770499,
+          "end0": 3770618,
+          "repeat": "MIRc",
+          "class": "SINE/MIR"
+        },
+        {
+          "start0": 3770631,
+          "end0": 3770674,
+          "repeat": "(TTAT)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 3770678,
+          "end0": 3770715,
+          "repeat": "(GACAGA)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 3771307,
+          "end0": 3771331,
+          "repeat": "(AG)n",
+          "class": "Simple_repeat"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2848",
+      "masked_bp_union": 0,
+      "fraction": 0.0,
+      "hits": []
+    },
+    {
+      "id": "bg1k_0045",
+      "masked_bp_union": 365,
+      "fraction": 0.365,
+      "hits": [
+        {
+          "start0": 9611092,
+          "end0": 9611142,
+          "repeat": "(TC)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 9611171,
+          "end0": 9611329,
+          "repeat": "L2c",
+          "class": "LINE/L2"
+        },
+        {
+          "start0": 9611535,
+          "end0": 9611558,
+          "repeat": "(CTC)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 9611560,
+          "end0": 9611694,
+          "repeat": "(TTC)n",
+          "class": "Simple_repeat"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2865",
+      "masked_bp_union": 305,
+      "fraction": 0.305,
+      "hits": [
+        {
+          "start0": 42907363,
+          "end0": 42907448,
+          "repeat": "(ATTGAG)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 42907517,
+          "end0": 42907737,
+          "repeat": "MER115",
+          "class": "DNA/hAT-Tip100"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0442",
+      "masked_bp_union": 128,
+      "fraction": 0.128,
+      "hits": [
+        {
+          "start0": 10431108,
+          "end0": 10431203,
+          "repeat": "(ATAT)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 10431388,
+          "end0": 10431421,
+          "repeat": "(TTTTGA)n",
+          "class": "Simple_repeat"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2901",
+      "masked_bp_union": 802,
+      "fraction": 0.802,
+      "hits": [
+        {
+          "start0": 27679801,
+          "end0": 27679900,
+          "repeat": "UCON5",
+          "class": "Unknown"
+        },
+        {
+          "start0": 27680031,
+          "end0": 27680151,
+          "repeat": "Tigger14a",
+          "class": "DNA/TcMar-Tigger"
+        },
+        {
+          "start0": 27680182,
+          "end0": 27680358,
+          "repeat": "L1ME4a",
+          "class": "LINE/L1"
+        },
+        {
+          "start0": 27680363,
+          "end0": 27680593,
+          "repeat": "MIR",
+          "class": "SINE/MIR"
+        },
+        {
+          "start0": 27680624,
+          "end0": 27680801,
+          "repeat": "L1ME4a",
+          "class": "LINE/L1"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0202",
+      "masked_bp_union": 57,
+      "fraction": 0.057,
+      "hits": [
+        {
+          "start0": 30228235,
+          "end0": 30228292,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0334",
+      "masked_bp_union": 310,
+      "fraction": 0.31,
+      "hits": [
+        {
+          "start0": 16856593,
+          "end0": 16856903,
+          "repeat": "L3",
+          "class": "LINE/CR1"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2545",
+      "masked_bp_union": 21,
+      "fraction": 0.021,
+      "hits": [
+        {
+          "start0": 1368055,
+          "end0": 1368076,
+          "repeat": "(TA)n",
+          "class": "Simple_repeat"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0228",
+      "masked_bp_union": 0,
+      "fraction": 0.0,
+      "hits": []
+    },
+    {
+      "id": "bg1k_1958",
+      "masked_bp_union": 491,
+      "fraction": 0.491,
+      "hits": [
+        {
+          "start0": 83663690,
+          "end0": 83664078,
+          "repeat": "MLT1B",
+          "class": "LTR/ERVL-MaLR"
+        },
+        {
+          "start0": 83664117,
+          "end0": 83664220,
+          "repeat": "LTR16A",
+          "class": "LTR/ERVL"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2686",
+      "masked_bp_union": 492,
+      "fraction": 0.492,
+      "hits": [
+        {
+          "start0": 7716973,
+          "end0": 7717385,
+          "repeat": "L1MB1",
+          "class": "LINE/L1"
+        },
+        {
+          "start0": 7717474,
+          "end0": 7717512,
+          "repeat": "G-rich",
+          "class": "Low_complexity"
+        },
+        {
+          "start0": 7717591,
+          "end0": 7717633,
+          "repeat": "A-rich",
+          "class": "Low_complexity"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1023",
+      "masked_bp_union": 195,
+      "fraction": 0.195,
+      "hits": [
+        {
+          "start0": 46678546,
+          "end0": 46678578,
+          "repeat": "(AGAGGC)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 46678903,
+          "end0": 46678958,
+          "repeat": "(TC)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 46678958,
+          "end0": 46679014,
+          "repeat": "(ATAA)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 46679107,
+          "end0": 46679159,
+          "repeat": "MER5B",
+          "class": "DNA/hAT-Charlie"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0023",
+      "masked_bp_union": 742,
+      "fraction": 0.742,
+      "hits": [
+        {
+          "start0": 35042788,
+          "end0": 35043479,
+          "repeat": "L1MB1",
+          "class": "LINE/L1"
+        },
+        {
+          "start0": 35043657,
+          "end0": 35043697,
+          "repeat": "(A)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 35043697,
+          "end0": 35043708,
+          "repeat": "A-rich",
+          "class": "Low_complexity"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0878",
+      "masked_bp_union": 335,
+      "fraction": 0.335,
+      "hits": [
+        {
+          "start0": 52130198,
+          "end0": 52130252,
+          "repeat": "(T)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 52130263,
+          "end0": 52130306,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        },
+        {
+          "start0": 52130454,
+          "end0": 52130500,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        },
+        {
+          "start0": 52130699,
+          "end0": 52130866,
+          "repeat": "L1ME1",
+          "class": "LINE/L1"
+        },
+        {
+          "start0": 52130875,
+          "end0": 52130900,
+          "repeat": "L1MD",
+          "class": "LINE/L1"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1650",
+      "masked_bp_union": 225,
+      "fraction": 0.225,
+      "hits": [
+        {
+          "start0": 196426,
+          "end0": 196488,
+          "repeat": "(TTATT)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 196503,
+          "end0": 196666,
+          "repeat": "L1MEi",
+          "class": "LINE/L1"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2228",
+      "masked_bp_union": 160,
+      "fraction": 0.16,
+      "hits": [
+        {
+          "start0": 39725928,
+          "end0": 39725960,
+          "repeat": "(TTG)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 39726414,
+          "end0": 39726542,
+          "repeat": "L2b",
+          "class": "LINE/L2"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2867",
+      "masked_bp_union": 81,
+      "fraction": 0.081,
+      "hits": [
+        {
+          "start0": 33663986,
+          "end0": 33664019,
+          "repeat": "(T)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 33664030,
+          "end0": 33664078,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0117",
+      "masked_bp_union": 1000,
+      "fraction": 1.0,
+      "hits": [
+        {
+          "start0": 26093664,
+          "end0": 26094664,
+          "repeat": "L1MB1",
+          "class": "LINE/L1"
+        }
+      ]
+    }
+  ],
+  "method": "RepeatMasker dog, default sensitivity; 10kb flanks then clip and union annotations inside original 1kb windows",
+  "output_sha256": "2f8b3c6ab9f051f032bd7e9d49278a86b94bf1443b8655c4212ec34dd4caba7f",
+  "limitations": [
+    "Repeat annotations depend on library and sensitivity; zero detected does not prove absence",
+    "No new candidate thresholds introduced"
+  ]
+}

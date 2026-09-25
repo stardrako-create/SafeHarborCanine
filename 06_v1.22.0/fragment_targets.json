@@ -1,0 +1,23 @@
+[
+  {
+    "name": "LOC119876429_frontier_span",
+    "kind": "exploratory_frontier_span",
+    "chrom": "NC_006589.4",
+    "start": 17075183,
+    "end": 17109639
+  },
+  {
+    "name": "ANO2_frontier_span",
+    "kind": "exploratory_frontier_span",
+    "chrom": "NC_006609.4",
+    "start": 7237047,
+    "end": 7290501
+  },
+  {
+    "name": "NPNT_frontier_span",
+    "kind": "exploratory_frontier_span",
+    "chrom": "NC_006614.4",
+    "start": 15187280,
+    "end": 15242382
+  }
+]

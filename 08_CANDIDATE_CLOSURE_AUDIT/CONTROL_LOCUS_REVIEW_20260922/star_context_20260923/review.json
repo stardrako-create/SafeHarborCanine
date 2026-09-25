@@ -1,0 +1,5267 @@
+{
+  "utc": "2026-09-23T14:11:13.744412+00:00",
+  "star_entries": 52,
+  "counts": {
+    "compatible_local_deletion_found_unphased": 52
+  },
+  "results": [
+    {
+      "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__10",
+      "position1": 4425154,
+      "chrom": "NC_049240.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0567__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 2,
+          "chrom": "NC_049240.1",
+          "deleted_start0": 4425153,
+          "deleted_end0": 4425159,
+          "allele": {
+            "chrom": "chr19",
+            "uu_chrom": "NC_049240.1",
+            "pos1": 4425153,
+            "id": null,
+            "ref": "AAATTAT",
+            "alt": "A",
+            "alt_index1": 1,
+            "AF": 0.028999999165534973,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__11",
+      "position1": 4425165,
+      "chrom": "NC_049240.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0567__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049240.1",
+          "deleted_start0": 4425164,
+          "deleted_end0": 4425165,
+          "allele": {
+            "chrom": "chr19",
+            "uu_chrom": "NC_049240.1",
+            "pos1": 4425164,
+            "id": null,
+            "ref": "AT",
+            "alt": "A",
+            "alt_index1": 1,
+            "AF": 0.0005106999888084829,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__15",
+      "position1": 4425208,
+      "chrom": "NC_049240.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0567__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 5,
+          "chrom": "NC_049240.1",
+          "deleted_start0": 4425206,
+          "deleted_end0": 4425208,
+          "allele": {
+            "chrom": "chr19",
+            "uu_chrom": "NC_049240.1",
+            "pos1": 4425206,
+            "id": null,
+            "ref": "CAG",
+            "alt": "C",
+            "alt_index1": 1,
+            "AF": 0.017000000923871994,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99__31",
+      "position1": 4425812,
+      "chrom": "NC_049240.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0567__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 10,
+          "chrom": "NC_049240.1",
+          "deleted_start0": 4425810,
+          "deleted_end0": 4425812,
+          "allele": {
+            "chrom": "chr19",
+            "uu_chrom": "NC_049240.1",
+            "pos1": 4425810,
+            "id": null,
+            "ref": "GGT",
+            "alt": "G",
+            "alt_index1": 1,
+            "AF": 0.003019999945536256,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99__17",
+      "position1": 10778125,
+      "chrom": "NC_049254.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0442__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 1,
+          "chrom": "NC_049254.1",
+          "deleted_start0": 10778119,
+          "deleted_end0": 10778126,
+          "allele": {
+            "chrom": "chr33",
+            "uu_chrom": "NC_049254.1",
+            "pos1": 10778119,
+            "id": null,
+            "ref": "TAATTTCG",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.1889999955892563,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__9",
+      "position1": 52130619,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__12",
+      "position1": 52130624,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__14",
+      "position1": 52130625,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__16",
+      "position1": 52130629,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__18",
+      "position1": 52130630,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__21",
+      "position1": 52130631,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__23",
+      "position1": 52130632,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__25",
+      "position1": 52130633,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__28",
+      "position1": 52130636,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__30",
+      "position1": 52130637,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__32",
+      "position1": 52130641,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 27,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130638,
+          "deleted_end0": 52130643,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130638,
+            "id": null,
+            "ref": "TGATAG",
+            "alt": "T",
+            "alt_index1": 2,
+            "AF": 0.007751999888569117,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__35",
+      "position1": 52130661,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__36",
+      "position1": 52130716,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__38",
+      "position1": 52130728,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__40",
+      "position1": 52130733,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__42",
+      "position1": 52130742,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__44",
+      "position1": 52130748,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__46",
+      "position1": 52130755,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__48",
+      "position1": 52130760,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 50,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130695,
+          "deleted_end0": 52130761,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130695,
+            "id": null,
+            "ref": "GGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGA",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.0003344000142533332,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__51",
+      "position1": 52130790,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__52",
+      "position1": 52130802,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 53,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130799,
+          "deleted_end0": 52130808,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130799,
+            "id": null,
+            "ref": "ACCTTTTTTT",
+            "alt": "A",
+            "alt_index1": 1,
+            "AF": 0.0024999999441206455,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__55",
+      "position1": 52130810,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__57",
+      "position1": 52130827,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__59",
+      "position1": 52130832,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__60",
+      "position1": 52130849,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 63,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130847,
+          "deleted_end0": 52130849,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130847,
+            "id": null,
+            "ref": "CAG",
+            "alt": "C",
+            "alt_index1": 1,
+            "AF": 0.001762000028975308,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 2,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__63",
+      "position1": 52130853,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99__66",
+      "position1": 52130941,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 65,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130937,
+          "deleted_end0": 52130941,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130937,
+            "id": null,
+            "ref": "ATCAG",
+            "alt": "A",
+            "alt_index1": 1,
+            "AF": 0.001006999984383583,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__11",
+      "position1": 52130621,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 4,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130620,
+          "deleted_end0": 52130621,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt_index1": 1,
+            "AF": 0.08900000154972076,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 7,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130619,
+          "deleted_end0": 52130621,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt_index1": 4,
+            "AF": 0.010999999940395355,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__17",
+      "position1": 52130622,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__21",
+      "position1": 52130623,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__25",
+      "position1": 52130627,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__27",
+      "position1": 52130638,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 4,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__29",
+      "position1": 52130639,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 27,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130638,
+          "deleted_end0": 52130643,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130638,
+            "id": null,
+            "ref": "TGATAG",
+            "alt": "T",
+            "alt_index1": 2,
+            "AF": 0.007751999888569117,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__31",
+      "position1": 52130644,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__33",
+      "position1": 52130647,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__35",
+      "position1": 52130650,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 33,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130647,
+          "deleted_end0": 52130655,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130647,
+            "id": null,
+            "ref": "CAGAGGGAG",
+            "alt": "C",
+            "alt_index1": 2,
+            "AF": 0.028999999165534973,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__38",
+      "position1": 52130652,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 33,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130647,
+          "deleted_end0": 52130655,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130647,
+            "id": null,
+            "ref": "CAGAGGGAG",
+            "alt": "C",
+            "alt_index1": 2,
+            "AF": 0.028999999165534973,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 35,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130650,
+          "deleted_end0": 52130652,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130650,
+            "id": null,
+            "ref": "AGG",
+            "alt": "A",
+            "alt_index1": 2,
+            "AF": 0.0007071999716572464,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 7,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__42",
+      "position1": 52130668,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 29,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130639,
+          "deleted_end0": 52130669,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130639,
+            "id": null,
+            "ref": "GATAGTCACAGAGGGAGAGAGAGAGAGAGGC",
+            "alt": "G",
+            "alt_index1": 2,
+            "AF": 0.00037709999014623463,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__44",
+      "position1": 52130679,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__46",
+      "position1": 52130684,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__48",
+      "position1": 52130692,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__50",
+      "position1": 52130695,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__52",
+      "position1": 52130797,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__55",
+      "position1": 52130799,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 3,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130605,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130605,
+            "id": null,
+            "ref": "TCCTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCA",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.0010179999517276883,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 52,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130797,
+          "deleted_end0": 52130799,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130797,
+            "id": null,
+            "ref": "CCA",
+            "alt": "C",
+            "alt_index1": 2,
+            "AF": 0.0007651000050827861,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 6,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__59",
+      "position1": 52130801,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 6,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130609,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CTT",
+            "alt_index1": 3,
+            "AF": 0.006513999775052071,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 8,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130608,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "CT",
+            "alt_index1": 5,
+            "AF": 0.0054720002226531506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 9,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130607,
+          "deleted_end0": 52130804,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130607,
+            "id": null,
+            "ref": "CTTTTTTTTTTTTTTAATTTTTATTTATTTATGATAGTCACAGAGGGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTT",
+            "alt": "C",
+            "alt_index1": 6,
+            "AF": 0.001303000026382506,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        },
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 53,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130799,
+          "deleted_end0": 52130808,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130799,
+            "id": null,
+            "ref": "ACCTTTTTTT",
+            "alt": "A",
+            "alt_index1": 1,
+            "AF": 0.0024999999441206455,
+            "filters": [
+              "QD2"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 5,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__63",
+      "position1": 52130816,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    },
+    {
+      "id": "bg1k_0878__AutoAndXPAR.nonSNPs.filter__65",
+      "position1": 52130847,
+      "chrom": "NC_049228.1",
+      "compatible_local_deletion_records": [
+        {
+          "source": "bg1k_0878__AutoAndXPAR.nonSNPs.filter.json",
+          "allele_index0": 42,
+          "chrom": "NC_049228.1",
+          "deleted_start0": 52130668,
+          "deleted_end0": 52130862,
+          "allele": {
+            "chrom": "chr7",
+            "uu_chrom": "NC_049228.1",
+            "pos1": 52130668,
+            "id": null,
+            "ref": "GCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCACCGGGAGCCCGATGTGGGATTCGATCCTGGGTCTCCAGGATCGCGCCCTAGGCCGAAGGCAGGCGCCAAACCGCTGCGCCACCTAGGGATCCCACCTTTTTTTTTTTTTTTAAGATTTTATCTATTCATTCATGAGAGACACAGAGAGAGAGAGGCA",
+            "alt": "G",
+            "alt_index1": 3,
+            "AF": 0.0003411000070627779,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          }
+        }
+      ],
+      "distinct_deleted_intervals": 1,
+      "status": "compatible_local_deletion_found_unphased"
+    }
+  ],
+  "limitations": [
+    "Coordinate compatibility only: no sample genotype or phase establishes origin",
+    "Source records retain duplicates across catalogues",
+    "Only downloaded regional records examined; upstream deletions outside these records can be missed",
+    "Do not count star entries as independent deletions or project star as sequence"
+  ]
+}

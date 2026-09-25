@@ -1,0 +1,62 @@
+{
+  "commit": "4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/CL_13_dense.bed",
+      "sha256_decompressed": "bacb844def1c18cd76199ed1f789e034140b57c1c01de300582791452f875ced",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/CL_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/CO_13_dense.bed",
+      "sha256_decompressed": "d78379a46cd815d4cb517ddf7a3d7212a333c408671581b95b2a29bedc34c15f",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/CO_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/CR_13_dense.bed",
+      "sha256_decompressed": "c8d3a51d89222f490ebffdc565bbace2e2c6987248c743e01b92f669c15f047d",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/CR_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/KI_13_dense.bed",
+      "sha256_decompressed": "5556819a3b98b78ebcd01ec82500b04c1a906b544695c1c21acf35bafbb0b22c",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/KI_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/LI_13_dense.bed",
+      "sha256_decompressed": "8ffd1609fc3ee0c0c5993ba203e1789d87e3353baf8b3b61d8b7b6f40650f05e",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/LI_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/LU_13_dense.bed",
+      "sha256_decompressed": "5f51fa79e336929128c5e8595e13136b479bd5b400673a1fb9ce26749bdd2d3c",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/LU_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/MG_13_dense.bed",
+      "sha256_decompressed": "f9671db80ac87a24c94a80fb37bfb8f013f84143028bff563786d676aeb9799d",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/MG_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/OV_13_dense.bed",
+      "sha256_decompressed": "3c8aff9db07de82ce9ecf4dc0cae4fe134c059535cb460f0900f1fe22cad3778",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/OV_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/PA_13_dense.bed",
+      "sha256_decompressed": "09083c5a145a5f8ed2e20e872f24a66fd6c41af8b41ca94832b7a7be0c6230fb",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/PA_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/SP_13_dense.bed",
+      "sha256_decompressed": "468f4f15e6761bb2ac229faa163dc302c7a9b58757e5873132b42d3c72c91f56",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/SP_13_dense.bed.gz"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/snu-cdrc/dog-reference-epigenome/4dd2de3c37c51b73cbcd468d0ea9c9a3e70bc473/Data/04_chrom_states%20%28canFam3.1%29/ST_13_dense.bed",
+      "sha256_decompressed": "b414a3c4ff487dd16855c8f10ec60f4ba1d51f95f1f3ed23d2957bfb52d358f6",
+      "local": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/ST_13_dense.bed.gz"
+    }
+  ],
+  "paper": "https://doi.org/10.1126/sciadv.ade3399",
+  "limitations": "11 tissues; not purified T cells; mapped source blocks only"
+}

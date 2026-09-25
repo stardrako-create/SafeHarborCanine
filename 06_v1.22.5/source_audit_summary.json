@@ -1,0 +1,31 @@
+{
+  "selected_genes": 40,
+  "missing_exact": 15,
+  "recovered_by_unique_current_alias": [],
+  "unresolved_missing": [
+    "ANO2",
+    "APOBEC4",
+    "ARHGEF38",
+    "CD247",
+    "CD8B",
+    "COLGALT2",
+    "GALNT8",
+    "GIMD1",
+    "KCNA1",
+    "KCNA5",
+    "KCNA6",
+    "LOC119867197",
+    "LOC119872513",
+    "LOC119876429",
+    "NTF3"
+  ],
+  "ENA_runs": 9,
+  "ENA_errors": [],
+  "fastq_bytes": 63892132810,
+  "limitations": [
+    "Current NCBI gene_info is not necessarily the annotation release used by authors",
+    "Absence after alias search does not determine filtering versus unannotated versus low expression",
+    "Raw-read sample aliases are additional metadata, not genotype-based identity verification",
+    "No raw FASTQ downloaded or reprocessed in this audit"
+  ]
+}

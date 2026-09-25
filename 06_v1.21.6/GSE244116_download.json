@@ -1,0 +1,10 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE244nnn/GSE244116/suppl/GSE244116_filtered_feature_bc_matrix.h5",
+  "bytes": 66488728,
+  "sha256": "712eb71e013a39eafb01e194a94316d53d2e67fe44bfab8a94935b1525dc7ac4",
+  "assembly": "GCF_000002285.5 canFam6",
+  "donors": 1,
+  "context": "primary treatment-naive osteosarcoma; immune nuclei are tumor-infiltrating",
+  "fragments_url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7807nnn/GSM7807442/suppl/GSM7807442_atac_fragments.tsv.gz",
+  "fragments_downloaded": false
+}

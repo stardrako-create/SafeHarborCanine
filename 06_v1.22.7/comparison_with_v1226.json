@@ -1,0 +1,65 @@
+[
+  {
+    "sample": "B_B7H3_CAR_T",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 2,
+    "absolute_count_change_unstranded": 57,
+    "added_gene_counts_unstranded": 17021
+  },
+  {
+    "sample": "B_BC_CAR_T",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 5,
+    "absolute_count_change_unstranded": 67,
+    "added_gene_counts_unstranded": 21723
+  },
+  {
+    "sample": "B_T_cell",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 4,
+    "absolute_count_change_unstranded": 36,
+    "added_gene_counts_unstranded": 17555
+  },
+  {
+    "sample": "E_B7H3_CAR_T",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 4,
+    "absolute_count_change_unstranded": 65,
+    "added_gene_counts_unstranded": 18594
+  },
+  {
+    "sample": "E_BC_CAR_T",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 2,
+    "absolute_count_change_unstranded": 40,
+    "added_gene_counts_unstranded": 11736
+  },
+  {
+    "sample": "E_T_cell",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 5,
+    "absolute_count_change_unstranded": 37,
+    "added_gene_counts_unstranded": 14694
+  },
+  {
+    "sample": "M_B7H3_CAR_T",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 3,
+    "absolute_count_change_unstranded": 57,
+    "added_gene_counts_unstranded": 13388
+  },
+  {
+    "sample": "M_BC_CAR_T",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 8,
+    "absolute_count_change_unstranded": 52,
+    "added_gene_counts_unstranded": 13595
+  },
+  {
+    "sample": "M_T_cell",
+    "added_genes": 60,
+    "changed_existing_genes_unstranded": 5,
+    "absolute_count_change_unstranded": 58,
+    "added_gene_counts_unstranded": 12117
+  }
+]

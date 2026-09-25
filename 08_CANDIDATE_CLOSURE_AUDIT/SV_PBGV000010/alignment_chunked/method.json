@@ -1,0 +1,11 @@
+{
+  "chunk_pairs": 4000000,
+  "input_pairs": 185353881,
+  "reference": "/mnt/d/Jin2024_work/uu_gsd/genome_uu_gsd.fa",
+  "retention": "NC_049253.1 or mate on chromosome",
+  "notes": [
+    "Full reference used in each chunk; insert-size estimation is per chunk, not identical to original monolithic run",
+    "All chunks combined before fixmate and duplicate marking",
+    "Only generated FASTQ/SAM of receipt-validated chunks removed; original inputs and failed run preserved"
+  ]
+}

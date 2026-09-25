@@ -1,0 +1,71 @@
+{
+  "local_windows": 2091,
+  "background_observed_n": {
+    "500": 2969,
+    "1000": 2971,
+    "2000": 2979
+  },
+  "previously_selected": [
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "start": "17235706",
+      "end": "17236706",
+      "atac_mean": 1.41790101313591,
+      "atac_length_matched_percentile": 96.02827330865028,
+      "previous_atac_length_matched_percentile": "96.06666666666666",
+      "atac_observed_fraction": 1.0,
+      "gate_evidence_dogs_min": 16,
+      "gate_evidence_dogs_median": 34.0,
+      "gate_evidence_dogs_max": 57,
+      "epic_promoter_enhancer_bp_union": "0",
+      "decision_status": "insufficient_evidence_for_safe_harbor"
+    },
+    {
+      "genes": "ANO2/NTF3",
+      "start": "39728324",
+      "end": "39729324",
+      "atac_mean": 1.345400873064995,
+      "atac_length_matched_percentile": 93.97509256142713,
+      "previous_atac_length_matched_percentile": "94.1",
+      "atac_observed_fraction": 1.0,
+      "gate_evidence_dogs_min": 26,
+      "gate_evidence_dogs_median": 33.0,
+      "gate_evidence_dogs_max": 42,
+      "epic_promoter_enhancer_bp_union": "800",
+      "decision_status": "regulatory_conflict_requires_resolution"
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "start": "27057411",
+      "end": "27058411",
+      "atac_mean": 1.4599281924962997,
+      "atac_length_matched_percentile": 96.5668125210367,
+      "previous_atac_length_matched_percentile": "96.63333333333334",
+      "atac_observed_fraction": 1.0,
+      "gate_evidence_dogs_min": 12,
+      "gate_evidence_dogs_median": 28.0,
+      "gate_evidence_dogs_max": 62,
+      "epic_promoter_enhancer_bp_union": "662",
+      "decision_status": "regulatory_conflict_requires_resolution"
+    }
+  ],
+  "eligible_1kb_without_recorded_regulatory_overlap": {
+    "ANO2/NTF3": 116,
+    "LOC119876429/LOC119872513": 115,
+    "NPNT/TBCK": 75
+  },
+  "frontier_counts": {
+    "ANO2/NTF3": 22,
+    "LOC119876429/LOC119872513": 12,
+    "NPNT/TBCK": 30
+  },
+  "frontier_definition": "Within each previously selected region: maximize ATAC measured mean and RRBS observed fraction; minimize repeat bp and observed methylation. No new safety threshold or validation implied.",
+  "limitations": [
+    "Only 3 regions examined",
+    "Missing covariate windows omitted from trade-off comparison, not biologically excluded",
+    "Adjacent/overlapping windows are not independent",
+    "No correction for exploratory search of local maxima",
+    "Most alternatives lack local variant, remapping and T-context checks",
+    "Absence of mapped regulatory annotation is not proof of neutrality"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "started_utc": "2026-09-23T11:32:44.373289+00:00",
+  "state": "query_completed_projection_pending",
+  "projection_sha256": "f7fcf76f40eafd726ff6dbc4d0bf7d442f31b0ae0d95d91a2c3d89e18077e9be",
+  "completed": [
+    {
+      "key": "bg1k_0567__AutoAndXPAR.SNPs.vqsr99",
+      "records": 28,
+      "alleles": 33
+    },
+    {
+      "key": "bg1k_2848__AutoAndXPAR.SNPs.vqsr99",
+      "records": 22,
+      "alleles": 23
+    },
+    {
+      "key": "bg1k_2865__AutoAndXPAR.SNPs.vqsr99",
+      "records": 11,
+      "alleles": 11
+    },
+    {
+      "key": "bg1k_0442__AutoAndXPAR.SNPs.vqsr99",
+      "records": 28,
+      "alleles": 29
+    },
+    {
+      "key": "bg1k_1023__AutoAndXPAR.SNPs.vqsr99",
+      "records": 26,
+      "alleles": 27
+    },
+    {
+      "key": "bg1k_0878__AutoAndXPAR.SNPs.vqsr99",
+      "records": 41,
+      "alleles": 72
+    },
+    {
+      "key": "bg1k_2228__AutoAndXPAR.SNPs.vqsr99",
+      "records": 16,
+      "alleles": 16
+    },
+    {
+      "key": "bg1k_0117__AutoAndXPAR.SNPs.vqsr99",
+      "records": 34,
+      "alleles": 35
+    },
+    {
+      "key": "bg1k_0567__AutoAndXPAR.nonSNPs.filter",
+      "records": 9,
+      "alleles": 16
+    },
+    {
+      "key": "bg1k_2848__AutoAndXPAR.nonSNPs.filter",
+      "records": 1,
+      "alleles": 1
+    },
+    {
+      "key": "bg1k_2865__AutoAndXPAR.nonSNPs.filter",
+      "records": 5,
+      "alleles": 5
+    },
+    {
+      "key": "bg1k_0442__AutoAndXPAR.nonSNPs.filter",
+      "records": 7,
+      "alleles": 7
+    },
+    {
+      "key": "bg1k_1023__AutoAndXPAR.nonSNPs.filter",
+      "records": 12,
+      "alleles": 20
+    },
+    {
+      "key": "bg1k_0878__AutoAndXPAR.nonSNPs.filter",
+      "records": 27,
+      "alleles": 68
+    },
+    {
+      "key": "bg1k_2228__AutoAndXPAR.nonSNPs.filter",
+      "records": 4,
+      "alleles": 6
+    },
+    {
+      "key": "bg1k_0117__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 2
+    }
+  ],
+  "errors": [],
+  "updated_utc": "2026-09-23T11:33:29.443548+00:00"
+}

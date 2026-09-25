@@ -1,0 +1,20 @@
+{
+  "sample": "PBGV000010",
+  "run": "SRR15734832",
+  "pid": 6720,
+  "status": "failed",
+  "validated_files": [
+    {
+      "file": "SRR15734832_1.fastq.gz",
+      "bytes": 14802392696,
+      "md5": "7599c82bf5276df8e650cdeb9d05f730",
+      "validated": true
+    }
+  ],
+  "file": "SRR15734832_2.fastq.gz",
+  "bytes_received": 5838471168,
+  "expected_bytes": 16512896249,
+  "free_bytes": 66834116608,
+  "updated_utc": "2026-09-19T23:06:13Z",
+  "error": "ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)"
+}

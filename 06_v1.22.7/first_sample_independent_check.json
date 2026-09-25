@@ -1,0 +1,9 @@
+{
+  "sample": "B_B7H3_CAR_T",
+  "outputs_hash_verified": true,
+  "genes": 42309,
+  "added_genes": 60,
+  "added_gene_assigned_pairs": 17021,
+  "existing_genes_changed": 2,
+  "preliminary_single_sample_only": true
+}

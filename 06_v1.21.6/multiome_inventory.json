@@ -1,0 +1,83 @@
+{
+  "shape": [
+    138544,
+    5969
+  ],
+  "nuclei": 5969,
+  "feature_types": {
+    "Gene Expression": 35555,
+    "Peaks": 102989
+  },
+  "feature_metadata_keys": [
+    "_all_tag_keys",
+    "feature_type",
+    "genome",
+    "id",
+    "interval",
+    "name"
+  ],
+  "marker_detection": [
+    {
+      "marker": "NKG7",
+      "nuclei_nonzero": 52,
+      "total_UMI": 64
+    },
+    {
+      "marker": "CD79A",
+      "nuclei_nonzero": 28,
+      "total_UMI": 29
+    },
+    {
+      "marker": "CD3G",
+      "nuclei_nonzero": 148,
+      "total_UMI": 185
+    },
+    {
+      "marker": "CD3D",
+      "nuclei_nonzero": 128,
+      "total_UMI": 159
+    },
+    {
+      "marker": "CD3E",
+      "nuclei_nonzero": 283,
+      "total_UMI": 476
+    },
+    {
+      "marker": "PTPRC",
+      "nuclei_nonzero": 1647,
+      "total_UMI": 6049
+    },
+    {
+      "marker": "CD247",
+      "nuclei_nonzero": 208,
+      "total_UMI": 287
+    },
+    {
+      "marker": "LYZ",
+      "nuclei_nonzero": 116,
+      "total_UMI": 152
+    },
+    {
+      "marker": "CD8B",
+      "nuclei_nonzero": 133,
+      "total_UMI": 145
+    },
+    {
+      "marker": "CD8A",
+      "nuclei_nonzero": 9,
+      "total_UMI": 9
+    },
+    {
+      "marker": "MS4A1",
+      "nuclei_nonzero": 2,
+      "total_UMI": 2
+    },
+    {
+      "marker": "CD4",
+      "nuclei_nonzero": 47,
+      "total_UMI": 50
+    }
+  ],
+  "nuclei_detecting_at_least_two_core_T_markers": 104,
+  "limitation": "Marker detection inventory only; no validated cell annotation, no locus accessibility measurement, and no normal T-cell or CAR-T validation. Peak matrix cannot establish absence of accessibility at loci outside called peaks."
+}

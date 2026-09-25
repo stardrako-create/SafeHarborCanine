@@ -1,0 +1,4 @@
+genes	uu_contig	vcf_contig	start	end	mapq	NM	query_aligned_bp	alternatives	eligible_for_variant_lookup	sv_records_overlapping
+ANO2/NTF3	NC_049248.1	chr27	6721625	6722625	60	6	1000	False	True	0
+LOC119876429/LOC119872513	NC_049228.1	chr7	17383016	17384016	60	1	1000	False	True	0
+NPNT/TBCK	NC_049253.1	chr32	13062402	13063402	60	0	1000	False	True	1

@@ -1,0 +1,145 @@
+{
+  "utc": "2026-09-22T15:26:44.161981+00:00",
+  "source": "receipt_and_boundary_link_review_20260922.json",
+  "anchor_only_screen_unique_names": 3,
+  "pair_record_review": [
+    {
+      "name": "SRR15734832.132880416",
+      "classification": "both_MAPQ30_other_orientation",
+      "left_records": [
+        {
+          "mate": 2,
+          "chrom": "NC_049253.1",
+          "start0": 4707925,
+          "mapq": 60,
+          "reverse": true,
+          "paired": true,
+          "unmapped": false,
+          "secondary": false,
+          "supplementary": false,
+          "qcfail": false,
+          "duplicate": false,
+          "mate_unmapped": false,
+          "mate_chrom": "NC_049253.1",
+          "mate_start0": 33613420,
+          "mate_reverse": false
+        }
+      ],
+      "right_records": [
+        {
+          "mate": 1,
+          "chrom": "NC_049253.1",
+          "start0": 33613420,
+          "mapq": 60,
+          "reverse": false,
+          "paired": true,
+          "unmapped": false,
+          "secondary": false,
+          "supplementary": false,
+          "qcfail": false,
+          "duplicate": false,
+          "mate_unmapped": false,
+          "mate_chrom": "NC_049253.1",
+          "mate_start0": 4707925,
+          "mate_reverse": true
+        }
+      ]
+    },
+    {
+      "name": "SRR15734832.42922787",
+      "classification": "both_MAPQ30_inward",
+      "left_records": [
+        {
+          "mate": 2,
+          "chrom": "NC_049253.1",
+          "start0": 4707860,
+          "mapq": 60,
+          "reverse": false,
+          "paired": true,
+          "unmapped": false,
+          "secondary": false,
+          "supplementary": false,
+          "qcfail": false,
+          "duplicate": false,
+          "mate_unmapped": false,
+          "mate_chrom": "NC_049253.1",
+          "mate_start0": 33613382,
+          "mate_reverse": true
+        }
+      ],
+      "right_records": [
+        {
+          "mate": 1,
+          "chrom": "NC_049253.1",
+          "start0": 33613382,
+          "mapq": 60,
+          "reverse": true,
+          "paired": true,
+          "unmapped": false,
+          "secondary": false,
+          "supplementary": false,
+          "qcfail": false,
+          "duplicate": false,
+          "mate_unmapped": false,
+          "mate_chrom": "NC_049253.1",
+          "mate_start0": 4707860,
+          "mate_reverse": false
+        }
+      ]
+    },
+    {
+      "name": "SRR15734832.66864324",
+      "classification": "both_MAPQ30_inward",
+      "left_records": [
+        {
+          "mate": 1,
+          "chrom": "NC_049253.1",
+          "start0": 4707839,
+          "mapq": 60,
+          "reverse": false,
+          "paired": true,
+          "unmapped": false,
+          "secondary": false,
+          "supplementary": false,
+          "qcfail": false,
+          "duplicate": false,
+          "mate_unmapped": false,
+          "mate_chrom": "NC_049253.1",
+          "mate_start0": 33613376,
+          "mate_reverse": true
+        }
+      ],
+      "right_records": [
+        {
+          "mate": 2,
+          "chrom": "NC_049253.1",
+          "start0": 33613376,
+          "mapq": 60,
+          "reverse": true,
+          "paired": true,
+          "unmapped": false,
+          "secondary": false,
+          "supplementary": false,
+          "qcfail": false,
+          "duplicate": false,
+          "mate_unmapped": false,
+          "mate_chrom": "NC_049253.1",
+          "mate_start0": 4707839,
+          "mate_reverse": false
+        }
+      ]
+    }
+  ],
+  "pair_class_counts": {
+    "both_MAPQ30_other_orientation": 1,
+    "both_MAPQ30_inward": 2
+  },
+  "SA_anchor30_tag30_unique_names": [],
+  "limitations": [
+    "Follow-up restricted to candidates of the original anchor-only screen",
+    "SA evidence retains tag-based MAPQ filtering; no supplementary-record or junction-orientation validation claimed",
+    "Inward orientation is compatible with a deletion, not confirmation",
+    "Pair and SA evidence are separate; no combined support count; read names may overlap",
+    "Repeat ambiguity and coverage findings remain applicable"
+  ]
+}

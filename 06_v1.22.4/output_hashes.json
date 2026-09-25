@@ -1,0 +1,17 @@
+{
+  "analysis_execution.log": "ed3ff8eae28ef63e2c433a6cc5669486f732d0c6d329dd4f053c7b0c0b71c3f7",
+  "cart_rna_v1224.py": "e61c38b178dd3cb3f4bb459139c64ca492f97d7b2448302e1a4f2ae0729eb471",
+  "CAR_T_gene_expression_context.tsv": "68c44d1c581dc276483d76d237aedf7f409078cff0ba9c9eacd5ae6d24d2387a",
+  "CAR_T_paired_descriptive_ratios.tsv": "31995f38fd2064e3901dc5ef66a2458365e364988788f21edbfd0085b61958b8",
+  "CURRENT.md": "035bb7a639c656ab38b92aa0d754dbafe6550e4f855f0ba93e3aeee1ed423699",
+  "finish_v1224.py": "85b6c43c65e4e1ce3232b5deda3633ade44e3b219e9c7247a6cb65348de84a90",
+  "GEO_sample_metadata.json": "15f2f85acf78bd506a2629e5627278e95492abeaf401e1d856443f59539c576c",
+  "GSE247355_family.soft.gz": "bfedcab6c54d3d4a03aff5173ebf5b0333aa548b22d33fe636ac1f0d2fe9928a",
+  "local_gene_context.tsv": "9d2a5fc6e6e8850b1da9bc3711e3fed7ce429446d71dc6051b1c6f02f5de09dd",
+  "mempalace_receipt.json": "679057d95d8ddb22fa8938b119d54360b64ddfff13601e472d3cc1e9b9b536f5",
+  "previous_MOC.md": "f9e1df9e6b187998591a12b0d7b3b61502112e90934a348bb5b59cee7f5c79f3",
+  "previous_project_CURRENT.md": "385cd88d2d1d0d37d0200a0d5bef6a383972664732d95c39800a534db559f302",
+  "RELATORIO_ATUALIZADO_2026-09-16.md": "1ea5de5abdbf93733531f63bbfd779d79047c95136a9855b5701906700b24bd4",
+  "RNA_context_validation.json": "dd740d7f83e56ec6243f71b7e953c0947fd93d3ba54cf729bc3eb322afae003c",
+  "sample_metadata_audit.tsv": "96226d816ad820d2e9ed0bb1eb8761e11ff8b1068e443d50d648ae6fcef14eb9"
+}

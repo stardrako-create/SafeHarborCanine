@@ -1,0 +1,1 @@
+SUPERSEDED: BWA removed /1 and /2 suffixes, merging mate identities in per-read score aggregation. Use junction_competition_20260922_v2, with preserved _mate1/_mate2 identifiers. Original outputs retained for audit.

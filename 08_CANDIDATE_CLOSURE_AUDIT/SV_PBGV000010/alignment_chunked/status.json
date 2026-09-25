@@ -1,0 +1,11 @@
+{
+  "pid": 361,
+  "stage": "completed_pending_review",
+  "updated_utc": "2026-09-22T08:52:49Z",
+  "chunk": 46,
+  "start_pair0": 184000000,
+  "pairs": 1353881,
+  "chunk_pairs_read": 1300000,
+  "child_pid": null,
+  "records_read": 2700000
+}

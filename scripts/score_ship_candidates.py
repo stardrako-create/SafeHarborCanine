@@ -59,6 +59,13 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
       the full pipeline and its limitations). A single conserved base isn't
       meaningful (common, and not what "ultraconserved element" means in
       the literature) - this specifically looks for a sustained stretch
+    - ATAC accessibility below --min-atac-accessibility-percentile (default
+      0.55) of the genome-wide weighted-mean background: a floor, not a
+      target, added 2026-09-09 at the user's request - distinct from and
+      independent of the peak-avoidance vetoes above (which guard against
+      the candidate BEING active regulatory chromatin); this one guards
+      against the opposite failure mode, chromatin closed enough that an
+      inserted transgene risks silencing
     - overlaps an independently-curated regulatory element
       (--external-regulatory-bed; Ehsan Valiollahi's CanFam3.1 regulatory-
       element set, lifted to ROS_Cfam_1.0 by the sender before sharing -
@@ -80,10 +87,26 @@ Shrestha et al. 2022 (GEG-SH, tissue-specific biological filtering):
     - stability_rrbs     = 1 - percentile(RRBS variability across 71 dogs)
     - low_methylation    = 1 - percentile(RRBS weighted-mean methylation)
     - tad_distance       =     percentile(distance to nearest TAD boundary)
-    - moderate_atac      = 1 - 2*|percentile(ATAC weighted mean) - 0.5|
-                            (peaks at genome-wide median accessibility -
-                            SHIP already picked intergenic windows, so neither
-                            fully closed nor unusually open is what we want)
+    - low_peak_frequency = 1 - percentile(ATAC peak_frequency: how many of the
+                            76 dogs have their own independently-called MACS3
+                            peak nearby) - replaces the former moderate_atac
+                            (percentile of the continuous weighted-mean signal,
+                            2026-09-08): empirically, weighted-mean magnitude
+                            doesn't discriminate real peaks from background at
+                            any threshold - the 32 SHIP candidates that DO
+                            overlap a real consensus peak (hard-vetoed via
+                            veto_atac_peak already, but used here as a known-
+                            positive check) land at a median 82nd-83rd
+                            percentile on the weighted-mean track regardless of
+                            confidence-gating or +/-75bp positional-tolerance
+                            smoothing (both tried, neither helped - see
+                            05_SHIP/VERSIONS.md V10 entry). The same 32 land at
+                            the 95.6th percentile on peak_frequency. Per-dog
+                            MACS3 peak calling already does the statistical
+                            signal-vs-background separation properly; vote-
+                            counting across dogs preserves that calibration,
+                            re-deriving a population magnitude from raw signal
+                            does not.
 
 Nothing here is a black box: every component is a plain, documented,
 genome-wide-percentile track value: read the numbers in the output TSV
@@ -213,9 +236,9 @@ def distance_to_nearest(intervals_by_chrom, chrom, start, end):
     return best if best is not None else float("inf")
 
 
-def bw_mean(bw, chrom, start, end):
+def bw_mean(bw, chrom, start, end, stat_type="mean"):
     try:
-        val = bw.stats(chrom, start, end, type="mean")[0]
+        val = bw.stats(chrom, start, end, type=stat_type)[0]
     except RuntimeError:
         return None
     return val
@@ -265,6 +288,37 @@ def build_bw_background(bw, coverage_bw=None):
     return background
 
 
+def build_peak_frequency_background(bw, bin_size=25):
+    """peak_frequency.bw only stores intervals where >=1 dog has a nearby
+    peak (bedtools multiinter never emits zero-count segments) - only 2.15%
+    of the genome has any stored data at all. Reading .intervals() directly
+    like build_bw_background() does would background against that 2.15%
+    slice only, and a candidate with a truly empty window (the best possible
+    outcome here) would read back as None/missing rather than a real zero.
+    Both are wrong: an unstored region genuinely means 0 dogs voted there,
+    a real measured value, not an unmeasured one (unlike the ATAC/RRBS mean
+    tracks, where 0 is genuinely ambiguous between "closed" and "no
+    evidence"). Build the true base-pair-weighted genome-wide background by
+    expanding each stored interval into bin_size-wide samples and padding
+    the rest of the genome with explicit zeros."""
+    total_genome_bp = sum(bw.chroms().values())
+    total_bins = total_genome_bp // bin_size
+    chunks = []
+    covered_bins = 0
+    for chrom in bw.chroms():
+        ivs = bw.intervals(chrom)
+        if not ivs:
+            continue
+        for s, e, v in ivs:
+            n_bins = max(1, (e - s) // bin_size)
+            chunks.append(np.full(n_bins, v, dtype=np.float32))
+            covered_bins += n_bins
+    chunks.append(np.zeros(max(0, total_bins - covered_bins), dtype=np.float32))
+    background = np.concatenate(chunks)
+    background.sort()
+    return background
+
+
 def build_tad_distance_background(tad_boundaries, chrom_sizes, step=1000):
     """Distance-to-nearest-TAD-boundary at a regular genome-wide grid
     (every `step` bp), vectorized per chromosome - the same statistic
@@ -308,6 +362,19 @@ def main():
     ap.add_argument("--atac-mean-bw", required=True)
     ap.add_argument("--atac-variability-bw", required=True)
     ap.add_argument("--atac-peaks-bed", required=True)
+    ap.add_argument("--atac-peak-frequency-bw", required=True,
+                     help="per-bin count of dogs (out of 76) with their own MACS3 "
+                          "peak overlapping - used for low_peak_frequency scoring")
+    ap.add_argument("--min-atac-accessibility-percentile", type=float, default=0.55,
+                     help="hard veto: candidate's own ATAC weighted-mean must be at "
+                          "or above this genome-wide percentile, or it's excluded - "
+                          "a floor, not a target. Distinct from and independent of "
+                          "veto_atac_peak/low_peak_frequency (which penalize sitting "
+                          "on a real called peak = risky regulatory activity): this "
+                          "one guards against the other extreme, chromatin closed "
+                          "enough that an inserted transgene may end up silenced. "
+                          "Default 0.55, the middle of the requested 50-60th "
+                          "percentile floor - tune via this flag, not by editing code")
     ap.add_argument("--rrbs-mean-bw", required=True)
     ap.add_argument("--rrbs-variability-bw", required=True)
     ap.add_argument("--rrbs-coverage-bw", required=True)
@@ -343,7 +410,7 @@ def main():
     ap.add_argument("--w-stability-rrbs", type=float, default=1.0)
     ap.add_argument("--w-low-methylation", type=float, default=1.0)
     ap.add_argument("--w-tad-distance", type=float, default=1.0)
-    ap.add_argument("--w-moderate-atac", type=float, default=1.0)
+    ap.add_argument("--w-low-peak-frequency", type=float, default=1.0)
     ap.add_argument("--out-scored", required=True)
     ap.add_argument("--out-passing-bed", required=True)
     args = ap.parse_args()
@@ -391,9 +458,14 @@ def main():
 
     atac_mean_bw = pyBigWig.open(args.atac_mean_bw)
     atac_var_bw = pyBigWig.open(args.atac_variability_bw)
+    atac_freq_bw = pyBigWig.open(args.atac_peak_frequency_bw)
     rrbs_mean_bw = pyBigWig.open(args.rrbs_mean_bw)
     rrbs_var_bw = pyBigWig.open(args.rrbs_variability_bw)
     rrbs_cov_bw = pyBigWig.open(args.rrbs_coverage_bw)
+
+    print("Building ATAC accessibility background (needed for the accessibility-floor veto)...")
+    atac_mean_bg = build_bw_background(atac_mean_bw)
+    print(f"  ATAC accessibility background: {atac_mean_bg.size:,} bins")
 
     for c in candidates:
         chrom, start, end = c["chrom"], c["start"], c["end"]
@@ -423,6 +495,12 @@ def main():
         c["veto_external_regulatory_element"] = (
             bool(args.external_regulatory_bed) and overlaps(external_regulatory, chrom, start, end)
         )
+        c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
+        c["atac_mean_percentile"] = percentile_rank(atac_mean_bg, c["atac_mean"])
+        c["veto_low_atac_accessibility"] = (
+            c["atac_mean_percentile"] is None
+            or c["atac_mean_percentile"] < args.min_atac_accessibility_percentile
+        )
         mid = (start + end) // 2
         own_tad = find_containing_interval(tad_intervals, chrom, mid)
         if own_tad is not None:
@@ -434,10 +512,12 @@ def main():
                            or c["veto_mirna_nearby"] or c["veto_risk_gene_radius"]
                            or c["veto_gene_dense_neighborhood"] or c["veto_lncrna_smallrna"]
                            or c["veto_tad_risk_gene"] or c["veto_high_repeat_content"]
-                           or c["veto_ultraconserved_element"] or c["veto_external_regulatory_element"])
+                           or c["veto_ultraconserved_element"] or c["veto_external_regulatory_element"]
+                           or c["veto_low_atac_accessibility"])
         c["tad_boundary_distance"] = distance_to_nearest(tad_boundaries, chrom, start, end)
-        c["atac_mean"] = bw_mean(atac_mean_bw, chrom, start, end)
         c["atac_variability"] = bw_mean(atac_var_bw, chrom, start, end)
+        freq_val = bw_mean(atac_freq_bw, chrom, start, end, stat_type="max")
+        c["atac_peak_frequency"] = freq_val if freq_val is not None else 0.0
         c["rrbs_mean"] = bw_mean(rrbs_mean_bw, chrom, start, end)
         c["rrbs_variability"] = bw_mean(rrbs_var_bw, chrom, start, end)
         c["rrbs_coverage"] = bw_mean(rrbs_cov_bw, chrom, start, end)
@@ -447,11 +527,12 @@ def main():
 
     print("Building genome-wide background distributions for percentile scoring...")
     atac_var_bg = build_bw_background(atac_var_bw)
-    atac_mean_bg = build_bw_background(atac_mean_bw)
+    atac_freq_bg = build_peak_frequency_background(atac_freq_bw)
     rrbs_mean_bg = build_bw_background(rrbs_mean_bw, coverage_bw=rrbs_cov_bw)
     rrbs_var_bg = build_bw_background(rrbs_var_bw, coverage_bw=rrbs_cov_bw)
     tad_dist_bg = build_tad_distance_background(tad_boundaries, atac_mean_bw.chroms())
-    print(f"  ATAC background: {atac_mean_bg.size:,} bins; RRBS background: {rrbs_mean_bg.size:,} bins; "
+    print(f"  ATAC peak-frequency background: {atac_freq_bg.size:,} bins; "
+          f"RRBS background: {rrbs_mean_bg.size:,} bins; "
           f"TAD-distance background: {tad_dist_bg.size:,} grid points")
 
     weights = {
@@ -459,19 +540,26 @@ def main():
         "stability_rrbs": args.w_stability_rrbs,
         "low_methylation": args.w_low_methylation,
         "tad_distance": args.w_tad_distance,
-        "moderate_atac": args.w_moderate_atac,
+        "low_peak_frequency": args.w_low_peak_frequency,
     }
 
-    for c in survivors:
+    # Computed for ALL 461 candidates, not just survivors (hard-vetoed ones
+    # included) - this is what makes final_score_percentile below a fixed,
+    # portable reference population (461 never changes) rather than a
+    # batch-relative one (the survivor set shrinks/grows as vetoes change,
+    # which is exactly the already-rejected 2026-08-21 min-max bug). A
+    # hard-vetoed candidate's final_score is never shown as a result, only
+    # used as background filler for ranking everyone else against.
+    for c in candidates:
         av = percentile_rank(atac_var_bg, c["atac_variability"])
-        mv = percentile_rank(atac_mean_bg, c["atac_mean"])
+        pf = percentile_rank(atac_freq_bg, c["atac_peak_frequency"])
         rm = percentile_rank(rrbs_mean_bg, c["rrbs_mean"]) if not c["no_rrbs_coverage"] else None
         rv = percentile_rank(rrbs_var_bg, c["rrbs_variability"]) if not c["no_rrbs_coverage"] else None
         td = percentile_rank(tad_dist_bg, c["tad_boundary_distance"])
 
         components = {}
         components["stability_atac"] = (1.0 - av) if av is not None else None
-        components["moderate_atac"] = (1.0 - 2.0 * abs(mv - 0.5)) if mv is not None else None
+        components["low_peak_frequency"] = (1.0 - pf) if pf is not None else None
         components["low_methylation"] = (1.0 - rm) if rm is not None else None
         components["stability_rrbs"] = (1.0 - rv) if rv is not None else None
         components["tad_distance"] = td if td is not None else None
@@ -485,6 +573,31 @@ def main():
             c[f"score_{name}"] = round(value, 4)
         c["final_score"] = round(weighted_sum / weight_total, 4) if weight_total > 0 else None
 
+    # Display-friendly framing for non-technical audiences: "beats X% of all
+    # 461 SHIP candidates" - a second, outer percentile-rank layer on top of
+    # final_score itself. Tried a fixed linear stretch (min(1, 2*score))
+    # first; rejected 2026-09-09 (user: "score de 1 que satura e bullshit") -
+    # it collapsed every candidate above the practical ceiling to an
+    # identical 1.0, destroying exactly the ranking information that matters
+    # most among the best candidates. A percentile rank never saturates like
+    # that (ties are vanishingly rare with continuous scores) and stays
+    # portable across runs, same reasoning as the module's genome-wide
+    # percentile scoring change - checked LocusAtlas's own computational_score
+    # field (2026-09-09) for a convention to reuse instead: it exists as a
+    # bare unconstrained numeric with no defined methodology, so there was
+    # nothing to adopt.
+    all_final_scores = np.array(
+        [c["final_score"] for c in candidates if c["final_score"] is not None]
+    )
+    all_final_scores.sort()
+    for c in candidates:
+        if c["final_score"] is None:
+            c["final_score_percentile"] = None
+        else:
+            c["final_score_percentile"] = round(
+                percentile_rank(all_final_scores, c["final_score"]) * 100, 1
+            )
+
     survivors.sort(key=lambda c: (c["final_score"] is None, -(c["final_score"] or 0)))
 
     fieldnames = ["chrom", "start", "end", "length", "orientation", "left_gene", "right_gene",
@@ -493,11 +606,12 @@ def main():
                   "veto_gene_dense_neighborhood", "veto_lncrna_smallrna", "veto_tad_risk_gene",
                   "veto_high_repeat_content", "pct_repeat",
                   "veto_ultraconserved_element", "max_50bp_rolling_phyloP",
-                  "veto_external_regulatory_element", "no_rrbs_coverage",
-                  "atac_mean", "atac_variability", "rrbs_mean", "rrbs_variability",
+                  "veto_external_regulatory_element", "veto_low_atac_accessibility", "no_rrbs_coverage",
+                  "atac_mean", "atac_mean_percentile", "atac_variability", "atac_peak_frequency",
+                  "rrbs_mean", "rrbs_variability",
                   "tad_boundary_distance", "mirna_distance", "risk_gene_radius_distance", "gene_dense_clearance",
-                  "score_stability_atac", "score_moderate_atac", "score_low_methylation",
-                  "score_stability_rrbs", "score_tad_distance", "final_score"]
+                  "score_stability_atac", "score_low_peak_frequency", "score_low_methylation",
+                  "score_stability_rrbs", "score_tad_distance", "final_score", "final_score_percentile"]
 
     with open(args.out_scored, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter="\t", extrasaction="ignore")
@@ -523,14 +637,17 @@ def main():
           f"{sum(1 for c in candidates if c['veto_tad_risk_gene'])} risk gene in own TAD, "
           f"{sum(1 for c in candidates if c['veto_high_repeat_content'])} high repeat content, "
           f"{sum(1 for c in candidates if c['veto_ultraconserved_element'])} ultraconserved element, "
-          f"{sum(1 for c in candidates if c['veto_external_regulatory_element'])} external regulatory element overlap), "
+          f"{sum(1 for c in candidates if c['veto_external_regulatory_element'])} external regulatory element overlap, "
+          f"{sum(1 for c in candidates if c['veto_low_atac_accessibility'])} low ATAC accessibility "
+          f"below p{args.min_atac_accessibility_percentile*100:.0f}), "
           f"{len(survivors)} ranked and passing.")
     print(f"Wrote full table to {args.out_scored}")
     print(f"Wrote ranked passing candidates BED to {args.out_passing_bed}")
     if survivors:
         top = survivors[0]
         print(f"Top candidate: {top['chrom']}:{top['start']}-{top['end']} "
-              f"({top['orientation']}, score={top['final_score']})")
+              f"({top['orientation']}, score={top['final_score']}, "
+              f"beats {top['final_score_percentile']}% of all 461 candidates)")
 
 
 if __name__ == "__main__":

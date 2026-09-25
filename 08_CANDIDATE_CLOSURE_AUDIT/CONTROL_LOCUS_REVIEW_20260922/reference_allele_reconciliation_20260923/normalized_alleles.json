@@ -1,0 +1,342 @@
+[
+  {
+    "record_index": 0,
+    "chrom": "NC_051825.1",
+    "start0": 9610953,
+    "ref": "T",
+    "alt": "A",
+    "count": 2577,
+    "AN": 3972,
+    "id": "R0_A1"
+  },
+  {
+    "record_index": 1,
+    "chrom": "NC_051825.1",
+    "start0": 9610988,
+    "ref": "G",
+    "alt": "A",
+    "count": 582,
+    "AN": 3972,
+    "id": "R1_A1"
+  },
+  {
+    "record_index": 3,
+    "chrom": "NC_051825.1",
+    "start0": 9611162,
+    "ref": "T",
+    "alt": "TTA",
+    "count": 40,
+    "AN": 3952,
+    "id": "R3_A2"
+  },
+  {
+    "record_index": 3,
+    "chrom": "NC_051825.1",
+    "start0": 9611164,
+    "ref": "T",
+    "alt": "A",
+    "count": 2574,
+    "AN": 3952,
+    "id": "R3_A1"
+  },
+  {
+    "record_index": 2,
+    "chrom": "NC_051825.1",
+    "start0": 9611402,
+    "ref": "A",
+    "alt": "C",
+    "count": 2583,
+    "AN": 3972,
+    "id": "R2_A1"
+  },
+  {
+    "record_index": 7,
+    "chrom": "NC_051816.1",
+    "start0": 30227859,
+    "ref": "T",
+    "alt": "C",
+    "count": 2217,
+    "AN": 3970,
+    "id": "R7_A1"
+  },
+  {
+    "record_index": 8,
+    "chrom": "NC_051816.1",
+    "start0": 30227923,
+    "ref": "A",
+    "alt": "T",
+    "count": 2199,
+    "AN": 3954,
+    "id": "R8_A1"
+  },
+  {
+    "record_index": 9,
+    "chrom": "NC_051816.1",
+    "start0": 30227984,
+    "ref": "C",
+    "alt": "G",
+    "count": 2207,
+    "AN": 3958,
+    "id": "R9_A1"
+  },
+  {
+    "record_index": 10,
+    "chrom": "NC_051816.1",
+    "start0": 30228015,
+    "ref": "C",
+    "alt": "T",
+    "count": 2114,
+    "AN": 3960,
+    "id": "R10_A1"
+  },
+  {
+    "record_index": 11,
+    "chrom": "NC_051816.1",
+    "start0": 30228078,
+    "ref": "C",
+    "alt": "T",
+    "count": 2212,
+    "AN": 3974,
+    "id": "R11_A1"
+  },
+  {
+    "record_index": 12,
+    "chrom": "NC_051816.1",
+    "start0": 30228278,
+    "ref": "C",
+    "alt": "G",
+    "count": 3323,
+    "AN": 3974,
+    "id": "R12_A1"
+  },
+  {
+    "record_index": 13,
+    "chrom": "NC_051816.1",
+    "start0": 30228294,
+    "ref": "C",
+    "alt": "G",
+    "count": 2151,
+    "AN": 3974,
+    "id": "R13_A1"
+  },
+  {
+    "record_index": 14,
+    "chrom": "NC_051826.1",
+    "start0": 56547114,
+    "ref": "G",
+    "alt": "A",
+    "count": 2825,
+    "AN": 3974,
+    "id": "R14_A1"
+  },
+  {
+    "record_index": 15,
+    "chrom": "NC_051826.1",
+    "start0": 56547238,
+    "ref": "T",
+    "alt": "C",
+    "count": 3244,
+    "AN": 3974,
+    "id": "R15_A1"
+  },
+  {
+    "record_index": 16,
+    "chrom": "NC_051825.1",
+    "start0": 16855934,
+    "ref": "A",
+    "alt": "G",
+    "count": 2593,
+    "AN": 3974,
+    "id": "R16_A1"
+  },
+  {
+    "record_index": 17,
+    "chrom": "NC_051825.1",
+    "start0": 16856860,
+    "ref": "T",
+    "alt": "C",
+    "count": 2913,
+    "AN": 3974,
+    "id": "R17_A1"
+  },
+  {
+    "record_index": 18,
+    "chrom": "NC_051820.1",
+    "start0": 195910,
+    "ref": "A",
+    "alt": "G",
+    "count": 3327,
+    "AN": 3974,
+    "id": "R18_A1"
+  },
+  {
+    "record_index": 19,
+    "chrom": "NC_051820.1",
+    "start0": 195943,
+    "ref": "A",
+    "alt": "G",
+    "count": 1989,
+    "AN": 3974,
+    "id": "R19_A1"
+  },
+  {
+    "record_index": 20,
+    "chrom": "NC_051820.1",
+    "start0": 195962,
+    "ref": "G",
+    "alt": "A",
+    "count": 1986,
+    "AN": 3974,
+    "id": "R20_A1"
+  },
+  {
+    "record_index": 21,
+    "chrom": "NC_051820.1",
+    "start0": 196043,
+    "ref": "T",
+    "alt": "C",
+    "count": 1985,
+    "AN": 3974,
+    "id": "R21_A1"
+  },
+  {
+    "record_index": 22,
+    "chrom": "NC_051820.1",
+    "start0": 196128,
+    "ref": "C",
+    "alt": "T",
+    "count": 1984,
+    "AN": 3974,
+    "id": "R22_A1"
+  },
+  {
+    "record_index": 27,
+    "chrom": "NC_051826.1",
+    "start0": 46097191,
+    "ref": "C",
+    "alt": "T",
+    "count": 413,
+    "AN": 3972,
+    "id": "R27_A1"
+  },
+  {
+    "record_index": 28,
+    "chrom": "NC_051826.1",
+    "start0": 46097303,
+    "ref": "G",
+    "alt": "C",
+    "count": 416,
+    "AN": 3974,
+    "id": "R28_A1"
+  },
+  {
+    "record_index": 29,
+    "chrom": "NC_051826.1",
+    "start0": 46097319,
+    "ref": "A",
+    "alt": "C",
+    "count": 416,
+    "AN": 3974,
+    "id": "R29_A1"
+  },
+  {
+    "record_index": 30,
+    "chrom": "NC_051826.1",
+    "start0": 46097639,
+    "ref": "A",
+    "alt": "G",
+    "count": 423,
+    "AN": 3958,
+    "id": "R30_A1"
+  },
+  {
+    "record_index": 31,
+    "chrom": "NC_051826.1",
+    "start0": 46097672,
+    "ref": "T",
+    "alt": "C",
+    "count": 424,
+    "AN": 3966,
+    "id": "R31_A1"
+  },
+  {
+    "record_index": 31,
+    "chrom": "NC_051826.1",
+    "start0": 46097672,
+    "ref": "T",
+    "alt": "A",
+    "count": 2,
+    "AN": 3966,
+    "id": "R31_A2"
+  },
+  {
+    "record_index": 32,
+    "chrom": "NC_051826.1",
+    "start0": 46097673,
+    "ref": "G",
+    "alt": "A",
+    "count": 418,
+    "AN": 3964,
+    "id": "R32_A1"
+  },
+  {
+    "record_index": 33,
+    "chrom": "NC_051826.1",
+    "start0": 46097811,
+    "ref": "A",
+    "alt": "G",
+    "count": 447,
+    "AN": 3968,
+    "id": "R33_A1"
+  },
+  {
+    "record_index": 34,
+    "chrom": "NC_051839.1",
+    "start0": 1367250,
+    "ref": "G",
+    "alt": "A",
+    "count": 3378,
+    "AN": 3974,
+    "id": "R34_A1"
+  },
+  {
+    "record_index": 35,
+    "chrom": "NC_051837.1",
+    "start0": 7716897,
+    "ref": "A",
+    "alt": "G",
+    "count": 2510,
+    "AN": 3972,
+    "id": "R35_A1"
+  },
+  {
+    "record_index": 36,
+    "chrom": "NC_051837.1",
+    "start0": 7717295,
+    "ref": "A",
+    "alt": "G",
+    "count": 2002,
+    "AN": 3972,
+    "id": "R36_A1"
+  },
+  {
+    "record_index": 37,
+    "chrom": "NC_051837.1",
+    "start0": 7717435,
+    "ref": "G",
+    "alt": "T",
+    "count": 1758,
+    "AN": 3954,
+    "id": "R37_A1"
+  },
+  {
+    "record_index": 39,
+    "chrom": "NC_051831.1",
+    "start0": 27680028,
+    "ref": "C",
+    "alt": "A",
+    "count": 885,
+    "AN": 3974,
+    "id": "R39_A1"
+  }
+]

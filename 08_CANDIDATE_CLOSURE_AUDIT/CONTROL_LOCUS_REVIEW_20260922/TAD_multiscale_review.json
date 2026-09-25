@@ -1,0 +1,776 @@
+{
+  "utc": "2026-09-22T20:48:56.861693+00:00",
+  "source_sha256": "14633849e748938dae86597231203349ea379e86bdd479147a959d7b20a308fe",
+  "reviewed": 20,
+  "risk_hit_ids": [
+    "bg1k_0567",
+    "bg1k_1958",
+    "bg1k_2054",
+    "bg1k_2545"
+  ],
+  "missing_assignment_ids": [
+    "bg1k_0567",
+    "bg1k_1650"
+  ],
+  "no_hit_all_scales_ids": [
+    "bg1k_0023",
+    "bg1k_0045",
+    "bg1k_0117",
+    "bg1k_0202",
+    "bg1k_0228",
+    "bg1k_0334",
+    "bg1k_0442",
+    "bg1k_0878",
+    "bg1k_1023",
+    "bg1k_2228",
+    "bg1k_2686",
+    "bg1k_2848",
+    "bg1k_2865",
+    "bg1k_2867",
+    "bg1k_2901"
+  ],
+  "results": [
+    {
+      "id": "bg1k_2054",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 45925000,
+      "proxy_end": 46325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2054",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 45900000,
+      "proxy_end": 46325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2054",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 45925000,
+      "proxy_end": 46900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2054",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 42625000,
+      "proxy_end": 46875000,
+      "risk_genes": [
+        "GPC5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_0567",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "bg1k_0567",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 3175000,
+      "proxy_end": 3775000,
+      "risk_genes": [
+        "SETD7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_0567",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 3250000,
+      "proxy_end": 3775000,
+      "risk_genes": [
+        "SETD7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_0567",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "bg1k_2848",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 28225000,
+      "proxy_end": 28850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2848",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 28225000,
+      "proxy_end": 28900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2848",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 26400000,
+      "proxy_end": 28875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2848",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27900000,
+      "proxy_end": 28850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0045",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 9550000,
+      "proxy_end": 10225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0045",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 9550000,
+      "proxy_end": 10250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0045",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 8475000,
+      "proxy_end": 10225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0045",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 7900000,
+      "proxy_end": 11525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2865",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 42525000,
+      "proxy_end": 43650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2865",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 42525000,
+      "proxy_end": 43675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2865",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 42400000,
+      "proxy_end": 43650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2865",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 42525000,
+      "proxy_end": 43675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0442",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 10275000,
+      "proxy_end": 10450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0442",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 8675000,
+      "proxy_end": 10450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0442",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 10150000,
+      "proxy_end": 11400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0442",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 10275000,
+      "proxy_end": 11300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2901",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 27275000,
+      "proxy_end": 27700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2901",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 27275000,
+      "proxy_end": 27850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2901",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 26675000,
+      "proxy_end": 27850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2901",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 26650000,
+      "proxy_end": 27700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0202",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 30225000,
+      "proxy_end": 30650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0202",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 30225000,
+      "proxy_end": 31125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0202",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 27825000,
+      "proxy_end": 30650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0202",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27900000,
+      "proxy_end": 33375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0334",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 16575000,
+      "proxy_end": 17000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0334",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 16575000,
+      "proxy_end": 17000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0334",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 16525000,
+      "proxy_end": 17325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0334",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 16550000,
+      "proxy_end": 20400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2545",
+      "group": "random",
+      "scale": "union",
+      "proxy_start": 1100000,
+      "proxy_end": 1700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2545",
+      "group": "random",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1075000,
+      "proxy_end": 1700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2545",
+      "group": "random",
+      "scale": "is_boundary_250000",
+      "proxy_start": 1100000,
+      "proxy_end": 2000000,
+      "risk_genes": [
+        "FOXF2",
+        "FOXQ1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_2545",
+      "group": "random",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1100000,
+      "proxy_end": 1925000,
+      "risk_genes": [
+        "FOXF2",
+        "FOXQ1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_0228",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 56350000,
+      "proxy_end": 56575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0228",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 56250000,
+      "proxy_end": 56575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0228",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 56325000,
+      "proxy_end": 57050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0228",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 56350000,
+      "proxy_end": 57400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1958",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 83375000,
+      "proxy_end": 83725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1958",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 83350000,
+      "proxy_end": 84450000,
+      "risk_genes": [
+        "CDH11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_1958",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 83375000,
+      "proxy_end": 83725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1958",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 83375000,
+      "proxy_end": 84825000,
+      "risk_genes": [
+        "CDH11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "bg1k_2686",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 7450000,
+      "proxy_end": 7850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2686",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 7450000,
+      "proxy_end": 7850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2686",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 7425000,
+      "proxy_end": 7850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2686",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 7425000,
+      "proxy_end": 7850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1023",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 46575000,
+      "proxy_end": 47250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1023",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 46525000,
+      "proxy_end": 47300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1023",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 46550000,
+      "proxy_end": 47300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1023",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 46575000,
+      "proxy_end": 47250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0023",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 34775000,
+      "proxy_end": 35750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0023",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 34775000,
+      "proxy_end": 35750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0023",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 34050000,
+      "proxy_end": 36975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0023",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 34300000,
+      "proxy_end": 36650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0878",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 50850000,
+      "proxy_end": 52575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0878",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 50800000,
+      "proxy_end": 52575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0878",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 50850000,
+      "proxy_end": 52600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0878",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 48875000,
+      "proxy_end": 52600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_1650",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "bg1k_1650",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "bg1k_1650",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "bg1k_1650",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "bg1k_2228",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 39450000,
+      "proxy_end": 40000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2228",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 39425000,
+      "proxy_end": 40000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2228",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 39425000,
+      "proxy_end": 40625000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2228",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 39450000,
+      "proxy_end": 40650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2867",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 33225000,
+      "proxy_end": 33900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2867",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 33225000,
+      "proxy_end": 33925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2867",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 32525000,
+      "proxy_end": 33925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_2867",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 32625000,
+      "proxy_end": 33900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0117",
+      "group": "low_ATAC",
+      "scale": "union",
+      "proxy_start": 25150000,
+      "proxy_end": 26375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0117",
+      "group": "low_ATAC",
+      "scale": "is_boundary_100000",
+      "proxy_start": 25150000,
+      "proxy_end": 27250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0117",
+      "group": "low_ATAC",
+      "scale": "is_boundary_250000",
+      "proxy_start": 24650000,
+      "proxy_end": 26700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "bg1k_0117",
+      "group": "low_ATAC",
+      "scale": "is_boundary_500000",
+      "proxy_start": 24625000,
+      "proxy_end": 26375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    }
+  ],
+  "limitations": [
+    "Same boundary-gap proxy method as existing w01/w11 audit; not T-cell contact validation",
+    "Risk and missing-assignment categories can overlap",
+    "Union can hide risk at coarser scales; use all scale results",
+    "No hit is not proof of regulatory isolation"
+  ]
+}

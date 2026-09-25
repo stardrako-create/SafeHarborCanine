@@ -1,0 +1,309 @@
+{
+  "exact_unique_genes": 11976,
+  "published_genes": 14385,
+  "unmapped": 2409,
+  "assessments": [
+    {
+      "gene_set": "all_exact",
+      "genes": 11976,
+      "metric": "spearman_abundance",
+      "diagonal_min": 0.9336296889526178,
+      "diagonal_max": 0.9436888223444306,
+      "diagonal_best_count": 9,
+      "best_assignment": [
+        {
+          "reprocessed": "B_B7H3_CAR_T",
+          "published": "B_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "B_BC_CAR_T",
+          "published": "B_BC_CAR_T"
+        },
+        {
+          "reprocessed": "B_T_cell",
+          "published": "B_T_cell"
+        },
+        {
+          "reprocessed": "E_B7H3_CAR_T",
+          "published": "E_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "E_BC_CAR_T",
+          "published": "E_BC_CAR_T"
+        },
+        {
+          "reprocessed": "E_T_cell",
+          "published": "E_T_cell"
+        },
+        {
+          "reprocessed": "M_B7H3_CAR_T",
+          "published": "M_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "M_BC_CAR_T",
+          "published": "M_BC_CAR_T"
+        },
+        {
+          "reprocessed": "M_T_cell",
+          "published": "M_T_cell"
+        }
+      ],
+      "identity_assignment": true,
+      "diagonal_sum": 8.435803816548198,
+      "optimal_sum": 8.435803816548198
+    },
+    {
+      "gene_set": "all_exact",
+      "genes": 11976,
+      "metric": "pearson_gene_centered_log2_CPM_plus1",
+      "diagonal_min": 0.9005113984460222,
+      "diagonal_max": 0.9548072041941938,
+      "diagonal_best_count": 9,
+      "best_assignment": [
+        {
+          "reprocessed": "B_B7H3_CAR_T",
+          "published": "B_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "B_BC_CAR_T",
+          "published": "B_BC_CAR_T"
+        },
+        {
+          "reprocessed": "B_T_cell",
+          "published": "B_T_cell"
+        },
+        {
+          "reprocessed": "E_B7H3_CAR_T",
+          "published": "E_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "E_BC_CAR_T",
+          "published": "E_BC_CAR_T"
+        },
+        {
+          "reprocessed": "E_T_cell",
+          "published": "E_T_cell"
+        },
+        {
+          "reprocessed": "M_B7H3_CAR_T",
+          "published": "M_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "M_BC_CAR_T",
+          "published": "M_BC_CAR_T"
+        },
+        {
+          "reprocessed": "M_T_cell",
+          "published": "M_T_cell"
+        }
+      ],
+      "identity_assignment": true,
+      "diagonal_sum": 8.303479854588057,
+      "optimal_sum": 8.303479854588057
+    },
+    {
+      "gene_set": "CPM1_both_at_least3_samples",
+      "genes": 9690,
+      "metric": "spearman_abundance",
+      "diagonal_min": 0.9097056686492463,
+      "diagonal_max": 0.9268311927880895,
+      "diagonal_best_count": 9,
+      "best_assignment": [
+        {
+          "reprocessed": "B_B7H3_CAR_T",
+          "published": "B_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "B_BC_CAR_T",
+          "published": "B_BC_CAR_T"
+        },
+        {
+          "reprocessed": "B_T_cell",
+          "published": "B_T_cell"
+        },
+        {
+          "reprocessed": "E_B7H3_CAR_T",
+          "published": "E_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "E_BC_CAR_T",
+          "published": "E_BC_CAR_T"
+        },
+        {
+          "reprocessed": "E_T_cell",
+          "published": "E_T_cell"
+        },
+        {
+          "reprocessed": "M_B7H3_CAR_T",
+          "published": "M_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "M_BC_CAR_T",
+          "published": "M_BC_CAR_T"
+        },
+        {
+          "reprocessed": "M_T_cell",
+          "published": "M_T_cell"
+        }
+      ],
+      "identity_assignment": true,
+      "diagonal_sum": 8.235843371520096,
+      "optimal_sum": 8.235843371520096
+    },
+    {
+      "gene_set": "CPM1_both_at_least3_samples",
+      "genes": 9690,
+      "metric": "pearson_gene_centered_log2_CPM_plus1",
+      "diagonal_min": 0.92258500443077,
+      "diagonal_max": 0.9697723873359881,
+      "diagonal_best_count": 9,
+      "best_assignment": [
+        {
+          "reprocessed": "B_B7H3_CAR_T",
+          "published": "B_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "B_BC_CAR_T",
+          "published": "B_BC_CAR_T"
+        },
+        {
+          "reprocessed": "B_T_cell",
+          "published": "B_T_cell"
+        },
+        {
+          "reprocessed": "E_B7H3_CAR_T",
+          "published": "E_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "E_BC_CAR_T",
+          "published": "E_BC_CAR_T"
+        },
+        {
+          "reprocessed": "E_T_cell",
+          "published": "E_T_cell"
+        },
+        {
+          "reprocessed": "M_B7H3_CAR_T",
+          "published": "M_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "M_BC_CAR_T",
+          "published": "M_BC_CAR_T"
+        },
+        {
+          "reprocessed": "M_T_cell",
+          "published": "M_T_cell"
+        }
+      ],
+      "identity_assignment": true,
+      "diagonal_sum": 8.511492692464401,
+      "optimal_sum": 8.511492692464401
+    },
+    {
+      "gene_set": "CPM5_both_at_least3_samples",
+      "genes": 8357,
+      "metric": "spearman_abundance",
+      "diagonal_min": 0.8874837885382554,
+      "diagonal_max": 0.9103398645089322,
+      "diagonal_best_count": 9,
+      "best_assignment": [
+        {
+          "reprocessed": "B_B7H3_CAR_T",
+          "published": "B_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "B_BC_CAR_T",
+          "published": "B_BC_CAR_T"
+        },
+        {
+          "reprocessed": "B_T_cell",
+          "published": "B_T_cell"
+        },
+        {
+          "reprocessed": "E_B7H3_CAR_T",
+          "published": "E_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "E_BC_CAR_T",
+          "published": "E_BC_CAR_T"
+        },
+        {
+          "reprocessed": "E_T_cell",
+          "published": "E_T_cell"
+        },
+        {
+          "reprocessed": "M_B7H3_CAR_T",
+          "published": "M_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "M_BC_CAR_T",
+          "published": "M_BC_CAR_T"
+        },
+        {
+          "reprocessed": "M_T_cell",
+          "published": "M_T_cell"
+        }
+      ],
+      "identity_assignment": true,
+      "diagonal_sum": 8.0493303747225,
+      "optimal_sum": 8.0493303747225
+    },
+    {
+      "gene_set": "CPM5_both_at_least3_samples",
+      "genes": 8357,
+      "metric": "pearson_gene_centered_log2_CPM_plus1",
+      "diagonal_min": 0.9370487737403949,
+      "diagonal_max": 0.9800963019851284,
+      "diagonal_best_count": 9,
+      "best_assignment": [
+        {
+          "reprocessed": "B_B7H3_CAR_T",
+          "published": "B_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "B_BC_CAR_T",
+          "published": "B_BC_CAR_T"
+        },
+        {
+          "reprocessed": "B_T_cell",
+          "published": "B_T_cell"
+        },
+        {
+          "reprocessed": "E_B7H3_CAR_T",
+          "published": "E_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "E_BC_CAR_T",
+          "published": "E_BC_CAR_T"
+        },
+        {
+          "reprocessed": "E_T_cell",
+          "published": "E_T_cell"
+        },
+        {
+          "reprocessed": "M_B7H3_CAR_T",
+          "published": "M_B7H3_CAR_T"
+        },
+        {
+          "reprocessed": "M_BC_CAR_T",
+          "published": "M_BC_CAR_T"
+        },
+        {
+          "reprocessed": "M_T_cell",
+          "published": "M_T_cell"
+        }
+      ],
+      "identity_assignment": true,
+      "diagonal_sum": 8.649993213690935,
+      "optimal_sum": 8.649993213690935
+    }
+  ],
+  "limitations": [
+    "Exact unique gene symbols only; not proof of one-to-one orthologous exon definitions",
+    "Same sequencing dataset: concordance is provenance consistency, not independent biological validation",
+    "Cannot resolve physical donor identity or mislabeled samples shared by raw and published files",
+    "log2(CPM+1) only for descriptive similarity; no inferential ratios or differential expression",
+    "Sensitivity gene filters are descriptive, not candidate filters",
+    "No labels reassigned; four metadata conflicts preserved"
+  ]
+}

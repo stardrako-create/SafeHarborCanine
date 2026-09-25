@@ -1,0 +1,137 @@
+{
+  "target": {
+    "name": "CD247_feature_control",
+    "chrom": "NC_006589.4",
+    "start": 30436025,
+    "end": 30437025,
+    "kind": "gene_feature_control_not_verified_TSS"
+  },
+  "search_steps": [
+    [
+      960375552,
+      [
+        13,
+        30495316
+      ]
+    ],
+    [
+      480187776,
+      [
+        6,
+        13379522
+      ]
+    ],
+    [
+      720281664,
+      [
+        9,
+        26080936
+      ]
+    ],
+    [
+      600234720,
+      [
+        7,
+        67424237
+      ]
+    ],
+    [
+      540211248,
+      [
+        6,
+        80373442
+      ]
+    ],
+    [
+      510199512,
+      [
+        6,
+        43996604
+      ]
+    ],
+    [
+      495193644,
+      [
+        6,
+        32404090
+      ]
+    ],
+    [
+      487690710,
+      [
+        6,
+        22068897
+      ]
+    ],
+    [
+      491442177,
+      [
+        6,
+        27577864
+      ]
+    ],
+    [
+      493317910,
+      [
+        6,
+        29815140
+      ]
+    ],
+    [
+      494255777,
+      [
+        6,
+        30670063
+      ]
+    ],
+    [
+      493786843,
+      [
+        6,
+        30277423
+      ]
+    ],
+    [
+      494021310,
+      [
+        6,
+        30398312
+      ]
+    ],
+    [
+      494138543,
+      [
+        6,
+        30491056
+      ]
+    ],
+    [
+      494079926,
+      [
+        6,
+        30416980
+      ]
+    ],
+    [
+      494109234,
+      [
+        6,
+        30452119
+      ]
+    ]
+  ],
+  "range_start": 493948854,
+  "range_end": 495157810,
+  "first_key": [
+    6,
+    30342851
+  ],
+  "last_key": [
+    6,
+    32271043
+  ],
+  "fragment_rows": 108,
+  "starts_in_window": 99,
+  "raw_file": "CD247_feature_control.fragments.tsv",
+  "interpretation": "Complete starts-in-window query under coordinate-sorted file assumption; overlap counts limited to fetched bracket, so extremely long fragments starting before it could be omitted."
+}

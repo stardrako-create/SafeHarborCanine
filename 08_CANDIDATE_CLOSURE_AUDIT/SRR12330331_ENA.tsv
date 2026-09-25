@@ -1,0 +1,2 @@
+run_accession	sample_accession	library_strategy	library_layout	fastq_bytes	fastq_ftp	submitted_ftp	submitted_format
+SRR12330331	SAMN15625855	WGS	PAIRED	15480575058;17120970767	ftp.sra.ebi.ac.uk/vol1/fastq/SRR123/031/SRR12330331/SRR12330331_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR123/031/SRR12330331/SRR12330331_2.fastq.gz		

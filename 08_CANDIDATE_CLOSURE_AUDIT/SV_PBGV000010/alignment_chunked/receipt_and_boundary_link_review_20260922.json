@@ -1,0 +1,37 @@
+{
+  "time_utc": "2026-09-22T14:39:20.348291+00:00",
+  "validated_receipts": 47,
+  "pairs": 185353881,
+  "all_chunk_hashes_match": true,
+  "final_bam_quickcheck": true,
+  "final_bam_index": true,
+  "boundary_link_screen": [
+    {
+      "boundary0": 4707938,
+      "eligible_unique_names": 1243,
+      "mate_links_to_other_boundary": [
+        "SRR15734832.132880416",
+        "SRR15734832.42922787",
+        "SRR15734832.66864324"
+      ],
+      "SA_links_to_other_boundary": []
+    },
+    {
+      "boundary0": 33613308,
+      "eligible_unique_names": 1356,
+      "mate_links_to_other_boundary": [
+        "SRR15734832.132880416",
+        "SRR15734832.42922787",
+        "SRR15734832.66864324"
+      ],
+      "SA_links_to_other_boundary": []
+    }
+  ],
+  "limitations": [
+    "Screen uses +/-10 kb around catalogue coordinates and MAPQ30 nonduplicate primary anchors",
+    "SA links use supplementary alignment start, not reconstructed junction coordinates",
+    "Mate mapping quality and orientation not used to establish SV support",
+    "Absence of links in this screen does not exclude shifted breakpoints or complex/mosaic events",
+    "Coverage GC/mappability matching and control review remain pending"
+  ]
+}

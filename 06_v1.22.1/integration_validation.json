@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "windows": 16,
+  "variant_lookup_eligible": 15,
+  "window_variant_records": 404,
+  "unique_variant_records_in_reviewed_windows": 241,
+  "tile_tests": 1648,
+  "tile_failures": 8,
+  "windows_with_tile_failures": [
+    "w13"
+  ],
+  "all_regulatory_overlap_zero": true,
+  "validation": [
+    "Raw VCF text parser reproduces overlapping REF-span record counts, PASS counts and AF>=1% counts independently of pysam object extraction",
+    "1987 genotype columns in both source VCFs",
+    "All window records REF checked against UU reference during extraction",
+    "Variant summaries keyed by unique window ID; ineligible lookup remains missing",
+    "Mapping, regulatory and variant tables integrated without promoting any safe-harbor status"
+  ],
+  "limitations": [
+    "Independently parsing cached records verifies arithmetic, not remote index completeness",
+    "Reference-span overlap convention, including anchors and reference-consuming indels",
+    "Tile tests include duplicates in overlapping windows; not independent loci"
+  ]
+}

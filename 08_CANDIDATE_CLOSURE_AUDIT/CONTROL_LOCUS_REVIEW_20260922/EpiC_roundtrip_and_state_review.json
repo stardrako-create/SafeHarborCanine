@@ -1,0 +1,174 @@
+{
+  "utc": "2026-09-23T00:54:33.230993+00:00",
+  "roundtrip": [
+    {
+      "id": "bg1k_2054",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_0567",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 998,
+      "exact_return_bp": 980,
+      "pass_roundtrip": false
+    },
+    {
+      "id": "bg1k_2848",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_0442",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_2901",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_0202",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_1958",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_2686",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_0878",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "bg1k_0117",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    }
+  ],
+  "state_review": [
+    {
+      "id": "bg1k_2054",
+      "promoter_enhancer_tissues": [
+        "LI",
+        "ST"
+      ],
+      "states_observed": [
+        7,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_0567",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": false
+    },
+    {
+      "id": "bg1k_2848",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        9,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_0442",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_2901",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_0202",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_1958",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_2686",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_0878",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "bg1k_0117",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    }
+  ],
+  "chain_sha256": {
+    "canFam3ToCanFam6.over.chain.gz": "0ca70757a47aab3256f1d9f2c0c8fc6c8da4d232159616dab198ba56d1d089a3",
+    "canFam6ToGCF_014441545.1.over.chain.gz": "3edc868e4e3f3f282e35df8e628b27b4df85240483909ef3b8e5d3c7c40077c6"
+  },
+  "state_interpretation": "States1-7 promoter/enhancer as defined in existing regulatory_recheck_v1215.py;13 quiescent",
+  "limitations": [
+    "Coordinate consistency via two additional chain files, not experimental or sequence-identity validation",
+    "Same upstream assembly alignment resources may share dependencies",
+    "Ten unresolved direct mappings remain unresolved and were not intersected"
+  ]
+}

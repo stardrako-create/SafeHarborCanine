@@ -11,6 +11,12 @@ integration sites in canine CAR-T cell engineering.
 
 Maintained by the Vasco M. Barreto lab.
 
+## Current audit snapshot — 25 September 2026
+
+**w01 is the priority locus for experimental assessment. w11 remains conditional because its structural interpretation is unresolved.** bg1k_2848 and bg1k_0442 are proposed genomic comparators. This snapshot contains computational evidence; integration, sustained expression and cellular function still require experimental evaluation.
+
+Start with [the focused laboratory proposal](08_CANDIDATE_CLOSURE_AUDIT/W01_FOCUSED_REVIEW_20260923/PROPOSTA_PARA_LAB.md), [the current decisions](08_CANDIDATE_CLOSURE_AUDIT/CURRENT_STATE_AND_DECISIONS.md), and [the snapshot guide](RELEASE_20260925.md). Older version directories preserve the development history; their candidate rankings are historical.
+
 ## Background
 
 A genomic safe harbor is a locus where a transgene can be integrated with a
@@ -34,13 +40,14 @@ reference genome ROS_Cfam_1.0 (GCF_014441545.1).
 |---|---|---|---|---|
 | Chromatin accessibility | ATAC-seq | 71 dogs, PBMC | Jin et al. 2024, *Aging Cell* — [PRJNA1048909](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1048909) | Done |
 | DNA methylation | RRBS | 71 dogs, PBMC | Jin et al. 2024, *Aging Cell* — [PRJNA1049514](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1049514) | Done |
-| 3D genome structure | Hi-C | 1 dog ("Mischka"), blood | Wang et al. 2021, *Communications Biology* — [PRJNA587469](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA587469) | Done |
+| 3D genome structure | Hi-C | 1 dog ("Mischka"), 3 assembly Hi-C libraries; cell type not reported | Wang et al. 2021, *Communications Biology* — [PRJNA587469](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA587469) | Done |
 
 The ATAC and RRBS layers are population-level: 71 individuals from the same
 PBMC cohort, each contributing a QC-weighted vote to a "Mother Track" that
 summarizes accessibility / methylation genome-wide with a confidence measure
 at every base pair. The Hi-C layer is structural context from a single dog
-of a different breed and tissue (whole blood, not isolated PBMCs) — its
+of a different breed; the paper reports blood-derived HMW DNA but does not
+explicitly report the cell/nuclear preparation used for the Hi-C libraries — its
 Dovetail Hi-C library is what originally scaffolded the **UU_Cfam_GSD_1.0**
 assembly, which ROS_Cfam_1.0 itself was chromosome-scaffolded against via
 RagTag, giving it strong chromosome-level synteny with the reference used

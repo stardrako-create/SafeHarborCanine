@@ -1,0 +1,56 @@
+{
+  "candidates": 461,
+  "legacy_status_counts": {
+    "excluded": 457,
+    "passes_recorded_checks": 3,
+    "insufficient_evidence": 1
+  },
+  "status_changes": 0,
+  "hard_veto_changes": 0,
+  "changed_fields": {
+    "atac_mean": 461,
+    "atac_mean_percentile": 458,
+    "atac_mean_narrow": 461,
+    "atac_mean_narrow_percentile": 457,
+    "atac_variability": 461,
+    "score_stability_atac": 246,
+    "final_score": 205,
+    "final_score_percentile": 90,
+    "veto_low_atac_accessibility": 13
+  },
+  "integrated_status_counts": {
+    "excluded_by_legacy_checks": 457,
+    "regulatory_conflict_requires_local_resolution": 3,
+    "insufficient_evidence": 1
+  },
+  "legacy_survivors": [
+    {
+      "left_gene": "LOC119876429",
+      "right_gene": "LOC119872513",
+      "final_score": "0.3984",
+      "atac_mean_percentile": "0.5743333333333334",
+      "atac_mean_narrow_percentile": "0.6323333333333333",
+      "epic_regional_promoter_enhancer_bp": "5349",
+      "integrated_review_status": "regulatory_conflict_requires_local_resolution"
+    },
+    {
+      "left_gene": "ANO2",
+      "right_gene": "NTF3",
+      "final_score": "0.5073",
+      "atac_mean_percentile": "0.727",
+      "atac_mean_narrow_percentile": "0.6593333333333333",
+      "epic_regional_promoter_enhancer_bp": "9616",
+      "integrated_review_status": "regulatory_conflict_requires_local_resolution"
+    },
+    {
+      "left_gene": "NPNT",
+      "right_gene": "TBCK",
+      "final_score": "0.5015",
+      "atac_mean_percentile": "0.5763333333333334",
+      "atac_mean_narrow_percentile": "0.632",
+      "epic_regional_promoter_enhancer_bp": "14800",
+      "integrated_review_status": "regulatory_conflict_requires_local_resolution"
+    }
+  ],
+  "validated_safe_harbors": 0
+}

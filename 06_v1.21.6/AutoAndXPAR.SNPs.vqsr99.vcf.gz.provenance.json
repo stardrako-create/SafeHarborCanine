@@ -1,0 +1,65 @@
+{
+  "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+  "index_sha256": "bae9083a3b92e3ccae7ace47d1dc5dd764af86e5a84ce225f0f3f636a0ca6817",
+  "requests": [
+    {
+      "chrom": "chr27",
+      "start_byte": 312456525641,
+      "end_byte": 312459925173,
+      "sha256": "7b540fc1b2992ae5ab1e4387be5e8c2f698bd34ca62d22db02ee1b1173f99d39"
+    },
+    {
+      "chrom": "chr7",
+      "start_byte": 98278622565,
+      "end_byte": 98282721826,
+      "sha256": "d74d7bf339c0c525d0d5dba0d4a1327b3cb6835d26a03bc0d36db2351128daa8"
+    },
+    {
+      "chrom": "chr32",
+      "start_byte": 353420289135,
+      "end_byte": 353422994114,
+      "sha256": "99fc3601f9aeb50a7bff2ea0a1fbdbe88bb098f23d2a216befe1c98f49521fe7"
+    }
+  ],
+  "windows": [
+    {
+      "genes": "ANO2/NTF3",
+      "uu_contig": "NC_049248.1",
+      "vcf_contig": "chr27",
+      "start": "6721625",
+      "end": "6722625",
+      "mapq": "60",
+      "NM": "6",
+      "query_aligned_bp": "1000",
+      "alternatives": "False",
+      "eligible_for_variant_lookup": "True",
+      "sv_records_overlapping": "0"
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "uu_contig": "NC_049228.1",
+      "vcf_contig": "chr7",
+      "start": "17383016",
+      "end": "17384016",
+      "mapq": "60",
+      "NM": "1",
+      "query_aligned_bp": "1000",
+      "alternatives": "False",
+      "eligible_for_variant_lookup": "True",
+      "sv_records_overlapping": "0"
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "uu_contig": "NC_049253.1",
+      "vcf_contig": "chr32",
+      "start": "13062402",
+      "end": "13063402",
+      "mapq": "60",
+      "NM": "0",
+      "query_aligned_bp": "1000",
+      "alternatives": "False",
+      "eligible_for_variant_lookup": "True",
+      "sv_records_overlapping": "1"
+    }
+  ]
+}

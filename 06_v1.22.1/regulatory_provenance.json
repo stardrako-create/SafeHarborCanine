@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "canine_all_genes_stranded.bed": "b0db7837de2e2a70b6449783de169fb3c9c58e3d18e82bc3f21362bc87b1117c",
+    "canine_lncRNA_smallRNA.bed": "c2c8ff455d936d135a0110039283661c614c39535ee316ebc332982c1f26d0b4",
+    "canine_miRNA.bed": "a719eb3cd7a1a85b081973c02aaa6f9c084abe9ccf6bfb6beaeb8b9ddced91dc",
+    "ehsan_regulatory_elements_ROS.bed": "b45c63e3c3619c47157de8a066abb3d3296d3bd00707c1bfc8372663b57baf6a"
+  },
+  "epic_blocks_sha256": "b75b2365e2e1577e6495647e6d301911c1e4d94aab84c5ccbb0427d5aed952f4",
+  "limitations": [
+    "Distances use existing gene annotation and one gene 5-prime boundary, not exhaustive alternative transcript TSS",
+    "Gap convention: touching half-open intervals have zero gap",
+    "No new threshold chosen; descriptive context only",
+    "EpiC mapped eleven tissues, no purified T; no overlap does not establish regulatory inactivity",
+    "Risk gene list is an existing project list, not an exhaustive oncogenicity assessment"
+  ]
+}

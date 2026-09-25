@@ -1,0 +1,162 @@
+{
+  "bg1k_2054": {
+    "chrom": "NC_051826.1",
+    "context_start0": 46087112,
+    "context_end0": 46108112,
+    "window_start0": 46097112,
+    "window_end0": 46098112,
+    "sha256": "1805e2103f6ebeae9d909bd84ead5f116bf152adb32f112d603964ca5f394b58"
+  },
+  "bg1k_0567": {
+    "chrom": "NC_051823.1",
+    "context_start0": 3760399,
+    "context_end0": 3781399,
+    "window_start0": 3770399,
+    "window_end0": 3771399,
+    "sha256": "9566b15eb3b359ff5b1121dd9bc0f6e0c2f97b43acfdf554a92a71ff2a259e5b"
+  },
+  "bg1k_2848": {
+    "chrom": "NC_051840.1",
+    "context_start0": 28798728,
+    "context_end0": 28819728,
+    "window_start0": 28808728,
+    "window_end0": 28809728,
+    "sha256": "fa2ea70bd0d196237045fcfed8b406a50277d694008455c1b1fa1d8b359b60b6"
+  },
+  "bg1k_0045": {
+    "chrom": "NC_051825.1",
+    "context_start0": 9600913,
+    "context_end0": 9621913,
+    "window_start0": 9610913,
+    "window_end0": 9611913,
+    "sha256": "5f9099f59393582fc40e103376d858dedb26ef79015b5ddc074b93a3128fcf2e"
+  },
+  "bg1k_2865": {
+    "chrom": "NC_051815.1",
+    "context_start0": 42896991,
+    "context_end0": 42917991,
+    "window_start0": 42906991,
+    "window_end0": 42907991,
+    "sha256": "4fde38137781b8427661b0bac8b8e4a9ed8690ce6adc6fbefee2f2e989ccbd77"
+  },
+  "bg1k_0442": {
+    "chrom": "NC_051837.1",
+    "context_start0": 10420486,
+    "context_end0": 10441486,
+    "window_start0": 10430486,
+    "window_end0": 10431486,
+    "sha256": "44e0cf2e1065f067e187cac109be4c8ce96e5861a5c0ea5c0d3637fe7f563e1a"
+  },
+  "bg1k_2901": {
+    "chrom": "NC_051831.1",
+    "context_start0": 27669801,
+    "context_end0": 27690801,
+    "window_start0": 27679801,
+    "window_end0": 27680801,
+    "sha256": "7fcf197eea65908769ef1ea8cea1f3973786bda57a5c4023900c40c341baa3c6"
+  },
+  "bg1k_0202": {
+    "chrom": "NC_051816.1",
+    "context_start0": 30217611,
+    "context_end0": 30238611,
+    "window_start0": 30227611,
+    "window_end0": 30228611,
+    "sha256": "b6eeddfab305e6f93e135d6c634f74551105c1d98590d843b280c0ada471d275"
+  },
+  "bg1k_0334": {
+    "chrom": "NC_051825.1",
+    "context_start0": 16845903,
+    "context_end0": 16866903,
+    "window_start0": 16855903,
+    "window_end0": 16856903,
+    "sha256": "c5db3ec6f488873efb5d247495fddee7b78adbaab0479b8251ef1165d7b1b3b5"
+  },
+  "bg1k_2545": {
+    "chrom": "NC_051839.1",
+    "context_start0": 1357230,
+    "context_end0": 1378230,
+    "window_start0": 1367230,
+    "window_end0": 1368230,
+    "sha256": "baa24b1100fab4eadd728bcd5620912af615a31a4a3586bb5b9a81662062cffc"
+  },
+  "bg1k_0228": {
+    "chrom": "NC_051826.1",
+    "context_start0": 56536547,
+    "context_end0": 56557547,
+    "window_start0": 56546547,
+    "window_end0": 56547547,
+    "sha256": "0d4158d188b2b39d0530d27974c2435238c132defae9ec4b53d3fa2a1aff55eb"
+  },
+  "bg1k_1958": {
+    "chrom": "NC_051809.1",
+    "context_start0": 83653220,
+    "context_end0": 83674220,
+    "window_start0": 83663220,
+    "window_end0": 83664220,
+    "sha256": "8790c1b7e0b26eecda15f1a862cba73a7c3ea62504e45e2296bf437c8e191fdf"
+  },
+  "bg1k_2686": {
+    "chrom": "NC_051837.1",
+    "context_start0": 7706819,
+    "context_end0": 7727819,
+    "window_start0": 7716819,
+    "window_end0": 7717819,
+    "sha256": "7132b2cb8becf8367e01e8d9d7cb5fa318fe4fb81b85ef019ea59f025801a2e1"
+  },
+  "bg1k_1023": {
+    "chrom": "NC_051816.1",
+    "context_start0": 46668467,
+    "context_end0": 46689467,
+    "window_start0": 46678467,
+    "window_end0": 46679467,
+    "sha256": "1e7bddf8e40a1b784141f43e2757a3b82287a949832435142598374f59017728"
+  },
+  "bg1k_0023": {
+    "chrom": "NC_051830.1",
+    "context_start0": 35032788,
+    "context_end0": 35053788,
+    "window_start0": 35042788,
+    "window_end0": 35043788,
+    "sha256": "e5a7308a5c2187e69fb72becb9f18ee0b7d008088fb5eccf58ae55a98fd8d2c1"
+  },
+  "bg1k_0878": {
+    "chrom": "NC_051811.1",
+    "context_start0": 52119900,
+    "context_end0": 52140900,
+    "window_start0": 52129900,
+    "window_end0": 52130900,
+    "sha256": "229a956e05d6a0f7e669182f1ef1b37617e8e2a3c5805d2098f823e3be1faf80"
+  },
+  "bg1k_1650": {
+    "chrom": "NC_051820.1",
+    "context_start0": 185668,
+    "context_end0": 206668,
+    "window_start0": 195668,
+    "window_end0": 196668,
+    "sha256": "d17b233867955e161b9d7c6218c7d6ef89ac1d68db0aef1e9e9a6450fad40ca7"
+  },
+  "bg1k_2228": {
+    "chrom": "NC_051806.1",
+    "context_start0": 39715551,
+    "context_end0": 39736551,
+    "window_start0": 39725551,
+    "window_end0": 39726551,
+    "sha256": "a5892e99acdfc4d406c7223a2bba2693a7bdf97024bdae017a33a6d8fd74581e"
+  },
+  "bg1k_2867": {
+    "chrom": "NC_051829.1",
+    "context_start0": 33653188,
+    "context_end0": 33674188,
+    "window_start0": 33663188,
+    "window_end0": 33664188,
+    "sha256": "1ca352d1f24da0344174b27f0c8ef4384f9f38dd26d5054d599b997264c055c1"
+  },
+  "bg1k_0117": {
+    "chrom": "NC_051819.1",
+    "context_start0": 26083664,
+    "context_end0": 26104664,
+    "window_start0": 26093664,
+    "window_end0": 26094664,
+    "sha256": "7d2240c7ec23fcf483bc2189a7680061e2087e50bf3c84983aa498b8ea2a47da"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.21.4",
+  "seed": 42,
+  "grid_step_bp": 250,
+  "widths_bp": [
+    500,
+    1000,
+    2000
+  ],
+  "background_attempts_per_width": 3000,
+  "background_scope": "NC_ reference chromosomes; length matched, not other covariates",
+  "selection": "top local windows by ATAC are exploratory, not safe insertion nominations",
+  "track_paths": {
+    "atac-mean-bw": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/mother_track_accessibility_level.bw",
+    "atac-variability-bw": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/variability.bw",
+    "atac-peak-frequency-bw": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/peak_frequency.bw",
+    "rrbs-mean-bw": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/methylation_weighted_mean.bw",
+    "rrbs-coverage-bw": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/cpg_coverage_frequency.bw"
+  },
+  "hashes": {
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.3/candidates_scored_v1213.tsv": "e81799dca79dd326b8c4789a79fe03efda9e734e401bc6aab7fe58eebe14232e",
+    "/mnt/d/Jin2024_work/zoonomia_hal/liftover/GCF_014441545.1ToCanFam3.over.chain.gz": "b40c1e4e2f65fbbabc0f01a1701818f43089827b2366b0b02787dd25f5eaa87e",
+    "/mnt/d/Jin2024_work/zoonomia_hal/neutral_model_1region.mod": "06ad3c79b8c5c03e899fa693e45b0c352cb759958d5d283b8b8d89f38a32c96d",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.1/cpg_islands_independent_calls.bed": "79c622525dd90b2d218dbe16e7a1f704086d6673a11dd753f5e3bf2e97e1a74a"
+  }
+}

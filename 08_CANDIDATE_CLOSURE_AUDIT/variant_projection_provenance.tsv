@@ -1,0 +1,47 @@
+id	window_id	UU_start0	UU_ref	UU_alt	ROS_chrom	ROS_start0	ROS_ref	ROS_alt	filter	AF	max_alt_AF	projection
+w01_0	w01	17403076	T	G	NC_051811.1	17255772	T	G	PASS	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_1	w01	17403129	C	A,T	NC_051811.1	17255825	C	A,T	PASS	[0.13500000536441803, 0.003019999945536256]	0.13500000536441803	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_2	w01	17403239	T	C	NC_051811.1	17255935	T	C	PASS	[0.001006999984383583]	0.001006999984383583	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_3	w01	17403337	T	C	NC_051811.1	17256033	T	C	PASS	[0.0007548999856226146]	0.0007548999856226146	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_4	w01	17403400	A	T	NC_051811.1	17256096	A	T	PASS	[0.0007548999856226146]	0.0007548999856226146	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_5	w01	17403495	C	A	NC_051811.1	17256191	C	A	PASS	[0.0012580000329762697]	0.0012580000329762697	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_6	w01	17403529	G	A	NC_051811.1	17256225	G	A	PASS	[0.0012580000329762697]	0.0012580000329762697	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_7	w01	17403569	T	G	NC_051811.1	17256265	T	G	PASS	[0.001509999972768128]	0.001509999972768128	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_8	w01	17403615	G	A	NC_051811.1	17256311	G	A	PASS	[0.20900000631809235]	0.20900000631809235	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_9	w01	17403663	C	T	NC_051811.1	17256359	C	T	PASS	[0.08500000089406967]	0.08500000089406967	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_10	w01	17403667	C	T	NC_051811.1	17256363	C	T	PASS	[0.12399999797344208]	0.12399999797344208	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_11	w01	17403705	C	G	NC_051811.1	17256401	C	G	PASS	[0.0005032999906688929]	0.0005032999906688929	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_12	w01	17403723	G	A	NC_051811.1	17256419	G	A	PASS	[0.12399999797344208]	0.12399999797344208	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_13	w01	17403724	G	A	NC_051811.1	17256420	G	A	PASS	[0.003019999945536256]	0.003019999945536256	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_14	w01	17403798	G	C	NC_051811.1	17256494	G	C	PASS	[0.001006999984383583]	0.001006999984383583	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_15	w01	17403802	G	T	NC_051811.1	17256498	G	T	VQSRTrancheSNP99.00to99.90	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_16	w01	17403816	C	G	NC_051811.1	17256512	C	G	PASS	[0.20900000631809235]	0.20900000631809235	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_17	w01	17403846	C	T	NC_051811.1	17256542	C	T	VQSRTrancheSNP99.00to99.90	[0.0005032999906688929]	0.0005032999906688929	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_18	w01	17403851	A	G	NC_051811.1	17256547	A	G	PASS	[0.004780999850481749]	0.004780999850481749	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_19	w01	17403862	C	T	NC_051811.1	17256558	C	T	PASS	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_20	w01	17403882	T	C	NC_051811.1	17256578	T	C	PASS	[0.0005032999906688929]	0.0005032999906688929	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_21	w01	17403884	A	G	NC_051811.1	17256580	A	G	PASS	[0.20900000631809235]	0.20900000631809235	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_22	w01	17403920	C	A	NC_051811.1	17256616	C	A	PASS	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_23	w01	17403938	A	G	NC_051811.1	17256634	A	G	PASS	[0.12399999797344208]	0.12399999797344208	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_24	w01	17403953	G	A	NC_051811.1	17256649	G	A	PASS	[0.12399999797344208]	0.12399999797344208	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w01_25	w01	17403971	A	G	NC_051811.1	17256667	A	G	PASS	[0.12399999797344208]	0.12399999797344208	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_0	w11	13078739	G	A	NC_051836.1	27042085	C	T	PASS	[0.026000000536441803]	0.026000000536441803	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_1	w11	13078742	C	T	NC_051836.1	27042082	G	A	PASS	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_2	w11	13078921	C	T	NC_051836.1	27041903	G	A	PASS	[0.17000000178813934]	0.17000000178813934	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_3	w11	13078937	C	A	NC_051836.1	27041887	G	T	PASS	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_4	w11	13078940	C	G	NC_051836.1	27041884	G	C	PASS	[0.0005032999906688929]	0.0005032999906688929	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_5	w11	13079176	A	G	NC_051836.1	27041648	T	C	PASS	[0.11400000005960464]	0.11400000005960464	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_6	w11	13079203	C	T	NC_051836.1	27041621	G	A	PASS	[0.0005032999906688929]	0.0005032999906688929	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_7	w11	13079284	G	A	NC_051836.1	27041540	C	T	PASS	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_8	w11	13079390	G	T	NC_051836.1	27041434	C	A	PASS	[0.06400000303983688]	0.06400000303983688	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_9	w11	13079409	G	A	NC_051836.1	27041415	C	T	VQSRTrancheSNP99.00to99.90	[0.00025159999495372176]	0.00025159999495372176	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_10	w11	13079430	T	G	NC_051836.1	27041394	A	C	PASS	[0.0729999989271164]	0.0729999989271164	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_11	w11	13079442	G	A	NC_051836.1	27041382	C	T	PASS	[0.002265000017359853]	0.002265000017359853	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_12	w11	13079455	C	T	NC_051836.1	27041369	G	A	PASS	[0.0017610000213608146]	0.0017610000213608146	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_13	w11	13079469	C	G	NC_051836.1	27041355	G	C	PASS	[0.14900000393390656]	0.14900000393390656	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_14	w11	13079513	A	G	NC_051836.1	27041311	T	C	PASS	[0.06499999761581421]	0.06499999761581421	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_15	w11	13079526	C	T	NC_051836.1	27041298	G	A	VQSRTrancheSNP99.00to99.90	[0.0005032999906688929]	0.0005032999906688929	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_16	w11	13079639	C	T	NC_051836.1	27041185	G	A	PASS	[0.11800000071525574]	0.11800000071525574	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_17	w11	13079648	A	T	NC_051836.1	27041176	T	A	PASS	[0.0007548999856226146]	0.0007548999856226146	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_18	w11	13078665	G	GCT	NC_051836.1	27042159	C	AGC	PASS	[0.04899999871850014]	0.04899999871850014	exact_full_window_sequence_verified; normalization_in_separate_VCF
+w11_19	w11	13079062	GAGCAGA	G,GAGCAGAAGCAGA	NC_051836.1	27041756	TCTGCTC	C,TCTGCTTCTGCTC	PASS	[0.007801000028848648, 0.0005032999906688929]	0.007801000028848648	exact_full_window_sequence_verified; normalization_in_separate_VCF

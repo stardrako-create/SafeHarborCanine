@@ -1,0 +1,1945 @@
+{
+  "utc": "2026-09-23T16:54:34.114558+00:00",
+  "summary": [
+    {
+      "id": "bg1k_2054",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": [
+        "LI",
+        "ST"
+      ]
+    },
+    {
+      "id": "bg1k_0567",
+      "reciprocal_unique_bp": 980,
+      "unresolved_bp": 20,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_2848",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0045",
+      "reciprocal_unique_bp": 879,
+      "unresolved_bp": 121,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": [
+        "LI"
+      ]
+    },
+    {
+      "id": "bg1k_2865",
+      "reciprocal_unique_bp": 946,
+      "unresolved_bp": 54,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0442",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_2901",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0202",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0334",
+      "reciprocal_unique_bp": 991,
+      "unresolved_bp": 9,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_2545",
+      "reciprocal_unique_bp": 979,
+      "unresolved_bp": 21,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": [
+        "LU"
+      ]
+    },
+    {
+      "id": "bg1k_0228",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_1958",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_2686",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_1023",
+      "reciprocal_unique_bp": 987,
+      "unresolved_bp": 13,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0023",
+      "reciprocal_unique_bp": 81,
+      "unresolved_bp": 919,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0878",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_1650",
+      "reciprocal_unique_bp": 935,
+      "unresolved_bp": 65,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": [
+        "MG"
+      ]
+    },
+    {
+      "id": "bg1k_2228",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": [
+        "PA"
+      ]
+    },
+    {
+      "id": "bg1k_2867",
+      "reciprocal_unique_bp": 590,
+      "unresolved_bp": 410,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    },
+    {
+      "id": "bg1k_0117",
+      "reciprocal_unique_bp": 1000,
+      "unresolved_bp": 0,
+      "all_tissues_cover_projectable_bases": true,
+      "promoter_enhancer_tissues_in_projectable_bases": []
+    }
+  ],
+  "annotations": [
+    {
+      "id": "bg1k_2054",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "CL",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "CL",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "CL",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "CL",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "CL",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 804,
+        "12": 196
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "CL",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "CL",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "CL",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 577,
+        "9": 423
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "CL",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "CL",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "CO",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "CO",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "CO",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "CO",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "CO",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "CO",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "CO",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "CO",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "CO",
+      "covered_bp": 590,
+      "state_bp": {
+        "12": 171,
+        "13": 419
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "CO",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "CR",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "CR",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "CR",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "CR",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "CR",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "CR",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "CR",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "CR",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "CR",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "CR",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "KI",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "KI",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "KI",
+      "covered_bp": 946,
+      "state_bp": {
+        "9": 195,
+        "13": 751
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "KI",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 591,
+        "12": 400
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "KI",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "KI",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "KI",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "KI",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "KI",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "KI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "7": 180,
+        "13": 820
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "LI",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "LI",
+      "covered_bp": 879,
+      "state_bp": {
+        "2": 126,
+        "13": 753
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "LI",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "12": 535,
+        "13": 465
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "LI",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "LI",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "LI",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "LI",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "LI",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "LI",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "LI",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "LU",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "LU",
+      "covered_bp": 879,
+      "state_bp": {
+        "12": 316,
+        "13": 563
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "LU",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "LU",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "LU",
+      "covered_bp": 979,
+      "state_bp": {
+        "6": 362,
+        "13": 617
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "LU",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "LU",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "LU",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "LU",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "LU",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "MG",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "MG",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "MG",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "MG",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "MG",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "MG",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "MG",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "MG",
+      "covered_bp": 935,
+      "state_bp": {
+        "6": 362,
+        "13": 573
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "MG",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "MG",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "OV",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "OV",
+      "covered_bp": 879,
+      "state_bp": {
+        "12": 316,
+        "13": 563
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "OV",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "OV",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "OV",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "OV",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "OV",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "OV",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "OV",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "OV",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "PA",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "PA",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "PA",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "PA",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "PA",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "PA",
+      "covered_bp": 987,
+      "state_bp": {
+        "13": 987
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "PA",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "PA",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 203,
+        "6": 797
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "PA",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "PA",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "SP",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "SP",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "SP",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "SP",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "SP",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "SP",
+      "covered_bp": 987,
+      "state_bp": {
+        "12": 389,
+        "13": 598
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "SP",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "SP",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "SP",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "SP",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2054",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "7": 380,
+        "13": 620
+      }
+    },
+    {
+      "id": "bg1k_0567",
+      "tissue": "ST",
+      "covered_bp": 980,
+      "state_bp": {
+        "13": 980
+      }
+    },
+    {
+      "id": "bg1k_2848",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 600,
+        "9": 400
+      }
+    },
+    {
+      "id": "bg1k_0045",
+      "tissue": "ST",
+      "covered_bp": 879,
+      "state_bp": {
+        "13": 879
+      }
+    },
+    {
+      "id": "bg1k_2865",
+      "tissue": "ST",
+      "covered_bp": 946,
+      "state_bp": {
+        "13": 946
+      }
+    },
+    {
+      "id": "bg1k_0442",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2901",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0202",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_0334",
+      "tissue": "ST",
+      "covered_bp": 991,
+      "state_bp": {
+        "13": 991
+      }
+    },
+    {
+      "id": "bg1k_2545",
+      "tissue": "ST",
+      "covered_bp": 979,
+      "state_bp": {
+        "13": 979
+      }
+    },
+    {
+      "id": "bg1k_0228",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1958",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2686",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1023",
+      "tissue": "ST",
+      "covered_bp": 987,
+      "state_bp": {
+        "12": 193,
+        "10": 383,
+        "13": 411
+      }
+    },
+    {
+      "id": "bg1k_0023",
+      "tissue": "ST",
+      "covered_bp": 81,
+      "state_bp": {
+        "13": 81
+      }
+    },
+    {
+      "id": "bg1k_0878",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_1650",
+      "tissue": "ST",
+      "covered_bp": 935,
+      "state_bp": {
+        "13": 935
+      }
+    },
+    {
+      "id": "bg1k_2228",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    },
+    {
+      "id": "bg1k_2867",
+      "tissue": "ST",
+      "covered_bp": 590,
+      "state_bp": {
+        "13": 590
+      }
+    },
+    {
+      "id": "bg1k_0117",
+      "tissue": "ST",
+      "covered_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      }
+    }
+  ],
+  "chain_sha256": {
+    "canFam3ToCanFam6.over.chain.gz": "0ca70757a47aab3256f1d9f2c0c8fc6c8da4d232159616dab198ba56d1d089a3",
+    "canFam6ToGCF_014441545.1.over.chain.gz": "3edc868e4e3f3f282e35df8e628b27b4df85240483909ef3b8e5d3c7c40077c6"
+  },
+  "limitations": [
+    "Split reciprocal coordinate consistency only, not sequence identity",
+    "Partial regulatory annotation cannot clear unprojectable bases or whole windows",
+    "Previously fully contiguous criteria unchanged; no unresolved base treated as quiescent"
+  ]
+}

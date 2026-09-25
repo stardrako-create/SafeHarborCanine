@@ -20,6 +20,14 @@ Two weight layers, same philosophy as the ATAC track:
     fixed coverage threshold would misread "not covered here" as "0%
     methylated here" instead of "not measured here".
 
+confidence_floor gates the weighted mean itself, not just variability: a dog
+below it at a bin is excluded from mean_num/mean_den entirely, instead of
+contributing pct_meth softly scaled by its own confidence. The earlier
+version used confidence as a continuous multiplier with no hard cutoff,
+letting low-confidence dogs (unreliable pct_meth from very low local depth)
+drag the weighted mean toward their own noise - the same damping bug found
+and fixed in build_mother_track.py's ATAC weighted mean.
+
 Produces three genome-wide BigWigs (all dense - every bin gets a value, 0
 where there is no evidence, matching build_mother_track.py's convention):
   1. methylation_weighted_mean.bw - QC-weighted, local-confidence-weighted
@@ -34,6 +42,15 @@ where there is no evidence, matching build_mother_track.py's convention):
      can be accumulated with running sums in the same single per-dog pass
      used for the mean track, instead of requiring all 71 dogs' per-bin
      values held in memory simultaneously across the whole genome.
+
+Fixed 2026-09-10: variability.bw no longer writes 0.0 for bins where fewer
+than min_variability_evidence_dogs (default 2) dogs had real local
+evidence. var_n>1 (has_var) already existed to gate the variance formula
+itself, but bins failing it kept the array's zero-initialization and were
+written anyway - silently read downstream as *maximally stable*, the
+opposite of *no/insufficient evidence*. Now those bins are a real gap in
+variability.bw, matching the sparse-means-missing convention already used
+for peak_frequency-style tracks - see bw_utils.keep_bins_with_evidence().
 """
 import argparse
 import csv
@@ -45,6 +62,8 @@ import numpy as np
 import pandas as pd
 import pyBigWig
 import yaml
+
+from bw_utils import keep_bins_with_evidence
 
 
 def load_chrom_sizes(path):
@@ -118,7 +137,8 @@ def bin_one_dog(cov_path, chrom_names, chrom_dtype, offsets, nbins_arr, bin_size
 
 
 def build_tracks(samples, weights, qc_rows, per_dog_dir, chrom_sizes, bin_size,
-                  out_mean_bw, out_freq_bw, out_var_bw, confidence_floor):
+                  out_mean_bw, out_freq_bw, out_var_bw, confidence_floor,
+                  min_variability_evidence_dogs=2):
     chrom_names = [c for c, _ in chrom_sizes]
     chrom_dtype = pd.CategoricalDtype(categories=chrom_names, ordered=True)
     nbins_per_chrom = [math.ceil(size / bin_size) for _, size in chrom_sizes]
@@ -148,11 +168,15 @@ def build_tracks(samples, weights, qc_rows, per_dog_dir, chrom_sizes, bin_size,
             out=np.zeros_like(meth_binned), where=depth_binned > 0,
         )
 
-        w_i = weights[i]
-        mean_num += w_i * confidence * pct_meth
-        mean_den += w_i * confidence
-
+        # Gate: this dog counts toward the mean at this bin only if its
+        # local confidence clears the floor - below it, excluded entirely
+        # (not soft-scaled down), so a handful of low-confidence dogs can't
+        # drag the weighted mean toward their own noisy pct_meth estimate.
         evidence = confidence >= confidence_floor
+        w_i = weights[i]
+        mean_num += np.where(evidence, w_i * pct_meth, 0.0)
+        mean_den += np.where(evidence, w_i, 0.0)
+
         freq_count += evidence
         var_sum += np.where(evidence, pct_meth, 0.0)
         var_sumsq += np.where(evidence, pct_meth * pct_meth, 0.0)
@@ -169,7 +193,7 @@ def build_tracks(samples, weights, qc_rows, per_dog_dir, chrom_sizes, bin_size,
     weighted_mean[has_evidence] = mean_num[has_evidence] / mean_den[has_evidence]
     weighted_mean *= 100.0  # fraction -> percentage, matches pct_meth_cpg convention
 
-    has_var = var_n > 1
+    has_var = keep_bins_with_evidence(var_n, min_evidence=min_variability_evidence_dogs)
     var_mean = np.zeros(total_bins, dtype=np.float64)
     var_mean[var_n > 0] = var_sum[var_n > 0] / var_n[var_n > 0]
     variance = np.zeros(total_bins, dtype=np.float64)
@@ -190,21 +214,37 @@ def build_tracks(samples, weights, qc_rows, per_dog_dir, chrom_sizes, bin_size,
         n_bins = nbins_per_chrom[ci]
         lo = offsets[ci]
         hi = lo + n_bins
-        starts = list(range(0, n_bins * bin_size, bin_size))[:n_bins]
-        ends = [min(st + bin_size, size) for st in starts]
+        starts = np.arange(0, n_bins * bin_size, bin_size, dtype=np.int64)[:n_bins]
+        ends = np.minimum(starts + bin_size, size)
         chroms_col = [chrom] * n_bins
 
-        mean_bw.addEntries(chroms_col, starts, ends=ends,
-                            values=[float(v) for v in weighted_mean[lo:hi]])
-        freq_bw.addEntries(chroms_col, starts, ends=ends,
+        mean_mask = has_evidence[lo:hi]
+        if mean_mask.any():
+            mean_bw.addEntries([chrom] * int(mean_mask.sum()), starts[mean_mask].tolist(),
+                                ends=ends[mean_mask].tolist(),
+                                values=weighted_mean[lo:hi][mean_mask].tolist())
+        freq_bw.addEntries(chroms_col, starts.tolist(), ends=ends.tolist(),
                             values=[float(v) for v in freq_count[lo:hi]])
-        var_bw.addEntries(chroms_col, starts, ends=ends,
-                           values=[float(v) for v in variability[lo:hi]])
+        var_mask = has_var[lo:hi]
+        n_var_entries = int(var_mask.sum())
+        if n_var_entries > 0:
+            # pyBigWig's addEntries rejects a genuinely empty call outright
+            # (found 2026-09-10 in build_mother_track_v2.py's identical
+            # pattern) - small/low-coverage bins can legitimately have zero
+            # positions clearing the evidence threshold for a whole contig.
+            var_bw.addEntries(
+                [chrom] * n_var_entries,
+                starts[var_mask].tolist(),
+                ends=ends[var_mask].tolist(),
+                values=[float(v) for v in variability[lo:hi][var_mask]],
+            )
 
     mean_bw.close()
     freq_bw.close()
     var_bw.close()
-    print(f"  evidence in {int(has_evidence.sum()):,}/{total_bins:,} bins genome-wide")
+    print(f"  evidence in {int(has_evidence.sum()):,}/{total_bins:,} bins genome-wide; "
+          f"variability written for {int(has_var.sum()):,}/{total_bins:,} bins "
+          f"({int((~has_var).sum()):,} skipped for <{min_variability_evidence_dogs} dogs)")
 
 
 def main():
@@ -215,6 +255,9 @@ def main():
     ap.add_argument("--bin-size", type=int, default=50)
     ap.add_argument("--min-weight-floor", type=float, default=0.2)
     ap.add_argument("--confidence-floor", type=float, default=0.2)
+    ap.add_argument("--min-variability-evidence-dogs", type=int, default=2,
+                     help="bins where fewer dogs had real local evidence are left as "
+                          "a gap in variability.bw instead of a false 0.0 'stable'")
     args = ap.parse_args()
 
     with open(args.config, encoding="utf-8") as f:
@@ -251,7 +294,8 @@ def main():
           f"{len(samples)} dogs, bin={args.bin_size}bp")
     build_tracks(samples, weights, qc_rows, per_dog_dir, chrom_sizes, args.bin_size,
                  mean_bw_path, freq_bw_path, var_bw_path,
-                 confidence_floor=args.confidence_floor)
+                 confidence_floor=args.confidence_floor,
+                 min_variability_evidence_dogs=args.min_variability_evidence_dogs)
 
     print("Done:")
     print(f"  {mean_bw_path}")

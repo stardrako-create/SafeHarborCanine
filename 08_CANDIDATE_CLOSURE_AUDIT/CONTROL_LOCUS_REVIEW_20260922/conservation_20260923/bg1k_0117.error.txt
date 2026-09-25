@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/review_control_conservation_20260923.py", line 32, in <module>
+    assert set(vals)==positions,('WIG coordinates',len(vals),min(vals),w['start0'])
+                                                             ^^^^^^^^^
+ValueError: min() arg is an empty sequence

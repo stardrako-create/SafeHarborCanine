@@ -1,0 +1,23 @@
+chrom	first_start0	last_start0_inclusive	number_of_20bp_segments	union_span_start0	union_span_end0	scope
+NC_051811.1	17255706	17255752	47	17255706	17255772	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255773	17255795	23	17255773	17255815	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255797	17255799	3	17255797	17255819	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255801	17255805	5	17255801	17255825	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255826	17255832	7	17255826	17255852	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255835	17255915	81	17255835	17255935	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255936	17255968	33	17255936	17255988	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17255970	17256013	44	17255970	17256033	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256034	17256074	41	17256034	17256094	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256076	17256076	1	17256076	17256096	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256097	17256171	75	17256097	17256191	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256192	17256205	14	17256192	17256225	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256226	17256245	20	17256226	17256265	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256266	17256291	26	17256266	17256311	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256312	17256339	28	17256312	17256359	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256364	17256381	18	17256364	17256401	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256422	17256423	2	17256422	17256443	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256425	17256474	50	17256425	17256494	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256513	17256527	15	17256513	17256547	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256581	17256589	9	17256581	17256609	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256591	17256596	6	17256591	17256616	Consecutive starts only; not guides, not invariant regions
+NC_051811.1	17256668	17256686	19	17256668	17256706	Consecutive starts only; not guides, not invariant regions

@@ -1,0 +1,25 @@
+[
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+    "index",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/junction_competition_20260922/targets.fa"
+  ],
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+    "mem",
+    "-a",
+    "-t",
+    "4",
+    "/mnt/d/Jin2024_work/uu_gsd/genome_uu_gsd.fa",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/junction_competition_20260922/reads.fa"
+  ],
+  [
+    "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+    "mem",
+    "-a",
+    "-t",
+    "4",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/junction_competition_20260922/targets.fa",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/junction_competition_20260922/reads.fa"
+  ]
+]

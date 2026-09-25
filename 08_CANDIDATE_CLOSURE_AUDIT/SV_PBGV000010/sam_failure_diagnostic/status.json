@@ -1,0 +1,7 @@
+{
+  "stage": "replay_complete_pending_review",
+  "pid": 281,
+  "updated_utc": "2026-09-20T18:33:19Z",
+  "sam_parse_exit_code": 0,
+  "scope": "Bounded diagnostic; original failed full alignment remains invalid; successful replay does not establish original failure cause"
+}

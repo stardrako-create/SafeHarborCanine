@@ -1,0 +1,16 @@
+{
+  "id": "chr32:4707939:DG",
+  "start": 4707938,
+  "end": 33613308,
+  "span_bp": 28905370,
+  "AC": [
+    4
+  ],
+  "AN": 3758,
+  "AF": [
+    0.0010639999527484179
+  ],
+  "carrier_genotypes": 4,
+  "PASS_carriers": 3,
+  "interpretation": "Rare catalogued large deletion overlaps NPNT local window; not verified in project animals, no automatic veto. SNPs/indels not assessed."
+}

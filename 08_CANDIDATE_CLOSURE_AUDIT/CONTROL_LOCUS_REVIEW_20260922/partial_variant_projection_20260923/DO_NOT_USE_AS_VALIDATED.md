@@ -1,0 +1,2 @@
+# Outputs não validados
+Esta tentativa parou na comparação de haplótipos: bcftools emitiu ALT em minúsculas ao normalizar em referência soft-masked. A comparação corrigida usa maiúsculas em ambas as sequências, sem alterar as bases ou critérios. Não usar estes outputs como resultados concluídos. Resultado validado: ../partial_variant_projection_20260923_v3/review.json. Todos os inputs e outputs desta tentativa foram preservados.

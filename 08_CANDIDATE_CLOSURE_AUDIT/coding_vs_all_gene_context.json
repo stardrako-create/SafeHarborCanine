@@ -1,0 +1,42 @@
+[
+  {
+    "window_id": "w01",
+    "nearest_all_gene": {
+      "chrom": "NC_051811.1",
+      "start": 17274511,
+      "end": 17289492,
+      "strand": "-",
+      "symbol": "LOC119872513",
+      "biotype": "lncRNA"
+    },
+    "all_gene_body_gap_bp": 17805,
+    "nearest_coding_transcript_5prime": {
+      "gene": "C7H1orf21",
+      "transcript": "rna-XM_038671115.1",
+      "pos0": 17367215,
+      "gap_bp": 110509
+    },
+    "coding_5prime_ge50kb": true,
+    "all_gene_overlap": false
+  },
+  {
+    "window_id": "w11",
+    "nearest_all_gene": {
+      "chrom": "NC_051836.1",
+      "start": 26938243,
+      "end": 27013911,
+      "strand": "+",
+      "symbol": "NPNT",
+      "biotype": "protein_coding"
+    },
+    "all_gene_body_gap_bp": 27250,
+    "nearest_coding_transcript_5prime": {
+      "gene": "NPNT",
+      "transcript": "rna-XM_038444295.1",
+      "pos0": 26938243,
+      "gap_bp": 102917
+    },
+    "coding_5prime_ge50kb": true,
+    "all_gene_overlap": false
+  }
+]

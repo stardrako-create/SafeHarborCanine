@@ -1,0 +1,47 @@
+{
+  "junction_L4707937_R33613307": {
+    "left_end0": 4707937,
+    "right_start0": 33613307,
+    "junction_offset": 1000
+  },
+  "junction_L4707937_R33613308": {
+    "left_end0": 4707937,
+    "right_start0": 33613308,
+    "junction_offset": 1000
+  },
+  "junction_L4707937_R33613309": {
+    "left_end0": 4707937,
+    "right_start0": 33613309,
+    "junction_offset": 1000
+  },
+  "junction_L4707938_R33613307": {
+    "left_end0": 4707938,
+    "right_start0": 33613307,
+    "junction_offset": 1000
+  },
+  "junction_L4707938_R33613308": {
+    "left_end0": 4707938,
+    "right_start0": 33613308,
+    "junction_offset": 1000
+  },
+  "junction_L4707938_R33613309": {
+    "left_end0": 4707938,
+    "right_start0": 33613309,
+    "junction_offset": 1000
+  },
+  "junction_L4707939_R33613307": {
+    "left_end0": 4707939,
+    "right_start0": 33613307,
+    "junction_offset": 1000
+  },
+  "junction_L4707939_R33613308": {
+    "left_end0": 4707939,
+    "right_start0": 33613308,
+    "junction_offset": 1000
+  },
+  "junction_L4707939_R33613309": {
+    "left_end0": 4707939,
+    "right_start0": 33613309,
+    "junction_offset": 1000
+  }
+}

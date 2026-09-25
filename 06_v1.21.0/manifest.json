@@ -1,0 +1,176 @@
+{
+  "version": "1.21.0",
+  "scope": "scoring replay of existing tracks plus explicit evidence states; not a raw-data rebuild",
+  "utc": "2026-09-12T10:00:18.239164+00:00",
+  "inputs": {
+    "candidates": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/ship_raw_candidates.tsv",
+      "size": 33526,
+      "mtime_ns": 1787093930127814800,
+      "sha256": "38dee84abcc9f8c39fe3b9d0713360a4da195f06b1dcfc0192f422b235e90cd0"
+    },
+    "atac-mean-bw": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/mother_track_accessibility_level.bw",
+      "size": 745060229,
+      "mtime_ns": 1789119452017972900,
+      "sha256": "8e3d8cc25c8c80dba1de0f0328d0cc23361289127bd9bf7fadd2b0c2bc6615bc"
+    },
+    "atac-variability-bw": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/variability.bw",
+      "size": 741389304,
+      "mtime_ns": 1789119328541449200,
+      "sha256": "845eeae7b23cf6e24e0271f35f24541454cf8e41b4a5a7d9b794a873753863bf"
+    },
+    "atac-peaks-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/ATAC/mother_track/consensus_peaks_ATAC.bed",
+      "size": 729675,
+      "mtime_ns": 1786303037702979100,
+      "sha256": "cec689459a5073f9a23a268fb0ce2e664d4b6b5a93ee798a7a1288396d2531ff"
+    },
+    "atac-peak-frequency-bw": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/peak_frequency.bw",
+      "size": 16284109,
+      "mtime_ns": 1789119473380447800,
+      "sha256": "19337b64813a2cbf36a1a764027268a08fe962e31edd815b58484b17dbb7f9e9"
+    },
+    "rrbs-mean-bw": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/methylation_weighted_mean.bw",
+      "size": 193581356,
+      "mtime_ns": 1789120167198041100,
+      "sha256": "ea6fbd976a1e75612c5c99aca1597adc1d77ebe74a4a2cc59fbef556abb257e1"
+    },
+    "rrbs-variability-bw": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/variability.bw",
+      "size": 56988473,
+      "mtime_ns": 1789120185013092600,
+      "sha256": "288ffa422a359f13f7e7a1a67a76c59b27801a70ced0073c3741212d84574f59"
+    },
+    "rrbs-coverage-bw": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/cpg_coverage_frequency.bw",
+      "size": 174146764,
+      "mtime_ns": 1789120181867043100,
+      "sha256": "0ed397c91a12e82980f1218580368af3b0e2e130afe50cb90c683927f5b3bfff"
+    },
+    "tad-boundaries-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/HiC/tad_boundaries.bed",
+      "size": 248379,
+      "mtime_ns": 1787085166812679400,
+      "sha256": "e8c9835c71fd43b904a7aadc2d0369073c7e0856b22b33154e01093f84d93de6"
+    },
+    "risk-genes": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_risk_genes.tsv",
+      "size": 52112,
+      "mtime_ns": 1787099205222056300,
+      "sha256": "3b59768c866e3bc04c9cffc38ac4a59007bc896a45917563771f954e54c76e2a"
+    },
+    "mappability-tsv": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/mappability_check.tsv",
+      "size": 27130,
+      "mtime_ns": 1787099271478575400,
+      "sha256": "b9f8c3dc3982370935583a30b0e1276952ee479ddde504f14a7786311c70b427"
+    },
+    "mirna-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_miRNA.bed",
+      "size": 18589,
+      "mtime_ns": 1787148391159203500,
+      "sha256": "a719eb3cd7a1a85b081973c02aaa6f9c084abe9ccf6bfb6beaeb8b9ddced91dc"
+    },
+    "all-genes-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_all_genes.bed",
+      "size": 1653096,
+      "mtime_ns": 1787148523621036300,
+      "sha256": "47616006c685ae37b68c7c19fdbfd647cd3a949cd89b40949416c705c30c59e6"
+    },
+    "all-genes-stranded-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_all_genes_stranded.bed",
+      "size": 860531,
+      "mtime_ns": 1789144390034237300,
+      "sha256": "b0db7837de2e2a70b6449783de169fb3c9c58e3d18e82bc3f21362bc87b1117c"
+    },
+    "lncrna-smallrna-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_lncRNA_smallRNA.bed",
+      "size": 1145725,
+      "mtime_ns": 1787148951165437200,
+      "sha256": "c2c8ff455d936d135a0110039283661c614c39535ee316ebc332982c1f26d0b4"
+    },
+    "tad-intervals-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_tad_intervals.bed",
+      "size": 203459,
+      "mtime_ns": 1787149082620381500,
+      "sha256": "3c2f95dbc9bc9140035f173e2b7e2412632bded8a818836b76406e9aeec35f52"
+    },
+    "repeat-content-tsv": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/repeat_content_v5candidates.tsv",
+      "size": 2089,
+      "mtime_ns": 1787239106243872500,
+      "sha256": "e449bd636b8436693cdf5fe3d660f7bcbfce9399284df26323a8cfa417e9df46"
+    },
+    "ultraconserved-tsv": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/phylop_ultraconserved_v3_pilot_forscoring.tsv",
+      "size": 1817,
+      "mtime_ns": 1788891578367100400,
+      "sha256": "6269d8113ca7bb8f277b4cf0f890f4893eea6526bab6df09e17e0309b85b5c24"
+    },
+    "external-regulatory-bed": {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/ehsan_regulatory_elements_ROS.bed",
+      "size": 2239217,
+      "mtime_ns": 1787346459007658400,
+      "sha256": "b45c63e3c3619c47157de8a066abb3d3296d3bd00707c1bfc8372663b57baf6a"
+    }
+  },
+  "source_snapshot": {
+    "build_cpg_islands.py": "536ff10bde712c2d555f7b63f59abb69e04ffb65b693ee1b90aa476a9aa072bc",
+    "bw_utils.py": "005671465e487a1e1f6bf8eebdec31cada3244cdef49969a563beb33253bc04f",
+    "extract_genes_stranded.py": "6d799ce41424deab471fbb28d18fc9b73cba2344497f6a5fe1599e808abc5804",
+    "score_ship_candidates_v2.py": "103ad2c61f9f6f51c53e5902916b787565f2e016de44a1e872dba4cc2f58610c",
+    "sensitivity_analysis.py": "e2cf04a3ed77799714ec8b242bba397ef20366ff8874a83d5d10f8e10bb8f5a0"
+  },
+  "command": [
+    "/home/stardrako/miniforge3/envs/atac/bin/python",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.0/snapshot/score_ship_candidates_v2.py",
+    "--candidates",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/ship_raw_candidates.tsv",
+    "--atac-mean-bw",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/mother_track_accessibility_level.bw",
+    "--atac-variability-bw",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/variability.bw",
+    "--atac-peaks-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/ATAC/mother_track/consensus_peaks_ATAC.bed",
+    "--atac-peak-frequency-bw",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/ATAC/full76/peak_frequency.bw",
+    "--rrbs-mean-bw",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/methylation_weighted_mean.bw",
+    "--rrbs-variability-bw",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/variability.bw",
+    "--rrbs-coverage-bw",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.20.0/RRBS/cpg_coverage_frequency.bw",
+    "--tad-boundaries-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/04_tracks_processadas/ROS_Cfam_1.0/HiC/tad_boundaries.bed",
+    "--risk-genes",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_risk_genes.tsv",
+    "--mappability-tsv",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/mappability_check.tsv",
+    "--mirna-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_miRNA.bed",
+    "--all-genes-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_all_genes.bed",
+    "--all-genes-stranded-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_all_genes_stranded.bed",
+    "--lncrna-smallrna-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_lncRNA_smallRNA.bed",
+    "--tad-intervals-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_tad_intervals.bed",
+    "--repeat-content-tsv",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/repeat_content_v5candidates.tsv",
+    "--ultraconserved-tsv",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/phylop_ultraconserved_v3_pilot_forscoring.tsv",
+    "--external-regulatory-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/ehsan_regulatory_elements_ROS.bed",
+    "--min-atac-accessibility-percentile",
+    "0.55",
+    "--out-scored",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.0/raw_scoring.tsv",
+    "--out-passing-bed",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.0/provisional_passing.bed"
+  ]
+}

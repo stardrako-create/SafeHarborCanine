@@ -1,0 +1,25 @@
+{
+  "status": "reference_intervals_prepared_not_sample_analysis",
+  "assembly": "UU_Cfam_GSD_1.0",
+  "chrom": "NC_049253.1",
+  "vcf_chrom_alias": "chr32",
+  "chrom_length": 40225481,
+  "catalogue_span_0based": [
+    4707938,
+    33613308
+  ],
+  "windows": 403,
+  "window_counts_by_relation": {
+    "inside": 288,
+    "outside": 113,
+    "crosses_catalogue_boundary": 2
+  },
+  "all_bases_covered_exactly_once": true,
+  "limitations": [
+    "GC and N are reference descriptors, not sample coverage",
+    "No mappability correction yet; repeat-rich windows need separate assessment",
+    "Outside windows are candidate comparators, not validated diploid controls",
+    "Catalogue boundary coordinates retained exactly; breakpoint sequence itself has not been confirmed",
+    "No sample copy number or SV decision made"
+  ]
+}

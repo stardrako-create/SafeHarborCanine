@@ -1,0 +1,51 @@
+{
+  "utc": "2026-09-23T16:52:10.339144+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "bg1k_2686",
+  "mapping": {
+    "chrom": "NC_049254.1",
+    "start0": 7982812,
+    "end0": 7983812,
+    "strand": "+",
+    "partial_only": true
+  },
+  "vcf_contig": "chr33",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 2,
+  "allele_count": 2,
+  "alleles": [
+    {
+      "chrom": "chr33",
+      "uu_chrom": "NC_049254.1",
+      "pos1": 7982849,
+      "id": null,
+      "ref": "CCAAA",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.00025179999647662044,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr33",
+      "uu_chrom": "NC_049254.1",
+      "pos1": 7983190,
+      "id": null,
+      "ref": "GA",
+      "alt": "G",
+      "alt_index1": 1,
+      "AF": 0.002266000024974346,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_queried_span_not_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "a4e1fc73f42ce0ab58f7902e4b81ac74a1be1cf5acdeedc4e78e57be67c34d88"
+}

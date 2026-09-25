@@ -1,0 +1,7 @@
+{
+  "completed_read_batches_reads": 5866674,
+  "equivalent_pairs": 2933337,
+  "total_input_pairs": 185353881,
+  "percent_input_reads": 1.58,
+  "meaning": "BWA batch progress, not retained BAM or SV result"
+}

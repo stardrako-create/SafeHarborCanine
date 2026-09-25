@@ -1,0 +1,21 @@
+[
+  "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+  "--runMode",
+  "genomeGenerate",
+  "--runThreadN",
+  "6",
+  "--genomeDir",
+  "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/STAR_index",
+  "--genomeFastaFiles",
+  "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+  "--sjdbGTFfile",
+  "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/ROS_release106.gtf",
+  "--sjdbOverhang",
+  "149",
+  "--genomeSAsparseD",
+  "2",
+  "--limitGenomeGenerateRAM",
+  "28000000000",
+  "--outFileNamePrefix",
+  "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/index_"
+]

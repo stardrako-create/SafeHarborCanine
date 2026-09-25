@@ -1,0 +1,132 @@
+{
+  "original": {
+    "window_id": "w00",
+    "genes": "LOC119876429/LOC119872513",
+    "ros_chrom": "NC_051811.1",
+    "ros_start": "17234956",
+    "ros_end": "17235956",
+    "uu_contig": "NC_049228.1",
+    "vcf_contig": "chr7",
+    "start": "17382280",
+    "end": "17383266",
+    "strand": "+",
+    "mapq": "60",
+    "NM": "23",
+    "cigar": "452M16I183M2D349M",
+    "query_aligned_bp": "1000",
+    "alternatives": "False",
+    "eligible_for_variant_lookup": "False",
+    "sv_records": ""
+  },
+  "forward_matched_or_mismatched_pair_bp": 984,
+  "ROS_unpaired_bp": 16,
+  "UU_unpaired_bp": 2,
+  "base_substitutions": [
+    {
+      "ros_pos0": 17235240,
+      "uu_pos0": 17382564,
+      "ros_base": "G",
+      "uu_base": "T"
+    },
+    {
+      "ros_pos0": 17235360,
+      "uu_pos0": 17382684,
+      "ros_base": "C",
+      "uu_base": "T"
+    },
+    {
+      "ros_pos0": 17235361,
+      "uu_pos0": 17382685,
+      "ros_base": "T",
+      "uu_base": "A"
+    },
+    {
+      "ros_pos0": 17235607,
+      "uu_pos0": 17382917,
+      "ros_base": "G",
+      "uu_base": "a"
+    },
+    {
+      "ros_pos0": 17235778,
+      "uu_pos0": 17383088,
+      "ros_base": "A",
+      "uu_base": "T"
+    }
+  ],
+  "reciprocal_alignments": [
+    {
+      "query": "w00_reciprocal",
+      "reference": "NC_051811.1",
+      "start": 17234956,
+      "end": 17235956,
+      "mapq": 60,
+      "NM": 23,
+      "cigar": "452M16D183M2I349M",
+      "query_aligned_bp": 986,
+      "query_length": 986,
+      "reverse": false,
+      "other_alignment_reported": false
+    },
+    {
+      "query": "w00_reciprocal_flanks",
+      "reference": "NC_051811.1",
+      "start": 17234673,
+      "end": 17236956,
+      "mapq": 60,
+      "NM": 24,
+      "cigar": "717S735M16D183M2I1349M",
+      "query_aligned_bp": 2269,
+      "query_length": 2986,
+      "reverse": false,
+      "other_alignment_reported": true
+    },
+    {
+      "query": "w00_forward_flanks",
+      "reference": "NC_049228.1",
+      "start": 17381997,
+      "end": 17384266,
+      "mapq": 60,
+      "NM": 24,
+      "cigar": "717S735M16I183M2D1349M",
+      "query_aligned_bp": 2283,
+      "query_length": 3000,
+      "reverse": false,
+      "other_alignment_reported": true
+    }
+  ],
+  "reciprocal_pair_intersection": 984,
+  "forward_only_pair_count": 0,
+  "reciprocal_only_pair_count": 0,
+  "commands": [
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+        "mem",
+        "-a",
+        "-t",
+        "4",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fa",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.2/UU_reciprocal_queries.fa"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/home/stardrako/miniforge3/envs/atac/bin/bwa",
+        "mem",
+        "-a",
+        "-t",
+        "4",
+        "/mnt/d/Jin2024_work/uu_gsd/genome_uu_gsd.fa",
+        "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.2/ROS_flank_query.fa"
+      ],
+      "returncode": 0
+    }
+  ],
+  "limitations": [
+    "Reciprocal alignments support reference correspondence, not individual donor genotype",
+    "BWA alignment uniqueness is heuristic; sequence within indels is not one-to-one",
+    "Supplementary regional variant lookup can use verified UU span while distinguishing unprojectable alleles from exact ROS coordinates",
+    "Original NM<=10 automated gate remains recorded; no biological veto inferred"
+  ]
+}

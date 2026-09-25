@@ -1,0 +1,8 @@
+{
+  "status": "gene_table_verified_index_build_still_in_progress",
+  "genes": 42309,
+  "previously_missing_genes_restored": 60,
+  "all_expected_ids_match": true,
+  "checked_at": 1789751626.8846598,
+  "free_D_bytes": 148557025280
+}

@@ -1,0 +1,15 @@
+{
+  "samples": 9,
+  "genes": 42309,
+  "completed": 1789776433.9559357,
+  "matrix_sha256": {
+    "gene_counts_forward.tsv": "ad641bb6f1378baa03ce2968c1786b67c44a6749de8a758049e7be74fc271659",
+    "gene_counts_reverse.tsv": "782c87747496d8362dd83c539901f59e615ec39c7319d16afd049aa69ba69349",
+    "gene_counts_unstranded.tsv": "2928bd51d66f171abfa116d5daf7bd5569c4bafce1856ee5883008357af58331"
+  },
+  "limitations": [
+    "Sample identity conflicts remain",
+    "Strandedness and inference require review",
+    "RNA expression does not validate safe harbor accessibility or safety"
+  ]
+}

@@ -1,0 +1,1286 @@
+[
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17222706,
+    "end": 17223706,
+    "shared_unique_destination_bp": 995,
+    "source_bp_with_two_route_agreement": 995,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17075183,
+        17076178
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17222956,
+    "end": 17223956,
+    "shared_unique_destination_bp": 995,
+    "source_bp_with_two_route_agreement": 995,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17075433,
+        17076428
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17230206,
+    "end": 17231206,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17082676,
+        17082829
+      ],
+      [
+        "chr7",
+        17082831,
+        17083678
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17234956,
+    "end": 17235956,
+    "shared_unique_destination_bp": 923,
+    "source_bp_with_two_route_agreement": 923,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17087409,
+        17087422
+      ],
+      [
+        "chr7",
+        17087439,
+        17087453
+      ],
+      [
+        "chr7",
+        17087460,
+        17087470
+      ],
+      [
+        "chr7",
+        17087473,
+        17087486
+      ],
+      [
+        "chr7",
+        17087511,
+        17087521
+      ],
+      [
+        "chr7",
+        17087523,
+        17087528
+      ],
+      [
+        "chr7",
+        17087531,
+        17087536
+      ],
+      [
+        "chr7",
+        17087537,
+        17087547
+      ],
+      [
+        "chr7",
+        17087548,
+        17087553
+      ],
+      [
+        "chr7",
+        17087565,
+        17087577
+      ],
+      [
+        "chr7",
+        17087579,
+        17087605
+      ],
+      [
+        "chr7",
+        17087634,
+        17088087
+      ],
+      [
+        "chr7",
+        17088089,
+        17088436
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17235206,
+    "end": 17236206,
+    "shared_unique_destination_bp": 991,
+    "source_bp_with_two_route_agreement": 991,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17087693,
+        17088087
+      ],
+      [
+        "chr7",
+        17088089,
+        17088686
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17235706,
+    "end": 17236706,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17088186,
+        17089186
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17240706,
+    "end": 17241706,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17093186,
+        17094186
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17242956,
+    "end": 17243956,
+    "shared_unique_destination_bp": 999,
+    "source_bp_with_two_route_agreement": 999,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17095419,
+        17095751
+      ],
+      [
+        "chr7",
+        17095752,
+        17096419
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17245456,
+    "end": 17246456,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17097918,
+        17098918
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17252456,
+    "end": 17253456,
+    "shared_unique_destination_bp": 989,
+    "source_bp_with_two_route_agreement": 989,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17104887,
+        17104925
+      ],
+      [
+        "chr7",
+        17104938,
+        17105889
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17255706,
+    "end": 17256706,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17108139,
+        17109139
+      ]
+    ]
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "chrom": "NC_051811.1",
+    "start": 17256206,
+    "end": 17257206,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr7",
+        17108639,
+        17109639
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39682574,
+    "end": 39683574,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7289501,
+        7290501
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39685324,
+    "end": 39686324,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7286751,
+        7287751
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39685574,
+    "end": 39686574,
+    "shared_unique_destination_bp": 999,
+    "source_bp_with_two_route_agreement": 999,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7286502,
+        7287501
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39686074,
+    "end": 39687074,
+    "shared_unique_destination_bp": 999,
+    "source_bp_with_two_route_agreement": 999,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7286002,
+        7287001
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39686324,
+    "end": 39687324,
+    "shared_unique_destination_bp": 999,
+    "source_bp_with_two_route_agreement": 999,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7285752,
+        7286751
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39686574,
+    "end": 39687574,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7285502,
+        7286502
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39707824,
+    "end": 39708824,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7264294,
+        7265294
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39708074,
+    "end": 39709074,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7264044,
+        7265044
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39708324,
+    "end": 39709324,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7263794,
+        7264794
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39709574,
+    "end": 39710574,
+    "shared_unique_destination_bp": 999,
+    "source_bp_with_two_route_agreement": 999,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7262544,
+        7263049
+      ],
+      [
+        "chr27",
+        7263050,
+        7263544
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39709824,
+    "end": 39710824,
+    "shared_unique_destination_bp": 997,
+    "source_bp_with_two_route_agreement": 997,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7262294,
+        7262358
+      ],
+      [
+        "chr27",
+        7262359,
+        7262391
+      ],
+      [
+        "chr27",
+        7262392,
+        7263049
+      ],
+      [
+        "chr27",
+        7263050,
+        7263294
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39710074,
+    "end": 39711074,
+    "shared_unique_destination_bp": 998,
+    "source_bp_with_two_route_agreement": 998,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7262044,
+        7262358
+      ],
+      [
+        "chr27",
+        7262359,
+        7262391
+      ],
+      [
+        "chr27",
+        7262392,
+        7263044
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39710324,
+    "end": 39711324,
+    "shared_unique_destination_bp": 998,
+    "source_bp_with_two_route_agreement": 998,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7261794,
+        7262358
+      ],
+      [
+        "chr27",
+        7262359,
+        7262391
+      ],
+      [
+        "chr27",
+        7262392,
+        7262794
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39710574,
+    "end": 39711574,
+    "shared_unique_destination_bp": 998,
+    "source_bp_with_two_route_agreement": 998,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7261544,
+        7262358
+      ],
+      [
+        "chr27",
+        7262359,
+        7262391
+      ],
+      [
+        "chr27",
+        7262392,
+        7262544
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39713074,
+    "end": 39714074,
+    "shared_unique_destination_bp": 998,
+    "source_bp_with_two_route_agreement": 998,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7259044,
+        7259509
+      ],
+      [
+        "chr27",
+        7259511,
+        7260044
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39714074,
+    "end": 39715074,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7258044,
+        7259044
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39714824,
+    "end": 39715824,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7257294,
+        7258294
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39715074,
+    "end": 39716074,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7257044,
+        7258044
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39729824,
+    "end": 39730824,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7242278,
+        7243278
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39730074,
+    "end": 39731074,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7242028,
+        7243028
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39730324,
+    "end": 39731324,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7241778,
+        7242778
+      ]
+    ]
+  },
+  {
+    "genes": "ANO2/NTF3",
+    "chrom": "NC_051831.1",
+    "start": 39735074,
+    "end": 39736074,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr27",
+        7237047,
+        7238047
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27016161,
+    "end": 27017161,
+    "shared_unique_destination_bp": 971,
+    "source_bp_with_two_route_agreement": 971,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15241381,
+        15241425
+      ],
+      [
+        "chr32",
+        15241432,
+        15241616
+      ],
+      [
+        "chr32",
+        15241624,
+        15241627
+      ],
+      [
+        "chr32",
+        15241642,
+        15242382
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27016411,
+    "end": 27017411,
+    "shared_unique_destination_bp": 971,
+    "source_bp_with_two_route_agreement": 971,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15241131,
+        15241425
+      ],
+      [
+        "chr32",
+        15241432,
+        15241616
+      ],
+      [
+        "chr32",
+        15241624,
+        15241627
+      ],
+      [
+        "chr32",
+        15241642,
+        15242132
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27016661,
+    "end": 27017661,
+    "shared_unique_destination_bp": 939,
+    "source_bp_with_two_route_agreement": 939,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15240823,
+        15240834
+      ],
+      [
+        "chr32",
+        15240924,
+        15241425
+      ],
+      [
+        "chr32",
+        15241432,
+        15241616
+      ],
+      [
+        "chr32",
+        15241624,
+        15241627
+      ],
+      [
+        "chr32",
+        15241642,
+        15241882
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27016911,
+    "end": 27017911,
+    "shared_unique_destination_bp": 949,
+    "source_bp_with_two_route_agreement": 949,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15240573,
+        15240834
+      ],
+      [
+        "chr32",
+        15240924,
+        15241425
+      ],
+      [
+        "chr32",
+        15241432,
+        15241616
+      ],
+      [
+        "chr32",
+        15241624,
+        15241627
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27017411,
+    "end": 27018411,
+    "shared_unique_destination_bp": 936,
+    "source_bp_with_two_route_agreement": 936,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15240075,
+        15240145
+      ],
+      [
+        "chr32",
+        15240175,
+        15240834
+      ],
+      [
+        "chr32",
+        15240924,
+        15241131
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27017911,
+    "end": 27018911,
+    "shared_unique_destination_bp": 957,
+    "source_bp_with_two_route_agreement": 957,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15239560,
+        15239585
+      ],
+      [
+        "chr32",
+        15239611,
+        15240145
+      ],
+      [
+        "chr32",
+        15240175,
+        15240573
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27018911,
+    "end": 27019911,
+    "shared_unique_destination_bp": 941,
+    "source_bp_with_two_route_agreement": 941,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15238581,
+        15238905
+      ],
+      [
+        "chr32",
+        15238907,
+        15239135
+      ],
+      [
+        "chr32",
+        15239142,
+        15239186
+      ],
+      [
+        "chr32",
+        15239211,
+        15239219
+      ],
+      [
+        "chr32",
+        15239223,
+        15239560
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27019911,
+    "end": 27020911,
+    "shared_unique_destination_bp": 998,
+    "source_bp_with_two_route_agreement": 998,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15237577,
+        15237754
+      ],
+      [
+        "chr32",
+        15237760,
+        15238581
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27027161,
+    "end": 27028161,
+    "shared_unique_destination_bp": 993,
+    "source_bp_with_two_route_agreement": 993,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15230330,
+        15231166
+      ],
+      [
+        "chr32",
+        15231171,
+        15231328
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27027411,
+    "end": 27028411,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15230080,
+        15231080
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27027661,
+    "end": 27028661,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15229830,
+        15230830
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27033411,
+    "end": 27034411,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15224080,
+        15225080
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27039161,
+    "end": 27040161,
+    "shared_unique_destination_bp": 996,
+    "source_bp_with_two_route_agreement": 996,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15218325,
+        15219122
+      ],
+      [
+        "chr32",
+        15219123,
+        15219322
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27039411,
+    "end": 27040411,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15218075,
+        15219075
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27040661,
+    "end": 27041661,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15216825,
+        15217825
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27040911,
+    "end": 27041911,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15216575,
+        15217575
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27041161,
+    "end": 27042161,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15216325,
+        15217325
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27041411,
+    "end": 27042411,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15216075,
+        15217075
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27041661,
+    "end": 27042661,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15215825,
+        15216825
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27047661,
+    "end": 27048661,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15209821,
+        15210821
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27048161,
+    "end": 27049161,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15209321,
+        15210321
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27048411,
+    "end": 27049411,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15209071,
+        15210071
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27050411,
+    "end": 27051411,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15207071,
+        15208071
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27050661,
+    "end": 27051661,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15206821,
+        15207821
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27062161,
+    "end": 27063161,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15195319,
+        15196319
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27062661,
+    "end": 27063661,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15194819,
+        15195819
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27064161,
+    "end": 27065161,
+    "shared_unique_destination_bp": 966,
+    "source_bp_with_two_route_agreement": 966,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15193323,
+        15193730
+      ],
+      [
+        "chr32",
+        15193760,
+        15194319
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27069911,
+    "end": 27070911,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15187573,
+        15188573
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27070161,
+    "end": 27071161,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15187323,
+        15188323
+      ]
+    ]
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "chrom": "NC_051836.1",
+    "start": 27070204,
+    "end": 27071204,
+    "shared_unique_destination_bp": 1000,
+    "source_bp_with_two_route_agreement": 1000,
+    "source_bp": 1000,
+    "blocks": [
+      [
+        "chr32",
+        15187280,
+        15188280
+      ]
+    ]
+  }
+]

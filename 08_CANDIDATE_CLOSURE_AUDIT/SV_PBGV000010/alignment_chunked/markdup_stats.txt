@@ -1,0 +1,17 @@
+COMMAND: /home/stardrako/miniforge3/envs/atac/bin/samtools markdup -s -f /mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/markdup_stats.txt /mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/selected_coordsort.bam /mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000010/alignment_chunked/selected_markdup.bam
+READ: 6309798
+WRITTEN: 6309798
+EXCLUDED: 55798
+EXAMINED: 6254000
+PAIRED: 6249050
+SINGLE: 4950
+DUPLICATE PAIR: 859784
+DUPLICATE SINGLE: 1359
+DUPLICATE PAIR OPTICAL: 0
+DUPLICATE SINGLE OPTICAL: 0
+DUPLICATE NON PRIMARY: 0
+DUPLICATE NON PRIMARY OPTICAL: 0
+DUPLICATE PRIMARY TOTAL: 861143
+DUPLICATE TOTAL: 861143
+ESTIMATED_LIBRARY_SIZE: 10287455
+

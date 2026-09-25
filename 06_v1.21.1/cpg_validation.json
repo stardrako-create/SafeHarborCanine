@@ -1,0 +1,9 @@
+{
+  "call_counts": {
+    "CGI_GGF": 112933,
+    "CGI_TJ": 40975
+  },
+  "total": 153908,
+  "all_output_thresholds_pass": true,
+  "duplicate_typed_coordinates": 0
+}

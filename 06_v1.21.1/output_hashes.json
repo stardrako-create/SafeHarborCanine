@@ -1,0 +1,8 @@
+{
+  "candidates_scored_v1211.tsv": "80ccd138e15a118a4aff282194a93ed31e771a9a592538782e634a20daf7c2af",
+  "comparison.tsv": "b9d53f4c53cbdfe5bf3b4a840df13249d780893624c28d23576419a7f77bf06c",
+  "cpg_islands_independent_calls.bed": "79c622525dd90b2d218dbe16e7a1f704086d6673a11dd753f5e3bf2e97e1a74a",
+  "cpg_validation.json": "c309908165421e531e9728d782f0756355bc8b72b6d149f420e5e4b4d667a5d6",
+  "RESULTS.md": "c322f6738ef801e65da90a108ff2108e4d81cf1a64cca7848b006f2676a8ebb4",
+  "test_regression.py": "c3c0772580563b3bc8668dea7d947b3e01ba3187367c9ef9b48e896e50433008"
+}

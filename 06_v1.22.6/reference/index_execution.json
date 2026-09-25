@@ -1,0 +1,34 @@
+{
+  "returncode": 0,
+  "seconds": 1287.4333930015564,
+  "command": [
+    "/home/stardrako/miniforge3/envs/cart_rna/bin/STAR",
+    "--runMode",
+    "genomeGenerate",
+    "--runThreadN",
+    "6",
+    "--genomeDir",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/STAR_index",
+    "--genomeFastaFiles",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+    "--sjdbGTFfile",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/ROS_release106.gtf",
+    "--sjdbOverhang",
+    "149",
+    "--genomeSAsparseD",
+    "2",
+    "--limitGenomeGenerateRAM",
+    "28000000000",
+    "--outFileNamePrefix",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/index_"
+  ],
+  "versions": {
+    "STAR": "2.7.11b",
+    "gffread": "0.12.7"
+  },
+  "reference_hashes": {
+    "GCF_014441545.1_ROS_Cfam_1.0_genomic.fna": "b1bca7508b5114e8347489019b1b061685a550dadede24efd21f59c0a3879c7e",
+    "genomic.gff": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019",
+    "ROS_release106.gtf": "ea7ae2b2701ad5e8689a7fa34745fdfe5a86a5bc153ca43303fcf333bbcb1ce7"
+  }
+}

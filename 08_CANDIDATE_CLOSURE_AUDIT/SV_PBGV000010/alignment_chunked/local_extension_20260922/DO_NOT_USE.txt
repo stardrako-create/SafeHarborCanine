@@ -1,0 +1,1 @@
+Superseded by local_extension_20260922_v2: first exploratory seed retained lowercase softmask, incompatible with uppercase read kmers. v2 normalizes reference case. Original outputs preserved.

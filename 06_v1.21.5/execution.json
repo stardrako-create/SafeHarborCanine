@@ -1,0 +1,46 @@
+{
+  "samples": 76,
+  "original": 71,
+  "additional": 5,
+  "windows": [
+    {
+      "genes": "ANO2/NTF3",
+      "chrom": "NC_051831.1",
+      "start": 39728324,
+      "end": 39729324
+    },
+    {
+      "genes": "LOC119876429/LOC119872513",
+      "chrom": "NC_051811.1",
+      "start": 17235706,
+      "end": 17236706
+    },
+    {
+      "genes": "NPNT/TBCK",
+      "chrom": "NC_051836.1",
+      "start": 27057411,
+      "end": 27058411
+    },
+    {
+      "genes": "LOC119876429/LOC119872513_region",
+      "chrom": "NC_051811.1",
+      "start": 17217706,
+      "end": 17274511
+    },
+    {
+      "genes": "ANO2/NTF3_region",
+      "chrom": "NC_051831.1",
+      "start": 39677324,
+      "end": 39739751
+    },
+    {
+      "genes": "NPNT/TBCK_region",
+      "chrom": "NC_051836.1",
+      "start": 27013911,
+      "end": 27071204
+    }
+  ],
+  "read_errors": [],
+  "bootstrap_seed": 42,
+  "note": "Fixed-window descriptive bootstrap; does not correct prior window selection; CPM before cohort-specific gain. QC weights held fixed when comparing 71/76."
+}

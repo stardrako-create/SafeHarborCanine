@@ -1,0 +1,657 @@
+{
+  "status": "completed",
+  "summary": [
+    {
+      "window_id": "bg1k_2054",
+      "length": 20,
+      "segments": 981,
+      "unique": 696,
+      "nonunique": 285,
+      "max_locus_count": 306561
+    },
+    {
+      "window_id": "bg1k_2054",
+      "length": 25,
+      "segments": 976,
+      "unique": 787,
+      "nonunique": 189,
+      "max_locus_count": 41987
+    },
+    {
+      "window_id": "bg1k_2054",
+      "length": 50,
+      "segments": 951,
+      "unique": 921,
+      "nonunique": 30,
+      "max_locus_count": 63
+    },
+    {
+      "window_id": "bg1k_2054",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0567",
+      "length": 20,
+      "segments": 981,
+      "unique": 630,
+      "nonunique": 351,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "bg1k_0567",
+      "length": 25,
+      "segments": 976,
+      "unique": 708,
+      "nonunique": 268,
+      "max_locus_count": 203214
+    },
+    {
+      "window_id": "bg1k_0567",
+      "length": 50,
+      "segments": 951,
+      "unique": 868,
+      "nonunique": 83,
+      "max_locus_count": 579
+    },
+    {
+      "window_id": "bg1k_0567",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2848",
+      "length": 20,
+      "segments": 981,
+      "unique": 787,
+      "nonunique": 194,
+      "max_locus_count": 76666
+    },
+    {
+      "window_id": "bg1k_2848",
+      "length": 25,
+      "segments": 976,
+      "unique": 842,
+      "nonunique": 134,
+      "max_locus_count": 19110
+    },
+    {
+      "window_id": "bg1k_2848",
+      "length": 50,
+      "segments": 951,
+      "unique": 935,
+      "nonunique": 16,
+      "max_locus_count": 4
+    },
+    {
+      "window_id": "bg1k_2848",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0045",
+      "length": 20,
+      "segments": 981,
+      "unique": 528,
+      "nonunique": 453,
+      "max_locus_count": 314222
+    },
+    {
+      "window_id": "bg1k_0045",
+      "length": 25,
+      "segments": 976,
+      "unique": 623,
+      "nonunique": 353,
+      "max_locus_count": 211943
+    },
+    {
+      "window_id": "bg1k_0045",
+      "length": 50,
+      "segments": 951,
+      "unique": 782,
+      "nonunique": 169,
+      "max_locus_count": 20140
+    },
+    {
+      "window_id": "bg1k_0045",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2865",
+      "length": 20,
+      "segments": 981,
+      "unique": 928,
+      "nonunique": 53,
+      "max_locus_count": 22
+    },
+    {
+      "window_id": "bg1k_2865",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2865",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2865",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0442",
+      "length": 20,
+      "segments": 981,
+      "unique": 918,
+      "nonunique": 63,
+      "max_locus_count": 13
+    },
+    {
+      "window_id": "bg1k_0442",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0442",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0442",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2901",
+      "length": 20,
+      "segments": 981,
+      "unique": 914,
+      "nonunique": 67,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "bg1k_2901",
+      "length": 25,
+      "segments": 976,
+      "unique": 975,
+      "nonunique": 1,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "bg1k_2901",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2901",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0202",
+      "length": 20,
+      "segments": 981,
+      "unique": 705,
+      "nonunique": 276,
+      "max_locus_count": 91641
+    },
+    {
+      "window_id": "bg1k_0202",
+      "length": 25,
+      "segments": 976,
+      "unique": 816,
+      "nonunique": 160,
+      "max_locus_count": 5733
+    },
+    {
+      "window_id": "bg1k_0202",
+      "length": 50,
+      "segments": 951,
+      "unique": 907,
+      "nonunique": 44,
+      "max_locus_count": 14
+    },
+    {
+      "window_id": "bg1k_0202",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0334",
+      "length": 20,
+      "segments": 981,
+      "unique": 959,
+      "nonunique": 22,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "bg1k_0334",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0334",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0334",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2545",
+      "length": 20,
+      "segments": 981,
+      "unique": 952,
+      "nonunique": 29,
+      "max_locus_count": 143132
+    },
+    {
+      "window_id": "bg1k_2545",
+      "length": 25,
+      "segments": 976,
+      "unique": 965,
+      "nonunique": 11,
+      "max_locus_count": 466
+    },
+    {
+      "window_id": "bg1k_2545",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2545",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0228",
+      "length": 20,
+      "segments": 981,
+      "unique": 717,
+      "nonunique": 264,
+      "max_locus_count": 72307
+    },
+    {
+      "window_id": "bg1k_0228",
+      "length": 25,
+      "segments": 976,
+      "unique": 791,
+      "nonunique": 185,
+      "max_locus_count": 4902
+    },
+    {
+      "window_id": "bg1k_0228",
+      "length": 50,
+      "segments": 951,
+      "unique": 936,
+      "nonunique": 15,
+      "max_locus_count": 13
+    },
+    {
+      "window_id": "bg1k_0228",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_1958",
+      "length": 20,
+      "segments": 981,
+      "unique": 51,
+      "nonunique": 930,
+      "max_locus_count": 106
+    },
+    {
+      "window_id": "bg1k_1958",
+      "length": 25,
+      "segments": 976,
+      "unique": 66,
+      "nonunique": 910,
+      "max_locus_count": 7
+    },
+    {
+      "window_id": "bg1k_1958",
+      "length": 50,
+      "segments": 951,
+      "unique": 128,
+      "nonunique": 823,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "bg1k_1958",
+      "length": 100,
+      "segments": 901,
+      "unique": 228,
+      "nonunique": 673,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "bg1k_2686",
+      "length": 20,
+      "segments": 981,
+      "unique": 316,
+      "nonunique": 665,
+      "max_locus_count": 29562
+    },
+    {
+      "window_id": "bg1k_2686",
+      "length": 25,
+      "segments": 976,
+      "unique": 340,
+      "nonunique": 636,
+      "max_locus_count": 20869
+    },
+    {
+      "window_id": "bg1k_2686",
+      "length": 50,
+      "segments": 951,
+      "unique": 402,
+      "nonunique": 549,
+      "max_locus_count": 8210
+    },
+    {
+      "window_id": "bg1k_2686",
+      "length": 100,
+      "segments": 901,
+      "unique": 688,
+      "nonunique": 213,
+      "max_locus_count": 967
+    },
+    {
+      "window_id": "bg1k_1023",
+      "length": 20,
+      "segments": 981,
+      "unique": 446,
+      "nonunique": 535,
+      "max_locus_count": 314222
+    },
+    {
+      "window_id": "bg1k_1023",
+      "length": 25,
+      "segments": 976,
+      "unique": 515,
+      "nonunique": 461,
+      "max_locus_count": 211943
+    },
+    {
+      "window_id": "bg1k_1023",
+      "length": 50,
+      "segments": 951,
+      "unique": 733,
+      "nonunique": 218,
+      "max_locus_count": 65477
+    },
+    {
+      "window_id": "bg1k_1023",
+      "length": 100,
+      "segments": 901,
+      "unique": 852,
+      "nonunique": 49,
+      "max_locus_count": 8
+    },
+    {
+      "window_id": "bg1k_0023",
+      "length": 20,
+      "segments": 981,
+      "unique": 63,
+      "nonunique": 918,
+      "max_locus_count": 843714
+    },
+    {
+      "window_id": "bg1k_0023",
+      "length": 25,
+      "segments": 976,
+      "unique": 83,
+      "nonunique": 893,
+      "max_locus_count": 422656
+    },
+    {
+      "window_id": "bg1k_0023",
+      "length": 50,
+      "segments": 951,
+      "unique": 91,
+      "nonunique": 860,
+      "max_locus_count": 8801
+    },
+    {
+      "window_id": "bg1k_0023",
+      "length": 100,
+      "segments": 901,
+      "unique": 93,
+      "nonunique": 808,
+      "max_locus_count": 3639
+    },
+    {
+      "window_id": "bg1k_0878",
+      "length": 20,
+      "segments": 981,
+      "unique": 550,
+      "nonunique": 431,
+      "max_locus_count": 314222
+    },
+    {
+      "window_id": "bg1k_0878",
+      "length": 25,
+      "segments": 976,
+      "unique": 604,
+      "nonunique": 372,
+      "max_locus_count": 211943
+    },
+    {
+      "window_id": "bg1k_0878",
+      "length": 50,
+      "segments": 951,
+      "unique": 684,
+      "nonunique": 267,
+      "max_locus_count": 65477
+    },
+    {
+      "window_id": "bg1k_0878",
+      "length": 100,
+      "segments": 901,
+      "unique": 790,
+      "nonunique": 111,
+      "max_locus_count": 415
+    },
+    {
+      "window_id": "bg1k_1650",
+      "length": 20,
+      "segments": 981,
+      "unique": 169,
+      "nonunique": 812,
+      "max_locus_count": 46997
+    },
+    {
+      "window_id": "bg1k_1650",
+      "length": 25,
+      "segments": 976,
+      "unique": 233,
+      "nonunique": 743,
+      "max_locus_count": 32927
+    },
+    {
+      "window_id": "bg1k_1650",
+      "length": 50,
+      "segments": 951,
+      "unique": 425,
+      "nonunique": 526,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "bg1k_1650",
+      "length": 100,
+      "segments": 901,
+      "unique": 661,
+      "nonunique": 240,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "bg1k_2228",
+      "length": 20,
+      "segments": 981,
+      "unique": 922,
+      "nonunique": 59,
+      "max_locus_count": 13400
+    },
+    {
+      "window_id": "bg1k_2228",
+      "length": 25,
+      "segments": 976,
+      "unique": 960,
+      "nonunique": 16,
+      "max_locus_count": 20
+    },
+    {
+      "window_id": "bg1k_2228",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2228",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_2867",
+      "length": 20,
+      "segments": 981,
+      "unique": 812,
+      "nonunique": 169,
+      "max_locus_count": 75273
+    },
+    {
+      "window_id": "bg1k_2867",
+      "length": 25,
+      "segments": 976,
+      "unique": 877,
+      "nonunique": 99,
+      "max_locus_count": 46632
+    },
+    {
+      "window_id": "bg1k_2867",
+      "length": 50,
+      "segments": 951,
+      "unique": 933,
+      "nonunique": 18,
+      "max_locus_count": 257
+    },
+    {
+      "window_id": "bg1k_2867",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "bg1k_0117",
+      "length": 20,
+      "segments": 981,
+      "unique": 15,
+      "nonunique": 966,
+      "max_locus_count": 10000
+    },
+    {
+      "window_id": "bg1k_0117",
+      "length": 25,
+      "segments": 976,
+      "unique": 23,
+      "nonunique": 953,
+      "max_locus_count": 8259
+    },
+    {
+      "window_id": "bg1k_0117",
+      "length": 50,
+      "segments": 951,
+      "unique": 57,
+      "nonunique": 894,
+      "max_locus_count": 5501
+    },
+    {
+      "window_id": "bg1k_0117",
+      "length": 100,
+      "segments": 901,
+      "unique": 264,
+      "nonunique": 637,
+      "max_locus_count": 2476
+    }
+  ],
+  "bases_scanned": 2396858295,
+  "contigs": 376,
+  "seconds": 239.13268494606018,
+  "self_test": "chunk boundaries and overlapping both-strand counts agree with brute force",
+  "reference": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna",
+  "limitations": [
+    "Exact sequence matches only, not mismatch/bulge off-target analysis",
+    "Includes assembly contigs; alternate/haplotype sequences may inflate locus counts",
+    "No PAM, nuclease, guide or donor genotype specified",
+    "1000bp target windows do not define an insertion base",
+    "Unique exact sequence does not establish editing safety"
+  ]
+}

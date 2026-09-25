@@ -1,0 +1,136 @@
+{
+  "state": "completed",
+  "started_utc": "2026-09-24T10:02:53.816884+00:00",
+  "records_scanned": 141810,
+  "hits": [
+    {
+      "query": "w11_positive_context",
+      "contig": "chr32",
+      "pos1": 4707939,
+      "end0": 33613308,
+      "id": "chr32:4707939:DG",
+      "SVTYPE": "DEL",
+      "alts": [
+        "<DEL:SVSIZE=28905369:AGGREGATED>"
+      ],
+      "filters": [
+        "PASS"
+      ],
+      "evidence": [
+        "record_interval_overlap"
+      ]
+    }
+  ],
+  "SVTYPE_counts": {
+    "DUP": 3070,
+    "DEL": 70799,
+    "INS": 67791,
+    "BND": 150
+  },
+  "BND_alt_count": 150,
+  "CIPOS_records": 0,
+  "CIEND_records": 0,
+  "source_bytes": 1077708467,
+  "queries": [
+    {
+      "id": "bg1k_2848",
+      "chrom": "chr36",
+      "start0": 28969522,
+      "end0": 28970522
+    },
+    {
+      "id": "bg1k_0442",
+      "chrom": "chr33",
+      "start0": 10777598,
+      "end0": 10778598
+    },
+    {
+      "id": "w01",
+      "chrom": "chr7",
+      "start0": 17403010,
+      "end0": 17404010
+    },
+    {
+      "id": "w11_positive_context",
+      "chrom": "chr32",
+      "start0": 13078664,
+      "end0": 13079664
+    }
+  ],
+  "INFO_fields": [
+    "AAScore",
+    "ABHet",
+    "ABHom",
+    "ABHetMulti",
+    "ABHomMulti",
+    "AC",
+    "AF",
+    "AN",
+    "CR",
+    "CRal",
+    "CRalt",
+    "END",
+    "FEATURE",
+    "GT_ANTI_HAPLOTYPE",
+    "GT_HAPLOTYPE",
+    "GT_ID",
+    "HOMSEQ",
+    "INV3",
+    "INV5",
+    "LEFT_SVINSSEQ",
+    "LOGF",
+    "MaxAAS",
+    "MaxAASR",
+    "MaxAltPP",
+    "MMal",
+    "MMalt",
+    "MQ",
+    "MQalt",
+    "MQSal",
+    "MQsquared",
+    "NCLUSTERS",
+    "NGT",
+    "NHet",
+    "NHomRef",
+    "NHomAlt",
+    "NUM_MERGED_SVS",
+    "OLD_VARIANT_ID",
+    "ORSTART",
+    "OREND",
+    "QD",
+    "QDalt",
+    "PASS_AC",
+    "PASS_AN",
+    "PASS_ratio",
+    "RefLen",
+    "RELATED_SV_ID",
+    "RIGHT_SVINSSEQ",
+    "SB",
+    "SBAlt",
+    "SBF",
+    "SBF1",
+    "SBF2",
+    "SBR",
+    "SBR1",
+    "SBR2",
+    "SDal",
+    "SDalt",
+    "SEQ",
+    "SeqDepth",
+    "SV_ID",
+    "SVINSSEQ",
+    "SVLEN",
+    "SVMODEL",
+    "SVSIZE",
+    "SVTYPE",
+    "VarType"
+  ],
+  "header_samples_ignored": 1879,
+  "updated_utc": "2026-09-24T10:03:56.035751+00:00",
+  "limitations": [
+    "CIPOS/CIEND missing from catalogue cannot be recovered or treated as precise breakpoints",
+    "BND ALT mate positions screened globally; no sample genotype validation",
+    "Reported absence applies to this catalogue and these query windows only",
+    "w11 is a positive context check, not a resolved structural interpretation"
+  ]
+}

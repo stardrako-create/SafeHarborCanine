@@ -1,0 +1,28 @@
+{
+  "failed_tile_footprint": [
+    27042361,
+    27042586
+  ],
+  "alternative_alignment_records": 31,
+  "alternative_reference_contigs": [
+    "NC_051805.1",
+    "NC_051808.1",
+    "NC_051809.1",
+    "NC_051810.1",
+    "NC_051811.1",
+    "NC_051812.1",
+    "NC_051813.1",
+    "NC_051814.1",
+    "NC_051817.1",
+    "NC_051821.1",
+    "NC_051822.1",
+    "NC_051825.1",
+    "NC_051830.1",
+    "NC_051834.1",
+    "NC_051836.1",
+    "NC_051837.1",
+    "NC_051843.1"
+  ],
+  "minimum_alternative_NM": 0,
+  "maximum_alternative_MAPQ": 0
+}

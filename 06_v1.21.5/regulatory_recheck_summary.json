@@ -1,0 +1,26 @@
+[
+  {
+    "genes": "ANO2/NTF3",
+    "windows_1kb": 247,
+    "windows_with_promoter_enhancer": 78,
+    "previous_top_1kb_flagged": true,
+    "previous_top_1kb_regulatory_bp": 800,
+    "tissues": "LU;MG"
+  },
+  {
+    "genes": "LOC119876429/LOC119872513",
+    "windows_1kb": 225,
+    "windows_with_promoter_enhancer": 39,
+    "previous_top_1kb_flagged": false,
+    "previous_top_1kb_regulatory_bp": 0,
+    "tissues": ""
+  },
+  {
+    "genes": "NPNT/TBCK",
+    "windows_1kb": 227,
+    "windows_with_promoter_enhancer": 122,
+    "previous_top_1kb_flagged": true,
+    "previous_top_1kb_regulatory_bp": 662,
+    "tissues": "KI"
+  }
+]

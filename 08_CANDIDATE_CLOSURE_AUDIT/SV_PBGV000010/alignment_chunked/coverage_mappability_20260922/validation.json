@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-22T15:33:04.591033+00:00",
+  "status": "passed_output_consistency_and_matching_checks",
+  "unmatched_inside_starts0": [
+    4800000,
+    8600000,
+    8700000,
+    11100000,
+    25400000,
+    28400000,
+    28500000
+  ],
+  "sha256": {
+    "windows.tsv": "fefa82af60054837a2dca0f4493196ed5a5fec643dc72cebabf8ef5e730723c4",
+    "matched_windows.json": "6e151cd51a97016f3e1a208038d8e8de8dc85d16c7c28910c20bca2c07ac9de1",
+    "summary.json": "ccbf18688f44af73906fe6efd93f55dea1d15587380d8b4b30cba23a1c3cee4d"
+  }
+}

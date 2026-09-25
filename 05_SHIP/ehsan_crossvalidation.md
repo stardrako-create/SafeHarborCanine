@@ -90,6 +90,46 @@ step was checking for. This isn't a contradiction — it's exactly the kind
 of thing a hard veto based on the actual annotation file, rather than
 final coordinate-list comparison alone, is supposed to catch.
 
+## Update 2026-09-09 — V12 check against Ehsan's exact final 7 (email 2026-08-20)
+
+Ehsan's email (2026-08-20) gives the exact coordinates of his final 7
+pGSH candidates (27->18->7: ATAC reproducibility in >=4/5 samples, then
+CanFam3.1 regulatory-element/CpG-island filtering, coords converted to
+ROS_Cfam_1.0) - saved verbatim to `05_SHIP/ehsan_final7_pGSH.tsv`. He also
+separately sent `dog_40_chromosomes_result_SHIP.txt` (in
+`dog_40_chromosomes_result_SHIP (1).zip`) - checked in full 2026-09-09: this
+is confirmed to be his own copy of the same raw SHIP output this
+repository's `ship_raw_candidates.tsv` is parsed from (461 records, same
+structure), **not** an intermediate 27 or 18 list - no filtering-stage
+markers exist in that file. His full 27-candidate coordinate list was never
+saved as a file in this repo, only referenced in earlier emails; only the
+final 7 and the specific loci already itemized elsewhere in this document
+are available to check against.
+
+All 7 of his final candidates match **exactly** (identical coordinates) to
+entries in our own 461-candidate set, confirming both pipelines share the
+same SHIP run. All 7 are hard-vetoed by our full pipeline (V12,
+2026-09-09), 6 of 7 via `veto_gene_dense_neighborhood` alone or combined
+with others - consistent with the V2-era finding above (his refined-7 vs.
+our `veto_gene_dense_neighborhood`), now reconfirmed after the 2026-09-09
+ATAC methodology fix (gate+gain, peak_frequency-based scoring,
+accessibility floor) changed nothing about this specific outcome, since
+none of that touches the gene-density check:
+
+| Ehsan's locus | Our exclusion reason(s) |
+|---|---|
+| NC_051807.1:73210443-73261055 | risk_gene_radius, gene_dense_neighborhood |
+| NC_051812.1:788172-845815 | gene_dense_neighborhood |
+| NC_051814.1:6647061-6715959 | tad_boundary, gene_dense_neighborhood |
+| NC_051814.1:16586697-16654416 | gene_dense_neighborhood |
+| NC_051823.1:22718008-22788982 | tad_boundary, atac_peak, gene_dense_neighborhood |
+| NC_051843.1:50115742-50188659 | gene_dense_neighborhood, tad_risk_gene |
+| NC_051843.1:56733328-56786162 | risk_gene_radius, gene_dense_neighborhood, tad_risk_gene |
+
+The durable convergence point remains `NC_051807.1:10779807-10837318`
+(from his *original* 27, not the refined 7) - survives every version V2
+through V12 of our pipeline.
+
 ## Takeaway
 
 The two independent approaches substantially agree at the V1 level (TAD/ATAC/

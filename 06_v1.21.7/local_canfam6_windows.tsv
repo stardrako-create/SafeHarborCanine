@@ -1,0 +1,4 @@
+genes	chrom	start	end	canfam3_chain_id	direct_chain_id	two_paths_identical	mapped_bp
+ANO2/NTF3	chr27	7243778	7244778	27	27	True	1000
+LOC119876429/LOC119872513	chr7	17088186	17089186	7	7	True	1000
+NPNT/TBCK	chr32	15200069	15201069	32	33	True	1000

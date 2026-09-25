@@ -1,0 +1,20 @@
+{
+  "sample": "PBGV000010",
+  "run": "SRR15734832",
+  "pid": 7856,
+  "status": "failed",
+  "validated_files": [
+    {
+      "file": "SRR15734832_1.fastq.gz",
+      "bytes": 14802392696,
+      "md5": "7599c82bf5276df8e650cdeb9d05f730",
+      "validated": true
+    }
+  ],
+  "file": "SRR15734832_2.fastq.gz",
+  "bytes_received": 15955132416,
+  "expected_bytes": 16512896249,
+  "free_bytes": 56766607360,
+  "updated_utc": "2026-09-20T07:48:13Z",
+  "error": "TimeoutError('The read operation timed out')"
+}

@@ -1,0 +1,17 @@
+window_id	nearest_gene_body	gene_body_gap_bp	nearest_gene_5prime	gene_5prime_gap_bp	nearest_risk_gene	risk_gene_categories	risk_gene_body_gap_bp	epic_promoter_enhancer_bp	epic_observed_nonquiescent_states	lncrna_smallrna_overlap_bp	mirna_overlap_bp	external_regulatory_overlap_bp
+w00	TSEN15	112449	C7H1orf21	131259	ARPC5	oncogene	517037	0		0	0	0
+w01	C7H1orf21	110509	C7H1orf21	110509	ARPC5	oncogene	537787	0		0	0	0
+w02	C7H1orf21	110009	C7H1orf21	110009	ARPC5	oncogene	538287	0	12	0	0	0
+w03	NTF3	25677	NTF3	97152	GAPDH	essential,oncogene	885858	0		0	0	0
+w04	NTF3	8927	NTF3	80402	GAPDH	essential,oncogene	902608	0	9	0	0	0
+w05	NTF3	8677	NTF3	80152	GAPDH	essential,oncogene	902858	0	9	0	0	0
+w06	NTF3	8427	NTF3	79902	GAPDH	essential,oncogene	903108	0	9	0	0	0
+w07	NPNT	25250	NPNT	100917	TET2	oncogene,tumor_suppressor	680054	0	9	0	0	0
+w08	NPNT	25500	NPNT	101167	TET2	oncogene,tumor_suppressor	680304	0	9	0	0	0
+w09	NPNT	26750	NPNT	102417	TET2	oncogene,tumor_suppressor	681554	0		0	0	0
+w10	NPNT	27000	NPNT	102667	TET2	oncogene,tumor_suppressor	681804	0		0	0	0
+w11	NPNT	27250	NPNT	102917	TET2	oncogene,tumor_suppressor	682054	0		0	0	0
+w12	NPNT	27500	NPNT	103167	TET2	oncogene,tumor_suppressor	682304	0		0	0	0
+w13	NPNT	27750	NPNT	103417	TET2	oncogene,tumor_suppressor	682554	0		0	0	0
+w14	TBCK	19793	NPNT	112167	TET2	oncogene,tumor_suppressor	691304	0		0	0	0
+w15	TBCK	19543	NPNT	112417	TET2	oncogene,tumor_suppressor	691554	0		0	0	0

@@ -1,0 +1,109 @@
+{
+  "started_utc": "2026-09-23T16:50:56.345503+00:00",
+  "state": "query_completed_projection_pending",
+  "projection_sha256": "2cbc7537e0e362069b67dca4b1f0f38f20fe83a8a314a63807fb3df5eb21c560",
+  "completed": [
+    {
+      "key": "bg1k_2054__AutoAndXPAR.SNPs.vqsr99",
+      "records": 29,
+      "alleles": 30
+    },
+    {
+      "key": "bg1k_0045__AutoAndXPAR.SNPs.vqsr99",
+      "records": 35,
+      "alleles": 38
+    },
+    {
+      "key": "bg1k_2901__AutoAndXPAR.SNPs.vqsr99",
+      "records": 7,
+      "alleles": 8
+    },
+    {
+      "key": "bg1k_0202__AutoAndXPAR.SNPs.vqsr99",
+      "records": 46,
+      "alleles": 50
+    },
+    {
+      "key": "bg1k_0334__AutoAndXPAR.SNPs.vqsr99",
+      "records": 22,
+      "alleles": 22
+    },
+    {
+      "key": "bg1k_2545__AutoAndXPAR.SNPs.vqsr99",
+      "records": 22,
+      "alleles": 22
+    },
+    {
+      "key": "bg1k_0228__AutoAndXPAR.SNPs.vqsr99",
+      "records": 20,
+      "alleles": 21
+    },
+    {
+      "key": "bg1k_1958__AutoAndXPAR.SNPs.vqsr99",
+      "records": 20,
+      "alleles": 22
+    },
+    {
+      "key": "bg1k_2686__AutoAndXPAR.SNPs.vqsr99",
+      "records": 38,
+      "alleles": 38
+    },
+    {
+      "key": "bg1k_1650__AutoAndXPAR.SNPs.vqsr99",
+      "records": 44,
+      "alleles": 45
+    },
+    {
+      "key": "bg1k_2054__AutoAndXPAR.nonSNPs.filter",
+      "records": 5,
+      "alleles": 6
+    },
+    {
+      "key": "bg1k_0045__AutoAndXPAR.nonSNPs.filter",
+      "records": 23,
+      "alleles": 58
+    },
+    {
+      "key": "bg1k_2901__AutoAndXPAR.nonSNPs.filter",
+      "records": 6,
+      "alleles": 6
+    },
+    {
+      "key": "bg1k_0202__AutoAndXPAR.nonSNPs.filter",
+      "records": 10,
+      "alleles": 17
+    },
+    {
+      "key": "bg1k_0334__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 2
+    },
+    {
+      "key": "bg1k_2545__AutoAndXPAR.nonSNPs.filter",
+      "records": 5,
+      "alleles": 10
+    },
+    {
+      "key": "bg1k_0228__AutoAndXPAR.nonSNPs.filter",
+      "records": 3,
+      "alleles": 4
+    },
+    {
+      "key": "bg1k_1958__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 3
+    },
+    {
+      "key": "bg1k_2686__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 2
+    },
+    {
+      "key": "bg1k_1650__AutoAndXPAR.nonSNPs.filter",
+      "records": 12,
+      "alleles": 21
+    }
+  ],
+  "errors": [],
+  "updated_utc": "2026-09-23T16:52:12.276875+00:00"
+}

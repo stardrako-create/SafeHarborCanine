@@ -1,0 +1,13 @@
+{
+  "cpg_regression_tests": 3,
+  "cpg_calls_validated": 153908,
+  "local_windows_validated": 2091,
+  "loc2_best_chain": {
+    "id": "21",
+    "aligned_bp": 62605,
+    "target": "chr16",
+    "target_span_bp": 63693,
+    "aligned_blocks": 54,
+    "target_aligned_fraction": 0.9829180600693954
+  }
+}

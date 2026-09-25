@@ -1,0 +1,91 @@
+{
+  "QC_nuclei": 5849,
+  "T_consensus": 155,
+  "T_union": 157,
+  "other_QC": 5692,
+  "T_fraction_nuclei": 0.026500256454094717,
+  "T_fraction_peak_matrix_counts": 0.010657394712879806,
+  "T_peak_matrix_counts": 550644,
+  "matched_sample_peak_count_median": 559883.5,
+  "matched_sample_peak_count_p025": 547267.375,
+  "matched_sample_peak_count_p975": 581111.2999999999,
+  "sampling": {
+    "seed": 42,
+    "replicates": 2000,
+    "strata": [
+      {
+        "bin": 0,
+        "T_nuclei": 8,
+        "control_pool": 577
+      },
+      {
+        "bin": 1,
+        "T_nuclei": 28,
+        "control_pool": 557
+      },
+      {
+        "bin": 2,
+        "T_nuclei": 49,
+        "control_pool": 536
+      },
+      {
+        "bin": 3,
+        "T_nuclei": 40,
+        "control_pool": 543
+      },
+      {
+        "bin": 4,
+        "T_nuclei": 12,
+        "control_pool": 572
+      },
+      {
+        "bin": 5,
+        "T_nuclei": 9,
+        "control_pool": 577
+      },
+      {
+        "bin": 6,
+        "T_nuclei": 5,
+        "control_pool": 580
+      },
+      {
+        "bin": 7,
+        "T_nuclei": 2,
+        "control_pool": 583
+      },
+      {
+        "bin": 8,
+        "T_nuclei": 1,
+        "control_pool": 584
+      },
+      {
+        "bin": 9,
+        "T_nuclei": 1,
+        "control_pool": 583
+      }
+    ],
+    "decile_boundaries": [
+      197.0,
+      1381.8000000000002,
+      2154.4000000000005,
+      2974.000000000002,
+      4177.0,
+      5848.0,
+      7921.4000000000015,
+      10462.800000000003,
+      14186.200000000004,
+      20866.999999999996,
+      49726.0
+    ]
+  },
+  "cached_metrics_recomputed_from_H5": "passed",
+  "local_targets": 44,
+  "limitations": [
+    "Peak-matrix count is a depth proxy, not total genomic fragments or FRiP",
+    "Count/feature QC does not assess TSS enrichment, nucleosome signal, doublets or barcode identity",
+    "Depth-decile conditional resampling is descriptive; intervals are distributions of resampled other cells, not confidence intervals or biological significance",
+    "Controls exclude union T cells but include heterogeneous tumor/microenvironment populations",
+    "One tumor donor; no inference of normal T accessibility or CAR-T safety",
+    "Only37 full contiguous frontier windows use this comparison;27 partially mapped alternatives not directly comparable1kb"
+  ]
+}

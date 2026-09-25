@@ -1,0 +1,19 @@
+### /home/stardrako/miniforge3/envs/cart_rna/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 6   --genomeDir "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/STAR_index"   --genomeFastaFiles "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna"      --genomeSAsparseD 2   --limitGenomeGenerateRAM 28000000000   --outFileNamePrefix "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/index_"   --sjdbGTFfile "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/ROS_release106.gtf"   --sjdbOverhang 149
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fna 
+genomeSAindexNbases	14
+genomeChrBinNbits	18
+genomeSAsparseD	2
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	149
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.22.6/reference/ROS_release106.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	2553718779 10547536089
