@@ -13,6 +13,8 @@ Maintained by the Vasco M. Barreto lab.
 
 ## Current audit snapshot — 25 September 2026
 
+Published snapshot: [code DOI](https://doi.org/10.5281/zenodo.22959343) · [data and audit DOI](https://doi.org/10.5281/zenodo.22959344). [Publication receipt](PUBLICATION_RECEIPT_20260925.json).
+
 **w01 is the priority locus for experimental assessment. w11 remains conditional because its structural interpretation is unresolved.** bg1k_2848 and bg1k_0442 are proposed genomic comparators. This snapshot contains computational evidence; integration, sustained expression and cellular function still require experimental evaluation.
 
 Start with [the focused laboratory proposal](08_CANDIDATE_CLOSURE_AUDIT/W01_FOCUSED_REVIEW_20260923/PROPOSTA_PARA_LAB.md), [the current decisions](08_CANDIDATE_CLOSURE_AUDIT/CURRENT_STATE_AND_DECISIONS.md), and [the snapshot guide](RELEASE_20260925.md). Older version directories preserve the development history; their candidate rankings are historical.

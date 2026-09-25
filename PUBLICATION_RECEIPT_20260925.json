@@ -1,0 +1,19 @@
+{
+  "code": {
+    "doi": "10.5281/zenodo.22959343",
+    "url": "https://doi.org/10.5281/zenodo.22959343",
+    "file_count": 1,
+    "archive": "SafeHarborCanine-audit-20260925.zip",
+    "md5": "md5:42bd958d0fabc6f7801b73420d678a1a"
+  },
+  "data": {
+    "doi": "10.5281/zenodo.22959344",
+    "url": "https://doi.org/10.5281/zenodo.22959344",
+    "file_count": 25,
+    "archive": "SafeHarborCanine-audit-results-20260925.zip",
+    "md5": "md5:1cc354c404bf3f8ff0d821d6bb3c4d7e"
+  },
+  "snapshot_commit": "607d1bc1e92770d10c98659fc34a283e236d9cb3",
+  "previous_dataset_files_preserved": 24,
+  "verified_utc": "2026-09-25T12:39:28.323055+00:00"
+}
