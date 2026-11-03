@@ -34,6 +34,14 @@ and [the decision log](08_CANDIDATE_CLOSURE_AUDIT/CURRENT_STATE_AND_DECISIONS.md
 [25 September 2026](RELEASE_20260925.md). Older version directories preserve the
 development history; their candidate rankings are historical.
 
+### Main limitations
+
+- Everything here is computational. Integration, expression and function have not been tested, and no guide RNAs or nuclease are specified.
+- The population layers are PBMC from a mixed-cell blood cohort, not purified T cells, and direct T-cell accessibility support at the shortlisted windows is sparse.
+- Methylation coverage is incomplete (RRBS observes 20% of the w01 window and 15% of the ANO2-39708 window), and the risk-gene annotation is incomplete (53 of 2,654 symbols unresolved for ANO2-39708).
+- w11 was withdrawn because its structural context could not be resolved with short reads; this does not show that the locus is unsafe.
+- A complete end-to-end rerun of the later audit stages has not been performed.
+
 ## Background
 
 A genomic safe harbor is a locus where a transgene can be integrated with a
@@ -196,6 +204,16 @@ no published safe-harbor characterization for *Canis lupus familiaris* —
 that gap is what this repository addresses directly, with original
 population-level ATAC-seq/RRBS data and single-individual Hi-C structural
 context, rather than literature mining.
+
+## Contributions and credits
+
+- **Manuel Paiva Sequeira**: design, implementation and execution of the pipeline (ATAC-seq, RRBS and Hi-C processing, the Mother Track construction, candidate scoring, the local-window audit and the structural-variant, conservation and variant reviews), data curation, documentation and review of the results.
+- **Ehsan Valiollahi**: the initial idea and the initial SHIP candidate generation (the 461 convergent intergenic regions on ROS_Cfam_1.0). He also provided an independent regulatory-element set and five additional control ATAC-seq samples used in later versions, and his review caught two errors that are documented in the dataset record.
+- **Vasco M. Barreto**: supervision; principal investigator of the laboratory in which the project is carried out (NOVA FCT).
+
+Third-party methods and data (SHIP, GEG-SH, the checklist of Ahmed et al. 2026 and the public ATAC-seq, RRBS and Hi-C data sets) are credited under Citation below.
+
+**AI assistance.** Parts of the code, analysis and documentation were produced with AI coding assistants (Anthropic's Claude Code and OpenAI's Codex) working under the author's direction. The scripts, receipts, regression tests and the SHA-256 manifest in this repository (`python scripts/verify_manifest.py PUBLICATION_MANIFEST_20261012.json`) are the verifiable record of what was run.
 
 ## License
 
