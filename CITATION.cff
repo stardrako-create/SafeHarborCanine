@@ -17,7 +17,7 @@ authors:
 license: MIT
 repository-code: "https://github.com/stardrako-create/SafeHarborCanine"
 doi: "10.5281/zenodo.21996452"
-version: "audit-2026-10-12"
+version: "audit-2026-10-12-r2"
 date-released: "2026-11-03"
 identifiers:
   - type: doi
