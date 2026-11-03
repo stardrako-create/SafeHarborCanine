@@ -27,6 +27,8 @@ claimed.
 | w11 | NC_051836.1:27041161–27042161 | Not advanced: structural context unresolved |
 | bg1k_2848, bg1k_0442 | NC_051840.1:28808728–28809728, NC_051837.1:10430486–10431486 | Genomic comparators, not validated negative controls |
 
+Archived on Zenodo: [code, 10.5281/zenodo.23924322](https://doi.org/10.5281/zenodo.23924322) · [data and audit results, 10.5281/zenodo.23924327](https://doi.org/10.5281/zenodo.23924327) · [publication receipt](PUBLICATION_RECEIPT_20261012.json) (tag `audit-2026-10-12-r2`).
+
 Start with [the snapshot guide](RELEASE_20261012.md), then
 [the full results and inventories](08_CANDIDATE_CLOSURE_AUDIT/FINAL_RESULTS_20261012.md)
 and [the decision log](08_CANDIDATE_CLOSURE_AUDIT/CURRENT_STATE_AND_DECISIONS.md)
