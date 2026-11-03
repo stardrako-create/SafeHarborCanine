@@ -1,0 +1,8 @@
+{
+  "state": "failed",
+  "source": "https://cgl.gi.ucsc.edu/data/cactus/241-mammalian-2020v2.hal",
+  "byte_limit": 268435456,
+  "error": "Command '['/home/stardrako/miniforge3/envs/cactus/bin/hal2maf', '--refGenome', 'Canis_lupus_familiaris', '--refTargets', '/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/remote_HAL_cached_20261009/targets.bed', '--noAncestors', '--noDupes', '/home/stardrako/safeharbor_hal_cached_20261009/alignment.hal', '/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/remote_HAL_cached_20261009/three_regions.maf']' timed out after 3599.9999826880003 seconds",
+  "bytes": 217922179,
+  "requests": 3326
+}

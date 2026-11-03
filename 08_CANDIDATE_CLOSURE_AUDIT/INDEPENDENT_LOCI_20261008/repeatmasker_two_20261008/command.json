@@ -1,0 +1,10 @@
+[
+  "/home/stardrako/miniforge3/envs/cactus/bin/RepeatMasker",
+  "-species",
+  "dog",
+  "-pa",
+  "2",
+  "-dir",
+  "/mnt/d/Jin2024_work/two_repeats_20261008",
+  "/mnt/d/Jin2024_work/two_repeats_20261008/controls_context.fa"
+]

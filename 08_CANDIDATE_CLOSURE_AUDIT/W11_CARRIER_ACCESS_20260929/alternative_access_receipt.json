@@ -1,0 +1,22 @@
+{
+  "utc": "2026-09-29T15:31:06.234718+00:00",
+  "results": [
+    {
+      "endpoint": "sra_resolver",
+      "url": "https://locate.ncbi.nlm.nih.gov/sdl/2/retrieve?acc=SRR14750332&accept-alternate-locations=yes",
+      "status": 200,
+      "bytes": 1701,
+      "preview": "{\"version\": \"2\",\"result\": [{\"bundle\": \"SRR14750332\",\"status\": 200,\"msg\": \"ok\",\"files\": [{\"object\": \"remote|56936189\",\"accession\": \"SRR14750332\",\"type\""
+    },
+    {
+      "endpoint": "ena_alternate",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR14750332&result=read_run&fields=run_accession,fastq_ftp,fastq_bytes,fastq_md5&format=tsv",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "endpoint": "cram_http",
+      "url": "http://kiddlabshare.med.umich.edu/dog10K/cram-share/",
+      "error": "<urlopen error timed out>"
+    }
+  ]
+}

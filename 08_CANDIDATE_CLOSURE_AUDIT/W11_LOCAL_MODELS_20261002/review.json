@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-02T16:25:19.458783+00:00",
+  "second_boundary_spanning_alignments": 0,
+  "distinct_second_boundary_reads": 0,
+  "positive_margin_reads": 0,
+  "rows": [],
+  "limits": [
+    "Hypothesis screen of8local models, not exhaustive assembly",
+    "Repeat sequence taken from catalogue model; length164/181/208/300 is hypothetical",
+    "Return boundaries test no duplication or14bp overlap hypothesis, not proven structure",
+    "Local-only alignment MAPQ is not genomic specificity",
+    "Score comparisons across separate alignments are diagnostic, not likelihoods",
+    "Same local reads reused; failure does not exclude other lengths/sequences"
+  ]
+}

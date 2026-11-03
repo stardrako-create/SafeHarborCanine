@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-30T08:08:26.254892+00:00",
+  "pid": 8420,
+  "state": "download_verified",
+  "url": "https://sra-pub-run-odp.s3.dualstack.us-east-1.amazonaws.com/sra/SRR14750332/SRR14750332",
+  "destination": "C:\\Users\\Utilizador\\SafeHarborData\\SRR14750332\\SRR14750332.sra",
+  "expected_bytes": 26235010732,
+  "expected_md5": "035a1a8a3add18107a9cc8763acb6048",
+  "bytes": 26235010732,
+  "observed_md5": "035a1a8a3add18107a9cc8763acb6048"
+}

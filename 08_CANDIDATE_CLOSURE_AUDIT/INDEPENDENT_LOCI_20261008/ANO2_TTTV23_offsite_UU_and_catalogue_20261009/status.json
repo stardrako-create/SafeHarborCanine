@@ -1,0 +1,259 @@
+{
+  "state": "completed",
+  "stage": "review_complete",
+  "sites": 23,
+  "completed_queries": [
+    {
+      "site_id": "site0",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site1",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site2",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site3",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site4",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site5",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site6",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site7",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site8",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site9",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site10",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site11",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site12",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site13",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site14",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site15",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 2
+    },
+    {
+      "site_id": "site16",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site17",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site18",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site19",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site20",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site21",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site22",
+      "source": "AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site0",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site1",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site2",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site3",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site4",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site5",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site6",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site7",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site8",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site9",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site10",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site11",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site12",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site13",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site14",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site15",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site16",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site17",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site18",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 1
+    },
+    {
+      "site_id": "site19",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site20",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site21",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    },
+    {
+      "site_id": "site22",
+      "source": "AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "records": 0
+    }
+  ],
+  "errors": [],
+  "summary": [
+    {
+      "guide": "ANO2_TTTV23_1",
+      "sensitive_sites": 19,
+      "unique_contiguous_UU_targets": 19,
+      "UU_reference_hits": 0,
+      "PASS_single_SNP_model_hits": 0,
+      "nonPASS_single_SNP_model_hits": 0,
+      "unassessed_nonSNP_or_boundary_alleles": 3
+    },
+    {
+      "guide": "ANO2_TTTV23_2",
+      "sensitive_sites": 4,
+      "unique_contiguous_UU_targets": 4,
+      "UU_reference_hits": 0,
+      "PASS_single_SNP_model_hits": 0,
+      "nonPASS_single_SNP_model_hits": 0,
+      "unassessed_nonSNP_or_boundary_alleles": 0
+    }
+  ],
+  "utc_end": "2026-10-09T12:36:13.381239+00:00"
+}

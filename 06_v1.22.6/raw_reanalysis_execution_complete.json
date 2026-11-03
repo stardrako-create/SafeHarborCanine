@@ -1,0 +1,11 @@
+{
+  "status": "execution_complete_requires_QC_strandedness_identity_and_gene_mapping_review",
+  "samples": 9,
+  "genes": 42249,
+  "limitations": [
+    "No differential-expression inference performed",
+    "Counts are STAR gene-assigned reads/fragments, not UMI-deduplicated molecules",
+    "All three count orientations preserved; orientation not inferred silently",
+    "Single-pass annotated ROS alignment, not replication of original CanFam3.1 pipeline"
+  ]
+}

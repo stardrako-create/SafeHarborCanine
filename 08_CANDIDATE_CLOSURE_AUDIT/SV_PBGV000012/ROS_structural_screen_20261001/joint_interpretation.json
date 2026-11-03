@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "name": "SRR14750332.111779446_mate1",
+      "best_genomic_AS": 61,
+      "junction_spanning_hits_20bp_each_side": 0,
+      "best_spanning_junction_AS": null
+    },
+    {
+      "name": "SRR14750332.111779446_mate2",
+      "best_genomic_AS": 115,
+      "junction_spanning_hits_20bp_each_side": 0,
+      "best_spanning_junction_AS": null
+    },
+    {
+      "name": "SRR14750332.182767665_mate1",
+      "best_genomic_AS": 80,
+      "junction_spanning_hits_20bp_each_side": 0,
+      "best_spanning_junction_AS": null
+    },
+    {
+      "name": "SRR14750332.182767665_mate2",
+      "best_genomic_AS": 145,
+      "junction_spanning_hits_20bp_each_side": 0,
+      "best_spanning_junction_AS": null
+    }
+  ],
+  "criterion": "contiguous alignment block crossing synthetic offset1000 with>=20bp each side",
+  "scope": "four selected reads single-read competition; not paired likelihood"
+}

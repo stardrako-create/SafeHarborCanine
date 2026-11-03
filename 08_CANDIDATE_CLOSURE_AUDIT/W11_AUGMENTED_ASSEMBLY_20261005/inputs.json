@@ -1,0 +1,16 @@
+{
+  "pairs": 7358,
+  "singles": 4,
+  "added_names": [
+    "SRR14750332.171739498",
+    "SRR14750332.53211536"
+  ],
+  "sha256": {
+    "R1.fastq": "67aa4ef640be5d2044b09461b0f9fc13bfff77e9e9479e2881cfc6694285efee",
+    "R2.fastq": "196747a6a85c72626a26d0e7fbcba16302c9d6e54ffee791f7df5bee22be9f92",
+    "single.fastq": "c2e134e6e7c2184c21c684b634bd7f9cc5596f245e37aa4ba47ee873df593d47"
+  },
+  "limits": [
+    "Exploratory inclusion; new pairs not added to validated support counts"
+  ]
+}

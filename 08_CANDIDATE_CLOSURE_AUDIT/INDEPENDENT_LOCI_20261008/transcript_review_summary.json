@@ -1,0 +1,20 @@
+{
+  "reviewed": 54,
+  "additional_flags": {
+    "none_in_this_layer": 54
+  },
+  "feature_types_scanned": {
+    "mRNA": 49409,
+    "lnc_RNA": 18262,
+    "transcript": 3958,
+    "tRNA": 318,
+    "snoRNA": 375,
+    "snRNA": 885,
+    "miRNA": 355,
+    "guide_RNA": 19,
+    "rRNA": 18,
+    "SRP_RNA": 1
+  },
+  "status": "additional_annotation_review_not_final_control_panel",
+  "source_gff_sha256": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019"
+}

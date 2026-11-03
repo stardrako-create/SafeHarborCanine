@@ -1,0 +1,115 @@
+{
+  "utc": "2026-10-09T09:42:37.982904+00:00",
+  "sources": [
+    {
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/ANO2_star_genotype_context_20261009/AutoAndXPAR.SNPs.vqsr99.vcf",
+      "sha256": "f1a5c2ec9614ac860a19ab6f85b3c9860e08aeba998e28903cb570ee1b00463d"
+    },
+    {
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/ANO2_star_genotype_context_20261009/AutoAndXPAR.nonSNPs.filter.vcf",
+      "sha256": "df9d1315651c463447befe06ed29a5085b72e22dfb9e1d9f98397249445f208b"
+    }
+  ],
+  "results": [
+    {
+      "star_pos1": 6742368,
+      "deletion_pos1": 6742362,
+      "star_carriers": 1,
+      "carriers_with_deletion": 1,
+      "explicit_phase_matches": 0,
+      "carriers": [
+        {
+          "sample": "FOMD000001",
+          "star": {
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "PS": null
+          },
+          "deletion": {
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "PS": null
+          },
+          "deletion_present": true,
+          "shared_explicit_phase_set": false,
+          "matching_allele_slots": false
+        }
+      ]
+    },
+    {
+      "star_pos1": 6742773,
+      "deletion_pos1": 6742771,
+      "star_carriers": 1,
+      "carriers_with_deletion": 1,
+      "explicit_phase_matches": 0,
+      "carriers": [
+        {
+          "sample": "CLATUS000004",
+          "star": {
+            "GT": [
+              0,
+              2
+            ],
+            "phased": false,
+            "PS": null
+          },
+          "deletion": {
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "PS": null
+          },
+          "deletion_present": true,
+          "shared_explicit_phase_set": false,
+          "matching_allele_slots": false
+        }
+      ]
+    },
+    {
+      "star_pos1": 6742772,
+      "deletion_pos1": 6742771,
+      "star_carriers": 1,
+      "carriers_with_deletion": 1,
+      "explicit_phase_matches": 0,
+      "carriers": [
+        {
+          "sample": "CLATUS000004",
+          "star": {
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "PS": null
+          },
+          "deletion": {
+            "GT": [
+              0,
+              1
+            ],
+            "phased": false,
+            "PS": null
+          },
+          "deletion_present": true,
+          "shared_explicit_phase_set": false,
+          "matching_allele_slots": false
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Same catalogue and samples, not independent confirmation.",
+    "Co-occurrence of unphased genotypes does not establish cis haplotype.",
+    "No individual experimental donor is required or inferred."
+  ]
+}

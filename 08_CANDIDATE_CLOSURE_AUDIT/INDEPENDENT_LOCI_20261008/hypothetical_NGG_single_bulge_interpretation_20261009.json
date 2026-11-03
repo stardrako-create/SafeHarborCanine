@@ -1,0 +1,50 @@
+{
+  "state": "completed",
+  "selftest": {
+    "query_lengths": [
+      19,
+      21
+    ],
+    "queries": 36,
+    "alignments": 36,
+    "matches_exhaustive_bruteforce": true
+  },
+  "summary": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "guides": 46,
+      "no_other_locus_single_bulge_NGG_or_unknown_through_substitutions": {
+        "0": 45,
+        "1": 16,
+        "2": 0
+      },
+      "total_deduplicated_hits": 1480
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "guides": 39,
+      "no_other_locus_single_bulge_NGG_or_unknown_through_substitutions": {
+        "0": 38,
+        "1": 12,
+        "2": 0
+      },
+      "total_deduplicated_hits": 1482
+    },
+    {
+      "window": "NC_051831.1_39708074_39709074",
+      "guides": 41,
+      "no_other_locus_single_bulge_NGG_or_unknown_through_substitutions": {
+        "0": 38,
+        "1": 9,
+        "2": 0
+      },
+      "total_deduplicated_hits": 1650
+    }
+  ],
+  "source_sha256": "6ec7ef924cacc473dc3aa6199e1482842698504febf350b739840d5b7e9b1a39",
+  "limits": [
+    "Hypothetical canonicalNGG reference-only one-base-bulge analysis, not guide approval or actual nuclease choice.",
+    "Counts exclude alignments overlapping intended20nt interval, not a proof of absence of local shifted cleavage.",
+    "No new locus veto or zero-offtarget requirement imposed."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "state": "completed",
+  "results": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "PASS_indels": [
+        {
+          "id": "a678",
+          "window": "NC_051807.1_2091307_2092307",
+          "chrom": "NC_051807.1",
+          "start0": 2091788,
+          "ref": "TG",
+          "alt": "T",
+          "source_allele": {
+            "chrom": "chr3",
+            "uu_chrom": "NC_049224.1",
+            "pos1": 2203756,
+            "id": null,
+            "ref": "TG",
+            "alt": "T",
+            "alt_index1": 1,
+            "AF": 0.00025159999495372176,
+            "filters": [
+              "PASS"
+            ],
+            "reference_verified": true,
+            "within_exact_window": true,
+            "sequence_allele": true
+          },
+          "haplotype_equivalence_verified": true
+        }
+      ],
+      "synthetic_combinations": 2,
+      "checks": [
+        {
+          "indels_selected": [],
+          "guides_tested": {
+            "NGG20": 97,
+            "TTTV23": 24
+          },
+          "failed": [],
+          "sequence_sha256": "be5c44e828027bb32b0ffc091229c373a2996640a7ced44e1d20953629f489bf"
+        },
+        {
+          "indels_selected": [
+            "a678"
+          ],
+          "guides_tested": {
+            "NGG20": 97,
+            "TTTV23": 24
+          },
+          "failed": [],
+          "sequence_sha256": "ac680464d09aa74cdcefdfb5f79d5810e826ba401eed6063c9c52e4daadf4ca7"
+        }
+      ]
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "PASS_indels": [],
+      "synthetic_combinations": 1,
+      "checks": [
+        {
+          "indels_selected": [],
+          "guides_tested": {
+            "NGG20": 82,
+            "TTTV23": 42
+          },
+          "failed": [],
+          "sequence_sha256": "47692e9ee3bae42c5d6ef3b014ef81fa79943de9f5fea4f8e25027441090a2ad"
+        }
+      ]
+    }
+  ],
+  "source_sha256": "7bae8b72bf6414300e58aec22b6ed792829e3267fbbc8fcbc539cbbf2efc4289",
+  "limits": [
+    "Observed local PASS indels only, SNP/REF masks applied before constructing panels; no donor validation or populationwidealternate-genomeofftargets.",
+    "No indel observation is not evidence of no individual indels;1900 has zero known PASS indels in this query.",
+    "HypotheticalPAMpanels not actual nuclease or guide approval."
+  ]
+}

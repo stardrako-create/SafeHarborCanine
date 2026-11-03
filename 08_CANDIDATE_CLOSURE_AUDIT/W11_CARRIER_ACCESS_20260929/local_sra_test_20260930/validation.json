@@ -1,0 +1,22 @@
+{
+  "status": "100_paired_spots_extracted_and_format_checked",
+  "files": [
+    {
+      "file": "SRR14750332_1.fastq",
+      "reads": 100,
+      "lengths": [
+        150
+      ],
+      "sha256": "1e4e3a7ca4d65ac4014aed267902c215393819d91fda5b8fafae4a319292bc6f"
+    },
+    {
+      "file": "SRR14750332_2.fastq",
+      "reads": 100,
+      "lengths": [
+        150
+      ],
+      "sha256": "5b5f8fc440a3006f93b5d2f1012e67649abd0643e17845db5935dc951e697030"
+    }
+  ],
+  "limitation": "not full SRA validation or structural evidence"
+}

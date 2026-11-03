@@ -1,0 +1,5 @@
+{
+  "review_sha256": "cc542a1d7711839c7f536e62fba54f7207411b59db403502383c70c0abad467d",
+  "w11_exact_1000bp": true,
+  "scope": "assembly lengths and targeted alignments; no reciprocal breakpoint validation"
+}

@@ -1,0 +1,25 @@
+{
+  "state": "completed",
+  "hypothesis": "Canonical NGG20nt panel; one DNA or RNA bulge plus <=2 substitutions",
+  "guides": 126,
+  "queries": 9909,
+  "raw_alignments": 120655,
+  "source_sha256": "c9dc2d70dcd9d37b74e66608cafa4d186f12bb5ba2791e4776fbe55eac59a5b5",
+  "summary": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "guides": 46,
+      "no_single_bulge_hit": 0
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "guides": 39,
+      "no_single_bulge_hit": 0
+    },
+    {
+      "window": "NC_051831.1_39708074_39709074",
+      "guides": 41,
+      "no_single_bulge_hit": 0
+    }
+  ]
+}

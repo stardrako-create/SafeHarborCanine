@@ -1,0 +1,87 @@
+{
+  "utc": "2026-10-08T13:08:55.962515+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "NC_051805.1_1486678_1487678",
+  "mapping": {
+    "chrom": "NC_049222.1",
+    "start0": 1656545,
+    "end0": 1657545,
+    "cigar": "1000M",
+    "NM": 0,
+    "mapq": 60,
+    "strand": "+",
+    "primary": true,
+    "exact_sequence_verified": true
+  },
+  "vcf_contig": "chr1",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 4,
+  "allele_count": 4,
+  "alleles": [
+    {
+      "chrom": "chr1",
+      "uu_chrom": "NC_049222.1",
+      "pos1": 1656827,
+      "id": null,
+      "ref": "C",
+      "alt": "CAAA",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr1",
+      "uu_chrom": "NC_049222.1",
+      "pos1": 1657074,
+      "id": null,
+      "ref": "TTCA",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr1",
+      "uu_chrom": "NC_049222.1",
+      "pos1": 1657266,
+      "id": null,
+      "ref": "G",
+      "alt": "GCTCAATAATGGTGGA",
+      "alt_index1": 1,
+      "AF": 0.017999999225139618,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr1",
+      "uu_chrom": "NC_049222.1",
+      "pos1": 1657344,
+      "id": null,
+      "ref": "CT",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.001509999972768128,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "5b3e020113ea6266c0c817ef8144db6d137a0974e96351c95515aef972414286"
+}

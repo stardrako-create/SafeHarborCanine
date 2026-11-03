@@ -1,0 +1,663 @@
+{
+  "utc": "2026-10-08T13:08:03.101155+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+  "window": "NC_051827.1_4735013_4736013",
+  "mapping": {
+    "chrom": "NC_049244.1",
+    "start0": 4669211,
+    "end0": 4670211,
+    "cigar": "1000M",
+    "NM": 0,
+    "mapq": 60,
+    "strand": "+",
+    "primary": true,
+    "exact_sequence_verified": true
+  },
+  "vcf_contig": "chr23",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 34,
+  "allele_count": 40,
+  "alleles": [
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669229,
+      "id": null,
+      "ref": "G",
+      "alt": "*",
+      "alt_index1": 1,
+      "AF": 0.002265000017359853,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669229,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 2,
+      "AF": 0.0007548999856226146,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669230,
+      "id": null,
+      "ref": "C",
+      "alt": "*",
+      "alt_index1": 1,
+      "AF": 0.002265000017359853,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669230,
+      "id": null,
+      "ref": "C",
+      "alt": "G",
+      "alt_index1": 2,
+      "AF": 0.0012580000329762697,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669299,
+      "id": null,
+      "ref": "C",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669305,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669315,
+      "id": null,
+      "ref": "T",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.0017610000213608146,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669318,
+      "id": null,
+      "ref": "T",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669334,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.0007548999856226146,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669339,
+      "id": null,
+      "ref": "C",
+      "alt": "G",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669348,
+      "id": null,
+      "ref": "C",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.00025179999647662044,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669351,
+      "id": null,
+      "ref": "T",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.00558699993416667,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669354,
+      "id": null,
+      "ref": "A",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.0005088999751023948,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669370,
+      "id": null,
+      "ref": "C",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.001259000040590763,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669463,
+      "id": null,
+      "ref": "C",
+      "alt": "G",
+      "alt_index1": 1,
+      "AF": 0.001509999972768128,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669474,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669492,
+      "id": null,
+      "ref": "A",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.001006999984383583,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669502,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.0017610000213608146,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669506,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669518,
+      "id": null,
+      "ref": "T",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.005032999906688929,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669557,
+      "id": null,
+      "ref": "G",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669557,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 2,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669640,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669671,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.017000000923871994,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669687,
+      "id": null,
+      "ref": "G",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669745,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.0042779999785125256,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669746,
+      "id": null,
+      "ref": "G",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669766,
+      "id": null,
+      "ref": "A",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.001006999984383583,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669836,
+      "id": null,
+      "ref": "T",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669893,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669893,
+      "id": null,
+      "ref": "G",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669899,
+      "id": null,
+      "ref": "A",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.017000000923871994,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669899,
+      "id": null,
+      "ref": "A",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669914,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669914,
+      "id": null,
+      "ref": "C",
+      "alt": "*",
+      "alt_index1": 2,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": false
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4669979,
+      "id": null,
+      "ref": "G",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.005038000177592039,
+      "filters": [
+        "VQSRTrancheSNP99.90to100.00"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4670019,
+      "id": null,
+      "ref": "C",
+      "alt": "G",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4670068,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.0005032999906688929,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4670071,
+      "id": null,
+      "ref": "C",
+      "alt": "T",
+      "alt_index1": 1,
+      "AF": 0.001006999984383583,
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr23",
+      "uu_chrom": "NC_049244.1",
+      "pos1": 4670092,
+      "id": null,
+      "ref": "G",
+      "alt": "A",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "1d856b9984c71dd0ad952ed95eb86450f6df9173c166e5f3a22e81cdc077b904"
+}

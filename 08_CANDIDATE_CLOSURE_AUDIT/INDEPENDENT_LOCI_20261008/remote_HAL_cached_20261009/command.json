@@ -1,0 +1,1 @@
+["/mnt/d/Jin2024_work/httpfs_probe_20261009/extracted/usr/bin/httpfs2", "-f", "-t", "40", "http://127.0.0.1:36433/alignment.hal", "/home/stardrako/safeharbor_hal_cached_20261009", "-o", "ro"]

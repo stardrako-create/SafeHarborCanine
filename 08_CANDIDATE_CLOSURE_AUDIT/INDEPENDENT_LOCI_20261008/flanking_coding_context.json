@@ -1,0 +1,77 @@
+{
+  "source_sha256": "b0db7837de2e2a70b6449783de169fb3c9c58e3d18e82bc3f21362bc87b1117c",
+  "results": [
+    {
+      "id": "bg1k_1059",
+      "chrom": "NC_051831.1",
+      "window_start0": 19034940,
+      "window_end0": 19035940,
+      "left": {
+        "chrom": "NC_051831.1",
+        "start0": 18851337,
+        "end0": 18983048,
+        "gene": "FAR2",
+        "strand": "-"
+      },
+      "right": {
+        "chrom": "NC_051831.1",
+        "start0": 19441433,
+        "end0": 19773606,
+        "gene": "CCDC91",
+        "strand": "-"
+      },
+      "intergenic_start0": 18983048,
+      "intergenic_end0": 19441433,
+      "convergent": false,
+      "interpretation": "Flanking coding-gene interval is descriptive; not substituted for the original SHIP regional definition."
+    },
+    {
+      "id": "bg1k_1266",
+      "chrom": "NC_051807.1",
+      "window_start0": 2091307,
+      "window_end0": 2092307,
+      "left": {
+        "chrom": "NC_051807.1",
+        "start0": 1616584,
+        "end0": 1865772,
+        "gene": "TMEM232",
+        "strand": "+"
+      },
+      "right": {
+        "chrom": "NC_051807.1",
+        "start0": 2231899,
+        "end0": 2393978,
+        "gene": "MAN2A1",
+        "strand": "-"
+      },
+      "intergenic_start0": 1865772,
+      "intergenic_end0": 2231899,
+      "convergent": true,
+      "interpretation": "Flanking coding-gene interval is descriptive; not substituted for the original SHIP regional definition."
+    },
+    {
+      "id": "bg1k_1900",
+      "chrom": "NC_051814.1",
+      "window_start0": 43352999,
+      "window_end0": 43353999,
+      "left": {
+        "chrom": "NC_051814.1",
+        "start0": 43246933,
+        "end0": 43279880,
+        "gene": "LONRF2",
+        "strand": "+"
+      },
+      "right": {
+        "chrom": "NC_051814.1",
+        "start0": 43455380,
+        "end0": 43984215,
+        "gene": "AFF3",
+        "strand": "+"
+      },
+      "intergenic_start0": 43279880,
+      "intergenic_end0": 43455380,
+      "convergent": false,
+      "interpretation": "Flanking coding-gene interval is descriptive; not substituted for the original SHIP regional definition."
+    }
+  ]
+}

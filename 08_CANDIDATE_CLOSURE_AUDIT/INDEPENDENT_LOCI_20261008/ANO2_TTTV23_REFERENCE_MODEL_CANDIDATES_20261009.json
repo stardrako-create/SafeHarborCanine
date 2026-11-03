@@ -1,0 +1,42 @@
+{
+  "state": "completed",
+  "source_sha256": "d6fad896a15299f9eff56848e6569fb8c0eceadf3fd68f420a192dbc51a60379",
+  "tsv_sha256": "a3a1b105c191197fba792f6152887ad3c7a49c4473c2538e02bc42497a35fa37",
+  "results": [
+    {
+      "hypothesis_id": "ANO2_TTTV23_1",
+      "chrom": "NC_051831.1",
+      "protospacer_start0": 39708151,
+      "protospacer_end0": 39708174,
+      "strand": "+",
+      "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+      "PAM_5to3": "TTTC",
+      "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+      "off_locus_hits_in_defined_model": 0,
+      "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+      "guide_approved": false,
+      "actual_nuclease_selected": false
+    },
+    {
+      "hypothesis_id": "ANO2_TTTV23_2",
+      "chrom": "NC_051831.1",
+      "protospacer_start0": 39708436,
+      "protospacer_end0": 39708459,
+      "strand": "+",
+      "protospacer_5to3": "CCTCGGCTGTGTAATTCCTGGAG",
+      "PAM_5to3": "TTTC",
+      "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+      "off_locus_hits_in_defined_model": 0,
+      "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+      "guide_approved": false,
+      "actual_nuclease_selected": false
+    }
+  ],
+  "limits": [
+    "No actual nuclease selected; orthologue/variant-dependent recognition and activity.",
+    "ROS reference only, ungapped<=3 substitutions or onebasebulge<=2 substitutions; other models/alternategenomes not covered.",
+    "Unknown PAMs retained; overlapping intendedintervalbulgealignments excluded explicitly.",
+    "Zero hits in this defined search is not zero biologicalofftargets or computationalauditcompletion."
+  ],
+  "experimental_validation": false
+}

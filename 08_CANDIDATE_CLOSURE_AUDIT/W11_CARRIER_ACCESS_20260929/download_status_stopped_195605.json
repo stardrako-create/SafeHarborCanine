@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-29T19:56:05.129703+00:00",
+  "pid": 21040,
+  "state": "stopped",
+  "url": "https://sra-pub-run-odp.s3.dualstack.us-east-1.amazonaws.com/sra/SRR14750332/SRR14750332",
+  "destination": "C:\\Users\\Utilizador\\SafeHarborData\\SRR14750332\\SRR14750332.sra",
+  "expected_bytes": 26235010732,
+  "expected_md5": "035a1a8a3add18107a9cc8763acb6048",
+  "error": "<urlopen error [WinError 10054] An existing connection was forcibly closed by the remote host>",
+  "bytes": 15107883008
+}

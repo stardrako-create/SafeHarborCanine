@@ -1,0 +1,533 @@
+{
+  "utc": "2026-09-29T06:56:32.310271+00:00",
+  "source_sha256": "4ec2759002eb743649c7ffa977fa31c8e3122f57702bd97e572885c174bb6f8b",
+  "record_count": 11,
+  "event_groups": [
+    {
+      "event_id": "chr32:4697978:DG",
+      "pos1": 4697978,
+      "end1": 4698043,
+      "alts": [
+        "<DEL:SVSIZE=64:AGGREGATED>"
+      ],
+      "models": [
+        {
+          "id": "chr32:4697978:DG",
+          "model": "AGGREGATED",
+          "site_filters": [
+            "LowPratio"
+          ],
+          "sample_FT": "FAIL3",
+          "GT": [
+            1,
+            1
+          ]
+        },
+        {
+          "id": "chr32:4697978:DG.0",
+          "model": "BREAKPOINT",
+          "site_filters": [
+            "LowPratio"
+          ],
+          "sample_FT": "FAIL3",
+          "GT": [
+            1,
+            1
+          ]
+        }
+      ],
+      "distance_to_nearest_catalogue_boundary_bp": 9961,
+      "eligible_read_names": 35,
+      "reference_block_spanning_names": 0,
+      "cigar_events": [
+        {
+          "read": "SRR15734832.44699751",
+          "op": "S",
+          "pos0": 4697840,
+          "length": 23,
+          "mapq": 36,
+          "cigar": "23S67M3I19M1I9M3I15M10S"
+        },
+        {
+          "read": "SRR15734832.56567819",
+          "op": "S",
+          "pos0": 4698037,
+          "length": 20,
+          "mapq": 60,
+          "cigar": "20S130M"
+        },
+        {
+          "read": "SRR15734832.125916840",
+          "op": "S",
+          "pos0": 4698037,
+          "length": 48,
+          "mapq": 60,
+          "cigar": "48S102M"
+        },
+        {
+          "read": "SRR15734832.168231247",
+          "op": "S",
+          "pos0": 4698037,
+          "length": 61,
+          "mapq": 60,
+          "cigar": "61S89M"
+        },
+        {
+          "read": "SRR15734832.28293323",
+          "op": "S",
+          "pos0": 4698043,
+          "length": 83,
+          "mapq": 54,
+          "cigar": "83S67M"
+        },
+        {
+          "read": "SRR15734832.53056532",
+          "op": "S",
+          "pos0": 4698043,
+          "length": 69,
+          "mapq": 60,
+          "cigar": "69S81M"
+        },
+        {
+          "read": "SRR15734832.164716392",
+          "op": "S",
+          "pos0": 4698043,
+          "length": 88,
+          "mapq": 45,
+          "cigar": "88S62M"
+        }
+      ]
+    },
+    {
+      "event_id": "chr32:4707939:DG",
+      "pos1": 4707939,
+      "end1": 33613308,
+      "alts": [
+        "<DEL:SVSIZE=28905369:AGGREGATED>"
+      ],
+      "models": [
+        {
+          "id": "chr32:4707939:DG",
+          "model": "AGGREGATED",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "PASS",
+          "GT": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "chr32:4707939:DG.0",
+          "model": "BREAKPOINT",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "PASS",
+          "GT": [
+            0,
+            1
+          ]
+        }
+      ],
+      "distance_to_nearest_catalogue_boundary_bp": 0,
+      "eligible_read_names": 50,
+      "reference_block_spanning_names": 8,
+      "cigar_events": [
+        {
+          "read": "SRR15734832.19313490",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 25,
+          "mapq": 60,
+          "cigar": "125M25S"
+        },
+        {
+          "read": "SRR15734832.6766145",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 31,
+          "mapq": 60,
+          "cigar": "119M31S"
+        },
+        {
+          "read": "SRR15734832.115369889",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 44,
+          "mapq": 60,
+          "cigar": "106M44S"
+        },
+        {
+          "read": "SRR15734832.33443366",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 47,
+          "mapq": 60,
+          "cigar": "103M47S"
+        },
+        {
+          "read": "SRR15734832.66864324",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 50,
+          "mapq": 60,
+          "cigar": "100M50S"
+        },
+        {
+          "read": "SRR15734832.27628065",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 66,
+          "mapq": 60,
+          "cigar": "84M66S"
+        },
+        {
+          "read": "SRR15734832.42922787",
+          "op": "S",
+          "pos0": 4707939,
+          "length": 71,
+          "mapq": 60,
+          "cigar": "79M71S"
+        },
+        {
+          "read": "SRR15734832.132880416",
+          "op": "S",
+          "pos0": 4707925,
+          "length": 77,
+          "mapq": 60,
+          "cigar": "77S73M"
+        }
+      ]
+    },
+    {
+      "event_id": "chr32:33603955:DG",
+      "pos1": 33603955,
+      "end1": 33604025,
+      "alts": [
+        "<DEL:SVSIZE=70:AGGREGATED>"
+      ],
+      "models": [
+        {
+          "id": "chr32:33603955:DG",
+          "model": "AGGREGATED",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "PASS",
+          "GT": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "chr32:33603955:DG.0",
+          "model": "BREAKPOINT",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "PASS",
+          "GT": [
+            0,
+            1
+          ]
+        }
+      ],
+      "distance_to_nearest_catalogue_boundary_bp": 9353,
+      "eligible_read_names": 39,
+      "reference_block_spanning_names": 4,
+      "cigar_events": [
+        {
+          "read": "SRR15734832.154050273",
+          "op": "S",
+          "pos0": 33603955,
+          "length": 21,
+          "mapq": 60,
+          "cigar": "129M21S"
+        },
+        {
+          "read": "SRR15734832.135316548",
+          "op": "S",
+          "pos0": 33603955,
+          "length": 26,
+          "mapq": 60,
+          "cigar": "124M26S"
+        },
+        {
+          "read": "SRR15734832.100582043",
+          "op": "S",
+          "pos0": 33603955,
+          "length": 30,
+          "mapq": 60,
+          "cigar": "120M30S"
+        },
+        {
+          "read": "SRR15734832.82777787",
+          "op": "S",
+          "pos0": 33603955,
+          "length": 31,
+          "mapq": 60,
+          "cigar": "119M31S"
+        },
+        {
+          "read": "SRR15734832.172753104",
+          "op": "S",
+          "pos0": 33603955,
+          "length": 34,
+          "mapq": 60,
+          "cigar": "116M34S"
+        },
+        {
+          "read": "SRR15734832.164763114",
+          "op": "S",
+          "pos0": 33603955,
+          "length": 67,
+          "mapq": 60,
+          "cigar": "83M67S"
+        },
+        {
+          "read": "SRR15734832.2165029",
+          "op": "S",
+          "pos0": 33604025,
+          "length": 71,
+          "mapq": 60,
+          "cigar": "71S79M"
+        },
+        {
+          "read": "SRR15734832.100582043",
+          "op": "S",
+          "pos0": 33604025,
+          "length": 54,
+          "mapq": 60,
+          "cigar": "54S96M"
+        }
+      ]
+    },
+    {
+      "event_id": "chr32:33605795:FG",
+      "pos1": 33605795,
+      "end1": 33605795,
+      "alts": [
+        "<INS:SVSIZE=206:AGGREGATED>"
+      ],
+      "models": [
+        {
+          "id": "chr32:33605795:FG",
+          "model": "AGGREGATED",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "FAIL1",
+          "GT": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "chr32:33605795:FG.0",
+          "model": "BREAKPOINT1",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "FAIL1",
+          "GT": [
+            0,
+            1
+          ]
+        }
+      ],
+      "distance_to_nearest_catalogue_boundary_bp": 7513,
+      "eligible_read_names": 47,
+      "reference_block_spanning_names": 8,
+      "cigar_events": [
+        {
+          "read": "SRR15734832.8571469",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 28,
+          "mapq": 60,
+          "cigar": "122M28S"
+        },
+        {
+          "read": "SRR15734832.162817829",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 38,
+          "mapq": 60,
+          "cigar": "112M38S"
+        },
+        {
+          "read": "SRR15734832.121968403",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 46,
+          "mapq": 60,
+          "cigar": "104M46S"
+        },
+        {
+          "read": "SRR15734832.171726728",
+          "op": "S",
+          "pos0": 33605797,
+          "length": 60,
+          "mapq": 60,
+          "cigar": "90M60S"
+        },
+        {
+          "read": "SRR15734832.178196300",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 54,
+          "mapq": 60,
+          "cigar": "96M54S"
+        },
+        {
+          "read": "SRR15734832.24079285",
+          "op": "S",
+          "pos0": 33605795,
+          "length": 22,
+          "mapq": 60,
+          "cigar": "22S128M"
+        }
+      ]
+    },
+    {
+      "event_id": "chr32:33605796:OG",
+      "pos1": 33605796,
+      "end1": 33605796,
+      "alts": [
+        "[chr22:59599090[A"
+      ],
+      "models": [
+        {
+          "id": "chr32:33605796:OG",
+          "model": "AGGREGATED",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": null,
+          "GT": [
+            0,
+            1
+          ]
+        }
+      ],
+      "distance_to_nearest_catalogue_boundary_bp": 7512,
+      "eligible_read_names": 47,
+      "reference_block_spanning_names": 8,
+      "cigar_events": [
+        {
+          "read": "SRR15734832.8571469",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 28,
+          "mapq": 60,
+          "cigar": "122M28S"
+        },
+        {
+          "read": "SRR15734832.162817829",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 38,
+          "mapq": 60,
+          "cigar": "112M38S"
+        },
+        {
+          "read": "SRR15734832.121968403",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 46,
+          "mapq": 60,
+          "cigar": "104M46S"
+        },
+        {
+          "read": "SRR15734832.171726728",
+          "op": "S",
+          "pos0": 33605797,
+          "length": 60,
+          "mapq": 60,
+          "cigar": "90M60S"
+        },
+        {
+          "read": "SRR15734832.178196300",
+          "op": "S",
+          "pos0": 33605809,
+          "length": 54,
+          "mapq": 60,
+          "cigar": "96M54S"
+        },
+        {
+          "read": "SRR15734832.24079285",
+          "op": "S",
+          "pos0": 33605795,
+          "length": 22,
+          "mapq": 60,
+          "cigar": "22S128M"
+        }
+      ]
+    },
+    {
+      "event_id": "chr32:33621339:FG",
+      "pos1": 33621339,
+      "end1": 33621340,
+      "alts": [
+        "<INS:SVSIZE=211:AGGREGATED>"
+      ],
+      "models": [
+        {
+          "id": "chr32:33621339:FG",
+          "model": "AGGREGATED",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "PASS",
+          "GT": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "chr32:33621339:FG.0",
+          "model": "BREAKPOINT1",
+          "site_filters": [
+            "PASS"
+          ],
+          "sample_FT": "PASS",
+          "GT": [
+            0,
+            1
+          ]
+        }
+      ],
+      "distance_to_nearest_catalogue_boundary_bp": 8031,
+      "eligible_read_names": 48,
+      "reference_block_spanning_names": 6,
+      "cigar_events": [
+        {
+          "read": "SRR15734832.73281241",
+          "op": "S",
+          "pos0": 33621358,
+          "length": 40,
+          "mapq": 60,
+          "cigar": "84M1D26M40S"
+        },
+        {
+          "read": "SRR15734832.105784037",
+          "op": "S",
+          "pos0": 33621340,
+          "length": 67,
+          "mapq": 33,
+          "cigar": "67S83M"
+        }
+      ]
+    }
+  ],
+  "method": "Group model suffixes by base record ID. Inspect primary nonduplicate QC-passing MAPQ>=30 alignments within200bp of each POS. Report I/D/S>=20bp near POS; descriptive screen, not variant calling.",
+  "limits": [
+    "Grouping is catalogue identity, not demonstrated biological independence",
+    "Missing FT is unknown, not PASS",
+    "CIGAR events are not necessarily support for symbolic ALT; small/complex events and low MAPQ reads excluded",
+    "Regional retention and read names do not establish independent molecules",
+    "Calls several kb from a boundary do not directly explain the seven selected 150bp reads; no causal inference"
+  ]
+}

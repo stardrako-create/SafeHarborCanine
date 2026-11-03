@@ -1,0 +1,32 @@
+{
+  "state": "completed",
+  "hypothesis": "Exploratory23nt target with5prime canonicalTTTV; not actual nuclease selection",
+  "guides": 80,
+  "raw_alignments": 140506,
+  "source_urls": [
+    "https://www.neb.com/en-us/products/m0653-engen-lba-cas12a-cpf1",
+    "https://www.neb.com/faqs/how-do-i-design-a-guide-rna-for-use-with-engen-lba-cas12a"
+  ],
+  "mode": "bulge",
+  "queries": 7151,
+  "summary": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "guides": 24,
+      "no_ungapped_hits_through3_and_no_single_bulge_hits_through2": 8,
+      "no_ungapped_hits_through3": 17
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "guides": 42,
+      "no_ungapped_hits_through3_and_no_single_bulge_hits_through2": 14,
+      "no_ungapped_hits_through3": 27
+    },
+    {
+      "window": "NC_051831.1_39708074_39709074",
+      "guides": 14,
+      "no_ungapped_hits_through3_and_no_single_bulge_hits_through2": 5,
+      "no_ungapped_hits_through3": 9
+    }
+  ]
+}

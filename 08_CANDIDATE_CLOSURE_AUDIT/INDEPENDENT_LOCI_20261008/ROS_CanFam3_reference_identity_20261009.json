@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "id": "bg1k_1059",
+      "strand": "+",
+      "matched_bp": 1000,
+      "mismatches": [],
+      "ROS_sequence_sha256": "bfaa9dcdc2d71a127635443d735be7e655ccb0444da660294b1d18e40aa6f1a0",
+      "CanFam3_oriented_sha256": "bfaa9dcdc2d71a127635443d735be7e655ccb0444da660294b1d18e40aa6f1a0",
+      "response_sha256": "e27dd93814bff72883f4d1e51db92860a04a18eec2aa208c2cd84a87a5484cec"
+    },
+    {
+      "id": "bg1k_1266",
+      "strand": "+",
+      "matched_bp": 1000,
+      "mismatches": [],
+      "ROS_sequence_sha256": "be5c44e828027bb32b0ffc091229c373a2996640a7ced44e1d20953629f489bf",
+      "CanFam3_oriented_sha256": "be5c44e828027bb32b0ffc091229c373a2996640a7ced44e1d20953629f489bf",
+      "response_sha256": "a57a00f6ccd3929d473d11e51a7e72adf11f7ad29b7749004bb86bd9e504002d"
+    },
+    {
+      "id": "bg1k_1900",
+      "strand": "+",
+      "matched_bp": 1000,
+      "mismatches": [],
+      "ROS_sequence_sha256": "47692e9ee3bae42c5d6ef3b014ef81fa79943de9f5fea4f8e25027441090a2ad",
+      "CanFam3_oriented_sha256": "47692e9ee3bae42c5d6ef3b014ef81fa79943de9f5fea4f8e25027441090a2ad",
+      "response_sha256": "73eeef7b700f6dfe30733cfc03aba218aae4d74cb1a5190d65e8d01b8588d4c1"
+    }
+  ],
+  "limitation": "Coordinate mapping is complete and round-trip reviewed; assembly sequence differences explicitly retained, not treated as individual variants or biological confirmation."
+}

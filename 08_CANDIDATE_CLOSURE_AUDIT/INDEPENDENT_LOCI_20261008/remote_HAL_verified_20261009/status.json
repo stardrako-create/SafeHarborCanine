@@ -1,0 +1,10 @@
+{
+  "state": "failed",
+  "source": "https://cgl.gi.ucsc.edu/data/cactus/241-mammalian-2020v2.hal",
+  "byte_limit": 268435456,
+  "proxy_error": "[Errno 13] Permission denied: '/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/remote_HAL_verified_20261009/status.tmp' -> '/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/remote_HAL_verified_20261009/status.json'",
+  "error": "hal2maf failed",
+  "bytes": 0,
+  "requests": 0,
+  "cache_hits": 634
+}

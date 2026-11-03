@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/extract_verified_HAL.py", line 72, in <module>
+    assert r.returncode==0,'hal2maf failed';status['state']='completed'
+           ^^^^^^^^^^^^^^^
+AssertionError: hal2maf failed

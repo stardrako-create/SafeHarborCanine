@@ -1,0 +1,103 @@
+{
+  "utc": "2026-10-05T12:16:42.628551+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "NC_051836.1_27070204_27071204",
+  "mapping": {
+    "chrom": "NC_049253.1",
+    "start0": 13049605,
+    "end0": 13050605,
+    "cigar": "1000M",
+    "NM": 0,
+    "mapq": 60,
+    "strand": "-",
+    "primary": true,
+    "exact_sequence_verified": true
+  },
+  "vcf_contig": "chr32",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 4,
+  "allele_count": 5,
+  "alleles": [
+    {
+      "chrom": "chr32",
+      "uu_chrom": "NC_049253.1",
+      "pos1": 13049649,
+      "id": null,
+      "ref": "C",
+      "alt": "CTG",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr32",
+      "uu_chrom": "NC_049253.1",
+      "pos1": 13050034,
+      "id": null,
+      "ref": "GTGTT",
+      "alt": "G",
+      "alt_index1": 1,
+      "AF": 0.33899998664855957,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr32",
+      "uu_chrom": "NC_049253.1",
+      "pos1": 13050077,
+      "id": null,
+      "ref": "TA",
+      "alt": "TAA",
+      "alt_index1": 1,
+      "AF": 0.003019999945536256,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr32",
+      "uu_chrom": "NC_049253.1",
+      "pos1": 13050077,
+      "id": null,
+      "ref": "TA",
+      "alt": "T",
+      "alt_index1": 2,
+      "AF": 0.001509999972768128,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr32",
+      "uu_chrom": "NC_049253.1",
+      "pos1": 13050423,
+      "id": null,
+      "ref": "A",
+      "alt": "AT",
+      "alt_index1": 1,
+      "AF": 0.25099998712539673,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "f87f81e6067b9babf5f0c5da30f18e78c4aa82d09ec120110579957f88350ffb"
+}

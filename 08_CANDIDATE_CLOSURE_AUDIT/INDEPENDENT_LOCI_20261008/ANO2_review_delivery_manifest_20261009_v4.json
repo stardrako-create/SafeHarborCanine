@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-09T12:43:09.8317676Z",
+  "complete_audit_approval": false,
+  "experimental_validation": false,
+  "sources": [
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\ALL_CANDIDATES_20261005\\ANO2_REVIEW_AND_DEPENDENCIES_20261009_v4.md",
+      "sha256": "85c20a4507695e854b8a3a066a676ed7935256403a6783c3582bd8bc87243f46"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_TTTV23_offsite_UU_and_catalogue_20261009\\results.json",
+      "sha256": "c0b2687114f1d522c0b4e011af98213aa3d34cbb2735231ba9bc11ac366fcc2e"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_offsite_three_indels_20261009\\receipt.json",
+      "sha256": "b37c63bf3cc79cf6369efb12c7c10e36327755e4618a89d64ed2baef569a48f8"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_offsite_catalogue_combinations_20261009\\receipt.json",
+      "sha256": "261aa62b65d4dadad761a5bbc1287be5b990d49fa26d2cd3416686f5ac68f228"
+    }
+  ]
+}

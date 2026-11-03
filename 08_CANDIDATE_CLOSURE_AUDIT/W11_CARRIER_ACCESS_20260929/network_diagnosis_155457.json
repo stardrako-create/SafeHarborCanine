@@ -1,0 +1,27 @@
+[
+  {
+    "host": "sra-pub-run-odp.s3.amazonaws.com",
+    "out": "{\"host\": \"sra-pub-run-odp.s3.amazonaws.com\", \"elapsed\": 6.078280448913574, \"results\": [{\"address\": \"16.15.236.107\", \"family\": 2, \"tcp\": \"timed out\"}, {\"address\": \"16.15.246.182\", \"family\": 2, \"tcp\": \"timed out\"}, {\"address\": \"54.231.128.178\", \"family\": 2, \"tcp\": \"timed out\"}]}\n",
+    "error": ""
+  },
+  {
+    "host": "locate.ncbi.nlm.nih.gov",
+    "out": "{\"host\": \"locate.ncbi.nlm.nih.gov\", \"elapsed\": 2.2319724559783936, \"results\": [{\"address\": \"2607:f220:41e:4290::113\", \"family\": 23, \"tcp\": \"connected\"}, {\"address\": \"130.14.29.113\", \"family\": 2, \"tcp\": \"timed out\"}]}\n",
+    "error": ""
+  },
+  {
+    "host": "www.ebi.ac.uk",
+    "out": "{\"host\": \"www.ebi.ac.uk\", \"elapsed\": 2.077770233154297, \"results\": [{\"address\": \"193.62.193.80\", \"family\": 2, \"tcp\": \"timed out\"}]}\n",
+    "error": ""
+  },
+  {
+    "host": "kiddlabshare.med.umich.edu",
+    "out": "{\"host\": \"kiddlabshare.med.umich.edu\", \"elapsed\": 2.139374017715454, \"results\": [{\"address\": \"141.214.2.62\", \"family\": 2, \"tcp\": \"timed out\"}]}\n",
+    "error": ""
+  },
+  {
+    "host": "sra-downloadb.be-md.ncbi.nlm.nih.gov",
+    "out": "{\"host\": \"sra-downloadb.be-md.ncbi.nlm.nih.gov\", \"elapsed\": 2.3886454105377197, \"results\": [{\"address\": \"2607:f220:41e:250::26\", \"family\": 23, \"tcp\": \"connected\"}, {\"address\": \"130.14.250.26\", \"family\": 2, \"tcp\": \"timed out\"}]}\n",
+    "error": ""
+  }
+]

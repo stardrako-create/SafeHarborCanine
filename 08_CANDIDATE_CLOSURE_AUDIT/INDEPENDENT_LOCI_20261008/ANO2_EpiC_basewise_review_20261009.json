@@ -1,0 +1,146 @@
+{
+  "utc": "2026-10-09T10:16:07.635885+00:00",
+  "window": "NC_051831.1_39708074_39709074",
+  "mapping_sha256": "3ce902a7bb8e12278e23ab6e17d59bcf2a0654c0635d89105fce479edb784064",
+  "results": [
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/CL_13_dense.bed.gz",
+      "tissue": "CL",
+      "sha256": "ebe91be74abb4925fdce01c351de1e607b7b07c2e4641d981e27003bb12759ca",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/CO_13_dense.bed.gz",
+      "tissue": "CO",
+      "sha256": "579742593d47f520b006d99d552032f1c75648f3ef3c27cff61bd0f25455af63",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/CR_13_dense.bed.gz",
+      "tissue": "CR",
+      "sha256": "d63d66043980d0e575b7d0ca5844f01695a3cbed4f5b22213a798a194a910f0e",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/KI_13_dense.bed.gz",
+      "tissue": "KI",
+      "sha256": "36e7503510f0f3c1d7028c921e58e14ddbb12a7e9b2dad7352aaef5af6949998",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/LI_13_dense.bed.gz",
+      "tissue": "LI",
+      "sha256": "55150ec6f7fcd2130e487cf43cfafca274d1471224291a62c718211701b3cd30",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/LU_13_dense.bed.gz",
+      "tissue": "LU",
+      "sha256": "8202a87b69d41d7824445b28b0c2657fdd31c1e5c788283099e449c1d00f2118",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/MG_13_dense.bed.gz",
+      "tissue": "MG",
+      "sha256": "9cc6a1e93853b0744f135cbe025d8e44c7e85b195d6ebf8880e0f177c5fafba4",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/OV_13_dense.bed.gz",
+      "tissue": "OV",
+      "sha256": "3e56dff9b24060d968bdfc716340a139b0c8707675b52576cdafca8a4a7483e3",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/PA_13_dense.bed.gz",
+      "tissue": "PA",
+      "sha256": "971ae67f7b46b2e4859d653686ad93e82a06973c592dc9649d4ad47863884826",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/SP_13_dense.bed.gz",
+      "tissue": "SP",
+      "sha256": "70fb09484f67b88ec83020e9141c309c285e7624174ec77afab0cc58f9bc1c8a",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.5/external_sources/ST_13_dense.bed.gz",
+      "tissue": "ST",
+      "sha256": "56e0a8766a87ae0c12ffc1b6cccc16bbdf8cf2451357e79506a0272abc0f3918",
+      "mapped_ROS_bp": 1000,
+      "annotated_ROS_bp": 1000,
+      "state_bp": {
+        "13": 1000
+      },
+      "promoter_enhancer_ROS_bp": 0,
+      "promoter_enhancer_hits": []
+    }
+  ],
+  "complete_annotation_in_all_sources": true,
+  "any_promoter_enhancer_hit": false,
+  "limitations": [
+    "Exact per-base intersection of all1000 uniquely projected ROS positions, not a contiguous envelope approximation.",
+    "Source state1-7 interpretation unchanged from existing pipeline.",
+    "No CAR-T-specific regulatory isolation or biological safety demonstration."
+  ]
+}

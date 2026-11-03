@@ -1,0 +1,1876 @@
+{
+  "utc": "2026-10-08T17:42:57.518774+00:00",
+  "source_sha256": {
+    "TAD_clear_queue.json": "425332d5c0fc2181acc230cc7671a456d460cb25fcb6618c9fdb6448a5b8bf6d",
+    "EpiC_roundtrip_and_state_review.json": "251e5a0584742eae53a65a2e02ab0b6100453e64c709f8b3618e02e4d4714204",
+    "UU_projection/projection_review.json": "33f5eb0928296ca392d110913ede5baae160bea1bffb8058b309ff03a4acb3f0",
+    "SV_all_windows/status.json": "825372173470d35b3d0053018b4c6e63f4ab2f6b6623ca39a1ce6e2c5338181c",
+    "sequence_RRBS_review.json": "99a42829fe23b0a0e672f90a3ef36a319e7ff4cf607df71d6160a4376218e54e",
+    "variant_catalogue_query_drop_samples/status.json": "3c63a1cf0c1838d6e5179de268e6179c7a6593f5ddf9eab91ac209d05faa6ffb"
+  },
+  "counts": {
+    "windows": 54,
+    "with_SV_hit": 23,
+    "EpiC_clear_no_SV_hit": 9,
+    "exact_UU_EpiC_clear_no_SV_hit": 2,
+    "completed_variant_queries": 42,
+    "query_errors": 0
+  },
+  "results": [
+    {
+      "id": "bg1k_0028",
+      "chrom": "NC_051833.1",
+      "start0": "11531417",
+      "end0": "11532417",
+      "atac_mean": "1.0256683205366135",
+      "atac_percentile": "59.84516997643891",
+      "GC": "0.481",
+      "GC_distance_w01": "0.07",
+      "coding_TSS_distance": "130669",
+      "miRNA_distance": "2829772",
+      "risk_gene_distance": "1604654",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051833.1_11531417_11532417",
+      "SV_hits": [
+        {
+          "query": "NC_051833.1_11531417_11532417",
+          "contig": "chr29",
+          "pos1": 4870091,
+          "end0": 25636282,
+          "id": "chr29:4870091:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=20766191:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 117,
+      "RRBS_observed_mean": 74.05323524149055,
+      "softmasked_bp": 311,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0032",
+      "chrom": "NC_051822.1",
+      "start0": "31499321",
+      "end0": "31500321",
+      "atac_mean": "1.0642509586811066",
+      "atac_percentile": "69.6398519017166",
+      "GC": "0.384",
+      "GC_distance_w01": "0.02699999999999997",
+      "coding_TSS_distance": "636971",
+      "miRNA_distance": "2100689",
+      "risk_gene_distance": "781230",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051822.1_31499321_31500321",
+      "SV_hits": [
+        {
+          "query": "NC_051822.1_31499321_31500321",
+          "contig": "chr18",
+          "pos1": 17216779,
+          "end0": 40496078,
+          "id": "chr18:17216779:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=23279299:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 71,
+      "RRBS_observed_mean": 100.0,
+      "softmasked_bp": 219,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0182",
+      "chrom": "NC_051809.1",
+      "start0": "28289785",
+      "end0": "28290785",
+      "atac_mean": "1.1194703632593155",
+      "atac_percentile": "79.13160552002692",
+      "GC": "0.406",
+      "GC_distance_w01": "0.004999999999999949",
+      "coding_TSS_distance": "265114",
+      "miRNA_distance": "2813274",
+      "risk_gene_distance": "738857",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051809.1_28289785_28290785",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 100,
+      "RRBS_observed_mean": 27.152695178985596,
+      "softmasked_bp": 105,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0186",
+      "chrom": "NC_051810.1",
+      "start0": "34191173",
+      "end0": "34192173",
+      "atac_mean": "1.0206659123301507",
+      "atac_percentile": "58.46516324469876",
+      "GC": "0.396",
+      "GC_distance_w01": "0.014999999999999958",
+      "coding_TSS_distance": "454307",
+      "miRNA_distance": "2623475",
+      "risk_gene_distance": "676859",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051810.1_34191173_34192173",
+      "SV_hits": [
+        {
+          "query": "NC_051810.1_34191173_34192173",
+          "contig": "chr6",
+          "pos1": 30773053,
+          "end0": 42118681,
+          "id": "chr6:30773053:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=11345628:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 131,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0209",
+      "chrom": "NC_051806.1",
+      "start0": "71237525",
+      "end0": "71238525",
+      "atac_mean": "1.2902605369687081",
+      "atac_percentile": "91.75361831033322",
+      "GC": "0.54",
+      "GC_distance_w01": "0.12900000000000006",
+      "coding_TSS_distance": "451827",
+      "miRNA_distance": "5370618",
+      "risk_gene_distance": "632071",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051806.1_71237525_71238525",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 250,
+      "RRBS_observed_mean": 60.0,
+      "softmasked_bp": 303,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0266",
+      "chrom": "NC_051808.1",
+      "start0": "64832915",
+      "end0": "64833915",
+      "atac_mean": "1.0360242618096842",
+      "atac_percentile": "62.67250084146752",
+      "GC": "0.315",
+      "GC_distance_w01": "0.09599999999999997",
+      "coding_TSS_distance": "54986",
+      "miRNA_distance": "4815801",
+      "risk_gene_distance": "2065956",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051808.1_64832915_64833915",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 100,
+      "RRBS_observed_mean": 66.66011810302734,
+      "softmasked_bp": 713,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0272",
+      "chrom": "NC_051830.1",
+      "start0": "35147473",
+      "end0": "35148473",
+      "atac_mean": "1.066482895553112",
+      "atac_percentile": "70.01009761023225",
+      "GC": "0.425",
+      "GC_distance_w01": "0.014000000000000012",
+      "coding_TSS_distance": "232134",
+      "miRNA_distance": "2817248",
+      "risk_gene_distance": "1133632",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051830.1_35147473_35148473",
+      "SV_hits": [
+        {
+          "query": "NC_051830.1_35147473_35148473",
+          "contig": "chr26",
+          "pos1": 33755296,
+          "end0": 33929406,
+          "id": "chr26:33755296:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=174110:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 200,
+      "RRBS_observed_mean": 52.442267417907715,
+      "softmasked_bp": 171,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0285",
+      "chrom": "NC_051810.1",
+      "start0": "54092951",
+      "end0": "54093951",
+      "atac_mean": "1.0121945571303368",
+      "atac_percentile": "56.4792998990239",
+      "GC": "0.429",
+      "GC_distance_w01": "0.018000000000000016",
+      "coding_TSS_distance": "371189",
+      "miRNA_distance": "2097284",
+      "risk_gene_distance": "514299",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051810.1_54092951_54093951",
+      "SV_hits": [
+        {
+          "query": "NC_051810.1_54092951_54093951",
+          "contig": "chr6",
+          "pos1": 54207593,
+          "end0": 54207593,
+          "id": "chr6:54207593:FG",
+          "SVTYPE": "INS",
+          "alts": [
+            "<INS:SVSIZE=218:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 277,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0313",
+      "chrom": "NC_051828.1",
+      "start0": "41753808",
+      "end0": "41754808",
+      "atac_mean": "1.0097578664422036",
+      "atac_percentile": "55.705149781218445",
+      "GC": "0.407",
+      "GC_distance_w01": "0.0040000000000000036",
+      "coding_TSS_distance": "278426",
+      "miRNA_distance": "5596785",
+      "risk_gene_distance": "541432",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051828.1_41753808_41754808",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 110,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0334",
+      "chrom": "NC_051825.1",
+      "start0": "16855903",
+      "end0": "16856903",
+      "atac_mean": "1.0109108077287674",
+      "atac_percentile": "56.0753954897341",
+      "GC": "0.374",
+      "GC_distance_w01": "0.03699999999999998",
+      "coding_TSS_distance": "311532",
+      "miRNA_distance": "2881961",
+      "risk_gene_distance": "903510",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051825.1_16855903_16856903",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 130,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0403",
+      "chrom": "NC_051810.1",
+      "start0": "34396997",
+      "end0": "34397997",
+      "atac_mean": "1.0803747733235358",
+      "atac_percentile": "72.7364523729384",
+      "GC": "0.44",
+      "GC_distance_w01": "0.029000000000000026",
+      "coding_TSS_distance": "660131",
+      "miRNA_distance": "2829299",
+      "risk_gene_distance": "882683",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051810.1_34396997_34397997",
+      "SV_hits": [
+        {
+          "query": "NC_051810.1_34396997_34397997",
+          "contig": "chr6",
+          "pos1": 30773053,
+          "end0": 42118681,
+          "id": "chr6:30773053:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=11345628:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 155,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0455",
+      "chrom": "NC_051805.1",
+      "start0": "121281018",
+      "end0": "121282018",
+      "atac_mean": "1.0765227367281913",
+      "atac_percentile": "71.96230225513295",
+      "GC": "0.481",
+      "GC_distance_w01": "0.07",
+      "coding_TSS_distance": "292836",
+      "miRNA_distance": "1765548",
+      "risk_gene_distance": "875808",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051805.1_121281018_121282018",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 368,
+      "RRBS_observed_mean": 89.11355630211209,
+      "softmasked_bp": 183,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0529",
+      "chrom": "NC_051805.1",
+      "start0": "9698901",
+      "end0": "9699901",
+      "atac_mean": "1.0096784068346023",
+      "atac_percentile": "55.6714910804443",
+      "GC": "0.354",
+      "GC_distance_w01": "0.056999999999999995",
+      "coding_TSS_distance": "194343",
+      "miRNA_distance": "7774267",
+      "risk_gene_distance": "1744666",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051805.1_9698901_9699901",
+      "SV_hits": [
+        {
+          "query": "NC_051805.1_9698901_9699901",
+          "contig": "chr1",
+          "pos1": 9007083,
+          "end0": 10071262,
+          "id": "chr1:9007083:UG",
+          "SVTYPE": "DUP",
+          "alts": [
+            "<DUP:SVSIZE=1064179:AGGREGATED>"
+          ],
+          "filters": [
+            "LowQD"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        },
+        {
+          "query": "NC_051805.1_9698901_9699901",
+          "contig": "chr1",
+          "pos1": 9878675,
+          "end0": 9878675,
+          "id": "chr1:9878675:FG",
+          "SVTYPE": "INS",
+          "alts": [
+            "<INS:SVSIZE=51:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 410,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0626",
+      "chrom": "NC_051807.1",
+      "start0": "10280149",
+      "end0": "10281149",
+      "atac_mean": "1.1068995984196663",
+      "atac_percentile": "77.38135307977112",
+      "GC": "0.393",
+      "GC_distance_w01": "0.01799999999999996",
+      "coding_TSS_distance": "108684",
+      "miRNA_distance": "9625354",
+      "risk_gene_distance": "895374",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051807.1_10280149_10281149",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 290,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0631",
+      "chrom": "NC_051807.1",
+      "start0": "34514227",
+      "end0": "34515227",
+      "atac_mean": "1.0758303174972534",
+      "atac_percentile": "71.8613261528105",
+      "GC": "0.502",
+      "GC_distance_w01": "0.09100000000000003",
+      "coding_TSS_distance": "300912",
+      "miRNA_distance": "1488239",
+      "risk_gene_distance": "2288049",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051807.1_34514227_34515227",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 377,
+      "RRBS_observed_mean": 67.45642059488068,
+      "softmasked_bp": 788,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0809",
+      "chrom": "NC_051826.1",
+      "start0": "4030104",
+      "end0": "4031104",
+      "atac_mean": "1.011089996635914",
+      "atac_percentile": "56.109054190508246",
+      "GC": "0.366",
+      "GC_distance_w01": "0.044999999999999984",
+      "coding_TSS_distance": "164076",
+      "miRNA_distance": "2195420",
+      "risk_gene_distance": "709523",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051826.1_4030104_4031104",
+      "SV_hits": [
+        {
+          "query": "NC_051826.1_4030104_4031104",
+          "contig": "chr22",
+          "pos1": 1886987,
+          "end0": 46049489,
+          "id": "chr22:1886987:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=44162502:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 161,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0836",
+      "chrom": "NC_051806.1",
+      "start0": "32999269",
+      "end0": "33000269",
+      "atac_mean": "1.132467851102352",
+      "atac_percentile": "80.71356445641199",
+      "GC": "0.498",
+      "GC_distance_w01": "0.08700000000000002",
+      "coding_TSS_distance": "351983",
+      "miRNA_distance": "10003766",
+      "risk_gene_distance": "952856",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051806.1_32999269_33000269",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 600,
+      "RRBS_observed_mean": 92.37091954549153,
+      "softmasked_bp": 81,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0848",
+      "chrom": "NC_051839.1",
+      "start0": "13978557",
+      "end0": "13979557",
+      "atac_mean": "1.041471323490143",
+      "atac_percentile": "64.08616627398182",
+      "GC": "0.403",
+      "GC_distance_w01": "0.007999999999999952",
+      "coding_TSS_distance": "391917",
+      "miRNA_distance": "",
+      "risk_gene_distance": "824392",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051839.1_13978557_13979557",
+      "SV_hits": [
+        {
+          "query": "NC_051839.1_13978557_13979557",
+          "contig": "chr35",
+          "pos1": 9077021,
+          "end0": 19357783,
+          "id": "chr35:9077021:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=10280762:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 448,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0861",
+      "chrom": "NC_051809.1",
+      "start0": "26893945",
+      "end0": "26894945",
+      "atac_mean": "1.0340882769227029",
+      "atac_percentile": "62.201279030629415",
+      "GC": "0.382",
+      "GC_distance_w01": "0.02899999999999997",
+      "coding_TSS_distance": "215484",
+      "miRNA_distance": "4209114",
+      "risk_gene_distance": "2134697",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051809.1_26893945_26894945",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 106,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0949",
+      "chrom": "NC_051826.1",
+      "start0": "56418779",
+      "end0": "56419779",
+      "atac_mean": "1.0088982834219933",
+      "atac_percentile": "55.469538875799394",
+      "GC": "0.379",
+      "GC_distance_w01": "0.03199999999999997",
+      "coding_TSS_distance": "266522",
+      "miRNA_distance": "13538758",
+      "risk_gene_distance": "2399160",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051826.1_56418779_56419779",
+      "SV_hits": [
+        {
+          "query": "NC_051826.1_56418779_56419779",
+          "contig": "chr22",
+          "pos1": 54417109,
+          "end0": 56579801,
+          "id": "chr22:54417109:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=2162692:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 89.47525787353516,
+      "softmasked_bp": 73,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_0984",
+      "chrom": "NC_051822.1",
+      "start0": "31564724",
+      "end0": "31565724",
+      "atac_mean": "1.0464913907051085",
+      "atac_percentile": "65.70178391114104",
+      "GC": "0.448",
+      "GC_distance_w01": "0.03700000000000003",
+      "coding_TSS_distance": "662561",
+      "miRNA_distance": "2035286",
+      "risk_gene_distance": "715827",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051822.1_31564724_31565724",
+      "SV_hits": [
+        {
+          "query": "NC_051822.1_31564724_31565724",
+          "contig": "chr18",
+          "pos1": 17216779,
+          "end0": 40496078,
+          "id": "chr18:17216779:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=23279299:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 174,
+      "RRBS_observed_mean": 78.1521566982927,
+      "softmasked_bp": 86,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1043",
+      "chrom": "NC_051807.1",
+      "start0": "6162258",
+      "end0": "6163258",
+      "atac_mean": "1.0417710394263267",
+      "atac_percentile": "64.25445977785257",
+      "GC": "0.438",
+      "GC_distance_w01": "0.027000000000000024",
+      "coding_TSS_distance": "1417613",
+      "miRNA_distance": "13743245",
+      "risk_gene_distance": "5013265",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051807.1_6162258_6163258",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 139,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1059",
+      "chrom": "NC_051831.1",
+      "start0": "19034940",
+      "end0": "19035940",
+      "atac_mean": "1.0272102651000024",
+      "atac_percentile": "60.28273308650286",
+      "GC": "0.398",
+      "GC_distance_w01": "0.012999999999999956",
+      "coding_TSS_distance": "51892",
+      "miRNA_distance": "17760499",
+      "risk_gene_distance": "833801",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051831.1_19034940_19035940",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 100.0,
+      "softmasked_bp": 372,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1186",
+      "chrom": "NC_051827.1",
+      "start0": "4735013",
+      "end0": "4736013",
+      "atac_mean": "1.0812584357261659",
+      "atac_percentile": "73.10669808145406",
+      "GC": "0.435",
+      "GC_distance_w01": "0.02400000000000002",
+      "coding_TSS_distance": "360443",
+      "miRNA_distance": "1370279",
+      "risk_gene_distance": "1863235",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051827.1_4735013_4736013",
+      "SV_hits": [
+        {
+          "query": "NC_051827.1_4735013_4736013",
+          "contig": "chr23",
+          "pos1": 4669859,
+          "end0": 4669995,
+          "id": "chr23:4669859:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=132:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 245,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1206",
+      "chrom": "NC_051817.1",
+      "start0": "24272763",
+      "end0": "24273763",
+      "atac_mean": "1.0285448764562606",
+      "atac_percentile": "60.58566139347021",
+      "GC": "0.444",
+      "GC_distance_w01": "0.03300000000000003",
+      "coding_TSS_distance": "290588",
+      "miRNA_distance": "6998129",
+      "risk_gene_distance": "580828",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051817.1_24272763_24273763",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 150,
+      "RRBS_observed_mean": 91.02491251627605,
+      "softmasked_bp": 160,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1216",
+      "chrom": "NC_051840.1",
+      "start0": "23998261",
+      "end0": "23999261",
+      "atac_mean": "1.0846947703957557",
+      "atac_percentile": "73.74621339616291",
+      "GC": "0.455",
+      "GC_distance_w01": "0.04400000000000004",
+      "coding_TSS_distance": "365495",
+      "miRNA_distance": "2738254",
+      "risk_gene_distance": "1016659",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051840.1_23998261_23999261",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 389,
+      "RRBS_observed_mean": 95.26996171259941,
+      "softmasked_bp": 119,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1217",
+      "chrom": "NC_051831.1",
+      "start0": "18142232",
+      "end0": "18143232",
+      "atac_mean": "1.1037822378873825",
+      "atac_percentile": "76.94378996970717",
+      "GC": "0.44",
+      "GC_distance_w01": "0.029000000000000026",
+      "coding_TSS_distance": "297171",
+      "miRNA_distance": "16867791",
+      "risk_gene_distance": "1726509",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051831.1_18142232_18143232",
+      "SV_hits": [
+        {
+          "query": "NC_051831.1_18142232_18143232",
+          "contig": "chr27",
+          "pos1": 28286041,
+          "end0": 28709382,
+          "id": "chr27:28286041:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=423341:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 155,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1231",
+      "chrom": "NC_051828.1",
+      "start0": "41184704",
+      "end0": "41185704",
+      "atac_mean": "1.0138185942173004",
+      "atac_percentile": "56.84954560753955",
+      "GC": "0.38",
+      "GC_distance_w01": "0.030999999999999972",
+      "coding_TSS_distance": "342133",
+      "miRNA_distance": "6165889",
+      "risk_gene_distance": "593641",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051828.1_41184704_41185704",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 0.0,
+      "softmasked_bp": 149,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1266",
+      "chrom": "NC_051807.1",
+      "start0": "2091307",
+      "end0": "2092307",
+      "atac_mean": "1.1247260899543763",
+      "atac_percentile": "79.93941433860653",
+      "GC": "0.478",
+      "GC_distance_w01": "0.067",
+      "coding_TSS_distance": "301670",
+      "miRNA_distance": "17814196",
+      "risk_gene_distance": "1867206",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051807.1_2091307_2092307",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 350,
+      "RRBS_observed_mean": 91.07486179896763,
+      "softmasked_bp": 79,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1267",
+      "chrom": "NC_051816.1",
+      "start0": "9525800",
+      "end0": "9526800",
+      "atac_mean": "1.2112771049141884",
+      "atac_percentile": "87.8492090205318",
+      "GC": "0.503",
+      "GC_distance_w01": "0.09200000000000003",
+      "coding_TSS_distance": "210106",
+      "miRNA_distance": "5992628",
+      "risk_gene_distance": "780323",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051816.1_9525800_9526800",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 74.76044464111328,
+      "softmasked_bp": 91,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1317",
+      "chrom": "NC_051822.1",
+      "start0": "30325702",
+      "end0": "30326702",
+      "atac_mean": "1.0231331940293311",
+      "atac_percentile": "59.20565466173006",
+      "GC": "0.429",
+      "GC_distance_w01": "0.018000000000000016",
+      "coding_TSS_distance": "65383",
+      "miRNA_distance": "3274308",
+      "risk_gene_distance": "1954849",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051822.1_30325702_30326702",
+      "SV_hits": [
+        {
+          "query": "NC_051822.1_30325702_30326702",
+          "contig": "chr18",
+          "pos1": 17216779,
+          "end0": 40496078,
+          "id": "chr18:17216779:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=23279299:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 250,
+      "RRBS_observed_mean": 75.50979309082031,
+      "softmasked_bp": 308,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1367",
+      "chrom": "NC_051843.1",
+      "start0": "96269013",
+      "end0": "96270013",
+      "atac_mean": "1.0341181287169456",
+      "atac_percentile": "62.268596432177716",
+      "GC": "0.423",
+      "GC_distance_w01": "0.01200000000000001",
+      "coding_TSS_distance": "229210",
+      "miRNA_distance": "2068227",
+      "risk_gene_distance": "587383",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051843.1_96269013_96270013",
+      "SV_hits": [
+        {
+          "query": "NC_051843.1_96269013_96270013",
+          "contig": "chrX",
+          "pos1": 95197614,
+          "end0": 95256765,
+          "id": "chrX:95197614:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=59151:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 172,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1386",
+      "chrom": "NC_051837.1",
+      "start0": "3475382",
+      "end0": "3476382",
+      "atac_mean": "1.0782307074666024",
+      "atac_percentile": "72.33254796364861",
+      "GC": "0.365",
+      "GC_distance_w01": "0.045999999999999985",
+      "coding_TSS_distance": "547071",
+      "miRNA_distance": "15275962",
+      "risk_gene_distance": "1600789",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051837.1_3475382_3476382",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 272,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1526",
+      "chrom": "NC_051809.1",
+      "start0": "11066492",
+      "end0": "11067492",
+      "atac_mean": "1.0776394826173783",
+      "atac_percentile": "72.2652305621003",
+      "GC": "0.402",
+      "GC_distance_w01": "0.008999999999999952",
+      "coding_TSS_distance": "73750",
+      "miRNA_distance": "929369",
+      "risk_gene_distance": "754632",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051809.1_11066492_11067492",
+      "SV_hits": [
+        {
+          "query": "NC_051809.1_11066492_11067492",
+          "contig": "chr5",
+          "pos1": 906994,
+          "end0": 21357445,
+          "id": "chr5:906994:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=20450451:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 8,
+      "RRBS_observed_mean": 100.0,
+      "softmasked_bp": 754,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1654",
+      "chrom": "NC_051806.1",
+      "start0": "45531845",
+      "end0": "45532845",
+      "atac_mean": "1.031406911611557",
+      "atac_percentile": "61.49444631437227",
+      "GC": "0.449",
+      "GC_distance_w01": "0.038000000000000034",
+      "coding_TSS_distance": "317796",
+      "miRNA_distance": "1448464",
+      "risk_gene_distance": "312086",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051806.1_45531845_45532845",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 200,
+      "RRBS_observed_mean": 100.0,
+      "softmasked_bp": 268,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1786",
+      "chrom": "NC_051824.1",
+      "start0": "10227253",
+      "end0": "10228253",
+      "atac_mean": "1.0443026331663132",
+      "atac_percentile": "64.96129249410973",
+      "GC": "0.383",
+      "GC_distance_w01": "0.02799999999999997",
+      "coding_TSS_distance": "612805",
+      "miRNA_distance": "2228761",
+      "risk_gene_distance": "1986686",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051824.1_10227253_10228253",
+      "SV_hits": [
+        {
+          "query": "NC_051824.1_10227253_10228253",
+          "contig": "chr20",
+          "pos1": 8691660,
+          "end0": 28559663,
+          "id": "chr20:8691660:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=19868003:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 190,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1796",
+      "chrom": "NC_051826.1",
+      "start0": "8423204",
+      "end0": "8424204",
+      "atac_mean": "1.0774719247221947",
+      "atac_percentile": "72.16425445977785",
+      "GC": "0.418",
+      "GC_distance_w01": "0.007000000000000006",
+      "coding_TSS_distance": "52512",
+      "miRNA_distance": "1635804",
+      "risk_gene_distance": "2589995",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051826.1_8423204_8424204",
+      "SV_hits": [
+        {
+          "query": "NC_051826.1_8423204_8424204",
+          "contig": "chr22",
+          "pos1": 1886987,
+          "end0": 46049489,
+          "id": "chr22:1886987:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=44162502:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        },
+        {
+          "query": "NC_051826.1_8423204_8424204",
+          "contig": "chr22",
+          "pos1": 4037628,
+          "end0": 12379519,
+          "id": "chr22:4037628:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=8341891:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 150,
+      "RRBS_observed_mean": 93.01355997721355,
+      "softmasked_bp": 124,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1865",
+      "chrom": "NC_051812.1",
+      "start0": "32268116",
+      "end0": "32269116",
+      "atac_mean": "1.0233213617801666",
+      "atac_percentile": "59.239313362504205",
+      "GC": "0.383",
+      "GC_distance_w01": "0.02799999999999997",
+      "coding_TSS_distance": "179543",
+      "miRNA_distance": "829965",
+      "risk_gene_distance": "416563",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051812.1_32268116_32269116",
+      "SV_hits": [
+        {
+          "query": "NC_051812.1_32268116_32269116",
+          "contig": "chr8",
+          "pos1": 30945673,
+          "end0": 48307683,
+          "id": "chr8:30945673:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=17362010:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 0.0,
+      "softmasked_bp": 206,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1869",
+      "chrom": "NC_051815.1",
+      "start0": "49703204",
+      "end0": "49704204",
+      "atac_mean": "1.1282241450548172",
+      "atac_percentile": "80.34331874789633",
+      "GC": "0.541",
+      "GC_distance_w01": "0.13000000000000006",
+      "coding_TSS_distance": "593090",
+      "miRNA_distance": "1393037",
+      "risk_gene_distance": "1410543",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051815.1_49703204_49704204",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 700,
+      "RRBS_observed_mean": 82.17082486833844,
+      "softmasked_bp": 204,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1900",
+      "chrom": "NC_051814.1",
+      "start0": "43352999",
+      "end0": "43353999",
+      "atac_mean": "1.1404645777344704",
+      "atac_percentile": "81.48771457421743",
+      "GC": "0.402",
+      "GC_distance_w01": "0.008999999999999952",
+      "coding_TSS_distance": "101381",
+      "miRNA_distance": "2121051",
+      "risk_gene_distance": "479895",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051814.1_43352999_43353999",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": true,
+      "RRBS_observed_bp": 100,
+      "RRBS_observed_mean": 100.0,
+      "softmasked_bp": 235,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_1922",
+      "chrom": "NC_051823.1",
+      "start0": "34462065",
+      "end0": "34463065",
+      "atac_mean": "1.0087248128652573",
+      "atac_percentile": "55.33490407270279",
+      "GC": "0.376",
+      "GC_distance_w01": "0.034999999999999976",
+      "coding_TSS_distance": "719952",
+      "miRNA_distance": "5418888",
+      "risk_gene_distance": "1038594",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051823.1_34462065_34463065",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 185,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2150",
+      "chrom": "NC_051807.1",
+      "start0": "84418156",
+      "end0": "84419156",
+      "atac_mean": "1.0239937992691994",
+      "atac_percentile": "59.37394816560081",
+      "GC": "0.427",
+      "GC_distance_w01": "0.016000000000000014",
+      "coding_TSS_distance": "105191",
+      "miRNA_distance": "5609914",
+      "risk_gene_distance": "1432801",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051807.1_84418156_84419156",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 311,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2163",
+      "chrom": "NC_051817.1",
+      "start0": "28742272",
+      "end0": "28743272",
+      "atac_mean": "1.0231306470036508",
+      "atac_percentile": "59.171995960955904",
+      "GC": "0.386",
+      "GC_distance_w01": "0.024999999999999967",
+      "coding_TSS_distance": "181939",
+      "miRNA_distance": "2528620",
+      "risk_gene_distance": "1261530",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051817.1_28742272_28743272",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 201,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2176",
+      "chrom": "NC_051829.1",
+      "start0": "32973602",
+      "end0": "32974602",
+      "atac_mean": "1.0361758768558502",
+      "atac_percentile": "62.73981824301582",
+      "GC": "0.425",
+      "GC_distance_w01": "0.014000000000000012",
+      "coding_TSS_distance": "239688",
+      "miRNA_distance": "2253580",
+      "risk_gene_distance": "777193",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051829.1_32973602_32974602",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 100,
+      "RRBS_observed_mean": 87.35980224609375,
+      "softmasked_bp": 342,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2275",
+      "chrom": "NC_051823.1",
+      "start0": "28387641",
+      "end0": "28388641",
+      "atac_mean": "1.008415531039238",
+      "atac_percentile": "55.09929316728374",
+      "GC": "0.346",
+      "GC_distance_w01": "0.065",
+      "coding_TSS_distance": "643430",
+      "miRNA_distance": "11493312",
+      "risk_gene_distance": "2111762",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051823.1_28387641_28388641",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 238,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2292",
+      "chrom": "NC_051805.1",
+      "start0": "47450307",
+      "end0": "47451307",
+      "atac_mean": "1.0114487240314483",
+      "atac_percentile": "56.277347694378996",
+      "GC": "0.397",
+      "GC_distance_w01": "0.013999999999999957",
+      "coding_TSS_distance": "80908",
+      "miRNA_distance": "1764058",
+      "risk_gene_distance": "463043",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051805.1_47450307_47451307",
+      "SV_hits": [
+        {
+          "query": "NC_051805.1_47450307_47451307",
+          "contig": "chr1",
+          "pos1": 11323634,
+          "end0": 98125447,
+          "id": "chr1:11323634:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=86801813:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        },
+        {
+          "query": "NC_051805.1_47450307_47451307",
+          "contig": "chr1",
+          "pos1": 43446450,
+          "end0": 79900694,
+          "id": "chr1:43446450:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=36454244:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 107,
+      "RRBS_observed_mean": 89.62354724206656,
+      "softmasked_bp": 319,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2340",
+      "chrom": "NC_051816.1",
+      "start0": "43724382",
+      "end0": "43725382",
+      "atac_mean": "1.0289961135983468",
+      "atac_percentile": "60.720296196566814",
+      "GC": "0.39",
+      "GC_distance_w01": "0.020999999999999963",
+      "coding_TSS_distance": "70469",
+      "miRNA_distance": "2240595",
+      "risk_gene_distance": "2002938",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051816.1_43724382_43725382",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": true,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 154,
+      "next_priority": true,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2382",
+      "chrom": "NC_051827.1",
+      "start0": "26596631",
+      "end0": "26597631",
+      "atac_mean": "1.0282852013111115",
+      "atac_percentile": "60.51834399192191",
+      "GC": "0.423",
+      "GC_distance_w01": "0.01200000000000001",
+      "coding_TSS_distance": "96195",
+      "miRNA_distance": "14070913",
+      "risk_gene_distance": "1414589",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051827.1_26596631_26597631",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 328,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2403",
+      "chrom": "NC_051821.1",
+      "start0": "27458567",
+      "end0": "27459567",
+      "atac_mean": "1.080973035812378",
+      "atac_percentile": "72.97206327835745",
+      "GC": "0.437",
+      "GC_distance_w01": "0.026000000000000023",
+      "coding_TSS_distance": "201784",
+      "miRNA_distance": "5646241",
+      "risk_gene_distance": "860416",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051821.1_27458567_27459567",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 53.572959899902344,
+      "softmasked_bp": 150,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2427",
+      "chrom": "NC_051823.1",
+      "start0": "38132810",
+      "end0": "38133810",
+      "atac_mean": "1.010647632777691",
+      "atac_percentile": "56.0080780881858",
+      "GC": "0.411",
+      "GC_distance_w01": "0.0",
+      "coding_TSS_distance": "97299",
+      "miRNA_distance": "1748143",
+      "risk_gene_distance": "2001736",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051823.1_38132810_38133810",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 100,
+      "RRBS_observed_mean": 73.32188034057617,
+      "softmasked_bp": 272,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2448",
+      "chrom": "NC_051812.1",
+      "start0": "44637049",
+      "end0": "44638049",
+      "atac_mean": "1.0096656160354613",
+      "atac_percentile": "55.637832379670144",
+      "GC": "0.435",
+      "GC_distance_w01": "0.02400000000000002",
+      "coding_TSS_distance": "56355",
+      "miRNA_distance": "9416401",
+      "risk_gene_distance": "1181644",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051812.1_44637049_44638049",
+      "SV_hits": [
+        {
+          "query": "NC_051812.1_44637049_44638049",
+          "contig": "chr8",
+          "pos1": 30945673,
+          "end0": 48307683,
+          "id": "chr8:30945673:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=17362010:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        },
+        {
+          "query": "NC_051812.1_44637049_44638049",
+          "contig": "chr8",
+          "pos1": 41520040,
+          "end0": 71515573,
+          "id": "chr8:41520040:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=29995533:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 50,
+      "RRBS_observed_mean": 66.66666412353516,
+      "softmasked_bp": 316,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2544",
+      "chrom": "NC_051805.1",
+      "start0": "1486678",
+      "end0": "1487678",
+      "atac_mean": "1.232563334107399",
+      "atac_percentile": "89.36385055536856",
+      "GC": "0.538",
+      "GC_distance_w01": "0.12700000000000006",
+      "coding_TSS_distance": "251968",
+      "miRNA_distance": "15986490",
+      "risk_gene_distance": "563602",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051805.1_1486678_1487678",
+      "SV_hits": [],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": true,
+      "RRBS_observed_bp": 228,
+      "RRBS_observed_mean": 96.30597265143143,
+      "softmasked_bp": 35,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2676",
+      "chrom": "NC_051821.1",
+      "start0": "48836825",
+      "end0": "48837825",
+      "atac_mean": "1.0824223637580872",
+      "atac_percentile": "73.30865028609895",
+      "GC": "0.442",
+      "GC_distance_w01": "0.031000000000000028",
+      "coding_TSS_distance": "62712",
+      "miRNA_distance": "3453769",
+      "risk_gene_distance": "311501",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051821.1_48836825_48837825",
+      "SV_hits": [
+        {
+          "query": "NC_051821.1_48836825_48837825",
+          "contig": "chr17",
+          "pos1": 48479559,
+          "end0": 48479559,
+          "id": "chr17:48479559:FG",
+          "SVTYPE": "INS",
+          "alts": [
+            "<INS:SVSIZE=213:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 0,
+      "RRBS_observed_mean": null,
+      "softmasked_bp": 78,
+      "next_priority": false,
+      "approved": false
+    },
+    {
+      "id": "bg1k_2838",
+      "chrom": "NC_051830.1",
+      "start0": "13454672",
+      "end0": "13455672",
+      "atac_mean": "1.3045707911252975",
+      "atac_percentile": "92.39313362504207",
+      "GC": "0.631",
+      "GC_distance_w01": "0.22000000000000003",
+      "coding_TSS_distance": "130470",
+      "miRNA_distance": "1332605",
+      "risk_gene_distance": "1234536",
+      "screen_flags": "",
+      "stage": "preliminary_annotation_screen_only",
+      "pending": "alternative_transcripts;TAD;EpiC;repeats;conservation;variants;sequence_specificity;donor_genotype",
+      "coordinate_id": "NC_051830.1_13454672_13455672",
+      "SV_hits": [
+        {
+          "query": "NC_051830.1_13454672_13455672",
+          "contig": "chr26",
+          "pos1": 6762714,
+          "end0": 25784322,
+          "id": "chr26:6762714:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=19021608:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        },
+        {
+          "query": "NC_051830.1_13454672_13455672",
+          "contig": "chr26",
+          "pos1": 13050402,
+          "end0": 26988162,
+          "id": "chr26:13050402:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=13937760:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "EpiC_clear_with_roundtrip": false,
+      "UU_exact": false,
+      "RRBS_observed_bp": 600,
+      "RRBS_observed_mean": 92.56025739034017,
+      "softmasked_bp": 173,
+      "next_priority": false,
+      "approved": false
+    }
+  ],
+  "limitations": [
+    "No catalogue hit does not establish absence of variation.",
+    "ATAC narrow and wide legacy gates, conservation and specificity remain unverified for new loci.",
+    "Sparse or absent RRBS cannot demonstrate low methylation.",
+    "This is prioritization, not computational approval."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-09T12:23:41.725153+00:00",
+  "complete_audit_approval": false,
+  "biological_validation": false,
+  "files": [
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/ANO2_REVIEW_AND_DEPENDENCIES_20261009_v3.md",
+      "sha256": "0d0f5cda4a63dcccaea70ebfd1ef97481ddf176ae3f452c65ef2c9736e62e35a",
+      "bytes": 10452
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_duplicate_taxa_sensitivity_20261009_v2/receipt.json",
+      "sha256": "40a6f5a0eb631ea1ff54de243fb77d8053f69b14563b89e47b6f97b59c9add5e",
+      "bytes": 293942
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/conservation_alignment_information_review_20261009_failed.json",
+      "sha256": "275b68cc8e77497f5e9e2f64f911c7b852f3ded82663b9343a1ef52de1815d9e",
+      "bytes": 482
+    }
+  ]
+}

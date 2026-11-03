@@ -13,7 +13,7 @@ dependencies:
   - bowtie2
   - samtools
   - bedtools
-  - macs2
+  - macs3
   # RRBS
   - bismark
   - trim-galore

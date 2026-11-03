@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-05T03:01:49.620287+00:00",
+  "stage": "completed_needs_review",
+  "pairs": 214126885,
+  "selected_pairs": 25,
+  "sha256": {
+    "selected_R1.fastq": "2fb58db617bf8ff09a5ea9c1fe418c219473ac7bbcd462fa3ee149ed1526744a",
+    "selected_R2.fastq": "ed6ee3d646db2f0e41dddff2ba013117c368602d01c008c095591c7bee4d207f",
+    "matches.jsonl": "6015858dbbece8de13f7f553f83e9b9c2fbeef389c64e63cf0202952884cc8c2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "state": "completed",
+  "results": [
+    {
+      "lengths": [
+        22,
+        24
+      ],
+      "mismatch_limit": 2,
+      "queries": 36,
+      "alignments": 48,
+      "matches_bruteforce": true
+    },
+    {
+      "lengths": [
+        23
+      ],
+      "mismatch_limit": 3,
+      "queries": 24,
+      "alignments": 32,
+      "matches_bruteforce": true
+    }
+  ],
+  "limits": [
+    "Controlled search-completeness test, not empirical nuclease specificity or real genome uniqueness validation."
+  ]
+}

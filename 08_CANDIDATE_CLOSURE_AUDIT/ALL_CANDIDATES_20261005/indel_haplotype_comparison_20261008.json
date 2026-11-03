@@ -1,0 +1,4782 @@
+{
+  "results": [
+    {
+      "window": "NC_051811.1_17230206_17231206",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17377457,
+        "id": null,
+        "ref": "TGG",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.17100000381469727,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        17377406,
+        17377509
+      ],
+      "ROS_oriented_interval": [
+        101,
+        202
+      ],
+      "UU_reference_sequence": "GGCATGCAGATTTCTGTGATTCTAGGCTTAAATGTTCCAGTATCTTAGGCTGGGACCCATTATGTCCCTCTACCCTGACCAAAGGGAGCTTTCATCCAGGAAA",
+      "UU_alternate_sequence": "GGCATGCAGATTTCTGTGATTCTAGGCTTAAATGTTCCAGTATCTTAGGCTGACCCATTATGTCCCTCTACCCTGACCAAAGGGAGCTTTCATCCAGGAAA",
+      "ROS_sequence": "GGCATGCAGATTTCTGTGATTCTAGGCTTAAATGTTCCAGTATCTTAGGCTGACCCATTATGTCCCTCTACCCTGACCAAAGGGAGCTTTCATCCAGGAAA"
+    },
+    {
+      "window": "NC_051811.1_17234956_17235956",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17382916,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.2150000035762787,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        17382865,
+        17382966
+      ],
+      "ROS_oriented_interval": [
+        601,
+        700
+      ],
+      "UU_reference_sequence": "TTTCTTCCACCTTCCTTTTAATCCCCCTCCTGCTAGAAGATATGAAGGGCAGAGGGAAGCACATTGCCTGGCGGAGAAACACAGAGAGGCTGAGAAAAAGG",
+      "UU_alternate_sequence": "TTTCTTCCACCTTCCTTTTAATCCCCCTCCTGCTAGAAGATATGAAGGGCGGAGGGAAGCACATTGCCTGGCGGAGAAACACAGAGAGGCTGAGAAAAAGG",
+      "ROS_sequence": "TTTCTTCCACCTTCCTTTTAATCCCCCTCCTGCTAGAAGATATGAAGGGCGGGGAAGCACATTGCCTGGCGGAGAAACACAGAGAGGCTGAGAAAAAGG"
+    },
+    {
+      "window": "NC_051811.1_17235206_17236206",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17382916,
+        "id": null,
+        "ref": "A",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.2150000035762787,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        17382865,
+        17382966
+      ],
+      "ROS_oriented_interval": [
+        351,
+        450
+      ],
+      "UU_reference_sequence": "TTTCTTCCACCTTCCTTTTAATCCCCCTCCTGCTAGAAGATATGAAGGGCAGAGGGAAGCACATTGCCTGGCGGAGAAACACAGAGAGGCTGAGAAAAAGG",
+      "UU_alternate_sequence": "TTTCTTCCACCTTCCTTTTAATCCCCCTCCTGCTAGAAGATATGAAGGGCGGAGGGAAGCACATTGCCTGGCGGAGAAACACAGAGAGGCTGAGAAAAAGG",
+      "ROS_sequence": "TTTCTTCCACCTTCCTTTTAATCCCCCTCCTGCTAGAAGATATGAAGGGCGGGGAAGCACATTGCCTGGCGGAGAAACACAGAGAGGCTGAGAAAAAGG"
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17388953,
+        "id": null,
+        "ref": "GAA",
+        "alt": "GA",
+        "alt_index1": 1,
+        "AF": 0.38999998569488525,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        17388902,
+        17389005
+      ],
+      "ROS_oriented_interval": [
+        882,
+        984
+      ],
+      "UU_reference_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA",
+      "UU_alternate_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA",
+      "ROS_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA"
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17388953,
+        "id": null,
+        "ref": "GAA",
+        "alt": "GAAA",
+        "alt_index1": 2,
+        "AF": 0.054999999701976776,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        17388902,
+        17389005
+      ],
+      "ROS_oriented_interval": [
+        882,
+        984
+      ],
+      "UU_reference_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA",
+      "UU_alternate_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA",
+      "ROS_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA"
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17388953,
+        "id": null,
+        "ref": "GAA",
+        "alt": "G",
+        "alt_index1": 3,
+        "AF": 0.020999999716877937,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        17388902,
+        17389005
+      ],
+      "ROS_oriented_interval": [
+        882,
+        984
+      ],
+      "UU_reference_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA",
+      "UU_alternate_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA",
+      "ROS_sequence": "AAAGCTGGACTCTAATTAACTTGCAGGGAGTTCCTATGAAAATTGAAGATGAAAAAAAAAAAAGAAAATTGAAGATGACACTTTTCAATAGTACAGGAGTAA"
+    },
+    {
+      "window": "NC_051811.1_17242956_17243956",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17390574,
+        "id": null,
+        "ref": "GC",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.24199999868869781,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        17390523,
+        17390625
+      ],
+      "ROS_oriented_interval": [
+        281,
+        382
+      ],
+      "UU_reference_sequence": "ATACCTGGCAATGCATCGGGCTCTCCCACTCCAAGCCTACCCCTGCCCAGGCCAGTCATCCTCAAGTTCCTGGTTCTTCTACATCCCGTCTCTCAACCATGT",
+      "UU_alternate_sequence": "ATACCTGGCAATGCATCGGGCTCTCCCACTCCAAGCCTACCCCTGCCCAGGCAGTCATCCTCAAGTTCCTGGTTCTTCTACATCCCGTCTCTCAACCATGT",
+      "ROS_sequence": "ATACCTGGCAATGCATCGGGCTCTCCCACTCCAAGCCTACCCCTGCCCAGGCAGTCATCCTCAAGTTCCTGGTTCTTCTACATCCCGTCTCTCAACCATGT"
+    },
+    {
+      "window": "NC_051811.1_17252456_17253456",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17399795,
+        "id": null,
+        "ref": "CTTT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.14800000190734863,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051811.1_17252456_17253456",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17399795,
+        "id": null,
+        "ref": "CTTT",
+        "alt": "CT",
+        "alt_index1": 2,
+        "AF": 0.5519999861717224,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051811.1_17252456_17253456",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17399795,
+        "id": null,
+        "ref": "CTTT",
+        "alt": "CTTTT",
+        "alt_index1": 3,
+        "AF": 0.02500000037252903,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051811.1_17252456_17253456",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17399795,
+        "id": null,
+        "ref": "CTTT",
+        "alt": "CTT",
+        "alt_index1": 4,
+        "AF": 0.0560000017285347,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051811.1_17252456_17253456",
+      "allele": {
+        "chrom": "chr7",
+        "uu_chrom": "NC_049228.1",
+        "pos1": 17399795,
+        "id": null,
+        "ref": "CTTT",
+        "alt": "CTTTTT",
+        "alt_index1": 5,
+        "AF": 0.0015109999803826213,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39685324_39686324",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6764614,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 2,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39685324_39686324",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6764613,
+        "id": null,
+        "ref": "CT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.7269999980926514,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39685324_39686324",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6765135,
+        "id": null,
+        "ref": "GA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.7080000042915344,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6765084,
+        6765186
+      ],
+      "ROS_oriented_interval": [
+        494,
+        595
+      ],
+      "UU_reference_sequence": "CACTACTAGTACTGTCACAACTAGTACTGTCACTCCAAGGGCCTCAGGCAGAAGCACCCAGGCCAATGGGCTTCTGAGGGAGGTGTCATCATTTTGGAGAAA",
+      "UU_alternate_sequence": "CACTACTAGTACTGTCACAACTAGTACTGTCACTCCAAGGGCCTCAGGCAGAGCACCCAGGCCAATGGGCTTCTGAGGGAGGTGTCATCATTTTGGAGAAA",
+      "ROS_sequence": "CACTACTAGTACTGTCACAACTAGTACTGTCACTCCAAGGGCCTCAGGCAGAGCACCCAGGCCAATGGGCTTCTGAGGGAGGTGTCATCATTTTGGAGAAA"
+    },
+    {
+      "window": "NC_051831.1_39685574_39686574",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6764614,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 2,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6764563,
+        6764664
+      ],
+      "ROS_oriented_interval": [
+        224,
+        324
+      ],
+      "UU_reference_sequence": "GGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCTGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "UU_alternate_sequence": "GGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "ROS_sequence": "GGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG"
+    },
+    {
+      "window": "NC_051831.1_39685574_39686574",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6764613,
+        "id": null,
+        "ref": "CT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.7269999980926514,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6764562,
+        6764664
+      ],
+      "ROS_oriented_interval": [
+        223,
+        324
+      ],
+      "UU_reference_sequence": "AGGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCTGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "UU_alternate_sequence": "AGGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "ROS_sequence": "AGGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG"
+    },
+    {
+      "window": "NC_051831.1_39685574_39686574",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6765135,
+        "id": null,
+        "ref": "GA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.7080000042915344,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6765084,
+        6765186
+      ],
+      "ROS_oriented_interval": [
+        744,
+        845
+      ],
+      "UU_reference_sequence": "CACTACTAGTACTGTCACAACTAGTACTGTCACTCCAAGGGCCTCAGGCAGAAGCACCCAGGCCAATGGGCTTCTGAGGGAGGTGTCATCATTTTGGAGAAA",
+      "UU_alternate_sequence": "CACTACTAGTACTGTCACAACTAGTACTGTCACTCCAAGGGCCTCAGGCAGAGCACCCAGGCCAATGGGCTTCTGAGGGAGGTGTCATCATTTTGGAGAAA",
+      "ROS_sequence": "CACTACTAGTACTGTCACAACTAGTACTGTCACTCCAAGGGCCTCAGGCAGAGCACCCAGGCCAATGGGCTTCTGAGGGAGGTGTCATCATTTTGGAGAAA"
+    },
+    {
+      "window": "NC_051831.1_39686074_39687074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6764614,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 2,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6764563,
+        6764664
+      ],
+      "ROS_oriented_interval": [
+        724,
+        824
+      ],
+      "UU_reference_sequence": "GGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCTGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "UU_alternate_sequence": "GGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "ROS_sequence": "GGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG"
+    },
+    {
+      "window": "NC_051831.1_39686074_39687074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6764613,
+        "id": null,
+        "ref": "CT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.7269999980926514,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6764562,
+        6764664
+      ],
+      "ROS_oriented_interval": [
+        723,
+        824
+      ],
+      "UU_reference_sequence": "AGGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCTGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "UU_alternate_sequence": "AGGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG",
+      "ROS_sequence": "AGGGGTGCCAGGCCAGGGAATCTGACTTACTACAAAGATCTGGCTGTTCCCGGGGAAAGGCTGAACCTAGTGCATATGCGGTAAGGCTGGAAGCCCCTCAG"
+    },
+    {
+      "window": "NC_051831.1_39714824_39715824",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6735080,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCTCT",
+        "alt_index1": 1,
+        "AF": 0.25699999928474426,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39714824_39715824",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6735080,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCTCTCTCT",
+        "alt_index1": 2,
+        "AF": 0.027000000700354576,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39714824_39715824",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6735080,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCT",
+        "alt_index1": 3,
+        "AF": 0.012000000104308128,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39714824_39715824",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6735080,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "C",
+        "alt_index1": 4,
+        "AF": 0.0007556999917142093,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051831.1_39714824_39715824",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6735391,
+        "id": null,
+        "ref": "AC",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.3790000081062317,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6735340,
+        6735442
+      ],
+      "ROS_oriented_interval": [
+        255,
+        356
+      ],
+      "UU_reference_sequence": "GTATAAATAAAATATTTAAAAAATATAAAAAATAATGTGAGTTTTGATACACCCTACTTTTCAATTTTTCAGTATTTTTTTCAGCTACTGTTCTAGAAAAAA",
+      "UU_alternate_sequence": "GTATAAATAAAATATTTAAAAAATATAAAAAATAATGTGAGTTTTGATACACCTACTTTTCAATTTTTCAGTATTTTTTTCAGCTACTGTTCTAGAAAAAA",
+      "ROS_sequence": "GTATAAATAAAATATTTAAAAAATATAAAAAATAATGTGAGTTTTGATACACCTACTTTTCAATTTTTCAGTATTTTTTTCAGCTACTGTTCTAGAAAAAA"
+    },
+    {
+      "window": "NC_051831.1_39715074_39716074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6735391,
+        "id": null,
+        "ref": "AC",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.3790000081062317,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6735340,
+        6735442
+      ],
+      "ROS_oriented_interval": [
+        505,
+        606
+      ],
+      "UU_reference_sequence": "GTATAAATAAAATATTTAAAAAATATAAAAAATAATGTGAGTTTTGATACACCCTACTTTTCAATTTTTCAGTATTTTTTTCAGCTACTGTTCTAGAAAAAA",
+      "UU_alternate_sequence": "GTATAAATAAAATATTTAAAAAATATAAAAAATAATGTGAGTTTTGATACACCTACTTTTCAATTTTTCAGTATTTTTTTCAGCTACTGTTCTAGAAAAAA",
+      "ROS_sequence": "GTATAAATAAAATATTTAAAAAATATAAAAAATAATGTGAGTTTTGATACACCTACTTTTCAATTTTTCAGTATTTTTTTCAGCTACTGTTCTAGAAAAAA"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715559,
+        "id": null,
+        "ref": "CAT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        6715508,
+        6715611
+      ],
+      "ROS_oriented_interval": [
+        639,
+        740
+      ],
+      "UU_reference_sequence": "GGTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACG",
+      "UU_alternate_sequence": "GGTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACG",
+      "ROS_sequence": "GGTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACG"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715560,
+        "id": null,
+        "ref": "ATGTGTGTGTGTGTGTG",
+        "alt": "ATGTGTGTGTGTGTG",
+        "alt_index1": 1,
+        "AF": 0.4309999942779541,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6715509,
+        6715626
+      ],
+      "ROS_oriented_interval": [
+        640,
+        755
+      ],
+      "UU_reference_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "UU_alternate_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "ROS_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715560,
+        "id": null,
+        "ref": "ATGTGTGTGTGTGTGTG",
+        "alt": "ATGTGTGTGTGTG",
+        "alt_index1": 2,
+        "AF": 0.19200000166893005,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6715509,
+        6715626
+      ],
+      "ROS_oriented_interval": [
+        640,
+        755
+      ],
+      "UU_reference_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "UU_alternate_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "ROS_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715560,
+        "id": null,
+        "ref": "ATGTGTGTGTGTGTGTG",
+        "alt": "ATGTGTGTGTG",
+        "alt_index1": 3,
+        "AF": 0.01600000075995922,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6715509,
+        6715626
+      ],
+      "ROS_oriented_interval": [
+        640,
+        755
+      ],
+      "UU_reference_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "UU_alternate_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "ROS_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715560,
+        "id": null,
+        "ref": "ATGTGTGTGTGTGTGTG",
+        "alt": "ATGTGTGTGTGTGTGTGTG",
+        "alt_index1": 4,
+        "AF": 0.07000000029802322,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6715509,
+        6715626
+      ],
+      "ROS_oriented_interval": [
+        640,
+        755
+      ],
+      "UU_reference_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "UU_alternate_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "ROS_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715560,
+        "id": null,
+        "ref": "ATGTGTGTGTGTGTGTG",
+        "alt": "ATGTGTG",
+        "alt_index1": 5,
+        "AF": 0.024000000208616257,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6715509,
+        6715626
+      ],
+      "ROS_oriented_interval": [
+        640,
+        755
+      ],
+      "UU_reference_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "UU_alternate_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "ROS_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT"
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6715560,
+        "id": null,
+        "ref": "ATGTGTGTGTGTGTGTG",
+        "alt": "A",
+        "alt_index1": 6,
+        "AF": 0.03200000151991844,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        6715509,
+        6715626
+      ],
+      "ROS_oriented_interval": [
+        640,
+        755
+      ],
+      "UU_reference_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "UU_alternate_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT",
+      "ROS_sequence": "GTAGATGGTTTTTCACATGGAGATGTATGGAGGTGGGTGTGCATGCGTGCATGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTGTAGCTGCTTTGACTACGTAACCATTGATGTAT"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103913,
+        "id": null,
+        "ref": "TAATC",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.18700000643730164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103862,
+        13103967
+      ],
+      "ROS_oriented_interval": [
+        185,
+        286
+      ],
+      "UU_reference_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTG",
+      "UU_alternate_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTG",
+      "ROS_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTG"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103920,
+        "id": null,
+        "ref": "GA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.03799999877810478,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103869,
+        13103971
+      ],
+      "ROS_oriented_interval": [
+        192,
+        290
+      ],
+      "UU_reference_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCT",
+      "UU_alternate_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGCCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCT",
+      "ROS_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103921,
+        "id": null,
+        "ref": "AC",
+        "alt": "CC",
+        "alt_index1": 1,
+        "AF": 0.5210000276565552,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103870,
+        13103972
+      ],
+      "ROS_oriented_interval": [
+        193,
+        291
+      ],
+      "UU_reference_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTT",
+      "UU_alternate_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGCCCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTT",
+      "ROS_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTT"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103933,
+        "id": null,
+        "ref": "GGGGGGGGTT",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.00025579999783076346,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103882,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        205,
+        311
+      ],
+      "UU_reference_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103935,
+        "id": null,
+        "ref": "GGGGGGTT",
+        "alt": "AGGGGGTT",
+        "alt_index1": 1,
+        "AF": 0.13099999725818634,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103884,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        207,
+        311
+      ],
+      "UU_reference_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGAGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103937,
+        "id": null,
+        "ref": "GGGGTTGGGA",
+        "alt": "GTGGGA",
+        "alt_index1": 1,
+        "AF": 0.004579999949783087,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103886,
+        13103996
+      ],
+      "ROS_oriented_interval": [
+        209,
+        315
+      ],
+      "UU_reference_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "UU_alternate_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "ROS_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103938,
+        "id": null,
+        "ref": "GGGTT",
+        "alt": "GT",
+        "alt_index1": 2,
+        "AF": 0.01600000075995922,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103887,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        210,
+        311
+      ],
+      "UU_reference_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103939,
+        "id": null,
+        "ref": "GGTTGGGA",
+        "alt": "GTGGGA",
+        "alt_index1": 2,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103888,
+        13103996
+      ],
+      "ROS_oriented_interval": [
+        211,
+        315
+      ],
+      "UU_reference_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "UU_alternate_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "ROS_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103940,
+        "id": null,
+        "ref": "GTT",
+        "alt": "G",
+        "alt_index1": 2,
+        "AF": 0.002859999891370535,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103889,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        212,
+        311
+      ],
+      "UU_reference_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016161_27017161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103940,
+        "id": null,
+        "ref": "GTT",
+        "alt": "GT",
+        "alt_index1": 3,
+        "AF": 0.0044200001284480095,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103889,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        212,
+        311
+      ],
+      "UU_reference_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103913,
+        "id": null,
+        "ref": "TAATC",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.18700000643730164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103862,
+        13103967
+      ],
+      "ROS_oriented_interval": [
+        435,
+        536
+      ],
+      "UU_reference_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTG",
+      "UU_alternate_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTG",
+      "ROS_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTG"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103920,
+        "id": null,
+        "ref": "GA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.03799999877810478,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103869,
+        13103971
+      ],
+      "ROS_oriented_interval": [
+        442,
+        540
+      ],
+      "UU_reference_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCT",
+      "UU_alternate_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGCCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCT",
+      "ROS_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103921,
+        "id": null,
+        "ref": "AC",
+        "alt": "CC",
+        "alt_index1": 1,
+        "AF": 0.5210000276565552,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103870,
+        13103972
+      ],
+      "ROS_oriented_interval": [
+        443,
+        541
+      ],
+      "UU_reference_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTT",
+      "UU_alternate_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGCCCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTT",
+      "ROS_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTT"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103933,
+        "id": null,
+        "ref": "GGGGGGGGTT",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.00025579999783076346,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103882,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        455,
+        561
+      ],
+      "UU_reference_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103935,
+        "id": null,
+        "ref": "GGGGGGTT",
+        "alt": "AGGGGGTT",
+        "alt_index1": 1,
+        "AF": 0.13099999725818634,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103884,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        457,
+        561
+      ],
+      "UU_reference_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGAGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103937,
+        "id": null,
+        "ref": "GGGGTTGGGA",
+        "alt": "GTGGGA",
+        "alt_index1": 1,
+        "AF": 0.004579999949783087,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103886,
+        13103996
+      ],
+      "ROS_oriented_interval": [
+        459,
+        565
+      ],
+      "UU_reference_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "UU_alternate_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "ROS_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103938,
+        "id": null,
+        "ref": "GGGTT",
+        "alt": "GT",
+        "alt_index1": 2,
+        "AF": 0.01600000075995922,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103887,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        460,
+        561
+      ],
+      "UU_reference_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103939,
+        "id": null,
+        "ref": "GGTTGGGA",
+        "alt": "GTGGGA",
+        "alt_index1": 2,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103888,
+        13103996
+      ],
+      "ROS_oriented_interval": [
+        461,
+        565
+      ],
+      "UU_reference_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "UU_alternate_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "ROS_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103940,
+        "id": null,
+        "ref": "GTT",
+        "alt": "G",
+        "alt_index1": 2,
+        "AF": 0.002859999891370535,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103889,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        462,
+        561
+      ],
+      "UU_reference_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016411_27017411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103940,
+        "id": null,
+        "ref": "GTT",
+        "alt": "GT",
+        "alt_index1": 3,
+        "AF": 0.0044200001284480095,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103889,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        462,
+        561
+      ],
+      "UU_reference_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103913,
+        "id": null,
+        "ref": "TAATC",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.18700000643730164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103862,
+        13103967
+      ],
+      "ROS_oriented_interval": [
+        685,
+        786
+      ],
+      "UU_reference_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTG",
+      "UU_alternate_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTG",
+      "ROS_sequence": "AACTAGAAAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTG"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103920,
+        "id": null,
+        "ref": "GA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.03799999877810478,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103869,
+        13103971
+      ],
+      "ROS_oriented_interval": [
+        692,
+        790
+      ],
+      "UU_reference_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCT",
+      "UU_alternate_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGCCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCT",
+      "ROS_sequence": "AAGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103921,
+        "id": null,
+        "ref": "AC",
+        "alt": "CC",
+        "alt_index1": 1,
+        "AF": 0.5210000276565552,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103870,
+        13103972
+      ],
+      "ROS_oriented_interval": [
+        693,
+        791
+      ],
+      "UU_reference_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTT",
+      "UU_alternate_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGCCCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTT",
+      "ROS_sequence": "AGTAAAATGTTTCTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTT"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103933,
+        "id": null,
+        "ref": "GGGGGGGGTT",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.00025579999783076346,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103882,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        705,
+        811
+      ],
+      "UU_reference_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103935,
+        "id": null,
+        "ref": "GGGGGGTT",
+        "alt": "AGGGGGTT",
+        "alt_index1": 1,
+        "AF": 0.13099999725818634,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103884,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        707,
+        811
+      ],
+      "UU_reference_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGAGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTGAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103937,
+        "id": null,
+        "ref": "GGGGTTGGGA",
+        "alt": "GTGGGA",
+        "alt_index1": 1,
+        "AF": 0.004579999949783087,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103886,
+        13103996
+      ],
+      "ROS_oriented_interval": [
+        709,
+        815
+      ],
+      "UU_reference_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "UU_alternate_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "ROS_sequence": "GAGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103938,
+        "id": null,
+        "ref": "GGGTT",
+        "alt": "GT",
+        "alt_index1": 2,
+        "AF": 0.01600000075995922,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103887,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        710,
+        811
+      ],
+      "UU_reference_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "AGCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103939,
+        "id": null,
+        "ref": "GGTTGGGA",
+        "alt": "GTGGGA",
+        "alt_index1": 2,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103888,
+        13103996
+      ],
+      "ROS_oriented_interval": [
+        711,
+        815
+      ],
+      "UU_reference_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "UU_alternate_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT",
+      "ROS_sequence": "GCTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGAGGCT"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103940,
+        "id": null,
+        "ref": "GTT",
+        "alt": "G",
+        "alt_index1": 2,
+        "AF": 0.002859999891370535,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103889,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        712,
+        811
+      ],
+      "UU_reference_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016661_27017661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103940,
+        "id": null,
+        "ref": "GTT",
+        "alt": "GT",
+        "alt_index1": 3,
+        "AF": 0.0044200001284480095,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13103889,
+        13103992
+      ],
+      "ROS_oriented_interval": [
+        712,
+        811
+      ],
+      "UU_reference_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "UU_alternate_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAATCAAGACCCGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA",
+      "ROS_sequence": "CTCTGTGAGGGGCTCTAGCAAATTAAGCCCCGGGGGGGGGGGGGGGGGTGGGAGTACCTCTGATTTATAGCCTGGGCTTGCAACTTGTGTCTGAAGTGA"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103913,
+        "id": null,
+        "ref": "TAATC",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.18700000643730164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103920,
+        "id": null,
+        "ref": "GA",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.03799999877810478,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103921,
+        "id": null,
+        "ref": "AC",
+        "alt": "CC",
+        "alt_index1": 1,
+        "AF": 0.5210000276565552,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103924,
+        "id": null,
+        "ref": "CGGGGGGGG",
+        "alt": "CGGGGGG",
+        "alt_index1": 1,
+        "AF": 0.23499999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103924,
+        "id": null,
+        "ref": "CGGGGGGGG",
+        "alt": "CGGGGG",
+        "alt_index1": 2,
+        "AF": 0.20999999344348907,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103924,
+        "id": null,
+        "ref": "CGGGGGGGG",
+        "alt": "CGGGG",
+        "alt_index1": 3,
+        "AF": 0.12700000405311584,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103924,
+        "id": null,
+        "ref": "CGGGGGGGG",
+        "alt": "CGGG",
+        "alt_index1": 4,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27016911_27017911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13103924,
+        "id": null,
+        "ref": "CGGGGGGGG",
+        "alt": "CGGGGGGGGG",
+        "alt_index1": 6,
+        "AF": 0.009848999790847301,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102495,
+        "id": null,
+        "ref": "ACACAG",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.33500000834465027,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102444,
+        13102550
+      ],
+      "ROS_oriented_interval": [
+        18,
+        123
+      ],
+      "UU_reference_sequence": "CTGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGA",
+      "UU_alternate_sequence": "CTGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGA",
+      "ROS_sequence": "CTGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGA"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAGAGAGAG",
+        "alt_index1": 1,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        19,
+        142
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAGAGAGAGAG",
+        "alt_index1": 2,
+        "AF": 0.11400000005960464,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        19,
+        142
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAGAGAGAGAGAG",
+        "alt_index1": 4,
+        "AF": 0.07599999755620956,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        19,
+        142
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAG",
+        "alt_index1": 5,
+        "AF": 0.007402999792248011,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        19,
+        142
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102498,
+        "id": null,
+        "ref": "CAGCAG",
+        "alt": "GAGCAG",
+        "alt_index1": 2,
+        "AF": 0.13699999451637268,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102447,
+        13102553
+      ],
+      "ROS_oriented_interval": [
+        21,
+        126
+      ],
+      "UU_reference_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "UU_alternate_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "ROS_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102498,
+        "id": null,
+        "ref": "CAGCAG",
+        "alt": "C",
+        "alt_index1": 3,
+        "AF": 0.0011879999656230211,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102447,
+        13102553
+      ],
+      "ROS_oriented_interval": [
+        21,
+        126
+      ],
+      "UU_reference_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "UU_alternate_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "ROS_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102500,
+        "id": null,
+        "ref": "GC",
+        "alt": "G",
+        "alt_index1": 2,
+        "AF": 0.14499999582767487,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102449,
+        13102551
+      ],
+      "ROS_oriented_interval": [
+        23,
+        124
+      ],
+      "UU_reference_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "UU_alternate_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "ROS_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102500,
+        "id": null,
+        "ref": "GC",
+        "alt": "GAC",
+        "alt_index1": 3,
+        "AF": 0.007067000027745962,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102449,
+        13102551
+      ],
+      "ROS_oriented_interval": [
+        23,
+        124
+      ],
+      "UU_reference_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "UU_alternate_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGACAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "ROS_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102500,
+        "id": null,
+        "ref": "GC",
+        "alt": "GAGAGAC",
+        "alt_index1": 4,
+        "AF": 0.00025240000104531646,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102449,
+        13102551
+      ],
+      "ROS_oriented_interval": [
+        23,
+        124
+      ],
+      "UU_reference_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "UU_alternate_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGAGAGACAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "ROS_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAGAG",
+        "alt_index1": 2,
+        "AF": 0.289000004529953,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        24,
+        132
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAG",
+        "alt_index1": 3,
+        "AF": 0.035999998450279236,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        24,
+        132
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAG",
+        "alt_index1": 4,
+        "AF": 0.001521000056527555,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        24,
+        132
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "GAGAGAGAG",
+        "alt_index1": 5,
+        "AF": 0.008108999580144882,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        24,
+        132
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017411_27018411",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "C",
+        "alt_index1": 6,
+        "AF": 0.00025340000865980983,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        24,
+        132
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101951,
+        "id": null,
+        "ref": "T",
+        "alt": "C",
+        "alt_index1": 2,
+        "AF": 0.0040420000441372395,
+        "filters": [
+          "VQSRTrancheSNP99.00to99.90"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101945,
+        "id": null,
+        "ref": "CTTTTTTT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.1459999978542328,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101945,
+        "id": null,
+        "ref": "CTTTTTTT",
+        "alt": "CT",
+        "alt_index1": 2,
+        "AF": 0.4259999990463257,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101945,
+        "id": null,
+        "ref": "CTTTTTTT",
+        "alt": "CTT",
+        "alt_index1": 3,
+        "AF": 0.052000001072883606,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101945,
+        "id": null,
+        "ref": "CTTTTTTT",
+        "alt": "CTTTTTTTT",
+        "alt_index1": 4,
+        "AF": 0.04600000008940697,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101945,
+        "id": null,
+        "ref": "CTTTTTTT",
+        "alt": "CTTTTTTTTT",
+        "alt_index1": 5,
+        "AF": 0.25600001215934753,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101945,
+        "id": null,
+        "ref": "CTTTTTTT",
+        "alt": "CTTTTTTTTTT",
+        "alt_index1": 6,
+        "AF": 0.04899999871850014,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101948,
+        "id": null,
+        "ref": "T",
+        "alt": "TTTA",
+        "alt_index1": 2,
+        "AF": 0.004548000171780586,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101950,
+        "id": null,
+        "ref": "T",
+        "alt": "TA",
+        "alt_index1": 2,
+        "AF": 0.004548000171780586,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102495,
+        "id": null,
+        "ref": "ACACAG",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.33500000834465027,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102444,
+        13102550
+      ],
+      "ROS_oriented_interval": [
+        518,
+        623
+      ],
+      "UU_reference_sequence": "CTGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGA",
+      "UU_alternate_sequence": "CTGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGA",
+      "ROS_sequence": "CTGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGA"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAGAGAGAG",
+        "alt_index1": 1,
+        "AF": 0.010999999940395355,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        519,
+        642
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAGAGAGAGAG",
+        "alt_index1": 2,
+        "AF": 0.11400000005960464,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        519,
+        642
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAGAGAGAGAGAG",
+        "alt_index1": 4,
+        "AF": 0.07599999755620956,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        519,
+        642
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102496,
+        "id": null,
+        "ref": "CACAGCAGAGAGAGAGAGAGAGAG",
+        "alt": "CAGAGAG",
+        "alt_index1": 5,
+        "AF": 0.007402999792248011,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102445,
+        13102569
+      ],
+      "ROS_oriented_interval": [
+        519,
+        642
+      ],
+      "UU_reference_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "UU_alternate_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG",
+      "ROS_sequence": "TGGCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGCTCCATGCAAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102498,
+        "id": null,
+        "ref": "CAGCAG",
+        "alt": "GAGCAG",
+        "alt_index1": 2,
+        "AF": 0.13699999451637268,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102447,
+        13102553
+      ],
+      "ROS_oriented_interval": [
+        521,
+        626
+      ],
+      "UU_reference_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "UU_alternate_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "ROS_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102498,
+        "id": null,
+        "ref": "CAGCAG",
+        "alt": "C",
+        "alt_index1": 3,
+        "AF": 0.0011879999656230211,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_overlaps_reference_mismatch",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13102447,
+        13102553
+      ],
+      "ROS_oriented_interval": [
+        521,
+        626
+      ],
+      "UU_reference_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "UU_alternate_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA",
+      "ROS_sequence": "GCATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAA"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102500,
+        "id": null,
+        "ref": "GC",
+        "alt": "G",
+        "alt_index1": 2,
+        "AF": 0.14499999582767487,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102449,
+        13102551
+      ],
+      "ROS_oriented_interval": [
+        523,
+        624
+      ],
+      "UU_reference_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "UU_alternate_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "ROS_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102500,
+        "id": null,
+        "ref": "GC",
+        "alt": "GAC",
+        "alt_index1": 3,
+        "AF": 0.007067000027745962,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102449,
+        13102551
+      ],
+      "ROS_oriented_interval": [
+        523,
+        624
+      ],
+      "UU_reference_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "UU_alternate_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGACAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "ROS_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102500,
+        "id": null,
+        "ref": "GC",
+        "alt": "GAGAGAC",
+        "alt_index1": 4,
+        "AF": 0.00025240000104531646,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102449,
+        13102551
+      ],
+      "ROS_oriented_interval": [
+        523,
+        624
+      ],
+      "UU_reference_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "UU_alternate_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGAGAGACAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG",
+      "ROS_sequence": "ATAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAG"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAGAG",
+        "alt_index1": 2,
+        "AF": 0.289000004529953,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        524,
+        632
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAG",
+        "alt_index1": 3,
+        "AF": 0.035999998450279236,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        524,
+        632
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAG",
+        "alt_index1": 4,
+        "AF": 0.001521000056527555,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        524,
+        632
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "GAGAGAGAG",
+        "alt_index1": 5,
+        "AF": 0.008108999580144882,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        524,
+        632
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13102501,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "C",
+        "alt_index1": 6,
+        "AF": 0.00025340000865980983,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13102450,
+        13102559
+      ],
+      "ROS_oriented_interval": [
+        524,
+        632
+      ],
+      "UU_reference_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "UU_alternate_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACACAGCAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC",
+      "ROS_sequence": "TAAAATTACCCTTTTAAGATTTTATTTATTTATTCATGAGAGACACAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGGCAGAGACACAGGCAGAGGGAGAAGCAGGC"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101475,
+        "id": null,
+        "ref": "T",
+        "alt": "G",
+        "alt_index1": 2,
+        "AF": 0.00203999993391335,
+        "filters": [
+          "VQSRTrancheSNP99.90to100.00"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101424,
+        13101525
+      ],
+      "ROS_oriented_interval": [
+        503,
+        605
+      ],
+      "UU_reference_sequence": "TTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAG",
+      "UU_alternate_sequence": "TTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAG",
+      "ROS_sequence": "TTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAG"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101244,
+        "id": null,
+        "ref": "AC",
+        "alt": "A",
+        "alt_index1": 1,
+        "AF": 0.17100000381469727,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13101193,
+        13101295
+      ],
+      "ROS_oriented_interval": [
+        273,
+        374
+      ],
+      "UU_reference_sequence": "ATGCAAGTAGCACCCACAACTTGTGACAACCAAAAAGGTTTCCACGCACTACCAAAATATCCCCTGAGGGTCAAAATTGCCTCCAGTTGGGAACACTGCTTT",
+      "UU_alternate_sequence": "ATGCAAGTAGCACCCACAACTTGTGACAACCAAAAAGGTTTCCACGCACTACAAAATATCCCCTGAGGGTCAAAATTGCCTCCAGTTGGGAACACTGCTTT",
+      "ROS_sequence": "ATGCAAGTAGCACCCACAACTTGTGACAACCAAAAAGGTTTCCACGCACTACAAAATATCCCCTGAGGGTCAAAATTGCCTCCAGTTGGGAACACTGCTTT"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101474,
+        "id": null,
+        "ref": "GTTTTTT",
+        "alt": "GTTT",
+        "alt_index1": 1,
+        "AF": 0.06300000101327896,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101423,
+        13101530
+      ],
+      "ROS_oriented_interval": [
+        502,
+        610
+      ],
+      "UU_reference_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "UU_alternate_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "ROS_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGA"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101474,
+        "id": null,
+        "ref": "GTTTTTT",
+        "alt": "GTTTT",
+        "alt_index1": 2,
+        "AF": 0.11299999803304672,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101423,
+        13101530
+      ],
+      "ROS_oriented_interval": [
+        502,
+        610
+      ],
+      "UU_reference_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "UU_alternate_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "ROS_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGA"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101474,
+        "id": null,
+        "ref": "GTTTTTT",
+        "alt": "G",
+        "alt_index1": 3,
+        "AF": 0.0729999989271164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101423,
+        13101530
+      ],
+      "ROS_oriented_interval": [
+        502,
+        610
+      ],
+      "UU_reference_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "UU_alternate_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "ROS_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGA"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101474,
+        "id": null,
+        "ref": "GTTTTTT",
+        "alt": "GTTTTTTTT",
+        "alt_index1": 4,
+        "AF": 0.06700000166893005,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101423,
+        13101530
+      ],
+      "ROS_oriented_interval": [
+        502,
+        610
+      ],
+      "UU_reference_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "UU_alternate_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "ROS_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGA"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101474,
+        "id": null,
+        "ref": "GTTTTTT",
+        "alt": "GT",
+        "alt_index1": 5,
+        "AF": 0.38600000739097595,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101423,
+        13101530
+      ],
+      "ROS_oriented_interval": [
+        502,
+        610
+      ],
+      "UU_reference_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "UU_alternate_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "ROS_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGA"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101474,
+        "id": null,
+        "ref": "GTTTTTT",
+        "alt": "GTTTTTTT",
+        "alt_index1": 6,
+        "AF": 0.08299999684095383,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101423,
+        13101530
+      ],
+      "ROS_oriented_interval": [
+        502,
+        610
+      ],
+      "UU_reference_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "UU_alternate_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGA",
+      "ROS_sequence": "TTTGAAATTAAATTCCAGATTATGAATGAGGTCTCAAATATTAGCTTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGA"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101519,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.13199999928474426,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101468,
+        13101577
+      ],
+      "ROS_oriented_interval": [
+        547,
+        657
+      ],
+      "UU_reference_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "UU_alternate_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "ROS_sequence": "TTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101519,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAGAGAGAG",
+        "alt_index1": 2,
+        "AF": 0.2919999957084656,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101468,
+        13101577
+      ],
+      "ROS_oriented_interval": [
+        547,
+        657
+      ],
+      "UU_reference_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "UU_alternate_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "ROS_sequence": "TTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101519,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAGAG",
+        "alt_index1": 3,
+        "AF": 0.027000000700354576,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101468,
+        13101577
+      ],
+      "ROS_oriented_interval": [
+        547,
+        657
+      ],
+      "UU_reference_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "UU_alternate_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "ROS_sequence": "TTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC"
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13101519,
+        "id": null,
+        "ref": "CAGAGAGAG",
+        "alt": "CAGAG",
+        "alt_index1": 4,
+        "AF": 0.01899999938905239,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13101468,
+        13101577
+      ],
+      "ROS_oriented_interval": [
+        547,
+        657
+      ],
+      "UU_reference_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "UU_alternate_sequence": "TTTTAGTTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC",
+      "ROS_sequence": "TTTTAGTTTTTTTTTTTTTTAAGATTTTATTTATTTATTCATAGAGATGCAGAGAGAGAGAGAGAGAGAGACAGAGAGACAGAGAGACAGAGAGACAGAGAGACACAGGC"
+    },
+    {
+      "window": "NC_051836.1_27019911_27020911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13100093,
+        "id": null,
+        "ref": "TAGGG",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.5960000157356262,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13100042,
+        13100147
+      ],
+      "ROS_oriented_interval": [
+        126,
+        227
+      ],
+      "UU_reference_sequence": "GTTGGTCTGAAGACATTCAGATTTGACCAGTTTTGTAGGTGTTCCAGAGTTAGGGAGCACAGGCAATGCAGTGACTTTCAAGTTTTTTTCTGGAATCTCTATTTG",
+      "UU_alternate_sequence": "GTTGGTCTGAAGACATTCAGATTTGACCAGTTTTGTAGGTGTTCCAGAGTTAGCACAGGCAATGCAGTGACTTTCAAGTTTTTTTCTGGAATCTCTATTTG",
+      "ROS_sequence": "GTTGGTCTGAAGACATTCAGATTTGACCAGTTTTGTAGGTGTTCCAGAGTTAGCACAGGCAATGCAGTGACTTTCAAGTTTTTTTCTGGAATCTCTATTTG"
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13093502,
+        "id": null,
+        "ref": "CTG",
+        "alt": "CTGTG",
+        "alt_index1": 1,
+        "AF": 0.38100001215934753,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13093451,
+        13093554
+      ],
+      "ROS_oriented_interval": [
+        785,
+        890
+      ],
+      "UU_reference_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "UU_alternate_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "ROS_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA"
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13093502,
+        "id": null,
+        "ref": "CTG",
+        "alt": "GTG",
+        "alt_index1": 2,
+        "AF": 0.06599999964237213,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13093451,
+        13093554
+      ],
+      "ROS_oriented_interval": [
+        785,
+        890
+      ],
+      "UU_reference_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "UU_alternate_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "ROS_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA"
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13093502,
+        "id": null,
+        "ref": "CTG",
+        "alt": "CTCTGTG",
+        "alt_index1": 3,
+        "AF": 0.0035230000503361225,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13093451,
+        13093554
+      ],
+      "ROS_oriented_interval": [
+        785,
+        890
+      ],
+      "UU_reference_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "UU_alternate_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "ROS_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA"
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13093502,
+        "id": null,
+        "ref": "CTG",
+        "alt": "C",
+        "alt_index1": 4,
+        "AF": 0.0005032999906688929,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13093451,
+        13093554
+      ],
+      "ROS_oriented_interval": [
+        785,
+        890
+      ],
+      "UU_reference_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "UU_alternate_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "ROS_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA"
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13093502,
+        "id": null,
+        "ref": "CTG",
+        "alt": "CTCTCTGTG",
+        "alt_index1": 5,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13093451,
+        13093554
+      ],
+      "ROS_oriented_interval": [
+        785,
+        890
+      ],
+      "UU_reference_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "UU_alternate_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA",
+      "ROS_sequence": "GAGCCTGCTTCTCCCTCTGCCTGTGCCTCTGCCTCTCTCTCTCTCTCTCTCTGTGTGTCTCATGAATAAATAAATAAAATCTTAAAAAAAAAAAAAAAGAACTGA"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081649,
+        "id": null,
+        "ref": "TGATAGATAGATGATAGATAGATA",
+        "alt": "TGATAGATA",
+        "alt_index1": 2,
+        "AF": 0.008055999875068665,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081649,
+        "id": null,
+        "ref": "TGATAGATAGATGATAGATAGATA",
+        "alt": "TGATA",
+        "alt_index1": 3,
+        "AF": 0.0078050000593066216,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081649,
+        "id": null,
+        "ref": "TGATAGATAGATGATAGATAGATA",
+        "alt": "T",
+        "alt_index1": 4,
+        "AF": 0.00025179999647662044,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081656,
+        "id": null,
+        "ref": "TAGATGATAGATAGATAGATA",
+        "alt": "T",
+        "alt_index1": 2,
+        "AF": 0.00025179999647662044,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081656,
+        "id": null,
+        "ref": "TAGATGATAGATAGATAGATA",
+        "alt": "TGATA",
+        "alt_index1": 3,
+        "AF": 0.00025179999647662044,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081659,
+        "id": null,
+        "ref": "ATGATAGATAGATAGAT",
+        "alt": "A",
+        "alt_index1": 2,
+        "AF": 0.002266000024974346,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081660,
+        "id": null,
+        "ref": "TGATAGATAGATAGATAGATA",
+        "alt": "TGATAGATAGATAGATAGATAGATA",
+        "alt_index1": 1,
+        "AF": 0.18199999630451202,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081660,
+        "id": null,
+        "ref": "TGATAGATAGATAGATAGATA",
+        "alt": "TGATAGATAGATAGATAGATAGATAGATA",
+        "alt_index1": 2,
+        "AF": 0.08399999886751175,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081660,
+        "id": null,
+        "ref": "TGATAGATAGATAGATAGATA",
+        "alt": "TGATA",
+        "alt_index1": 3,
+        "AF": 0.43799999356269836,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081660,
+        "id": null,
+        "ref": "TGATAGATAGATAGATAGATA",
+        "alt": "TGATAGATA",
+        "alt_index1": 5,
+        "AF": 0.09300000220537186,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081660,
+        "id": null,
+        "ref": "TGATAGATAGATAGATAGATA",
+        "alt": "TGATAGATAGATA",
+        "alt_index1": 6,
+        "AF": 0.04699999839067459,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13081662,
+        "id": null,
+        "ref": "ATAG",
+        "alt": "A",
+        "alt_index1": 2,
+        "AF": 0.0012659999774768949,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": false,
+        "sequence_allele": true
+      },
+      "original_reason": "crosses_alignment_envelope",
+      "status": "flank_endpoints_unavailable"
+    },
+    {
+      "window": "NC_051836.1_27040661_27041661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13080034,
+        "id": null,
+        "ref": "CT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.5400000214576721,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13079983,
+        13080085
+      ],
+      "ROS_oriented_interval": [
+        819,
+        920
+      ],
+      "UU_reference_sequence": "ATAAGGAGCTCCCAAGCCTGTGCTCCTTATCAACACAGGACCATGTTTCCCTGGCAAGTGCCTGCTCTGTGGCAGGCTAGGTGCTGTGCTGAGTGCTTTACC",
+      "UU_alternate_sequence": "ATAAGGAGCTCCCAAGCCTGTGCTCCTTATCAACACAGGACCATGTTTCCCGGCAAGTGCCTGCTCTGTGGCAGGCTAGGTGCTGTGCTGAGTGCTTTACC",
+      "ROS_sequence": "ATAAGGAGCTCCCAAGCCTGTGCTCCTTATCAACACAGGACCATGTTTCCCGGCAAGTGCCTGCTCTGTGGCAGGCTAGGTGCTGTGCTGAGTGCTTTACC"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058091,
+        "id": null,
+        "ref": "GC",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.6650000214576721,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058040,
+        13058142
+      ],
+      "ROS_oriented_interval": [
+        389,
+        490
+      ],
+      "UU_reference_sequence": "TATTAAAGTTCATTATTGGGATCCCTGGGTGGCGCAGCGGTTTGGCGCCTGCCTTTGGCCCAGTGCGCGATCCTGGAGACCCGGGATCGAATCCCACGTCGG",
+      "UU_alternate_sequence": "TATTAAAGTTCATTATTGGGATCCCTGGGTGGCGCAGCGGTTTGGCGCCTGCTTTGGCCCAGTGCGCGATCCTGGAGACCCGGGATCGAATCCCACGTCGG",
+      "ROS_sequence": "TATTAAAGTTCATTATTGGGATCCCTGGGTGGCGCAGCGGTTTGGCGCCTGCTTTGGCCCAGTGCGCAATCCTGGAGACCCGGGATCGAATCCCACGTCGG"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058219,
+        "id": null,
+        "ref": "TAA",
+        "alt": "TA",
+        "alt_index1": 1,
+        "AF": 0.6010000109672546,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058168,
+        13058271
+      ],
+      "ROS_oriented_interval": [
+        516,
+        620
+      ],
+      "UU_reference_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAAT",
+      "UU_alternate_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAAT",
+      "ROS_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAAT"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058219,
+        "id": null,
+        "ref": "TAA",
+        "alt": "T",
+        "alt_index1": 2,
+        "AF": 0.012000000104308128,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058168,
+        13058271
+      ],
+      "ROS_oriented_interval": [
+        516,
+        620
+      ],
+      "UU_reference_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAAT",
+      "UU_alternate_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAAT",
+      "ROS_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAAT"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058219,
+        "id": null,
+        "ref": "TAA",
+        "alt": "TAAA",
+        "alt_index1": 3,
+        "AF": 0.08500000089406967,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058168,
+        13058271
+      ],
+      "ROS_oriented_interval": [
+        516,
+        620
+      ],
+      "UU_reference_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAAT",
+      "UU_alternate_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAAT",
+      "ROS_sequence": "CCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAAT"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058239,
+        "id": null,
+        "ref": "AAAAT",
+        "alt": "TAAAT",
+        "alt_index1": 1,
+        "AF": 0.08699999749660492,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058188,
+        13058293
+      ],
+      "ROS_oriented_interval": [
+        536,
+        642
+      ],
+      "UU_reference_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "UU_alternate_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "ROS_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058239,
+        "id": null,
+        "ref": "AAAAT",
+        "alt": "AATAAAT",
+        "alt_index1": 2,
+        "AF": 0.6489999890327454,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058188,
+        13058293
+      ],
+      "ROS_oriented_interval": [
+        536,
+        642
+      ],
+      "UU_reference_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "UU_alternate_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "ROS_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058239,
+        "id": null,
+        "ref": "AAAAT",
+        "alt": "ATAAAT",
+        "alt_index1": 3,
+        "AF": 0.05299999937415123,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058188,
+        13058293
+      ],
+      "ROS_oriented_interval": [
+        536,
+        642
+      ],
+      "UU_reference_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "UU_alternate_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "ROS_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA"
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058239,
+        "id": null,
+        "ref": "AAAAT",
+        "alt": "A",
+        "alt_index1": 4,
+        "AF": 0.002051000017672777,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058188,
+        13058293
+      ],
+      "ROS_oriented_interval": [
+        536,
+        642
+      ],
+      "UU_reference_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "UU_alternate_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAAATTAAAAAAAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA",
+      "ROS_sequence": "CTCTCTCTCTCTGTGTGTGTGTGACTATCATAAAAAAAAAAATTAAAAAAATAAATAAATAAAGTTCATTATAGTCAGCAAAATTAATTCTATTAAATCAGTAGAA"
+    },
+    {
+      "window": "NC_051836.1_27062661_27063661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13057336,
+        "id": null,
+        "ref": "CTA",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.6650000214576721,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13057285,
+        13057388
+      ],
+      "ROS_oriented_interval": [
+        136,
+        237
+      ],
+      "UU_reference_sequence": "GGAGCTAATATAACTCAATGACTCTATAGTCCCCCTAAACTGTGATTTATCTATGTTTGGTTTGTAACAGATTTTTTTTGTATCAACACACCTTATTGTTAAT",
+      "UU_alternate_sequence": "GGAGCTAATATAACTCAATGACTCTATAGTCCCCCTAAACTGTGATTTATCTGTTTGGTTTGTAACAGATTTTTTTTGTATCAACACACCTTATTGTTAAT",
+      "ROS_sequence": "GGAGCTAATATAACTCAATGACTCTATAGTCCCCCTAAACTGTGATTTATCTGTTTGGTTTGTAACAGATTTTTTTTGTATCAACACACCTTATTGTTAAT"
+    },
+    {
+      "window": "NC_051836.1_27062661_27063661",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13058091,
+        "id": null,
+        "ref": "GC",
+        "alt": "G",
+        "alt_index1": 1,
+        "AF": 0.6650000214576721,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": false,
+      "UU_interval": [
+        13058040,
+        13058142
+      ],
+      "ROS_oriented_interval": [
+        889,
+        990
+      ],
+      "UU_reference_sequence": "TATTAAAGTTCATTATTGGGATCCCTGGGTGGCGCAGCGGTTTGGCGCCTGCCTTTGGCCCAGTGCGCGATCCTGGAGACCCGGGATCGAATCCCACGTCGG",
+      "UU_alternate_sequence": "TATTAAAGTTCATTATTGGGATCCCTGGGTGGCGCAGCGGTTTGGCGCCTGCTTTGGCCCAGTGCGCGATCCTGGAGACCCGGGATCGAATCCCACGTCGG",
+      "ROS_sequence": "TATTAAAGTTCATTATTGGGATCCCTGGGTGGCGCAGCGGTTTGGCGCCTGCTTTGGCCCAGTGCGCAATCCTGGAGACCCGGGATCGAATCCCACGTCGG"
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13056059,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.02199999988079071,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13056008,
+        13056115
+      ],
+      "ROS_oriented_interval": [
+        356,
+        467
+      ],
+      "UU_reference_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "UU_alternate_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "ROS_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT"
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13056059,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCTCT",
+        "alt_index1": 2,
+        "AF": 0.19300000369548798,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13056008,
+        13056115
+      ],
+      "ROS_oriented_interval": [
+        356,
+        467
+      ],
+      "UU_reference_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "UU_alternate_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "ROS_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT"
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13056059,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCTCTCTCT",
+        "alt_index1": 3,
+        "AF": 0.18700000643730164,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13056008,
+        13056115
+      ],
+      "ROS_oriented_interval": [
+        356,
+        467
+      ],
+      "UU_reference_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "UU_alternate_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "ROS_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT"
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13056059,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCT",
+        "alt_index1": 4,
+        "AF": 0.017999999225139618,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13056008,
+        13056115
+      ],
+      "ROS_oriented_interval": [
+        356,
+        467
+      ],
+      "UU_reference_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "UU_alternate_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "ROS_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT"
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13056059,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCTCTCTCTCTCT",
+        "alt_index1": 5,
+        "AF": 0.005297999829053879,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13056008,
+        13056115
+      ],
+      "ROS_oriented_interval": [
+        356,
+        467
+      ],
+      "UU_reference_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "UU_alternate_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "ROS_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT"
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13056059,
+        "id": null,
+        "ref": "CCTCTCT",
+        "alt": "CCTCTCTCTCT",
+        "alt_index1": 6,
+        "AF": 0.024000000208616257,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13056008,
+        13056115
+      ],
+      "ROS_oriented_interval": [
+        356,
+        467
+      ],
+      "UU_reference_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "UU_alternate_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT",
+      "ROS_sequence": "CGGGCTCCCGGTGCATGGAGCCTCTGCTTCTCCCTCTGCCTGTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTGTGACTATCATAAATAAATAAAAATT"
+    },
+    {
+      "window": "NC_051836.1_27069911_27070911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13050772,
+        "id": null,
+        "ref": "CT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.5839999914169312,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "catalogue_ALT_haplotype_equals_ROS",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13050721,
+        13050823
+      ],
+      "ROS_oriented_interval": [
+        823,
+        924
+      ],
+      "UU_reference_sequence": "CTTGACTATCTTCAATTTTAACTGAACAGTGGTGGGTTTTTTTTTTTTCCCTCTTTAACTTATATTCCTCTTCAGTGTTAGGACTACTAGATGTAGAACATT",
+      "UU_alternate_sequence": "CTTGACTATCTTCAATTTTAACTGAACAGTGGTGGGTTTTTTTTTTTTCCCCTTTAACTTATATTCCTCTTCAGTGTTAGGACTACTAGATGTAGAACATT",
+      "ROS_sequence": "CTTGACTATCTTCAATTTTAACTGAACAGTGGTGGGTTTTTTTTTTTTCCCCTTTAACTTATATTCCTCTTCAGTGTTAGGACTACTAGATGTAGAACATT"
+    },
+    {
+      "window": "NC_051836.1_27069911_27070911",
+      "allele": {
+        "chrom": "chr32",
+        "uu_chrom": "NC_049253.1",
+        "pos1": 13050773,
+        "id": null,
+        "ref": "TC",
+        "alt": "CC",
+        "alt_index1": 2,
+        "AF": 0.057999998331069946,
+        "filters": [
+          "QD2"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "original_reason": "allele_crosses_indel_or_exact_block_boundary",
+      "status": "local_haplotypes_differ",
+      "flanks_50bp_exact": true,
+      "UU_interval": [
+        13050722,
+        13050824
+      ],
+      "ROS_oriented_interval": [
+        824,
+        925
+      ],
+      "UU_reference_sequence": "TTGACTATCTTCAATTTTAACTGAACAGTGGTGGGTTTTTTTTTTTTCCCTCTTTAACTTATATTCCTCTTCAGTGTTAGGACTACTAGATGTAGAACATTT",
+      "UU_alternate_sequence": "TTGACTATCTTCAATTTTAACTGAACAGTGGTGGGTTTTTTTTTTTTCCCCCTTTAACTTATATTCCTCTTCAGTGTTAGGACTACTAGATGTAGAACATTT",
+      "ROS_sequence": "TTGACTATCTTCAATTTTAACTGAACAGTGGTGGGTTTTTTTTTTTTCCCCTTTAACTTATATTCCTCTTCAGTGTTAGGACTACTAGATGTAGAACATTT"
+    }
+  ],
+  "counts": {
+    "catalogue_ALT_haplotype_equals_ROS": 17,
+    "local_haplotypes_differ": 102,
+    "flank_endpoints_unavailable": 40
+  },
+  "limitations": [
+    "Exact local sequence equivalence only, not donor genotype",
+    "Other alleles/counts must be rebased separately",
+    "A mismatch is unresolved, not a biological exclusion",
+    "50bp flanks constrained to existing alignment; no new uniqueness assertion"
+  ]
+}

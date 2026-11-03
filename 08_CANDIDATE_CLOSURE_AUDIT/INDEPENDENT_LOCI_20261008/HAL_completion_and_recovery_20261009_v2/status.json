@@ -1,0 +1,9 @@
+{
+  "state": "failed",
+  "pid": 925,
+  "stage": "waiting_for_existing_v3_chain",
+  "utc_start": "2026-10-09T12:48:39.805795+00:00",
+  "watched_pid": 292,
+  "error": "Command '['/usr/bin/python3', '-c', 'import os,select; fd=os.pidfd_open(292); select.select([fd],[],[]); os.close(fd)']' returned non-zero exit status 1.",
+  "utc_end": "2026-10-09T12:48:39.957628+00:00"
+}

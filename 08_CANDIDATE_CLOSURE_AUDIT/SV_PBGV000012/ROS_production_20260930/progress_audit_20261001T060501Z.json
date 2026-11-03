@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-01T06:05:01.232945+00:00",
+  "blocks": 151,
+  "contiguous_spots": 151000000,
+  "percent": 70.51893553674962,
+  "scope": "receipt arithmetic and BAM/index existence, not full BAM revalidation"
+}

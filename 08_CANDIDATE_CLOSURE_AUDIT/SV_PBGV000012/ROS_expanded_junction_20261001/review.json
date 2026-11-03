@@ -1,0 +1,351 @@
+{
+  "reads_tested": 14716,
+  "names_selected": 7360,
+  "spanning_read_count": 12,
+  "spanning_with_positive_AS_margin": 11,
+  "rows": [
+    {
+      "read": "SRR14750332.101222071_mate1",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "50S100M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 100,
+      "margin": 50,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 900,
+          "end0": 1050
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 145,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 901,
+          "end0": 1051
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.101966084_mate2",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "48S102M"
+      },
+      "best_spanning_AS": 148,
+      "best_reported_genomic_AS": 100,
+      "margin": 48,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 148,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 898,
+          "end0": 1048
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 143,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 899,
+          "end0": 1049
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.12705144_mate2",
+      "original": {
+        "original_MAPQ": 0,
+        "ref": "NC_051826.1",
+        "start0": 58754863,
+        "cigar": "30S120M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 120,
+      "margin": 30,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 17,
+          "cigar": "150M",
+          "start0": 969,
+          "end0": 1119
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.150620752_mate2",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "36S114M"
+      },
+      "best_spanning_AS": 145,
+      "best_reported_genomic_AS": 109,
+      "margin": 36,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 145,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 886,
+          "end0": 1036
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 140,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 887,
+          "end0": 1037
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.159244344_mate1",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "62S88M"
+      },
+      "best_spanning_AS": 149,
+      "best_reported_genomic_AS": 88,
+      "margin": 61,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 149,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 912,
+          "end0": 1062
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 144,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 913,
+          "end0": 1063
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.182785640_mate2",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "69S81M"
+      },
+      "best_spanning_AS": 145,
+      "best_reported_genomic_AS": null,
+      "margin": null,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 145,
+          "MAPQ": 17,
+          "cigar": "150M",
+          "start0": 919,
+          "end0": 1069
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.199299879_mate1",
+      "original": {
+        "original_MAPQ": 0,
+        "ref": "NC_051843.1",
+        "start0": 56709189,
+        "cigar": "27S123M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 123,
+      "margin": 27,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 972,
+          "end0": 1122
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 145,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 973,
+          "end0": 1123
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.210784433_mate1",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "44S106M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 106,
+      "margin": 44,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 894,
+          "end0": 1044
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 145,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 895,
+          "end0": 1045
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.4907758_mate2",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "43S107M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 107,
+      "margin": 43,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 893,
+          "end0": 1043
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 145,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 894,
+          "end0": 1044
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "43S107M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 107,
+      "margin": 43,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 893,
+          "end0": 1043
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 145,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 894,
+          "end0": 1044
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.84746057_mate2",
+      "original": {
+        "original_MAPQ": 60,
+        "ref": "NC_051836.1",
+        "start0": 35342119,
+        "cigar": "55S95M"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 95,
+      "margin": 55,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 6,
+          "cigar": "150M",
+          "start0": 905,
+          "end0": 1055
+        },
+        {
+          "ref": "junction_L4707938_R33613307",
+          "AS": 145,
+          "MAPQ": 0,
+          "cigar": "150M",
+          "start0": 906,
+          "end0": 1056
+        }
+      ]
+    },
+    {
+      "read": "SRR14750332.86877856_mate2",
+      "original": {
+        "original_MAPQ": 0,
+        "ref": "NC_051806.1",
+        "start0": 58587394,
+        "cigar": "91M59S"
+      },
+      "best_spanning_AS": 150,
+      "best_reported_genomic_AS": 91,
+      "margin": 59,
+      "hits": [
+        {
+          "ref": "junction_L4707939_R33613308",
+          "AS": 150,
+          "MAPQ": 17,
+          "cigar": "150M",
+          "start0": 939,
+          "end0": 1089
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Local windows plus mates retained in selected chr32 BAM; not all raw reads",
+    "Single-read competition, not calibrated pair likelihood",
+    "BWA reported hits are heuristic; absent genomic score is not infinite margin",
+    "Synthetic junction offset1000 and contiguous20bp anchors; ROS projection remains approximate",
+    "Same reads reused; not independent confirmation"
+  ]
+}

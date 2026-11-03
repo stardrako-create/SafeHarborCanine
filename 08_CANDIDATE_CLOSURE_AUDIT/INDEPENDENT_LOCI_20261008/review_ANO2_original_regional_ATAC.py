@@ -1,0 +1,9 @@
+from pathlib import Path
+import sys,json,csv,hashlib,datetime
+N=Path(__file__).resolve().parent;P=N.parent.parent
+sys.path[:0]=[str(P/'06_v1.21.8/code'),str(P/'06_v1.21.1/code')]
+import score_ship_candidates_v2 as legacy
+import pyBigWig
+cmd=json.loads((P/'06_v1.21.8/scoring_command.json').read_text());source=Path(cmd[cmd.index('--candidates')+1]);rows=list(csv.DictReader(source.open(),delimiter='\t'));assert len(rows)==461
+region=next(r for r in rows if r['chrom']=='NC_051831.1' and int(r['start'])<=39708074 and int(r['end'])>=39709074);track=Path(cmd[cmd.index('--atac-mean-bw')+1]);bw=pyBigWig.open(str(track));lengths=[int(r['end'])-int(r['start']) for r in rows];background=legacy.build_matched_window_background(bw,lengths);mean=legacy.track_value(bw,region['chrom'],int(region['start']),int(region['end']));pct=legacy.percentile_rank(background,mean);threshold=float(cmd[cmd.index('--min-atac-accessibility-percentile')+1]);narrow=json.loads((N/'ATAC_narrow_gate_20261008.json').read_text());nr=next(r for r in narrow['results'] if r['id']=='ANO2_39708')
+result=dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),region=region,original_candidate_regions=461,background_n=len(background),background=background.tolist(),regional_mean=mean,regional_percentile=pct,threshold=threshold,passes_original_wide_gate=pct>=threshold,local_narrow_gate=nr,source_hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in [source,track,Path(legacy.__file__)]},limitations=['Recomputed original regional gate, not substituted with local1kb mean or chosen favorable context.','Blood ATAC, no CAR-T functional validation or donor-specific accessibility.']);out=N/'ANO2_original_regional_ATAC_20261009.json';assert not out.exists();out.write_text(json.dumps(result,indent=2));print(json.dumps({k:v for k,v in result.items() if k not in ['background','source_hashes']}))

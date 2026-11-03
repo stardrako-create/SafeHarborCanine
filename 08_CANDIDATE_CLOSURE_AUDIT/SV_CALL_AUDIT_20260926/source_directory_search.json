@@ -1,0 +1,49 @@
+[
+  {
+    "url": "https://kiddlabshare.med.umich.edu/dog10K/Manta-SV_2021-11-18/",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/dog10K/",
+      "SV-genotype.merge.INV.filter.vcf.gz",
+      "SV-genotype.merge.INV.filter.vcf.gz.tbi",
+      "SV-genotype.merge.agg_only.filter.vcf.gz",
+      "SV-genotype.merge.agg_only.filter.vcf.gz.tbi",
+      "SV-genotype.merge.vcf.gz",
+      "SV-genotype.merge.vcf.gz.tbi",
+      "svcallset.README.txt"
+    ]
+  },
+  {
+    "url": "https://kiddlabshare.med.umich.edu/dog10K/Manta-SV_2022-03-28/",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/dog10K/",
+      "SV-genotype-v2.merge.INV.08042022.vcf.gz",
+      "SV-genotype-v2.merge.INV.08042022.vcf.gz.tbi",
+      "SV-genotype-v2.merge.agg_only.08032022.vcf.gz",
+      "SV-genotype-v2.merge.agg_only.08032022.vcf.gz.tbi",
+      "raw/",
+      "svcallset.v2.README.txt"
+    ]
+  },
+  {
+    "url": "https://kiddlabshare.med.umich.edu/dog10K/Manta-SV_2022-03-28/raw/",
+    "links": [
+      "?C=N;O=D",
+      "?C=M;O=A",
+      "?C=S;O=A",
+      "?C=D;O=A",
+      "/dog10K/Manta-SV_2022-03-28/",
+      "SV-genotype-v2.merge.INV.vcf.gz",
+      "SV-genotype-v2.merge.INV.vcf.gz.tbi",
+      "SV-genotype-v2.merge.vcf.gz",
+      "SV-genotype-v2.merge.vcf.gz.tbi"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "ANO2_39708": {
+    "chrom": "NC_051831.1",
+    "context_start0": 39698074,
+    "context_end0": 39719074,
+    "window_start0": 39708074,
+    "window_end0": 39709074,
+    "sha256": "d173a26ca8cc3aa8085a8567e30a23d0f3aa85444ac736ff38b61adedda30ad5"
+  },
+  "bg1k_1865": {
+    "chrom": "NC_051812.1",
+    "context_start0": 32258116,
+    "context_end0": 32279116,
+    "window_start0": 32268116,
+    "window_end0": 32269116,
+    "sha256": "55b19a04aa18c8d8c69c9665096ba1ef4ec9d35ff6f2946167f86ec4a96c80b3"
+  }
+}

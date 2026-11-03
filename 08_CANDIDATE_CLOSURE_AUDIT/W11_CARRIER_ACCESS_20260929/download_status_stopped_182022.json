@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-29T18:20:22.617592+00:00",
+  "pid": 11004,
+  "state": "stopped",
+  "url": "https://sra-pub-run-odp.s3.dualstack.us-east-1.amazonaws.com/sra/SRR14750332/SRR14750332",
+  "destination": "C:\\Users\\Utilizador\\SafeHarborData\\SRR14750332\\SRR14750332.sra",
+  "expected_bytes": 26235010732,
+  "expected_md5": "035a1a8a3add18107a9cc8763acb6048",
+  "error": "The read operation timed out",
+  "bytes": 14218690560
+}

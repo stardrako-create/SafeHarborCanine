@@ -1,0 +1,850 @@
+{
+  "SRR14750332.151036798_mate1": [
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat181_return35342133",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53S",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "catalogue_junction",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat300_return35342119",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat164_return35342133",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat208_return35342119",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat300_return35342133",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat164_return35342119",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat181_return35342119",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.151036798_mate1",
+      "model": "local_repeat208_return35342133",
+      "start0": 1050,
+      "end0": 1147,
+      "reverse": false,
+      "AS": 87,
+      "cigar": "97M53H",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.17168707_mate1": [
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "ROS_reference_reverse",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat300_return35342119",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat181_return35342133",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat208_return35342133",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat300_return35342133",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat164_return35342133",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat164_return35342119",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat208_return35342119",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "catalogue_junction",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate1",
+      "model": "local_repeat181_return35342119",
+      "start0": 795,
+      "end0": 945,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.17168707_mate2": [
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat164_return35342133",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat181_return35342133",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat300_return35342119",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat208_return35342119",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat181_return35342119",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "catalogue_junction",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat208_return35342133",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat164_return35342119",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.17168707_mate2",
+      "model": "local_repeat300_return35342133",
+      "start0": 1014,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.46922360_mate1": [
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat181_return35342133",
+      "start0": 1178,
+      "end0": 1309,
+      "reverse": true,
+      "AS": 126,
+      "cigar": "19S131M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat300_return35342133",
+      "start0": 1298,
+      "end0": 1428,
+      "reverse": true,
+      "AS": 125,
+      "cigar": "20H130M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat164_return35342133",
+      "start0": 1164,
+      "end0": 1292,
+      "reverse": true,
+      "AS": 123,
+      "cigar": "22H128M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat208_return35342133",
+      "start0": 1208,
+      "end0": 1336,
+      "reverse": true,
+      "AS": 123,
+      "cigar": "22H128M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "ROS_reference_reverse",
+      "start0": 986,
+      "end0": 1114,
+      "reverse": true,
+      "AS": 123,
+      "cigar": "22H128M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat300_return35342119",
+      "start0": 1297,
+      "end0": 1414,
+      "reverse": true,
+      "AS": 112,
+      "cigar": "33H117M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat181_return35342119",
+      "start0": 1179,
+      "end0": 1295,
+      "reverse": true,
+      "AS": 111,
+      "cigar": "34H116M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat164_return35342119",
+      "start0": 1164,
+      "end0": 1278,
+      "reverse": true,
+      "AS": 109,
+      "cigar": "36H114M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate1",
+      "model": "local_repeat208_return35342119",
+      "start0": 1208,
+      "end0": 1322,
+      "reverse": true,
+      "AS": 109,
+      "cigar": "36H114M",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.46922360_mate2": [
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "catalogue_junction",
+      "start0": 1058,
+      "end0": 1208,
+      "reverse": false,
+      "AS": 145,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat300_return35342133",
+      "start0": 1058,
+      "end0": 1208,
+      "reverse": false,
+      "AS": 145,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat300_return35342119",
+      "start0": 1058,
+      "end0": 1208,
+      "reverse": false,
+      "AS": 145,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat208_return35342119",
+      "start0": 1058,
+      "end0": 1208,
+      "reverse": false,
+      "AS": 145,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat208_return35342133",
+      "start0": 1058,
+      "end0": 1208,
+      "reverse": false,
+      "AS": 145,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat181_return35342119",
+      "start0": 1058,
+      "end0": 1182,
+      "reverse": false,
+      "AS": 124,
+      "cigar": "124M26H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat181_return35342133",
+      "start0": 1058,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 123,
+      "cigar": "123M27H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat164_return35342133",
+      "start0": 1058,
+      "end0": 1166,
+      "reverse": false,
+      "AS": 108,
+      "cigar": "108M42H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.46922360_mate2",
+      "model": "local_repeat164_return35342119",
+      "start0": 1058,
+      "end0": 1164,
+      "reverse": false,
+      "AS": 106,
+      "cigar": "106M44H",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.5050682_mate1": [
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat208_return35342133",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "catalogue_junction",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat181_return35342119",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat181_return35342133",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat208_return35342119",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat300_return35342133",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat300_return35342119",
+      "start0": 1028,
+      "end0": 1178,
+      "reverse": true,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat164_return35342133",
+      "start0": 1028,
+      "end0": 1166,
+      "reverse": true,
+      "AS": 138,
+      "cigar": "138M12H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate1",
+      "model": "local_repeat164_return35342119",
+      "start0": 1028,
+      "end0": 1164,
+      "reverse": true,
+      "AS": 136,
+      "cigar": "136M14H",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.5050682_mate2": [
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat181_return35342119",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat208_return35342133",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat208_return35342119",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "catalogue_junction",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat181_return35342133",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat164_return35342119",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat300_return35342119",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat300_return35342133",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "local_repeat164_return35342133",
+      "start0": 893,
+      "end0": 1043,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "model": "ROS_reference_reverse",
+      "start0": 893,
+      "end0": 1000,
+      "reverse": false,
+      "AS": 107,
+      "cigar": "107M43H",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.81907291_mate1": [
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat181_return35342133",
+      "start0": 1178,
+      "end0": 1260,
+      "reverse": true,
+      "AS": 82,
+      "cigar": "68S82M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat300_return35342133",
+      "start0": 1298,
+      "end0": 1379,
+      "reverse": true,
+      "AS": 81,
+      "cigar": "69H81M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "ROS_reference_reverse",
+      "start0": 986,
+      "end0": 1065,
+      "reverse": true,
+      "AS": 79,
+      "cigar": "71H79M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat208_return35342133",
+      "start0": 1208,
+      "end0": 1287,
+      "reverse": true,
+      "AS": 79,
+      "cigar": "71H79M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat164_return35342133",
+      "start0": 1164,
+      "end0": 1243,
+      "reverse": true,
+      "AS": 79,
+      "cigar": "71H79M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat300_return35342119",
+      "start0": 1297,
+      "end0": 1365,
+      "reverse": true,
+      "AS": 68,
+      "cigar": "82H68M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat181_return35342119",
+      "start0": 1179,
+      "end0": 1246,
+      "reverse": true,
+      "AS": 67,
+      "cigar": "83H67M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat164_return35342119",
+      "start0": 1164,
+      "end0": 1229,
+      "reverse": true,
+      "AS": 65,
+      "cigar": "85H65M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate1",
+      "model": "local_repeat208_return35342119",
+      "start0": 1208,
+      "end0": 1273,
+      "reverse": true,
+      "AS": 65,
+      "cigar": "85H65M",
+      "MAPQ_local_only": 0
+    }
+  ],
+  "SRR14750332.81907291_mate2": [
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat181_return35342133",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat208_return35342119",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "catalogue_junction",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat181_return35342119",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat208_return35342133",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat300_return35342119",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat300_return35342133",
+      "start0": 1031,
+      "end0": 1181,
+      "reverse": false,
+      "AS": 150,
+      "cigar": "150M",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat164_return35342133",
+      "start0": 1031,
+      "end0": 1166,
+      "reverse": false,
+      "AS": 135,
+      "cigar": "135M15H",
+      "MAPQ_local_only": 0
+    },
+    {
+      "read": "SRR14750332.81907291_mate2",
+      "model": "local_repeat164_return35342119",
+      "start0": 1031,
+      "end0": 1164,
+      "reverse": false,
+      "AS": 133,
+      "cigar": "133M17H",
+      "MAPQ_local_only": 0
+    }
+  ]
+}

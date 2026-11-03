@@ -1,0 +1,43 @@
+{
+  "state": "completed",
+  "pid": 292,
+  "utc_start": "2026-10-09T12:10:02.807283+00:00",
+  "stage": "validated",
+  "scripts_sha256": {
+    "extract_verified_HAL_v3.py": "fb10793346091daa1f0ed9ac78b96e9014218765846448cd1ad1f0957ba3b456",
+    "score_verified_MAF_v3.py": "94d8d8d2aa0b1463b1c69170e9c5f512cd2ad5a6b8dee3f30060ae8eea9d2311"
+  },
+  "results": [
+    {
+      "id": "bg1k_1059",
+      "scored_bp": 1000,
+      "max50bp_mean": 0.50206,
+      "exceeds_legacy_6_5": false,
+      "reference_sha256": "bfaa9dcdc2d71a127635443d735be7e655ccb0444da660294b1d18e40aa6f1a0",
+      "maf_sha256": "e8058e363a1d71c50238305a6eade403585021490c5da19fc3a9eb11b50b12ce",
+      "wig_sha256": "8177f20fb249a9cb71a2ddfa7f770af4d3612a371272b6264971679657cded1f",
+      "limitation": "Reference coverage and identity verified against independent UCSC canFam3 sequence; ROS transfer and other gates assessed separately."
+    },
+    {
+      "id": "bg1k_1266",
+      "scored_bp": 1000,
+      "max50bp_mean": 2.21532,
+      "exceeds_legacy_6_5": false,
+      "reference_sha256": "be5c44e828027bb32b0ffc091229c373a2996640a7ced44e1d20953629f489bf",
+      "maf_sha256": "8037ec785c3034385a573641a4202cffc0c5f8a6ca72a940303a9a8eda5978e5",
+      "wig_sha256": "c8d80d0445e5dd13074b55334de7c128f3ee602b873dc70c0b08611040dde956",
+      "limitation": "Reference coverage and identity verified against independent UCSC canFam3 sequence; ROS transfer and other gates assessed separately."
+    },
+    {
+      "id": "bg1k_1900",
+      "scored_bp": 1000,
+      "max50bp_mean": 0.46692,
+      "exceeds_legacy_6_5": false,
+      "reference_sha256": "47692e9ee3bae42c5d6ef3b014ef81fa79943de9f5fea4f8e25027441090a2ad",
+      "maf_sha256": "c4a91821f9f35b6d70b7c9f9e045bdca01547ff6049525d5d4c1848190acbd9f",
+      "wig_sha256": "a567a4ea4b07c8c7d8032a48bf751ee54781737046a5445807cafc20076f80c5",
+      "limitation": "Reference coverage and identity verified against independent UCSC canFam3 sequence; ROS transfer and other gates assessed separately."
+    }
+  ],
+  "utc_end": "2026-10-09T12:47:36.585946+00:00"
+}

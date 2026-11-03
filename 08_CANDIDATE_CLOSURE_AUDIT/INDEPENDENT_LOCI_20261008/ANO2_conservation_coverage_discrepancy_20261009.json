@@ -1,0 +1,20 @@
+{
+  "reference_mapped_bp": 1000,
+  "MAF_reference_covered_bp": 1000,
+  "WIG_finite_mapped_bp": 1000,
+  "duplicate_reference_positions": [],
+  "missing": [],
+  "chain_jumps": [
+    {
+      "ROS_offset0": 783,
+      "CanFam3_step": 12
+    }
+  ],
+  "envelope_bp": 1011,
+  "historical_claim_scored_fraction": 1.0,
+  "interpretation": "Historic scored_fraction is not accepted until reconciled against basewise source coordinates. No missing position receives zero or PASS.",
+  "source_hashes": {
+    "/mnt/d/Jin2024_work/zoonomia_hal/maf_dog/cand_36.chr27.39320764.maf": "ce7cb39c6e664c0d63c3c96804033859abe692203e10a1a63042139633597881",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.9/ANO2.published_model.wig": "d347e07caaa02981ade26143329cf5c046c4a3d6cfb633b3010be5236383992b"
+  }
+}

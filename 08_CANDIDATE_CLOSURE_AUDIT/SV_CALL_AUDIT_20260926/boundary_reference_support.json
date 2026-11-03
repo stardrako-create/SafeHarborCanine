@@ -1,0 +1,54 @@
+{
+  "utc": "2026-09-26T16:42:28.099817+00:00",
+  "rows": [
+    {
+      "boundary": "left",
+      "pos0": 4707939,
+      "eligible_names_within_200bp": 50,
+      "reference_spanning_names_20bp_each_side": 8,
+      "exact_boundary_softclip_names_ge20bp": 7,
+      "both_categories": 0,
+      "reference_names": [
+        "SRR15734832.101663283",
+        "SRR15734832.112613003",
+        "SRR15734832.118940385",
+        "SRR15734832.123308448",
+        "SRR15734832.16363258",
+        "SRR15734832.182915517",
+        "SRR15734832.29850657",
+        "SRR15734832.90853780"
+      ],
+      "softclip_names": [
+        "SRR15734832.115369889",
+        "SRR15734832.19313490",
+        "SRR15734832.27628065",
+        "SRR15734832.33443366",
+        "SRR15734832.42922787",
+        "SRR15734832.66864324",
+        "SRR15734832.6766145"
+      ]
+    },
+    {
+      "boundary": "right",
+      "pos0": 33613308,
+      "eligible_names_within_200bp": 39,
+      "reference_spanning_names_20bp_each_side": 5,
+      "exact_boundary_softclip_names_ge20bp": 0,
+      "both_categories": 0,
+      "reference_names": [
+        "SRR15734832.10414195",
+        "SRR15734832.130342222",
+        "SRR15734832.17318868",
+        "SRR15734832.40773026",
+        "SRR15734832.58233996"
+      ],
+      "softclip_names": []
+    }
+  ],
+  "limits": [
+    "Read-name groups not verified independent molecules",
+    "Reference span criterion tests CIGAR block continuity, not perfect base identity",
+    "Selected chromosome BAM; counts are descriptive, not genotype likelihood or variant allele fraction",
+    "Soft clips are not automatically support for the distant junction"
+  ]
+}

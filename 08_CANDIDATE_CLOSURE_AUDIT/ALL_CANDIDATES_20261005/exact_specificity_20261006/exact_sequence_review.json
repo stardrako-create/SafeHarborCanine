@@ -1,0 +1,2065 @@
+{
+  "status": "completed",
+  "summary": [
+    {
+      "window_id": "NC_051811.1_17234956_17235956",
+      "length": 20,
+      "segments": 981,
+      "unique": 937,
+      "nonunique": 44,
+      "max_locus_count": 113
+    },
+    {
+      "window_id": "NC_051811.1_17234956_17235956",
+      "length": 25,
+      "segments": 976,
+      "unique": 969,
+      "nonunique": 7,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "NC_051811.1_17234956_17235956",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17234956_17235956",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17255706_17256706",
+      "length": 20,
+      "segments": 981,
+      "unique": 962,
+      "nonunique": 19,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051811.1_17255706_17256706",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17255706_17256706",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17255706_17256706",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17256206_17257206",
+      "length": 20,
+      "segments": 981,
+      "unique": 811,
+      "nonunique": 170,
+      "max_locus_count": 227807
+    },
+    {
+      "window_id": "NC_051811.1_17256206_17257206",
+      "length": 25,
+      "segments": 976,
+      "unique": 875,
+      "nonunique": 101,
+      "max_locus_count": 4684
+    },
+    {
+      "window_id": "NC_051811.1_17256206_17257206",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17256206_17257206",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39713074_39714074",
+      "length": 20,
+      "segments": 981,
+      "unique": 899,
+      "nonunique": 82,
+      "max_locus_count": 918
+    },
+    {
+      "window_id": "NC_051831.1_39713074_39714074",
+      "length": 25,
+      "segments": 976,
+      "unique": 944,
+      "nonunique": 32,
+      "max_locus_count": 113
+    },
+    {
+      "window_id": "NC_051831.1_39713074_39714074",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39713074_39714074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39729824_39730824",
+      "length": 20,
+      "segments": 981,
+      "unique": 945,
+      "nonunique": 36,
+      "max_locus_count": 16
+    },
+    {
+      "window_id": "NC_051831.1_39729824_39730824",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39729824_39730824",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39729824_39730824",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39730074_39731074",
+      "length": 20,
+      "segments": 981,
+      "unique": 949,
+      "nonunique": 32,
+      "max_locus_count": 16
+    },
+    {
+      "window_id": "NC_051831.1_39730074_39731074",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39730074_39731074",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39730074_39731074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39730324_39731324",
+      "length": 20,
+      "segments": 981,
+      "unique": 947,
+      "nonunique": 34,
+      "max_locus_count": 16
+    },
+    {
+      "window_id": "NC_051831.1_39730324_39731324",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39730324_39731324",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39730324_39731324",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27039161_27040161",
+      "length": 20,
+      "segments": 981,
+      "unique": 926,
+      "nonunique": 55,
+      "max_locus_count": 742
+    },
+    {
+      "window_id": "NC_051836.1_27039161_27040161",
+      "length": 25,
+      "segments": 976,
+      "unique": 967,
+      "nonunique": 9,
+      "max_locus_count": 103
+    },
+    {
+      "window_id": "NC_051836.1_27039161_27040161",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27039161_27040161",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27039411_27040411",
+      "length": 20,
+      "segments": 981,
+      "unique": 965,
+      "nonunique": 16,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051836.1_27039411_27040411",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27039411_27040411",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27039411_27040411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27040661_27041661",
+      "length": 20,
+      "segments": 981,
+      "unique": 960,
+      "nonunique": 21,
+      "max_locus_count": 7
+    },
+    {
+      "window_id": "NC_051836.1_27040661_27041661",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27040661_27041661",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27040661_27041661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27040911_27041911",
+      "length": 20,
+      "segments": 981,
+      "unique": 949,
+      "nonunique": 32,
+      "max_locus_count": 38
+    },
+    {
+      "window_id": "NC_051836.1_27040911_27041911",
+      "length": 25,
+      "segments": 976,
+      "unique": 970,
+      "nonunique": 6,
+      "max_locus_count": 12
+    },
+    {
+      "window_id": "NC_051836.1_27040911_27041911",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27040911_27041911",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27041161_27042161",
+      "length": 20,
+      "segments": 981,
+      "unique": 956,
+      "nonunique": 25,
+      "max_locus_count": 38
+    },
+    {
+      "window_id": "NC_051836.1_27041161_27042161",
+      "length": 25,
+      "segments": 976,
+      "unique": 970,
+      "nonunique": 6,
+      "max_locus_count": 12
+    },
+    {
+      "window_id": "NC_051836.1_27041161_27042161",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27041161_27042161",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27041411_27042411",
+      "length": 20,
+      "segments": 981,
+      "unique": 909,
+      "nonunique": 72,
+      "max_locus_count": 58073
+    },
+    {
+      "window_id": "NC_051836.1_27041411_27042411",
+      "length": 25,
+      "segments": 976,
+      "unique": 937,
+      "nonunique": 39,
+      "max_locus_count": 18828
+    },
+    {
+      "window_id": "NC_051836.1_27041411_27042411",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27041411_27042411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27041661_27042661",
+      "length": 20,
+      "segments": 981,
+      "unique": 778,
+      "nonunique": 203,
+      "max_locus_count": 182495
+    },
+    {
+      "window_id": "NC_051836.1_27041661_27042661",
+      "length": 25,
+      "segments": 976,
+      "unique": 812,
+      "nonunique": 164,
+      "max_locus_count": 18828
+    },
+    {
+      "window_id": "NC_051836.1_27041661_27042661",
+      "length": 50,
+      "segments": 951,
+      "unique": 923,
+      "nonunique": 28,
+      "max_locus_count": 575
+    },
+    {
+      "window_id": "NC_051836.1_27041661_27042661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27050411_27051411",
+      "length": 20,
+      "segments": 981,
+      "unique": 921,
+      "nonunique": 60,
+      "max_locus_count": 414459
+    },
+    {
+      "window_id": "NC_051836.1_27050411_27051411",
+      "length": 25,
+      "segments": 976,
+      "unique": 949,
+      "nonunique": 27,
+      "max_locus_count": 259227
+    },
+    {
+      "window_id": "NC_051836.1_27050411_27051411",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27050411_27051411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27050661_27051661",
+      "length": 20,
+      "segments": 981,
+      "unique": 915,
+      "nonunique": 66,
+      "max_locus_count": 414459
+    },
+    {
+      "window_id": "NC_051836.1_27050661_27051661",
+      "length": 25,
+      "segments": 976,
+      "unique": 949,
+      "nonunique": 27,
+      "max_locus_count": 259227
+    },
+    {
+      "window_id": "NC_051836.1_27050661_27051661",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27050661_27051661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17222706_17223706",
+      "length": 20,
+      "segments": 981,
+      "unique": 956,
+      "nonunique": 25,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051811.1_17222706_17223706",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17222706_17223706",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17222706_17223706",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17222956_17223956",
+      "length": 20,
+      "segments": 981,
+      "unique": 956,
+      "nonunique": 25,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051811.1_17222956_17223956",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17222956_17223956",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17222956_17223956",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17230206_17231206",
+      "length": 20,
+      "segments": 981,
+      "unique": 944,
+      "nonunique": 37,
+      "max_locus_count": 5
+    },
+    {
+      "window_id": "NC_051811.1_17230206_17231206",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17230206_17231206",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17230206_17231206",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17235206_17236206",
+      "length": 20,
+      "segments": 981,
+      "unique": 938,
+      "nonunique": 43,
+      "max_locus_count": 113
+    },
+    {
+      "window_id": "NC_051811.1_17235206_17236206",
+      "length": 25,
+      "segments": 976,
+      "unique": 972,
+      "nonunique": 4,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "NC_051811.1_17235206_17236206",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17235206_17236206",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17235706_17236706",
+      "length": 20,
+      "segments": 981,
+      "unique": 849,
+      "nonunique": 132,
+      "max_locus_count": 21640
+    },
+    {
+      "window_id": "NC_051811.1_17235706_17236706",
+      "length": 25,
+      "segments": 976,
+      "unique": 885,
+      "nonunique": 91,
+      "max_locus_count": 15523
+    },
+    {
+      "window_id": "NC_051811.1_17235706_17236706",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17235706_17236706",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17240706_17241706",
+      "length": 20,
+      "segments": 981,
+      "unique": 809,
+      "nonunique": 172,
+      "max_locus_count": 32770
+    },
+    {
+      "window_id": "NC_051811.1_17240706_17241706",
+      "length": 25,
+      "segments": 976,
+      "unique": 923,
+      "nonunique": 53,
+      "max_locus_count": 1622
+    },
+    {
+      "window_id": "NC_051811.1_17240706_17241706",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17240706_17241706",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17242956_17243956",
+      "length": 20,
+      "segments": 981,
+      "unique": 965,
+      "nonunique": 16,
+      "max_locus_count": 4
+    },
+    {
+      "window_id": "NC_051811.1_17242956_17243956",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17242956_17243956",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17242956_17243956",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17245456_17246456",
+      "length": 20,
+      "segments": 981,
+      "unique": 864,
+      "nonunique": 117,
+      "max_locus_count": 240652
+    },
+    {
+      "window_id": "NC_051811.1_17245456_17246456",
+      "length": 25,
+      "segments": 976,
+      "unique": 876,
+      "nonunique": 100,
+      "max_locus_count": 16173
+    },
+    {
+      "window_id": "NC_051811.1_17245456_17246456",
+      "length": 50,
+      "segments": 951,
+      "unique": 901,
+      "nonunique": 50,
+      "max_locus_count": 282
+    },
+    {
+      "window_id": "NC_051811.1_17245456_17246456",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051811.1_17252456_17253456",
+      "length": 20,
+      "segments": 981,
+      "unique": 571,
+      "nonunique": 410,
+      "max_locus_count": 47849
+    },
+    {
+      "window_id": "NC_051811.1_17252456_17253456",
+      "length": 25,
+      "segments": 976,
+      "unique": 692,
+      "nonunique": 284,
+      "max_locus_count": 6844
+    },
+    {
+      "window_id": "NC_051811.1_17252456_17253456",
+      "length": 50,
+      "segments": 951,
+      "unique": 926,
+      "nonunique": 25,
+      "max_locus_count": 29
+    },
+    {
+      "window_id": "NC_051811.1_17252456_17253456",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39682574_39683574",
+      "length": 20,
+      "segments": 981,
+      "unique": 970,
+      "nonunique": 11,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051831.1_39682574_39683574",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39682574_39683574",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39682574_39683574",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39685324_39686324",
+      "length": 20,
+      "segments": 981,
+      "unique": 826,
+      "nonunique": 155,
+      "max_locus_count": 13501
+    },
+    {
+      "window_id": "NC_051831.1_39685324_39686324",
+      "length": 25,
+      "segments": 976,
+      "unique": 871,
+      "nonunique": 105,
+      "max_locus_count": 7211
+    },
+    {
+      "window_id": "NC_051831.1_39685324_39686324",
+      "length": 50,
+      "segments": 951,
+      "unique": 927,
+      "nonunique": 24,
+      "max_locus_count": 31
+    },
+    {
+      "window_id": "NC_051831.1_39685324_39686324",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39685574_39686574",
+      "length": 20,
+      "segments": 981,
+      "unique": 824,
+      "nonunique": 157,
+      "max_locus_count": 243457
+    },
+    {
+      "window_id": "NC_051831.1_39685574_39686574",
+      "length": 25,
+      "segments": 976,
+      "unique": 848,
+      "nonunique": 128,
+      "max_locus_count": 211063
+    },
+    {
+      "window_id": "NC_051831.1_39685574_39686574",
+      "length": 50,
+      "segments": 951,
+      "unique": 909,
+      "nonunique": 42,
+      "max_locus_count": 136
+    },
+    {
+      "window_id": "NC_051831.1_39685574_39686574",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39686074_39687074",
+      "length": 20,
+      "segments": 981,
+      "unique": 815,
+      "nonunique": 166,
+      "max_locus_count": 243457
+    },
+    {
+      "window_id": "NC_051831.1_39686074_39687074",
+      "length": 25,
+      "segments": 976,
+      "unique": 848,
+      "nonunique": 128,
+      "max_locus_count": 211063
+    },
+    {
+      "window_id": "NC_051831.1_39686074_39687074",
+      "length": 50,
+      "segments": 951,
+      "unique": 909,
+      "nonunique": 42,
+      "max_locus_count": 136
+    },
+    {
+      "window_id": "NC_051831.1_39686074_39687074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39686324_39687324",
+      "length": 20,
+      "segments": 981,
+      "unique": 821,
+      "nonunique": 160,
+      "max_locus_count": 243457
+    },
+    {
+      "window_id": "NC_051831.1_39686324_39687324",
+      "length": 25,
+      "segments": 976,
+      "unique": 848,
+      "nonunique": 128,
+      "max_locus_count": 211063
+    },
+    {
+      "window_id": "NC_051831.1_39686324_39687324",
+      "length": 50,
+      "segments": 951,
+      "unique": 909,
+      "nonunique": 42,
+      "max_locus_count": 136
+    },
+    {
+      "window_id": "NC_051831.1_39686324_39687324",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39686574_39687574",
+      "length": 20,
+      "segments": 981,
+      "unique": 961,
+      "nonunique": 20,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051831.1_39686574_39687574",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39686574_39687574",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39686574_39687574",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39707824_39708824",
+      "length": 20,
+      "segments": 981,
+      "unique": 848,
+      "nonunique": 133,
+      "max_locus_count": 13957
+    },
+    {
+      "window_id": "NC_051831.1_39707824_39708824",
+      "length": 25,
+      "segments": 976,
+      "unique": 926,
+      "nonunique": 50,
+      "max_locus_count": 973
+    },
+    {
+      "window_id": "NC_051831.1_39707824_39708824",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39707824_39708824",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39708074_39709074",
+      "length": 20,
+      "segments": 981,
+      "unique": 918,
+      "nonunique": 63,
+      "max_locus_count": 106
+    },
+    {
+      "window_id": "NC_051831.1_39708074_39709074",
+      "length": 25,
+      "segments": 976,
+      "unique": 971,
+      "nonunique": 5,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051831.1_39708074_39709074",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39708074_39709074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39708324_39709324",
+      "length": 20,
+      "segments": 981,
+      "unique": 957,
+      "nonunique": 24,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "NC_051831.1_39708324_39709324",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39708324_39709324",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39708324_39709324",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39709574_39710574",
+      "length": 20,
+      "segments": 981,
+      "unique": 922,
+      "nonunique": 59,
+      "max_locus_count": 323
+    },
+    {
+      "window_id": "NC_051831.1_39709574_39710574",
+      "length": 25,
+      "segments": 976,
+      "unique": 965,
+      "nonunique": 11,
+      "max_locus_count": 5
+    },
+    {
+      "window_id": "NC_051831.1_39709574_39710574",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39709574_39710574",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39709824_39710824",
+      "length": 20,
+      "segments": 981,
+      "unique": 914,
+      "nonunique": 67,
+      "max_locus_count": 323
+    },
+    {
+      "window_id": "NC_051831.1_39709824_39710824",
+      "length": 25,
+      "segments": 976,
+      "unique": 965,
+      "nonunique": 11,
+      "max_locus_count": 5
+    },
+    {
+      "window_id": "NC_051831.1_39709824_39710824",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39709824_39710824",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39710074_39711074",
+      "length": 20,
+      "segments": 981,
+      "unique": 884,
+      "nonunique": 97,
+      "max_locus_count": 323
+    },
+    {
+      "window_id": "NC_051831.1_39710074_39711074",
+      "length": 25,
+      "segments": 976,
+      "unique": 964,
+      "nonunique": 12,
+      "max_locus_count": 5
+    },
+    {
+      "window_id": "NC_051831.1_39710074_39711074",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39710074_39711074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39710324_39711324",
+      "length": 20,
+      "segments": 981,
+      "unique": 899,
+      "nonunique": 82,
+      "max_locus_count": 89
+    },
+    {
+      "window_id": "NC_051831.1_39710324_39711324",
+      "length": 25,
+      "segments": 976,
+      "unique": 964,
+      "nonunique": 12,
+      "max_locus_count": 5
+    },
+    {
+      "window_id": "NC_051831.1_39710324_39711324",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39710324_39711324",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39710574_39711574",
+      "length": 20,
+      "segments": 981,
+      "unique": 916,
+      "nonunique": 65,
+      "max_locus_count": 19
+    },
+    {
+      "window_id": "NC_051831.1_39710574_39711574",
+      "length": 25,
+      "segments": 976,
+      "unique": 970,
+      "nonunique": 6,
+      "max_locus_count": 3
+    },
+    {
+      "window_id": "NC_051831.1_39710574_39711574",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39710574_39711574",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39714074_39715074",
+      "length": 20,
+      "segments": 981,
+      "unique": 843,
+      "nonunique": 138,
+      "max_locus_count": 10936
+    },
+    {
+      "window_id": "NC_051831.1_39714074_39715074",
+      "length": 25,
+      "segments": 976,
+      "unique": 899,
+      "nonunique": 77,
+      "max_locus_count": 335
+    },
+    {
+      "window_id": "NC_051831.1_39714074_39715074",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39714074_39715074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39714824_39715824",
+      "length": 20,
+      "segments": 981,
+      "unique": 731,
+      "nonunique": 250,
+      "max_locus_count": 71648
+    },
+    {
+      "window_id": "NC_051831.1_39714824_39715824",
+      "length": 25,
+      "segments": 976,
+      "unique": 842,
+      "nonunique": 134,
+      "max_locus_count": 46632
+    },
+    {
+      "window_id": "NC_051831.1_39714824_39715824",
+      "length": 50,
+      "segments": 951,
+      "unique": 934,
+      "nonunique": 17,
+      "max_locus_count": 33
+    },
+    {
+      "window_id": "NC_051831.1_39714824_39715824",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39715074_39716074",
+      "length": 20,
+      "segments": 981,
+      "unique": 626,
+      "nonunique": 355,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "NC_051831.1_39715074_39716074",
+      "length": 25,
+      "segments": 976,
+      "unique": 722,
+      "nonunique": 254,
+      "max_locus_count": 211943
+    },
+    {
+      "window_id": "NC_051831.1_39715074_39716074",
+      "length": 50,
+      "segments": 951,
+      "unique": 790,
+      "nonunique": 161,
+      "max_locus_count": 33745
+    },
+    {
+      "window_id": "NC_051831.1_39715074_39716074",
+      "length": 100,
+      "segments": 901,
+      "unique": 811,
+      "nonunique": 90,
+      "max_locus_count": 743
+    },
+    {
+      "window_id": "NC_051831.1_39735074_39736074",
+      "length": 20,
+      "segments": 981,
+      "unique": 917,
+      "nonunique": 64,
+      "max_locus_count": 414459
+    },
+    {
+      "window_id": "NC_051831.1_39735074_39736074",
+      "length": 25,
+      "segments": 976,
+      "unique": 941,
+      "nonunique": 35,
+      "max_locus_count": 259227
+    },
+    {
+      "window_id": "NC_051831.1_39735074_39736074",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051831.1_39735074_39736074",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016161_27017161",
+      "length": 20,
+      "segments": 981,
+      "unique": 755,
+      "nonunique": 226,
+      "max_locus_count": 3457
+    },
+    {
+      "window_id": "NC_051836.1_27016161_27017161",
+      "length": 25,
+      "segments": 976,
+      "unique": 942,
+      "nonunique": 34,
+      "max_locus_count": 6
+    },
+    {
+      "window_id": "NC_051836.1_27016161_27017161",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016161_27017161",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016411_27017411",
+      "length": 20,
+      "segments": 981,
+      "unique": 716,
+      "nonunique": 265,
+      "max_locus_count": 1749
+    },
+    {
+      "window_id": "NC_051836.1_27016411_27017411",
+      "length": 25,
+      "segments": 976,
+      "unique": 897,
+      "nonunique": 79,
+      "max_locus_count": 34
+    },
+    {
+      "window_id": "NC_051836.1_27016411_27017411",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016411_27017411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016661_27017661",
+      "length": 20,
+      "segments": 981,
+      "unique": 728,
+      "nonunique": 253,
+      "max_locus_count": 1749
+    },
+    {
+      "window_id": "NC_051836.1_27016661_27017661",
+      "length": 25,
+      "segments": 976,
+      "unique": 902,
+      "nonunique": 74,
+      "max_locus_count": 34
+    },
+    {
+      "window_id": "NC_051836.1_27016661_27017661",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016661_27017661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016911_27017911",
+      "length": 20,
+      "segments": 981,
+      "unique": 714,
+      "nonunique": 267,
+      "max_locus_count": 228
+    },
+    {
+      "window_id": "NC_051836.1_27016911_27017911",
+      "length": 25,
+      "segments": 976,
+      "unique": 888,
+      "nonunique": 88,
+      "max_locus_count": 34
+    },
+    {
+      "window_id": "NC_051836.1_27016911_27017911",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27016911_27017911",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27017411_27018411",
+      "length": 20,
+      "segments": 981,
+      "unique": 649,
+      "nonunique": 332,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "NC_051836.1_27017411_27018411",
+      "length": 25,
+      "segments": 976,
+      "unique": 792,
+      "nonunique": 184,
+      "max_locus_count": 241876
+    },
+    {
+      "window_id": "NC_051836.1_27017411_27018411",
+      "length": 50,
+      "segments": 951,
+      "unique": 865,
+      "nonunique": 86,
+      "max_locus_count": 65477
+    },
+    {
+      "window_id": "NC_051836.1_27017411_27018411",
+      "length": 100,
+      "segments": 901,
+      "unique": 893,
+      "nonunique": 8,
+      "max_locus_count": 12
+    },
+    {
+      "window_id": "NC_051836.1_27017911_27018911",
+      "length": 20,
+      "segments": 981,
+      "unique": 521,
+      "nonunique": 460,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "NC_051836.1_27017911_27018911",
+      "length": 25,
+      "segments": 976,
+      "unique": 645,
+      "nonunique": 331,
+      "max_locus_count": 241876
+    },
+    {
+      "window_id": "NC_051836.1_27017911_27018911",
+      "length": 50,
+      "segments": 951,
+      "unique": 788,
+      "nonunique": 163,
+      "max_locus_count": 65477
+    },
+    {
+      "window_id": "NC_051836.1_27017911_27018911",
+      "length": 100,
+      "segments": 901,
+      "unique": 893,
+      "nonunique": 8,
+      "max_locus_count": 12
+    },
+    {
+      "window_id": "NC_051836.1_27018911_27019911",
+      "length": 20,
+      "segments": 981,
+      "unique": 718,
+      "nonunique": 263,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "NC_051836.1_27018911_27019911",
+      "length": 25,
+      "segments": 976,
+      "unique": 763,
+      "nonunique": 213,
+      "max_locus_count": 99170
+    },
+    {
+      "window_id": "NC_051836.1_27018911_27019911",
+      "length": 50,
+      "segments": 951,
+      "unique": 878,
+      "nonunique": 73,
+      "max_locus_count": 178
+    },
+    {
+      "window_id": "NC_051836.1_27018911_27019911",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27019911_27020911",
+      "length": 20,
+      "segments": 981,
+      "unique": 796,
+      "nonunique": 185,
+      "max_locus_count": 218318
+    },
+    {
+      "window_id": "NC_051836.1_27019911_27020911",
+      "length": 25,
+      "segments": 976,
+      "unique": 844,
+      "nonunique": 132,
+      "max_locus_count": 148760
+    },
+    {
+      "window_id": "NC_051836.1_27019911_27020911",
+      "length": 50,
+      "segments": 951,
+      "unique": 905,
+      "nonunique": 46,
+      "max_locus_count": 90
+    },
+    {
+      "window_id": "NC_051836.1_27019911_27020911",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27027161_27028161",
+      "length": 20,
+      "segments": 981,
+      "unique": 748,
+      "nonunique": 233,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "NC_051836.1_27027161_27028161",
+      "length": 25,
+      "segments": 976,
+      "unique": 784,
+      "nonunique": 192,
+      "max_locus_count": 211943
+    },
+    {
+      "window_id": "NC_051836.1_27027161_27028161",
+      "length": 50,
+      "segments": 951,
+      "unique": 860,
+      "nonunique": 91,
+      "max_locus_count": 469
+    },
+    {
+      "window_id": "NC_051836.1_27027161_27028161",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27027411_27028411",
+      "length": 20,
+      "segments": 981,
+      "unique": 909,
+      "nonunique": 72,
+      "max_locus_count": 18602
+    },
+    {
+      "window_id": "NC_051836.1_27027411_27028411",
+      "length": 25,
+      "segments": 976,
+      "unique": 931,
+      "nonunique": 45,
+      "max_locus_count": 8214
+    },
+    {
+      "window_id": "NC_051836.1_27027411_27028411",
+      "length": 50,
+      "segments": 951,
+      "unique": 950,
+      "nonunique": 1,
+      "max_locus_count": 4
+    },
+    {
+      "window_id": "NC_051836.1_27027411_27028411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27027661_27028661",
+      "length": 20,
+      "segments": 981,
+      "unique": 935,
+      "nonunique": 46,
+      "max_locus_count": 21
+    },
+    {
+      "window_id": "NC_051836.1_27027661_27028661",
+      "length": 25,
+      "segments": 976,
+      "unique": 976,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27027661_27028661",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27027661_27028661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27033411_27034411",
+      "length": 20,
+      "segments": 981,
+      "unique": 631,
+      "nonunique": 350,
+      "max_locus_count": 243457
+    },
+    {
+      "window_id": "NC_051836.1_27033411_27034411",
+      "length": 25,
+      "segments": 976,
+      "unique": 746,
+      "nonunique": 230,
+      "max_locus_count": 211063
+    },
+    {
+      "window_id": "NC_051836.1_27033411_27034411",
+      "length": 50,
+      "segments": 951,
+      "unique": 918,
+      "nonunique": 33,
+      "max_locus_count": 55
+    },
+    {
+      "window_id": "NC_051836.1_27033411_27034411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27047661_27048661",
+      "length": 20,
+      "segments": 981,
+      "unique": 774,
+      "nonunique": 207,
+      "max_locus_count": 13050
+    },
+    {
+      "window_id": "NC_051836.1_27047661_27048661",
+      "length": 25,
+      "segments": 976,
+      "unique": 888,
+      "nonunique": 88,
+      "max_locus_count": 656
+    },
+    {
+      "window_id": "NC_051836.1_27047661_27048661",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27047661_27048661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27048161_27049161",
+      "length": 20,
+      "segments": 981,
+      "unique": 813,
+      "nonunique": 168,
+      "max_locus_count": 13050
+    },
+    {
+      "window_id": "NC_051836.1_27048161_27049161",
+      "length": 25,
+      "segments": 976,
+      "unique": 889,
+      "nonunique": 87,
+      "max_locus_count": 656
+    },
+    {
+      "window_id": "NC_051836.1_27048161_27049161",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27048161_27049161",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27048411_27049411",
+      "length": 20,
+      "segments": 981,
+      "unique": 915,
+      "nonunique": 66,
+      "max_locus_count": 632
+    },
+    {
+      "window_id": "NC_051836.1_27048411_27049411",
+      "length": 25,
+      "segments": 976,
+      "unique": 964,
+      "nonunique": 12,
+      "max_locus_count": 4
+    },
+    {
+      "window_id": "NC_051836.1_27048411_27049411",
+      "length": 50,
+      "segments": 951,
+      "unique": 951,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27048411_27049411",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27062161_27063161",
+      "length": 20,
+      "segments": 981,
+      "unique": 756,
+      "nonunique": 225,
+      "max_locus_count": 314222
+    },
+    {
+      "window_id": "NC_051836.1_27062161_27063161",
+      "length": 25,
+      "segments": 976,
+      "unique": 807,
+      "nonunique": 169,
+      "max_locus_count": 211943
+    },
+    {
+      "window_id": "NC_051836.1_27062161_27063161",
+      "length": 50,
+      "segments": 951,
+      "unique": 870,
+      "nonunique": 81,
+      "max_locus_count": 65477
+    },
+    {
+      "window_id": "NC_051836.1_27062161_27063161",
+      "length": 100,
+      "segments": 901,
+      "unique": 893,
+      "nonunique": 8,
+      "max_locus_count": 4
+    },
+    {
+      "window_id": "NC_051836.1_27062661_27063661",
+      "length": 20,
+      "segments": 981,
+      "unique": 868,
+      "nonunique": 113,
+      "max_locus_count": 91500
+    },
+    {
+      "window_id": "NC_051836.1_27062661_27063661",
+      "length": 25,
+      "segments": 976,
+      "unique": 909,
+      "nonunique": 67,
+      "max_locus_count": 72170
+    },
+    {
+      "window_id": "NC_051836.1_27062661_27063661",
+      "length": 50,
+      "segments": 951,
+      "unique": 947,
+      "nonunique": 4,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "NC_051836.1_27062661_27063661",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27064161_27065161",
+      "length": 20,
+      "segments": 981,
+      "unique": 749,
+      "nonunique": 232,
+      "max_locus_count": 545208
+    },
+    {
+      "window_id": "NC_051836.1_27064161_27065161",
+      "length": 25,
+      "segments": 976,
+      "unique": 789,
+      "nonunique": 187,
+      "max_locus_count": 241876
+    },
+    {
+      "window_id": "NC_051836.1_27064161_27065161",
+      "length": 50,
+      "segments": 951,
+      "unique": 791,
+      "nonunique": 160,
+      "max_locus_count": 23309
+    },
+    {
+      "window_id": "NC_051836.1_27064161_27065161",
+      "length": 100,
+      "segments": 901,
+      "unique": 898,
+      "nonunique": 3,
+      "max_locus_count": 2
+    },
+    {
+      "window_id": "NC_051836.1_27069911_27070911",
+      "length": 20,
+      "segments": 981,
+      "unique": 714,
+      "nonunique": 267,
+      "max_locus_count": 222057
+    },
+    {
+      "window_id": "NC_051836.1_27069911_27070911",
+      "length": 25,
+      "segments": 976,
+      "unique": 807,
+      "nonunique": 169,
+      "max_locus_count": 173108
+    },
+    {
+      "window_id": "NC_051836.1_27069911_27070911",
+      "length": 50,
+      "segments": 951,
+      "unique": 918,
+      "nonunique": 33,
+      "max_locus_count": 35
+    },
+    {
+      "window_id": "NC_051836.1_27069911_27070911",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27070161_27071161",
+      "length": 20,
+      "segments": 981,
+      "unique": 723,
+      "nonunique": 258,
+      "max_locus_count": 222057
+    },
+    {
+      "window_id": "NC_051836.1_27070161_27071161",
+      "length": 25,
+      "segments": 976,
+      "unique": 795,
+      "nonunique": 181,
+      "max_locus_count": 173108
+    },
+    {
+      "window_id": "NC_051836.1_27070161_27071161",
+      "length": 50,
+      "segments": 951,
+      "unique": 918,
+      "nonunique": 33,
+      "max_locus_count": 35
+    },
+    {
+      "window_id": "NC_051836.1_27070161_27071161",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    },
+    {
+      "window_id": "NC_051836.1_27070204_27071204",
+      "length": 20,
+      "segments": 981,
+      "unique": 714,
+      "nonunique": 267,
+      "max_locus_count": 222057
+    },
+    {
+      "window_id": "NC_051836.1_27070204_27071204",
+      "length": 25,
+      "segments": 976,
+      "unique": 791,
+      "nonunique": 185,
+      "max_locus_count": 173108
+    },
+    {
+      "window_id": "NC_051836.1_27070204_27071204",
+      "length": 50,
+      "segments": 951,
+      "unique": 918,
+      "nonunique": 33,
+      "max_locus_count": 35
+    },
+    {
+      "window_id": "NC_051836.1_27070204_27071204",
+      "length": 100,
+      "segments": 901,
+      "unique": 901,
+      "nonunique": 0,
+      "max_locus_count": 1
+    }
+  ],
+  "bases_scanned": 2396858295,
+  "contigs": 376,
+  "seconds": 326.01828265190125,
+  "self_test": "chunk boundaries and overlapping both-strand counts agree with brute force",
+  "reference": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fa",
+  "limitations": [
+    "Exact sequence matches only, not mismatch/bulge off-target analysis",
+    "Includes assembly contigs; alternate/haplotype sequences may inflate locus counts",
+    "No PAM, nuclease, guide or donor genotype specified",
+    "1000bp target windows do not define an insertion base",
+    "Unique exact sequence does not establish editing safety"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-09T09:38:29.776627+00:00",
+  "results": [
+    {
+      "id": "1059",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=canFam3;chrom=chr27;start=18845873;end=18846873",
+      "start0": 18845873,
+      "end0": 18846873,
+      "chrom": "chr27",
+      "length": 1000,
+      "sequence_sha256": "bfaa9dcdc2d71a127635443d735be7e655ccb0444da660294b1d18e40aa6f1a0",
+      "response_sha256": "e27dd93814bff72883f4d1e51db92860a04a18eec2aa208c2cd84a87a5484cec",
+      "state": "retrieved"
+    },
+    {
+      "id": "1266",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=canFam3;chrom=chr3;start=2199848;end=2200848",
+      "start0": 2199848,
+      "end0": 2200848,
+      "chrom": "chr3",
+      "length": 1000,
+      "sequence_sha256": "be5c44e828027bb32b0ffc091229c373a2996640a7ced44e1d20953629f489bf",
+      "response_sha256": "a57a00f6ccd3929d473d11e51a7e72adf11f7ad29b7749004bb86bd9e504002d",
+      "state": "retrieved"
+    },
+    {
+      "id": "1900",
+      "url": "https://api.genome.ucsc.edu/getData/sequence?genome=canFam3;chrom=chr10;start=42483814;end=42484814",
+      "start0": 42483814,
+      "end0": 42484814,
+      "chrom": "chr10",
+      "length": 1000,
+      "sequence_sha256": "47692e9ee3bae42c5d6ef3b014ef81fa79943de9f5fea4f8e25027441090a2ad",
+      "response_sha256": "73eeef7b700f6dfe30733cfc03aba218aae4d74cb1a5190d65e8d01b8588d4c1",
+      "state": "retrieved"
+    }
+  ],
+  "limitation": "Independent canFam3 DNA retrieved; comparison to complete HAL MAF still required."
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/probe_remote_HAL.py", line 41, in <module>
+    if proc.poll() is not None:raise RuntimeError('httpfs exited '+str(proc.returncode))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: httpfs exited 3

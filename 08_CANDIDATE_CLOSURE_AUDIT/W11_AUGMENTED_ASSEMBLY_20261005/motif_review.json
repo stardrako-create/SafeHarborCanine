@@ -1,0 +1,176 @@
+[
+  {
+    "name": "NODE_1_length_36069_cov_9.397116",
+    "length": 36069,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_2_length_30134_cov_9.253651",
+    "length": 30134,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_3_length_8509_cov_8.785816",
+    "length": 8509,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_4_length_8074_cov_8.674753",
+    "length": 8074,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_5_length_5719_cov_9.826657",
+    "length": 5719,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_6_length_5565_cov_8.675292",
+    "length": 5565,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_7_length_2901_cov_7.286473",
+    "length": 2901,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_8_length_2735_cov_7.851768",
+    "length": 2735,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_9_length_551_cov_1.985232",
+    "length": 551,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_10_length_502_cov_1.861176",
+    "length": 502,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_11_length_417_cov_2.444118",
+    "length": 417,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_12_length_278_cov_8.427861",
+    "length": 278,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_13_length_241_cov_0.884146",
+    "length": 241,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_14_length_240_cov_1.840491",
+    "length": 240,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_15_length_230_cov_0.954248",
+    "length": 230,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_16_length_218_cov_4.950355",
+    "length": 218,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_17_length_215_cov_5.405797",
+    "length": 215,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_18_length_197_cov_5.675000",
+    "length": 197,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_19_length_194_cov_6.076923",
+    "length": 194,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_20_length_175_cov_7.836735",
+    "length": 175,
+    "junction": true,
+    "tail": false
+  },
+  {
+    "name": "NODE_21_length_132_cov_5.018182",
+    "length": 132,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_22_length_127_cov_4.640000",
+    "length": 127,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_23_length_107_cov_6.633333",
+    "length": 107,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_24_length_95_cov_7.000000",
+    "length": 95,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_25_length_92_cov_4.466667",
+    "length": 92,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_26_length_90_cov_6.923077",
+    "length": 90,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_27_length_85_cov_10.000000",
+    "length": 85,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_28_length_80_cov_18.000000",
+    "length": 80,
+    "junction": false,
+    "tail": false
+  },
+  {
+    "name": "NODE_29_length_78_cov_146.000000",
+    "length": 78,
+    "junction": false,
+    "tail": false
+  }
+]

@@ -1,0 +1,1125 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T13:30:20.822422+00:00",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Canis_familiaris.gene_info.gz",
+  "source_headers": {
+    "Date": "Fri, 09 Oct 2026 13:29:57 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 09 Oct 2026 08:44:12 GMT",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "1583378",
+    "Cache-Control": "public, max-age=86400",
+    "Expires": "Fri, 16 Oct 2026 13:29:57 GMT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+    "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+    "Keep-Alive": "timeout=5, max=1000",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/x-gzip"
+  },
+  "gene_info_sha256": "10c00a1942ee8ce3564365545b40ce60ebb317451fd5ad85b44e620af5e5c166",
+  "source_HGNC_receipt_sha256": "2f63e45860be4eaef907ac1506dad36d5740d391b7ada377536d78d881d7baad",
+  "unresolved_input_symbols": 78,
+  "symbols_with_current_canine_GeneID": 32,
+  "new_symbols_placed_in_frozen_annotations": 25,
+  "newly_placed_symbols": [
+    "ACY1",
+    "ARHGAP11A",
+    "C1orf109",
+    "EIF3C",
+    "FPR1",
+    "GSTM3",
+    "MSLN",
+    "NCBP2",
+    "NR0B1",
+    "PCDH8",
+    "PIK3R3",
+    "PRSS21",
+    "PRSS3",
+    "PTK6",
+    "PTTG1IP",
+    "RAP1GAP",
+    "RBM4",
+    "RORA",
+    "SDCBP",
+    "SERPINB3",
+    "TIMM23",
+    "TUG1",
+    "URGCP",
+    "ZNF671",
+    "ZNF677"
+  ],
+  "still_unplaced_symbols": [
+    "AIM2",
+    "AKR1B10",
+    "ARL11",
+    "ATP5J2-PTCD1",
+    "BCL2L10",
+    "BEX1",
+    "BEX2",
+    "BLACAT1",
+    "C3orf62",
+    "COX6B1",
+    "CXCL1",
+    "CXCL2",
+    "CXCL5",
+    "CYP3A5",
+    "DCD",
+    "DIRAS3",
+    "ERVW-1",
+    "GEMIN8",
+    "GREP1",
+    "GTF2H2C",
+    "GTF2H4",
+    "HIST2H2AA3",
+    "HLA-C",
+    "HMGN5",
+    "IFNA1",
+    "IGH",
+    "ITLN1",
+    "ITM2A",
+    "KDM5D",
+    "KLLN",
+    "KRR1",
+    "LPA",
+    "MT1G",
+    "MT1M",
+    "MT3",
+    "MYEOV",
+    "NBPF1",
+    "OXCT2",
+    "RDM1",
+    "RTL10",
+    "SCGB3A1",
+    "SSX2",
+    "TBC1D3",
+    "TINCR",
+    "TNFRSF10B",
+    "TRIM15",
+    "TRIM26",
+    "TRIM31",
+    "TSPY1",
+    "TUBGCP2",
+    "USP6",
+    "YY1AP1",
+    "ZNF471"
+  ],
+  "current_canine_GeneIDs_absent_from_frozen_annotation": [
+    "100134936",
+    "100683711",
+    "100856712",
+    "480829",
+    "480843",
+    "608631",
+    "610093"
+  ],
+  "assemblies": [
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/genomic.gff",
+      "mapped_gene_records": [
+        {
+          "annotation_gene": "LOC483954",
+          "GeneIDs": [
+            "483954"
+          ],
+          "matched_risk_symbols": [
+            "SERPINB3"
+          ],
+          "chrom": "NC_051805.1",
+          "start0": 13323441,
+          "end0": 13327039,
+          "attributes": {
+            "ID": "gene-LOC483954",
+            "Dbxref": "GeneID:483954",
+            "Name": "LOC483954",
+            "gbkey": "Gene",
+            "gene": "LOC483954",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC102152916",
+          "GeneIDs": [
+            "102152916"
+          ],
+          "matched_risk_symbols": [
+            "ZNF671"
+          ],
+          "chrom": "NC_051805.1",
+          "start0": 100592641,
+          "end0": 100654865,
+          "attributes": {
+            "ID": "gene-LOC102152916",
+            "Dbxref": "GeneID:102152916",
+            "Name": "LOC102152916",
+            "gbkey": "Gene",
+            "gene": "LOC102152916",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC476394",
+          "GeneIDs": [
+            "476394"
+          ],
+          "matched_risk_symbols": [
+            "ZNF677"
+          ],
+          "chrom": "NC_051805.1",
+          "start0": 105178356,
+          "end0": 105197129,
+          "attributes": {
+            "ID": "gene-LOC476394",
+            "Dbxref": "GeneID:476394",
+            "Name": "LOC476394",
+            "gbkey": "Gene",
+            "gene": "LOC476394",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "FPR2",
+          "GeneIDs": [
+            "611696"
+          ],
+          "matched_risk_symbols": [
+            "FPR1"
+          ],
+          "chrom": "NC_051805.1",
+          "start0": 105853005,
+          "end0": 105863566,
+          "attributes": {
+            "ID": "gene-FPR2",
+            "Dbxref": "GeneID:611696",
+            "Name": "FPR2",
+            "gbkey": "Gene",
+            "gene": "FPR2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC487387",
+          "GeneIDs": [
+            "487387"
+          ],
+          "matched_risk_symbols": [
+            "RAP1GAP"
+          ],
+          "chrom": "NC_051806.1",
+          "start0": 78051853,
+          "end0": 78115519,
+          "attributes": {
+            "ID": "gene-LOC487387",
+            "Dbxref": "GeneID:487387",
+            "Name": "LOC487387",
+            "gbkey": "Gene",
+            "gene": "LOC487387",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC479795",
+          "GeneIDs": [
+            "479795"
+          ],
+          "matched_risk_symbols": [
+            "EIF3C"
+          ],
+          "chrom": "NC_051810.1",
+          "start0": 18412846,
+          "end0": 18435356,
+          "attributes": {
+            "ID": "gene-LOC479795",
+            "Dbxref": "GeneID:479795",
+            "Name": "LOC479795",
+            "gbkey": "Gene",
+            "gene": "LOC479795",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC479874",
+          "GeneIDs": [
+            "479874"
+          ],
+          "matched_risk_symbols": [
+            "PRSS21"
+          ],
+          "chrom": "NC_051810.1",
+          "start0": 38649313,
+          "end0": 38653329,
+          "attributes": {
+            "ID": "gene-LOC479874",
+            "Dbxref": "GeneID:479874",
+            "Name": "LOC479874",
+            "gbkey": "Gene",
+            "gene": "LOC479874",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC611363",
+          "GeneIDs": [
+            "611363"
+          ],
+          "matched_risk_symbols": [
+            "MSLN"
+          ],
+          "chrom": "NC_051810.1",
+          "start0": 40171100,
+          "end0": 40175067,
+          "attributes": {
+            "ID": "gene-LOC611363",
+            "Dbxref": "GeneID:611363",
+            "Name": "LOC611363",
+            "gbkey": "Gene",
+            "gene": "LOC611363",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC479911",
+          "GeneIDs": [
+            "479911"
+          ],
+          "matched_risk_symbols": [
+            "GSTM3"
+          ],
+          "chrom": "NC_051810.1",
+          "start0": 42519523,
+          "end0": 42522915,
+          "attributes": {
+            "ID": "gene-LOC479911",
+            "Dbxref": "GeneID:479911",
+            "Name": "LOC479911",
+            "gbkey": "Gene",
+            "gene": "LOC479911",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "C15H1orf109",
+          "GeneIDs": [
+            "608173"
+          ],
+          "matched_risk_symbols": [
+            "C1orf109"
+          ],
+          "chrom": "NC_051819.1",
+          "start0": 4944478,
+          "end0": 4950768,
+          "attributes": {
+            "ID": "gene-C15H1orf109",
+            "Dbxref": "GeneID:608173,VGNC:VGNC:52497",
+            "Name": "C15H1orf109",
+            "gbkey": "Gene",
+            "gene": "C15H1orf109",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC100856339",
+          "GeneIDs": [
+            "100856339"
+          ],
+          "matched_risk_symbols": [
+            "PIK3R3"
+          ],
+          "chrom": "NC_051819.1",
+          "start0": 14369953,
+          "end0": 14509881,
+          "attributes": {
+            "ID": "gene-LOC100856339",
+            "Dbxref": "GeneID:100856339",
+            "Name": "LOC100856339",
+            "gbkey": "Gene",
+            "gene": "LOC100856339",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC475521",
+          "GeneIDs": [
+            "475521"
+          ],
+          "matched_risk_symbols": [
+            "PRSS3"
+          ],
+          "chrom": "NC_051820.1",
+          "start0": 6895117,
+          "end0": 6899821,
+          "attributes": {
+            "ID": "gene-LOC475521",
+            "Dbxref": "GeneID:475521",
+            "Name": "LOC475521",
+            "gbkey": "Gene",
+            "gene": "LOC475521",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC610578",
+          "GeneIDs": [
+            "610578"
+          ],
+          "matched_risk_symbols": [
+            "URGCP"
+          ],
+          "chrom": "NC_051820.1",
+          "start0": 14878092,
+          "end0": 14929211,
+          "attributes": {
+            "ID": "gene-LOC610578",
+            "Dbxref": "GeneID:610578",
+            "Name": "LOC610578",
+            "gbkey": "Gene",
+            "gene": "LOC610578",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "RBM14",
+          "GeneIDs": [
+            "610648"
+          ],
+          "matched_risk_symbols": [
+            "RBM4"
+          ],
+          "chrom": "NC_051822.1",
+          "start0": 51714150,
+          "end0": 51759600,
+          "attributes": {
+            "ID": "gene-RBM14",
+            "Dbxref": "GeneID:610648,VGNC:VGNC:45408",
+            "Name": "RBM14",
+            "gbkey": "Gene",
+            "gene": "RBM14",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC476602",
+          "GeneIDs": [
+            "476602"
+          ],
+          "matched_risk_symbols": [
+            "ACY1"
+          ],
+          "chrom": "NC_051824.1",
+          "start0": 38082812,
+          "end0": 38095105,
+          "attributes": {
+            "ID": "gene-LOC476602",
+            "Dbxref": "GeneID:476602",
+            "Name": "LOC476602",
+            "gbkey": "Gene",
+            "gene": "LOC476602",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC485469",
+          "GeneIDs": [
+            "485469"
+          ],
+          "matched_risk_symbols": [
+            "PCDH8"
+          ],
+          "chrom": "NC_051826.1",
+          "start0": 10085701,
+          "end0": 10090390,
+          "attributes": {
+            "ID": "gene-LOC485469",
+            "Dbxref": "GeneID:485469",
+            "Name": "LOC485469",
+            "gbkey": "Gene",
+            "gene": "LOC485469",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC102156300",
+          "GeneIDs": [
+            "102156300"
+          ],
+          "matched_risk_symbols": [
+            "PTK6"
+          ],
+          "chrom": "NC_051828.1",
+          "start0": 48094348,
+          "end0": 48100872,
+          "attributes": {
+            "ID": "gene-LOC102156300",
+            "Dbxref": "GeneID:102156300",
+            "Name": "LOC102156300",
+            "end_range": "48100872,.",
+            "gbkey": "Gene",
+            "gene": "LOC102156300",
+            "gene_biotype": "protein_coding",
+            "partial": "true"
+          }
+        },
+        {
+          "annotation_gene": "LOC102153843",
+          "GeneIDs": [
+            "102153843"
+          ],
+          "matched_risk_symbols": [
+            "TUG1"
+          ],
+          "chrom": "NC_051830.1",
+          "start0": 24377003,
+          "end0": 24388202,
+          "attributes": {
+            "ID": "gene-LOC102153843",
+            "Dbxref": "GeneID:102153843",
+            "Name": "LOC102153843",
+            "gbkey": "Gene",
+            "gene": "LOC102153843",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "annotation_gene": "LOC486776",
+          "GeneIDs": [
+            "486776"
+          ],
+          "matched_risk_symbols": [
+            "TIMM23"
+          ],
+          "chrom": "NC_051832.1",
+          "start0": 1944579,
+          "end0": 1978301,
+          "attributes": {
+            "ID": "gene-LOC486776",
+            "Dbxref": "GeneID:486776",
+            "Name": "LOC486776",
+            "gbkey": "Gene",
+            "gene": "LOC486776",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC482977",
+          "GeneIDs": [
+            "482977"
+          ],
+          "matched_risk_symbols": [
+            "SDCBP"
+          ],
+          "chrom": "NC_051833.1",
+          "start0": 9417266,
+          "end0": 9455907,
+          "attributes": {
+            "ID": "gene-LOC482977",
+            "Dbxref": "GeneID:482977",
+            "Name": "LOC482977",
+            "gbkey": "Gene",
+            "gene": "LOC482977",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC487476",
+          "GeneIDs": [
+            "487476"
+          ],
+          "matched_risk_symbols": [
+            "ARHGAP11A"
+          ],
+          "chrom": "NC_051834.1",
+          "start0": 2429355,
+          "end0": 2451934,
+          "attributes": {
+            "ID": "gene-LOC487476",
+            "Dbxref": "GeneID:487476",
+            "Name": "LOC487476",
+            "gbkey": "Gene",
+            "gene": "LOC487476",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC119866906",
+          "GeneIDs": [
+            "119866906"
+          ],
+          "matched_risk_symbols": [
+            "RORA"
+          ],
+          "chrom": "NC_051834.1",
+          "start0": 25492381,
+          "end0": 26204624,
+          "attributes": {
+            "ID": "gene-LOC119866906",
+            "Dbxref": "GeneID:119866906",
+            "Name": "LOC119866906",
+            "gbkey": "Gene",
+            "gene": "LOC119866906",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC100856547",
+          "GeneIDs": [
+            "100856547"
+          ],
+          "matched_risk_symbols": [
+            "PTTG1IP"
+          ],
+          "chrom": "NC_051835.1",
+          "start0": 38099051,
+          "end0": 38118766,
+          "attributes": {
+            "ID": "gene-LOC100856547",
+            "Dbxref": "GeneID:100856547",
+            "Name": "LOC100856547",
+            "gbkey": "Gene",
+            "gene": "LOC100856547",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC119867274",
+          "GeneIDs": [
+            "119867274"
+          ],
+          "matched_risk_symbols": [
+            "NCBP2"
+          ],
+          "chrom": "NC_051837.1",
+          "start0": 30183637,
+          "end0": 30191656,
+          "attributes": {
+            "ID": "gene-LOC119867274",
+            "Dbxref": "GeneID:119867274",
+            "Name": "LOC119867274",
+            "gbkey": "Gene",
+            "gene": "LOC119867274",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC119868269",
+          "GeneIDs": [
+            "119868269"
+          ],
+          "matched_risk_symbols": [
+            "NR0B1"
+          ],
+          "chrom": "NC_051843.1",
+          "start0": 25418990,
+          "end0": 25424263,
+          "attributes": {
+            "ID": "gene-LOC119868269",
+            "Dbxref": "GeneID:119868269",
+            "Name": "LOC119868269",
+            "gbkey": "Gene",
+            "gene": "LOC119868269",
+            "gene_biotype": "protein_coding"
+          }
+        }
+      ],
+      "nearest_risk_genes": [],
+      "hits_within300kb": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_UU_annotation_crosscheck_20261009/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.gff.gz",
+      "mapped_gene_records": [
+        {
+          "annotation_gene": "LOC483954",
+          "GeneIDs": [
+            "483954"
+          ],
+          "matched_risk_symbols": [
+            "SERPINB3"
+          ],
+          "chrom": "NC_049222.1",
+          "start0": 13540546,
+          "end0": 13544144,
+          "attributes": {
+            "ID": "gene-LOC483954",
+            "Dbxref": "GeneID:483954",
+            "Name": "LOC483954",
+            "gbkey": "Gene",
+            "gene": "LOC483954",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC102152916",
+          "GeneIDs": [
+            "102152916"
+          ],
+          "matched_risk_symbols": [
+            "ZNF671"
+          ],
+          "chrom": "NC_049222.1",
+          "start0": 100704843,
+          "end0": 100767025,
+          "attributes": {
+            "ID": "gene-LOC102152916",
+            "Dbxref": "GeneID:102152916",
+            "Name": "LOC102152916",
+            "gbkey": "Gene",
+            "gene": "LOC102152916",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC476394",
+          "GeneIDs": [
+            "476394"
+          ],
+          "matched_risk_symbols": [
+            "ZNF677"
+          ],
+          "chrom": "NC_049222.1",
+          "start0": 105292103,
+          "end0": 105310713,
+          "attributes": {
+            "ID": "gene-LOC476394",
+            "Dbxref": "GeneID:476394",
+            "Name": "LOC476394",
+            "gbkey": "Gene",
+            "gene": "LOC476394",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "FPR2",
+          "GeneIDs": [
+            "611696"
+          ],
+          "matched_risk_symbols": [
+            "FPR1"
+          ],
+          "chrom": "NC_049222.1",
+          "start0": 105961119,
+          "end0": 105971680,
+          "attributes": {
+            "ID": "gene-FPR2",
+            "Dbxref": "GeneID:611696",
+            "Name": "FPR2",
+            "gbkey": "Gene",
+            "gene": "FPR2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC487387",
+          "GeneIDs": [
+            "487387"
+          ],
+          "matched_risk_symbols": [
+            "RAP1GAP"
+          ],
+          "chrom": "NC_049223.1",
+          "start0": 76884968,
+          "end0": 76948528,
+          "attributes": {
+            "ID": "gene-LOC487387",
+            "Dbxref": "GeneID:487387",
+            "Name": "LOC487387",
+            "gbkey": "Gene",
+            "gene": "LOC487387",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC479795",
+          "GeneIDs": [
+            "479795"
+          ],
+          "matched_risk_symbols": [
+            "EIF3C"
+          ],
+          "chrom": "NC_049227.1",
+          "start0": 18443259,
+          "end0": 18465768,
+          "attributes": {
+            "ID": "gene-LOC479795",
+            "Dbxref": "GeneID:479795",
+            "Name": "LOC479795",
+            "gbkey": "Gene",
+            "gene": "LOC479795",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC479874",
+          "GeneIDs": [
+            "479874"
+          ],
+          "matched_risk_symbols": [
+            "PRSS21"
+          ],
+          "chrom": "NC_049227.1",
+          "start0": 38783347,
+          "end0": 38787361,
+          "attributes": {
+            "ID": "gene-LOC479874",
+            "Dbxref": "GeneID:479874",
+            "Name": "LOC479874",
+            "gbkey": "Gene",
+            "gene": "LOC479874",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC611363",
+          "GeneIDs": [
+            "611363"
+          ],
+          "matched_risk_symbols": [
+            "MSLN"
+          ],
+          "chrom": "NC_049227.1",
+          "start0": 40298819,
+          "end0": 40302786,
+          "attributes": {
+            "ID": "gene-LOC611363",
+            "Dbxref": "GeneID:611363",
+            "Name": "LOC611363",
+            "gbkey": "Gene",
+            "gene": "LOC611363",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC479911",
+          "GeneIDs": [
+            "479911"
+          ],
+          "matched_risk_symbols": [
+            "GSTM3"
+          ],
+          "chrom": "NC_049227.1",
+          "start0": 42645470,
+          "end0": 42648416,
+          "attributes": {
+            "ID": "gene-LOC479911",
+            "Dbxref": "GeneID:479911",
+            "Name": "LOC479911",
+            "gbkey": "Gene",
+            "gene": "LOC479911",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "C15H1orf109",
+          "GeneIDs": [
+            "608173"
+          ],
+          "matched_risk_symbols": [
+            "C1orf109"
+          ],
+          "chrom": "NC_049236.1",
+          "start0": 4886817,
+          "end0": 4893005,
+          "attributes": {
+            "ID": "gene-C15H1orf109",
+            "Dbxref": "GeneID:608173,VGNC:VGNC:52497",
+            "Name": "C15H1orf109",
+            "gbkey": "Gene",
+            "gene": "C15H1orf109",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC100856339",
+          "GeneIDs": [
+            "100856339"
+          ],
+          "matched_risk_symbols": [
+            "PIK3R3"
+          ],
+          "chrom": "NC_049236.1",
+          "start0": 14308725,
+          "end0": 14448356,
+          "attributes": {
+            "ID": "gene-LOC100856339",
+            "Dbxref": "GeneID:100856339",
+            "Name": "LOC100856339",
+            "gbkey": "Gene",
+            "gene": "LOC100856339",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC475521",
+          "GeneIDs": [
+            "475521"
+          ],
+          "matched_risk_symbols": [
+            "PRSS3"
+          ],
+          "chrom": "NC_049237.1",
+          "start0": 6758622,
+          "end0": 6763326,
+          "attributes": {
+            "ID": "gene-LOC475521",
+            "Dbxref": "GeneID:475521",
+            "Name": "LOC475521",
+            "gbkey": "Gene",
+            "gene": "LOC475521",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC610578",
+          "GeneIDs": [
+            "610578"
+          ],
+          "matched_risk_symbols": [
+            "URGCP"
+          ],
+          "chrom": "NC_049237.1",
+          "start0": 14489750,
+          "end0": 14540971,
+          "attributes": {
+            "ID": "gene-LOC610578",
+            "Dbxref": "GeneID:610578",
+            "Name": "LOC610578",
+            "gbkey": "Gene",
+            "gene": "LOC610578",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "RBM14",
+          "GeneIDs": [
+            "610648"
+          ],
+          "matched_risk_symbols": [
+            "RBM4"
+          ],
+          "chrom": "NC_049239.1",
+          "start0": 51185784,
+          "end0": 51231034,
+          "attributes": {
+            "ID": "gene-RBM14",
+            "Dbxref": "GeneID:610648,VGNC:VGNC:45408",
+            "Name": "RBM14",
+            "gbkey": "Gene",
+            "gene": "RBM14",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC476602",
+          "GeneIDs": [
+            "476602"
+          ],
+          "matched_risk_symbols": [
+            "ACY1"
+          ],
+          "chrom": "NC_049241.1",
+          "start0": 38140052,
+          "end0": 38152347,
+          "attributes": {
+            "ID": "gene-LOC476602",
+            "Dbxref": "GeneID:476602",
+            "Name": "LOC476602",
+            "gbkey": "Gene",
+            "gene": "LOC476602",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC485469",
+          "GeneIDs": [
+            "485469"
+          ],
+          "matched_risk_symbols": [
+            "PCDH8"
+          ],
+          "chrom": "NC_049243.1",
+          "start0": 9847218,
+          "end0": 9851906,
+          "attributes": {
+            "ID": "gene-LOC485469",
+            "Dbxref": "GeneID:485469",
+            "Name": "LOC485469",
+            "gbkey": "Gene",
+            "gene": "LOC485469",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC102156300",
+          "GeneIDs": [
+            "102156300"
+          ],
+          "matched_risk_symbols": [
+            "PTK6"
+          ],
+          "chrom": "NC_049245.1",
+          "start0": 47972658,
+          "end0": 47979186,
+          "attributes": {
+            "ID": "gene-LOC102156300",
+            "Dbxref": "GeneID:102156300",
+            "Name": "LOC102156300",
+            "end_range": "47979186,.",
+            "gbkey": "Gene",
+            "gene": "LOC102156300",
+            "gene_biotype": "protein_coding",
+            "partial": "true"
+          }
+        },
+        {
+          "annotation_gene": "LOC102153843",
+          "GeneIDs": [
+            "102153843"
+          ],
+          "matched_risk_symbols": [
+            "TUG1"
+          ],
+          "chrom": "NC_049247.1",
+          "start0": 24403364,
+          "end0": 24414559,
+          "attributes": {
+            "ID": "gene-LOC102153843",
+            "Dbxref": "GeneID:102153843",
+            "Name": "LOC102153843",
+            "gbkey": "Gene",
+            "gene": "LOC102153843",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "annotation_gene": "LOC486776",
+          "GeneIDs": [
+            "486776"
+          ],
+          "matched_risk_symbols": [
+            "TIMM23"
+          ],
+          "chrom": "NC_049249.1",
+          "start0": 1910713,
+          "end0": 1944439,
+          "attributes": {
+            "ID": "gene-LOC486776",
+            "Dbxref": "GeneID:486776",
+            "Name": "LOC486776",
+            "gbkey": "Gene",
+            "gene": "LOC486776",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC482977",
+          "GeneIDs": [
+            "482977"
+          ],
+          "matched_risk_symbols": [
+            "SDCBP"
+          ],
+          "chrom": "NC_049250.1",
+          "start0": 9820348,
+          "end0": 9859247,
+          "attributes": {
+            "ID": "gene-LOC482977",
+            "Dbxref": "GeneID:482977",
+            "Name": "LOC482977",
+            "gbkey": "Gene",
+            "gene": "LOC482977",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC487476",
+          "GeneIDs": [
+            "487476"
+          ],
+          "matched_risk_symbols": [
+            "ARHGAP11A"
+          ],
+          "chrom": "NC_049251.1",
+          "start0": 2593328,
+          "end0": 2615825,
+          "attributes": {
+            "ID": "gene-LOC487476",
+            "Dbxref": "GeneID:487476",
+            "Name": "LOC487476",
+            "gbkey": "Gene",
+            "gene": "LOC487476",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC119866906",
+          "GeneIDs": [
+            "119866906"
+          ],
+          "matched_risk_symbols": [
+            "RORA"
+          ],
+          "chrom": "NC_049251.1",
+          "start0": 25727550,
+          "end0": 26439038,
+          "attributes": {
+            "ID": "gene-LOC119866906",
+            "Dbxref": "GeneID:119866906",
+            "Name": "LOC119866906",
+            "gbkey": "Gene",
+            "gene": "LOC119866906",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC100856547",
+          "GeneIDs": [
+            "100856547"
+          ],
+          "matched_risk_symbols": [
+            "PTTG1IP"
+          ],
+          "chrom": "NC_049252.1",
+          "start0": 38435969,
+          "end0": 38455768,
+          "attributes": {
+            "ID": "gene-LOC100856547",
+            "Dbxref": "GeneID:100856547",
+            "Name": "LOC100856547",
+            "gbkey": "Gene",
+            "gene": "LOC100856547",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "annotation_gene": "LOC119868269",
+          "GeneIDs": [
+            "119868269"
+          ],
+          "matched_risk_symbols": [
+            "NR0B1"
+          ],
+          "chrom": "NC_049260.1",
+          "start0": 25560778,
+          "end0": 25565608,
+          "attributes": {
+            "ID": "gene-LOC119868269",
+            "Dbxref": "GeneID:119868269",
+            "Name": "LOC119868269",
+            "gbkey": "Gene",
+            "gene": "LOC119868269",
+            "gene_biotype": "protein_coding"
+          }
+        }
+      ],
+      "nearest_risk_genes": [],
+      "hits_within300kb": []
+    }
+  ],
+  "script_sha256": "f30efa8288cd055fdb316eabb21c9d1d5ad7c99a952feeea5eae7d093b956a83",
+  "limits": [
+    "Current NCBI canine taxon9615 symbol/synonym records linked by exact GeneID to frozen AR106 coordinates.",
+    "Human risk-role transfer remains the existing proxy, not independently validated canine risk function.",
+    "Unplaced or absent GeneIDs do not prove gene absence; no coordinate or orthologue invented.",
+    "One-base differences from earlier gap reports reflect nearest-nucleotide vs interinterval-gap conventions, with unchanged300kb criterion and no borderline candidate cases."
+  ]
+}

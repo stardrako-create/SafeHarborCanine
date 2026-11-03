@@ -1,0 +1,11 @@
+{
+  "previous_status": "running, stale",
+  "user_report": "tive de desligar",
+  "previous_outputs_preserved": true,
+  "previous_outputs_validated": false,
+  "action": "Fresh v3 outputs; reuse cached blocks; 512MiB new-transfer operational cap; same biological criteria",
+  "previous_output": "remote_HAL_verified_20261009_v2",
+  "previous_worker_present": false,
+  "cause": "Interruption observed; precise operating-system cause not established",
+  "observed_utc": "2026-10-09T12:09:56.4833982Z"
+}

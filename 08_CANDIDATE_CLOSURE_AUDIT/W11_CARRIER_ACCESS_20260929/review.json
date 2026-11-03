@@ -1,0 +1,121 @@
+{
+  "utc": "2026-09-29T07:57:53.277379+00:00",
+  "carriers": [
+    {
+      "sample": "BFDB000001",
+      "format": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "FAIL3",
+        "AD": [
+          15,
+          3
+        ],
+        "MD": 0,
+        "DP": 18,
+        "RA": [
+          15,
+          3
+        ],
+        "PP": 3,
+        "GQ": 9,
+        "PL": [
+          9,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "sample": "GBGV000001",
+      "format": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "PASS",
+        "AD": [
+          4,
+          3
+        ],
+        "MD": 0,
+        "DP": 7,
+        "RA": [
+          4,
+          3
+        ],
+        "PP": 3,
+        "GQ": 42,
+        "PL": [
+          42,
+          0,
+          75
+        ]
+      }
+    },
+    {
+      "sample": "PBGV000010",
+      "format": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "PASS",
+        "AD": [
+          14,
+          8
+        ],
+        "MD": 0,
+        "DP": 22,
+        "RA": [
+          14,
+          8
+        ],
+        "PP": 8,
+        "GQ": 93,
+        "PL": [
+          93,
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "sample": "PBGV000012",
+      "format": {
+        "GT": [
+          0,
+          1
+        ],
+        "FT": "PASS",
+        "AD": [
+          6,
+          11
+        ],
+        "MD": 2,
+        "DP": 19,
+        "RA": [
+          8,
+          13
+        ],
+        "PP": 11,
+        "GQ": 87,
+        "PL": [
+          172,
+          0,
+          87
+        ]
+      }
+    }
+  ],
+  "directory_url": "https://kiddlabshare.med.umich.edu/dog10K/cram-share/",
+  "matching_links": {},
+  "access_error": "URLError",
+  "limits": [
+    "Catalogue carriers are hypotheses, not confirmed SV genotypes",
+    "FT PASS and failed calls must remain distinct",
+    "Availability of CRAM links does not confirm accessible indexed regional reads"
+  ]
+}

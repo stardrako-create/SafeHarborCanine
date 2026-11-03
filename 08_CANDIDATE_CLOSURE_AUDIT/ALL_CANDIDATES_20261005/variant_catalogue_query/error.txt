@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/query_all_variants.py", line 22, in <module>
+    vf=pysam.VariantFile(base+source)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pysam/libcbcf.pyx", line 4115, in pysam.libcbcf.VariantFile.__init__
+  File "pysam/libcbcf.pyx", line 4340, in pysam.libcbcf.VariantFile.open
+  File "pysam/libcutils.pyx", line 180, in pysam.libcutils.OSError_from_errno
+  File "<frozen os>", line 818, in fsdecode
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/query_all_variants.py", line 10, in alarm
+    def alarm(*args):raise TimeoutError('Remote operation exceeded 120 seconds')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: Remote operation exceeded 120 seconds

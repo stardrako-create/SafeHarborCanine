@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-08T13:08:39.826225+00:00",
+  "results": [
+    {
+      "id": "ANO2_39708",
+      "masked_bp_union": 0,
+      "fraction": 0.0,
+      "hits": []
+    },
+    {
+      "id": "bg1k_1865",
+      "masked_bp_union": 0,
+      "fraction": 0.0,
+      "hits": []
+    }
+  ],
+  "method": "RepeatMasker dog, default sensitivity; 10kb flanks then clip and union annotations inside original 1kb windows",
+  "output_sha256": "8921dd27ebd3797a0d192ad9d6ababffe5e02f988e9e901bf13ece72796cdd1c",
+  "limitations": [
+    "Repeat annotations depend on library and sensitivity; zero detected does not prove absence",
+    "No new candidate thresholds introduced"
+  ]
+}

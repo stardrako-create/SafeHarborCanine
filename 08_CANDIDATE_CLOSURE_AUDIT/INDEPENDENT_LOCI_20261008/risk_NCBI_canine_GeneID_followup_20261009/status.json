@@ -1,0 +1,5 @@
+{
+  "state": "failed",
+  "stage": "download_current_canine_gene_info",
+  "error": "404 Client Error: Not Found for url: https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Canis_lupus_familiaris.gene_info.gz"
+}

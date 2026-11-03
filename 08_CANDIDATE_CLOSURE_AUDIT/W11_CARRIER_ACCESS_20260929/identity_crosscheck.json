@@ -1,0 +1,11 @@
+{
+  "source": "D:\\Biblioteca\\Bioqu\u00edmica 1\u00ba ano 2025-2026\\2\u00ba Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\06_v1.21.6\\dog10K-alignment-sample-table.2022-02-23-v8.txt.UPDATESRA.txt",
+  "sha256": "96880ccc5ec5770785859a8f1b49a4bfaab3feb560d5ddfa4c1327aa9a02a57a",
+  "header": "sampleName\tBreed/Type\tCategory\tBIOSAMID\trunID\tsampleName2\tsampleName3\tsampleName4\tSource\tAlignmentCenter\tNote\tinVCF\tinAnalyzedSNV\tinAnalyzedCNV\teffectiveAutosomalMeanCoverage\tSex",
+  "rows": [
+    "GBGV000001\tGrand Basset Griffon Vendeen\tBreed_Dogs\tSAMN15625855\tSRR12330331\tFAM007353\t5370\t\tNHGRI\tUppsala\t\tYES\tTRUE\tTRUE\t18.81\tFemale",
+    "PBGV000012\tPetit Basset Griffon Vendeen\tBreed_Dogs\tSAMN19522896\tSRR14750332\tFAM006613\t3-ADNPR3911_2\t\tRennes\tMichigan\t\tYES\tTRUE\tTRUE\t21.71\tFemale"
+  ],
+  "crosscheck": "Run and BioSample agree with retrieved NCBI SRA pages; PBGV000012 alias FAM006613 also agrees. GBGV library label LGBGV000001 differs from table alias FAM007353; run and BioSample match.",
+  "scope": "Metadata identity check only; no sequencing validation."
+}

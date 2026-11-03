@@ -1,0 +1,13 @@
+{
+  "utc": "2026-09-29T12:00:20.704570+00:00",
+  "results": [
+    {
+      "url": "https://kiddlabshare.med.umich.edu/dog10K/cram-share/",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR14750332&result=read_run&fields=run_accession,fastq_ftp,fastq_bytes,submitted_ftp,submitted_format&format=json",
+      "error": "<urlopen error timed out>"
+    }
+  ]
+}

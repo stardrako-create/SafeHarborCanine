@@ -1,0 +1,38 @@
+[
+  {
+    "name": "SRR14750332.124875793",
+    "mate": 1,
+    "ref": "NC_051836.1",
+    "start0": 35341892,
+    "cigar": "150M",
+    "MAPQ": 60,
+    "duplicate": true,
+    "qcfail": false,
+    "secondary": false,
+    "supplementary": false
+  },
+  {
+    "name": "SRR14750332.124875793",
+    "mate": 2,
+    "ref": "NC_051836.1",
+    "start0": 35342058,
+    "cigar": "150M",
+    "MAPQ": 60,
+    "duplicate": true,
+    "qcfail": false,
+    "secondary": false,
+    "supplementary": false
+  },
+  {
+    "name": "SRR14750332.53211536",
+    "mate": 2,
+    "ref": "NC_051836.1",
+    "start0": 35342119,
+    "cigar": "107H43M",
+    "MAPQ": 0,
+    "duplicate": false,
+    "qcfail": false,
+    "secondary": false,
+    "supplementary": true
+  }
+]

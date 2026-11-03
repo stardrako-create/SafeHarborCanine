@@ -1,0 +1,99 @@
+{
+  "utc": "2026-10-02T19:19:08.120811+00:00",
+  "results": {
+    "PBGV000010": {
+      "exact_reference_spanning_names": {
+        "4707925": [
+          "SRR15734832.101663283",
+          "SRR15734832.112613003",
+          "SRR15734832.118940385",
+          "SRR15734832.123308448",
+          "SRR15734832.16363258",
+          "SRR15734832.182915517",
+          "SRR15734832.90853780"
+        ],
+        "4707939": [
+          "SRR15734832.101663283",
+          "SRR15734832.112613003",
+          "SRR15734832.118940385",
+          "SRR15734832.123308448",
+          "SRR15734832.16363258",
+          "SRR15734832.182915517",
+          "SRR15734832.29850657",
+          "SRR15734832.90853780"
+        ]
+      },
+      "reference_counts": {
+        "4707925": 7,
+        "4707939": 8
+      },
+      "tail_rows": [
+        {
+          "read": "SRR15734832.132880416",
+          "mate": 2,
+          "clip20_exact_BQ20": true,
+          "reference_anchor20_exact_BQ20": true,
+          "passes_both": true
+        }
+      ],
+      "tail_pass_names": 1
+    },
+    "PBGV000012": {
+      "exact_reference_spanning_names": {
+        "35342119": [
+          "SRR14750332.101473471",
+          "SRR14750332.112538658",
+          "SRR14750332.124878488",
+          "SRR14750332.131664654"
+        ],
+        "35342133": [
+          "SRR14750332.101473471",
+          "SRR14750332.112538658",
+          "SRR14750332.124878488",
+          "SRR14750332.131664654"
+        ]
+      },
+      "reference_counts": {
+        "35342119": 4,
+        "35342133": 4
+      },
+      "tail_rows": [
+        {
+          "read": "SRR14750332.46922360",
+          "mate": 1,
+          "clip20_exact_BQ20": true,
+          "reference_anchor20_exact_BQ20": true,
+          "passes_both": true
+        },
+        {
+          "read": "SRR14750332.12748942",
+          "mate": 1,
+          "clip20_exact_BQ20": true,
+          "reference_anchor20_exact_BQ20": false,
+          "passes_both": false
+        },
+        {
+          "read": "SRR14750332.81907291",
+          "mate": 1,
+          "clip20_exact_BQ20": true,
+          "reference_anchor20_exact_BQ20": true,
+          "passes_both": true
+        },
+        {
+          "read": "SRR14750332.12848725",
+          "mate": 1,
+          "clip20_exact_BQ20": true,
+          "reference_anchor20_exact_BQ20": true,
+          "passes_both": true
+        }
+      ],
+      "tail_pass_names": 3
+    }
+  },
+  "limits": [
+    "Exact20bp reference plus20bp homopolymer BQ20 is local-tail support, not full insertion or length",
+    "Reference spanning requires40 consecutive exact bases BQ20; counts not genotypes",
+    "Allelic bias, repeats and shared read evidence remain",
+    "No full allele connects the two boundaries yet"
+  ]
+}

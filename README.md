@@ -1,7 +1,7 @@
 # Safe Harbor Canino
 
-[![DOI (code)](https://zenodo.org/badge/DOI/10.5281/zenodo.21996453.svg)](https://doi.org/10.5281/zenodo.21996453)
-[![DOI (data)](https://zenodo.org/badge/DOI/10.5281/zenodo.22003934.svg)](https://doi.org/10.5281/zenodo.22003934)
+[![DOI (code)](https://zenodo.org/badge/DOI/10.5281/zenodo.21996452.svg)](https://doi.org/10.5281/zenodo.21996452)
+[![DOI (data)](https://zenodo.org/badge/DOI/10.5281/zenodo.22003933.svg)](https://doi.org/10.5281/zenodo.22003933)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Identification of genomic safe harbor loci in the domestic dog (*Canis lupus
@@ -9,15 +9,30 @@ familiaris*), integrating population-level chromatin accessibility, DNA
 methylation, and single-individual 3D genome structure, for use as candidate
 integration sites in canine CAR-T cell engineering.
 
-Maintained by the Vasco M. Barreto lab.
+Developed in the lab of Vasco M. Barreto (NOVA FCT). See
+[CITATION.cff](CITATION.cff) for the authors.
 
-## Current audit snapshot — 25 September 2026
+## Status at a glance — 12 October 2026
 
-Published snapshot: [code DOI](https://doi.org/10.5281/zenodo.22959343) · [data and audit DOI](https://doi.org/10.5281/zenodo.22959344). [Publication receipt](PUBLICATION_RECEIPT_20260925.json).
+The defined computational review is complete for the data currently available.
+The shortlist is **w01** plus one additional provisional candidate,
+**ANO2-39708**. These are computational candidates: none has been validated
+experimentally for integration, expression or function, and no guide RNAs are
+claimed.
 
-**w01 is the priority locus for experimental assessment. w11 remains conditional because its structural interpretation is unresolved.** bg1k_2848 and bg1k_0442 are proposed genomic comparators. This snapshot contains computational evidence; integration, sustained expression and cellular function still require experimental evaluation.
+| Candidate | ROS_Cfam_1.0 interval (BED, 0-based, end-exclusive) | Disposition |
+|---|---|---|
+| w01 | NC_051811.1:17255706–17256706 | First priority for testing |
+| ANO2-39708 | NC_051831.1:39708074–39709074 | Additional provisional candidate |
+| w11 | NC_051836.1:27041161–27042161 | Not advanced: structural context unresolved |
+| bg1k_2848, bg1k_0442 | NC_051840.1:28808728–28809728, NC_051837.1:10430486–10431486 | Genomic comparators, not validated negative controls |
 
-Start with [the focused laboratory proposal](08_CANDIDATE_CLOSURE_AUDIT/W01_FOCUSED_REVIEW_20260923/PROPOSTA_PARA_LAB.md), [the current decisions](08_CANDIDATE_CLOSURE_AUDIT/CURRENT_STATE_AND_DECISIONS.md), and [the snapshot guide](RELEASE_20260925.md). Older version directories preserve the development history; their candidate rankings are historical.
+Start with [the snapshot guide](RELEASE_20261012.md), then
+[the full results and inventories](08_CANDIDATE_CLOSURE_AUDIT/FINAL_RESULTS_20261012.md)
+and [the decision log](08_CANDIDATE_CLOSURE_AUDIT/CURRENT_STATE_AND_DECISIONS.md)
+(working notes are in Portuguese). Earlier snapshots:
+[25 September 2026](RELEASE_20260925.md). Older version directories preserve the
+development history; their candidate rankings are historical.
 
 ## Background
 
@@ -59,19 +74,26 @@ relative to the ATAC/RRBS Mother Tracks** in any downstream safe-harbor
 scoring — it is used as structural context (avoid known TAD boundaries /
 loop anchors), not as a population-level confidence signal.
 
+Later versions also use a 76-dog ATAC cohort (the 71 dogs plus 5 additional
+healthy control dogs) built in a single unified run.
+
 ## Repository structure
 
 ```
-01_referencia/          Reference genome + annotation (ROS_Cfam_1.0). Not tracked — public, see below.
-02_dados_brutos/        Raw SRA/FASTQ. Not tracked — regenerable from the accessions in scripts/config*.yaml.
-03_tracks_originais/    Third-party tracks used as-is (e.g. CanFam3.1 liftover sources).
-04_tracks_processadas/  Genome-wide bigWig/.mcool tracks produced by this pipeline. Not tracked in git — released via Zenodo/GitHub Releases (see below).
-05_SHIP/                Safe Harbor Integration Prioritization: per-locus scoring that combines all layers.
-06_GEG-SH/              Gene/element-context annotation of candidate loci.
-07_integracao/          Cross-layer integration and candidate ranking.
-08_candidatos_finais/   Final candidate safe harbor loci.
-scripts/                All pipeline code: Snakemake workflows, per-layer processing scripts, configs.
-logs/                   Local run logs. Not tracked.
+01_referencia/                   Reference genome + annotation (ROS_Cfam_1.0). Not tracked — public, see below.
+02_dados_brutos/                 Raw SRA/FASTQ. Not tracked — regenerable from the accessions in scripts/config*.yaml.
+03_tracks_originais/             Third-party tracks used as-is (e.g. CanFam3.1 liftover sources).
+04_tracks_processadas/           Small tables and peak sets; large bigWig/.mcool tracks are released via Zenodo (see below).
+05_SHIP/                         SHIP candidate search and per-locus scoring (V1–V12), including the Ahmed et al. 2026
+                                 checklist comparison (ahmed2026_checklist_comparison.md) and VERSIONS.md.
+06_v1.20.0 … 06_v1.23.1/         Version-by-version rebuild and audit stages; most have a CURRENT.md (Portuguese).
+07_FINAL_CANDIDATES_2026-09-19/  Candidate panel of 19 September 2026 (superseded by 08_).
+08_CANDIDATE_CLOSURE_AUDIT/      Local-window audit, structural-variant review, ANO2-39708 review and the
+                                 final results of 12 October 2026 (FINAL_RESULTS_20261012.md).
+scripts/                         All pipeline code: Snakemake workflows, per-layer processing scripts, configs.
+CURRENT.md                       Chronological working log (Portuguese).
+06_GEG-SH/, 07_integracao/, 08_candidatos_finais/
+                                 Placeholders from the initial layout; the work moved to the folders above.
 ```
 
 Each data directory that isn't tracked in git has its own `README.md`
@@ -86,9 +108,14 @@ summary below.
 
 ### ATAC-seq (`scripts/Snakefile_persample.smk`, `config.yaml`)
 Bowtie2 alignment → mitochondrial/blacklist filtering and deduplication →
-MACS2-style peak calling per dog → per-dog QC scoring
-(`compute_qc_weights.py`) → weighted Mother Track and consensus peak set
-(`build_mother_track.py`, `call_consensus_peaks.py`).
+MACS3 peak calling per dog → per-dog QC scoring (`compute_qc_weights.py`) →
+weighted Mother Track and consensus peak set. The unified builder
+`build_mother_track_v2.py` (all dogs in one run, confidence gate plus
+fold-enrichment units) supersedes `build_mother_track.py` and
+`join_atac_cohorts.py`, which are kept for history; `call_consensus_peaks.py`
+builds the consensus peaks. The primary peak-discriminative signal is the
+per-bin *peak frequency* (how many dogs have their own independent MACS3 peak
+nearby); the weighted-mean track is used only as a coarse accessibility level.
 
 ### RRBS (`scripts/Snakefile_rrbs.smk`, `config_rrbs.yaml`)
 Trim Galore → Bismark bisulfite alignment and per-CpG methylation extraction
@@ -103,6 +130,16 @@ restriction-fragment filtering, since the Dovetail kit's enzyme was never
 disclosed in the source publication) per library → merge across the 3
 libraries of the same individual → `cooler cload`/`zoomify`/`balance` →
 `cooltools insulation` for TAD boundary calls (`build_hic_tracks.py`).
+
+### Candidate scoring and audit (`scripts/score_ship_candidates_v2.py`, `05_SHIP/`, `08_CANDIDATE_CLOSURE_AUDIT/`)
+The 461 candidate regions from the SHIP search are scored against hard vetoes
+derived from the eight-criterion checklist of Ahmed et al. 2026 (plus
+project-specific additions) and a continuous score; thresholds taken from the
+literature (for example the 50-kb gene-distance criterion) are kept at their
+published values. Regions that survive are then audited as 1-kb local windows
+(repeats, structural-variant catalogues, conservation, variants, risk-gene
+annotation), with every evidence gap recorded rather than treated as a pass. Per-version changes are documented in
+`05_SHIP/VERSIONS.md` and the `CURRENT.md` file of each version folder.
 
 Every per-dog/per-library QC weight, and the exact formula combining local
 sequencing depth confidence with global sample-quality metrics, is computed
@@ -128,7 +165,9 @@ python build_hic_tracks.py --config config_hic.yaml
 ```
 
 Sample accessions and all local paths are declared in the `config*.yaml`
-files — adjust `paths:` to your own filesystem before running.
+files — adjust `paths:` to your own filesystem before running. A complete
+end-to-end rerun of the later audit stages has not been performed; see the
+limits stated in [RELEASE_20261012.md](RELEASE_20261012.md).
 
 ## Data availability
 
@@ -140,25 +179,17 @@ reference genome (ROS_Cfam_1.0, GCF_014441545.1) is public via NCBI.
 Processed genome-wide tracks (bigWig coverage/methylation/insulation tracks,
 `.mcool` Hi-C contact matrices) are too large for git (several files exceed
 GitHub's 100 MB per-file limit) and are released as a versioned dataset on
-Zenodo: **[10.5281/zenodo.22003934](https://doi.org/10.5281/zenodo.22003934)**.
-Small tabular outputs (QC weight tables, candidate loci lists) are tracked
-directly in this repository under `04_tracks_processadas/`, `05_SHIP/`
-through `08_candidatos_finais/`.
-
-## Status
-
-All three data layers are complete. ATAC-seq and RRBS Mother Tracks cover
-all 71 dogs. The Hi-C layer (3 merged Mischka libraries) has a multi-
-resolution contact matrix and 8,367 called TAD boundaries; chromatin-loop
-calling was attempted but found no significant loops at this sequencing
-depth (expected — this dataset was generated for assembly scaffolding, not
-dedicated loop-calling, see `04_tracks_processadas/ROS_Cfam_1.0/HiC/`).
-Layers 05–08 (scoring, annotation, integration, final candidates) begin
-next.
+Zenodo: **[10.5281/zenodo.22003933](https://doi.org/10.5281/zenodo.22003933)**
+(concept DOI, always resolves to the latest version). The archived tracks come
+from the original per-cohort pipeline (71-dog, 5-dog and joined 76-dog ATAC
+tracks); the later unified rebuild is documented in the code, but its large
+output tracks are not archived. Small tabular outputs (QC weight tables, candidate loci
+lists) are tracked directly in this repository under `04_tracks_processadas/`
+and `05_SHIP/` through `08_CANDIDATE_CLOSURE_AUDIT/`.
 
 ## Related work
 
-[EpiLog](https://github.com/stardrako-create/EpiLog) ([live catalog](https://epilogbio.netlify.app))
+[LocusAtlas](https://github.com/stardrako-create/EpiLog) (formerly EpiLog; [live catalog](https://locusatlas.netlify.app))
 is a literature-derived catalog of known genomic safe harbor loci across
 species, built by the same author. Its dog-species survey found essentially
 no published safe-harbor characterization for *Canis lupus familiaris* —
@@ -172,12 +203,15 @@ MIT License — see [LICENSE](LICENSE).
 
 ## Citation
 
-This repository is archived on Zenodo with a DOI covering the code as of
-each tagged release: [10.5281/zenodo.21996453](https://doi.org/10.5281/zenodo.21996453).
-Machine-readable citation metadata is in [CITATION.cff](CITATION.cff) (use
-GitHub's "Cite this repository" button, top right of the repo page). A
-dedicated preprint reference will be added once available. In the meantime,
-please also cite the source datasets where relevant:
+This repository is archived on Zenodo; the concept DOI
+[10.5281/zenodo.21996452](https://doi.org/10.5281/zenodo.21996452) always
+resolves to the latest archived snapshot of the code, and
+[10.5281/zenodo.22003933](https://doi.org/10.5281/zenodo.22003933) to the
+latest version of the dataset. Machine-readable citation metadata is in
+[CITATION.cff](CITATION.cff) (use GitHub's "Cite this repository" button, top
+right of the repo page). A dedicated preprint reference will be added once
+available. In the meantime, please also cite the source datasets where
+relevant:
 
 - Jin et al. 2024, *Aging Cell* (ATAC-seq / RRBS PBMC cohort, PRJNA1048909 / PRJNA1049514)
 - Wang et al. 2021, *Communications Biology* (Hi-C / UU_Cfam_GSD_1.0 assembly, PRJNA587469)

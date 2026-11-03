@@ -1,0 +1,25 @@
+from pathlib import Path
+import json,subprocess,datetime,hashlib,traceback,os,fcntl
+N=Path(__file__).resolve().parent;A=N.parent;P=A.parent;O=N/'UU_completion_review_20261009';O.mkdir(exist_ok=False);lock=open('/tmp/safeharbor_UU_completion_review.lock','w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+status=dict(state='running',pid=os.getpid(),stage='waiting_for_UU_worker',utc_start=datetime.datetime.now(datetime.timezone.utc).isoformat(),watched_pid=812)
+def save():
+ tmp=O/'status.tmp';tmp.write_text(json.dumps(status,indent=2));tmp.replace(O/'status.json')
+try:
+ save();helper='import os,select\ntry:\n fd=os.pidfd_open(812)\nexcept ProcessLookupError:\n pass\nelse:\n select.select([fd],[],[]); os.close(fd)'
+ subprocess.run(['/usr/bin/python3','-c',helper],check=True)
+ S=N/'ANO2_two_guides_full_UU_20261009';terminal=json.loads((S/'status.json').read_text());status['worker_terminal_receipt']=terminal
+ assert terminal['state']=='completed','UU search did not complete; no approval'
+ result=json.loads((S/'results.json').read_text());assert len(result['results'])==2 and all(r['exact_intended_hits']==1 for r in result['results'])
+ taxa=json.loads((N/'remote_conservation_taxa_review_20261009/receipt.json').read_text());assert taxa['state']=='completed' and len(taxa['results'])==3
+ lines=['\n\n## Genoma UU completo — conclusão do modelo exploratório\n','O índice foi construído sobre a referência UU completa; os alinhamentos foram conferidos contra as bases da FASTA. Ambos os alvos pretendidos foram encontrados uma vez, na orientação reversa prevista.\n','| Hipótese | Outros hits sem gap até3 substituições | Outros hits com um bulge até2 substituições |\n|---|---:|---:|\n']
+ for r in result['results']:lines.append(f"| {r['guide']['hypothesis_id']} | {len(r['ungapped_hits'])} | {len(r['single_bulge_hits'])} |\n")
+ lines += ['\nPAMs testados: TTTV/CTTV/TCTV/TTCV; alvos23nt, ambas as orientações. PAMs indefinidos compatíveis foram conservadoramente retidos. Os alinhamentos com bulge sobrepostos ao intervalo pretendido foram separados: não há demonstração de ausência de cortes deslocados. Lacunas/bases ambíguas, genomas individuais, outros PAMs e múltiplos bulges não estão fechados. A nuclease real não foi indicada; estes resultados não aprovam uma intervenção nem demonstram segurança biológica.\n','\nA conservação dos três loci adicionais terminou com1000 bases avaliadas:1059=0,50206;1266=2,21532;1900=0,46692, todos abaixo de6,5 após revisão de espécies duplicadas. Continuam fora da geometria SHIP original; esta conclusão não altera os critérios de avanço.\n','\nOs23 sítios selecionados na sensibilidade a SNP foram projetados em UU e confrontados com o catálogo; os três indels e todas as40 combinações sintéticas dos alelos recuperados não criaram hits no modelo. Isto é uma análise restrita desses sítios, não de todos os haplótipos populacionais.\n']
+ note=''.join(lines);report=A/'ALL_CANDIDATES_20261005/ANO2_REVIEW_AND_DEPENDENCIES_20261009_v5.md';assert not report.exists();report.write_text((A/'ALL_CANDIDATES_20261005/ANO2_REVIEW_AND_DEPENDENCIES_20261009_v4.md').read_text(encoding='utf-8-sig')+note)
+ paths=[P/'CURRENT.md',A/'CURRENT_STATE_AND_DECISIONS.md',A/'CANDIDATE_EXPANSION_20261005.md',A/'MEMPALACE_SYNC_PENDING_20260922.md',Path('/mnt/d/Biblioteca/Biblioteca/Labs/Vasco Barreto Lab/Notas/Safe Harbor CAR-T - ESTADO ATUAL E DECISOES.md')]
+ for path in paths:
+  with path.open('a',encoding='utf-8') as f:f.write(note+'\nRecibos em INDEPENDENT_LOCI_20261008/ANO2_two_guides_full_UU_20261009/results.json e remote_conservation_taxa_review_20261009/receipt.json. MemPalace mantém atualização pendente, sem alegar sincronização.\n')
+  if path in [paths[0],paths[1],paths[4]]:
+   text=path.read_text(encoding='utf-8-sig');marker='### Histórico preservado a partir daqui';front,tail=text.split(marker,1);front='\n'.join('- Trabalho ativo: os workers HAL e UU terminaram; consultar os recibos terminais. Aprovação integral da intervenção pendente de nuclease/PAM reais; nenhuma validação biológica.' if line.startswith('- Trabalho ativo:') else line for line in front.split('\n'));path.write_text(front+marker+tail,encoding='utf-8')
+ sources=[report,S/'status.json',S/'results.json',N/'remote_conservation_taxa_review_20261009/receipt.json',N/'full_UU_sequence_provenance_20261009.json',N/'ANO2_offsite_catalogue_combinations_20261009/receipt.json'];manifest=dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),complete_audit_approval=False,biological_validation=False,actual_nuclease_selected=False,source_hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in sources});(N/'ANO2_review_delivery_manifest_20261009_v5.json').write_text(json.dumps(manifest,indent=2));status.update(state='completed',stage='review_and_documentation_complete',report=str(report),summary=terminal['summary'])
+except Exception as e:status.update(state='failed',error=str(e));(O/'error.txt').write_text(traceback.format_exc())
+finally:status['utc_end']=datetime.datetime.now(datetime.timezone.utc).isoformat();save()

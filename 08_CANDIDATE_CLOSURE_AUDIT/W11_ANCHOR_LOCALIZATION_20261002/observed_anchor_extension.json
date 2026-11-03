@@ -1,0 +1,357 @@
+{
+  "utc": "2026-10-02T12:14:43.605194+00:00",
+  "max_observed_right_aligned_bp": 122,
+  "read_anchor_lengths": [
+    {
+      "read": "SRR14750332.101222071_mate1",
+      "left_aligned_bp": 100,
+      "right_aligned_bp": 50
+    },
+    {
+      "read": "SRR14750332.101966084_mate2",
+      "left_aligned_bp": 102,
+      "right_aligned_bp": 48
+    },
+    {
+      "read": "SRR14750332.12705144_mate2",
+      "left_aligned_bp": 31,
+      "right_aligned_bp": 119
+    },
+    {
+      "read": "SRR14750332.150620752_mate2",
+      "left_aligned_bp": 114,
+      "right_aligned_bp": 36
+    },
+    {
+      "read": "SRR14750332.159244344_mate1",
+      "left_aligned_bp": 88,
+      "right_aligned_bp": 62
+    },
+    {
+      "read": "SRR14750332.182785640_mate2",
+      "left_aligned_bp": 81,
+      "right_aligned_bp": 69
+    },
+    {
+      "read": "SRR14750332.199299879_mate1",
+      "left_aligned_bp": 28,
+      "right_aligned_bp": 122
+    },
+    {
+      "read": "SRR14750332.210784433_mate1",
+      "left_aligned_bp": 106,
+      "right_aligned_bp": 44
+    },
+    {
+      "read": "SRR14750332.4907758_mate2",
+      "left_aligned_bp": 107,
+      "right_aligned_bp": 43
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "left_aligned_bp": 107,
+      "right_aligned_bp": 43
+    },
+    {
+      "read": "SRR14750332.84746057_mate2",
+      "left_aligned_bp": 95,
+      "right_aligned_bp": 55
+    },
+    {
+      "read": "SRR14750332.86877856_mate2",
+      "left_aligned_bp": 61,
+      "right_aligned_bp": 89
+    }
+  ],
+  "extension_from_all_exact119_hits": {
+    "ROS": {
+      "matches_at_max_observed_right_anchor": 4,
+      "loci": [
+        {
+          "chrom": "NC_051805.1",
+          "start0": 39626500,
+          "end0": 39626619,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 43938976,
+          "end0": 43939095,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 15408312,
+          "end0": 15408431,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 37331113,
+          "end0": 37331232,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 79623653,
+          "end0": 79623772,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 4425976,
+          "end0": 4426095,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 36907059,
+          "end0": 36907178,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 7279686,
+          "end0": 7279805,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 73672428,
+          "end0": 73672547,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051818.1",
+          "start0": 8795650,
+          "end0": 8795769,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 58754864,
+          "end0": 58754983,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051827.1",
+          "start0": 41584980,
+          "end0": 41585099,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 36905004,
+          "end0": 36905123,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 37471572,
+          "end0": 37471691,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051837.1",
+          "start0": 29821484,
+          "end0": 29821603,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051837.1",
+          "start0": 13450243,
+          "end0": 13450362,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051838.1",
+          "start0": 33666551,
+          "end0": 33666670,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 56709190,
+          "end0": 56709309,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 59901656,
+          "end0": 59901775,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NW_024010670.1",
+          "start0": 36118,
+          "end0": 36237,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 125
+        }
+      ]
+    },
+    "UU": {
+      "matches_at_max_observed_right_anchor": 5,
+      "loci": [
+        {
+          "chrom": "NC_049222.1",
+          "start0": 44159896,
+          "end0": 44160015,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_049225.1",
+          "start0": 15870988,
+          "end0": 15871107,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049228.1",
+          "start0": 4504527,
+          "end0": 4504646,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049231.1",
+          "start0": 7528822,
+          "end0": 7528941,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049232.1",
+          "start0": 72955982,
+          "end0": 72956101,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049234.1",
+          "start0": 39777604,
+          "end0": 39777723,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049235.1",
+          "start0": 8888080,
+          "end0": 8888199,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049243.1",
+          "start0": 58283270,
+          "end0": 58283389,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049244.1",
+          "start0": 41489478,
+          "end0": 41489597,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049247.1",
+          "start0": 35638703,
+          "end0": 35638822,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_049248.1",
+          "start0": 8980081,
+          "end0": 8980200,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049250.1",
+          "start0": 30435570,
+          "end0": 30435689,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049253.1",
+          "start0": 33613308,
+          "end0": 33613427,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 300
+        },
+        {
+          "chrom": "NC_049254.1",
+          "start0": 13798077,
+          "end0": 13798196,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049255.1",
+          "start0": 33844771,
+          "end0": 33844890,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 55935958,
+          "end0": 55936077,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 58808068,
+          "end0": 58808187,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 121
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 86319068,
+          "end0": 86319187,
+          "strand": "+",
+          "exact_prefix_bp_capped300": 125
+        },
+        {
+          "chrom": "NC_049260.1",
+          "start0": 35400026,
+          "end0": 35400145,
+          "strand": "-",
+          "exact_prefix_bp_capped300": 121
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Alignment lengths include possible mismatches; not all observed anchors are exact",
+    "Exact reference-prefix ambiguity does not exclude distinguishing variants in individual reads",
+    "Reference prefix over122bp is not established by these spanning reads",
+    "All longer exact hits must also contain the119bp prefix; enumerating these is exhaustive for exact-prefix comparison only"
+  ]
+}

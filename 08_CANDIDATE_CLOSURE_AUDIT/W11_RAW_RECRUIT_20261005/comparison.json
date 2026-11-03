@@ -1,0 +1,61 @@
+{
+  "raw_pairs_scanned": 214126885,
+  "selected_pairs": 25,
+  "new_names_not_in_previous_local_selection": [
+    {
+      "name": "SRR14750332.53211536",
+      "seeds": [
+        "junction"
+      ]
+    },
+    {
+      "name": "SRR14750332.124875793",
+      "seeds": [
+        "left_flank",
+        "opposite_flank"
+      ]
+    },
+    {
+      "name": "SRR14750332.171739498",
+      "seeds": [
+        "junction"
+      ]
+    }
+  ],
+  "seed_counts": {
+    "junction": 14,
+    "left_flank": 19,
+    "opposite_flank": 10,
+    "tail": 4
+  },
+  "missing_prior_mates": [
+    {
+      "name": "SRR14750332.53211536",
+      "mate": 1
+    },
+    {
+      "name": "SRR14750332.53211536",
+      "mate": 2
+    },
+    {
+      "name": "SRR14750332.124875793",
+      "mate": 1
+    },
+    {
+      "name": "SRR14750332.124875793",
+      "mate": 2
+    },
+    {
+      "name": "SRR14750332.171739498",
+      "mate": 1
+    },
+    {
+      "name": "SRR14750332.171739498",
+      "mate": 2
+    }
+  ],
+  "limits": [
+    "Exact seed recruitment; does not exclude reads with mismatches or reads without these seeds",
+    "No new names is not absence of structural variation"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T09:51:12.023839+00:00",
+  "reference": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/GCF_014441545.1_ROS_Cfam_1.0_genomic.fa",
+  "index": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS",
+  "threads": 8,
+  "alignments_checked": 1135513,
+  "self_test": {
+    "queries": 16,
+    "alignments": 87,
+    "matches_brute_force": true
+  },
+  "reference_sha256": "b1bca7508b5114e8347489019b1b061685a550dadede24efd21f59c0a3879c7e",
+  "tool_sha256": {
+    "bowtie-align-s": "f49821a4301e547d7278fe533724ee19cd1c2997061db2a3afaefc449e951ca0",
+    "bowtie-build-s": "69690b2fab4f62d967471a98a064ac2ebef66f773af51cb7e0d707849322c305"
+  },
+  "index_files": [
+    {
+      "file": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS.1.ebwt",
+      "size": 685472364,
+      "sha256": "892f16c222694e6b7218b1b3cfcef9d57ddaee46629a69f1bde2a425aa32d19f"
+    },
+    {
+      "file": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS.2.ebwt",
+      "size": 298024464,
+      "sha256": "143675d5299f3432a583fd2bb1b67b9bd2f22e1e5b294225cedc7fda1c033920"
+    },
+    {
+      "file": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS.3.ebwt",
+      "size": 8567,
+      "sha256": "619e1cc97f766fc9b0eee9f537a0401842d3ab440223cf8f53469c0ad6fbc7d2"
+    },
+    {
+      "file": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS.4.ebwt",
+      "size": 596048917,
+      "sha256": "d7f1d8a161fa4b51431d7de6c41a5cb958c37cae374ea011acbbf78832db0236"
+    },
+    {
+      "file": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS.rev.1.ebwt",
+      "size": 685472364,
+      "sha256": "e27e12a4e6be330c336d1d05f7a792f6609e33d9078870f1ec7d12d6ed0fb1c4"
+    },
+    {
+      "file": "/mnt/d/Jin2024_work/bowtie1_ROS_20261009/ROS.rev.2.ebwt",
+      "size": 298024464,
+      "sha256": "565da8cec4c44cb4534ac1575c5362fe928633aac184715fa6e8e02a30477e30"
+    }
+  ],
+  "source_hashes": {
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/two_loci_REF_mask_specificity.json": "fc32421b45cf7cad65d83374b7bf419b4c88b802ec0ff188028f0c3cd2d766b8",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/masked_specificity_20261008.json": "6b9bd22d65af4256fc46429404cb63b1fc493d3c4bdecb0533049d0cf68a7f95",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/exact_specificity_next9/all_short_segments_exact_uniqueness.tsv": "8fc747b30e003ae4443fbd069f350e4915f631bbfa3ca4e0b667f61adaa357e6",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/exact_specificity_20261006/all_short_segments_exact_uniqueness.tsv": "38f907d9adb4869e702fd478f29e7b826b858a28e679c372d3b4020fb01a2c0b"
+  },
+  "queries": 2127,
+  "summary": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "queries": 748,
+      "no_other_locus_within_3_mismatches": 0
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "queries": 748,
+      "no_other_locus_within_3_mismatches": 0
+    },
+    {
+      "window": "NC_051831.1_39708074_39709074",
+      "queries": 631,
+      "no_other_locus_within_3_mismatches": 0
+    }
+  ]
+}

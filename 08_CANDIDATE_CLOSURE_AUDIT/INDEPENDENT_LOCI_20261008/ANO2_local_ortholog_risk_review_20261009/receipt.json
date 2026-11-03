@@ -1,0 +1,316 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T13:38:52.125252+00:00",
+  "inventory_sha256": "05359b821cdb929e2eaae34e34cee6e01392581b7d8daf25ec12498241bbce58",
+  "frozen_risk_HGNC_links_sha256": "7f038003c00156356b588cea2f5082f2d6ddfc75bc7b108000161a547ba30ebc",
+  "risk_entrez_geneids": 2653,
+  "results": [
+    {
+      "canine_gene": {
+        "gene": "ANO2",
+        "GeneIDs": [
+          "100687505"
+        ],
+        "start0": 6773566,
+        "end0": 7115529,
+        "strand": "-",
+        "distance_bp": 30732,
+        "attributes": {
+          "ID": "gene-ANO2",
+          "Dbxref": "GeneID:100687505,VGNC:VGNC:37925",
+          "Name": "ANO2",
+          "gbkey": "Gene",
+          "gene": "ANO2",
+          "gene_biotype": "protein_coding"
+        }
+      },
+      "source_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/100687505/orthologs",
+      "request_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/100687505/orthologs?page_size=1000",
+      "response_headers": {
+        "Date": "Fri, 09 Oct 2026 13:38:50 GMT",
+        "Server": "Finatra",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Ncbi-Phid": "1D335ECEBB3C585500002CFFA27C08CF.1.1",
+        "Content-Type": "application/json",
+        "Content-Encoding": "gzip",
+        "Grpc-Metadata-Via": "h2 linkerd",
+        "X-Ratelimit-Limit": "5",
+        "X-Datasets-Version": "18.38.0",
+        "X-Ncbi-Total-Count": "535",
+        "X-Ratelimit-Remaining": "4",
+        "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+        "X-Ua-Compatible": "IE=Edge",
+        "X-Xss-Protection": "1; mode=block",
+        "Via": "1.1 google",
+        "Alt-Svc": "clear",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_sha256": "dbd1a2b3d6baebaa189e2f19f71dd75b720ffa296ff8c11239a56568d83449b8",
+      "http_status": 200,
+      "total_count": 535,
+      "returned_count": 535,
+      "next_page_token": null,
+      "human_orthologs": [
+        {
+          "gene_id": "57101",
+          "symbol": "ANO2",
+          "type": "PROTEIN_CODING",
+          "gene_groups": [
+            {
+              "id": "57101",
+              "method": "NCBI Ortholog"
+            }
+          ],
+          "matching_frozen_risk_symbols": []
+        }
+      ],
+      "status": "human_ortholog_compared_by_GeneID"
+    },
+    {
+      "canine_gene": {
+        "gene": "LOC111092786",
+        "GeneIDs": [
+          "111092786"
+        ],
+        "start0": 6927797,
+        "end0": 6932149,
+        "strand": "+",
+        "distance_bp": 184963,
+        "attributes": {
+          "ID": "gene-LOC111092786",
+          "Dbxref": "GeneID:111092786",
+          "Name": "LOC111092786",
+          "gbkey": "Gene",
+          "gene": "LOC111092786",
+          "gene_biotype": "lncRNA"
+        }
+      },
+      "source_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/111092786/orthologs",
+      "request_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/111092786/orthologs?page_size=1000",
+      "response_headers": {
+        "Date": "Fri, 09 Oct 2026 13:38:50 GMT",
+        "Server": "Finatra",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Ncbi-Phid": "1D345BEF68C618F500002D001C023EC5.1.1",
+        "Content-Type": "application/json",
+        "Content-Encoding": "gzip",
+        "Grpc-Metadata-Via": "h2 linkerd",
+        "X-Ratelimit-Limit": "5",
+        "X-Datasets-Version": "18.38.0",
+        "X-Ncbi-Total-Count": "1",
+        "X-Ratelimit-Remaining": "3",
+        "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+        "X-Ua-Compatible": "IE=Edge",
+        "X-Xss-Protection": "1; mode=block",
+        "Via": "1.1 google",
+        "Alt-Svc": "clear",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_sha256": "dd5a9ec85554ed8f700d3d473a7795f69d74e5f8f301e8a48bb600f985258fb0",
+      "http_status": 200,
+      "total_count": 1,
+      "returned_count": 1,
+      "next_page_token": null,
+      "human_orthologs": [],
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    },
+    {
+      "canine_gene": {
+        "gene": "NTF3",
+        "GeneIDs": [
+          "486731"
+        ],
+        "start0": 6639884,
+        "end0": 6711187,
+        "strand": "+",
+        "distance_bp": 30649,
+        "attributes": {
+          "ID": "gene-NTF3",
+          "Dbxref": "GeneID:486731,VGNC:VGNC:44002",
+          "Name": "NTF3",
+          "gbkey": "Gene",
+          "gene": "NTF3",
+          "gene_biotype": "protein_coding"
+        }
+      },
+      "source_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/486731/orthologs",
+      "reused_probe_response_sha256": "0cf404036f731f9cc01186fb39bb862c7b7722e3e2db96d7766bcdf5dfba1bb3",
+      "raw_sha256": "0cf404036f731f9cc01186fb39bb862c7b7722e3e2db96d7766bcdf5dfba1bb3",
+      "http_status": 200,
+      "total_count": 866,
+      "returned_count": 866,
+      "next_page_token": null,
+      "human_orthologs": [
+        {
+          "gene_id": "4908",
+          "symbol": "NTF3",
+          "type": "PROTEIN_CODING",
+          "gene_groups": [
+            {
+              "id": "4908",
+              "method": "NCBI Ortholog"
+            }
+          ],
+          "matching_frozen_risk_symbols": []
+        }
+      ],
+      "status": "human_ortholog_compared_by_GeneID"
+    },
+    {
+      "canine_gene": {
+        "gene": "LOC111092811",
+        "GeneIDs": [
+          "111092811"
+        ],
+        "start0": 6482009,
+        "end0": 6484738,
+        "strand": "+",
+        "distance_bp": 257098,
+        "attributes": {
+          "ID": "gene-LOC111092811",
+          "Dbxref": "GeneID:111092811",
+          "Name": "LOC111092811",
+          "gbkey": "Gene",
+          "gene": "LOC111092811",
+          "gene_biotype": "lncRNA"
+        }
+      },
+      "source_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/111092811/orthologs",
+      "request_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/111092811/orthologs?page_size=1000",
+      "response_headers": {
+        "Date": "Fri, 09 Oct 2026 13:38:51 GMT",
+        "Server": "Finatra",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Ncbi-Phid": "1D32B58CF038EF1500005CEC67375CBA.1.1",
+        "Content-Type": "application/json",
+        "Content-Encoding": "gzip",
+        "Grpc-Metadata-Via": "h2 linkerd",
+        "X-Ratelimit-Limit": "5",
+        "X-Datasets-Version": "18.38.0",
+        "X-Ncbi-Total-Count": "1",
+        "X-Ratelimit-Remaining": "3",
+        "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+        "X-Ua-Compatible": "IE=Edge",
+        "X-Xss-Protection": "1; mode=block",
+        "Via": "1.1 google",
+        "Alt-Svc": "clear",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_sha256": "59a9d1eae709533f63f32f59f5c2151fb4c0854d8bb84a2a8d697a2d2080f8d1",
+      "http_status": 200,
+      "total_count": 1,
+      "returned_count": 1,
+      "next_page_token": null,
+      "human_orthologs": [],
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    },
+    {
+      "canine_gene": {
+        "gene": "LOC102151325",
+        "GeneIDs": [
+          "102151325"
+        ],
+        "start0": 6475588,
+        "end0": 6483093,
+        "strand": "-",
+        "distance_bp": 258743,
+        "attributes": {
+          "ID": "gene-LOC102151325",
+          "Dbxref": "GeneID:102151325",
+          "Name": "LOC102151325",
+          "gbkey": "Gene",
+          "gene": "LOC102151325",
+          "gene_biotype": "lncRNA"
+        }
+      },
+      "source_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/102151325/orthologs",
+      "request_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/102151325/orthologs?page_size=1000",
+      "response_headers": {
+        "Date": "Fri, 09 Oct 2026 13:38:50 GMT",
+        "Server": "Finatra",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Ncbi-Phid": "1D345BEF68C618F5000059001D73550F.1.1",
+        "Content-Type": "application/json",
+        "Content-Encoding": "gzip",
+        "Grpc-Metadata-Via": "h2 linkerd",
+        "X-Ratelimit-Limit": "5",
+        "X-Datasets-Version": "18.38.0",
+        "X-Ncbi-Total-Count": "1",
+        "X-Ratelimit-Remaining": "2",
+        "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+        "X-Ua-Compatible": "IE=Edge",
+        "X-Xss-Protection": "1; mode=block",
+        "Via": "1.1 google",
+        "Alt-Svc": "clear",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_sha256": "02102f9c28e867259ec9c2b511f2b432d324e6aad9358c08aa7437d168f0670f",
+      "http_status": 200,
+      "total_count": 1,
+      "returned_count": 1,
+      "next_page_token": null,
+      "human_orthologs": [],
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    },
+    {
+      "canine_gene": {
+        "gene": "LOC102151373",
+        "GeneIDs": [
+          "102151373"
+        ],
+        "start0": 6463954,
+        "end0": 6469989,
+        "strand": "-",
+        "distance_bp": 271847,
+        "attributes": {
+          "ID": "gene-LOC102151373",
+          "Dbxref": "GeneID:102151373",
+          "Name": "LOC102151373",
+          "gbkey": "Gene",
+          "gene": "LOC102151373",
+          "gene_biotype": "lncRNA"
+        }
+      },
+      "source_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/102151373/orthologs",
+      "request_url": "https://api.ncbi.nlm.nih.gov/datasets/v2/gene/id/102151373/orthologs?page_size=1000",
+      "response_headers": {
+        "Date": "Fri, 09 Oct 2026 13:38:51 GMT",
+        "Server": "Finatra",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "upgrade-insecure-requests",
+        "Ncbi-Phid": "1D32B58CF038EF15000054EC698A80DB.1.1",
+        "Content-Type": "application/json",
+        "Content-Encoding": "gzip",
+        "Grpc-Metadata-Via": "h2 linkerd",
+        "X-Ratelimit-Limit": "5",
+        "X-Datasets-Version": "18.38.0",
+        "X-Ncbi-Total-Count": "1",
+        "X-Ratelimit-Remaining": "2",
+        "Access-Control-Expose-Headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+        "X-Ua-Compatible": "IE=Edge",
+        "X-Xss-Protection": "1; mode=block",
+        "Via": "1.1 google",
+        "Alt-Svc": "clear",
+        "Transfer-Encoding": "chunked"
+      },
+      "raw_sha256": "6b10fbad74b70896a8eaeb78ac15bfb5df05e5bdee23c5daf4dfadfb254dbdc3",
+      "http_status": 200,
+      "total_count": 1,
+      "returned_count": 1,
+      "next_page_token": null,
+      "human_orthologs": [],
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    }
+  ],
+  "known_human_risk_GeneID_matches": 0,
+  "limits": [
+    "Only annotated local genes within300kb, using NCBI ortholog metadata and frozen risk-list HGNC GeneIDs; no gene-role expansion.",
+    "Missing human ortholog for local lncRNA is unknown risk-role correspondence, not absence of biological role or risk.",
+    "NCBI computational orthology is not independent biological confirmation or proof of functional safety.",
+    "Source taxon filtering in the initial NTF3 probe was not honored; entire returned set was count-checked and human records filtered locally."
+  ]
+}

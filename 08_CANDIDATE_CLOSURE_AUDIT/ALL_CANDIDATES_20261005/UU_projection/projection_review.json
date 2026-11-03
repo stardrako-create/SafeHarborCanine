@@ -1,0 +1,1102 @@
+{
+  "utc": "2026-10-05T12:01:21.539214+00:00",
+  "results": [
+    {
+      "id": "NC_051811.1_17234956_17235956",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17382280,
+          "end0": 17383266,
+          "cigar": "452M16I183M2D349M",
+          "NM": 23,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17255706_17256706",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17403010,
+          "end0": 17404010,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17256206_17257206",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17403510,
+          "end0": 17404510,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39713074_39714074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6736835,
+          "end0": 6737835,
+          "cigar": "1000M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39729824_39730824",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6720125,
+          "end0": 6721125,
+          "cigar": "1000M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39730074_39731074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6719875,
+          "end0": 6720875,
+          "cigar": "1000M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39730324_39731324",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6719625,
+          "end0": 6720625,
+          "cigar": "1000M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27039161_27040161",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13080665,
+          "end0": 13081664,
+          "cigar": "467M1I532M",
+          "NM": 5,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27039411_27040411",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13080415,
+          "end0": 13081414,
+          "cigar": "717M1I282M",
+          "NM": 4,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27040661_27041661",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13079164,
+          "end0": 13080165,
+          "cigar": "870M1D130M",
+          "NM": 4,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27040911_27041911",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13078914,
+          "end0": 13079914,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27041161_27042161",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13078664,
+          "end0": 13079664,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27041411_27042411",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13078414,
+          "end0": 13079414,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27041661_27042661",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13078164,
+          "end0": 13079164,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27050411_27051411",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13069408,
+          "end0": 13070408,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27050661_27051661",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13069158,
+          "end0": 13070158,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17222706_17223706",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17369812,
+          "end0": 17370807,
+          "cigar": "921M5I74M",
+          "NM": 7,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17222956_17223956",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17370062,
+          "end0": 17371057,
+          "cigar": "671M5I324M",
+          "NM": 7,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17230206_17231206",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17377305,
+          "end0": 17378307,
+          "cigar": "152M2D848M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17235206_17236206",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17382530,
+          "end0": 17383516,
+          "cigar": "202M16I183M2D599M",
+          "NM": 23,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17235706_17236706",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17383016,
+          "end0": 17384016,
+          "cigar": "1000M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17240706_17241706",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17388020,
+          "end0": 17389021,
+          "cigar": "933M1D67M",
+          "NM": 5,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17242956_17243956",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17390242,
+          "end0": 17391243,
+          "cigar": "332M1D668M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17245456_17246456",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17392743,
+          "end0": 17393743,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051811.1_17252456_17253456",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049228.1",
+          "start0": 17399757,
+          "end0": 17400760,
+          "cigar": "38M3D962M",
+          "NM": 4,
+          "mapq": 60,
+          "strand": "+",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39682574_39683574",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6767341,
+          "end0": 6768341,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39685324_39686324",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6764589,
+          "end0": 6765591,
+          "cigar": "24M1D521M1D455M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39685574_39686574",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6764339,
+          "end0": 6765341,
+          "cigar": "274M1D521M1D205M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39686074_39687074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6763839,
+          "end0": 6764840,
+          "cigar": "774M1D226M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39686324_39687324",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6763589,
+          "end0": 6764589,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39686574_39687574",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6763339,
+          "end0": 6764339,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39707824_39708824",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6742085,
+          "end0": 6743085,
+          "cigar": "1000M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39708074_39709074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6741835,
+          "end0": 6742835,
+          "cigar": "1000M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39708324_39709324",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6741585,
+          "end0": 6742585,
+          "cigar": "1000M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39709574_39710574",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6740335,
+          "end0": 6741335,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39709824_39710824",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6740085,
+          "end0": 6741085,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39710074_39711074",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6739835,
+          "end0": 6740835,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39710324_39711324",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6739585,
+          "end0": 6740585,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39710574_39711574",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6739335,
+          "end0": 6740335,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39714074_39715074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6735836,
+          "end0": 6736835,
+          "cigar": "187M1I812M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39714824_39715824",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6735085,
+          "end0": 6736085,
+          "cigar": "306M1D631M1I62M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39715074_39716074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6734835,
+          "end0": 6735836,
+          "cigar": "556M1D444M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051831.1_39735074_39736074",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049248.1",
+          "start0": 6714869,
+          "end0": 6715871,
+          "cigar": "691M2D309M",
+          "NM": 7,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016161_27017161",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13103677,
+          "end0": 13104681,
+          "cigar": "236M4D764M",
+          "NM": 6,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016411_27017411",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13103427,
+          "end0": 13104431,
+          "cigar": "486M4D514M",
+          "NM": 6,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016661_27017661",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13103177,
+          "end0": 13104181,
+          "cigar": "736M4D264M",
+          "NM": 6,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016911_27017911",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13102927,
+          "end0": 13103931,
+          "cigar": "986M4D14M",
+          "NM": 5,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27017411_27018411",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13102426,
+          "end0": 13103427,
+          "cigar": "74M1D926M",
+          "NM": 2,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27017911_27018911",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13101920,
+          "end0": 13102927,
+          "cigar": "25M6D549M1D426M",
+          "NM": 11,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27018911_27019911",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13100920,
+          "end0": 13101920,
+          "cigar": "324M1D229M1D44M2I401M",
+          "NM": 9,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27019911_27020911",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13099916,
+          "end0": 13100920,
+          "cigar": "177M4D823M",
+          "NM": 4,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27027161_27028161",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13092666,
+          "end0": 13093664,
+          "cigar": "836M2I162M",
+          "NM": 6,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27027411_27028411",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13092416,
+          "end0": 13093416,
+          "cigar": "1000M",
+          "NM": 4,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27027661_27028661",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13092166,
+          "end0": 13093166,
+          "cigar": "1000M",
+          "NM": 3,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27033411_27034411",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13086416,
+          "end0": 13087416,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27047661_27048661",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13072158,
+          "end0": 13073158,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27048161_27049161",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13071658,
+          "end0": 13072658,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27048411_27049411",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13071408,
+          "end0": 13072408,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27062161_27063161",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13057651,
+          "end0": 13058651,
+          "cigar": "440M1D127M1D19M2I412M",
+          "NM": 7,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27062661_27063661",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13057149,
+          "end0": 13058152,
+          "cigar": "187M2D753M1D60M",
+          "NM": 4,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27064161_27065161",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13055652,
+          "end0": 13056648,
+          "cigar": "407M4I589M",
+          "NM": 5,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27069911_27070911",
+      "status": "unresolved_for_simple_allele_projection",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13049898,
+          "end0": 13050899,
+          "cigar": "874M1D126M",
+          "NM": 1,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": false
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27070161_27071161",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13049648,
+          "end0": 13050648,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    },
+    {
+      "id": "NC_051836.1_27070204_27071204",
+      "status": "eligible_exact_window_for_variant_query",
+      "hits": [
+        {
+          "chrom": "NC_049253.1",
+          "start0": 13049605,
+          "end0": 13050605,
+          "cigar": "1000M",
+          "NM": 0,
+          "mapq": 60,
+          "strand": "-",
+          "primary": true,
+          "exact_sequence_verified": true
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "unresolved_for_simple_allele_projection": 41,
+    "eligible_exact_window_for_variant_query": 23
+  },
+  "limitations": [
+    "BWA-reported placements, not exhaustive genomic equivalence; independent of donor genotype",
+    "Eligibility only for full-window exact-sequence projection; variants spanning verified interval edges need separate treatment",
+    "No variant absence or AF conclusions from mapping alone"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T12:39:55.215222+00:00",
+  "source_sha256": "c0b2687114f1d522c0b4e011af98213aa3d34cbb2735231ba9bc11ac366fcc2e",
+  "script_sha256": "7a3d42e2ac434b444c2294247ab30836452bcf4ab0411dbdfef75736b10f0757",
+  "results": [
+    {
+      "site": "site13",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049222.1",
+      "context_start0": 66892577,
+      "context_end0": 66892778,
+      "allele": {
+        "pos1": 66892678,
+        "ref": "G",
+        "alt": "GA",
+        "filters": [
+          "PASS"
+        ],
+        "AF": 0.07900000363588333,
+        "AC": 313,
+        "AN": 3974,
+        "REF_matches_UU": true,
+        "status": "nonSNP_or_boundary_effect_not_assessed"
+      },
+      "reference_hits": [],
+      "alternate_hits": [],
+      "ref_sha256": "515495e78fec8ce01adba7da4fb21da9ffee00dd99dd0ad1cc3790ce3e614209",
+      "alt_sha256": "2616a509a0dbf9644476cb586cc43fe9b228f29b965e39bf609d3474324935f7"
+    },
+    {
+      "site": "site15",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049227.1",
+      "context_start0": 6513549,
+      "context_end0": 6513753,
+      "allele": {
+        "pos1": 6513650,
+        "ref": "TATC",
+        "alt": "T",
+        "filters": [
+          "PASS"
+        ],
+        "AF": 0.0017610000213608146,
+        "AC": 7,
+        "AN": 3974,
+        "REF_matches_UU": true,
+        "status": "nonSNP_or_boundary_effect_not_assessed"
+      },
+      "reference_hits": [],
+      "alternate_hits": [],
+      "ref_sha256": "43eb9fc418f3e504758e26d2bdcbf35bc8dd8c105b256da71ba234cb6fed0c71",
+      "alt_sha256": "3e48919fdcf4b5f73d0faf3090281e026a13dc68b37f8e25505964a70d3571aa"
+    },
+    {
+      "site": "site18",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049257.1",
+      "context_start0": 20383568,
+      "context_end0": 20383775,
+      "allele": {
+        "pos1": 20383669,
+        "ref": "TATACTC",
+        "alt": "T",
+        "filters": [
+          "PASS"
+        ],
+        "AF": 0.00025159999495372176,
+        "AC": 1,
+        "AN": 3974,
+        "REF_matches_UU": true,
+        "status": "nonSNP_or_boundary_effect_not_assessed"
+      },
+      "reference_hits": [],
+      "alternate_hits": [],
+      "ref_sha256": "c38953d820cafdd6208b1d32585b85eed71d0fd9a512eaa6e5e911de40de535f",
+      "alt_sha256": "3f2ed9198fcb8083539ee53fc45ae1eb992e2fbabf97427eb3d6eb4ae744a4bb"
+    }
+  ],
+  "limits": [
+    "Three queried catalogued indels applied individually to UU reference contexts, no phase or combined haplotype inference.",
+    "Both strands: defined PAM family and ungapped 23nt <=3 substitutions or one-base bulge <=2 substitutions.",
+    "This closes only these three allele contexts; no whole-population or all alternate-genome clearance and no empirical cleavage claim."
+  ]
+}

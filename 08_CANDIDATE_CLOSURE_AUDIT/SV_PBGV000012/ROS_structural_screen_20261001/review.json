@@ -1,0 +1,89 @@
+{
+  "utc": "2026-10-01T15:57:14.632283+00:00",
+  "sample": "PBGV000012",
+  "reference": "ROS_Cfam_1.0",
+  "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_integration_20261001/selected_markdup.bam",
+  "regions0": {
+    "UU_left_flank_ROS_region": [
+      35322119,
+      35362119
+    ],
+    "UU_right_flank_ROS_region": [
+      6382614,
+      6442614
+    ]
+  },
+  "eligible_primary_records": {
+    "UU_left_flank_ROS_region": 5746,
+    "UU_right_flank_ROS_region": 8439
+  },
+  "reciprocal_mate_links_both_MAPQ30": [
+    {
+      "name": "SRR14750332.111779446",
+      "ends": [
+        {
+          "region": "UU_left_flank_ROS_region",
+          "read1": false,
+          "start0": 35341890,
+          "end0": 35342044,
+          "mapq": 60,
+          "reverse": false,
+          "mate_start0": 6412403,
+          "cigar": "41M2D4M1I4M3D100M"
+        },
+        {
+          "region": "UU_right_flank_ROS_region",
+          "read1": true,
+          "start0": 6412403,
+          "end0": 6412464,
+          "mapq": 55,
+          "reverse": true,
+          "mate_start0": 35341890,
+          "cigar": "89S61M"
+        }
+      ]
+    },
+    {
+      "name": "SRR14750332.182767665",
+      "ends": [
+        {
+          "region": "UU_left_flank_ROS_region",
+          "read1": false,
+          "start0": 35341959,
+          "end0": 35342109,
+          "mapq": 60,
+          "reverse": false,
+          "mate_start0": 6412403,
+          "cigar": "150M"
+        },
+        {
+          "region": "UU_right_flank_ROS_region",
+          "read1": true,
+          "start0": 6412403,
+          "end0": 6412483,
+          "mapq": 51,
+          "reverse": true,
+          "mate_start0": 35341959,
+          "cigar": "70S80M"
+        }
+      ]
+    }
+  ],
+  "SA_links_anchor_and_SA_MAPQ30": [],
+  "w11_depth": {
+    "start0": 27041161,
+    "end0": 27042161,
+    "mean": 20.425,
+    "median": 20.0,
+    "covered_bases": 1000,
+    "base_quality_min": 20,
+    "mapping_quality_min": 30
+  },
+  "limitations": [
+    "Approximate flank projection search regions, not exact reciprocal breakpoint liftover",
+    "Mate links and SA records are separate evidence types; do not sum them",
+    "No broad deletion coverage ratio computed here",
+    "Read-name groups are not confirmed independent molecules",
+    "No genotype confirmation or safe-harbor functional validation"
+  ]
+}

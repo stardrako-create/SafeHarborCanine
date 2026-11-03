@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/complete_or_recover_HAL_20261009.py", line 16, in <module>
+    fd=os.pidfd_open(292);select.select([fd],[],[]);os.close(fd)
+       ^^^^^^^^^^^^^
+AttributeError: module 'os' has no attribute 'pidfd_open'

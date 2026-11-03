@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-09T12:11:27.375343+00:00",
+  "complete_audit_approval": false,
+  "biological_validation": false,
+  "files": [
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/ANO2_REVIEW_AND_DEPENDENCIES_20261009_v2.md",
+      "sha256": "57e9559c2f7b9136d404e11c7f756c90ad74bf53e7acab00ba11b903c6875ede",
+      "bytes": 8735
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/hypothetical_TTTV23_alternate_PAM_sensitivity_20261009.json",
+      "sha256": "d6fad896a15299f9eff56848e6569fb8c0eceadf3fd68f420a192dbc51a60379",
+      "bytes": 8731304
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_TTTV23_REFERENCE_MODEL_CANDIDATES_20261009.json",
+      "sha256": "2dd43f89b508e4f6bf296bda1b1cfeb0ae9b9f1fa7091ddd4665bf7a5069a242",
+      "bytes": 1770
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/hypothetical_TTTV23_search_validation_20261009.json",
+      "sha256": "828c9616e14ac2f83eb5659dc565865504c9c3f03d88e12f9c368d72336d52c1",
+      "bytes": 506
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_hypothetical_TTTV23_PAM_indel_robustness_20261009.json",
+      "sha256": "b9537cee1f1f136b2fd1f17ca624cb642f0ae27ea1d389a04ee4a55b4b4902cd",
+      "bytes": 8719
+    },
+    {
+      "path": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/HAL_interruption_recovery_20261009.json",
+      "sha256": "49ae12e4e7f63e952c183dfd1c321f2b047411fb54a600a60f4cf0babd8ef157",
+      "bytes": 509
+    }
+  ]
+}

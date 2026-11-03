@@ -1,0 +1,124 @@
+{
+  "utc": "2026-10-02T14:15:42.804659+00:00",
+  "coordinate_system": "0-based synthetic junction, right starts1000",
+  "BQ20_counts": {
+    "1062": {
+      "C": 4
+    },
+    "1073": {
+      "A": 3
+    }
+  },
+  "rows": [
+    {
+      "read": "SRR14750332.101222071_mate1",
+      "start0": 900,
+      "end0": 1050,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.101966084_mate2",
+      "start0": 898,
+      "end0": 1048,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.12705144_mate2",
+      "start0": 969,
+      "end0": 1119,
+      "branch_bases": {
+        "1062": {
+          "base": "C",
+          "BQ": 41
+        },
+        "1073": {
+          "base": "A",
+          "BQ": 41
+        }
+      }
+    },
+    {
+      "read": "SRR14750332.150620752_mate2",
+      "start0": 886,
+      "end0": 1036,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.159244344_mate1",
+      "start0": 912,
+      "end0": 1062,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.182785640_mate2",
+      "start0": 919,
+      "end0": 1069,
+      "branch_bases": {
+        "1062": {
+          "base": "C",
+          "BQ": 37
+        }
+      }
+    },
+    {
+      "read": "SRR14750332.199299879_mate1",
+      "start0": 972,
+      "end0": 1122,
+      "branch_bases": {
+        "1062": {
+          "base": "C",
+          "BQ": 41
+        },
+        "1073": {
+          "base": "A",
+          "BQ": 41
+        }
+      }
+    },
+    {
+      "read": "SRR14750332.210784433_mate1",
+      "start0": 894,
+      "end0": 1044,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.4907758_mate2",
+      "start0": 893,
+      "end0": 1043,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.5050682_mate2",
+      "start0": 893,
+      "end0": 1043,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.84746057_mate2",
+      "start0": 905,
+      "end0": 1055,
+      "branch_bases": {}
+    },
+    {
+      "read": "SRR14750332.86877856_mate2",
+      "start0": 939,
+      "end0": 1089,
+      "branch_bases": {
+        "1062": {
+          "base": "C",
+          "BQ": 41
+        },
+        "1073": {
+          "base": "A",
+          "BQ": 41
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Only12 previously selected spanning reads; same evidence reused",
+    "Base at branch is linked within one read to junction, not to distant genomic locus",
+    "Does not extend physical linkage beyond maximum122bp right anchor",
+    "No inference of independent molecules or structural genotype"
+  ]
+}

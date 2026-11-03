@@ -1,0 +1,1727 @@
+{
+  "pairs": 214126885,
+  "selected_records": 7349286,
+  "chunks": [
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_chunked_v2/chunk_000001_1000000/selected.bam",
+      "sha256": "bf00698b04935356c5aef4a9d42c60287620281767b44d91b2c20e0081d1c97c",
+      "index_sha256": "947c922a2f49c08dacb5f3f8f05f723cbab70fce6e15ac8791b2917127e9c4b2",
+      "count": 34125,
+      "start": 1,
+      "end": 1000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_001000001_002000000/selected.bam",
+      "sha256": "5976c55b6cae1c1445ea7e9fe8431793d888b2728cd6aecce534921bb1843aca",
+      "index_sha256": "8f2fd0ee80f8e5ab76733413edcf62c31209f42a89397d5b4a86d3083da1d7f1",
+      "count": 34207,
+      "start": 1000001,
+      "end": 2000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_002000001_003000000/selected.bam",
+      "sha256": "5ffd17d571080bb8e85ac66acd65684c1d62e6674ec9739eae3e673ef10e1fc2",
+      "index_sha256": "504fdc32c9204c97f98c9fd42e40e29e5300e4a1ecc183aae2dd13780b43f32b",
+      "count": 34209,
+      "start": 2000001,
+      "end": 3000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_003000001_004000000/selected.bam",
+      "sha256": "08a569453a4af31de68041f4728cd71c7ca6aa8f499806e84bc82411258e5902",
+      "index_sha256": "ae66e0f321ac52ca8f9a7d26679873accaa24adda1645adff60cb8e8b90c9e3f",
+      "count": 33993,
+      "start": 3000001,
+      "end": 4000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_004000001_005000000/selected.bam",
+      "sha256": "9bb2b9a9f7434318b46fee2237788c28619c93f60f2f28d3ea7ce8cd7ed07559",
+      "index_sha256": "e1bcb7ac9a3de28f14e465f5eef6854891edef47493fc6f1013b55e5a89534e4",
+      "count": 34678,
+      "start": 4000001,
+      "end": 5000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_005000001_006000000/selected.bam",
+      "sha256": "5510949eadba9fd985ee6238857aa8b56586723dfd58edb63ce41c70290e69d8",
+      "index_sha256": "8190f0be3f0af4836e7c90082e20ed28fbdd695e403effb79a16a4667c4c203e",
+      "count": 34406,
+      "start": 5000001,
+      "end": 6000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_006000001_007000000/selected.bam",
+      "sha256": "cdb7fb293379645a01ca56f7ad7d8bf9c3f1c36fc81ef24c13dd0c672a494820",
+      "index_sha256": "a3964f08ceb5adf62e19d1b51de5dacebcf69b06a0b5e400ec686123558f876e",
+      "count": 34218,
+      "start": 6000001,
+      "end": 7000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_007000001_008000000/selected.bam",
+      "sha256": "58ab0640fc514e3ade363c55ac953bfc6d93d8fccb239c93256fd775a9ca3891",
+      "index_sha256": "e0291083213ba5ef7331206c8c1eedc529bb956c72216bf24a4c165f9ccb0ec7",
+      "count": 34298,
+      "start": 7000001,
+      "end": 8000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_008000001_009000000/selected.bam",
+      "sha256": "ef29d20b7351c3569f73ac97167d1424b70009dff29597c61b9578a7a42ba426",
+      "index_sha256": "44b68b112fb40897f2189a7b3a6fd0dd915b43e0537052af02312bd46c6498c8",
+      "count": 34042,
+      "start": 8000001,
+      "end": 9000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_009000001_010000000/selected.bam",
+      "sha256": "8cfb268cfae0c2552b5df4247319e42101225cd9904c6b1a6f050808dd50be98",
+      "index_sha256": "10c52dbcb6711d868e2344f9ab9115d832dc2e37c9d07bd1844bc4ca5d14fec1",
+      "count": 34619,
+      "start": 9000001,
+      "end": 10000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_010000001_011000000/selected.bam",
+      "sha256": "1b6cf6e656f72fec454a664b6e2621b0f4beaf774e2d873b4a9987e6e0ae3d73",
+      "index_sha256": "c82ba9480208878011c5ba3cc3db8965d1463115e8057041f6f11f45e02c306a",
+      "count": 34431,
+      "start": 10000001,
+      "end": 11000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_011000001_012000000/selected.bam",
+      "sha256": "d2fcb4f72877dfd5d11039a0138a2c604c30d1b7e13cd19943c2786eb469ddc1",
+      "index_sha256": "56be066b3176c5ecf75a1298c2bff3fbbd60c6787313f624ce38d1afa28f074d",
+      "count": 34484,
+      "start": 11000001,
+      "end": 12000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_012000001_013000000/selected.bam",
+      "sha256": "11c4c17f0088df14deb271261511d29b48c634702445153cea1e49f6128b2fdb",
+      "index_sha256": "6b0513d2e962900c4c127753748e7c81406d344cc8593c27c32ee67d426e91d0",
+      "count": 33858,
+      "start": 12000001,
+      "end": 13000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_013000001_014000000/selected.bam",
+      "sha256": "9391c1140cf0571b2c97ab1d58dd4b52c3ee6ba714dfaed395fed471435164a5",
+      "index_sha256": "cdcd4847a781fa22f5368db7429b5f354d9d63774cb6e42f835622ce3c6a45e6",
+      "count": 34180,
+      "start": 13000001,
+      "end": 14000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_014000001_015000000/selected.bam",
+      "sha256": "893e88f3e78cd8f5b17e4ba8a939bcb899005f3df399bb2424617960b9fe8330",
+      "index_sha256": "bf551b398ecbd7a6c3292c47a6f2c68262ee3bd6307fd2a66bb0e3cbbceec3a4",
+      "count": 34278,
+      "start": 14000001,
+      "end": 15000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_015000001_016000000/selected.bam",
+      "sha256": "22bee733362943c1ff38ab0f9fa54cc9a5ca002f03478737d77af52c5f5989c6",
+      "index_sha256": "fda3d7012a1790783658191619c6cf30daa3df58f325391caa8314e6808d6294",
+      "count": 34532,
+      "start": 15000001,
+      "end": 16000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_016000001_017000000/selected.bam",
+      "sha256": "720ae1ca2fa3e98d91f8a17c888ed69b05b2e6780aadd255b400f27f48f2fd0c",
+      "index_sha256": "605e54d20a28537b09e402ca5af58644f3eaa0842f2b72c55c08e4dbf362d51f",
+      "count": 33923,
+      "start": 16000001,
+      "end": 17000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_017000001_018000000/selected.bam",
+      "sha256": "c1f60e5b616e8ba715891e9f9b14d44629ff89668c875652739b41994e052129",
+      "index_sha256": "e3928bf22286a7a4750d46f244cb51a8a90528d608d52f8a264bce4bea0d0a94",
+      "count": 34264,
+      "start": 17000001,
+      "end": 18000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_018000001_019000000/selected.bam",
+      "sha256": "9633fb7a1c93dd49170c8153e2578562f238ff0be86f5baeb9b2f0b824c0b4df",
+      "index_sha256": "66ab67025019d5061cdd1fa239a829f36a04151308fca8cbe8dd08e8be4173c4",
+      "count": 34445,
+      "start": 18000001,
+      "end": 19000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_019000001_020000000/selected.bam",
+      "sha256": "49821e391c5c2413319aed4c1b9fff55d74a3b599ab9e5e3401cc56cf511adcc",
+      "index_sha256": "db2f11eb0c230847d5f8b47531901f8ebd0f1e2c678fa26efd16fa88de376f14",
+      "count": 34216,
+      "start": 19000001,
+      "end": 20000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_020000001_021000000/selected.bam",
+      "sha256": "54f99d9ccf9f0cefc970e30aed2089f35a7d74d95ef0ce5744911688e47bb4ad",
+      "index_sha256": "fcc36ac4e65a2421d278bf2e4f4c2e74e5be69f7b0dceced68fb6df88c7f4b10",
+      "count": 34182,
+      "start": 20000001,
+      "end": 21000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_021000001_022000000/selected.bam",
+      "sha256": "c0d7b2a3c7636a138aa589131612648060206990c0bfd77cb8f04a7ad54f416a",
+      "index_sha256": "818f6934ae9eb78d312db557c50ce946ab964b22d13a2ce2bf6cbe332e9dd184",
+      "count": 34519,
+      "start": 21000001,
+      "end": 22000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_022000001_023000000/selected.bam",
+      "sha256": "bb105289771f7e0c88a126abd12513e6da0ad0f2c89697d3b9d12fe20f5f2aa5",
+      "index_sha256": "1cf659e55b77bbc87b4661403c3013661656e3e7ed414d1c527af10a53821eca",
+      "count": 33871,
+      "start": 22000001,
+      "end": 23000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_023000001_024000000/selected.bam",
+      "sha256": "4be93719853497a6dc946b1fd28c15da80d511636bbe2fa3b84ca539290aec52",
+      "index_sha256": "2bf83fc71e465b0962f3e59b27368eaf1a4f9ba200de2e6051efcbc871f29d54",
+      "count": 34123,
+      "start": 23000001,
+      "end": 24000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_024000001_025000000/selected.bam",
+      "sha256": "5de44581852b2f7f4c841bd5d055167c607c16096d84bc808cbe32a0c6ef6a8e",
+      "index_sha256": "9c52c9c599186ee42a6ec8429f0a8979e962b2eed7ff5df37dea8bb1a1638a2a",
+      "count": 34154,
+      "start": 24000001,
+      "end": 25000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_025000001_026000000/selected.bam",
+      "sha256": "63d493ddd44fb88c9723efe70ba1e7a39614b588d7f247c3cf772fd83c15c4ae",
+      "index_sha256": "488543cd09d98697689e03d62e7480d9edbc59017d55bc8937413ec6f748e3b5",
+      "count": 34308,
+      "start": 25000001,
+      "end": 26000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_026000001_027000000/selected.bam",
+      "sha256": "e86c9ee7f4fd5ae9a2b15c40fa447efafab16c84c0da53657b3642bb3d914a38",
+      "index_sha256": "40aa7c511a6573fc5f3bf63951e5fd3475d7d937916bc06f71690f65ffeb4633",
+      "count": 34015,
+      "start": 26000001,
+      "end": 27000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_027000001_028000000/selected.bam",
+      "sha256": "8f349c5bfab7ec5fe183b5196533faf97c8f76cb2870bbc55b1d7b3d7a27d6cd",
+      "index_sha256": "8f5d305c7b0fec8ad047c3af2aeed926002846f62c9332491afbaae60328244b",
+      "count": 34706,
+      "start": 27000001,
+      "end": 28000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_028000001_029000000/selected.bam",
+      "sha256": "e5683f105dc12a2aa85bbf3b2c0a09f7f114c611404686106c451820349d23c4",
+      "index_sha256": "57036b9ed4057cd1683f050d5bc84c207581b09ace239fdcc28dd28bd3fb7482",
+      "count": 34210,
+      "start": 28000001,
+      "end": 29000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_029000001_030000000/selected.bam",
+      "sha256": "db3c7026e164a218fdeb2035c3a761f065ac4d55dab5f0cbf90f793c8233884d",
+      "index_sha256": "78849e6cab4ebc88febe589f7d2772e1706e8065201364c66823a94dd2d3f588",
+      "count": 34118,
+      "start": 29000001,
+      "end": 30000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_030000001_031000000/selected.bam",
+      "sha256": "868a3b8b7bdd87025fe1102f5728e5eb041e65e849c54d7fdb4e06fa8c97caea",
+      "index_sha256": "dcb5a87feff50cb4ec77dfd3bf53577f9c942371217c62d5590cbafa21161470",
+      "count": 34510,
+      "start": 30000001,
+      "end": 31000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_031000001_032000000/selected.bam",
+      "sha256": "49b6bdc8c15aa882fee9d362162739b820e223833887d7688d21d08b9b0bb9da",
+      "index_sha256": "ecd4404be054dfd001fc470bd77d5afda0206fb442710e5aa4e1d4d688a6dca5",
+      "count": 34501,
+      "start": 31000001,
+      "end": 32000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_032000001_033000000/selected.bam",
+      "sha256": "8aa97745c6c8ced14c39aef19dec600cf1bb0e84c03f17321950f4e49bfe89fb",
+      "index_sha256": "1933a10924e756b6a09049a37833e7e427a932a061448788ddc565d8dd52fc53",
+      "count": 34451,
+      "start": 32000001,
+      "end": 33000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_033000001_034000000/selected.bam",
+      "sha256": "b3823401379b9cbb05ae765b7269861021f9b4240e4d7512b10f6f23c52c9bed",
+      "index_sha256": "7a6cf2062c0bd3e92fbaf23b332c98ceeda5116e7a8c51b86ca544c227e9d14b",
+      "count": 34832,
+      "start": 33000001,
+      "end": 34000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_034000001_035000000/selected.bam",
+      "sha256": "3c4b03f93a10176445e0ea7db7949dc6a7bb33d590ef21a56463e8d2654a80a1",
+      "index_sha256": "53cbc3290ed7834c19945378241c15bbb60a2c3fab6229d2e8ebebc6c2a4151d",
+      "count": 34267,
+      "start": 34000001,
+      "end": 35000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_035000001_036000000/selected.bam",
+      "sha256": "663764a795e1c26f46114d78385b322cb4fdd1de67d9d3a1826fdf89d9d2c549",
+      "index_sha256": "0eb42c061253787b4828a7f3c1306351c81ce9e5d318f5763d2179876a6380aa",
+      "count": 34641,
+      "start": 35000001,
+      "end": 36000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_036000001_037000000/selected.bam",
+      "sha256": "aee0cee1a9cb33a9ab6d0d884a16857fb48bb66874dc05993b80e7d7b60fa584",
+      "index_sha256": "be4aaed19ed841ef4bb84caceb77be13b8526e41468d93d5252ca1f45b7e583c",
+      "count": 34188,
+      "start": 36000001,
+      "end": 37000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_037000001_038000000/selected.bam",
+      "sha256": "cdfaf094f3cb4d28bc58e7d6a3e7bac513336fa985b416864fe95e742ec9dc1a",
+      "index_sha256": "3f33b2530b5b217d33936219fcd7e2f6d87ccdbcd10d21ad2d655c32862aa5c2",
+      "count": 34124,
+      "start": 37000001,
+      "end": 38000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_038000001_039000000/selected.bam",
+      "sha256": "45095acef1fc147eccd633307de56031736a9ffbe24e282f1adfa63c13973abd",
+      "index_sha256": "e363ad65e237427bc8e980ff25e6f19f289be2b03a6b0b3dfd8f22b30e3eef7f",
+      "count": 34083,
+      "start": 38000001,
+      "end": 39000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_039000001_040000000/selected.bam",
+      "sha256": "9232e6e5f572ba70f18bab941706c855f4af383a4730c24d9220b73cfce43225",
+      "index_sha256": "6409bd2d23cfd53f4b24900ca47ac6d7632ac2ecb7c3e1aa4b35dd0aed8a2fe1",
+      "count": 34497,
+      "start": 39000001,
+      "end": 40000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_040000001_041000000/selected.bam",
+      "sha256": "d0d937cae653c98371cb31c617829316f7bd7aef3a6a6cc08ae64bf69499dad4",
+      "index_sha256": "23ddf1f20dc69bdaab808545d46b3410f6d2c2c05e6f847b8228c35610392540",
+      "count": 34471,
+      "start": 40000001,
+      "end": 41000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_041000001_042000000/selected.bam",
+      "sha256": "1f95604922546f3c1aaa08e91d5bfc5e8c18731418a7e77aff00ea1b96873ff4",
+      "index_sha256": "b39abd962a8b060eb5693669a81c227f16bd4077ded792ff5d1784fea0f079cb",
+      "count": 34482,
+      "start": 41000001,
+      "end": 42000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_042000001_043000000/selected.bam",
+      "sha256": "ee86bed2de12f97e1bae15bb0c06d8f783b19063853f010ed8af5303ee89a4ff",
+      "index_sha256": "637823e5c9923316d3b55e5e0fd97e31cc48091760ad7dff62a2f41e82b63daa",
+      "count": 34057,
+      "start": 42000001,
+      "end": 43000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_043000001_044000000/selected.bam",
+      "sha256": "3086b3d190aa3d95b7a8d1a471c16d53e87f36a9e08621d49943e6f700728064",
+      "index_sha256": "a8b76429451cfa7c4aa8a4e6810f535cf4c91a8325e72761f32ad98c4246fcdf",
+      "count": 34678,
+      "start": 43000001,
+      "end": 44000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_044000001_045000000/selected.bam",
+      "sha256": "90a1f1e33e6068e0353a4949d2f87acc9dd117afbfc128ddcedddf256d9e0300",
+      "index_sha256": "db0baa489cfcf5eecee18235730bf1710815dd74dc8b9a4dc314ea5164206a15",
+      "count": 33744,
+      "start": 44000001,
+      "end": 45000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_045000001_046000000/selected.bam",
+      "sha256": "423f4a82f3ef9fa7083a664535fe5602527c0a910cc0b7edb8023a320aa6866c",
+      "index_sha256": "f8abebec7a8180abe22cf0f1e5f4382329fa79ac233573d511ca9373309653ad",
+      "count": 34278,
+      "start": 45000001,
+      "end": 46000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_046000001_047000000/selected.bam",
+      "sha256": "231e65790b3db8594b0b8425ee2637f931c555119be5c88a140801619093aa66",
+      "index_sha256": "879c447c774b2c264c232e8e76cb20e6a81ec434fa1b70a34fdd5111ee60f75c",
+      "count": 34537,
+      "start": 46000001,
+      "end": 47000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_047000001_048000000/selected.bam",
+      "sha256": "8fb150fd8cade327e8890198252cde8c47d1690023f62152684b58fa26e1a775",
+      "index_sha256": "eaf4edb5e5e1108c3c331417494721d67e9fe6516525395bee892720f740bb18",
+      "count": 34513,
+      "start": 47000001,
+      "end": 48000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_048000001_049000000/selected.bam",
+      "sha256": "740bc7884e06aa345c472a08813085eaae39f6bf0673138312e7085aa5c97397",
+      "index_sha256": "d383f5fb7ccaffcdd43f5d71049689897ecba944a416e3566450d22e079869dd",
+      "count": 34564,
+      "start": 48000001,
+      "end": 49000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_049000001_050000000/selected.bam",
+      "sha256": "f600ea4a9fbead1a0c18e34098a7b5231b242cbf8d9f7abf0b9d07651b692478",
+      "index_sha256": "0de0ce6d48a83ec197f684df4a7ac4c78f61943a6904064628b6dc7ebe12ac36",
+      "count": 34507,
+      "start": 49000001,
+      "end": 50000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_050000001_051000000/selected.bam",
+      "sha256": "9fbec8ee65a8ae10b47d020d6f86a1f5179d2aa0b4c9c4f1d37762b705ee78c3",
+      "index_sha256": "d868e66e0e4fb87f4b6702deed3352dbed258adfadaa5af9ab588764b93a6b80",
+      "count": 34102,
+      "start": 50000001,
+      "end": 51000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_051000001_052000000/selected.bam",
+      "sha256": "b0a8d7b19ba78640c1616f7f34ea7471287082b015462b4b137c2c8075e2708b",
+      "index_sha256": "9ede477c3141fb2e5c3d790c8ea337c5cbbd26cc71fcc2505be64ad630f7bf64",
+      "count": 34195,
+      "start": 51000001,
+      "end": 52000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_052000001_053000000/selected.bam",
+      "sha256": "954ab3c2354ac7a7a3f71f306b67ad9e518d2b1ff9768c280beb4f8bf288b82e",
+      "index_sha256": "69be8f94bc0f4908d6d56b013b7650f99e039b5bdcfb0a3415e0aef14cdf618d",
+      "count": 34196,
+      "start": 52000001,
+      "end": 53000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_053000001_054000000/selected.bam",
+      "sha256": "ca1b63b4761ea51aebd20a36b737b050240683818ead6e1cc96c99fc9d8b083b",
+      "index_sha256": "5b52c9e47b6845d3c1a2f3109272be6d6cf15644b03b64c8cf9ef7845c80ef43",
+      "count": 34701,
+      "start": 53000001,
+      "end": 54000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_054000001_055000000/selected.bam",
+      "sha256": "3fe7eccc5eca69d834c25f30825fa99052b4d7190085b19ac722d4684e88fa31",
+      "index_sha256": "f28b36b45382e2943446796b9768f9657bf554dbe418713aee3eef4fc3e8f979",
+      "count": 34445,
+      "start": 54000001,
+      "end": 55000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_055000001_056000000/selected.bam",
+      "sha256": "b655fb12a3d79b9e47575b42e42603b8123fa96081d1ce0cc964392f55453c68",
+      "index_sha256": "e36ee098aea64e6bf7df020146bb955451068c5cd6389777c6e69f9200390f45",
+      "count": 34103,
+      "start": 55000001,
+      "end": 56000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_056000001_057000000/selected.bam",
+      "sha256": "dfe98de9e571c1ac593a98db53dbe8b0c2f31ec7073aa69d424e81c71b89da0c",
+      "index_sha256": "0a4fe0732cf7b4852c430d9b13057aeff89a0166b8c4108fbd2f81bf062905d4",
+      "count": 34436,
+      "start": 56000001,
+      "end": 57000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_057000001_058000000/selected.bam",
+      "sha256": "80779fcd83817e85e83b04c72eaab14bdb7a94af204436616c92e6c81fa6f69c",
+      "index_sha256": "983afaf115f2ad8ccf35de3e2b5a4a7b6a27bd043952eaa81ba34d19654ff4b5",
+      "count": 34725,
+      "start": 57000001,
+      "end": 58000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_058000001_059000000/selected.bam",
+      "sha256": "1e9014afc9c16434efb8a433bd6f455e89d0a37cdf1508b49e077bf6fc05303c",
+      "index_sha256": "4f01f58427c1525c1376a03253157553d1c1e5c7ea18742cb1c3c00dd2e35417",
+      "count": 34140,
+      "start": 58000001,
+      "end": 59000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_059000001_060000000/selected.bam",
+      "sha256": "7972e42c2655e6d83de2c0fd5ade4052fa86d63cd67afe2783d94dcb8c66e31f",
+      "index_sha256": "85922b8ef919e0cf9cc00a6660c58fe3c658c2c1e7e1ae0dc0e8d4b89e136ad1",
+      "count": 34303,
+      "start": 59000001,
+      "end": 60000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_060000001_061000000/selected.bam",
+      "sha256": "4b6fdf7a5f82f3ceee41566271cc5c3c334c911d2c64c8a097d7f7a9b8637349",
+      "index_sha256": "89f8300dcb2aa22a2356e2c6cbd2427ce84085ab4c096bb3405e0096efe4a28a",
+      "count": 34174,
+      "start": 60000001,
+      "end": 61000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_061000001_062000000/selected.bam",
+      "sha256": "8da87f581e5a25f0cd99e33733b2b1e254a1f422ea844c62fb8b789849f4df1d",
+      "index_sha256": "9e91d0012de85076308c9961abab229e734b8e2152fddf10698c006be2ffcdda",
+      "count": 34431,
+      "start": 61000001,
+      "end": 62000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_062000001_063000000/selected.bam",
+      "sha256": "893d322c07117ee90014be5fbb61e04a42cdfd98976fa58e35c858e2c7cf222a",
+      "index_sha256": "58c16908c98f6542d733aa5222772b934f5587e25703770327940fb670e87c4f",
+      "count": 34866,
+      "start": 62000001,
+      "end": 63000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_063000001_064000000/selected.bam",
+      "sha256": "fc9981b9b6f95141956d8a9167fd65318330e452b3947612995e4e453e7f12ed",
+      "index_sha256": "a4a509f1214f19fa465815fda474f556c6bd0582e283015e58b28afdeb0ff585",
+      "count": 33934,
+      "start": 63000001,
+      "end": 64000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_064000001_065000000/selected.bam",
+      "sha256": "6588e87da238be6411a3000ac9f86b641de4d7f18bf9d7cb767eddca72e0fb36",
+      "index_sha256": "d7b54011a32c0163ab280c8d213e415752449f99081ca6c820edf9ab065f0ec2",
+      "count": 34103,
+      "start": 64000001,
+      "end": 65000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_065000001_066000000/selected.bam",
+      "sha256": "55fec5530a4be300d948030ea6ccd915aa5e4e76f4c7eb5a20d47784f10e0275",
+      "index_sha256": "0263f99f14102caadb871d78a1812562e0ae32ff5c431c935e31f9d6ee951dce",
+      "count": 34540,
+      "start": 65000001,
+      "end": 66000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_066000001_067000000/selected.bam",
+      "sha256": "a4f48eb105ac95a72f10bf2c00c359bb356858b4b1f76c99574995d3499fe9d6",
+      "index_sha256": "9638eb15c943ac37168080ef7768395b772967a2a42d05079ae17f3fcbd40746",
+      "count": 34135,
+      "start": 66000001,
+      "end": 67000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_067000001_068000000/selected.bam",
+      "sha256": "2b442e0dcf4e26a7e2d3a9995db8bbb196032bb0d60fd4b1010ac8a5b1d86e17",
+      "index_sha256": "357fe31fc86944a04f007c2a45f9684b026754229df772314aa959a0ad14919e",
+      "count": 34076,
+      "start": 67000001,
+      "end": 68000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_068000001_069000000/selected.bam",
+      "sha256": "0cf7d8d30db8d414e6609e973044e2427c55d2f0cb9161d248d47e7f9e027670",
+      "index_sha256": "794bde659f9f2cac2d713a42e71481956c73e347c72ddff70583597d6a817c9c",
+      "count": 34034,
+      "start": 68000001,
+      "end": 69000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_069000001_070000000/selected.bam",
+      "sha256": "6534ec1b9a8d14e7127cc7e20ecd685448d5eedd35b5e5dbf69a18caf0cfdb1a",
+      "index_sha256": "0a0c49e107025b07e7462c56d28b95df63f655fda126e5c8e1383bb1e70dbcf0",
+      "count": 34536,
+      "start": 69000001,
+      "end": 70000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_070000001_071000000/selected.bam",
+      "sha256": "cadfd3b1e7b2e863d17f3550487a7f3796ed41f4e4093075bce8034714c6613f",
+      "index_sha256": "8c03bddc6669e42cec60adbc3113d37939cd2b171a4edbaac4fa9b2152f24261",
+      "count": 34048,
+      "start": 70000001,
+      "end": 71000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_071000001_072000000/selected.bam",
+      "sha256": "47d6373a2b5432cade2765093afc6c37b4b45a745c763e6be8cf11a84f5c67b5",
+      "index_sha256": "3f569e8e69208496737e7ab2b2f1b6264213bbfaa2322617e49ecaff31bfdc8d",
+      "count": 34562,
+      "start": 71000001,
+      "end": 72000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_072000001_073000000/selected.bam",
+      "sha256": "598a725b09719cad233ba6ac02a0988878ab1fe53afea273cea60f0d15e04d84",
+      "index_sha256": "c3898a7a5f5e67e17a96f96f207ca8b3ed72f1a67e6d1053c62c251993e515b5",
+      "count": 34454,
+      "start": 72000001,
+      "end": 73000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_073000001_074000000/selected.bam",
+      "sha256": "d2306516499c64485fd61a808822ab581aabfb0d55134f876974105a21080d70",
+      "index_sha256": "7ec74d46f83d2f8009af3def18dd10579b85db1e5fb5288f430f2d62949995ed",
+      "count": 34701,
+      "start": 73000001,
+      "end": 74000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_074000001_075000000/selected.bam",
+      "sha256": "2f77cd1ecedcca7cd1486cd0507562a05dcd0c161a6c2dc9401a2f0503408678",
+      "index_sha256": "440ffbe7b039812d5eca25c5f747be28332bf0a4447a820236cc8c47b008e7d7",
+      "count": 34117,
+      "start": 74000001,
+      "end": 75000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_075000001_076000000/selected.bam",
+      "sha256": "b4ba347484520ee461fec59c4f65761ab2910f1c1619eacd16722cc3f6f9c608",
+      "index_sha256": "70fb535ebc6dc4807d190f5f249ddb7c584ab0f143778de140a44ff5119b5349",
+      "count": 34298,
+      "start": 75000001,
+      "end": 76000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_076000001_077000000/selected.bam",
+      "sha256": "a0908dfc036d2421b9359f92743c2f0db6cf796bddecbdf0cbc0cccb045ad236",
+      "index_sha256": "66b313ee8a5c211fd151b2439445306455cd8aab437dd7b656867cb32fea4df8",
+      "count": 34628,
+      "start": 76000001,
+      "end": 77000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_077000001_078000000/selected.bam",
+      "sha256": "dd1db7bb0f70a6f848f71cac02671a62418d9bb6783c84b866c7c0271559b2c0",
+      "index_sha256": "0d57bbdd3b9b7af929dc54bba4ed6a1430062ba90a7d14823251ebc3dc141cce",
+      "count": 34294,
+      "start": 77000001,
+      "end": 78000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_078000001_079000000/selected.bam",
+      "sha256": "19f24a525bd77eccb6237354b1f67fce5eec74085b0d067a3f64a0bc22f576bc",
+      "index_sha256": "c3c1b7e4d47c03aa9a27fa59d7f732e90acae3dd5516118b3818b9bff75b3825",
+      "count": 34526,
+      "start": 78000001,
+      "end": 79000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_079000001_080000000/selected.bam",
+      "sha256": "76d37dec96efc8db0e6e5dc200f3919274646606c9bd9b35c40d42b6f92a881e",
+      "index_sha256": "c2dea6f6e54e1ffb329e60eb99bd626895c476ebf2311af175437a26a3c09138",
+      "count": 34371,
+      "start": 79000001,
+      "end": 80000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_080000001_081000000/selected.bam",
+      "sha256": "47b6c29e2d6b717e0fd40f5ed8a7cb9f2f2bb4be45d4477f0c09d96cc51b0851",
+      "index_sha256": "1fc9dc4c6bf79d0b867d02f3e742df54be355e04afddcd222523deff2f9997ca",
+      "count": 34797,
+      "start": 80000001,
+      "end": 81000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_081000001_082000000/selected.bam",
+      "sha256": "3cecb1f28f64960bf7ec957e037f7ddd58241628aff1ce6ffb7710b750e82934",
+      "index_sha256": "a8a4730703bf055a176602b6b71df2c5daf6e03e601e45ff040c761aaae80823",
+      "count": 34135,
+      "start": 81000001,
+      "end": 82000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_082000001_083000000/selected.bam",
+      "sha256": "f701735bd803b551e06a6546d957b41a4c16cc8473c546d456fac57210f761cf",
+      "index_sha256": "8f05026f7cba22253e9bcf3c23dae271c3c2dbdb90031fd85cacff7d70a781ec",
+      "count": 34778,
+      "start": 82000001,
+      "end": 83000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_083000001_084000000/selected.bam",
+      "sha256": "3a51d8819ba7f96b03c616fdf8b6dde80b587721f94aa5444b4f80556d8d4489",
+      "index_sha256": "2ccb20a617f5e6ac21103f75ccddb78045b62d6e5d4c70732ca9700204b8c57e",
+      "count": 34510,
+      "start": 83000001,
+      "end": 84000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_084000001_085000000/selected.bam",
+      "sha256": "c66ea2c81013cde6dd351a55d07e2e7629b248c736d9cc2754887950181c56d4",
+      "index_sha256": "653df1b0974da46e162950085aca63f7557c5f6fd87ace7d254a4aa086200ebf",
+      "count": 34233,
+      "start": 84000001,
+      "end": 85000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_085000001_086000000/selected.bam",
+      "sha256": "834129d71eeab61ee6b7a19820cda2ecc9a5b2164253c13de99a65ed5a47ecc3",
+      "index_sha256": "4bd72ae5769c0a4986ff985f0e282a4777ee6d3204777b8833bd7dcae3ba6203",
+      "count": 34221,
+      "start": 85000001,
+      "end": 86000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_086000001_087000000/selected.bam",
+      "sha256": "074f59cf5253f5812d27ab9063054718fab3e5eff19fd292da21ad43409d7d76",
+      "index_sha256": "d4dcb01dcc6af7af8f0ef3387518ec6d0fbcd39de07ca3b35879549210449eb4",
+      "count": 34859,
+      "start": 86000001,
+      "end": 87000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_087000001_088000000/selected.bam",
+      "sha256": "806d962d8b9255106319dfbe402cff7a301c9fc05495bd2be8059a9713095813",
+      "index_sha256": "f0bb1491536c12c39cdeba848c71e74c2d8853c6b167791ab3f8d6387d7108c2",
+      "count": 34590,
+      "start": 87000001,
+      "end": 88000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_088000001_089000000/selected.bam",
+      "sha256": "16cb2ee95fe103cc72e2e05d87f0c82b604fc052e81d2e600eb8542235f52b66",
+      "index_sha256": "f72c109567891e8aa6eea02c66e916044b723a89c894f6cb22f4421588f7c124",
+      "count": 34323,
+      "start": 88000001,
+      "end": 89000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_089000001_090000000/selected.bam",
+      "sha256": "1b2a9d6fa7317ecab27a666aab46cc8cda09ab49469e97a8b031298da37e8c11",
+      "index_sha256": "081f585b9c9f14dd8b39100ddc8aeead799c9f9640eb8103e1eb0c204bf32671",
+      "count": 34582,
+      "start": 89000001,
+      "end": 90000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_090000001_091000000/selected.bam",
+      "sha256": "5fec12b341ca6fcd160a3f24ce0b74efb9df7500c9c7ede29195cf8719ea80e1",
+      "index_sha256": "c512e312dfcef8523066a005038d29e9990413759c0400052c7a29b136c760e0",
+      "count": 34676,
+      "start": 90000001,
+      "end": 91000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_091000001_092000000/selected.bam",
+      "sha256": "f92fbc27859ca329b43c1f265d382505f8f9b78223f306e6993c7c55f72ea520",
+      "index_sha256": "89379836ea0da6651ed5c1efb089d9709c1622bc110b40efc971964409f00406",
+      "count": 34263,
+      "start": 91000001,
+      "end": 92000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_092000001_093000000/selected.bam",
+      "sha256": "3fff2242d28e99a9f562a5c4a3d96e88bca5816fbef21b97470561d759b176a3",
+      "index_sha256": "a3b3f94810977a4efe35d3a2485714c13ce5765d9b7de58871ae81d779136292",
+      "count": 34415,
+      "start": 92000001,
+      "end": 93000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_093000001_094000000/selected.bam",
+      "sha256": "9c63e7a6f1482c0a68023bc4470b85f308a5a56379b5dc9e2b8b1ee9cb42221b",
+      "index_sha256": "8be482515e01ed39f34ba99c8ac61310082ccb66fcb12476ca5f8179f4c67f32",
+      "count": 33960,
+      "start": 93000001,
+      "end": 94000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_094000001_095000000/selected.bam",
+      "sha256": "ac537817800a22625e73a940f3f50f1b45596c7c300d7cbf8c09be0596e2f34d",
+      "index_sha256": "0c2e3115ddc29c73afaae4e572032471631e19fd7138c5d270e6dd452d8ec6a9",
+      "count": 34221,
+      "start": 94000001,
+      "end": 95000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_095000001_096000000/selected.bam",
+      "sha256": "8f1078958acfe6bfb2dbb3080ec34de6631829f18b4b4223c32e58c1b4f565eb",
+      "index_sha256": "be6975b935ff024385070f6bd6dad9c07ba1d003a17a7bcf7572540855a8edaf",
+      "count": 34261,
+      "start": 95000001,
+      "end": 96000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_096000001_097000000/selected.bam",
+      "sha256": "a5ff5c1d7e51ed055d4028b0abb24e970697bcdbe5d0157d32f64a1bc75b5746",
+      "index_sha256": "018471a36ab452c01eeaf1b4affaec3f1c42c7343df66a39da98e694126eb55f",
+      "count": 34363,
+      "start": 96000001,
+      "end": 97000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_097000001_098000000/selected.bam",
+      "sha256": "d6aa835c3a570b57209cecb89bd5eea97da754b75eb93d35bdf535ab74799830",
+      "index_sha256": "54baabbc2dc51b740b31761fe6fbb513f5df3dcf9d6571d997490c0ab960738b",
+      "count": 34278,
+      "start": 97000001,
+      "end": 98000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_098000001_099000000/selected.bam",
+      "sha256": "5ea94be69a19b6bb2e9b60f71fd0cbd1ffd1c818c6928baf6d36134e69855360",
+      "index_sha256": "36441c82fb35c23a2fda70f1ebf70e2a0df429a96ba43bf34ad47f032fbd1ecd",
+      "count": 34563,
+      "start": 98000001,
+      "end": 99000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_099000001_100000000/selected.bam",
+      "sha256": "32bbf241a63b08645829d9342fd13c8b43f6f5e243911508d2c6692959bd973b",
+      "index_sha256": "6596b5871c388ddb0fa8492f47029add775feb8110f67edc3fe33ae69e342ef8",
+      "count": 34195,
+      "start": 99000001,
+      "end": 100000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_100000001_101000000/selected.bam",
+      "sha256": "0064fdde45fcb43b0b7b148d14348e64937110358ffeb90b26f0438a9ddabee6",
+      "index_sha256": "c665f4b6778d385b87378846a5f8a24a5984186b784cd6e86691dec2af10b764",
+      "count": 34302,
+      "start": 100000001,
+      "end": 101000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_101000001_102000000/selected.bam",
+      "sha256": "a282f90d4abd0c9e3a45c139201a8faa3c3619aa23f47d1adb0fba93550e19ff",
+      "index_sha256": "6d1041c13f2d3ffb059e5f2dcba6a462e1850e03483f7899516b4433fd0fbc77",
+      "count": 34047,
+      "start": 101000001,
+      "end": 102000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_102000001_103000000/selected.bam",
+      "sha256": "580dc862a8d03ac5392763289a9d61d99b84633375230579e14a0965535e21bd",
+      "index_sha256": "51e654452804f1efd370f538e468e942403fcc9747f60b26a948523289fe0087",
+      "count": 34502,
+      "start": 102000001,
+      "end": 103000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_103000001_104000000/selected.bam",
+      "sha256": "e7ad9f0db881cab498d19e2f563471648d60b7e1caa3287bad56ff28ed57b089",
+      "index_sha256": "2e9ce99230ae76c0d66e63c89dded428b2a8e9e3adcaeff0fd31407e645b764e",
+      "count": 34439,
+      "start": 103000001,
+      "end": 104000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_104000001_105000000/selected.bam",
+      "sha256": "68ab4e98890913e2cf3a18edb3bf6db0b54a4922326e40d98a73320026b98dd7",
+      "index_sha256": "048e4d2c2c555955cb5488f67b061871021c52c213783c9218203207d0a09a5d",
+      "count": 34656,
+      "start": 104000001,
+      "end": 105000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_105000001_106000000/selected.bam",
+      "sha256": "7930745c69dfb9780c426bd57fb3c26fe12d679b566463fbbe780fda13d4025e",
+      "index_sha256": "f2c2180f104248a6698f91252879b9dbdc0c413f0e71b72f717b1a7fa2e9ccc2",
+      "count": 34453,
+      "start": 105000001,
+      "end": 106000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_106000001_107000000/selected.bam",
+      "sha256": "0e218cf0b0b854224841c624840a17a2e5f9476905cea9ac8d89f16b5f3b84fb",
+      "index_sha256": "f1e0adc785dda75117f7c96aa900c00fe2ae81de7cf69753a5f8d8f3996035fa",
+      "count": 34385,
+      "start": 106000001,
+      "end": 107000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_107000001_108000000/selected.bam",
+      "sha256": "a99a6d7c93baed39e1ac9d99e81ac653af8fccf69428357801389e112719d179",
+      "index_sha256": "93f7b9c3b831660a85f9ac065a491b3e10cdd60ecce54fcb17b387b3b3272acd",
+      "count": 34893,
+      "start": 107000001,
+      "end": 108000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_108000001_109000000/selected.bam",
+      "sha256": "8c896211125c20e20bda4d1138299934f31ffbbdb5b5916410dbaf1b1e1a88fd",
+      "index_sha256": "c527de9e505f4562a4a09520cadb852a72605c4927b57f792effcd38cfbdee05",
+      "count": 34654,
+      "start": 108000001,
+      "end": 109000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_109000001_110000000/selected.bam",
+      "sha256": "6daeb0a80eec1925b30f356580f6d17abbb9d41bc06610ee368946738104c9dc",
+      "index_sha256": "f8aace6164178cce79261bd218e67ce56a283afffbc95995bb90256c0b87c70c",
+      "count": 34252,
+      "start": 109000001,
+      "end": 110000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_110000001_111000000/selected.bam",
+      "sha256": "bcd3ec61464db5f61413a9368f2e98dd04a5b37b3eedef3ab40a378a8fd52e3b",
+      "index_sha256": "b8b17e11923821901a2ef80cf3081ecc5bdaf03afe76e01094e9b66b4fee3a82",
+      "count": 34063,
+      "start": 110000001,
+      "end": 111000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_111000001_112000000/selected.bam",
+      "sha256": "278230f9796d53f61b5e567ae2c28c8ac1ea26fcb348decbec366c4c753a67c7",
+      "index_sha256": "e58437291e37a9aecea712592d05de05c47d8dce0f233102fa0c49507b70e75f",
+      "count": 34308,
+      "start": 111000001,
+      "end": 112000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_112000001_113000000/selected.bam",
+      "sha256": "e0ff8d1b89bcfbaf6020773856f2c5f705ffe2363ae87934ebdba65bc323d1fb",
+      "index_sha256": "554c2f4f1ac5fd0297eb63646f563eef68da1fcf285b867b288befe14cef585a",
+      "count": 34494,
+      "start": 112000001,
+      "end": 113000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_113000001_114000000/selected.bam",
+      "sha256": "4f640e41ccb3c12092be88e76c8093a51cd40184bed13e9135aa46ab171c41ae",
+      "index_sha256": "a269ba0cee58143e53d228c91ec96f0857bbe389db651114bdbf8f9191a06dde",
+      "count": 34456,
+      "start": 113000001,
+      "end": 114000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_114000001_115000000/selected.bam",
+      "sha256": "f8f216c75ee065201835fe1df475657212a24563604f11cc5ff3bc2e55da9c2f",
+      "index_sha256": "8ef82cc55034c7b91fe934c205f2c46a6eef95069dd06e2120e20e2723c58663",
+      "count": 34664,
+      "start": 114000001,
+      "end": 115000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_115000001_116000000/selected.bam",
+      "sha256": "40d9c1fe1b43662ccdf74f0ff12a95576717be57bf97eba5af4d01ed01537de2",
+      "index_sha256": "88b6754e9488d5391fb320baabe67f4b7bbe45cfc9282e5f4545299542f4b34c",
+      "count": 34115,
+      "start": 115000001,
+      "end": 116000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_116000001_117000000/selected.bam",
+      "sha256": "6c8d416c77ed6815bdc7766c33b98991a30447702cb99cc6b2850aae1cfc49cb",
+      "index_sha256": "6fe311f988982475e2c9089735a90f33b1fd778e22df3e8c475d65f2c63a85d5",
+      "count": 34408,
+      "start": 116000001,
+      "end": 117000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_117000001_118000000/selected.bam",
+      "sha256": "96eba30d288a3a2549fdb532209f2612caa48210a15a33985aa3a4a5884e5712",
+      "index_sha256": "145a0e901adce3a4381f4f6a98de3c565b995b38f23b650ea257634129b32cf7",
+      "count": 33990,
+      "start": 117000001,
+      "end": 118000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_118000001_119000000/selected.bam",
+      "sha256": "8989b9ac235e0453fdadc858e1c9c126a5ee3be7b1e93de00fa02bf9ab9eeb86",
+      "index_sha256": "dace28e912b72c1cd8b8b1d7d5207daa7bc0622725c5bc15ad0bb6790741ae9a",
+      "count": 34015,
+      "start": 118000001,
+      "end": 119000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_119000001_120000000/selected.bam",
+      "sha256": "ab496912e519fb441ab7c984a9a90a88b77f0ed2171181d8275f675b0b688d39",
+      "index_sha256": "f4440b827ad93bae8e85ae9dc38277fd65736d52fd841088a0b103725acf87bd",
+      "count": 34569,
+      "start": 119000001,
+      "end": 120000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_120000001_121000000/selected.bam",
+      "sha256": "c0f08ca7ecede8b9d4fc772258491e003fdc6a7a8999c06780973c494c75ef7a",
+      "index_sha256": "7a4cd26228714fc7cb74a3dc85b4c7330d3e8f4c1b21d3eb7e018f5d52e4ea24",
+      "count": 33746,
+      "start": 120000001,
+      "end": 121000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_121000001_122000000/selected.bam",
+      "sha256": "65845997dcc75133d2a5c637ed565808f10300df5f70a09a68d0f9c94ae78642",
+      "index_sha256": "226a990e4c6c0c158d9d2778861e5f0db60565dcaa1380aea5b9f918afda7dd9",
+      "count": 34157,
+      "start": 121000001,
+      "end": 122000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_122000001_123000000/selected.bam",
+      "sha256": "9dad399c3053d4ea9f016aef2011ec07c24cf480b9561e86b79d5dcd468f6bbb",
+      "index_sha256": "1aa8045d89ccdb8950c79b8e77d6c02aaffec11d6d8f4756623170303d182359",
+      "count": 34578,
+      "start": 122000001,
+      "end": 123000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_123000001_124000000/selected.bam",
+      "sha256": "197e694daa6c92b6c1e412fc62b249e98bc35b8d3fee1baa7f15f79a10064de4",
+      "index_sha256": "7a9a463f1b2292805eb5d3e51bb83145e9e259a3a6528f12ef83fcca282e6b2f",
+      "count": 34427,
+      "start": 123000001,
+      "end": 124000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_124000001_125000000/selected.bam",
+      "sha256": "2d72672fa86ba65c6409fbc3fc592e07e1e285a6bc57225db3f2efed512f6612",
+      "index_sha256": "55ea6a493948ed39125fba5b157c068afd67adb06f488c144f020f2fc7da7802",
+      "count": 34534,
+      "start": 124000001,
+      "end": 125000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_125000001_126000000/selected.bam",
+      "sha256": "60a8d42c18839653ae8c5cf5071ee4cf7c6f8f53dfe0d6aa3d741cd4b506f572",
+      "index_sha256": "cd743cee9abd55b238afebf546662929649cc7b66b72e6303fc449b2ed74b3e7",
+      "count": 34203,
+      "start": 125000001,
+      "end": 126000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_126000001_127000000/selected.bam",
+      "sha256": "56ac91dceeb798970493091199fb6950335e360358c4275c10a3e5a752e843da",
+      "index_sha256": "355b2ca80de09d47a3a352b36c19e18e8336f6bcbc604550b6f4a0ec146cd13e",
+      "count": 34404,
+      "start": 126000001,
+      "end": 127000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_127000001_128000000/selected.bam",
+      "sha256": "d2a7a0b7d114b6a7f9993ce9d9f8534b93bfb6779b1e029335677c0e70e3e1de",
+      "index_sha256": "93fc6819efc5e429d5c4a135b54bdf63978a462e8dadf33ce6e2618e25a4f7b5",
+      "count": 34533,
+      "start": 127000001,
+      "end": 128000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_128000001_129000000/selected.bam",
+      "sha256": "eb78ffd7d72e9d184dace8ba543ce36bcbcc07a52a13fd33bdb91f6a575937be",
+      "index_sha256": "a9ddc303b6e399126f976726d905eef9a75c907503167c8a1a96058fe7d7f384",
+      "count": 34480,
+      "start": 128000001,
+      "end": 129000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_129000001_130000000/selected.bam",
+      "sha256": "720226a0dfbd0f99cb4f4dd9c688e0348f803272fb4f8188d97dda8b2b92d0ae",
+      "index_sha256": "6ebc766616ba41fab59c96d7c5069cd79d8d0fbde065e67357814266eaf39b5b",
+      "count": 34692,
+      "start": 129000001,
+      "end": 130000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_130000001_131000000/selected.bam",
+      "sha256": "012255b61f779dae302edb5241460ec5a11a93196e928c9d5883335860450791",
+      "index_sha256": "620bd6af3000d69eaf29b77b9fd3333fec7475bf34a184981262cebe1296eace",
+      "count": 34067,
+      "start": 130000001,
+      "end": 131000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_131000001_132000000/selected.bam",
+      "sha256": "fcfea379137c428702e8b71581eefc152fb485d33547f7922ddd93c7b0a70174",
+      "index_sha256": "a95c7670eac2ccd6437f4d9777fbae9cb1f6bb70043f7d270a24526de67904ff",
+      "count": 34078,
+      "start": 131000001,
+      "end": 132000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_132000001_133000000/selected.bam",
+      "sha256": "bf1ed77771995f6407390a275f5fb9cc2786cbe0d86999b29a74267c84802246",
+      "index_sha256": "25ff4a162ad2e7714c872d3b1a22db11d83cc23ccbaf785c09a6a89935a58e6c",
+      "count": 34604,
+      "start": 132000001,
+      "end": 133000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_133000001_134000000/selected.bam",
+      "sha256": "652018a79e89f48bfc169cf3dab2f57d04159f7d974089dbab3e348ae5e2137a",
+      "index_sha256": "a4c0d8b4f235052198ba2956a07003259fc42c27c1c1b1278295bb4ee039ccf5",
+      "count": 34360,
+      "start": 133000001,
+      "end": 134000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_134000001_135000000/selected.bam",
+      "sha256": "3704b7ec48296b94d9117c013a4a83971c8bf55ebd1122c7a8017fede4cb879a",
+      "index_sha256": "67925af9346506d3b93713b217ba053cd257f9f8ff038c235ccb3c68849e1534",
+      "count": 34510,
+      "start": 134000001,
+      "end": 135000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_135000001_136000000/selected.bam",
+      "sha256": "b9e451e2298b1505e8bb70f58da23e9724cfccfe11f892de860d893557eee67d",
+      "index_sha256": "f0993a333e5fcd81becce3dbb2fb6333a41ba063f8d14f5fcf7410d3b9a95d00",
+      "count": 34078,
+      "start": 135000001,
+      "end": 136000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_136000001_137000000/selected.bam",
+      "sha256": "3569e1f93d9f65d28d7d9a86dc8450a10a26ea76839e4cc2d60e9828bf3f914b",
+      "index_sha256": "836bcb436f8edbd8ac7ff2a87e50a8868032137ce2df661de26679fa01fdd86e",
+      "count": 34442,
+      "start": 136000001,
+      "end": 137000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_137000001_138000000/selected.bam",
+      "sha256": "ae95104610ae405ff5c59daeed62789fae0af5c15dbef9dda00768025e7a6aa0",
+      "index_sha256": "d06abf14a8ef3bfefd1fc24963a89086ead6bed3e93a24908924ae06f6b76394",
+      "count": 34264,
+      "start": 137000001,
+      "end": 138000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_138000001_139000000/selected.bam",
+      "sha256": "a312c28823ad84f96306d8e6a232e4bc652fcf2141e282045780edfa7c5dd5b2",
+      "index_sha256": "d4e9ba03636e68bb713c847547577cc6a3e31faba8c2d3e32c1ba4608d1d727f",
+      "count": 33826,
+      "start": 138000001,
+      "end": 139000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_139000001_140000000/selected.bam",
+      "sha256": "52410c74339e635966338595ef838e31ac8341d6ee9c030910155db1715ea90c",
+      "index_sha256": "903cd625ea0635b9305cbf44bd10726cfefafb2065c09da99856f79a7c95d7ce",
+      "count": 34629,
+      "start": 139000001,
+      "end": 140000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_140000001_141000000/selected.bam",
+      "sha256": "4c14486228505137f3bf50fae937224d2320e42c05be580c0b66480fd062de79",
+      "index_sha256": "755c2e08190358dbb9e5d58d05e3a30dbd8f61dc9620ca47dc822fc20a73dd2c",
+      "count": 34384,
+      "start": 140000001,
+      "end": 141000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_141000001_142000000/selected.bam",
+      "sha256": "4d53cf609ccb4158d7cf6f58736353718b99f5736e0e1aed3cbed9ef97736a4c",
+      "index_sha256": "fed405395b4684756a20cc81ead7cec3588676132e7f74d128b9a2060d019e54",
+      "count": 33539,
+      "start": 141000001,
+      "end": 142000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_142000001_143000000/selected.bam",
+      "sha256": "0db3bbd483e913f8c883839ae5c20cefeb295b5ae4db7dcc8f4175434f3d5a4e",
+      "index_sha256": "428900e03d72bd31b509d56140130ee11041428dde9c3f7fcd44ce50d7c38bf2",
+      "count": 34323,
+      "start": 142000001,
+      "end": 143000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_143000001_144000000/selected.bam",
+      "sha256": "231df02f104275d949ec08079fc282dc97f817d5af3cbd9b8c4e6a9c3bae439f",
+      "index_sha256": "81cbbd5a5e7f2fb06ebbc3e49d377678c296b8df1e35620aebfba9aee1f6d4ef",
+      "count": 33843,
+      "start": 143000001,
+      "end": 144000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_144000001_145000000/selected.bam",
+      "sha256": "116873c0eacbf3736feb2c06b59e48c71bedbb19b801e4c8a9fa2c09b4202116",
+      "index_sha256": "14a64919484a5bae114aac381dee106c1b0a9a16b771ad227fc804e788e54850",
+      "count": 34519,
+      "start": 144000001,
+      "end": 145000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_145000001_146000000/selected.bam",
+      "sha256": "155dc6b88bd93fc5b3ab0b359a9f3919b0a5e849f58f288b842b2aa5766dc719",
+      "index_sha256": "f00d70143863f8755c8f412f50dff3aa8cd6f7e80730071334d0d1fbd221e441",
+      "count": 33892,
+      "start": 145000001,
+      "end": 146000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_146000001_147000000/selected.bam",
+      "sha256": "3a9b8d2de917b3db138b4459599d54eb97b6583e383f2f45ad94e0d2f8b83af6",
+      "index_sha256": "11fdbd2dcf5c79c24016d433597bd0596ae2090b6dfecb46cd68a73fa6349428",
+      "count": 33413,
+      "start": 146000001,
+      "end": 147000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_147000001_148000000/selected.bam",
+      "sha256": "d0974962a0ba4a872de25e5c01391cdaad0267be22ad3c7b13f5dc7cfdfc8df7",
+      "index_sha256": "abd725bddc9c5bd64f7b979926ac0d81191a1ecde0585a97be034d7105d59cfd",
+      "count": 34459,
+      "start": 147000001,
+      "end": 148000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_148000001_149000000/selected.bam",
+      "sha256": "a93579d1687bee392928b686744e4185db26b5333f61144a45e22f841f25b400",
+      "index_sha256": "d01a7f9f91daf28985b3202984ae0c6691616e9b2cab7f14bcf6146ec6427288",
+      "count": 34405,
+      "start": 148000001,
+      "end": 149000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_149000001_150000000/selected.bam",
+      "sha256": "ef8c26b6eb451cfa8e37980193e3763616db2938543ddd0c4e3bfb9f4711eede",
+      "index_sha256": "81d993ffa87c4f947bbc85fabc2ceb4955c0089eb778c20b0c4e1c2e60219872",
+      "count": 34758,
+      "start": 149000001,
+      "end": 150000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_150000001_151000000/selected.bam",
+      "sha256": "7aec4b4d09b6ade7a49fbaf3d0a512a1e57ec763ce80b8812ac99366b24b06e3",
+      "index_sha256": "6d9d78285eb4ce8d55ea869e381010eac0055580bb2e0ed5d404f69def214f6c",
+      "count": 34298,
+      "start": 150000001,
+      "end": 151000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_151000001_152000000/selected.bam",
+      "sha256": "a88df0f00b745141d7fd7dcc78b6cda04a37267e7d83b4cb1434b273dfb8cd20",
+      "index_sha256": "75d3dcc6d5d02a8668d6f7daf92350e20363fd73962418fd6f3556b0274efcf1",
+      "count": 34540,
+      "start": 151000001,
+      "end": 152000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_152000001_153000000/selected.bam",
+      "sha256": "4896c6d0d96487e09584b8089377ca75390a0a238e1879e188e11629570be962",
+      "index_sha256": "8b72b76b0eb613f2766d5745a48e6de1663bb084636e11423758abc78f39c269",
+      "count": 34536,
+      "start": 152000001,
+      "end": 153000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_153000001_154000000/selected.bam",
+      "sha256": "9fd56303248567e349af3e3f9d283b345ac880ee3779b8c47396bf3dfbeb5ebf",
+      "index_sha256": "3fccc30d339693459898aa0e8977ee609e58bc0b73c6773e5cdbf58944706366",
+      "count": 34359,
+      "start": 153000001,
+      "end": 154000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_154000001_155000000/selected.bam",
+      "sha256": "bee16700c08a003e13d055d5b3494785cb7c4d60412b0d1d859cb537585f67b8",
+      "index_sha256": "a761aa6e70790bcdb99c25a666096761aca15c556d7586874f0c5d94cb5a4086",
+      "count": 34784,
+      "start": 154000001,
+      "end": 155000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_155000001_156000000/selected.bam",
+      "sha256": "88620208cf78c732e67156a117b8ce0fe8c3af5e9921bd1df33ada654ccb8267",
+      "index_sha256": "b1d13a434976cde2fa1cbbce9b8a2d3d0fca55f4b0494ca376b22e5d11b2f482",
+      "count": 33885,
+      "start": 155000001,
+      "end": 156000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_156000001_157000000/selected.bam",
+      "sha256": "b82b97675d1b927110c1fa06ab3c166194d9c602d5d4eaa058979626eeba6595",
+      "index_sha256": "f346ed8019fd1fb40e7e02df4e272168f7277446371578650f9b02ee39a32057",
+      "count": 34135,
+      "start": 156000001,
+      "end": 157000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_157000001_158000000/selected.bam",
+      "sha256": "75678586fa11c94c14d659b41a45b68abbc930380cf025ea88e216e473e64ccb",
+      "index_sha256": "c634919719cea0fc459dcf4d6e44d9a6a5c58b1b7d5f3c2770be1992be3f6bcb",
+      "count": 34886,
+      "start": 157000001,
+      "end": 158000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_158000001_159000000/selected.bam",
+      "sha256": "2cb3669ebe665089ee929178f3232f5caab279b05c82005825eb0f31ba8ed0c5",
+      "index_sha256": "6d12e9b584e1b2ade81cd49b465e6caad6815f14e5a72646544673e7250eb455",
+      "count": 34226,
+      "start": 158000001,
+      "end": 159000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_159000001_160000000/selected.bam",
+      "sha256": "11e130ce646d07333b94180d0bef9923b9c50c538a6f053846ea08fb81b7995d",
+      "index_sha256": "20844b807ec88b688bfe1da275217c5374d1218a77fa70c6e386f03917a5fd0a",
+      "count": 34700,
+      "start": 159000001,
+      "end": 160000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_160000001_161000000/selected.bam",
+      "sha256": "7b0c7dcfb5b03423b070abbd3d4ea8b59cdf0a32dbaa7a62e1c7a683272f80ee",
+      "index_sha256": "34e5cec1e6b69dbf1abc15d46762f460b2dec6394a8356b56c4c847ad3a0c072",
+      "count": 35066,
+      "start": 160000001,
+      "end": 161000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_161000001_162000000/selected.bam",
+      "sha256": "cf917189b15e68fb960ed0a51c7ae65f3200a6513c57dbc1033daeae3155c34a",
+      "index_sha256": "5d7b1e93de0fe53b9d2aff31d9f52734bff93e46f40efb5e5994581fe476bb21",
+      "count": 35086,
+      "start": 161000001,
+      "end": 162000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_162000001_163000000/selected.bam",
+      "sha256": "8c14a84701401cb87016255ffddd261a25f2cc72a75b331a7a0f419d2a8c8718",
+      "index_sha256": "9069ae99992f52425ca7669e0ac5f693eeb889da05cd63d4116a5c1de0690085",
+      "count": 34184,
+      "start": 162000001,
+      "end": 163000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_163000001_164000000/selected.bam",
+      "sha256": "eeccdce1a6f74e6398beb2901950b7dc89510941bf699b36a8af58173cd79217",
+      "index_sha256": "421f79623b7ce9f2c81a129667e5bb33761bac596e092b2a66f079024a3332f2",
+      "count": 34285,
+      "start": 163000001,
+      "end": 164000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_164000001_165000000/selected.bam",
+      "sha256": "19cbc42f3bccbd9cad0483bd8e5b51e7d99cf6286c929d99a381c351e07c7b2f",
+      "index_sha256": "776f31461895e5c3a0065dfae3aaadb7199b9472ddb6147a9d2a70897cdc8e87",
+      "count": 34570,
+      "start": 164000001,
+      "end": 165000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_165000001_166000000/selected.bam",
+      "sha256": "b1486e5d7baaa8670b9fa1e690eeb205a66fa07a15f6c7e9c28c292f55c90b97",
+      "index_sha256": "91cb2e9b7900fe168349ec4044441b1a97393759c655af39b2521848eabcedf3",
+      "count": 34411,
+      "start": 165000001,
+      "end": 166000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_166000001_167000000/selected.bam",
+      "sha256": "ed32991e8adebf2a3e29ea1f06466e3cc373d0081c72689685cefdc2c407bd71",
+      "index_sha256": "c2e0e99a0f17ab93d79c5c1de60fa0ce12ff4ac8c0d83f50bc63670db532c5e7",
+      "count": 34458,
+      "start": 166000001,
+      "end": 167000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_167000001_168000000/selected.bam",
+      "sha256": "89be1ead9117950a673b3cbd73a87a2c6c99dc83fc8afd1dbf86c1a763dde096",
+      "index_sha256": "4773e64f20ccfc07ca50fa19707483fb43ed5c32e4c743e14b92facde9340819",
+      "count": 34195,
+      "start": 167000001,
+      "end": 168000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_168000001_169000000/selected.bam",
+      "sha256": "1a8cd9f36f0060537399ebdb80f8c99abd612d3fec29beba133cda81f838fbc1",
+      "index_sha256": "3812e419a4c07a853d387352cfa0c2287bec4e203c214465f0957b3a9fa04d3d",
+      "count": 34222,
+      "start": 168000001,
+      "end": 169000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_169000001_170000000/selected.bam",
+      "sha256": "3daff57b3e90084fea530a3846b5a23fa7fa04f2666fab7f2c7d7ec1c87709f6",
+      "index_sha256": "f0a2cd7f971eff1adee87b2754b8ed1952862efb71f77699f432de1a8233520b",
+      "count": 34163,
+      "start": 169000001,
+      "end": 170000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_170000001_171000000/selected.bam",
+      "sha256": "38baf7851d412f4595d3a8c5854938c3d8e1ccab295d7745d5dc881ef945ebbc",
+      "index_sha256": "5087c74e7e53a15b87dffe5e3c73db3fd24c469ff4278f92f331566cca624a18",
+      "count": 34345,
+      "start": 170000001,
+      "end": 171000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_171000001_172000000/selected.bam",
+      "sha256": "a4bd011f7aae27c20cddc0819e50d6c4f02ce0579735a59664e47a77b1511de3",
+      "index_sha256": "d2e84032c3128caac121a6378ca890ef76073c7e4640b45bf4c8c4af67a89bfa",
+      "count": 34747,
+      "start": 171000001,
+      "end": 172000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_172000001_173000000/selected.bam",
+      "sha256": "0ac519a757e86874ce15a2db77d17fc212f335163764d7c2383e53412d8ef80b",
+      "index_sha256": "82b4acd2c9d3562effaf85555c2745bb117dfa24cad1388c77f36f911da2e5dc",
+      "count": 34206,
+      "start": 172000001,
+      "end": 173000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_173000001_174000000/selected.bam",
+      "sha256": "0db99d6f1d4c7be87833378d73e6c9914807ea6dc1c4946faa99e04a4a4d996d",
+      "index_sha256": "0e48fcc313dfc145d4e30210db37282242a5c4c03344b70ee488359ce12dc8c3",
+      "count": 33717,
+      "start": 173000001,
+      "end": 174000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_174000001_175000000/selected.bam",
+      "sha256": "ba5b21a4b12a1a511c61502370df1a4cea2b8c991479db3687e5905602a80593",
+      "index_sha256": "6504b0096f5e5ffdf0b41612745856783fc5b26e7c073c43b7d20465728a6e5a",
+      "count": 34047,
+      "start": 174000001,
+      "end": 175000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_175000001_176000000/selected.bam",
+      "sha256": "865b6a57de14125b11a005459eddef644262b4f7d766e88c5cebc9a0fd3180fe",
+      "index_sha256": "97e503cca57aecc6f4a506e07ae82002f138bfa92883e929d971f18854f1435b",
+      "count": 33949,
+      "start": 175000001,
+      "end": 176000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_176000001_177000000/selected.bam",
+      "sha256": "4d2ba45ec996d9c3a10708ac5642d6e0262fd55f9913e293e8123278152ca4c2",
+      "index_sha256": "3738399ce4f7e6e0b0398eb4e153ea93ba715682d549df7ed4f51817a22e7ca9",
+      "count": 34439,
+      "start": 176000001,
+      "end": 177000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_177000001_178000000/selected.bam",
+      "sha256": "05ffad23235c72e6329d2d1e7e39b7f8767a313a28cb071424d6f3c12172973a",
+      "index_sha256": "a6d5b298aaa1f50ccbb4cc726096e9f84c61a927ecda67a23033a7fd9830f213",
+      "count": 34389,
+      "start": 177000001,
+      "end": 178000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_178000001_179000000/selected.bam",
+      "sha256": "ca86424aa358c814f5a26880c4c79a83ebaad1be6483d1a3076dcfcaeaaf7326",
+      "index_sha256": "c912012afc433097213cdf723413d4f967de3693f3201f302103f7eed216d915",
+      "count": 34376,
+      "start": 178000001,
+      "end": 179000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_179000001_180000000/selected.bam",
+      "sha256": "644bd875be86ef69a57dca0e5bfe62f2efb6f45bbb0d067bfa5a2dff8c38ee97",
+      "index_sha256": "9a153774afd4fec004a81d37d03f3333b084cadb850d6390e63f0fa72f9ea26b",
+      "count": 34332,
+      "start": 179000001,
+      "end": 180000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_180000001_181000000/selected.bam",
+      "sha256": "e0a619bb7694f288c4cd96544c951694ba10b77437db68c53ea68fdaab3629bb",
+      "index_sha256": "64148cc5a208b3055cd352eed7234b1702fc94e92d01e51eab7b4904631434b5",
+      "count": 34032,
+      "start": 180000001,
+      "end": 181000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_181000001_182000000/selected.bam",
+      "sha256": "fc81e62da55a531635b98cf3deef6715098752ed442b7c1ddf9fc0df741f282d",
+      "index_sha256": "2d207a867614cc334231ca42f61af32158022bac06049bf8d5fa1305ae5b3f6b",
+      "count": 34061,
+      "start": 181000001,
+      "end": 182000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_182000001_183000000/selected.bam",
+      "sha256": "85569ac55bcf1a5b1f0a9170764f1645b571830fe8d8b5692c62d1861fd012c2",
+      "index_sha256": "92b02364188245a06fc31e4485af7511b733e7f8875b6fbd872c1dda1826d627",
+      "count": 33993,
+      "start": 182000001,
+      "end": 183000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_183000001_184000000/selected.bam",
+      "sha256": "ecb1916edd1cb814ebc2f4a800528a6d13601c68bbad8f16ef63cdd3d01514b3",
+      "index_sha256": "2fc13066e495c182f4d57c07794262ca793ec760248175c23e750cea47c60ef3",
+      "count": 34212,
+      "start": 183000001,
+      "end": 184000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_184000001_185000000/selected.bam",
+      "sha256": "718c6fae852dca82f226dd69a5c6c6f3e54051ef42dcabec69811e48acb44f76",
+      "index_sha256": "5ed8893590a5268a5b4c100afa257db080dfab001142b6ce6004f438f2a5e956",
+      "count": 34392,
+      "start": 184000001,
+      "end": 185000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_185000001_186000000/selected.bam",
+      "sha256": "4b7ebd19a9827200267895921659184c09b26c86631c7d3c214fbeb16e580d7e",
+      "index_sha256": "809f6ffb2f11d592a1a1e8d70c9f0ee479ce1a50b23a580bc6ad9b843fc64c06",
+      "count": 34421,
+      "start": 185000001,
+      "end": 186000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_186000001_187000000/selected.bam",
+      "sha256": "95c949ed39ad9504ff5ddcd09b82dd186879a5cf549a8aed575fa2823bdd0c60",
+      "index_sha256": "7214f687f2155b0a20e1ab909670fd14d51b8d4a3c54745d2802c4fe8391946e",
+      "count": 33477,
+      "start": 186000001,
+      "end": 187000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_187000001_188000000/selected.bam",
+      "sha256": "8b7c33ca8640aa591f04a1d8bd177d17b52bd42381eb1e4b96c784673da3aad2",
+      "index_sha256": "db994c840374fa2c3a5cbe498224224bf9f424ce792854a9a6e345985149fb2a",
+      "count": 33863,
+      "start": 187000001,
+      "end": 188000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_188000001_189000000/selected.bam",
+      "sha256": "9e7a30c03ea783960c91757356b12916d469b726320045cd3a4f9596dbc2b149",
+      "index_sha256": "5b1d8b207627fcb17962b8e406cd91c36c86dc969875c4b2551e2de794890eb0",
+      "count": 34435,
+      "start": 188000001,
+      "end": 189000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_189000001_190000000/selected.bam",
+      "sha256": "0c42a307390181104bff3f084ad30bd7f136749165c4e0d7f10c11e98c965709",
+      "index_sha256": "104779c75c352ab14501420ac508425a5ad84e27363be9a21706fef837321585",
+      "count": 34350,
+      "start": 189000001,
+      "end": 190000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_190000001_191000000/selected.bam",
+      "sha256": "8ed2654ec209f10a5eb606c0959a1f5412f7baa06f4fbab2b5c94a1af98d6855",
+      "index_sha256": "7323d0a8a3bea38721321dbe8528cae981537cb959b7a9ca447018406c6ab368",
+      "count": 34086,
+      "start": 190000001,
+      "end": 191000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_191000001_192000000/selected.bam",
+      "sha256": "ada9ad5fd652cba5998e71e4a585ca59252e7f4c3ac611107792fc596567cc1b",
+      "index_sha256": "e93e76b2e1d039075748656272cb2cde58ddcab55ef089a6966941c9e6bd3695",
+      "count": 34673,
+      "start": 191000001,
+      "end": 192000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_192000001_193000000/selected.bam",
+      "sha256": "604827752e605bd295fbfbd6c7929cd32317c68a85e890268f8125f2c14575fa",
+      "index_sha256": "7906601431524b773e54c53d2e0fda1047cffec5be2ea92d89fcd45670acd046",
+      "count": 34778,
+      "start": 192000001,
+      "end": 193000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_193000001_194000000/selected.bam",
+      "sha256": "1c7ed69522d5770b0ca17fca1f410c21b80f2d66aa6ab883018138ff502daeed",
+      "index_sha256": "75bd14337262da9a6883ca12c229caefeb04cf8ab22ba78895db57aa38f64ecf",
+      "count": 34281,
+      "start": 193000001,
+      "end": 194000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_194000001_195000000/selected.bam",
+      "sha256": "445b78f3b4e735b49074233e719a8ab834d500d2bed55f2e773c118674ce4029",
+      "index_sha256": "016cf20475e48ae592ca538bbcf18d240403b3bb4aa742a81a630c066261375f",
+      "count": 34932,
+      "start": 194000001,
+      "end": 195000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_195000001_196000000/selected.bam",
+      "sha256": "22c53b238925b5db21451b0098b9ee8be8abe5d1552e3af89091248bbbd9fd27",
+      "index_sha256": "cd586a88b33e60f99c95c257e2c1ad913d8edc9c9a385c9f19140ec42a293d0f",
+      "count": 33974,
+      "start": 195000001,
+      "end": 196000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_196000001_197000000/selected.bam",
+      "sha256": "f2d2f08c6ecc25d717f12c76d569bc5e753370c17f5cb1d57f24d2b6f13d397b",
+      "index_sha256": "d09de8be659d2758ab618030936000a5087e197f6e47ce2416a074f708c8c587",
+      "count": 34659,
+      "start": 196000001,
+      "end": 197000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_197000001_198000000/selected.bam",
+      "sha256": "b6582630581bcb7b85ec0fc010e4410278794b45e8a61aa5b1e19d9164b11eb4",
+      "index_sha256": "da369739e37ac5544bfe109257447bd5e0366482231ffd5acce12b22e87cb919",
+      "count": 34338,
+      "start": 197000001,
+      "end": 198000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_198000001_199000000/selected.bam",
+      "sha256": "9a63baff78514e1457bd8e0d5a7fa5077473a9bc175a7d123f0809746ce05d99",
+      "index_sha256": "eaf7b0ca54f2d6862692e608765d79dc7dd9b5fd5d0f62cc8f1dbae79745203d",
+      "count": 34434,
+      "start": 198000001,
+      "end": 199000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_199000001_200000000/selected.bam",
+      "sha256": "1f28340e38b903f6c4f578bb38359652386ba3d915da0166c2d3363a0e2c7ff6",
+      "index_sha256": "be7a048bd9dd53b4dd904220c09640560b2afd89154fe64bfa84ca8a469a263b",
+      "count": 33792,
+      "start": 199000001,
+      "end": 200000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_200000001_201000000/selected.bam",
+      "sha256": "9dad2de4c7e98a167778546bb033fbe788d1bb11397627d294b2969b157f05cb",
+      "index_sha256": "c85908d637bbcb821b6bfd355dea15a2f9f080aa7d707cfbe9eb04772daea750",
+      "count": 33865,
+      "start": 200000001,
+      "end": 201000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_201000001_202000000/selected.bam",
+      "sha256": "90633e5d9eb5eee97df8745e2b083203962dfb34074dfd14b7ccef879a4d4da1",
+      "index_sha256": "3d1b21c92ff34afbcb343d5458ff74f44fea4cc98c6745c016497a061f80dc1d",
+      "count": 34452,
+      "start": 201000001,
+      "end": 202000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_202000001_203000000/selected.bam",
+      "sha256": "38ab98adfab176168c0c9f3c5fab73d7db2077c4fee8fe7d8505ffb6c0e6b268",
+      "index_sha256": "47a652f7a724324053ec332671a834e4072ddb176c3c25aa60a06cdc97cbb0d1",
+      "count": 34390,
+      "start": 202000001,
+      "end": 203000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_203000001_204000000/selected.bam",
+      "sha256": "f97c62b3b6d9163595877d728be56ff25d8cda9f4b72bfe6b5045e2cf730142e",
+      "index_sha256": "16ef139012c4425a91c8f503d5b80f60284f7473469146a67df1e05ad909583e",
+      "count": 34299,
+      "start": 203000001,
+      "end": 204000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_204000001_205000000/selected.bam",
+      "sha256": "09dee0ba698046556b146a9617f99b409024a6d9cf69fb3df0dc860d6544238e",
+      "index_sha256": "1c8ccd28eaee74f23f1ca4245e9da5a03a6de10b8facee2824c3ce2338ddb5a4",
+      "count": 34111,
+      "start": 204000001,
+      "end": 205000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_205000001_206000000/selected.bam",
+      "sha256": "2f8c31ee3fda184c8444d35c8720b9631e6451d5fee1c5ae81a5ee747ac1445a",
+      "index_sha256": "503d4244770f9df677065464f52bc3e0572cfc8dfb90ca3f0859db95a0471888",
+      "count": 34427,
+      "start": 205000001,
+      "end": 206000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_206000001_207000000/selected.bam",
+      "sha256": "18a6bad5ed628c84245243a20bb424924366aaa0587790ef9cc5aba3a9734605",
+      "index_sha256": "d527f8c9fdada5d5b961e1707053ec569673039a1c21d5458a4ba07af356c29e",
+      "count": 34419,
+      "start": 206000001,
+      "end": 207000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_207000001_208000000/selected.bam",
+      "sha256": "842d593fdf1166e6c6128bba75737806a960d4ab4e3bc627d82b6e96e516c4d0",
+      "index_sha256": "5fb76a1c2afd52ba935e1f6ba6e7e532a52e458b1ce74cdebaca7035d78819b9",
+      "count": 33895,
+      "start": 207000001,
+      "end": 208000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_208000001_209000000/selected.bam",
+      "sha256": "cedccec69d2712eea8a14255f8a7b2cdfd3768a241f39ac17e44620a80490667",
+      "index_sha256": "363c5af79d004e5f9b1de9731d81afe4772ff27d1e44f19291df245887f00769",
+      "count": 34381,
+      "start": 208000001,
+      "end": 209000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_209000001_210000000/selected.bam",
+      "sha256": "4fe7cf0878bc8fe088d2379384f984d041cf539150df413ccd127bb6ecbcbac8",
+      "index_sha256": "2361cef04a351caa9b8de925d078b485c9829c2f7b103881d4f1ccf7bd7b775d",
+      "count": 34218,
+      "start": 209000001,
+      "end": 210000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_210000001_211000000/selected.bam",
+      "sha256": "3592cfdf62514799e64fe0bffc926f3ccd538c586a10a556f3859e70537b0cd9",
+      "index_sha256": "98e25ce8516a1b4307d89c6b66edf807a26dc86597283b5275eec981638af855",
+      "count": 34450,
+      "start": 210000001,
+      "end": 211000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_211000001_212000000/selected.bam",
+      "sha256": "3be64cce24a8a947a5f0ceaf46fc23b5d5248422ce3e2add62aa2cb5af8f2815",
+      "index_sha256": "3fd64446e8099a9f483cfe4dd241386160b8ad4032ac5d62391226c09182ee0d",
+      "count": 33857,
+      "start": 211000001,
+      "end": 212000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_212000001_213000000/selected.bam",
+      "sha256": "88d90ec5cd9166fd7d3f80fa35deb5c25f28abf62f38fd88480f4a6ae64ecf8f",
+      "index_sha256": "2d9217e2bacf8ffa6b48e8d0c5fd882f16a19bbcbaa04862df8d687ce025975e",
+      "count": 33955,
+      "start": 212000001,
+      "end": 213000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_213000001_214000000/selected.bam",
+      "sha256": "590c972d366eb8c3893d43b247c3dd6e927f2802d9f662645607d5a479095e8d",
+      "index_sha256": "96acce8e19c9f3f2acc48787d6a401abad257c98a636d81429db7c1eb0ac1f22",
+      "count": 33671,
+      "start": 213000001,
+      "end": 214000000
+    },
+    {
+      "bam": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/SV_PBGV000012/ROS_production_20260930/chunk_214000001_214126885/selected.bam",
+      "sha256": "2eb39b0d2251e5cf986abe93a9f4bada90bf5ee31e412b5ef52b491f498858f1",
+      "index_sha256": "6f1113793ec99961b0274ed676ffe9f9705f426497d04c76c03d6b350583b189",
+      "count": 4431,
+      "start": 214000001,
+      "end": 214126885
+    }
+  ],
+  "limitation": "selected reference-or-mate chr32 alignments only; not whole-genome BAM"
+}

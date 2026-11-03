@@ -1,0 +1,1988 @@
+{
+  "results": [
+    {
+      "site_id": "site0",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051836.1",
+        "start0": 13110561,
+        "end0": 13110584,
+        "strand": "+",
+        "oriented_protospacer": "ACTGAAGATTTGTATCAAACTCA",
+        "PAM": "TTTA",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          0,
+          1,
+          5,
+          20
+        ]
+      },
+      "ROS_context_start0": 13110061,
+      "ROS_context_end0": 13111084,
+      "context_sequence_sha256": "f22f1d9c20ed7ecf97bdb9bafe8bd04aa94fbb98c6a05068fda73328ddbb33d3",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049253.1",
+        "start0": 26895451,
+        "end0": 26896478,
+        "cigar": "304M1D289M3D430M",
+        "mapq": 60,
+        "NM": 7,
+        "reverse": true,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049253.1",
+        "start0": 26895952,
+        "end0": 26895979,
+        "target_strand": "-",
+        "sequence_plus": "TGAGTTTGATACAAATCTTCAGTTAAA",
+        "sequence_oriented": "TTTAACTGAAGATTTGTATCAAACTCA",
+        "UU_PAM": "TTTA",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr32",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr32",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site1",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051814.1",
+        "start0": 50238895,
+        "end0": 50238918,
+        "strand": "-",
+        "oriented_protospacer": "CATGAGGAATTGCATAAAACACA",
+        "PAM": "TTTA",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          0,
+          8,
+          12,
+          15
+        ]
+      },
+      "ROS_context_start0": 50238395,
+      "ROS_context_end0": 50239418,
+      "context_sequence_sha256": "b849cc2a4fe29942f871fc149a99e6969073f21d56323954b72a336c98f3b9ca",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049231.1",
+        "start0": 50419612,
+        "end0": 50420635,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 0,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049231.1",
+        "start0": 50420112,
+        "end0": 50420139,
+        "target_strand": "-",
+        "sequence_plus": "TGTGTTTTATGCAATTCCTCATGTAAA",
+        "sequence_oriented": "TTTACATGAGGAATTGCATAAAACACA",
+        "UU_PAM": "TTTA",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr10",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr10",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site2",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051832.1",
+        "start0": 9847696,
+        "end0": 9847719,
+        "strand": "-",
+        "oriented_protospacer": "TCTGAGAATTTGGATCAAACACA",
+        "PAM": "TTTT",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          1,
+          6,
+          12
+        ]
+      },
+      "ROS_context_start0": 9847196,
+      "ROS_context_end0": 9848219,
+      "context_sequence_sha256": "80b96fb8f8473bf50d85edd3fda4c6b6ad01ea418ee1b560bda23ad54a670ad0",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049249.1",
+        "start0": 9758998,
+        "end0": 9760032,
+        "cigar": "597M11D426M",
+        "mapq": 60,
+        "NM": 15,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049249.1",
+        "start0": 9759498,
+        "end0": 9759525,
+        "target_strand": "-",
+        "sequence_plus": "TGTGTTTGATCCAAATTCTCAGAAAAA",
+        "sequence_oriented": "TTTTTCTGAGAATTTGGATCAAACACA",
+        "UU_PAM": "TTTT",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr28",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr28",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site3",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051838.1",
+        "start0": 3597209,
+        "end0": 3597232,
+        "strand": "-",
+        "oriented_protospacer": "TGTGAGCATTTGTATCAAACAAA",
+        "PAM": "CTAC",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          1,
+          6,
+          21
+        ]
+      },
+      "ROS_context_start0": 3596709,
+      "ROS_context_end0": 3597732,
+      "context_sequence_sha256": "d1c25775fd7d1915bab82f6ae36ae5d19a9676e3c26a89d9a3af846e7ed7abfa",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049255.1",
+        "start0": 3856091,
+        "end0": 3857114,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049255.1",
+        "start0": 3856591,
+        "end0": 3856618,
+        "target_strand": "-",
+        "sequence_plus": "TTTGTTTGATACAAATGCTCACAGTAG",
+        "sequence_oriented": "CTACTGTGAGCATTTGTATCAAACAAA",
+        "UU_PAM": "CTAC",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr34",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 3856614,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0005032999906688929,
+              "AC": 2,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "CTAC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "7e969c0e4d2d47804be4a2349857b96f74498038b5b24405428d96be7ecbda0f"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr34",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site4",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051840.1",
+        "start0": 7546929,
+        "end0": 7546952,
+        "strand": "+",
+        "oriented_protospacer": "TTTGAAGATTGGTATCAAACACA",
+        "PAM": "TACC",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          1,
+          5,
+          10
+        ]
+      },
+      "ROS_context_start0": 7546429,
+      "ROS_context_end0": 7547452,
+      "context_sequence_sha256": "af97cc252e187f4f6207ac93277fd6993edb201254091c443b9e9c7a9f5980a7",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049257.1",
+        "start0": 7714060,
+        "end0": 7715084,
+        "cigar": "35M1D988M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049257.1",
+        "start0": 7714557,
+        "end0": 7714584,
+        "target_strand": "+",
+        "sequence_plus": "TACCTTTGAAGATTGGTATCAAACACA",
+        "sequence_oriented": "TACCTTTGAAGATTGGTATCAAACACA",
+        "UU_PAM": "TACC",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr36",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr36",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site5",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051807.1",
+        "start0": 35363228,
+        "end0": 35363251,
+        "strand": "-",
+        "oriented_protospacer": "TGTGAAGCTTTGAATCAAACACA",
+        "PAM": "TCTC",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          1,
+          5,
+          7,
+          12
+        ]
+      },
+      "ROS_context_start0": 35362728,
+      "ROS_context_end0": 35363751,
+      "context_sequence_sha256": "f8d588eebc643939da84669996a9f7a7f76fc70a038b2910e8291b9dad2be8e7",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049224.1",
+        "start0": 35303028,
+        "end0": 35304051,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049224.1",
+        "start0": 35303528,
+        "end0": 35303555,
+        "target_strand": "-",
+        "sequence_plus": "TGTGTTTGATTCAAAGCTTCACAGAGA",
+        "sequence_oriented": "TCTCTGTGAAGCTTTGAATCAAACACA",
+        "UU_PAM": "TCTC",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr3",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 35303549,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0007548999856226146,
+              "AC": 3,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTC",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "8479329bca921d12a061a7d81d37f7e10ad3e47f2518cf5146876f27b5fb6984"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr3",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site6",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051823.1",
+        "start0": 35904648,
+        "end0": 35904671,
+        "strand": "-",
+        "oriented_protospacer": "TGTAAGGATTTGAATAAAACACA",
+        "PAM": "CTTG",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          1,
+          3,
+          12,
+          15
+        ]
+      },
+      "ROS_context_start0": 35904148,
+      "ROS_context_end0": 35905171,
+      "context_sequence_sha256": "fb462247195f92da82565b5e1849f56296c3f32539502dd89865633267478348",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049240.1",
+        "start0": 35941503,
+        "end0": 35942525,
+        "cigar": "988M1I34M",
+        "mapq": 60,
+        "NM": 3,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049240.1",
+        "start0": 35942003,
+        "end0": 35942030,
+        "target_strand": "-",
+        "sequence_plus": "TGTGTTTTATTCAAATCCTTACACAAG",
+        "sequence_oriented": "CTTGTGTAAGGATTTGAATAAAACACA",
+        "UU_PAM": "CTTG",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr19",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr19",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site7",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051822.1",
+        "start0": 30365521,
+        "end0": 30365544,
+        "strand": "+",
+        "oriented_protospacer": "TTTGAGTACTTGTATCAACCACA",
+        "PAM": "TCTG",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          1,
+          6,
+          8,
+          18
+        ]
+      },
+      "ROS_context_start0": 30365021,
+      "ROS_context_end0": 30366044,
+      "context_sequence_sha256": "998e70c88cc71d1f86e46458fad79c43e0964c7b31dac522901c2a307bf117f3",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049239.1",
+        "start0": 30147701,
+        "end0": 30148721,
+        "cigar": "236M3I784M",
+        "mapq": 60,
+        "NM": 3,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049239.1",
+        "start0": 30148194,
+        "end0": 30148221,
+        "target_strand": "+",
+        "sequence_plus": "TCTGTTTGAGTACTTGTATCAACCACA",
+        "sequence_oriented": "TCTGTTTGAGTACTTGTATCAACCACA",
+        "UU_PAM": "TCTG",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr18",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr18",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site8",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051834.1",
+        "start0": 27164051,
+        "end0": 27164074,
+        "strand": "+",
+        "oriented_protospacer": "TTTGATGATTTGTATCAGACATA",
+        "PAM": "TTTC",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          1,
+          5,
+          17,
+          21
+        ]
+      },
+      "ROS_context_start0": 27163551,
+      "ROS_context_end0": 27164574,
+      "context_sequence_sha256": "597343690a2208e39cb6b388af8cc92de473571ea2f7eb5b476e4145bf3c9aa1",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049251.1",
+        "start0": 27405059,
+        "end0": 27406082,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 0,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049251.1",
+        "start0": 27405555,
+        "end0": 27405582,
+        "target_strand": "+",
+        "sequence_plus": "TTTCTTTGATGATTTGTATCAGACATA",
+        "sequence_oriented": "TTTCTTTGATGATTTGTATCAGACATA",
+        "UU_PAM": "TTTC",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr30",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr30",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site9",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051814.1",
+        "start0": 39043325,
+        "end0": 39043348,
+        "strand": "-",
+        "oriented_protospacer": "TTTGAGAATTTGTATCAAAGAGA",
+        "PAM": "TCTG",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          1,
+          6,
+          19,
+          21
+        ]
+      },
+      "ROS_context_start0": 39042825,
+      "ROS_context_end0": 39043848,
+      "context_sequence_sha256": "659bd70f0b4b758f18df99464491091eea6e500821367bf993a231860e6a2cda",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049231.1",
+        "start0": 39237897,
+        "end0": 39238920,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 0,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049231.1",
+        "start0": 39238397,
+        "end0": 39238424,
+        "target_strand": "-",
+        "sequence_plus": "TCTCTTTGATACAAATTCTCAAACAGA",
+        "sequence_oriented": "TCTGTTTGAGAATTTGTATCAAAGAGA",
+        "UU_PAM": "TCTG",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr10",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 39238418,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTG",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "0aa0827c401881cbef5a1be8c7dd3624f95089073b30dcba18e5d026e4b70fe9"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr10",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site10",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051840.1",
+        "start0": 18575494,
+        "end0": 18575517,
+        "strand": "-",
+        "oriented_protospacer": "TTTGAGAATTTGTATCAAGGACA",
+        "PAM": "TTTG",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          1,
+          6,
+          18,
+          19
+        ]
+      },
+      "ROS_context_start0": 18574994,
+      "ROS_context_end0": 18576017,
+      "context_sequence_sha256": "3e5acb270ef79f1e6e96735fdbee827554cbe5a428d33a9f428151d7149bfbfd",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049257.1",
+        "start0": 18760827,
+        "end0": 18761852,
+        "cigar": "212M2D69M1I20M1D721M",
+        "mapq": 60,
+        "NM": 8,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049257.1",
+        "start0": 18761329,
+        "end0": 18761356,
+        "target_strand": "-",
+        "sequence_plus": "TGTCCTTGATACAAATTCTCAAACAAA",
+        "sequence_oriented": "TTTGTTTGAGAATTTGTATCAAGGACA",
+        "UU_PAM": "TTTG",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr36",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr36",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site11",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051825.1",
+        "start0": 10737760,
+        "end0": 10737783,
+        "strand": "-",
+        "oriented_protospacer": "TATAAGGAATTGTATTAAAAACA",
+        "PAM": "TCTA",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          3,
+          8,
+          15,
+          19
+        ]
+      },
+      "ROS_context_start0": 10737260,
+      "ROS_context_end0": 10738283,
+      "context_sequence_sha256": "64afa87d5a62e1b14f9caa30a66a3852371107595f3c5833bfb744cdcd3553d4",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049242.1",
+        "start0": 10640769,
+        "end0": 10641791,
+        "cigar": "155M1I867M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049242.1",
+        "start0": 10641268,
+        "end0": 10641295,
+        "target_strand": "-",
+        "sequence_plus": "TGTTTTTAATACAATTCCTTATATAGA",
+        "sequence_oriented": "TCTATATAAGGAATTGTATTAAAAACA",
+        "UU_PAM": "TCTA",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr21",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr21",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site12",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051819.1",
+        "start0": 39852025,
+        "end0": 39852048,
+        "strand": "-",
+        "oriented_protospacer": "TATGTGGACATGTATCAAACACA",
+        "PAM": "TGTA",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          4,
+          8,
+          9
+        ]
+      },
+      "ROS_context_start0": 39851525,
+      "ROS_context_end0": 39852548,
+      "context_sequence_sha256": "bb409ce2abb8119cc165acf99016087bec2daf431a049ba12828492f85e0b3d3",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049236.1",
+        "start0": 39489485,
+        "end0": 39490506,
+        "cigar": "835M2I186M",
+        "mapq": 60,
+        "NM": 2,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049236.1",
+        "start0": 39489985,
+        "end0": 39490012,
+        "target_strand": "-",
+        "sequence_plus": "TGTGTTTGATACATGTCCACATATACA",
+        "sequence_oriented": "TGTATATGTGGACATGTATCAAACACA",
+        "UU_PAM": "TGTA",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr15",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr15",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site13",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051805.1",
+        "start0": 66542728,
+        "end0": 66542751,
+        "strand": "+",
+        "oriented_protospacer": "TATGAGGATTTATATCGACCACA",
+        "PAM": "CTGG",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          11,
+          16,
+          18
+        ]
+      },
+      "ROS_context_start0": 66542228,
+      "ROS_context_end0": 66543251,
+      "context_sequence_sha256": "95e8c0d2d5554b4d6ad896bc843a42273159194c1c49cc84877053b9315901cf",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049222.1",
+        "start0": 66892171,
+        "end0": 66893194,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049222.1",
+        "start0": 66892667,
+        "end0": 66892694,
+        "target_strand": "+",
+        "sequence_plus": "CTGGTATGAGGATTTATATCGACCACA",
+        "sequence_oriented": "CTGGTATGAGGATTTATATCGACCACA",
+        "UU_PAM": "CTGG",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr1",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr1",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 66892678,
+              "ref": "G",
+              "alt": "GA",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.07900000363588333,
+              "AC": 313,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "raw_vcf_sha256": "056f29ce09959d7b85f3bf14f5ab30cbc7c462df0825cd491b072dba8148fd60"
+        }
+      ]
+    },
+    {
+      "site_id": "site14",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051823.1",
+        "start0": 39523521,
+        "end0": 39523544,
+        "strand": "+",
+        "oriented_protospacer": "TATGAGGATCTGAATCAAGCAAA",
+        "PAM": "CTTA",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          9,
+          12,
+          18,
+          21
+        ]
+      },
+      "ROS_context_start0": 39523021,
+      "ROS_context_end0": 39524044,
+      "context_sequence_sha256": "bb6bd68973d198e9d048c0aa5e0db429fb5efd304b284145dd6b10b080426391",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049240.1",
+        "start0": 39561007,
+        "end0": 39562030,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 0,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049240.1",
+        "start0": 39561503,
+        "end0": 39561530,
+        "target_strand": "+",
+        "sequence_plus": "CTTATATGAGGATCTGAATCAAGCAAA",
+        "sequence_oriented": "CTTATATGAGGATCTGAATCAAGCAAA",
+        "UU_PAM": "CTTA",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr19",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr19",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site15",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051810.1",
+        "start0": 6412689,
+        "end0": 6412712,
+        "strand": "+",
+        "oriented_protospacer": "TATGAGAATTTCTATCAAAAACA",
+        "PAM": "ATTC",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          6,
+          11,
+          19
+        ]
+      },
+      "ROS_context_start0": 6412189,
+      "ROS_context_end0": 6413212,
+      "context_sequence_sha256": "eff971e2e74b8afab274307a0474e62748f4a79ded2d6f8b685b6782964fb72b",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049227.1",
+        "start0": 6513137,
+        "end0": 6514160,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 0,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049227.1",
+        "start0": 6513633,
+        "end0": 6513660,
+        "target_strand": "+",
+        "sequence_plus": "ATTCTATGAGAATTTCTATCAAAAACA",
+        "sequence_oriented": "ATTCTATGAGAATTTCTATCAAAAACA",
+        "UU_PAM": "ATTC",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr6",
+          "record_count": 2,
+          "alleles": [
+            {
+              "pos1": 6513655,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.005787999834865332,
+              "AC": 23,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            },
+            {
+              "pos1": 6513660,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.009058999828994274,
+              "AC": 36,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "ffc9405dc898b07274dca82819e31085c123d24561bbc7b6966b214acd5768b2"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr6",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 6513650,
+              "ref": "TATC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0017610000213608146,
+              "AC": 7,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "raw_vcf_sha256": "a6afacba24133d6ddc5f39f7909eeb75affa4a6ba88e32d8de735ed8a6be94d5"
+        }
+      ]
+    },
+    {
+      "site_id": "site16",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051816.1",
+        "start0": 52848858,
+        "end0": 52848881,
+        "strand": "-",
+        "oriented_protospacer": "TATGATCATTTATATCAAACCCA",
+        "PAM": "TTCC",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          5,
+          6,
+          11,
+          20
+        ]
+      },
+      "ROS_context_start0": 52848358,
+      "ROS_context_end0": 52849381,
+      "context_sequence_sha256": "5a0b001ad62c2b7cf4ba0c7c245fade41e290bdd7ffae43333261d7f551eabca",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049233.1",
+        "start0": 52253855,
+        "end0": 52254880,
+        "cigar": "130M1D279M1D614M",
+        "mapq": 60,
+        "NM": 5,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049233.1",
+        "start0": 52254357,
+        "end0": 52254384,
+        "target_strand": "-",
+        "sequence_plus": "TGGGTTTGATATAAATGATCATAGGAA",
+        "sequence_oriented": "TTCCTATGATCATTTATATCAAACCCA",
+        "UU_PAM": "TTCC",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr12",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr12",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site17",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051820.1",
+        "start0": 45196615,
+        "end0": 45196638,
+        "strand": "-",
+        "oriented_protospacer": "TATGAGAAGTTGTATGAAACACA",
+        "PAM": "ATTA",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          6,
+          8,
+          15
+        ]
+      },
+      "ROS_context_start0": 45196115,
+      "ROS_context_end0": 45197138,
+      "context_sequence_sha256": "7b718923cfccd9f9c551651cca4ebd0a5d0f344c1ec12669e247fa0f47219e2b",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049237.1",
+        "start0": 43866208,
+        "end0": 43867231,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049237.1",
+        "start0": 43866708,
+        "end0": 43866735,
+        "target_strand": "-",
+        "sequence_plus": "TGTGTTTCATACAACTTCTCATATAAT",
+        "sequence_oriented": "ATTATATGAGAAGTTGTATGAAACACA",
+        "UU_PAM": "ATTA",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr16",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr16",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site18",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051840.1",
+        "start0": 20197726,
+        "end0": 20197749,
+        "strand": "-",
+        "oriented_protospacer": "TATGAGTATATGTATAAAACATA",
+        "PAM": "TCTC",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          6,
+          9,
+          15,
+          21
+        ]
+      },
+      "ROS_context_start0": 20197226,
+      "ROS_context_end0": 20198249,
+      "context_sequence_sha256": "d5f93de06b8cbd02e1f53cab54da2d1a60a6aaf90c042bbb86df3b3e324ddb35",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049257.1",
+        "start0": 20383155,
+        "end0": 20384178,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 3,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049257.1",
+        "start0": 20383655,
+        "end0": 20383682,
+        "target_strand": "-",
+        "sequence_plus": "TATGTTTTATACATATACTCATAGAGA",
+        "sequence_oriented": "TCTCTATGAGTATATGTATAAAACATA",
+        "UU_PAM": "TCTC",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr36",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 20383666,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.01600000075995922,
+              "AC": 63,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTC",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "6dd2b522b66974b2a67e18cb60cf66bc4a0bc3a7d356b6de1a5bce80535d09ef"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr36",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 20383669,
+              "ref": "TATACTC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "raw_vcf_sha256": "277a13bddcdc77cab12a0ab71f9d984f9c43691e8134035702281206b4f41788"
+        }
+      ]
+    },
+    {
+      "site_id": "site19",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_2",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708436,
+        "protospacer_end0": 39708459,
+        "strand": "+",
+        "protospacer_5to3": "CCTCGGCTGTGTAATTCCTGGAG",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051813.1",
+        "start0": 4496157,
+        "end0": 4496180,
+        "strand": "-",
+        "oriented_protospacer": "CCTCTGCTGTCTAATTCCTGGGG",
+        "PAM": "TCAG",
+        "original_guide_mismatches": 3,
+        "PAM_distance_to_model": 1,
+        "sensitivity_case": "one_PAM_SNP_could_create_recognized_family",
+        "mismatch_positions": [
+          4,
+          10,
+          21
+        ]
+      },
+      "ROS_context_start0": 4495657,
+      "ROS_context_end0": 4496680,
+      "context_sequence_sha256": "6646927b4ec4668ff1fbcac85d44618d38ad67171405076cba25ee40d5db9b96",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049230.1",
+        "start0": 4722473,
+        "end0": 4723496,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049230.1",
+        "start0": 4722973,
+        "end0": 4723000,
+        "target_strand": "-",
+        "sequence_plus": "CCCCAGGAATTAGACAGCAGAGGCTGA",
+        "sequence_oriented": "TCAGCCTCTGCTGTCTAATTCCTGGGG",
+        "UU_PAM": "TCAG",
+        "UU_guide_mismatches": 3,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr9",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 4722995,
+              "ref": "G",
+              "alt": "A",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0032709999941289425,
+              "AC": 13,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCAG",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "96f15e859a439035c82eee26620a3c763830dde3586f5755b234e8502bc67b69"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr9",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site20",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_2",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708436,
+        "protospacer_end0": 39708459,
+        "strand": "+",
+        "protospacer_5to3": "CCTCGGCTGTGTAATTCCTGGAG",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051813.1",
+        "start0": 19633685,
+        "end0": 19633708,
+        "strand": "+",
+        "oriented_protospacer": "CCTCTCCTGTGTAATTCCTTGTG",
+        "PAM": "TTTA",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          4,
+          5,
+          19,
+          21
+        ]
+      },
+      "ROS_context_start0": 19633185,
+      "ROS_context_end0": 19634208,
+      "context_sequence_sha256": "53d2c3fb39c5da718a218e5b76bc5a479778d62c44a428246ac27cb2351564a5",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049230.1",
+        "start0": 18814898,
+        "end0": 18815921,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 0,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049230.1",
+        "start0": 18815394,
+        "end0": 18815421,
+        "target_strand": "+",
+        "sequence_plus": "TTTACCTCTCCTGTGTAATTCCTTGTG",
+        "sequence_oriented": "TTTACCTCTCCTGTGTAATTCCTTGTG",
+        "UU_PAM": "TTTA",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr9",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "1c7157bce453982c4e7d3140b7fbc67adc25d739af5cd7052a0bbbd35fccfd2e"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr9",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site21",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_2",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708436,
+        "protospacer_end0": 39708459,
+        "strand": "+",
+        "protospacer_5to3": "CCTCGGCTGTGTAATTCCTGGAG",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051814.1",
+        "start0": 40498967,
+        "end0": 40498990,
+        "strand": "-",
+        "oriented_protospacer": "CCTGTGCTGTGTTTTTCCTGGAG",
+        "PAM": "TTTG",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          3,
+          4,
+          12,
+          13
+        ]
+      },
+      "ROS_context_start0": 40498467,
+      "ROS_context_end0": 40499490,
+      "context_sequence_sha256": "0fa9cac7c38aaae01337b486a180e4038724ce0b5705f5e833a5dfed7fdf360d",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049231.1",
+        "start0": 40694020,
+        "end0": 40695043,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 2,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049231.1",
+        "start0": 40694520,
+        "end0": 40694547,
+        "target_strand": "-",
+        "sequence_plus": "CTCCAGGAAAAACACAGCACAGGCAAA",
+        "sequence_oriented": "TTTGCCTGTGCTGTGTTTTTCCTGGAG",
+        "UU_PAM": "TTTG",
+        "UU_guide_mismatches": 4,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr10",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 40694538,
+              "ref": "C",
+              "alt": "T",
+              "filters": [
+                "VQSRTrancheSNP99.00to99.90"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TTTG",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "63f0e0863aab4da93310fd1d62028112349aa744ce9f0c1c2d79ca47763c2345"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr10",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    },
+    {
+      "site_id": "site22",
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_2",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708436,
+        "protospacer_end0": 39708459,
+        "strand": "+",
+        "protospacer_5to3": "CCTCGGCTGTGTAATTCCTGGAG",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false
+      },
+      "site": {
+        "chrom": "NC_051827.1",
+        "start0": 14633426,
+        "end0": 14633449,
+        "strand": "+",
+        "oriented_protospacer": "CCTAGGCAGTCTACTTCCTGGAG",
+        "PAM": "TTCC",
+        "original_guide_mismatches": 4,
+        "PAM_distance_to_model": 0,
+        "sensitivity_case": "one_protospacer_SNP_could_reduce4to3",
+        "mismatch_positions": [
+          3,
+          7,
+          10,
+          13
+        ]
+      },
+      "ROS_context_start0": 14632926,
+      "ROS_context_end0": 14633949,
+      "context_sequence_sha256": "45b199565bc2904454fbf2b30316ccc9e24a6824d4b34bf64bdd6ba1b24c72ad",
+      "projection_status": "unique_contiguous_target27bp",
+      "UU_alignment": {
+        "chrom": "NC_049244.1",
+        "start0": 14593396,
+        "end0": 14594419,
+        "cigar": "1023M",
+        "mapq": 60,
+        "NM": 1,
+        "reverse": false,
+        "alternative_count": 0
+      },
+      "UU_core": {
+        "chrom": "NC_049244.1",
+        "start0": 14593892,
+        "end0": 14593919,
+        "target_strand": "+",
+        "sequence_plus": "TTCCCCTAGGAAGTCTACTTCCTGGAG",
+        "sequence_oriented": "TTCCCCTAGGAAGTCTACTTCCTGGAG",
+        "UU_PAM": "TTCC",
+        "UU_guide_mismatches": 5,
+        "UU_reference_hit_in_defined_model": false
+      },
+      "catalogue": [
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.SNPs.vqsr99.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr23",
+          "record_count": 1,
+          "alleles": [
+            {
+              "pos1": 14593903,
+              "ref": "A",
+              "alt": "C",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.5789999961853027,
+              "AC": 2300,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TTCC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "raw_vcf_sha256": "d08a31df6e58a0463fbe666273c1ddbf5bd53100e94c61a9c61ef4ff60c41729"
+        },
+        {
+          "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+          "status": "range_query_completed",
+          "alias": "chr23",
+          "record_count": 0,
+          "alleles": [],
+          "raw_vcf_sha256": "9c6fd4e8a9c6b93f7367b4180cad1c0a0c40e540b8608d253f61f9208e2660f0"
+        }
+      ]
+    }
+  ],
+  "summary": [
+    {
+      "guide": "ANO2_TTTV23_1",
+      "sensitive_sites": 19,
+      "unique_contiguous_UU_targets": 19,
+      "UU_reference_hits": 0,
+      "PASS_single_SNP_model_hits": 0,
+      "nonPASS_single_SNP_model_hits": 0,
+      "unassessed_nonSNP_or_boundary_alleles": 3
+    },
+    {
+      "guide": "ANO2_TTTV23_2",
+      "sensitive_sites": 4,
+      "unique_contiguous_UU_targets": 4,
+      "UU_reference_hits": 0,
+      "PASS_single_SNP_model_hits": 0,
+      "nonPASS_single_SNP_model_hits": 0,
+      "unassessed_nonSNP_or_boundary_alleles": 0
+    }
+  ],
+  "source_sha256": "b751583d2fe12e403b161a87c6abcbfc04ebdd0785dc19974b7401963e958f9c",
+  "limits": [
+    "SNPs applied singly toUUreference background; no observedhaplotypephase orcombinedvariantclearance.",
+    "Unmapped/nonautosomal/nonSNP/boundarycases remainexplicitlyunassessed, neverPASSfrommissingdata.",
+    "This is reference/catalogueoffsite sensitivity, not experimental cleavage or finalguideapproval.",
+    "No complete alternate-genome/populationSVorbulgeplusvariantsearch."
+  ]
+}

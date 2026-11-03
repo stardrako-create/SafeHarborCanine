@@ -1,0 +1,74 @@
+{
+  "bg1k_0836": {
+    "chrom": "NC_051806.1",
+    "context_start0": 32989269,
+    "context_end0": 33010269,
+    "window_start0": 32999269,
+    "window_end0": 33000269,
+    "sha256": "16ec5cb907a2b62d56322fe6876af1bd3a42b93a7a5c1706b8238dc8dd6dbe5f"
+  },
+  "bg1k_0861": {
+    "chrom": "NC_051809.1",
+    "context_start0": 26883945,
+    "context_end0": 26904945,
+    "window_start0": 26893945,
+    "window_end0": 26894945,
+    "sha256": "0d7c847c98b9ada0199ef64020256c50d9d6a3d35d515707f1f263631986783b"
+  },
+  "bg1k_1059": {
+    "chrom": "NC_051831.1",
+    "context_start0": 19024940,
+    "context_end0": 19045940,
+    "window_start0": 19034940,
+    "window_end0": 19035940,
+    "sha256": "ec75104272395defba8567e597c23209857cfd45b7f1d45a1573b972e4360430"
+  },
+  "bg1k_1216": {
+    "chrom": "NC_051840.1",
+    "context_start0": 23988261,
+    "context_end0": 24009261,
+    "window_start0": 23998261,
+    "window_end0": 23999261,
+    "sha256": "f5dbcadbd38a0f6f9a2028094e094e26cda930cd1a5779add9df2364d39cd8a1"
+  },
+  "bg1k_1266": {
+    "chrom": "NC_051807.1",
+    "context_start0": 2081307,
+    "context_end0": 2102307,
+    "window_start0": 2091307,
+    "window_end0": 2092307,
+    "sha256": "f9bcb5f58a34bfb0a1622ac121325cb1ff0ad50f375f06c25f1a702ee2eb4d36"
+  },
+  "bg1k_1654": {
+    "chrom": "NC_051806.1",
+    "context_start0": 45521845,
+    "context_end0": 45542845,
+    "window_start0": 45531845,
+    "window_end0": 45532845,
+    "sha256": "acd518df94ef41d1903582857d5c041dcf2c891f8a0c752e3d7ceb4b00b64603"
+  },
+  "bg1k_1900": {
+    "chrom": "NC_051814.1",
+    "context_start0": 43342999,
+    "context_end0": 43363999,
+    "window_start0": 43352999,
+    "window_end0": 43353999,
+    "sha256": "0880d1cab3c59fedc7d2c736e8cacfc11af54f3bbe040bba9a98db233d611579"
+  },
+  "bg1k_2150": {
+    "chrom": "NC_051807.1",
+    "context_start0": 84408156,
+    "context_end0": 84429156,
+    "window_start0": 84418156,
+    "window_end0": 84419156,
+    "sha256": "1c99096d28abde463282d80daa40bc7de418313cb214fb68760ee938299a3513"
+  },
+  "bg1k_2340": {
+    "chrom": "NC_051816.1",
+    "context_start0": 43714382,
+    "context_end0": 43735382,
+    "window_start0": 43724382,
+    "window_end0": 43725382,
+    "sha256": "db92497f491a32654c16875020eac02705a2df74e805825faa1d3b3f8e5c046d"
+  }
+}

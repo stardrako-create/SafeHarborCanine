@@ -1,0 +1,837 @@
+[
+  {
+    "matched_risk_symbols": [
+      "PRSS3"
+    ],
+    "matched_spellings": [
+      "PRSS3"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "475521",
+      "Symbol": "LOC475521",
+      "LocusTag": "-",
+      "Synonyms": "PRSS1|PRSS3",
+      "dbXrefs": "RGD:12105353|Ensembl:ENSCAFG00000003818",
+      "chromosome": "16",
+      "map_location": "-",
+      "description": "cationic trypsin-like",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "cationic trypsin-like|protease, serine, 1 (trypsin 1)|protease, serine, 3 (mesotrypsin)",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "ZNF677"
+    ],
+    "matched_spellings": [
+      "ZNF677"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "476394",
+      "Symbol": "LOC476394",
+      "LocusTag": "-",
+      "Synonyms": "ZNF616|ZNF665|ZNF677|ZNF808",
+      "dbXrefs": "RGD:12321148|Ensembl:ENSCAFG00000055794",
+      "chromosome": "1",
+      "map_location": "-",
+      "description": "zinc finger protein 677",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "zinc finger protein 677|zinc finger protein 107|zinc finger protein 616|zinc finger protein 808",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "ACY1"
+    ],
+    "matched_spellings": [
+      "ACY1"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "476602",
+      "Symbol": "ACY1",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12265263|VGNC:VGNC:109314|Ensembl:ENSCAFG00000009917",
+      "chromosome": "20",
+      "map_location": "-",
+      "description": "aminoacylase 1",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "ACY1",
+      "Full_name_from_nomenclature_authority": "aminoacylase 1",
+      "Nomenclature_status": "O",
+      "Other_designations": "aminoacylase-1",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "EIF3C"
+    ],
+    "matched_spellings": [
+      "EIF3C",
+      "EIF3S8"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "479795",
+      "Symbol": "LOC479795",
+      "LocusTag": "-",
+      "Synonyms": "EIF3C|EIF3CL|EIF3S8",
+      "dbXrefs": "RGD:12139451|Ensembl:ENSCAFG00000017143",
+      "chromosome": "6",
+      "map_location": "-",
+      "description": "eukaryotic translation initiation factor 3 subunit C",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "eukaryotic translation initiation factor 3 subunit C|eukaryotic translation initiation factor 3, subunit 8, 110kDa",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "PRSS21"
+    ],
+    "matched_spellings": [
+      "PRSS21"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "479874",
+      "Symbol": "PRSS21",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12129340|VGNC:VGNC:114034",
+      "chromosome": "6",
+      "map_location": "-",
+      "description": "serine protease 21",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "PRSS21",
+      "Full_name_from_nomenclature_authority": "serine protease 21",
+      "Nomenclature_status": "O",
+      "Other_designations": "testisin|protease, serine, 21 (testisin)",
+      "Modification_date": "20260724",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "GSTM3"
+    ],
+    "matched_spellings": [
+      "GSTM3"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "479911",
+      "Symbol": "GSTM3",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12341410|VGNC:VGNC:54033|Ensembl:ENSCAFG00000019809",
+      "chromosome": "6",
+      "map_location": "-",
+      "description": "glutathione S-transferase mu 3",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "GSTM3",
+      "Full_name_from_nomenclature_authority": "glutathione S-transferase mu 3",
+      "Nomenclature_status": "O",
+      "Other_designations": "glutathione S-transferase Mu 3|glutathione S-transferase M3 (brain)|glutathione S-transferase mu 3 (brain)",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "TUBGCP2"
+    ],
+    "matched_spellings": [
+      "TUBGCP2"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "480829",
+      "Symbol": "TUBGCP2",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12234301|VGNC:VGNC:53016",
+      "chromosome": "28",
+      "map_location": "-",
+      "description": "tubulin gamma complex component 2",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "TUBGCP2",
+      "Full_name_from_nomenclature_authority": "tubulin gamma complex component 2",
+      "Nomenclature_status": "O",
+      "Other_designations": "tubulin gamma complex associated protein 2",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "GEMIN8"
+    ],
+    "matched_spellings": [
+      "GEMIN8"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "480843",
+      "Symbol": "GEMIN8",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12389060|VGNC:VGNC:41178",
+      "chromosome": "X",
+      "map_location": "-",
+      "description": "gem nuclear organelle associated protein 8",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "GEMIN8",
+      "Full_name_from_nomenclature_authority": "gem nuclear organelle associated protein 8",
+      "Nomenclature_status": "O",
+      "Other_designations": "-",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "SDCBP"
+    ],
+    "matched_spellings": [
+      "SDCBP"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "482977",
+      "Symbol": "SDCBP",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12067089|Ensembl:ENSCAFG00000007112",
+      "chromosome": "29",
+      "map_location": "-",
+      "description": "syndecan binding protein",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "syntenin-1",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "SERPINB3"
+    ],
+    "matched_spellings": [
+      "SERPINB3"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "483954",
+      "Symbol": "LOC483954",
+      "LocusTag": "-",
+      "Synonyms": "SERPINB3|SERPINB4",
+      "dbXrefs": "RGD:12095398",
+      "chromosome": "1",
+      "map_location": "-",
+      "description": "serpin B4",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "serpin B4|serpin B3|serpin family B member 3|serpin peptidase inhibitor, clade B (ovalbumin), member 4",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "PCDH8"
+    ],
+    "matched_spellings": [
+      "PCDH8"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "485469",
+      "Symbol": "PCDH8",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12119257|VGNC:VGNC:111628|Ensembl:ENSCAFG00000004836",
+      "chromosome": "22",
+      "map_location": "-",
+      "description": "protocadherin 8",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "PCDH8",
+      "Full_name_from_nomenclature_authority": "protocadherin 8",
+      "Nomenclature_status": "O",
+      "Other_designations": "protocadherin-8",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "TIMM23"
+    ],
+    "matched_spellings": [
+      "TIMM23"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "486776",
+      "Symbol": "TIMM23",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12347549|VGNC:VGNC:113757|Ensembl:ENSCAFG00000029477",
+      "chromosome": "28",
+      "map_location": "-",
+      "description": "translocase of inner mitochondrial membrane 23",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "TIMM23",
+      "Full_name_from_nomenclature_authority": "translocase of inner mitochondrial membrane 23",
+      "Nomenclature_status": "O",
+      "Other_designations": "mitochondrial import inner membrane translocase subunit Tim23|translocase of inner mitochondrial membrane 23 homolog",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "RAP1GAP"
+    ],
+    "matched_spellings": [
+      "RAP1GAP"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "487387",
+      "Symbol": "RAP1GAP",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12406696|VGNC:VGNC:111690|Ensembl:ENSCAFG00000014844",
+      "chromosome": "2",
+      "map_location": "-",
+      "description": "RAP1 GTPase activating protein",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "RAP1GAP",
+      "Full_name_from_nomenclature_authority": "RAP1 GTPase activating protein",
+      "Nomenclature_status": "O",
+      "Other_designations": "rap1 GTPase-activating protein 1",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "ARHGAP11A"
+    ],
+    "matched_spellings": [
+      "ARHGAP11A"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "487476",
+      "Symbol": "LOC487476",
+      "LocusTag": "-",
+      "Synonyms": "ARHGAP11A",
+      "dbXrefs": "RGD:12279975|Ensembl:ENSCAFG00000008236",
+      "chromosome": "30",
+      "map_location": "-",
+      "description": "rho GTPase-activating protein 11A",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "rho GTPase-activating protein 11A",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "C1orf109"
+    ],
+    "matched_spellings": [
+      "AIRIM"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "608173",
+      "Symbol": "AIRIM",
+      "LocusTag": "-",
+      "Synonyms": "C15H1orf109",
+      "dbXrefs": "RGD:12273416|VGNC:VGNC:52497|Ensembl:ENSCAFG00000032511",
+      "chromosome": "15",
+      "map_location": "-",
+      "description": "AFG2 interacting ribosome maturation factor",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "AIRIM",
+      "Full_name_from_nomenclature_authority": "AFG2 interacting ribosome maturation factor",
+      "Nomenclature_status": "O",
+      "Other_designations": "uncharacterized protein C1orf109 homolog|chromosome 15 C1orf109 homolog",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "HIST2H2AA3"
+    ],
+    "matched_spellings": [
+      "H2AC18"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "608631",
+      "Symbol": "H2AC18",
+      "LocusTag": "-",
+      "Synonyms": "HIST2H2AA4",
+      "dbXrefs": "RGD:12194209|VGNC:VGNC:83737",
+      "chromosome": "17",
+      "map_location": "-",
+      "description": "H2A clustered histone 18",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "H2AC18",
+      "Full_name_from_nomenclature_authority": "H2A clustered histone 18",
+      "Nomenclature_status": "O",
+      "Other_designations": "histone cluster 2, H2aa4",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "KRR1"
+    ],
+    "matched_spellings": [
+      "KRR1"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "610093",
+      "Symbol": "KRR1",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12363527",
+      "chromosome": "10",
+      "map_location": "-",
+      "description": "KRR1 small subunit processome component homolog",
+      "type_of_gene": "pseudo",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "KRR1, small subunit (SSU) processome component, homolog pseudogene",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "URGCP"
+    ],
+    "matched_spellings": [
+      "URGCP"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "610578",
+      "Symbol": "LOC610578",
+      "LocusTag": "-",
+      "Synonyms": "URGCP",
+      "dbXrefs": "RGD:12075473|Ensembl:ENSCAFG00000002853",
+      "chromosome": "16",
+      "map_location": "-",
+      "description": "up-regulator of cell proliferation",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "up-regulator of cell proliferation|upregulator of cell proliferation",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "RBM4"
+    ],
+    "matched_spellings": [
+      "RBM4"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "610648",
+      "Symbol": "RBM14",
+      "LocusTag": "-",
+      "Synonyms": "RBM4",
+      "dbXrefs": "RGD:12358389|VGNC:VGNC:45408|Ensembl:ENSCAFG00000012405",
+      "chromosome": "18",
+      "map_location": "-",
+      "description": "RNA binding motif protein 14",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "RBM14",
+      "Full_name_from_nomenclature_authority": "RNA binding motif protein 14",
+      "Nomenclature_status": "O",
+      "Other_designations": "RNA-binding protein 14|RNA binding motif protein 4|RNA-binding protein 4",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "MSLN"
+    ],
+    "matched_spellings": [
+      "MSLN"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "611363",
+      "Symbol": "LOC611363",
+      "LocusTag": "-",
+      "Synonyms": "MSLN",
+      "dbXrefs": "RGD:12394296|Ensembl:ENSCAFG00000023230",
+      "chromosome": "6",
+      "map_location": "-",
+      "description": "mesothelin",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "mesothelin",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "FPR1"
+    ],
+    "matched_spellings": [
+      "FPR"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "611696",
+      "Symbol": "FPR2",
+      "LocusTag": "-",
+      "Synonyms": "FPR|FPRL1",
+      "dbXrefs": "RGD:12378171|VGNC:VGNC:112448|Ensembl:ENSCAFG00000053636",
+      "chromosome": "1",
+      "map_location": "-",
+      "description": "formyl peptide receptor 2",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "FPR2",
+      "Full_name_from_nomenclature_authority": "formyl peptide receptor 2",
+      "Nomenclature_status": "O",
+      "Other_designations": "N-formyl peptide receptor 2|formyl peptide receptor-like 1",
+      "Modification_date": "20261004",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "KDM5D"
+    ],
+    "matched_spellings": [
+      "JARID1D",
+      "KDM5D",
+      "SMCY"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "100134936",
+      "Symbol": "KDM5D",
+      "LocusTag": "-",
+      "Synonyms": "JARID1D|SMCY",
+      "dbXrefs": "RGD:12433874",
+      "chromosome": "Y",
+      "map_location": "-",
+      "description": "lysine (K)-specific demethylase 5D",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "lysine-specific demethylase 5D|[histone H3]-trimethyl-L-lysine(4) demethylase 5D|histone demethylase JARID1D|jumonji, AT rich interactive domain 1D|jumonji/ARID domain-containing protein 1D|protein SmcY",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "RDM1"
+    ],
+    "matched_spellings": [
+      "RDM1"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "100683711",
+      "Symbol": "LOC100683711",
+      "LocusTag": "-",
+      "Synonyms": "RDM1",
+      "dbXrefs": "RGD:12064494",
+      "chromosome": "9",
+      "map_location": "-",
+      "description": "uncharacterized LOC100683711",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "uncharacterized protein LOC100683711|RAD52 motif 1|RAD52 motif containing 1",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "PIK3R3"
+    ],
+    "matched_spellings": [
+      "PIK3R3"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "100856339",
+      "Symbol": "LOC100856339",
+      "LocusTag": "-",
+      "Synonyms": "PIK3R3",
+      "dbXrefs": "RGD:12176558|Ensembl:ENSCAFG00000004331",
+      "chromosome": "15",
+      "map_location": "-",
+      "description": "phosphatidylinositol 3-kinase regulatory subunit gamma",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "phosphatidylinositol 3-kinase regulatory subunit gamma|phosphoinositide-3-kinase regulatory subunit 3|phosphoinositide-3-kinase, regulatory subunit 3 (gamma)|phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "PTTG1IP"
+    ],
+    "matched_spellings": [
+      "PTTG1IP"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "100856547",
+      "Symbol": "PTTG1IP",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12062272",
+      "chromosome": "31",
+      "map_location": "-",
+      "description": "PTTG1 interacting protein",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "pituitary tumor-transforming gene 1 protein-interacting protein|pituitary tumor-transforming 1 interacting protein",
+      "Modification_date": "20260822",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "GTF2H4"
+    ],
+    "matched_spellings": [
+      "GTF2H4"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "100856712",
+      "Symbol": "GTF2H4",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12119375|VGNC:VGNC:41548",
+      "chromosome": "12",
+      "map_location": "-",
+      "description": "general transcription factor IIH subunit 4",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "GTF2H4",
+      "Full_name_from_nomenclature_authority": "general transcription factor IIH subunit 4",
+      "Nomenclature_status": "O",
+      "Other_designations": "general transcription factor IIH, polypeptide 4, 52kDa",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "ZNF671"
+    ],
+    "matched_spellings": [
+      "ZNF671"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "102152916",
+      "Symbol": "LOC102152916",
+      "LocusTag": "-",
+      "Synonyms": "ZNF671",
+      "dbXrefs": "RGD:12190086",
+      "chromosome": "1",
+      "map_location": "-",
+      "description": "zinc finger protein 671",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "zinc finger protein 671",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "TUG1"
+    ],
+    "matched_spellings": [
+      "TUG1"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "102153843",
+      "Symbol": "TUG1",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:12111406|Ensembl:ENSCAFG00000054267",
+      "chromosome": "26",
+      "map_location": "-",
+      "description": "taurine up-regulated 1",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "taurine up-regulated 1",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "PTK6"
+    ],
+    "matched_spellings": [
+      "PTK6"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "102156300",
+      "Symbol": "LOC102156300",
+      "LocusTag": "-",
+      "Synonyms": "PTK6",
+      "dbXrefs": "RGD:12169751",
+      "chromosome": "24",
+      "map_location": "-",
+      "description": "collagen alpha-4(IV) chain",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "-",
+      "Full_name_from_nomenclature_authority": "-",
+      "Nomenclature_status": "-",
+      "Other_designations": "collagen alpha-1(I) chain|collagen alpha-1(III) chain|collagen alpha-1(VII) chain|collagen alpha-3(IV) chain|protein tyrosine kinase 6",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "RORA"
+    ],
+    "matched_spellings": [
+      "RORA"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "119866906",
+      "Symbol": "RORA",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:40910294|VGNC:VGNC:45695",
+      "chromosome": "30",
+      "map_location": "-",
+      "description": "RAR related orphan receptor A",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "RORA",
+      "Full_name_from_nomenclature_authority": "RAR related orphan receptor A",
+      "Nomenclature_status": "O",
+      "Other_designations": "nuclear receptor ROR-alpha",
+      "Modification_date": "20260822",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "NCBP2"
+    ],
+    "matched_spellings": [
+      "NCBP2"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "119867274",
+      "Symbol": "NCBP2",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:40913220|VGNC:VGNC:43646",
+      "chromosome": "33",
+      "map_location": "-",
+      "description": "nuclear cap binding protein subunit 2",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "NCBP2",
+      "Full_name_from_nomenclature_authority": "nuclear cap binding protein subunit 2",
+      "Nomenclature_status": "O",
+      "Other_designations": "nuclear cap-binding protein subunit 2",
+      "Modification_date": "20260725",
+      "Feature_type": "-"
+    }
+  },
+  {
+    "matched_risk_symbols": [
+      "NR0B1"
+    ],
+    "matched_spellings": [
+      "NR0B1"
+    ],
+    "gene_info_record": {
+      "#tax_id": "9615",
+      "GeneID": "119868269",
+      "Symbol": "NR0B1",
+      "LocusTag": "-",
+      "Synonyms": "-",
+      "dbXrefs": "RGD:40907389|VGNC:VGNC:43938|Ensembl:ENSCAFG00000013658",
+      "chromosome": "X",
+      "map_location": "-",
+      "description": "nuclear receptor subfamily 0 group B member 1",
+      "type_of_gene": "protein-coding",
+      "Symbol_from_nomenclature_authority": "NR0B1",
+      "Full_name_from_nomenclature_authority": "nuclear receptor subfamily 0 group B member 1",
+      "Nomenclature_status": "O",
+      "Other_designations": "nuclear receptor subfamily 0 group B member 1",
+      "Modification_date": "20260818",
+      "Feature_type": "-"
+    }
+  }
+]

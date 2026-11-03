@@ -1,0 +1,34 @@
+{
+  "window": "NC_051831.1_39708074_39709074",
+  "matched_bp": 996,
+  "mismatches": [
+    {
+      "ROS_offset0": 135,
+      "ROS": "A",
+      "CanFam3": "G",
+      "in_current_REF_mask": true
+    },
+    {
+      "ROS_offset0": 159,
+      "ROS": "C",
+      "CanFam3": "A",
+      "in_current_REF_mask": true
+    },
+    {
+      "ROS_offset0": 270,
+      "ROS": "T",
+      "CanFam3": "C",
+      "in_current_REF_mask": true
+    },
+    {
+      "ROS_offset0": 555,
+      "ROS": "G",
+      "CanFam3": "A",
+      "in_current_REF_mask": true
+    }
+  ],
+  "ROS_sha256": "3ba7a119df4305d162ff48c7b4e3c3afac17d03fe1c3a3de74fa6b5d4561bcf1",
+  "projected_CanFam3_sha256": "89eb3d6f21041f3adba9934a414b40ce26a6c2b2a423cc22be70f3d088fe395a",
+  "projection": "1000 unique monotone bases, 11bp CanFam3 insertion outside ROS target coordinates; no score discarded at ROS positions",
+  "limit": "Assembly difference is not a new individual variant; inherited phyloP reference is CanFam3, with mismatch explicit."
+}

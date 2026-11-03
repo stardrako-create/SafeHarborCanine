@@ -1,0 +1,15 @@
+{
+  "state": "completed",
+  "source": {
+    "Content-Length": "864878803587",
+    "Last-Modified": "Tue, 10 Nov 2020 18:30:50 GMT",
+    "ETag": "\"c95ecb3a83-5b3c4e0ccb033\"",
+    "url": "https://cgl.gi.ucsc.edu/data/cactus/241-mammalian-2020v2.hal"
+  },
+  "blocks": 4509,
+  "groups": 3554,
+  "checked": 4509,
+  "mismatched": 2,
+  "errors": [],
+  "bytes": 295451267
+}

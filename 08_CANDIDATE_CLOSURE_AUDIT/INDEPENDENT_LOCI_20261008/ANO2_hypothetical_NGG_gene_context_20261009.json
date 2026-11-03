@@ -1,0 +1,6124 @@
+{
+  "state": "completed",
+  "guides_reviewed": 9,
+  "selection_description": "Exploratory NGG guides with no other NGG/unknown ungapped matches<=2 and no one-base-bulge matches<=1 substitutions; no new acceptance threshold imposed.",
+  "results": [
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__228",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708302,
+        "strand": "-",
+        "sequence": "TGAGTATGCAACACTAGGTA",
+        "PAM": "GGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 9
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051810.1",
+            "start0": 49045292,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051842.1",
+            "start0": 3892238,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051814.1",
+            "start0": 6650596,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051814.1",
+            "start0": 6721503,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051805.1",
+            "start0": 103622172,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051824.1",
+            "start0": 7018461,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051811.1",
+            "start0": 55990341,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051819.1",
+            "start0": 13847443,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051825.1",
+            "start0": 40921130,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051810.1",
+          "start0": 49045292,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051842.1",
+          "start0": 3892238,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 6650596,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 6721503,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 103622172,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC611446",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 103617134,
+              "gene_end0": 103623833
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 7018461,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "ATG7",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 6945627,
+              "gene_end0": 7184158
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 55990341,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 13847443,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 40921130,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051833.1",
+          "start0": 18868870,
+          "end0": 18868889,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SULF1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 18801738,
+              "gene_end0": 18977405
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 44846692,
+          "end0": 44846711,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PCNX1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 44790734,
+              "gene_end0": 44954180
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 46266055,
+          "end0": 46266074,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "TEK",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 46225354,
+              "gene_end0": 46324241
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 70511741,
+          "end0": 70511760,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ZBTB49",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 70486733,
+              "gene_end0": 70513392
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 39828961,
+          "end0": 39828980,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "HAUS6",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 39823026,
+              "gene_end0": 39868531
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 103622173,
+          "end0": 103622192,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC611446",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 103617134,
+              "gene_end0": 103623833
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 358947,
+          "end0": 358966,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 84559513,
+          "end0": 84559532,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 5175810,
+          "end0": 5175829,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ABI1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 5131484,
+              "gene_end0": 5249349
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 49045293,
+          "end0": 49045312,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 52961543,
+          "end0": 52961562,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 13736121,
+          "end0": 13736140,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CCDC83",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 13735183,
+              "gene_end0": 13783699
+            },
+            {
+              "gene": "LOC111091500",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 13728188,
+              "gene_end0": 13813757
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051838.1",
+          "start0": 9002289,
+          "end0": 9002308,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 32021169,
+          "end0": 32021188,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 59532692,
+          "end0": 59532713,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "HMGXB3",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 59491326,
+              "gene_end0": 59538374
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 9,
+        "ungapped_gene_overlapping_hits": 2,
+        "bulge_hits": 15,
+        "bulge_gene_overlapping_hits": 9
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__229",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708303,
+        "strand": "-",
+        "sequence": "GTGAGTATGCAACACTAGGT",
+        "PAM": "AGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 5
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051805.1",
+            "start0": 103622173,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051805.1",
+            "start0": 84559512,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051830.1",
+            "start0": 1611911,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051821.1",
+            "start0": 358947,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051819.1",
+            "start0": 13847442,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051805.1",
+          "start0": 103622173,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC611446",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 103617134,
+              "gene_end0": 103623833
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 84559512,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 1611911,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "ADGRD1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 1501631,
+              "gene_end0": 1624035
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 358947,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 13847442,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051821.1",
+          "start0": 358947,
+          "end0": 358968,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 87862946,
+          "end0": 87862965,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MAMDC2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 87855068,
+              "gene_end0": 88001661
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 3696817,
+          "end0": 3696838,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051816.1",
+          "start0": 27158290,
+          "end0": 27158309,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 21615551,
+          "end0": 21615570,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DEFB121",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 21611355,
+              "gene_end0": 21616160
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051833.1",
+          "start0": 26588433,
+          "end0": 26588452,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 41664886,
+          "end0": 41664905,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SMARCC1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 41648769,
+              "gene_end0": 41820697
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 19912811,
+          "end0": 19912832,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051829.1",
+          "start0": 43782943,
+          "end0": 43782962,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051839.1",
+          "start0": 21500655,
+          "end0": 21500674,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051820.1",
+          "start0": 47931909,
+          "end0": 47931928,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 87920393,
+          "end0": 87920412,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 103622173,
+          "end0": 103622194,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC611446",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 103617134,
+              "gene_end0": 103623833
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 103622173,
+          "end0": 103622192,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC611446",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 103617134,
+              "gene_end0": 103623833
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 358947,
+          "end0": 358966,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 84559513,
+          "end0": 84559532,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051839.1",
+          "start0": 4082933,
+          "end0": 4082952,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 54253991,
+          "end0": 54254012,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 5,
+        "ungapped_gene_overlapping_hits": 2,
+        "bulge_hits": 18,
+        "bulge_gene_overlapping_hits": 5
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__364",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708438,
+        "strand": "-",
+        "sequence": "TCCAGGAATTACACAGCCGA",
+        "PAM": "GGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 7
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051823.1",
+            "start0": 40407949,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051824.1",
+            "start0": 40944316,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051821.1",
+            "start0": 19459371,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051828.1",
+            "start0": 10313115,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051813.1",
+            "start0": 39118714,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051807.1",
+            "start0": 72438703,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051809.1",
+            "start0": 6150813,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051823.1",
+          "start0": 40407949,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 40944316,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "CELSR3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 40943951,
+              "gene_end0": 40980477
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 19459371,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "ADCY3",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 19426952,
+              "gene_end0": 19505567
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 10313115,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865619",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 10200351,
+              "gene_end0": 10425186
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 39118714,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "RFFL",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 39083073,
+              "gene_end0": 39162504
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 72438703,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "APBB2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 72215299,
+              "gene_end0": 72590507
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 6150813,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051813.1",
+          "start0": 52971544,
+          "end0": 52971563,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 47608334,
+          "end0": 47608353,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051816.1",
+          "start0": 14108459,
+          "end0": 14108478,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SUPT3H",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 13642018,
+              "gene_end0": 14172912
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051817.1",
+          "start0": 24454872,
+          "end0": 24454893,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102151612",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 24411685,
+              "gene_end0": 24476130
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 11259249,
+          "end0": 11259270,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051818.1",
+          "start0": 9733015,
+          "end0": 9733036,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111098662",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 9716422,
+              "gene_end0": 9764702
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 40944316,
+          "end0": 40944335,
+          "strand": "+",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CELSR3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 40943951,
+              "gene_end0": 40980477
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051837.1",
+          "start0": 21163110,
+          "end0": 21163129,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC100683406",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 21147759,
+              "gene_end0": 21167759
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 8094956,
+          "end0": 8094975,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MACROD2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 7160458,
+              "gene_end0": 9088151
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 43417967,
+          "end0": 43417986,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119872243",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 43417876,
+              "gene_end0": 43421143
+            },
+            {
+              "gene": "LOC111095015",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 43399415,
+              "gene_end0": 43428160
+            },
+            {
+              "gene": "HENMT1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 43396228,
+              "gene_end0": 43435695
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051838.1",
+          "start0": 38498640,
+          "end0": 38498659,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 7917325,
+          "end0": 7917344,
+          "strand": "+",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MYOF",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 7863179,
+              "gene_end0": 8005417
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 3162285,
+          "end0": 3162304,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 3888178,
+          "end0": 3888197,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 67603762,
+          "end0": 67603781,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 5124406,
+          "end0": 5124425,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MAML2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 4994634,
+              "gene_end0": 5339158
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 37984198,
+          "end0": 37984217,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 59392329,
+          "end0": 59392350,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 7,
+        "ungapped_gene_overlapping_hits": 5,
+        "bulge_hits": 18,
+        "bulge_gene_overlapping_hits": 9
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__380",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708454,
+        "strand": "+",
+        "sequence": "TGGAGCAAGGAATTTTGGTC",
+        "PAM": "AGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 8
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051822.1",
+            "start0": 45165025,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051834.1",
+            "start0": 30461688,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051806.1",
+            "start0": 71940954,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051833.1",
+            "start0": 21621600,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051842.1",
+            "start0": 19919767,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051813.1",
+            "start0": 48807663,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051812.1",
+            "start0": 45277110,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051829.1",
+            "start0": 41030440,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051822.1",
+          "start0": 45165025,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "TSPAN18",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 45045145,
+              "gene_end0": 45231055
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 30461688,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "MEGF11",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 30414656,
+              "gene_end0": 30758453
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 71940954,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "MECR",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 71930047,
+              "gene_end0": 71960986
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051833.1",
+          "start0": 21621600,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "KCNB2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 21342534,
+              "gene_end0": 21725967
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051842.1",
+          "start0": 19919767,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 48807663,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "CACNA1B",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 48674417,
+              "gene_end0": 48870501
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 45277110,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "SIPA1L1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 45102509,
+              "gene_end0": 45476140
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051829.1",
+          "start0": 41030440,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "SPHKAP",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 40880230,
+              "gene_end0": 41049636
+            }
+          ]
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051805.1",
+          "start0": 53870727,
+          "end0": 53870746,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102152011",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 53858707,
+              "gene_end0": 53913421
+            },
+            {
+              "gene": "PDE10A",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 53634409,
+              "gene_end0": 54231358
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051836.1",
+          "start0": 15791812,
+          "end0": 15791831,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "GRID2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 15494313,
+              "gene_end0": 16970466
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051817.1",
+          "start0": 22265475,
+          "end0": 22265494,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119864281",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 22243699,
+              "gene_end0": 22363475
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 7174790,
+          "end0": 7174809,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "GPR176",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 7116880,
+              "gene_end0": 7246688
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 62938102,
+          "end0": 62938123,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "COMMD1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 62894267,
+              "gene_end0": 63067243
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 29634223,
+          "end0": 29634244,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051835.1",
+          "start0": 23077500,
+          "end0": 23077519,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111093499",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 23023056,
+              "gene_end0": 23137750
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 7701506,
+          "end0": 7701527,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 2776157,
+          "end0": 2776176,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102152898",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 2773978,
+              "gene_end0": 2941521
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 45277111,
+          "end0": 45277130,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SIPA1L1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 45102509,
+              "gene_end0": 45476140
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 47522004,
+          "end0": 47522023,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PDE4D",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 46331497,
+              "gene_end0": 47722409
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 36958013,
+          "end0": 36958034,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111090606",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 36897929,
+              "gene_end0": 36972052
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 43850943,
+          "end0": 43850964,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 6222936,
+          "end0": 6222955,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051836.1",
+          "start0": 3057019,
+          "end0": 3057038,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ANXA3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 3031715,
+              "gene_end0": 3075494
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 4032536,
+          "end0": 4032557,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111091095",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 4031141,
+              "gene_end0": 4033071
+            },
+            {
+              "gene": "LOC111091096",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 3998677,
+              "gene_end0": 4150030
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 37204649,
+          "end0": 37204670,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "A2ML1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 37193156,
+              "gene_end0": 37223156
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 25826148,
+          "end0": 25826167,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "RECQL",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 25818961,
+              "gene_end0": 25865150
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 37473411,
+          "end0": 37473432,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PML",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 37439423,
+              "gene_end0": 37485481
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051829.1",
+          "start0": 13067334,
+          "end0": 13067355,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "WASF3",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 12944370,
+              "gene_end0": 13077673
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 15725754,
+          "end0": 15725773,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "KIF2C",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 15709387,
+              "gene_end0": 15730544
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 577201,
+          "end0": 577222,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CFAP100",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 574176,
+              "gene_end0": 631069
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 37473411,
+          "end0": 37473430,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PML",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 37439423,
+              "gene_end0": 37485481
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 19097581,
+          "end0": 19097600,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 8,
+        "ungapped_gene_overlapping_hits": 7,
+        "bulge_hits": 24,
+        "bulge_gene_overlapping_hits": 19
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__488",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708562,
+        "strand": "+",
+        "sequence": "GGCATGGCTCCTTCTCGCCA",
+        "PAM": "AGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 8
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051813.1",
+            "start0": 31617846,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051834.1",
+            "start0": 18209256,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051809.1",
+            "start0": 33480734,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051809.1",
+            "start0": 1629737,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051832.1",
+            "start0": 37257799,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051814.1",
+            "start0": 19582491,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051811.1",
+            "start0": 21379983,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051828.1",
+            "start0": 30908537,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051813.1",
+          "start0": 31617846,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC609690",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 31598688,
+              "gene_end0": 31655144
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 18209256,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "MYO5A",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 18136192,
+              "gene_end0": 18328524
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 33480734,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 1629737,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "OPCML",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 1600356,
+              "gene_end0": 2620428
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 37257799,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 19582491,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 21379983,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC610994",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 21379182,
+              "gene_end0": 21405396
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 30908537,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "PTPRT",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 30697307,
+              "gene_end0": 31823739
+            }
+          ]
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051811.1",
+          "start0": 21379983,
+          "end0": 21380002,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC610994",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 21379182,
+              "gene_end0": 21405396
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 1629737,
+          "end0": 1629756,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "OPCML",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 1600356,
+              "gene_end0": 2620428
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 70733449,
+          "end0": 70733468,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CMIP",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 70554030,
+              "gene_end0": 70785344
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 41035042,
+          "end0": 41035063,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119866505",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 41031981,
+              "gene_end0": 41037921
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 49027192,
+          "end0": 49027211,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051839.1",
+          "start0": 16214987,
+          "end0": 16215006,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 38697338,
+          "end0": 38697357,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 75886644,
+          "end0": 75886663,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PDZD2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 75855008,
+              "gene_end0": 76258330
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 68256918,
+          "end0": 68256937,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 46312551,
+          "end0": 46312570,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "TEK",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 46225354,
+              "gene_end0": 46324241
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 58674142,
+          "end0": 58674161,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "TBC1D2B",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 58662996,
+              "gene_end0": 58725973
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 29614678,
+          "end0": 29614697,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SLC51B",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 29602278,
+              "gene_end0": 29625401
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 45664503,
+          "end0": 45664522,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 59806782,
+          "end0": 59806803,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 37994052,
+          "end0": 37994071,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "POC1A",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 37942699,
+              "gene_end0": 38010430
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 39550668,
+          "end0": 39550687,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SASH1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 39338887,
+              "gene_end0": 39653867
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051827.1",
+          "start0": 16346851,
+          "end0": 16346870,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 85856122,
+          "end0": 85856141,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102151465",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 85813945,
+              "gene_end0": 85893675
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 30390004,
+          "end0": 30390023,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CPPED1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 30322949,
+              "gene_end0": 30422826
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 25171267,
+          "end0": 25171286,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 20627050,
+          "end0": 20627071,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "GAREM2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 20614032,
+              "gene_end0": 20628768
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 2193768,
+          "end0": 2193789,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "KRT18",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 2190001,
+              "gene_end0": 2194108
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 2555989,
+          "end0": 2556010,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 84280203,
+          "end0": 84280222,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LRRC38",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 84272434,
+              "gene_end0": 84303869
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051839.1",
+          "start0": 2004372,
+          "end0": 2004391,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 40706477,
+          "end0": 40706496,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 37257799,
+          "end0": 37257820,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 8,
+        "ungapped_gene_overlapping_hits": 5,
+        "bulge_hits": 27,
+        "bulge_gene_overlapping_hits": 15
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__532",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708606,
+        "strand": "+",
+        "sequence": "TGCCTCGGGCTAAGCTCCAC",
+        "PAM": "AGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 6
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051811.1",
+            "start0": 52325941,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051820.1",
+            "start0": 9870058,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051808.1",
+            "start0": 88184154,
+            "strand": "-",
+            "PAM": "CGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051818.1",
+            "start0": 39288839,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051826.1",
+            "start0": 2843426,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051810.1",
+            "start0": 19709261,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051811.1",
+          "start0": 52325941,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111096770",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 52317547,
+              "gene_end0": 52648727
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051820.1",
+          "start0": 9870058,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "SVOPL",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 9870042,
+              "gene_end0": 9947349
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 88184154,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "FBXL7",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 87980950,
+              "gene_end0": 88269112
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051818.1",
+          "start0": 39288839,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 2843426,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 19709261,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051810.1",
+          "start0": 73003167,
+          "end0": 73003188,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102155529",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 72915208,
+              "gene_end0": 73034271
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051835.1",
+          "start0": 37328862,
+          "end0": 37328883,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 31520293,
+          "end0": 31520312,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PTPRT",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 30697307,
+              "gene_end0": 31823739
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 119809200,
+          "end0": 119809219,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SLC7A9",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 119806921,
+              "gene_end0": 119830085
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 59351720,
+          "end0": 59351739,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ADGRG1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 59344119,
+              "gene_end0": 59381257
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 37901560,
+          "end0": 37901579,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111090055",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 37893841,
+              "gene_end0": 37974708
+            },
+            {
+              "gene": "LOC102156315",
+              "biotype": "misc_RNA",
+              "strand": "+",
+              "gene_start0": 37737839,
+              "gene_end0": 37968439
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 39130758,
+          "end0": 39130777,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CD8A",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 39127937,
+              "gene_end0": 39132423
+            },
+            {
+              "gene": "LOC111090626",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 39122287,
+              "gene_end0": 39134899
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 77831838,
+          "end0": 77831857,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "BHLHB9",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 77830291,
+              "gene_end0": 77845859
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 33817839,
+          "end0": 33817858,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ARHGEF3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 33590513,
+              "gene_end0": 33894766
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 52325942,
+          "end0": 52325961,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111096770",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 52317547,
+              "gene_end0": 52648727
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 8289434,
+          "end0": 8289453,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 693807,
+          "end0": 693826,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 692747,
+          "end0": 692766,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 694826,
+          "end0": 694845,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 693707,
+          "end0": 693726,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 691888,
+          "end0": 691907,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 692439,
+          "end0": 692458,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 694720,
+          "end0": 694739,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 692646,
+          "end0": 692665,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 692188,
+          "end0": 692207,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 63580111,
+          "end0": 63580130,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051840.1",
+          "start0": 20489593,
+          "end0": 20489612,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 15350043,
+          "end0": 15350062,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119869770",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 15343115,
+              "gene_end0": 15362459
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 5166371,
+          "end0": 5166392,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MAML2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 4994634,
+              "gene_end0": 5339158
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 16467889,
+          "end0": 16467908,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 13327131,
+          "end0": 13327150,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SDK1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 13268477,
+              "gene_end0": 13808734
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 39366265,
+          "end0": 39366286,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PLEKHG3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 39333798,
+              "gene_end0": 39376008
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 77534757,
+          "end0": 77534776,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 6,
+        "ungapped_gene_overlapping_hits": 3,
+        "bulge_hits": 28,
+        "bulge_gene_overlapping_hits": 13
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__566",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708640,
+        "strand": "-",
+        "sequence": "AAGAACAGGGGCAGGCAATC",
+        "PAM": "TGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 19
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051827.1",
+            "start0": 24817957,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051829.1",
+            "start0": 20839856,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051810.1",
+            "start0": 7063991,
+            "strand": "-",
+            "PAM": "CGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051822.1",
+            "start0": 56645428,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051809.1",
+            "start0": 44321278,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051826.1",
+            "start0": 10398978,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051809.1",
+            "start0": 2499400,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051821.1",
+            "start0": 12720841,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051811.1",
+            "start0": 75600731,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051825.1",
+            "start0": 42572212,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051827.1",
+          "start0": 24817957,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865374",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 24809988,
+              "gene_end0": 24825023
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051829.1",
+          "start0": 20839856,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 7063991,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 56645428,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102154218",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 56631626,
+              "gene_end0": 56662785
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 44321278,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "PDE4B",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 44251620,
+              "gene_end0": 44793357
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 10398978,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 2499400,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "OPCML",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 1600356,
+              "gene_end0": 2620428
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 12720841,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 75600731,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "PPP4R1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 75583142,
+              "gene_end0": 75644350
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 42572212,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 11141197,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111091251",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 11138685,
+              "gene_end0": 11155342
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 17337928,
+          "strand": "+",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 46336203,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 24412574,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 58737124,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111096119",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 58719164,
+              "gene_end0": 58737447
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 11912372,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 2395316,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "RYR2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 2390863,
+              "gene_end0": 3118926
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051818.1",
+          "start0": 32396705,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "HDAC9",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 32319280,
+              "gene_end0": 33231263
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 24803075,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "PLEKHB1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 24798479,
+              "gene_end0": 24814492
+            }
+          ]
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051818.1",
+          "start0": 32396705,
+          "end0": 32396724,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "HDAC9",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 32319280,
+              "gene_end0": 33231263
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 23930837,
+          "end0": 23930856,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 71943779,
+          "end0": 71943798,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "FANCC",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 71693613,
+              "gene_end0": 71983350
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 44321279,
+          "end0": 44321298,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PDE4B",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 44251620,
+              "gene_end0": 44793357
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 53486185,
+          "end0": 53486204,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "NRXN1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 52431368,
+              "gene_end0": 53560787
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 26439225,
+          "end0": 26439244,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119873630",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 26437329,
+              "gene_end0": 26440838
+            },
+            {
+              "gene": "SYNGR1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 26436723,
+              "gene_end0": 26464409
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 15507955,
+          "end0": 15507974,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111090393",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 15505578,
+              "gene_end0": 15520941
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 39678780,
+          "end0": 39678799,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111090962",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 39650921,
+              "gene_end0": 39687050
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 85428661,
+          "end0": 85428680,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CDH18",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 84540566,
+              "gene_end0": 85505464
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 58957922,
+          "end0": 58957941,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CSNK2A2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 58899780,
+              "gene_end0": 58979588
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 55597180,
+          "end0": 55597201,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "NUP188",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 55578562,
+              "gene_end0": 55633941
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 109451217,
+          "end0": 109451236,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "NPAS1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 109443844,
+              "gene_end0": 109459011
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051838.1",
+          "start0": 36630505,
+          "end0": 36630524,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "FNDC3B",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 36385780,
+              "gene_end0": 36725342
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 36098456,
+          "end0": 36098475,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MICAL2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 36029919,
+              "gene_end0": 36165769
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 2533344,
+          "end0": 2533363,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PARD3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 2424014,
+              "gene_end0": 3081365
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 35002116,
+          "end0": 35002135,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 20873372,
+          "end0": 20873391,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "OTOF",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 20840615,
+              "gene_end0": 21054235
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 14842788,
+          "end0": 14842807,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DLG2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 13977509,
+              "gene_end0": 15952393
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051829.1",
+          "start0": 8704402,
+          "end0": 8704421,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111092302",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 8628030,
+              "gene_end0": 8823486
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051827.1",
+          "start0": 24817958,
+          "end0": 24817977,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865374",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 24809988,
+              "gene_end0": 24825023
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051829.1",
+          "start0": 30692571,
+          "end0": 30692590,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051816.1",
+          "start0": 3587042,
+          "end0": 3587061,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102156105",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 3559815,
+              "gene_end0": 3591062
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 55139421,
+          "end0": 55139440,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "AHNAK",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 55136823,
+              "gene_end0": 55169332
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 25301423,
+          "end0": 25301442,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ANKRD45",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 25259728,
+              "gene_end0": 25311192
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 28049092,
+          "end0": 28049113,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 7549592,
+          "end0": 7549611,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ENOX1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 7298065,
+              "gene_end0": 7847902
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 9345734,
+          "end0": 9345753,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 66248961,
+          "end0": 66248982,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PALM2AKAP2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 65975095,
+              "gene_end0": 66305415
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 48752788,
+          "end0": 48752809,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "NFIA",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 48679004,
+              "gene_end0": 49048341
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 15642666,
+          "end0": 15642687,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SH3KBP1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 15442673,
+              "gene_end0": 15782235
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051842.1",
+          "start0": 13680980,
+          "end0": 13681001,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 73117921,
+          "end0": 73117940,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "N4BP2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 73084840,
+              "gene_end0": 73207383
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 42783310,
+          "end0": 42783329,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 38257555,
+          "end0": 38257574,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CLSTN3",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 38232298,
+              "gene_end0": 38265672
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 42158901,
+          "end0": 42158922,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102157325",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 42141976,
+              "gene_end0": 42168463
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 15910566,
+          "end0": 15910587,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 16626544,
+          "end0": 16626565,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 2807596,
+          "end0": 2807615,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119863905",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 2724062,
+              "gene_end0": 3131107
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051842.1",
+          "start0": 22414354,
+          "end0": 22414373,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 6866506,
+          "end0": 6866525,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 17337927,
+          "end0": 17337948,
+          "strand": "+",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 56645429,
+          "end0": 56645448,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102154218",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 56631626,
+              "gene_end0": 56662785
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 33600106,
+          "end0": 33600127,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PIK3R6",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 33575472,
+              "gene_end0": 33631553
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051816.1",
+          "start0": 36777507,
+          "end0": 36777528,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111098171",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 36771031,
+              "gene_end0": 36783670
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051827.1",
+          "start0": 44941219,
+          "end0": 44941238,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "WWTR1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 44904502,
+              "gene_end0": 45038166
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 19,
+        "ungapped_gene_overlapping_hits": 10,
+        "bulge_hits": 45,
+        "bulge_gene_overlapping_hits": 33
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__673",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39708747,
+        "strand": "-",
+        "sequence": "ACTCTGGACAAGGAACGAGA",
+        "PAM": "AGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 11
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051825.1",
+            "start0": 40337007,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051816.1",
+            "start0": 26612751,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051835.1",
+            "start0": 32874765,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051826.1",
+            "start0": 21113939,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051806.1",
+            "start0": 7445811,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051825.1",
+            "start0": 43953293,
+            "strand": "-",
+            "PAM": "CGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051809.1",
+            "start0": 17419699,
+            "strand": "-",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051810.1",
+            "start0": 38898241,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051824.1",
+            "start0": 43182054,
+            "strand": "+",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051805.1",
+            "start0": 112647774,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051825.1",
+          "start0": 40337007,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865019",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 40282700,
+              "gene_end0": 40502143
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051816.1",
+          "start0": 26612751,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "KHDRBS2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 26081732,
+              "gene_end0": 26679733
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051835.1",
+          "start0": 32874765,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "ERG",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 32767320,
+              "gene_end0": 32953675
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 21113939,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111091776",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 21060524,
+              "gene_end0": 21201306
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 7445811,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 43953293,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "NELL1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 43772114,
+              "gene_end0": 44588353
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 17419699,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 38898241,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "CCNF",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 38882559,
+              "gene_end0": 38901542
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 43182054,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "SLC6A20",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 43172645,
+              "gene_end0": 43210926
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 112647774,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "MEGF8",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 112633279,
+              "gene_end0": 112675963
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 65927426,
+          "strand": "+",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051833.1",
+          "start0": 28690879,
+          "end0": 28690898,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 17929839,
+          "end0": 17929858,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111091831",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 17923704,
+              "gene_end0": 17994008
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 17828219,
+          "end0": 17828238,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CTNNA3",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 17635104,
+              "gene_end0": 19300514
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 17380108,
+          "end0": 17380127,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051820.1",
+          "start0": 54148665,
+          "end0": 54148684,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 27204352,
+          "end0": 27204371,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CTNNA1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 27129158,
+              "gene_end0": 27315090
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051822.1",
+          "start0": 42489580,
+          "end0": 42489599,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 790355,
+          "end0": 790376,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LGR6",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 739810,
+              "gene_end0": 845587
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 27992371,
+          "end0": 27992392,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DLG5",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 27989063,
+              "gene_end0": 28108333
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 58871935,
+          "end0": 58871954,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CCDC113",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 58870881,
+              "gene_end0": 58899730
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 25350620,
+          "end0": 25350639,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051817.1",
+          "start0": 17486825,
+          "end0": 17486844,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "EXT1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 17470128,
+              "gene_end0": 17750747
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 41258359,
+          "end0": 41258380,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CFAP46",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 41225001,
+              "gene_end0": 41321355
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 31741010,
+          "end0": 31741029,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 100205404,
+          "end0": 100205423,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ZNF837",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 100205030,
+              "gene_end0": 100218423
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 25121702,
+          "end0": 25121721,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119872189",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 25108111,
+              "gene_end0": 25188862
+            },
+            {
+              "gene": "PDILT",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 25097135,
+              "gene_end0": 25139796
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 47596625,
+          "end0": 47596646,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "GTDC1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 47431444,
+              "gene_end0": 47824801
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051818.1",
+          "start0": 31814632,
+          "end0": 31814651,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119867207",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 31762680,
+              "gene_end0": 31945380
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051827.1",
+          "start0": 2558017,
+          "end0": 2558036,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865336",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 2501676,
+              "gene_end0": 2592385
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051814.1",
+          "start0": 28694335,
+          "end0": 28694354,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "FOXRED2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 28693852,
+              "gene_end0": 28708859
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 60128810,
+          "end0": 60128829,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SORCS2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 59694698,
+              "gene_end0": 60150946
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051838.1",
+          "start0": 20661818,
+          "end0": 20661837,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111093965",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 20654878,
+              "gene_end0": 20667129
+            },
+            {
+              "gene": "LOC478670",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 20478360,
+              "gene_end0": 21091684
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 38374197,
+          "end0": 38374218,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MTMR10",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 38338916,
+              "gene_end0": 38393228
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 13245438,
+          "end0": 13245459,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 15841203,
+          "end0": 15841222,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051817.1",
+          "start0": 10679403,
+          "end0": 10679422,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 65919095,
+          "end0": 65919114,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111096433",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 65887063,
+              "gene_end0": 66105119
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 4565588,
+          "end0": 4565607,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 1669619,
+          "end0": 1669638,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "TMEM232",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 1616584,
+              "gene_end0": 1865772
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 2136032,
+          "end0": 2136051,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "GALNT17",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 1938384,
+              "gene_end0": 2381618
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 1134395,
+          "end0": 1134414,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "FLT4",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 1114648,
+              "gene_end0": 1154193
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 16021561,
+          "end0": 16021580,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DHX9",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 15962808,
+              "gene_end0": 16021792
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 61758698,
+          "end0": 61758717,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "CHST9",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 61622638,
+              "gene_end0": 61857284
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051820.1",
+          "start0": 29799882,
+          "end0": 29799901,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051807.1",
+          "start0": 70557410,
+          "end0": 70557429,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051819.1",
+          "start0": 12387534,
+          "end0": 12387555,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "AGBL4",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 11194678,
+              "gene_end0": 12580146
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 58135365,
+          "end0": 58135384,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 648531,
+          "end0": 648552,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051835.1",
+          "start0": 32874764,
+          "end0": 32874785,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ERG",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 32767320,
+              "gene_end0": 32953675
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 13542487,
+          "end0": 13542506,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SCN4A",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 13510605,
+              "gene_end0": 13554819
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 43182055,
+          "end0": 43182074,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SLC6A20",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 43172645,
+              "gene_end0": 43210926
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051835.1",
+          "start0": 32874766,
+          "end0": 32874785,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ERG",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 32767320,
+              "gene_end0": 32953675
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 40357674,
+          "end0": 40357693,
+          "strand": "-",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 40525008,
+          "end0": 40525027,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 50793175,
+          "end0": 50793194,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ZC4H2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 50738644,
+              "gene_end0": 50800384
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051815.1",
+          "start0": 22269741,
+          "end0": 22269760,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "FSTL4",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 22253157,
+              "gene_end0": 22646541
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 31167913,
+          "end0": 31167932,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 23041561,
+          "end0": 23041580,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 40703723,
+          "end0": 40703742,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 40830508,
+          "end0": 40830527,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PRKAR2A",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 40762528,
+              "gene_end0": 40873645
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051811.1",
+          "start0": 46271756,
+          "end0": 46271775,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SETBP1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 45971826,
+              "gene_end0": 46329469
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 25896506,
+          "end0": 25896525,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051838.1",
+          "start0": 37196968,
+          "end0": 37196987,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "SPATA16",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 37080461,
+              "gene_end0": 37317220
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 40337007,
+          "end0": 40337026,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865019",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 40282700,
+              "gene_end0": 40502143
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 63693840,
+          "end0": 63693859,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LRIG2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 63661469,
+              "gene_end0": 63722625
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 71375345,
+          "end0": 71375364,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DIAPH2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 71343582,
+              "gene_end0": 72392960
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051808.1",
+          "start0": 2502731,
+          "end0": 2502750,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "RYR2",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 2390863,
+              "gene_end0": 3118926
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 101014947,
+          "end0": 101014966,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 48469815,
+          "end0": 48469834,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051824.1",
+          "start0": 52300778,
+          "end0": 52300797,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MUC16",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 52293753,
+              "gene_end0": 52404418
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051823.1",
+          "start0": 21716743,
+          "end0": 21716762,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 53333013,
+          "end0": 53333032,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051817.1",
+          "start0": 11691646,
+          "end0": 11691665,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC102156032",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 11667812,
+              "gene_end0": 11703895
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 2428531,
+          "end0": 2428550,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PARD3",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 2424014,
+              "gene_end0": 3081365
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051844.1",
+          "start0": 363043,
+          "end0": 363062,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051816.1",
+          "start0": 10967376,
+          "end0": 10967397,
+          "strand": "-",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "USP49",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 10955128,
+              "gene_end0": 11041174
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 11,
+        "ungapped_gene_overlapping_hits": 8,
+        "bulge_hits": 66,
+        "bulge_gene_overlapping_hits": 41
+      }
+    },
+    {
+      "guide": {
+        "query": "NC_051831.1_39708074_39709074__954",
+        "window": "NC_051831.1_39708074_39709074",
+        "chrom": "NC_051831.1",
+        "start0": 39709028,
+        "strand": "+",
+        "sequence": "ATGCGTATGTGTGTGCCCCG",
+        "PAM": "GGG",
+        "other_NGG_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 9
+        },
+        "unknown_PAM_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0
+        },
+        "first10_other_NGG": [
+          {
+            "chrom": "NC_051843.1",
+            "start0": 5482486,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051813.1",
+            "start0": 40466563,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051805.1",
+            "start0": 122438568,
+            "strand": "-",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051810.1",
+            "start0": 8420330,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051821.1",
+            "start0": 49045243,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051843.1",
+            "start0": 20988148,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051806.1",
+            "start0": 13397950,
+            "strand": "+",
+            "PAM": "GGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051828.1",
+            "start0": 20493474,
+            "strand": "+",
+            "PAM": "AGG",
+            "mismatches": 3
+          },
+          {
+            "chrom": "NC_051833.1",
+            "start0": 1076382,
+            "strand": "-",
+            "PAM": "TGG",
+            "mismatches": 3
+          }
+        ]
+      },
+      "ungapped3mismatch_hits": [
+        {
+          "chrom": "NC_051843.1",
+          "start0": 5482486,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "ANOS1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 5352343,
+              "gene_end0": 5540023
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 40466563,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111097427",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 40465255,
+              "gene_end0": 40489048
+            },
+            {
+              "gene": "ASIC2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 39899728,
+              "gene_end0": 40900560
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051805.1",
+          "start0": 122438568,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "POP4",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 122438311,
+              "gene_end0": 122445920
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 8420330,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC111096204",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 8414669,
+              "gene_end0": 8436897
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051821.1",
+          "start0": 49045243,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119869758",
+              "biotype": "lncRNA",
+              "strand": "-",
+              "gene_start0": 49033471,
+              "gene_end0": 49055827
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 20988148,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051806.1",
+          "start0": 13397950,
+          "strand": "+",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 20493474,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865595",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 20491457,
+              "gene_end0": 20498234
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051833.1",
+          "start0": 1076382,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "mismatches": 3,
+          "gene_overlaps": []
+        }
+      ],
+      "single_bulge2substitution_hits": [
+        {
+          "chrom": "NC_051814.1",
+          "start0": 66837452,
+          "end0": 66837471,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "MEIS1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 66778155,
+              "gene_end0": 66943912
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051820.1",
+          "start0": 21225347,
+          "end0": 21225366,
+          "strand": "+",
+          "PAM": "CGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 14401220,
+          "end0": 14401239,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DLG2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 13977509,
+              "gene_end0": 15952393
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051810.1",
+          "start0": 9260190,
+          "end0": 9260211,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051832.1",
+          "start0": 39577845,
+          "end0": 39577864,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051818.1",
+          "start0": 28871060,
+          "end0": 28871079,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "DGKB",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 28827964,
+              "gene_end0": 29521435
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051834.1",
+          "start0": 38136498,
+          "end0": 38136517,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119866943",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 38131860,
+              "gene_end0": 38137407
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051826.1",
+          "start0": 9356820,
+          "end0": 9356839,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "VWA8",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 9025234,
+              "gene_end0": 9379824
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051813.1",
+          "start0": 17975009,
+          "end0": 17975028,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC106559255",
+              "biotype": "lncRNA",
+              "strand": "+",
+              "gene_start0": 17891142,
+              "gene_end0": 18013889
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051820.1",
+          "start0": 53579453,
+          "end0": 53579472,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051825.1",
+          "start0": 19513514,
+          "end0": 19513533,
+          "strand": "+",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051830.1",
+          "start0": 4066181,
+          "end0": 4066200,
+          "strand": "-",
+          "PAM": "GGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051809.1",
+          "start0": 26137077,
+          "end0": 26137096,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": []
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 108527927,
+          "end0": 108527946,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "FHL1",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 108518917,
+              "gene_end0": 108582088
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051831.1",
+          "start0": 38552084,
+          "end0": 38552105,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "DNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "GPR162",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 38548653,
+              "gene_end0": 38555954
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051812.1",
+          "start0": 32145868,
+          "end0": 32145887,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "PELI2",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 32088572,
+              "gene_end0": 32266054
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051828.1",
+          "start0": 20493475,
+          "end0": 20493494,
+          "strand": "+",
+          "PAM": "AGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "LOC119865595",
+              "biotype": "protein_coding",
+              "strand": "+",
+              "gene_start0": 20491457,
+              "gene_end0": 20498234
+            }
+          ]
+        },
+        {
+          "chrom": "NC_051843.1",
+          "start0": 5482486,
+          "end0": 5482505,
+          "strand": "-",
+          "PAM": "TGG",
+          "PAM_status": "NGG",
+          "bulge": "RNA_bulge",
+          "substitutions": 2,
+          "gene_overlaps": [
+            {
+              "gene": "ANOS1",
+              "biotype": "protein_coding",
+              "strand": "-",
+              "gene_start0": 5352343,
+              "gene_end0": 5540023
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "ungapped_hits": 9,
+        "ungapped_gene_overlapping_hits": 6,
+        "bulge_hits": 18,
+        "bulge_gene_overlapping_hits": 11
+      }
+    }
+  ],
+  "source_hashes": {
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/hypothetical_NGG_panel_20261009/results.json": "c9dc2d70dcd9d37b74e66608cafa4d186f12bb5ba2791e4776fbe55eac59a5b5",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/hypothetical_NGG_single_bulge_20261009/results.json": "6ec7ef924cacc473dc3aa6199e1482842698504febf350b739840d5b7e9b1a39",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/genomic.gff": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019"
+  },
+  "limits": [
+    "Gene overlap identifies annotation context, not editing propensity or gene harm.",
+    "All nine have other reference NGG3mismatch and onebulge2substitution matches.",
+    "No actual nuclease, alternate PAMs/genomes, empirical specificity, or biological clearance."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "state": "failed",
+  "error": "Index summary contains complete FASTA descriptions; FASTA FAI uses first-token identifiers. Exact dictionary comparison failed before a valid receipt was emitted.",
+  "scientific_status": "Index mismatch assertion investigated; original outputs preserved, no acceptance from failed attempt.",
+  "utc": "2026-10-09T13:18:25.1716221Z"
+}

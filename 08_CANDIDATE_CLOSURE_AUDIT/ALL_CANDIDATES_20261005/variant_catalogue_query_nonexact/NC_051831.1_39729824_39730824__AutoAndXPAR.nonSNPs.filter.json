@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-05T12:17:57.211607+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "NC_051831.1_39729824_39730824",
+  "mapping": {
+    "chrom": "NC_049248.1",
+    "start0": 6720125,
+    "end0": 6721125,
+    "cigar": "1000M",
+    "NM": 2,
+    "mapq": 60,
+    "strand": "-",
+    "primary": true,
+    "exact_sequence_verified": false
+  },
+  "projection_status": "unresolved_for_simple_allele_projection",
+  "not_whole_window_clearance": true,
+  "vcf_contig": "chr27",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 3,
+  "allele_count": 3,
+  "alleles": [
+    {
+      "chrom": "chr27",
+      "uu_chrom": "NC_049248.1",
+      "pos1": 6720443,
+      "id": null,
+      "ref": "G",
+      "alt": "GACTTTGTTAATGCATCATGCATCCTGCCTGAAGGGTTAGTAATTTGAATTTTATAGCCTATGCTGTAATTTGAGTTACATCATAGTACTGTATCATTATCCATTTATTTAGTTCAGT",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "QD2"
+      ],
+      "reference_verified": true,
+      "within_alignment_envelope": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr27",
+      "uu_chrom": "NC_049248.1",
+      "pos1": 6720556,
+      "id": null,
+      "ref": "C",
+      "alt": "CGCATTAATGCCATCAACCAAATCAGAAATGCGGGTATCTTTCGGTAGTTGATTTAATAACTCTTTGAAATCTAATTGCATTTTATCAATTTGGGCTTTATATTCTGCCAAATGACGAGCTTT",
+      "alt_index1": 1,
+      "AF": 0.00025159999495372176,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_alignment_envelope": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr27",
+      "uu_chrom": "NC_049248.1",
+      "pos1": 6721046,
+      "id": null,
+      "ref": "C",
+      "alt": "CG",
+      "alt_index1": 1,
+      "AF": 0.0032709999941289425,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_alignment_envelope": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "fae976a6ea9641777c80cd4beb0bcef62e2f6d4867d2a849ecff5c6fa41d3ed9"
+}

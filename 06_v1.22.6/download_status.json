@@ -1,0 +1,107 @@
+{
+  "updated": 1789716165.88717,
+  "files": {
+    "SRR26729600_1": {
+      "status": "verified",
+      "expected_bytes": 4148428448,
+      "bytes": 4148428448
+    },
+    "SRR26729600_2": {
+      "status": "verified",
+      "expected_bytes": 4148498307,
+      "bytes": 4148498307
+    },
+    "SRR26729599_1": {
+      "status": "verified",
+      "expected_bytes": 4248902696,
+      "bytes": 4248902696
+    },
+    "SRR26729599_2": {
+      "status": "verified",
+      "expected_bytes": 4248666785,
+      "bytes": 4248666785
+    },
+    "SRR26729598_1": {
+      "status": "verified",
+      "expected_bytes": 3663410970,
+      "bytes": 3663410970
+    },
+    "SRR26729598_2": {
+      "status": "verified",
+      "expected_bytes": 3663617958,
+      "bytes": 3663617958
+    },
+    "SRR26729597_1": {
+      "status": "verified",
+      "expected_bytes": 3717892261,
+      "bytes": 3717892261
+    },
+    "SRR26729597_2": {
+      "status": "verified",
+      "expected_bytes": 3717944576,
+      "bytes": 3717944576
+    },
+    "SRR26729596_1": {
+      "status": "verified",
+      "expected_bytes": 2911944944,
+      "bytes": 2911944944
+    },
+    "SRR26729596_2": {
+      "status": "verified",
+      "expected_bytes": 2912046121,
+      "bytes": 2912046121
+    },
+    "SRR26729595_1": {
+      "status": "verified",
+      "expected_bytes": 2773454005,
+      "bytes": 2773454005
+    },
+    "SRR26729595_2": {
+      "status": "verified",
+      "expected_bytes": 2773368039,
+      "bytes": 2773368039
+    },
+    "SRR26729594_1": {
+      "status": "verified",
+      "expected_bytes": 3673582811,
+      "attempt": 5,
+      "curl_returncode": 0,
+      "bytes": 3673582811
+    },
+    "SRR26729594_2": {
+      "status": "verified",
+      "expected_bytes": 3673855278,
+      "attempt": 8,
+      "curl_returncode": 0,
+      "bytes": 3673855278
+    },
+    "SRR26729593_1": {
+      "status": "verified",
+      "expected_bytes": 3372130952,
+      "attempt": 4,
+      "curl_returncode": 0,
+      "bytes": 3372130952
+    },
+    "SRR26729593_2": {
+      "status": "verified",
+      "expected_bytes": 3371995011,
+      "attempt": 14,
+      "curl_returncode": 0,
+      "bytes": 3371995011
+    },
+    "SRR26729592_1": {
+      "status": "verified",
+      "expected_bytes": 3435968017,
+      "attempt": 4,
+      "curl_returncode": 0,
+      "bytes": 3435968017
+    },
+    "SRR26729592_2": {
+      "status": "verified",
+      "expected_bytes": 3436425631,
+      "attempt": 14,
+      "curl_returncode": 0,
+      "bytes": 3436425631
+    }
+  }
+}

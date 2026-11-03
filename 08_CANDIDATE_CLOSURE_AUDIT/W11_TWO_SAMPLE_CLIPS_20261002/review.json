@@ -1,0 +1,130 @@
+{
+  "utc": "2026-10-02T18:19:25.584135+00:00",
+  "sample": "PBGV000010",
+  "reference": "UU",
+  "groups": [
+    {
+      "side": "left",
+      "boundary0": 4707925,
+      "reads": 1,
+      "all_BQ20": 0,
+      "clips": [
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      ]
+    },
+    {
+      "side": "right",
+      "boundary0": 4707939,
+      "reads": 7,
+      "all_BQ20": 5,
+      "clips": [
+        "GGGATCCCTGGGTGGCGCAGAGGTT",
+        "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGC",
+        "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCC",
+        "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGG",
+        "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGGGCG",
+        "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGGGCGCGATCCTGGAGACCCG",
+        "GGGATCCCTGGGTGGCGCAGAGGCTTGGCGCCTGCCTTTGGCCCAGGGCGCGATCCTGGAGACCCGGGATC"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "name": "SRR15734832.19313490",
+      "mate": 2,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGTT",
+      "all_BQ20": true,
+      "BQ20_bases": 25,
+      "MAPQ": 60,
+      "cigar": "125M25S"
+    },
+    {
+      "name": "SRR15734832.6766145",
+      "mate": 2,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGC",
+      "all_BQ20": false,
+      "BQ20_bases": 29,
+      "MAPQ": 60,
+      "cigar": "119M31S"
+    },
+    {
+      "name": "SRR15734832.115369889",
+      "mate": 1,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCC",
+      "all_BQ20": true,
+      "BQ20_bases": 44,
+      "MAPQ": 60,
+      "cigar": "106M44S"
+    },
+    {
+      "name": "SRR15734832.33443366",
+      "mate": 2,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGG",
+      "all_BQ20": true,
+      "BQ20_bases": 47,
+      "MAPQ": 60,
+      "cigar": "103M47S"
+    },
+    {
+      "name": "SRR15734832.66864324",
+      "mate": 1,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGGGCG",
+      "all_BQ20": true,
+      "BQ20_bases": 50,
+      "MAPQ": 60,
+      "cigar": "100M50S"
+    },
+    {
+      "name": "SRR15734832.27628065",
+      "mate": 1,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGGGCGCGATCCTGGAGACCCG",
+      "all_BQ20": true,
+      "BQ20_bases": 66,
+      "MAPQ": 60,
+      "cigar": "84M66S"
+    },
+    {
+      "name": "SRR15734832.42922787",
+      "mate": 2,
+      "side": "right",
+      "boundary0": 4707939,
+      "clip": "GGGATCCCTGGGTGGCGCAGAGGCTTGGCGCCTGCCTTTGGCCCAGGGCGCGATCCTGGAGACCCGGGATC",
+      "all_BQ20": false,
+      "BQ20_bases": 70,
+      "MAPQ": 60,
+      "cigar": "79M71S"
+    },
+    {
+      "name": "SRR15734832.132880416",
+      "mate": 2,
+      "side": "left",
+      "boundary0": 4707925,
+      "clip": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATTTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "all_BQ20": false,
+      "BQ20_bases": 69,
+      "MAPQ": 60,
+      "cigar": "77S73M"
+    }
+  ],
+  "ROS14bp_reverse_sequence": "TAAACTTTAAAGAA",
+  "exact14bp_occurrences_in_UU_window0": [
+    4707925
+  ],
+  "limits": [
+    "Same short-read evidence, not orthogonal validation",
+    "Homopolymer clips and14bp spacing do not prove insertion length or full allele",
+    "Reference-local14bp matching is not rigorous whole-flank projection"
+  ]
+}

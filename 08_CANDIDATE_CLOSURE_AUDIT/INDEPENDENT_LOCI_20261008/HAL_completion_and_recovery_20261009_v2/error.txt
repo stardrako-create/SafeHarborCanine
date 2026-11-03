@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/complete_or_recover_HAL_20261009_v2.py", line 16, in <module>
+    subprocess.run(['/usr/bin/python3','-c','import os,select; fd=os.pidfd_open(292); select.select([fd],[],[]); os.close(fd)'],check=True)
+  File "/home/stardrako/miniforge3/envs/atac/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-c', 'import os,select; fd=os.pidfd_open(292); select.select([fd],[],[]); os.close(fd)']' returned non-zero exit status 1.

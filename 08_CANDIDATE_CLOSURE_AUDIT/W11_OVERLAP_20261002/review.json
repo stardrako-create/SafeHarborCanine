@@ -1,0 +1,206 @@
+{
+  "utc": "2026-10-02T15:16:40.175892+00:00",
+  "summary": {
+    "60": {
+      "candidate_overlaps_beyond122": 11,
+      "distinct_reads": 5,
+      "same_pair_links": 0,
+      "spanning_pair_reads": 1,
+      "max_hypothetical_right_end": 208
+    },
+    "80": {
+      "candidate_overlaps_beyond122": 6,
+      "distinct_reads": 3,
+      "same_pair_links": 0,
+      "spanning_pair_reads": 1,
+      "max_hypothetical_right_end": 181
+    },
+    "100": {
+      "candidate_overlaps_beyond122": 2,
+      "distinct_reads": 1,
+      "same_pair_links": 0,
+      "spanning_pair_reads": 0,
+      "max_hypothetical_right_end": 164
+    }
+  },
+  "rows": [
+    {
+      "seed": "SRR14750332.101222071_mate1",
+      "seed_right_end": 50,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.101966084_mate2",
+      "seed_right_end": 48,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.12705144_mate2",
+      "seed_right_end": 119,
+      "candidates": [
+        {
+          "read": "SRR14750332.151036798_mate1",
+          "strand": "+",
+          "overlap": 69,
+          "extension": "CTATGTCTCTGCCCCTCTCTCTCTCTCTGTGACTATCATAAAATAAATAAAAAAATAAAAATAAAAAAAAAAATAAAAATC",
+          "right_end_if_correct": 200,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        },
+        {
+          "read": "SRR14750332.17168707_mate2",
+          "strand": "-",
+          "overlap": 105,
+          "extension": "CTTTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGAC",
+          "right_end_if_correct": 164,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        },
+        {
+          "read": "SRR14750332.46922360_mate2",
+          "strand": "+",
+          "overlap": 61,
+          "extension": "CTTTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAATAAAAATTAAATAAATAAATAAATAAATAAG",
+          "right_end_if_correct": 208,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        },
+        {
+          "read": "SRR14750332.5050682_mate1",
+          "strand": "-",
+          "overlap": 91,
+          "extension": "CTTTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAAT",
+          "right_end_if_correct": 178,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": true
+        },
+        {
+          "read": "SRR14750332.81907291_mate2",
+          "strand": "+",
+          "overlap": 88,
+          "extension": "CTTTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAATAAA",
+          "right_end_if_correct": 181,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        }
+      ]
+    },
+    {
+      "seed": "SRR14750332.150620752_mate2",
+      "seed_right_end": 36,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.159244344_mate1",
+      "seed_right_end": 62,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.182785640_mate2",
+      "seed_right_end": 69,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.199299879_mate1",
+      "seed_right_end": 122,
+      "candidates": [
+        {
+          "read": "SRR14750332.17168707_mate2",
+          "strand": "-",
+          "overlap": 108,
+          "extension": "TGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGAC",
+          "right_end_if_correct": 164,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        },
+        {
+          "read": "SRR14750332.46922360_mate2",
+          "strand": "+",
+          "overlap": 64,
+          "extension": "TGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAATAAAAATTAAATAAATAAATAAATAAATAAG",
+          "right_end_if_correct": 208,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        },
+        {
+          "read": "SRR14750332.5050682_mate1",
+          "strand": "-",
+          "overlap": 94,
+          "extension": "TGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAAT",
+          "right_end_if_correct": 178,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": true
+        },
+        {
+          "read": "SRR14750332.81907291_mate2",
+          "strand": "+",
+          "overlap": 91,
+          "extension": "TGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAATAAA",
+          "right_end_if_correct": 181,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        }
+      ]
+    },
+    {
+      "seed": "SRR14750332.210784433_mate1",
+      "seed_right_end": 44,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.4907758_mate2",
+      "seed_right_end": 43,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.5050682_mate2",
+      "seed_right_end": 43,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.84746057_mate2",
+      "seed_right_end": 55,
+      "candidates": []
+    },
+    {
+      "seed": "SRR14750332.86877856_mate2",
+      "seed_right_end": 89,
+      "candidates": [
+        {
+          "read": "SRR14750332.17168707_mate2",
+          "strand": "-",
+          "overlap": 75,
+          "extension": "CCGGTGCATGGAGCCTGCTTCTCCCTCTGCCTTTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGAC",
+          "right_end_if_correct": 164,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": false
+        },
+        {
+          "read": "SRR14750332.199299879_mate1",
+          "strand": "-",
+          "overlap": 117,
+          "extension": "CCGGTGCATGGAGCCTGCTTCTCCCTCTGCCTT",
+          "right_end_if_correct": 122,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": true
+        },
+        {
+          "read": "SRR14750332.5050682_mate1",
+          "strand": "-",
+          "overlap": 61,
+          "extension": "CCGGTGCATGGAGCCTGCTTCTCCCTCTGCCTTTGTCTCTGCCTCTCTCTCTCTCTCTCTCTCTCTCTGTGTGACTATCATAAATAAAT",
+          "right_end_if_correct": 178,
+          "same_pair_as_seed": false,
+          "belongs_to_any_spanning_pair": true
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Exploratory single-step exact overlaps; not an assembly",
+    "BQ20 throughout incoming read and seed overlap; mismatched or lower-quality continuations excluded",
+    "Repeated overlaps do not establish physical linkage",
+    "Pair membership alone does not establish insert orientation or structural support",
+    "Candidates beyond122 are hypotheses, not observed spanning reads"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "utc": "2026-10-12T11:31:25.4215243Z",
+  "candidate": "ANO2-39708",
+  "locus_filters_supported_in_interrogated_data": true,
+  "complete_audit_approval": false,
+  "biological_validation": false,
+  "newly_fully_approved_count": 0,
+  "actual_nuclease_selected": false,
+  "blocking_input": "Actual nuclease and variant for enzyme-specific guide acceptance",
+  "risk_mapping_union": {
+    "mapped": 2601,
+    "total": 2654,
+    "unresolved": 53
+  },
+  "risk_mapping_by_assembly": [
+    {
+      "assembly": "ROS",
+      "mapped": 2599,
+      "unresolved": 55
+    },
+    {
+      "assembly": "UU",
+      "mapped": 2592,
+      "unresolved": 62
+    }
+  ],
+  "local_lncRNA_risk_correspondence_unknown_count": 4,
+  "unknowns_are_not_pass_or_demonstrated_veto": true,
+  "workers_this_batch_completed": true,
+  "pending_worker_count": 0,
+  "stop_reason": "Defined reference scans and bounded annotation follow-ups complete; actual nuclease missing and remaining annotation/function coverage not resolved by these data",
+  "automation": {
+    "goal_achieved": false,
+    "deleteStatus": "deleted",
+    "id": "auditar-todos-os-candidatos-safe-harbor"
+  },
+  "mempalace": {
+    "local_queue_preserved": true,
+    "end_retry": "MCP SSE HTTP404",
+    "sync": false
+  },
+  "source_hashes": [
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_two_guides_full_UU_20261009\\results.json",
+      "sha256": "3e55d76564bb23ae3eb760c41aa03c87d1bac3ed6b15b5d2e07a96ea0981a25a"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\full_UU_index_integrity_20261009_v2\\receipt.json",
+      "sha256": "fd738a2521cd8d155d6f77a602d8ec94621604dc5295fe864da2dabca2a7c189"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_UU_annotation_crosscheck_20261009\\receipt.json",
+      "sha256": "654c51998ebc34681e8ac37bb700d1686329e5ab938bc6b078bac0fc7641e5eb"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_offsite_catalogue_combinations_20261009\\receipt.json",
+      "sha256": "261aa62b65d4dadad761a5bbc1287be5b990d49fa26d2cd3416686f5ac68f228"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\risk_HGNC_rename_audit_20261009\\receipt.json",
+      "sha256": "2f63e45860be4eaef907ac1506dad36d5740d391b7ada377536d78d881d7baad"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\risk_NCBI_canine_GeneID_followup_20261009_v2\\receipt.json",
+      "sha256": "566bcf7104a69a26a67ed605bdba4fc3caa2e5296c3e66520258c45937259438"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\risk_mapping_final_coverage_by_assembly_20261009.json",
+      "sha256": "dcbbc57ec320c0348fd9422e2d03bb40dd88cae8bf5925926d2d7dc7bc5d2f1a"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_local_gene_inventory_20261009.json",
+      "sha256": "05359b821cdb929e2eaae34e34cee6e01392581b7d8daf25ec12498241bbce58"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\ANO2_local_ortholog_risk_review_20261009\\receipt.json",
+      "sha256": "36818052656ae8ef47cb7147b9c08ff6d99f2eebc4f440fea9917a96d4569207"
+    },
+    {
+      "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\INDEPENDENT_LOCI_20261008\\remote_conservation_taxa_review_20261009\\receipt.json",
+      "sha256": "488983dcf1f4007ac3a4233d76676589d26fdd8bbf28056493a30f730d73d560"
+    }
+  ],
+  "report": {
+    "sha256": "d8b451dbf04140ed36ba819f49e5e7a27533f7c974ed28cf3529f6501e81cf84",
+    "path": "D:\\Biblioteca\\Bioquímica 1º ano 2025-2026\\2º Semestre\\Vasco M. Barreto\\Safe Harbor Canino\\08_CANDIDATE_CLOSURE_AUDIT\\ALL_CANDIDATES_20261005\\ANO2_REVIEW_AND_DEPENDENCIES_20261009_v7.md"
+  }
+}

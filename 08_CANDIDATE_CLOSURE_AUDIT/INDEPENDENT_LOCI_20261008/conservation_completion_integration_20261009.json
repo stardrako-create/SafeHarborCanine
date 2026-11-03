@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-09T12:50:30.2582589Z",
+  "HAL_completed": true,
+  "taxa_review_completed": true,
+  "HAL_v4_started": false,
+  "UU_worker_pid": 812,
+  "whole_audit_approved": false,
+  "limits": "Original SHIP geometry not met by three independent expansion gaps; conservation PASS is not overall PASS",
+  "taxa_receipt_sha256": "488983dcf1f4007ac3a4233d76676589d26fdd8bbf28056493a30f730d73d560"
+}

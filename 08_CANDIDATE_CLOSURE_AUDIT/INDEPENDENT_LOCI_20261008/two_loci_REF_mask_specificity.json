@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "masked_bases": 15,
+      "mask_offsets": [
+        21,
+        29,
+        126,
+        141,
+        145,
+        147,
+        154,
+        174,
+        200,
+        270,
+        379,
+        464,
+        481,
+        482,
+        511
+      ],
+      "segments": {
+        "20": {
+          "total": 981,
+          "unique": 957,
+          "unique_outside_REF_mask": 748
+        },
+        "25": {
+          "total": 976,
+          "unique": 976,
+          "unique_outside_REF_mask": 730
+        },
+        "50": {
+          "total": 951,
+          "unique": 951,
+          "unique_outside_REF_mask": 600
+        },
+        "100": {
+          "total": 901,
+          "unique": 901,
+          "unique_outside_REF_mask": 398
+        }
+      },
+      "approved": false
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "masked_bases": 12,
+      "mask_offsets": [
+        232,
+        307,
+        321,
+        322,
+        334,
+        367,
+        427,
+        446,
+        676,
+        685,
+        702,
+        945
+      ],
+      "segments": {
+        "20": {
+          "total": 981,
+          "unique": 938,
+          "unique_outside_REF_mask": 748
+        },
+        "25": {
+          "total": 976,
+          "unique": 976,
+          "unique_outside_REF_mask": 754
+        },
+        "50": {
+          "total": 951,
+          "unique": 951,
+          "unique_outside_REF_mask": 596
+        },
+        "100": {
+          "total": 901,
+          "unique": 901,
+          "unique_outside_REF_mask": 406
+        }
+      },
+      "approved": false
+    }
+  ],
+  "limitations": [
+    "Mask is observed PASS REF spans and assembly differences, not all indel effects.",
+    "No mismatch/bulge/PAM off-target assessment.",
+    "Conservation and regional ATAC still pending."
+  ]
+}

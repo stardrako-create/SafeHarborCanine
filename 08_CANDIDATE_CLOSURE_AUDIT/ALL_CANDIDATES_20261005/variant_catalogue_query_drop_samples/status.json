@@ -1,0 +1,239 @@
+{
+  "started_utc": "2026-10-05T12:11:45.711704+00:00",
+  "state": "query_completed_projection_pending",
+  "projection_sha256": "e56e2d9e0f39b11011b122c9fda68ae43c3f998b3efa5eaa1b971a2e921d0682",
+  "completed": [
+    {
+      "key": "NC_051811.1_17255706_17256706__AutoAndXPAR.SNPs.vqsr99",
+      "records": 26,
+      "alleles": 27
+    },
+    {
+      "key": "NC_051811.1_17256206_17257206__AutoAndXPAR.SNPs.vqsr99",
+      "records": 31,
+      "alleles": 31
+    },
+    {
+      "key": "NC_051836.1_27040911_27041911__AutoAndXPAR.SNPs.vqsr99",
+      "records": 18,
+      "alleles": 18
+    },
+    {
+      "key": "NC_051836.1_27041161_27042161__AutoAndXPAR.SNPs.vqsr99",
+      "records": 18,
+      "alleles": 18
+    },
+    {
+      "key": "NC_051836.1_27041411_27042411__AutoAndXPAR.SNPs.vqsr99",
+      "records": 16,
+      "alleles": 16
+    },
+    {
+      "key": "NC_051836.1_27041661_27042661__AutoAndXPAR.SNPs.vqsr99",
+      "records": 21,
+      "alleles": 21
+    },
+    {
+      "key": "NC_051836.1_27050411_27051411__AutoAndXPAR.SNPs.vqsr99",
+      "records": 27,
+      "alleles": 27
+    },
+    {
+      "key": "NC_051836.1_27050661_27051661__AutoAndXPAR.SNPs.vqsr99",
+      "records": 23,
+      "alleles": 23
+    },
+    {
+      "key": "NC_051811.1_17245456_17246456__AutoAndXPAR.SNPs.vqsr99",
+      "records": 16,
+      "alleles": 16
+    },
+    {
+      "key": "NC_051831.1_39682574_39683574__AutoAndXPAR.SNPs.vqsr99",
+      "records": 22,
+      "alleles": 23
+    },
+    {
+      "key": "NC_051831.1_39686324_39687324__AutoAndXPAR.SNPs.vqsr99",
+      "records": 19,
+      "alleles": 19
+    },
+    {
+      "key": "NC_051831.1_39686574_39687574__AutoAndXPAR.SNPs.vqsr99",
+      "records": 21,
+      "alleles": 21
+    },
+    {
+      "key": "NC_051831.1_39709574_39710574__AutoAndXPAR.SNPs.vqsr99",
+      "records": 22,
+      "alleles": 22
+    },
+    {
+      "key": "NC_051831.1_39709824_39710824__AutoAndXPAR.SNPs.vqsr99",
+      "records": 23,
+      "alleles": 23
+    },
+    {
+      "key": "NC_051831.1_39710074_39711074__AutoAndXPAR.SNPs.vqsr99",
+      "records": 34,
+      "alleles": 43
+    },
+    {
+      "key": "NC_051831.1_39710324_39711324__AutoAndXPAR.SNPs.vqsr99",
+      "records": 41,
+      "alleles": 50
+    },
+    {
+      "key": "NC_051831.1_39710574_39711574__AutoAndXPAR.SNPs.vqsr99",
+      "records": 39,
+      "alleles": 48
+    },
+    {
+      "key": "NC_051836.1_27033411_27034411__AutoAndXPAR.SNPs.vqsr99",
+      "records": 40,
+      "alleles": 44
+    },
+    {
+      "key": "NC_051836.1_27047661_27048661__AutoAndXPAR.SNPs.vqsr99",
+      "records": 20,
+      "alleles": 20
+    },
+    {
+      "key": "NC_051836.1_27048161_27049161__AutoAndXPAR.SNPs.vqsr99",
+      "records": 17,
+      "alleles": 17
+    },
+    {
+      "key": "NC_051836.1_27048411_27049411__AutoAndXPAR.SNPs.vqsr99",
+      "records": 13,
+      "alleles": 13
+    },
+    {
+      "key": "NC_051836.1_27070161_27071161__AutoAndXPAR.SNPs.vqsr99",
+      "records": 16,
+      "alleles": 16
+    },
+    {
+      "key": "NC_051836.1_27070204_27071204__AutoAndXPAR.SNPs.vqsr99",
+      "records": 16,
+      "alleles": 16
+    },
+    {
+      "key": "NC_051811.1_17255706_17256706__AutoAndXPAR.nonSNPs.filter",
+      "records": 0,
+      "alleles": 0
+    },
+    {
+      "key": "NC_051811.1_17256206_17257206__AutoAndXPAR.nonSNPs.filter",
+      "records": 3,
+      "alleles": 6
+    },
+    {
+      "key": "NC_051836.1_27040911_27041911__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 3
+    },
+    {
+      "key": "NC_051836.1_27041161_27042161__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 3
+    },
+    {
+      "key": "NC_051836.1_27041411_27042411__AutoAndXPAR.nonSNPs.filter",
+      "records": 6,
+      "alleles": 7
+    },
+    {
+      "key": "NC_051836.1_27041661_27042661__AutoAndXPAR.nonSNPs.filter",
+      "records": 6,
+      "alleles": 7
+    },
+    {
+      "key": "NC_051836.1_27050411_27051411__AutoAndXPAR.nonSNPs.filter",
+      "records": 3,
+      "alleles": 11
+    },
+    {
+      "key": "NC_051836.1_27050661_27051661__AutoAndXPAR.nonSNPs.filter",
+      "records": 3,
+      "alleles": 11
+    },
+    {
+      "key": "NC_051811.1_17245456_17246456__AutoAndXPAR.nonSNPs.filter",
+      "records": 1,
+      "alleles": 1
+    },
+    {
+      "key": "NC_051831.1_39682574_39683574__AutoAndXPAR.nonSNPs.filter",
+      "records": 3,
+      "alleles": 3
+    },
+    {
+      "key": "NC_051831.1_39686324_39687324__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 4
+    },
+    {
+      "key": "NC_051831.1_39686574_39687574__AutoAndXPAR.nonSNPs.filter",
+      "records": 0,
+      "alleles": 0
+    },
+    {
+      "key": "NC_051831.1_39709574_39710574__AutoAndXPAR.nonSNPs.filter",
+      "records": 7,
+      "alleles": 7
+    },
+    {
+      "key": "NC_051831.1_39709824_39710824__AutoAndXPAR.nonSNPs.filter",
+      "records": 7,
+      "alleles": 7
+    },
+    {
+      "key": "NC_051831.1_39710074_39711074__AutoAndXPAR.nonSNPs.filter",
+      "records": 14,
+      "alleles": 23
+    },
+    {
+      "key": "NC_051831.1_39710324_39711324__AutoAndXPAR.nonSNPs.filter",
+      "records": 13,
+      "alleles": 22
+    },
+    {
+      "key": "NC_051831.1_39710574_39711574__AutoAndXPAR.nonSNPs.filter",
+      "records": 11,
+      "alleles": 20
+    },
+    {
+      "key": "NC_051836.1_27033411_27034411__AutoAndXPAR.nonSNPs.filter",
+      "records": 17,
+      "alleles": 39
+    },
+    {
+      "key": "NC_051836.1_27047661_27048661__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 3
+    },
+    {
+      "key": "NC_051836.1_27048161_27049161__AutoAndXPAR.nonSNPs.filter",
+      "records": 2,
+      "alleles": 2
+    },
+    {
+      "key": "NC_051836.1_27048411_27049411__AutoAndXPAR.nonSNPs.filter",
+      "records": 1,
+      "alleles": 1
+    },
+    {
+      "key": "NC_051836.1_27070161_27071161__AutoAndXPAR.nonSNPs.filter",
+      "records": 5,
+      "alleles": 6
+    },
+    {
+      "key": "NC_051836.1_27070204_27071204__AutoAndXPAR.nonSNPs.filter",
+      "records": 4,
+      "alleles": 5
+    }
+  ],
+  "errors": [],
+  "updated_utc": "2026-10-05T12:16:42.662434+00:00"
+}

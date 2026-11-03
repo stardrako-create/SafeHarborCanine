@@ -1,0 +1,56 @@
+[
+  {
+    "id": "bg1k_0836",
+    "repeat_bp": 159,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_0861",
+    "repeat_bp": 425,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_1059",
+    "repeat_bp": 90,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_1216",
+    "repeat_bp": 0,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_1266",
+    "repeat_bp": 0,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_1654",
+    "repeat_bp": 222,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_1900",
+    "repeat_bp": 470,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_2150",
+    "repeat_bp": 270,
+    "exceeds_legacy_50pct": false,
+    "approved": false
+  },
+  {
+    "id": "bg1k_2340",
+    "repeat_bp": 541,
+    "exceeds_legacy_50pct": true,
+    "approved": false
+  }
+]

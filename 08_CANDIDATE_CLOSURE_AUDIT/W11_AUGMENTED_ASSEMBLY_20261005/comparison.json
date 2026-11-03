@@ -1,0 +1,9 @@
+{
+  "identical_sequence_sets": true,
+  "old_only": 0,
+  "new_only": 0,
+  "sha256": {
+    "/mnt/d/SafeHarborWork/w11_spades_20261004_ascii/assembly_libfix/contigs.fasta": "2b4481e48a6d0c9fbcb0c0af50f18cd06ed98ea97bd89afbceceff0d251b5808",
+    "/mnt/d/SafeHarborWork/w11_augmented_20261005/assembly/contigs.fasta": "fc82662227bafbe719cd9d9bc09182c8a92e40689d82b60477ff7b8a72a8d5fa"
+  }
+}

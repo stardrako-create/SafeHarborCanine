@@ -1,0 +1,2780 @@
+{
+  "results": [
+    {
+      "id": "NC_051811.1_17234956_17235956",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "452M16I183M2D349M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 284,
+          "UU_start0": 17382280,
+          "UU_end0": 17382564,
+          "length": 284
+        },
+        {
+          "ROS_offset_start0": 285,
+          "ROS_offset_end0": 404,
+          "UU_start0": 17382565,
+          "UU_end0": 17382684,
+          "length": 119
+        },
+        {
+          "ROS_offset_start0": 406,
+          "ROS_offset_end0": 452,
+          "UU_start0": 17382686,
+          "UU_end0": 17382732,
+          "length": 46
+        },
+        {
+          "ROS_offset_start0": 468,
+          "ROS_offset_end0": 651,
+          "UU_start0": 17382732,
+          "UU_end0": 17382915,
+          "length": 183
+        },
+        {
+          "ROS_offset_start0": 652,
+          "ROS_offset_end0": 822,
+          "UU_start0": 17382918,
+          "UU_end0": 17383088,
+          "length": 170
+        },
+        {
+          "ROS_offset_start0": 823,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17383089,
+          "UU_end0": 17383266,
+          "length": 177
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 284,
+          "UU_position0": 17382564,
+          "query_in_UU_orientation": "G",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 404,
+          "UU_position0": 17382684,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 405,
+          "UU_position0": 17382685,
+          "query_in_UU_orientation": "T",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 651,
+          "UU_position0": 17382917,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 822,
+          "UU_position0": 17383088,
+          "query_in_UU_orientation": "A",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467
+      ],
+      "UU_deleted_positions": [
+        17382915,
+        17382916
+      ]
+    },
+    {
+      "id": "NC_051811.1_17255706_17256706",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17403010,
+          "UU_end0": 17404010,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051811.1_17256206_17257206",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17403510,
+          "UU_end0": 17404510,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39713074_39714074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 921,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6736835,
+          "UU_end0": 6736914,
+          "length": 79
+        },
+        {
+          "ROS_offset_start0": 716,
+          "ROS_offset_end0": 920,
+          "UU_start0": 6736915,
+          "UU_end0": 6737119,
+          "length": 204
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 715,
+          "UU_start0": 6737120,
+          "UU_end0": 6737835,
+          "length": 715
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 920,
+          "UU_position0": 6736914,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 715,
+          "UU_position0": 6737119,
+          "query_in_UU_orientation": "G",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39729824_39730824",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 887,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6720125,
+          "UU_end0": 6720238,
+          "length": 113
+        },
+        {
+          "ROS_offset_start0": 183,
+          "ROS_offset_end0": 886,
+          "UU_start0": 6720239,
+          "UU_end0": 6720942,
+          "length": 703
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 182,
+          "UU_start0": 6720943,
+          "UU_end0": 6721125,
+          "length": 182
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 886,
+          "UU_position0": 6720238,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 182,
+          "UU_position0": 6720942,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39730074_39731074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 796,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6719875,
+          "UU_end0": 6720079,
+          "length": 204
+        },
+        {
+          "ROS_offset_start0": 637,
+          "ROS_offset_end0": 795,
+          "UU_start0": 6720080,
+          "UU_end0": 6720238,
+          "length": 158
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 636,
+          "UU_start0": 6720239,
+          "UU_end0": 6720875,
+          "length": 636
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 795,
+          "UU_position0": 6720079,
+          "query_in_UU_orientation": "T",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 636,
+          "UU_position0": 6720238,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39730324_39731324",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 774,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6719625,
+          "UU_end0": 6719851,
+          "length": 226
+        },
+        {
+          "ROS_offset_start0": 546,
+          "ROS_offset_end0": 773,
+          "UU_start0": 6719852,
+          "UU_end0": 6720079,
+          "length": 227
+        },
+        {
+          "ROS_offset_start0": 387,
+          "ROS_offset_end0": 545,
+          "UU_start0": 6720080,
+          "UU_end0": 6720238,
+          "length": 158
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 386,
+          "UU_start0": 6720239,
+          "UU_end0": 6720625,
+          "length": 386
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 773,
+          "UU_position0": 6719851,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 545,
+          "UU_position0": 6720079,
+          "query_in_UU_orientation": "T",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 386,
+          "UU_position0": 6720238,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27039161_27040161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "467M1I532M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 533,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13080665,
+          "UU_end0": 13081132,
+          "length": 467
+        },
+        {
+          "ROS_offset_start0": 520,
+          "ROS_offset_end0": 532,
+          "UU_start0": 13081132,
+          "UU_end0": 13081144,
+          "length": 12
+        },
+        {
+          "ROS_offset_start0": 400,
+          "ROS_offset_end0": 519,
+          "UU_start0": 13081145,
+          "UU_end0": 13081264,
+          "length": 119
+        },
+        {
+          "ROS_offset_start0": 358,
+          "ROS_offset_end0": 399,
+          "UU_start0": 13081265,
+          "UU_end0": 13081306,
+          "length": 41
+        },
+        {
+          "ROS_offset_start0": 205,
+          "ROS_offset_end0": 357,
+          "UU_start0": 13081307,
+          "UU_end0": 13081459,
+          "length": 152
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 204,
+          "UU_start0": 13081460,
+          "UU_end0": 13081664,
+          "length": 204
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 519,
+          "UU_position0": 13081144,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 399,
+          "UU_position0": 13081264,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 357,
+          "UU_position0": 13081306,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 204,
+          "UU_position0": 13081459,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        532
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27039411_27040411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "717M1I282M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 283,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13080415,
+          "UU_end0": 13081132,
+          "length": 717
+        },
+        {
+          "ROS_offset_start0": 270,
+          "ROS_offset_end0": 282,
+          "UU_start0": 13081132,
+          "UU_end0": 13081144,
+          "length": 12
+        },
+        {
+          "ROS_offset_start0": 150,
+          "ROS_offset_end0": 269,
+          "UU_start0": 13081145,
+          "UU_end0": 13081264,
+          "length": 119
+        },
+        {
+          "ROS_offset_start0": 108,
+          "ROS_offset_end0": 149,
+          "UU_start0": 13081265,
+          "UU_end0": 13081306,
+          "length": 41
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 107,
+          "UU_start0": 13081307,
+          "UU_end0": 13081414,
+          "length": 107
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 269,
+          "UU_position0": 13081144,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 149,
+          "UU_position0": 13081264,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 107,
+          "UU_position0": 13081306,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        282
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27040661_27041661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "870M1D130M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 233,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13079164,
+          "UU_end0": 13079931,
+          "length": 767
+        },
+        {
+          "ROS_offset_start0": 225,
+          "ROS_offset_end0": 232,
+          "UU_start0": 13079932,
+          "UU_end0": 13079939,
+          "length": 7
+        },
+        {
+          "ROS_offset_start0": 130,
+          "ROS_offset_end0": 224,
+          "UU_start0": 13079940,
+          "UU_end0": 13080034,
+          "length": 94
+        },
+        {
+          "ROS_offset_start0": 9,
+          "ROS_offset_end0": 130,
+          "UU_start0": 13080035,
+          "UU_end0": 13080156,
+          "length": 121
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 8,
+          "UU_start0": 13080157,
+          "UU_end0": 13080165,
+          "length": 8
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 232,
+          "UU_position0": 13079931,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 224,
+          "UU_position0": 13079939,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 8,
+          "UU_position0": 13080156,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13080034
+      ]
+    },
+    {
+      "id": "NC_051836.1_27040911_27041911",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13078914,
+          "UU_end0": 13079914,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27041161_27042161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13078664,
+          "UU_end0": 13079664,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27041411_27042411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13078414,
+          "UU_end0": 13079414,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27041661_27042661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13078164,
+          "UU_end0": 13079164,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27050411_27051411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13069408,
+          "UU_end0": 13070408,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27050661_27051661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13069158,
+          "UU_end0": 13070158,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051811.1_17222706_17223706",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "921M5I74M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 23,
+          "UU_start0": 17369812,
+          "UU_end0": 17369835,
+          "length": 23
+        },
+        {
+          "ROS_offset_start0": 24,
+          "ROS_offset_end0": 674,
+          "UU_start0": 17369836,
+          "UU_end0": 17370486,
+          "length": 650
+        },
+        {
+          "ROS_offset_start0": 675,
+          "ROS_offset_end0": 921,
+          "UU_start0": 17370487,
+          "UU_end0": 17370733,
+          "length": 246
+        },
+        {
+          "ROS_offset_start0": 926,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17370733,
+          "UU_end0": 17370807,
+          "length": 74
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 23,
+          "UU_position0": 17369835,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 674,
+          "UU_position0": 17370486,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        921,
+        922,
+        923,
+        924,
+        925
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051811.1_17222956_17223956",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "671M5I324M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 424,
+          "UU_start0": 17370062,
+          "UU_end0": 17370486,
+          "length": 424
+        },
+        {
+          "ROS_offset_start0": 425,
+          "ROS_offset_end0": 671,
+          "UU_start0": 17370487,
+          "UU_end0": 17370733,
+          "length": 246
+        },
+        {
+          "ROS_offset_start0": 676,
+          "ROS_offset_end0": 881,
+          "UU_start0": 17370733,
+          "UU_end0": 17370938,
+          "length": 205
+        },
+        {
+          "ROS_offset_start0": 882,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17370939,
+          "UU_end0": 17371057,
+          "length": 118
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 424,
+          "UU_position0": 17370486,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 881,
+          "UU_position0": 17370938,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        671,
+        672,
+        673,
+        674,
+        675
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051811.1_17230206_17231206",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "152M2D848M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 152,
+          "UU_start0": 17377305,
+          "UU_end0": 17377457,
+          "length": 152
+        },
+        {
+          "ROS_offset_start0": 152,
+          "ROS_offset_end0": 469,
+          "UU_start0": 17377459,
+          "UU_end0": 17377776,
+          "length": 317
+        },
+        {
+          "ROS_offset_start0": 470,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17377777,
+          "UU_end0": 17378307,
+          "length": 530
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 469,
+          "UU_position0": 17377776,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        17377457,
+        17377458
+      ]
+    },
+    {
+      "id": "NC_051811.1_17235206_17236206",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "202M16I183M2D599M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 34,
+          "UU_start0": 17382530,
+          "UU_end0": 17382564,
+          "length": 34
+        },
+        {
+          "ROS_offset_start0": 35,
+          "ROS_offset_end0": 154,
+          "UU_start0": 17382565,
+          "UU_end0": 17382684,
+          "length": 119
+        },
+        {
+          "ROS_offset_start0": 156,
+          "ROS_offset_end0": 202,
+          "UU_start0": 17382686,
+          "UU_end0": 17382732,
+          "length": 46
+        },
+        {
+          "ROS_offset_start0": 218,
+          "ROS_offset_end0": 401,
+          "UU_start0": 17382732,
+          "UU_end0": 17382915,
+          "length": 183
+        },
+        {
+          "ROS_offset_start0": 402,
+          "ROS_offset_end0": 572,
+          "UU_start0": 17382918,
+          "UU_end0": 17383088,
+          "length": 170
+        },
+        {
+          "ROS_offset_start0": 573,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17383089,
+          "UU_end0": 17383516,
+          "length": 427
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 34,
+          "UU_position0": 17382564,
+          "query_in_UU_orientation": "G",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 154,
+          "UU_position0": 17382684,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 155,
+          "UU_position0": 17382685,
+          "query_in_UU_orientation": "T",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 401,
+          "UU_position0": 17382917,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 572,
+          "UU_position0": 17383088,
+          "query_in_UU_orientation": "A",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "UU_deleted_positions": [
+        17382915,
+        17382916
+      ]
+    },
+    {
+      "id": "NC_051811.1_17235706_17236706",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 72,
+          "UU_start0": 17383016,
+          "UU_end0": 17383088,
+          "length": 72
+        },
+        {
+          "ROS_offset_start0": 73,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17383089,
+          "UU_end0": 17384016,
+          "length": 927
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 72,
+          "UU_position0": 17383088,
+          "query_in_UU_orientation": "A",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051811.1_17240706_17241706",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "933M1D67M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 402,
+          "UU_start0": 17388020,
+          "UU_end0": 17388422,
+          "length": 402
+        },
+        {
+          "ROS_offset_start0": 403,
+          "ROS_offset_end0": 432,
+          "UU_start0": 17388423,
+          "UU_end0": 17388452,
+          "length": 29
+        },
+        {
+          "ROS_offset_start0": 433,
+          "ROS_offset_end0": 677,
+          "UU_start0": 17388453,
+          "UU_end0": 17388697,
+          "length": 244
+        },
+        {
+          "ROS_offset_start0": 678,
+          "ROS_offset_end0": 698,
+          "UU_start0": 17388698,
+          "UU_end0": 17388718,
+          "length": 20
+        },
+        {
+          "ROS_offset_start0": 699,
+          "ROS_offset_end0": 933,
+          "UU_start0": 17388719,
+          "UU_end0": 17388953,
+          "length": 234
+        },
+        {
+          "ROS_offset_start0": 933,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17388954,
+          "UU_end0": 17389021,
+          "length": 67
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 402,
+          "UU_position0": 17388422,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 432,
+          "UU_position0": 17388452,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 677,
+          "UU_position0": 17388697,
+          "query_in_UU_orientation": "T",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 698,
+          "UU_position0": 17388718,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        17388953
+      ]
+    },
+    {
+      "id": "NC_051811.1_17242956_17243956",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "332M1D668M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 332,
+          "UU_start0": 17390242,
+          "UU_end0": 17390574,
+          "length": 332
+        },
+        {
+          "ROS_offset_start0": 332,
+          "ROS_offset_end0": 670,
+          "UU_start0": 17390575,
+          "UU_end0": 17390913,
+          "length": 338
+        },
+        {
+          "ROS_offset_start0": 671,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17390914,
+          "UU_end0": 17391243,
+          "length": 329
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 670,
+          "UU_position0": 17390913,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        17390574
+      ]
+    },
+    {
+      "id": "NC_051811.1_17245456_17246456",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17392743,
+          "UU_end0": 17393743,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051811.1_17252456_17253456",
+      "UU_chrom": "NC_049228.1",
+      "strand": "+",
+      "mapq": 60,
+      "cigar": "38M3D962M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 38,
+          "UU_start0": 17399757,
+          "UU_end0": 17399795,
+          "length": 38
+        },
+        {
+          "ROS_offset_start0": 38,
+          "ROS_offset_end0": 678,
+          "UU_start0": 17399798,
+          "UU_end0": 17400438,
+          "length": 640
+        },
+        {
+          "ROS_offset_start0": 679,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 17400439,
+          "UU_end0": 17400760,
+          "length": 321
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 678,
+          "UU_position0": 17400438,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        17399795,
+        17399796,
+        17399797
+      ]
+    },
+    {
+      "id": "NC_051831.1_39682574_39683574",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6767341,
+          "UU_end0": 6768341,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39685324_39686324",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "24M1D521M1D455M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 976,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6764589,
+          "UU_end0": 6764613,
+          "length": 24
+        },
+        {
+          "ROS_offset_start0": 455,
+          "ROS_offset_end0": 976,
+          "UU_start0": 6764614,
+          "UU_end0": 6765135,
+          "length": 521
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 455,
+          "UU_start0": 6765136,
+          "UU_end0": 6765591,
+          "length": 455
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        6764613,
+        6765135
+      ]
+    },
+    {
+      "id": "NC_051831.1_39685574_39686574",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "274M1D521M1D205M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 726,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6764339,
+          "UU_end0": 6764613,
+          "length": 274
+        },
+        {
+          "ROS_offset_start0": 205,
+          "ROS_offset_end0": 726,
+          "UU_start0": 6764614,
+          "UU_end0": 6765135,
+          "length": 521
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 205,
+          "UU_start0": 6765136,
+          "UU_end0": 6765341,
+          "length": 205
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        6764613,
+        6765135
+      ]
+    },
+    {
+      "id": "NC_051831.1_39686074_39687074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "774M1D226M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 226,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6763839,
+          "UU_end0": 6764613,
+          "length": 774
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 226,
+          "UU_start0": 6764614,
+          "UU_end0": 6764840,
+          "length": 226
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        6764613
+      ]
+    },
+    {
+      "id": "NC_051831.1_39686324_39687324",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6763589,
+          "UU_end0": 6764589,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39686574_39687574",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6763339,
+          "UU_end0": 6764339,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39707824_39708824",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 806,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6742085,
+          "UU_end0": 6742279,
+          "length": 194
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 805,
+          "UU_start0": 6742280,
+          "UU_end0": 6743085,
+          "length": 805
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 805,
+          "UU_position0": 6742279,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39708074_39709074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 556,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6741835,
+          "UU_end0": 6742279,
+          "length": 444
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 555,
+          "UU_start0": 6742280,
+          "UU_end0": 6742835,
+          "length": 555
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 555,
+          "UU_position0": 6742279,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39708324_39709324",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 306,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6741585,
+          "UU_end0": 6742279,
+          "length": 694
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 305,
+          "UU_start0": 6742280,
+          "UU_end0": 6742585,
+          "length": 305
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 305,
+          "UU_position0": 6742279,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39709574_39710574",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6740335,
+          "UU_end0": 6741335,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39709824_39710824",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6740085,
+          "UU_end0": 6741085,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39710074_39711074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6739835,
+          "UU_end0": 6740835,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39710324_39711324",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6739585,
+          "UU_end0": 6740585,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39710574_39711574",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6739335,
+          "UU_end0": 6740335,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39714074_39715074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "187M1I812M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 813,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6735836,
+          "UU_end0": 6736023,
+          "length": 187
+        },
+        {
+          "ROS_offset_start0": 561,
+          "ROS_offset_end0": 812,
+          "UU_start0": 6736023,
+          "UU_end0": 6736274,
+          "length": 251
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 560,
+          "UU_start0": 6736275,
+          "UU_end0": 6736835,
+          "length": 560
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 560,
+          "UU_position0": 6736274,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        812
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051831.1_39714824_39715824",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "306M1D631M1I62M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 694,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6735085,
+          "UU_end0": 6735391,
+          "length": 306
+        },
+        {
+          "ROS_offset_start0": 414,
+          "ROS_offset_end0": 694,
+          "UU_start0": 6735392,
+          "UU_end0": 6735672,
+          "length": 280
+        },
+        {
+          "ROS_offset_start0": 63,
+          "ROS_offset_end0": 413,
+          "UU_start0": 6735673,
+          "UU_end0": 6736023,
+          "length": 350
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 62,
+          "UU_start0": 6736023,
+          "UU_end0": 6736085,
+          "length": 62
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 413,
+          "UU_position0": 6735672,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        62
+      ],
+      "UU_deleted_positions": [
+        6735391
+      ]
+    },
+    {
+      "id": "NC_051831.1_39715074_39716074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "556M1D444M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 820,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6734835,
+          "UU_end0": 6735015,
+          "length": 180
+        },
+        {
+          "ROS_offset_start0": 444,
+          "ROS_offset_end0": 819,
+          "UU_start0": 6735016,
+          "UU_end0": 6735391,
+          "length": 375
+        },
+        {
+          "ROS_offset_start0": 164,
+          "ROS_offset_end0": 444,
+          "UU_start0": 6735392,
+          "UU_end0": 6735672,
+          "length": 280
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 163,
+          "UU_start0": 6735673,
+          "UU_end0": 6735836,
+          "length": 163
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 819,
+          "UU_position0": 6735015,
+          "query_in_UU_orientation": "G",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 163,
+          "UU_position0": 6735672,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        6735391
+      ]
+    },
+    {
+      "id": "NC_051831.1_39735074_39736074",
+      "UU_chrom": "NC_049248.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "691M2D309M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 912,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 6714869,
+          "UU_end0": 6714957,
+          "length": 88
+        },
+        {
+          "ROS_offset_start0": 722,
+          "ROS_offset_end0": 911,
+          "UU_start0": 6714958,
+          "UU_end0": 6715147,
+          "length": 189
+        },
+        {
+          "ROS_offset_start0": 670,
+          "ROS_offset_end0": 721,
+          "UU_start0": 6715148,
+          "UU_end0": 6715199,
+          "length": 51
+        },
+        {
+          "ROS_offset_start0": 547,
+          "ROS_offset_end0": 668,
+          "UU_start0": 6715201,
+          "UU_end0": 6715322,
+          "length": 121
+        },
+        {
+          "ROS_offset_start0": 309,
+          "ROS_offset_end0": 546,
+          "UU_start0": 6715323,
+          "UU_end0": 6715560,
+          "length": 237
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 309,
+          "UU_start0": 6715562,
+          "UU_end0": 6715871,
+          "length": 309
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 911,
+          "UU_position0": 6714957,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 721,
+          "UU_position0": 6715147,
+          "query_in_UU_orientation": "G",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 669,
+          "UU_position0": 6715199,
+          "query_in_UU_orientation": "C",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 668,
+          "UU_position0": 6715200,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 546,
+          "UU_position0": 6715322,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        6715560,
+        6715561
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016161_27017161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "236M4D764M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 764,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13103677,
+          "UU_end0": 13103913,
+          "length": 236
+        },
+        {
+          "ROS_offset_start0": 761,
+          "ROS_offset_end0": 764,
+          "UU_start0": 13103917,
+          "UU_end0": 13103920,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 741,
+          "ROS_offset_end0": 760,
+          "UU_start0": 13103921,
+          "UU_end0": 13103940,
+          "length": 19
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 740,
+          "UU_start0": 13103941,
+          "UU_end0": 13104681,
+          "length": 740
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 760,
+          "UU_position0": 13103920,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 740,
+          "UU_position0": 13103940,
+          "query_in_UU_orientation": "G",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13103913,
+        13103914,
+        13103915,
+        13103916
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016411_27017411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "486M4D514M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 514,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13103427,
+          "UU_end0": 13103913,
+          "length": 486
+        },
+        {
+          "ROS_offset_start0": 511,
+          "ROS_offset_end0": 514,
+          "UU_start0": 13103917,
+          "UU_end0": 13103920,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 491,
+          "ROS_offset_end0": 510,
+          "UU_start0": 13103921,
+          "UU_end0": 13103940,
+          "length": 19
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 490,
+          "UU_start0": 13103941,
+          "UU_end0": 13104431,
+          "length": 490
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 510,
+          "UU_position0": 13103920,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 490,
+          "UU_position0": 13103940,
+          "query_in_UU_orientation": "G",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13103913,
+        13103914,
+        13103915,
+        13103916
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016661_27017661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "736M4D264M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 264,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13103177,
+          "UU_end0": 13103913,
+          "length": 736
+        },
+        {
+          "ROS_offset_start0": 261,
+          "ROS_offset_end0": 264,
+          "UU_start0": 13103917,
+          "UU_end0": 13103920,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 241,
+          "ROS_offset_end0": 260,
+          "UU_start0": 13103921,
+          "UU_end0": 13103940,
+          "length": 19
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 240,
+          "UU_start0": 13103941,
+          "UU_end0": 13104181,
+          "length": 240
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 260,
+          "UU_position0": 13103920,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 240,
+          "UU_position0": 13103940,
+          "query_in_UU_orientation": "G",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13103913,
+        13103914,
+        13103915,
+        13103916
+      ]
+    },
+    {
+      "id": "NC_051836.1_27016911_27017911",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "986M4D14M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 14,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13102927,
+          "UU_end0": 13103913,
+          "length": 986
+        },
+        {
+          "ROS_offset_start0": 11,
+          "ROS_offset_end0": 14,
+          "UU_start0": 13103917,
+          "UU_end0": 13103920,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 10,
+          "UU_start0": 13103921,
+          "UU_end0": 13103931,
+          "length": 10
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 10,
+          "UU_position0": 13103920,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13103913,
+        13103914,
+        13103915,
+        13103916
+      ]
+    },
+    {
+      "id": "NC_051836.1_27017411_27018411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "74M1D926M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 929,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13102426,
+          "UU_end0": 13102497,
+          "length": 71
+        },
+        {
+          "ROS_offset_start0": 926,
+          "ROS_offset_end0": 928,
+          "UU_start0": 13102498,
+          "UU_end0": 13102500,
+          "length": 2
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 926,
+          "UU_start0": 13102501,
+          "UU_end0": 13103427,
+          "length": 926
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 928,
+          "UU_position0": 13102497,
+          "query_in_UU_orientation": "G",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13102500
+      ]
+    },
+    {
+      "id": "NC_051836.1_27017911_27018911",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "25M6D549M1D426M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 975,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13101920,
+          "UU_end0": 13101945,
+          "length": 25
+        },
+        {
+          "ROS_offset_start0": 962,
+          "ROS_offset_end0": 975,
+          "UU_start0": 13101951,
+          "UU_end0": 13101964,
+          "length": 13
+        },
+        {
+          "ROS_offset_start0": 943,
+          "ROS_offset_end0": 961,
+          "UU_start0": 13101965,
+          "UU_end0": 13101983,
+          "length": 18
+        },
+        {
+          "ROS_offset_start0": 584,
+          "ROS_offset_end0": 942,
+          "UU_start0": 13101984,
+          "UU_end0": 13102342,
+          "length": 358
+        },
+        {
+          "ROS_offset_start0": 429,
+          "ROS_offset_end0": 583,
+          "UU_start0": 13102343,
+          "UU_end0": 13102497,
+          "length": 154
+        },
+        {
+          "ROS_offset_start0": 426,
+          "ROS_offset_end0": 428,
+          "UU_start0": 13102498,
+          "UU_end0": 13102500,
+          "length": 2
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 426,
+          "UU_start0": 13102501,
+          "UU_end0": 13102927,
+          "length": 426
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 961,
+          "UU_position0": 13101964,
+          "query_in_UU_orientation": "T",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 942,
+          "UU_position0": 13101983,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 583,
+          "UU_position0": 13102342,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 428,
+          "UU_position0": 13102497,
+          "query_in_UU_orientation": "G",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13101945,
+        13101946,
+        13101947,
+        13101948,
+        13101949,
+        13101950,
+        13102500
+      ]
+    },
+    {
+      "id": "NC_051836.1_27018911_27019911",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "324M1D229M1D44M2I401M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 876,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13100920,
+          "UU_end0": 13101044,
+          "length": 124
+        },
+        {
+          "ROS_offset_start0": 676,
+          "ROS_offset_end0": 875,
+          "UU_start0": 13101045,
+          "UU_end0": 13101244,
+          "length": 199
+        },
+        {
+          "ROS_offset_start0": 447,
+          "ROS_offset_end0": 676,
+          "UU_start0": 13101245,
+          "UU_end0": 13101474,
+          "length": 229
+        },
+        {
+          "ROS_offset_start0": 403,
+          "ROS_offset_end0": 447,
+          "UU_start0": 13101475,
+          "UU_end0": 13101519,
+          "length": 44
+        },
+        {
+          "ROS_offset_start0": 318,
+          "ROS_offset_end0": 401,
+          "UU_start0": 13101519,
+          "UU_end0": 13101602,
+          "length": 83
+        },
+        {
+          "ROS_offset_start0": 299,
+          "ROS_offset_end0": 317,
+          "UU_start0": 13101603,
+          "UU_end0": 13101621,
+          "length": 18
+        },
+        {
+          "ROS_offset_start0": 262,
+          "ROS_offset_end0": 298,
+          "UU_start0": 13101622,
+          "UU_end0": 13101658,
+          "length": 36
+        },
+        {
+          "ROS_offset_start0": 5,
+          "ROS_offset_end0": 261,
+          "UU_start0": 13101659,
+          "UU_end0": 13101915,
+          "length": 256
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 4,
+          "UU_start0": 13101916,
+          "UU_end0": 13101920,
+          "length": 4
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 875,
+          "UU_position0": 13101044,
+          "query_in_UU_orientation": "C",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 317,
+          "UU_position0": 13101602,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 298,
+          "UU_position0": 13101621,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 261,
+          "UU_position0": 13101658,
+          "query_in_UU_orientation": "G",
+          "UU_base": "A"
+        },
+        {
+          "ROS_offset0": 4,
+          "UU_position0": 13101915,
+          "query_in_UU_orientation": "C",
+          "UU_base": "A"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        402,
+        401
+      ],
+      "UU_deleted_positions": [
+        13101244,
+        13101474
+      ]
+    },
+    {
+      "id": "NC_051836.1_27019911_27020911",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "177M4D823M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 823,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13099916,
+          "UU_end0": 13100093,
+          "length": 177
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 823,
+          "UU_start0": 13100097,
+          "UU_end0": 13100920,
+          "length": 823
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13100093,
+        13100094,
+        13100095,
+        13100096
+      ]
+    },
+    {
+      "id": "NC_051836.1_27027161_27028161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "836M2I162M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 757,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13092666,
+          "UU_end0": 13092909,
+          "length": 243
+        },
+        {
+          "ROS_offset_start0": 572,
+          "ROS_offset_end0": 756,
+          "UU_start0": 13092910,
+          "UU_end0": 13093094,
+          "length": 184
+        },
+        {
+          "ROS_offset_start0": 568,
+          "ROS_offset_end0": 571,
+          "UU_start0": 13093095,
+          "UU_end0": 13093098,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 262,
+          "ROS_offset_end0": 567,
+          "UU_start0": 13093099,
+          "UU_end0": 13093404,
+          "length": 305
+        },
+        {
+          "ROS_offset_start0": 164,
+          "ROS_offset_end0": 261,
+          "UU_start0": 13093405,
+          "UU_end0": 13093502,
+          "length": 97
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 162,
+          "UU_start0": 13093502,
+          "UU_end0": 13093664,
+          "length": 162
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 756,
+          "UU_position0": 13092909,
+          "query_in_UU_orientation": "A",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 571,
+          "UU_position0": 13093094,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 567,
+          "UU_position0": 13093098,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 261,
+          "UU_position0": 13093404,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        163,
+        162
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27027411_27028411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 507,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13092416,
+          "UU_end0": 13092909,
+          "length": 493
+        },
+        {
+          "ROS_offset_start0": 322,
+          "ROS_offset_end0": 506,
+          "UU_start0": 13092910,
+          "UU_end0": 13093094,
+          "length": 184
+        },
+        {
+          "ROS_offset_start0": 318,
+          "ROS_offset_end0": 321,
+          "UU_start0": 13093095,
+          "UU_end0": 13093098,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 12,
+          "ROS_offset_end0": 317,
+          "UU_start0": 13093099,
+          "UU_end0": 13093404,
+          "length": 305
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 11,
+          "UU_start0": 13093405,
+          "UU_end0": 13093416,
+          "length": 11
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 506,
+          "UU_position0": 13092909,
+          "query_in_UU_orientation": "A",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 321,
+          "UU_position0": 13093094,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 317,
+          "UU_position0": 13093098,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        },
+        {
+          "ROS_offset0": 11,
+          "UU_position0": 13093404,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27027661_27028661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 257,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13092166,
+          "UU_end0": 13092909,
+          "length": 743
+        },
+        {
+          "ROS_offset_start0": 72,
+          "ROS_offset_end0": 256,
+          "UU_start0": 13092910,
+          "UU_end0": 13093094,
+          "length": 184
+        },
+        {
+          "ROS_offset_start0": 68,
+          "ROS_offset_end0": 71,
+          "UU_start0": 13093095,
+          "UU_end0": 13093098,
+          "length": 3
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 67,
+          "UU_start0": 13093099,
+          "UU_end0": 13093166,
+          "length": 67
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 256,
+          "UU_position0": 13092909,
+          "query_in_UU_orientation": "A",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 71,
+          "UU_position0": 13093094,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 67,
+          "UU_position0": 13093098,
+          "query_in_UU_orientation": "T",
+          "UU_base": "C"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27033411_27034411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13086416,
+          "UU_end0": 13087416,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27047661_27048661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13072158,
+          "UU_end0": 13073158,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27048161_27049161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13071658,
+          "UU_end0": 13072658,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27048411_27049411",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13071408,
+          "UU_end0": 13072408,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27062161_27063161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "440M1D127M1D19M2I412M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 560,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13057651,
+          "UU_end0": 13058091,
+          "length": 440
+        },
+        {
+          "ROS_offset_start0": 544,
+          "ROS_offset_end0": 560,
+          "UU_start0": 13058092,
+          "UU_end0": 13058108,
+          "length": 16
+        },
+        {
+          "ROS_offset_start0": 433,
+          "ROS_offset_end0": 543,
+          "UU_start0": 13058109,
+          "UU_end0": 13058219,
+          "length": 110
+        },
+        {
+          "ROS_offset_start0": 414,
+          "ROS_offset_end0": 433,
+          "UU_start0": 13058220,
+          "UU_end0": 13058239,
+          "length": 19
+        },
+        {
+          "ROS_offset_start0": 234,
+          "ROS_offset_end0": 412,
+          "UU_start0": 13058239,
+          "UU_end0": 13058417,
+          "length": 178
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 232,
+          "UU_start0": 13058419,
+          "UU_end0": 13058651,
+          "length": 232
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 543,
+          "UU_position0": 13058108,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        },
+        {
+          "ROS_offset0": 233,
+          "UU_position0": 13058417,
+          "query_in_UU_orientation": "C",
+          "UU_base": "T"
+        },
+        {
+          "ROS_offset0": 232,
+          "UU_position0": 13058418,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        413,
+        412
+      ],
+      "UU_deleted_positions": [
+        13058091,
+        13058219
+      ]
+    },
+    {
+      "id": "NC_051836.1_27062661_27063661",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "187M2D753M1D60M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 813,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13057149,
+          "UU_end0": 13057336,
+          "length": 187
+        },
+        {
+          "ROS_offset_start0": 60,
+          "ROS_offset_end0": 813,
+          "UU_start0": 13057338,
+          "UU_end0": 13058091,
+          "length": 753
+        },
+        {
+          "ROS_offset_start0": 44,
+          "ROS_offset_end0": 60,
+          "UU_start0": 13058092,
+          "UU_end0": 13058108,
+          "length": 16
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 43,
+          "UU_start0": 13058109,
+          "UU_end0": 13058152,
+          "length": 43
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 43,
+          "UU_position0": 13058108,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        }
+      ],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13057336,
+        13057337,
+        13058091
+      ]
+    },
+    {
+      "id": "NC_051836.1_27064161_27065161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "407M4I589M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 593,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13055652,
+          "UU_end0": 13056059,
+          "length": 407
+        },
+        {
+          "ROS_offset_start0": 238,
+          "ROS_offset_end0": 589,
+          "UU_start0": 13056059,
+          "UU_end0": 13056410,
+          "length": 351
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 237,
+          "UU_start0": 13056411,
+          "UU_end0": 13056648,
+          "length": 237
+        }
+      ],
+      "mismatches": [
+        {
+          "ROS_offset0": 237,
+          "UU_position0": 13056410,
+          "query_in_UU_orientation": "A",
+          "UU_base": "G"
+        }
+      ],
+      "ROS_inserted_offsets": [
+        592,
+        591,
+        590,
+        589
+      ],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27069911_27070911",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "874M1D126M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 126,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13049898,
+          "UU_end0": 13050772,
+          "length": 874
+        },
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 126,
+          "UU_start0": 13050773,
+          "UU_end0": 13050899,
+          "length": 126
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": [
+        13050772
+      ]
+    },
+    {
+      "id": "NC_051836.1_27070161_27071161",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13049648,
+          "UU_end0": 13050648,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    },
+    {
+      "id": "NC_051836.1_27070204_27071204",
+      "UU_chrom": "NC_049253.1",
+      "strand": "-",
+      "mapq": 60,
+      "cigar": "1000M",
+      "exact_blocks": [
+        {
+          "ROS_offset_start0": 0,
+          "ROS_offset_end0": 1000,
+          "UU_start0": 13049605,
+          "UU_end0": 13050605,
+          "length": 1000
+        }
+      ],
+      "mismatches": [],
+      "ROS_inserted_offsets": [],
+      "UU_deleted_positions": []
+    }
+  ],
+  "limitations": [
+    "Exact blocks only; no whole-window clearance for gapped/mismatched alignments",
+    "Indels crossing a block boundary require allele/haplotype reconciliation",
+    "Primary alignment is not proof of exhaustive uniqueness"
+  ]
+}

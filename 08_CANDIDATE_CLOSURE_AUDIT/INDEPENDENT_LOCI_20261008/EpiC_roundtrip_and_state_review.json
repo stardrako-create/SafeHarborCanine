@@ -1,0 +1,534 @@
+{
+  "utc": "2026-10-08T13:06:45.811842+00:00",
+  "roundtrip": [
+    {
+      "id": "NC_051822.1_31499321_31500321",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051830.1_35147473_35148473",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051810.1_54092951_54093951",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 985,
+      "exact_return_bp": 985,
+      "pass_roundtrip": false
+    },
+    {
+      "id": "NC_051828.1_41753808_41754808",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051810.1_34396997_34397997",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051805.1_9698901_9699901",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051826.1_4030104_4031104",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051806.1_32999269_33000269",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051839.1_13978557_13979557",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051809.1_26893945_26894945",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051826.1_56418779_56419779",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051807.1_6162258_6163258",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051831.1_19034940_19035940",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051817.1_24272763_24273763",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051840.1_23998261_23999261",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051831.1_18142232_18143232",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051807.1_2091307_2092307",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051816.1_9525800_9526800",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051822.1_30325702_30326702",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051806.1_45531845_45532845",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051824.1_10227253_10228253",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051826.1_8423204_8424204",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051812.1_32268116_32269116",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051814.1_43352999_43353999",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051823.1_34462065_34463065",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051807.1_84418156_84419156",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051816.1_43724382_43725382",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051827.1_26596631_26597631",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051812.1_44637049_44638049",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051805.1_1486678_1487678",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    },
+    {
+      "id": "NC_051821.1_48836825_48837825",
+      "unique_intermediate_bp": 1000,
+      "unique_return_bp": 1000,
+      "exact_return_bp": 1000,
+      "pass_roundtrip": true
+    }
+  ],
+  "state_review": [
+    {
+      "id": "NC_051822.1_31499321_31500321",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051830.1_35147473_35148473",
+      "promoter_enhancer_tissues": [
+        "KI"
+      ],
+      "states_observed": [
+        2,
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051810.1_54092951_54093951",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        11,
+        13
+      ],
+      "roundtrip_pass": false
+    },
+    {
+      "id": "NC_051828.1_41753808_41754808",
+      "promoter_enhancer_tissues": [
+        "LI"
+      ],
+      "states_observed": [
+        2,
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051810.1_34396997_34397997",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051805.1_9698901_9699901",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051826.1_4030104_4031104",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051806.1_32999269_33000269",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051839.1_13978557_13979557",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051809.1_26893945_26894945",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051826.1_56418779_56419779",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051807.1_6162258_6163258",
+      "promoter_enhancer_tissues": [
+        "MG"
+      ],
+      "states_observed": [
+        6,
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051831.1_19034940_19035940",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051817.1_24272763_24273763",
+      "promoter_enhancer_tissues": [
+        "LU"
+      ],
+      "states_observed": [
+        2,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051840.1_23998261_23999261",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051831.1_18142232_18143232",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        9,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051807.1_2091307_2092307",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        9,
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051816.1_9525800_9526800",
+      "promoter_enhancer_tissues": [
+        "PA"
+      ],
+      "states_observed": [
+        5,
+        7,
+        9,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051822.1_30325702_30326702",
+      "promoter_enhancer_tissues": [
+        "CO"
+      ],
+      "states_observed": [
+        2,
+        9,
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051806.1_45531845_45532845",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051824.1_10227253_10228253",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        12,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051826.1_8423204_8424204",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051812.1_32268116_32269116",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051814.1_43352999_43353999",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051823.1_34462065_34463065",
+      "promoter_enhancer_tissues": [
+        "MG"
+      ],
+      "states_observed": [
+        6,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051807.1_84418156_84419156",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        9,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051816.1_43724382_43725382",
+      "promoter_enhancer_tissues": [],
+      "states_observed": [
+        9,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051827.1_26596631_26597631",
+      "promoter_enhancer_tissues": [
+        "CL"
+      ],
+      "states_observed": [
+        5,
+        6,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051812.1_44637049_44638049",
+      "promoter_enhancer_tissues": [
+        "LU"
+      ],
+      "states_observed": [
+        6,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051805.1_1486678_1487678",
+      "promoter_enhancer_tissues": [
+        "CL"
+      ],
+      "states_observed": [
+        5,
+        13
+      ],
+      "roundtrip_pass": true
+    },
+    {
+      "id": "NC_051821.1_48836825_48837825",
+      "promoter_enhancer_tissues": [
+        "MG"
+      ],
+      "states_observed": [
+        2,
+        13
+      ],
+      "roundtrip_pass": true
+    }
+  ],
+  "chain_sha256": {
+    "canFam3ToCanFam6.over.chain.gz": "0ca70757a47aab3256f1d9f2c0c8fc6c8da4d232159616dab198ba56d1d089a3",
+    "canFam6ToGCF_014441545.1.over.chain.gz": "3edc868e4e3f3f282e35df8e628b27b4df85240483909ef3b8e5d3c7c40077c6"
+  },
+  "state_interpretation": "States1-7 promoter/enhancer as defined in existing regulatory_recheck_v1215.py;13 quiescent",
+  "limitations": [
+    "Coordinate consistency via two additional chain files, not experimental or sequence-identity validation",
+    "Same upstream assembly alignment resources may share dependencies",
+    "Unresolved direct mappings remain unresolved and were not intersected"
+  ]
+}

@@ -1,0 +1,828 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T13:04:09.349534+00:00",
+  "source": "https://ftp.ncbi.nlm.nih.gov/genomes/all/annotation_releases/9615/106/GCF_011100685.1_UU_Cfam_GSD_1.0/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.gff.gz",
+  "source_report": "https://www.ncbi.nlm.nih.gov/refseq/annotation_euk/Canis_lupus_familiaris/106/",
+  "source_headers": {
+    "Date": "Fri, 09 Oct 2026 13:03:52 GMT",
+    "Server": "Apache",
+    "Last-Modified": "Mon, 11 Jan 2021 19:27:01 GMT",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "23310375",
+    "Cache-Control": "public, max-age=86400",
+    "Expires": "Fri, 16 Oct 2026 13:03:52 GMT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,OPTIONS",
+    "Access-Control-Allow-Headers": "RANGE, Cache-control, If-None-Match, Content-Type",
+    "Access-Control-Expose-Headers": "Content-Length, Content-Range, Content-Type",
+    "Keep-Alive": "timeout=5, max=999",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/x-gzip"
+  },
+  "md5": "f820e31b2385da95a003d3fce7662560",
+  "sha256": "a778743911854da826fb8b2e3ee627144eb3d91a65cc478c920c8e1cd9750cfb",
+  "script_sha256": "b1a8c9d94ea82efe8dff568400303905f0d7385123f6633c9a1c2480e004a07f",
+  "UU_window": [
+    "NC_049248.1",
+    6741835,
+    6742835
+  ],
+  "sequence_region": "##sequence-region NC_049248.1 1 46662488",
+  "metadata": [
+    "#!gff-spec-version 1.21",
+    "#!processor NCBI annotwriter",
+    "#!genome-build UU_Cfam_GSD_1.0",
+    "#!genome-build-accession NCBI_Assembly:GCF_011100685.1",
+    "#!annotation-source NCBI Canis lupus familiaris Annotation Release 106"
+  ],
+  "chromosome_feature_counts": {
+    "region": 1,
+    "pseudogene": 122,
+    "exon": 27110,
+    "gene": 836,
+    "mRNA": 1817,
+    "CDS": 21935,
+    "transcript": 124,
+    "lnc_RNA": 427,
+    "snRNA": 21,
+    "snoRNA": 10,
+    "guide_RNA": 2,
+    "primary_transcript": 5,
+    "miRNA": 5,
+    "tRNA": 2,
+    "match": 16,
+    "cDNA_match": 403
+  },
+  "overlaps": [],
+  "nearest_mRNA_TSS": [
+    {
+      "type": "mRNA",
+      "start0": 6639884,
+      "end0": 6711187,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576112.1",
+        "Parent": "gene-NTF3",
+        "Dbxref": "GeneID:486731,Genbank:XM_038576112.1,VGNC:VGNC:44002",
+        "Name": "XM_038576112.1",
+        "gbkey": "mRNA",
+        "gene": "NTF3",
+        "model_evidence": "Supporting evidence includes similarity to: 1 EST, 8 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 5 samples with support for all annotated introns",
+        "product": "neurotrophin 3, transcript variant X2",
+        "transcript_id": "XM_038576112.1"
+      },
+      "tss0": 6639884,
+      "minimum_distance_bp": 101951
+    },
+    {
+      "type": "mRNA",
+      "start0": 6639884,
+      "end0": 6711187,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576114.1",
+        "Parent": "gene-NTF3",
+        "Dbxref": "GeneID:486731,Genbank:XM_038576114.1,VGNC:VGNC:44002",
+        "Name": "XM_038576114.1",
+        "gbkey": "mRNA",
+        "gene": "NTF3",
+        "model_evidence": "Supporting evidence includes similarity to: 1 EST, 8 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 29 samples with support for all annotated introns",
+        "product": "neurotrophin 3, transcript variant X1",
+        "transcript_id": "XM_038576114.1"
+      },
+      "tss0": 6639884,
+      "minimum_distance_bp": 101951
+    },
+    {
+      "type": "mRNA",
+      "start0": 6773566,
+      "end0": 7056656,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576553.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576553.1,VGNC:VGNC:37925",
+        "Name": "XM_038576553.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 6 ESTs, 2 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 3 samples with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X3",
+        "transcript_id": "XM_038576553.1"
+      },
+      "tss0": 7056655,
+      "minimum_distance_bp": 313821
+    },
+    {
+      "type": "mRNA",
+      "start0": 6773566,
+      "end0": 7115529,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576551.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576551.1,VGNC:VGNC:37925",
+        "Name": "XM_038576551.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 6 ESTs, 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 5 samples with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X1",
+        "transcript_id": "XM_038576551.1"
+      },
+      "tss0": 7115528,
+      "minimum_distance_bp": 372694
+    },
+    {
+      "type": "mRNA",
+      "start0": 6783925,
+      "end0": 7115529,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576552.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576552.1,VGNC:VGNC:37925",
+        "Name": "XM_038576552.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 1 sample with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X2",
+        "transcript_id": "XM_038576552.1"
+      },
+      "tss0": 7115528,
+      "minimum_distance_bp": 372694
+    },
+    {
+      "type": "mRNA",
+      "start0": 6808853,
+      "end0": 7115529,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576554.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576554.1,VGNC:VGNC:37925",
+        "Name": "XM_038576554.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 2 samples with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X4",
+        "transcript_id": "XM_038576554.1"
+      },
+      "tss0": 7115528,
+      "minimum_distance_bp": 372694
+    },
+    {
+      "type": "mRNA",
+      "start0": 6281460,
+      "end0": 6283263,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-NM_001006645.2",
+        "Parent": "gene-KCNA5",
+        "Dbxref": "GeneID:403995,Genbank:NM_001006645.2,VGNC:VGNC:42232",
+        "Name": "NM_001006645.2",
+        "gbkey": "mRNA",
+        "gene": "KCNA5",
+        "product": "potassium voltage-gated channel subfamily A member 5",
+        "transcript_id": "NM_001006645.2"
+      },
+      "tss0": 6281460,
+      "minimum_distance_bp": 460375
+    },
+    {
+      "type": "mRNA",
+      "start0": 7119621,
+      "end0": 7257688,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-NM_001002932.1",
+        "Parent": "gene-VWF",
+        "Dbxref": "GeneID:399544,Genbank:NM_001002932.1,VGNC:VGNC:48329",
+        "Name": "NM_001002932.1",
+        "Note": "The RefSeq transcript has 8 substitutions compared to this genomic sequence",
+        "exception": "annotated by transcript or proteomic data",
+        "gbkey": "mRNA",
+        "gene": "VWF",
+        "inference": "similar to RNA sequence, mRNA (same species):RefSeq:NM_001002932.1",
+        "product": "von Willebrand factor",
+        "transcript_id": "NM_001002932.1"
+      },
+      "tss0": 7257687,
+      "minimum_distance_bp": 514853
+    },
+    {
+      "type": "mRNA",
+      "start0": 7318115,
+      "end0": 7350275,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576555.1",
+        "Parent": "gene-CD9",
+        "Dbxref": "GeneID:611695,Genbank:XM_038576555.1,VGNC:VGNC:38981",
+        "Name": "XM_038576555.1",
+        "gbkey": "mRNA",
+        "gene": "CD9",
+        "model_evidence": "Supporting evidence includes similarity to: 1 mRNA, 12 ESTs, 4 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 36 samples with support for all annotated introns",
+        "product": "CD9 molecule",
+        "transcript_id": "XM_038576555.1"
+      },
+      "tss0": 7318115,
+      "minimum_distance_bp": 575281
+    },
+    {
+      "type": "mRNA",
+      "start0": 6156900,
+      "end0": 6158388,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-NM_001313824.1",
+        "Parent": "gene-KCNA1",
+        "Dbxref": "GeneID:486732,Genbank:NM_001313824.1,VGNC:VGNC:42227",
+        "Name": "NM_001313824.1",
+        "gbkey": "mRNA",
+        "gene": "KCNA1",
+        "product": "potassium voltage-gated channel subfamily A member 1",
+        "transcript_id": "NM_001313824.1"
+      },
+      "tss0": 6156900,
+      "minimum_distance_bp": 584935
+    },
+    {
+      "type": "mRNA",
+      "start0": 7422586,
+      "end0": 7438302,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576556.1",
+        "Parent": "gene-PLEKHG6",
+        "Dbxref": "GeneID:477717,Genbank:XM_038576556.1,VGNC:VGNC:44681",
+        "Name": "XM_038576556.1",
+        "Note": "The sequence of the model RefSeq transcript was modified relative to this genomic sequence to represent the inferred CDS: deleted 1 base in 1 codon",
+        "exception": "unclassified transcription discrepancy",
+        "gbkey": "mRNA",
+        "gene": "PLEKHG6",
+        "model_evidence": "Supporting evidence includes similarity to: 2 ESTs, 4 Proteins, and 95% coverage of the annotated genomic feature by RNAseq alignments, including 18 samples with support for all annotated introns",
+        "product": "pleckstrin homology and RhoGEF domain containing G6, transcript variant X2",
+        "transcript_id": "XM_038576556.1"
+      },
+      "tss0": 7422586,
+      "minimum_distance_bp": 679752
+    },
+    {
+      "type": "mRNA",
+      "start0": 6046283,
+      "end0": 6050185,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576550.1",
+        "Parent": "gene-KCNA6",
+        "Dbxref": "GeneID:486733,Genbank:XM_038576550.1,VGNC:VGNC:57428",
+        "Name": "XM_038576550.1",
+        "gbkey": "mRNA",
+        "gene": "KCNA6",
+        "model_evidence": "Supporting evidence includes similarity to: 2 mRNAs, 1 EST, 9 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments",
+        "product": "potassium voltage-gated channel subfamily A member 6",
+        "transcript_id": "XM_038576550.1"
+      },
+      "tss0": 6046283,
+      "minimum_distance_bp": 695552
+    },
+    {
+      "type": "mRNA",
+      "start0": 7438484,
+      "end0": 7450782,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576557.1",
+        "Parent": "gene-TNFRSF1A",
+        "Dbxref": "GeneID:403634,Genbank:XM_038576557.1,VGNC:VGNC:47662",
+        "Name": "XM_038576557.1",
+        "gbkey": "mRNA",
+        "gene": "TNFRSF1A",
+        "model_evidence": "Supporting evidence includes similarity to: 7 ESTs, 2 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 36 samples with support for all annotated introns",
+        "product": "TNF receptor superfamily member 1A, transcript variant X2",
+        "transcript_id": "XM_038576557.1"
+      },
+      "tss0": 7450781,
+      "minimum_distance_bp": 707947
+    },
+    {
+      "type": "mRNA",
+      "start0": 7438484,
+      "end0": 7451382,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576558.1",
+        "Parent": "gene-TNFRSF1A",
+        "Dbxref": "GeneID:403634,Genbank:XM_038576558.1,VGNC:VGNC:47662",
+        "Name": "XM_038576558.1",
+        "gbkey": "mRNA",
+        "gene": "TNFRSF1A",
+        "model_evidence": "Supporting evidence includes similarity to: 1 mRNA, 12 ESTs, 5 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 36 samples with support for all annotated introns",
+        "product": "TNF receptor superfamily member 1A, transcript variant X1",
+        "transcript_id": "XM_038576558.1"
+      },
+      "tss0": 7451381,
+      "minimum_distance_bp": 708547
+    },
+    {
+      "type": "mRNA",
+      "start0": 7455012,
+      "end0": 7479322,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576559.1",
+        "Parent": "gene-SCNN1A",
+        "Dbxref": "GeneID:403650,Genbank:XM_038576559.1,VGNC:VGNC:45925",
+        "Name": "XM_038576559.1",
+        "gbkey": "mRNA",
+        "gene": "SCNN1A",
+        "model_evidence": "Supporting evidence includes similarity to: 1 mRNA, 1 EST, 7 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 21 samples with support for all annotated introns",
+        "product": "sodium channel epithelial 1 subunit alpha, transcript variant X1",
+        "transcript_id": "XM_038576559.1"
+      },
+      "tss0": 7479321,
+      "minimum_distance_bp": 736487
+    },
+    {
+      "type": "mRNA",
+      "start0": 7455012,
+      "end0": 7479482,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576560.1",
+        "Parent": "gene-SCNN1A",
+        "Dbxref": "GeneID:403650,Genbank:XM_038576560.1,VGNC:VGNC:45925",
+        "Name": "XM_038576560.1",
+        "gbkey": "mRNA",
+        "gene": "SCNN1A",
+        "model_evidence": "Supporting evidence includes similarity to: 1 mRNA, 1 EST, 7 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 18 samples with support for all annotated introns",
+        "product": "sodium channel epithelial 1 subunit alpha, transcript variant X2",
+        "transcript_id": "XM_038576560.1"
+      },
+      "tss0": 7479481,
+      "minimum_distance_bp": 736647
+    },
+    {
+      "type": "mRNA",
+      "start0": 7455012,
+      "end0": 7480202,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576562.1",
+        "Parent": "gene-SCNN1A",
+        "Dbxref": "GeneID:403650,Genbank:XM_038576562.1,VGNC:VGNC:45925",
+        "Name": "XM_038576562.1",
+        "gbkey": "mRNA",
+        "gene": "SCNN1A",
+        "model_evidence": "Supporting evidence includes similarity to: 1 mRNA, 1 EST, 7 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 16 samples with support for all annotated introns",
+        "product": "sodium channel epithelial 1 subunit alpha, transcript variant X4",
+        "transcript_id": "XM_038576562.1"
+      },
+      "tss0": 7480201,
+      "minimum_distance_bp": 737367
+    },
+    {
+      "type": "mRNA",
+      "start0": 7455012,
+      "end0": 7481038,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576561.1",
+        "Parent": "gene-SCNN1A",
+        "Dbxref": "GeneID:403650,Genbank:XM_038576561.1,VGNC:VGNC:45925",
+        "Name": "XM_038576561.1",
+        "gbkey": "mRNA",
+        "gene": "SCNN1A",
+        "model_evidence": "Supporting evidence includes similarity to: 1 mRNA, 1 EST, 7 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 32 samples with support for all annotated introns",
+        "product": "sodium channel epithelial 1 subunit alpha, transcript variant X3",
+        "transcript_id": "XM_038576561.1"
+      },
+      "tss0": 7481037,
+      "minimum_distance_bp": 738203
+    },
+    {
+      "type": "mRNA",
+      "start0": 7487406,
+      "end0": 7494770,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576563.1",
+        "Parent": "gene-LTBR",
+        "Dbxref": "GeneID:486728,Genbank:XM_038576563.1,VGNC:VGNC:42860",
+        "Name": "XM_038576563.1",
+        "gbkey": "mRNA",
+        "gene": "LTBR",
+        "model_evidence": "Supporting evidence includes similarity to: 12 ESTs, 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 36 samples with support for all annotated introns",
+        "product": "lymphotoxin beta receptor, transcript variant X1",
+        "transcript_id": "XM_038576563.1"
+      },
+      "tss0": 7487406,
+      "minimum_distance_bp": 744572
+    },
+    {
+      "type": "mRNA",
+      "start0": 5954481,
+      "end0": 6089147,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576547.1",
+        "Parent": "gene-GALNT8",
+        "Dbxref": "GeneID:486734,Genbank:XM_038576547.1",
+        "Name": "XM_038576547.1",
+        "gbkey": "mRNA",
+        "gene": "GALNT8",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 1 sample with support for all annotated introns",
+        "product": "polypeptide N-acetylgalactosaminyltransferase 8, transcript variant X4",
+        "transcript_id": "XM_038576547.1"
+      },
+      "tss0": 5954481,
+      "minimum_distance_bp": 787354
+    }
+  ],
+  "nearest_all_RNA_TSS": [
+    {
+      "type": "mRNA",
+      "start0": 6639884,
+      "end0": 6711187,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576112.1",
+        "Parent": "gene-NTF3",
+        "Dbxref": "GeneID:486731,Genbank:XM_038576112.1,VGNC:VGNC:44002",
+        "Name": "XM_038576112.1",
+        "gbkey": "mRNA",
+        "gene": "NTF3",
+        "model_evidence": "Supporting evidence includes similarity to: 1 EST, 8 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 5 samples with support for all annotated introns",
+        "product": "neurotrophin 3, transcript variant X2",
+        "transcript_id": "XM_038576112.1"
+      },
+      "tss0": 6639884,
+      "minimum_distance_bp": 101951
+    },
+    {
+      "type": "mRNA",
+      "start0": 6639884,
+      "end0": 6711187,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XM_038576114.1",
+        "Parent": "gene-NTF3",
+        "Dbxref": "GeneID:486731,Genbank:XM_038576114.1,VGNC:VGNC:44002",
+        "Name": "XM_038576114.1",
+        "gbkey": "mRNA",
+        "gene": "NTF3",
+        "model_evidence": "Supporting evidence includes similarity to: 1 EST, 8 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 29 samples with support for all annotated introns",
+        "product": "neurotrophin 3, transcript variant X1",
+        "transcript_id": "XM_038576114.1"
+      },
+      "tss0": 6639884,
+      "minimum_distance_bp": 101951
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6927797,
+      "end0": 6932149,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379775.1",
+        "Parent": "gene-LOC111092786",
+        "Dbxref": "GeneID:111092786,Genbank:XR_005379775.1",
+        "Name": "XR_005379775.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092786",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 5 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092786",
+        "transcript_id": "XR_005379775.1"
+      },
+      "tss0": 6927797,
+      "minimum_distance_bp": 184963
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6475588,
+      "end0": 6483093,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XR_005379627.1",
+        "Parent": "gene-LOC102151325",
+        "Dbxref": "GeneID:102151325,Genbank:XR_005379627.1",
+        "Name": "XR_005379627.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC102151325",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 7 samples with support for all annotated introns",
+        "product": "uncharacterized LOC102151325",
+        "transcript_id": "XR_005379627.1"
+      },
+      "tss0": 6483092,
+      "minimum_distance_bp": 258743
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6482009,
+      "end0": 6484738,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379628.1",
+        "Parent": "gene-LOC111092811",
+        "Dbxref": "GeneID:111092811,Genbank:XR_005379628.1",
+        "Name": "XR_005379628.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092811",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 6 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092811",
+        "transcript_id": "XR_005379628.1"
+      },
+      "tss0": 6482009,
+      "minimum_distance_bp": 259826
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6463954,
+      "end0": 6469989,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XR_005379626.1",
+        "Parent": "gene-LOC102151373",
+        "Dbxref": "GeneID:102151373,Genbank:XR_005379626.1",
+        "Name": "XR_005379626.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC102151373",
+        "model_evidence": "Supporting evidence includes similarity to: 1 EST, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 7 samples with support for all annotated introns",
+        "product": "uncharacterized LOC102151373",
+        "transcript_id": "XR_005379626.1"
+      },
+      "tss0": 6469988,
+      "minimum_distance_bp": 271847
+    },
+    {
+      "type": "mRNA",
+      "start0": 6773566,
+      "end0": 7056656,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576553.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576553.1,VGNC:VGNC:37925",
+        "Name": "XM_038576553.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 6 ESTs, 2 Proteins, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 3 samples with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X3",
+        "transcript_id": "XM_038576553.1"
+      },
+      "tss0": 7056655,
+      "minimum_distance_bp": 313821
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6284805,
+      "end0": 6372646,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XR_005379774.1",
+        "Parent": "gene-LOC106557922",
+        "Dbxref": "GeneID:106557922,Genbank:XR_005379774.1",
+        "Name": "XR_005379774.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC106557922",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 1 sample with support for all annotated introns",
+        "product": "uncharacterized LOC106557922, transcript variant X4",
+        "transcript_id": "XR_005379774.1"
+      },
+      "tss0": 6372645,
+      "minimum_distance_bp": 369190
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6284805,
+      "end0": 6372646,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XR_005379773.1",
+        "Parent": "gene-LOC106557922",
+        "Dbxref": "GeneID:106557922,Genbank:XR_005379773.1",
+        "Name": "XR_005379773.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC106557922",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 2 samples with support for all annotated introns",
+        "product": "uncharacterized LOC106557922, transcript variant X1",
+        "transcript_id": "XR_005379773.1"
+      },
+      "tss0": 6372645,
+      "minimum_distance_bp": 369190
+    },
+    {
+      "type": "mRNA",
+      "start0": 6773566,
+      "end0": 7115529,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576551.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576551.1,VGNC:VGNC:37925",
+        "Name": "XM_038576551.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 6 ESTs, 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 5 samples with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X1",
+        "transcript_id": "XM_038576551.1"
+      },
+      "tss0": 7115528,
+      "minimum_distance_bp": 372694
+    },
+    {
+      "type": "mRNA",
+      "start0": 6783925,
+      "end0": 7115529,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576552.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576552.1,VGNC:VGNC:37925",
+        "Name": "XM_038576552.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 1 sample with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X2",
+        "transcript_id": "XM_038576552.1"
+      },
+      "tss0": 7115528,
+      "minimum_distance_bp": 372694
+    },
+    {
+      "type": "mRNA",
+      "start0": 6808853,
+      "end0": 7115529,
+      "strand": "-",
+      "attributes": {
+        "ID": "rna-XM_038576554.1",
+        "Parent": "gene-ANO2",
+        "Dbxref": "GeneID:100687505,Genbank:XM_038576554.1,VGNC:VGNC:37925",
+        "Name": "XM_038576554.1",
+        "gbkey": "mRNA",
+        "gene": "ANO2",
+        "model_evidence": "Supporting evidence includes similarity to: 1 Protein, and 100% coverage of the annotated genomic feature by RNAseq alignments, including 2 samples with support for all annotated introns",
+        "product": "anoctamin 2, transcript variant X4",
+        "transcript_id": "XM_038576554.1"
+      },
+      "tss0": 7115528,
+      "minimum_distance_bp": 372694
+    },
+    {
+      "type": "mRNA",
+      "start0": 6281460,
+      "end0": 6283263,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-NM_001006645.2",
+        "Parent": "gene-KCNA5",
+        "Dbxref": "GeneID:403995,Genbank:NM_001006645.2,VGNC:VGNC:42232",
+        "Name": "NM_001006645.2",
+        "gbkey": "mRNA",
+        "gene": "KCNA5",
+        "product": "potassium voltage-gated channel subfamily A member 5",
+        "transcript_id": "NM_001006645.2"
+      },
+      "tss0": 6281460,
+      "minimum_distance_bp": 460375
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6261529,
+      "end0": 6265679,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379770.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379770.1",
+        "Name": "XR_005379770.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 2 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X7",
+        "transcript_id": "XR_005379770.1"
+      },
+      "tss0": 6261529,
+      "minimum_distance_bp": 480306
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6256835,
+      "end0": 6265679,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379768.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379768.1",
+        "Name": "XR_005379768.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 5 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X5",
+        "transcript_id": "XR_005379768.1"
+      },
+      "tss0": 6256835,
+      "minimum_distance_bp": 485000
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6255000,
+      "end0": 6273636,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379771.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379771.1",
+        "Name": "XR_005379771.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 7 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X8",
+        "transcript_id": "XR_005379771.1"
+      },
+      "tss0": 6255000,
+      "minimum_distance_bp": 486835
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6255000,
+      "end0": 6273635,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379769.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379769.1",
+        "Name": "XR_005379769.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 7 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X6",
+        "transcript_id": "XR_005379769.1"
+      },
+      "tss0": 6255000,
+      "minimum_distance_bp": 486835
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6255000,
+      "end0": 6265679,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379766.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379766.1",
+        "Name": "XR_005379766.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 4 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X3",
+        "transcript_id": "XR_005379766.1"
+      },
+      "tss0": 6255000,
+      "minimum_distance_bp": 486835
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6255000,
+      "end0": 6265679,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379765.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379765.1",
+        "Name": "XR_005379765.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 6 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X2",
+        "transcript_id": "XR_005379765.1"
+      },
+      "tss0": 6255000,
+      "minimum_distance_bp": 486835
+    },
+    {
+      "type": "lnc_RNA",
+      "start0": 6255000,
+      "end0": 6265679,
+      "strand": "+",
+      "attributes": {
+        "ID": "rna-XR_005379764.1",
+        "Parent": "gene-LOC111092805",
+        "Dbxref": "GeneID:111092805,Genbank:XR_005379764.1",
+        "Name": "XR_005379764.1",
+        "gbkey": "ncRNA",
+        "gene": "LOC111092805",
+        "model_evidence": "Supporting evidence includes similarity to: 100% coverage of the annotated genomic feature by RNAseq alignments, including 8 samples with support for all annotated introns",
+        "product": "uncharacterized LOC111092805, transcript variant X1",
+        "transcript_id": "XR_005379764.1"
+      },
+      "tss0": 6255000,
+      "minimum_distance_bp": 486835
+    }
+  ],
+  "limits": [
+    "GFF transcript strand-aware annotated5prime boundaries, not measured alternative promoter activity.",
+    "Another annotation/assembly view of AR106, not independent experimental confirmation or functional isolation.",
+    "No risk-gene or miRNA clearance inferred from RNA-start distances alone; prior dedicated gates remain separate."
+  ]
+}

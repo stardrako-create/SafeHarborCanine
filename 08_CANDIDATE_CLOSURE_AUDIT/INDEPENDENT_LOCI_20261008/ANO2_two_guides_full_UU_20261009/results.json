@@ -1,0 +1,87 @@
+{
+  "results": [
+    {
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_1",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708151,
+        "protospacer_end0": 39708174,
+        "strand": "+",
+        "protospacer_5to3": "TATGAGGATTTGTATCAAACACA",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false,
+        "UU_expected": {
+          "chrom": "NC_049248.1",
+          "start0": 6742735,
+          "end0": 6742758,
+          "strand": "-"
+        }
+      },
+      "exact_intended_hits": 1,
+      "ungapped_hits": [],
+      "single_bulge_hits": []
+    },
+    {
+      "guide": {
+        "hypothesis_id": "ANO2_TTTV23_2",
+        "chrom": "NC_051831.1",
+        "protospacer_start0": 39708436,
+        "protospacer_end0": 39708459,
+        "strand": "+",
+        "protospacer_5to3": "CCTCGGCTGTGTAATTCCTGGAG",
+        "PAM_5to3": "TTTC",
+        "model": "TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference",
+        "off_locus_hits_in_defined_model": 0,
+        "local5PASS_indel_combinations_with_intact_target_and_PAM": 32,
+        "guide_approved": false,
+        "actual_nuclease_selected": false,
+        "UU_expected": {
+          "chrom": "NC_049248.1",
+          "start0": 6742450,
+          "end0": 6742473,
+          "strand": "-"
+        }
+      },
+      "exact_intended_hits": 1,
+      "ungapped_hits": [],
+      "single_bulge_hits": []
+    }
+  ],
+  "script_sha256": "661980b730b32cb6292603fd1fd29a9f7d1344eebc4aefd49e46392bafa6068f",
+  "index_files": [
+    {
+      "name": "UU.1.ebwt",
+      "size": 713763642
+    },
+    {
+      "name": "UU.2.ebwt",
+      "size": 310240612
+    },
+    {
+      "name": "UU.3.ebwt",
+      "size": 25046
+    },
+    {
+      "name": "UU.4.ebwt",
+      "size": 620481213
+    },
+    {
+      "name": "UU.rev.1.ebwt",
+      "size": 713763642
+    },
+    {
+      "name": "UU.rev.2.ebwt",
+      "size": 310240612
+    }
+  ],
+  "limits": [
+    "Complete UU reference search under defined exploratory PAM/mismatch/bulge model; actual nuclease not selected.",
+    "Intended interval overlapping bulge alignments excluded, not shifted local cleavage clearance.",
+    "Unknown PAM retained conservatively; N/gaps/missing assembly and population alleles not resolved.",
+    "Another reference assembly is not experimental independent validation."
+  ]
+}

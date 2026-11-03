@@ -1,0 +1,476 @@
+{
+  "window": "NC_051831.1_39708074_39709074",
+  "indels": [
+    {
+      "id": "a1039",
+      "window": "NC_051831.1_39708074_39709074",
+      "chrom": "NC_051831.1",
+      "start0": 39708135,
+      "ref": "tTA",
+      "alt": "t",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6742771,
+        "id": null,
+        "ref": "TTA",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "haplotype_equivalence_verified": true
+    },
+    {
+      "id": "a1038",
+      "window": "NC_051831.1_39708074_39709074",
+      "chrom": "NC_051831.1",
+      "start0": 39708209,
+      "ref": "A",
+      "alt": "AG",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6742699,
+        "id": null,
+        "ref": "A",
+        "alt": "AC",
+        "alt_index1": 1,
+        "AF": 0.001509999972768128,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "haplotype_equivalence_verified": true
+    },
+    {
+      "id": "a1037",
+      "window": "NC_051831.1_39708074_39709074",
+      "chrom": "NC_051831.1",
+      "start0": 39708540,
+      "ref": "CAGCCAG",
+      "alt": "C",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6742362,
+        "id": null,
+        "ref": "CCTGGCT",
+        "alt": "C",
+        "alt_index1": 1,
+        "AF": 0.00025159999495372176,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "haplotype_equivalence_verified": true
+    },
+    {
+      "id": "a1036",
+      "window": "NC_051831.1_39708074_39709074",
+      "chrom": "NC_051831.1",
+      "start0": 39708856,
+      "ref": "G",
+      "alt": "GCTTGTTCCTGT",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6742049,
+        "id": null,
+        "ref": "G",
+        "alt": "GAAGACAGGAAC",
+        "alt_index1": 1,
+        "AF": 0.21199999749660492,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "haplotype_equivalence_verified": true
+    },
+    {
+      "id": "a1035",
+      "window": "NC_051831.1_39708074_39709074",
+      "chrom": "NC_051831.1",
+      "start0": 39709009,
+      "ref": "ACTC",
+      "alt": "A",
+      "source_allele": {
+        "chrom": "chr27",
+        "uu_chrom": "NC_049248.1",
+        "pos1": 6741893,
+        "id": null,
+        "ref": "TGAG",
+        "alt": "T",
+        "alt_index1": 1,
+        "AF": 0.0007548999856226146,
+        "filters": [
+          "PASS"
+        ],
+        "reference_verified": true,
+        "within_alignment_envelope": true,
+        "sequence_allele": true
+      },
+      "haplotype_equivalence_verified": true
+    }
+  ],
+  "eligible_20bp_segments": 631,
+  "synthetic_combinations": 32,
+  "results": [
+    {
+      "selected_indel_ids": [],
+      "length": 1000,
+      "sequence_sha256": "3ba7a119df4305d162ff48c7b4e3c3afac17d03fe1c3a3de74fa6b5d4561bcf1",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1035"
+      ],
+      "length": 997,
+      "sequence_sha256": "6c98ff86dcc429e3215888508c7a708030e9539da8ddd8124b7d1f7474506bd6",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1036"
+      ],
+      "length": 1011,
+      "sequence_sha256": "f776230d2fa44095afbb86a926db710a191b6b45b62654d2a57a47435e997e88",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1036",
+        "a1035"
+      ],
+      "length": 1008,
+      "sequence_sha256": "f07395a670050c627954a7c83e27daecf7c63c1a7a538617abdea2bff25c6a89",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1037"
+      ],
+      "length": 994,
+      "sequence_sha256": "8fd4b365e39019ab980b3eb67c6661c7314cd8251566274f6cf92ef3041166d9",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1037",
+        "a1035"
+      ],
+      "length": 991,
+      "sequence_sha256": "de1bdd16409bd2886a62635f02e8f67c38f6dd0c62426af5a5c53a0387e99f60",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1037",
+        "a1036"
+      ],
+      "length": 1005,
+      "sequence_sha256": "62fafafdd3fe00b57d8e055078b004d17641fddfe13f1b6f0e64e88f8ec7cd5a",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1037",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1002,
+      "sequence_sha256": "e7a661adb3aa3f25b96357f4e77298c6f37b5bd5c323595ba1ff9a9715e1bb36",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038"
+      ],
+      "length": 1001,
+      "sequence_sha256": "4abe297526e3c7a981a01669981a3ac06a7a2fe9be389ab23f920bcba9c95528",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1035"
+      ],
+      "length": 998,
+      "sequence_sha256": "050c3ba1f331999cfcdef7275e3febcda4f9b5da89854bd97709c9116bee00f8",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1036"
+      ],
+      "length": 1012,
+      "sequence_sha256": "a5fb238f492c43db877fdddb21b8f677bf1324a12d4987f945ec4734bc690ddc",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1009,
+      "sequence_sha256": "a53f445e6b6c08f3ef454fa0388d743f7e8e389f8cda84b95a375f512435ce17",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1037"
+      ],
+      "length": 995,
+      "sequence_sha256": "f4c99e6668ee34190dee5780dc1bafced4c108e850416bdf26fe59e3176ae16e",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1037",
+        "a1035"
+      ],
+      "length": 992,
+      "sequence_sha256": "15c376aad5b564eb3fa703e0fbadcc289f6a67fc1a90ef8b194df87da300f131",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1037",
+        "a1036"
+      ],
+      "length": 1006,
+      "sequence_sha256": "e8f5c261ec93a789c251ae30c3c1e8b0ece94aee1b125ae1bd211233feaec38d",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1038",
+        "a1037",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1003,
+      "sequence_sha256": "c5306cc8b2104f75d765875d6f36654bc6d4a16eed11e20d8cdd521d1c72754e",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039"
+      ],
+      "length": 998,
+      "sequence_sha256": "2642e8e65709e5f0898eb8ac18a165353417a0083a16e04241393c84671f03b4",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1035"
+      ],
+      "length": 995,
+      "sequence_sha256": "f97f8a18e11577816d44fd539aeed84f0f84e0066d2cd1125596fe3c062c1911",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1036"
+      ],
+      "length": 1009,
+      "sequence_sha256": "0a1bbb77aa052a11e3aacc23d275d3dbf9f9d94302fbeb95ccb63b9140c54265",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1006,
+      "sequence_sha256": "07fc05ccdea7c1380d83049578fc707b044218e216f3f00881178ec0c533918c",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1037"
+      ],
+      "length": 992,
+      "sequence_sha256": "d5495324aeccbb29791b78ce8a84cd0704bfda6dbc326310574b6e6c95441a8d",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1037",
+        "a1035"
+      ],
+      "length": 989,
+      "sequence_sha256": "c1388e5fc125d8da709a24f05408ab6275f2bda2554650db1827782842abd0d1",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1037",
+        "a1036"
+      ],
+      "length": 1003,
+      "sequence_sha256": "49d31a567037b292db0ba28fd2847f9f813176fd2f5c5c032c8534da912a9309",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1037",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1000,
+      "sequence_sha256": "4665586017d745899299ff2a9fd551a034498171be6f4fc184ec66a4a96111dc",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038"
+      ],
+      "length": 999,
+      "sequence_sha256": "74b1c6aac7782bcde1e2cbaa367ec87d26fa97f5e758f999d846b4c2e7d1c08d",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1035"
+      ],
+      "length": 996,
+      "sequence_sha256": "202d088fcce281e64e44e4030935f740c349c81698a191adedca3a6d07114ec4",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1036"
+      ],
+      "length": 1010,
+      "sequence_sha256": "2b0a2c0767b46753bdd6daec7782a61dd38e0622958fba5540ee10cf2e335111",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1007,
+      "sequence_sha256": "b49ce94af7ae003ad7e44831f15777824fe91bb87cc93329ccd423113957c89d",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1037"
+      ],
+      "length": 993,
+      "sequence_sha256": "45841cdf7e8991553e119ff1d3b1f93ed725424c2ade65679111fdd37bf0d09d",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1037",
+        "a1035"
+      ],
+      "length": 990,
+      "sequence_sha256": "9e2c060f0ad036e6a4587503859cd8b7ec5a5b231a8713d0e7a59a590aeda42b",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1037",
+        "a1036"
+      ],
+      "length": 1004,
+      "sequence_sha256": "b92a743f8ad8188d2e0ef1b2e723d3d98f8cc78ea9738d48aa27941766501b95",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    },
+    {
+      "selected_indel_ids": [
+        "a1039",
+        "a1038",
+        "a1037",
+        "a1036",
+        "a1035"
+      ],
+      "length": 1001,
+      "sequence_sha256": "b550dc5727af3ab676938d708d69b8d8d8e52bdb4a2640fe804427a9bf70d1d8",
+      "eligible_segments_intact": 631,
+      "failed_offsets": []
+    }
+  ],
+  "source_sha256": "6d5ac42288cc0387b985eee296389985bf59f9c176c38011353b8e693880b165",
+  "limitations": [
+    "Synthetic combinations of five non-overlapping PASS indels, not observed/phased haplotypes.",
+    "Checks unchanged sequence at its intended site outside existing PASS REF-span mask; not genome-wide alternate-allele off-targets or PAM/bulges.",
+    "Symbolic star associations retained as unphased; union includes their candidate deletions without assuming cis.",
+    "No biological or editing-safety approval."
+  ]
+}

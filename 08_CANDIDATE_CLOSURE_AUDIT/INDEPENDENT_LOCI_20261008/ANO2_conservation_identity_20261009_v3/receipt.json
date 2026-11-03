@@ -1,0 +1,38 @@
+{
+  "state": "completed",
+  "ROS_window": [
+    "NC_051831.1",
+    39708074,
+    39709074
+  ],
+  "CanFam3_window": [
+    "chr27",
+    39351498,
+    39352509
+  ],
+  "strand": "+",
+  "reference_coverage": 1011,
+  "reference_matches_independent_UCSC": true,
+  "scored_bp": 1000,
+  "projection_jumps": [
+    {
+      "ROS_offset0": 783,
+      "CanFam3_step": 12
+    }
+  ],
+  "projection_policy": "Unique monotone per-base mapping; no unmapped or multiply mapped ROS bases; CanFam3 gaps explicitly retained",
+  "max50bp_mean": 1.5642600000000002,
+  "exceeds_legacy_6_5": false,
+  "hashes": {
+    "/mnt/d/Jin2024_work/zoonomia_hal/liftover/GCF_014441545.1ToCanFam3.over.chain.gz": "b40c1e4e2f65fbbabc0f01a1701818f43089827b2366b0b02787dd25f5eaa87e",
+    "/mnt/d/Jin2024_work/zoonomia_hal/maf_dog/cand_36.chr27.39320764.maf": "ce7cb39c6e664c0d63c3c96804033859abe692203e10a1a63042139633597881",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_conservation_identity_20261009_v3/ANO2_39708.maf": "a4b8b454436c91af34f43eb1f8a3ccee5a6e23a73eb9604e97423dfb5d8285db",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_conservation_identity_20261009_v3/ANO2_39708.wig": "321de917ce77f6d68118c5993c5d25028ca79eb30466b52e23ea5a9d1a42215e",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.9/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod": "71972f351ee732763058bf0d9bcc3970d95e6518ffe318479eb80964b03d6dff"
+  },
+  "independent_DNA_url": "https://api.genome.ucsc.edu/getData/sequence?genome=canFam3;chrom=chr27;start=39351498;end=39352509",
+  "limitations": [
+    "Re-analysis of retained alignment and published model, not independent evolutionary data or biological validation.",
+    "Coordinate chain uniqueness checked here; prior reciprocal review assessed separately."
+  ]
+}

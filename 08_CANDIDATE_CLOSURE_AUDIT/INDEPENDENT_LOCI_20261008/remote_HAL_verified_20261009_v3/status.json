@@ -1,0 +1,8 @@
+{
+  "state": "completed",
+  "source": "https://cgl.gi.ucsc.edu/data/cactus/241-mammalian-2020v2.hal",
+  "byte_limit": 536870912,
+  "bytes": 401211392,
+  "requests": 6122,
+  "cache_hits": 8461
+}

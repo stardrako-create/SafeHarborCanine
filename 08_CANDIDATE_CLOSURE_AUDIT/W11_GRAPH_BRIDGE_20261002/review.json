@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-02T20:20:09.282911+00:00",
+  "results": [
+    {
+      "k": 31,
+      "reachable": true,
+      "visited_nodes": 9694,
+      "max_steps": 1000,
+      "shortest_graph_steps": 226,
+      "path": "TTAAACTTTAAAGAAGGGATCCCTGGGTGGCGCAGAGGTTTGGCGCCTGCCTTTGGCCCAGGGCGCGATCCTGGAGACCCGGGATCGAATCCCACGTCGGGCTCTCAGTGCATGGAGCCTGCTTCTCTCTCTGCCTCTCTCTCTCTGTGTGACTATCATAAATAAATAAAAATTAAATAAATAAATAAATAAGTAAGTAAAATATTTTTTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAACTTTAAAGAAAT",
+      "start": "TTAAACTTTAAAGAAGGGATCCCTGGGTGGC",
+      "target": "AAAAAAAAAAAAAAATAAACTTTAAAGAAAT"
+    },
+    {
+      "k": 41,
+      "reachable": false,
+      "visited_nodes": 30337,
+      "max_steps": 1000,
+      "shortest_graph_steps": null,
+      "path": null,
+      "start": "AGACTTTAAACTTTAAAGAAGGGATCCCTGGGTGGCGCAGA",
+      "target": "AAAAAAAAAAAAAAAAAAAATAAACTTTAAAGAAATATTCA"
+    },
+    {
+      "k": 51,
+      "reachable": false,
+      "visited_nodes": 6416,
+      "max_steps": 1000,
+      "shortest_graph_steps": null,
+      "path": null,
+      "start": "TGAACAGACTTTAAACTTTAAAGAAGGGATCCCTGGGTGGCGCAGAGGTTT",
+      "target": "AAAAAAAAAAAAAAAAAAAAAAAAATAAACTTTAAAGAAATATTCAATTTG"
+    }
+  ],
+  "limits": [
+    "Graph reachability only, not haplotype assembly; repeat switching possible",
+    "Homopolymer cycles cannot determine tail length",
+    "BQ20 every edge base and>=2read names per edge",
+    "Local retained reads only; negative result is limited to graph criteria",
+    "No assembler found in checked PATH/conda locations"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "state": "completed",
+  "reference_sequence_matches_ROS": true,
+  "scored_bp": 1000,
+  "ROS_max50bp_mean": 1.5642600000000002,
+  "CanFam3_transferred_max50bp_mean": 1.5642600000000002,
+  "exceeds_legacy_6_5": false,
+  "source_hashes": {
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_conservation_identity_20261009_v3/ANO2_39708.maf": "a4b8b454436c91af34f43eb1f8a3ccee5a6e23a73eb9604e97423dfb5d8285db",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_conservation_identity_20261009_v3/base_mapping.json": "3ce902a7bb8e12278e23ab6e17d59bcf2a0654c0635d89105fce479edb784064",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_ROS_model_sensitivity_20261009/ROS_reference.maf": "49cf0f6ec5e759d2bb5500b03a1006804de90392ac6de7b159a53f63d67a1219",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_ROS_model_sensitivity_20261009/ROS_reference.wig": "688abc25867625793c95f3549f73ae177c90a90410a5c57bda52742b17b9133f",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/06_v1.21.9/Anc239_allARs_100kb_lessGC40_241species_30Consensus.mod": "71972f351ee732763058bf0d9bcc3970d95e6518ffe318479eb80964b03d6dff"
+  },
+  "method": "Replace only dog reference with known ROS assembly sequence at 1000 unique monotone mapped columns; four base substitutions and 11 CanFam3-only bases represented as gaps in ROS; all other species alignment rows retained.",
+  "limitations": [
+    "Model sensitivity on retained alignment, not a new independent whole-genome alignment or biological validation.",
+    "No unsupported insertion columns invented; existing chain maps each ROS base uniquely."
+  ]
+}

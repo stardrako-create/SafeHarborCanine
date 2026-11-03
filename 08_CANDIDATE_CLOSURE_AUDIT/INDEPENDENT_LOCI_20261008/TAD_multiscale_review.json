@@ -1,0 +1,5235 @@
+{
+  "utc": "2026-10-08T13:03:45.040980+00:00",
+  "source_sha256": "14633849e748938dae86597231203349ea379e86bdd479147a959d7b20a308fe",
+  "reviewed": 133,
+  "risk_hit_ids": [
+    "NC_051805.1_3411351_3412351",
+    "NC_051805.1_76995482_76996482",
+    "NC_051805.1_78282459_78283459",
+    "NC_051806.1_23169360_23170360",
+    "NC_051806.1_31605782_31606782",
+    "NC_051807.1_18548168_18549168",
+    "NC_051807.1_50912745_50913745",
+    "NC_051807.1_51028651_51029651",
+    "NC_051807.1_90940363_90941363",
+    "NC_051808.1_22222370_22223370",
+    "NC_051808.1_46288030_46289030",
+    "NC_051808.1_47773922_47774922",
+    "NC_051809.1_17356576_17357576",
+    "NC_051809.1_23047396_23048396",
+    "NC_051809.1_83977036_83978036",
+    "NC_051810.1_32990613_32991613",
+    "NC_051810.1_46111752_46112752",
+    "NC_051811.1_15311871_15312871",
+    "NC_051811.1_48516733_48517733",
+    "NC_051811.1_56894566_56895566",
+    "NC_051812.1_5512308_5513308",
+    "NC_051812.1_65906704_65907704",
+    "NC_051812.1_66153414_66154414",
+    "NC_051814.1_60286020_60287020",
+    "NC_051815.1_29357138_29358138",
+    "NC_051815.1_74393754_74394754",
+    "NC_051817.1_15980713_15981713",
+    "NC_051817.1_26199824_26200824",
+    "NC_051817.1_32685128_32686128",
+    "NC_051820.1_20856149_20857149",
+    "NC_051820.1_44439976_44440976",
+    "NC_051821.1_1759264_1760264",
+    "NC_051821.1_1925127_1926127",
+    "NC_051821.1_3064345_3065345",
+    "NC_051821.1_5070862_5071862",
+    "NC_051821.1_8905791_8906791",
+    "NC_051823.1_3770399_3771399",
+    "NC_051824.1_16325057_16326057",
+    "NC_051824.1_28280977_28281977",
+    "NC_051825.1_47966198_47967198",
+    "NC_051826.1_1190438_1191438",
+    "NC_051826.1_17817822_17818822",
+    "NC_051826.1_26841076_26842076",
+    "NC_051827.1_3339126_3340126",
+    "NC_051827.1_36602989_36603989",
+    "NC_051828.1_14877391_14878391",
+    "NC_051828.1_28876169_28877169",
+    "NC_051828.1_45846849_45847849",
+    "NC_051828.1_45853214_45854214",
+    "NC_051829.1_1132742_1133742",
+    "NC_051829.1_15937507_15938507",
+    "NC_051829.1_36539025_36540025",
+    "NC_051829.1_39026585_39027585",
+    "NC_051830.1_2943682_2944682",
+    "NC_051830.1_3633144_3634144",
+    "NC_051831.1_15691629_15692629",
+    "NC_051832.1_33598009_33599009",
+    "NC_051832.1_38129342_38130342",
+    "NC_051833.1_889675_890675",
+    "NC_051834.1_5088947_5089947",
+    "NC_051835.1_4607950_4608950",
+    "NC_051835.1_6245820_6246820",
+    "NC_051837.1_12681509_12682509",
+    "NC_051838.1_10647789_10648789",
+    "NC_051839.1_1367230_1368230",
+    "NC_051841.1_24030090_24031090",
+    "NC_051842.1_5108404_5109404",
+    "NC_051843.1_2055534_2056534",
+    "NC_051843.1_34084747_34085747"
+  ],
+  "missing_assignment_ids": [
+    "NC_051805.1_1409356_1410356",
+    "NC_051805.1_3221814_3222814",
+    "NC_051806.1_51363945_51364945",
+    "NC_051807.1_18548168_18549168",
+    "NC_051808.1_56165711_56166711",
+    "NC_051809.1_398509_399509",
+    "NC_051809.1_85711188_85712188",
+    "NC_051812.1_13171242_13172242",
+    "NC_051821.1_1759264_1760264",
+    "NC_051821.1_1925127_1926127",
+    "NC_051823.1_3770399_3771399",
+    "NC_051824.1_19495702_19496702",
+    "NC_051830.1_3633144_3634144",
+    "NC_051837.1_12681509_12682509",
+    "NC_051838.1_41561523_41562523",
+    "NC_051843.1_2976108_2977108"
+  ],
+  "no_hit_all_scales_ids": [
+    "NC_051805.1_121281018_121282018",
+    "NC_051805.1_1486678_1487678",
+    "NC_051805.1_47450307_47451307",
+    "NC_051805.1_9698901_9699901",
+    "NC_051806.1_32999269_33000269",
+    "NC_051806.1_45531845_45532845",
+    "NC_051806.1_71237525_71238525",
+    "NC_051807.1_10280149_10281149",
+    "NC_051807.1_2091307_2092307",
+    "NC_051807.1_34514227_34515227",
+    "NC_051807.1_6162258_6163258",
+    "NC_051807.1_84418156_84419156",
+    "NC_051808.1_64832915_64833915",
+    "NC_051809.1_11066492_11067492",
+    "NC_051809.1_26893945_26894945",
+    "NC_051809.1_28289785_28290785",
+    "NC_051810.1_34191173_34192173",
+    "NC_051810.1_34396997_34397997",
+    "NC_051810.1_54092951_54093951",
+    "NC_051812.1_32268116_32269116",
+    "NC_051812.1_44637049_44638049",
+    "NC_051814.1_43352999_43353999",
+    "NC_051815.1_49703204_49704204",
+    "NC_051816.1_43724382_43725382",
+    "NC_051816.1_9525800_9526800",
+    "NC_051817.1_24272763_24273763",
+    "NC_051817.1_28742272_28743272",
+    "NC_051821.1_27458567_27459567",
+    "NC_051821.1_48836825_48837825",
+    "NC_051822.1_30325702_30326702",
+    "NC_051822.1_31499321_31500321",
+    "NC_051822.1_31564724_31565724",
+    "NC_051823.1_28387641_28388641",
+    "NC_051823.1_34462065_34463065",
+    "NC_051823.1_38132810_38133810",
+    "NC_051824.1_10227253_10228253",
+    "NC_051825.1_16855903_16856903",
+    "NC_051826.1_4030104_4031104",
+    "NC_051826.1_56418779_56419779",
+    "NC_051826.1_8423204_8424204",
+    "NC_051827.1_26596631_26597631",
+    "NC_051827.1_4735013_4736013",
+    "NC_051828.1_41184704_41185704",
+    "NC_051828.1_41753808_41754808",
+    "NC_051829.1_32973602_32974602",
+    "NC_051830.1_13454672_13455672",
+    "NC_051830.1_35147473_35148473",
+    "NC_051831.1_18142232_18143232",
+    "NC_051831.1_19034940_19035940",
+    "NC_051833.1_11531417_11532417",
+    "NC_051837.1_3475382_3476382",
+    "NC_051839.1_13978557_13979557",
+    "NC_051840.1_23998261_23999261",
+    "NC_051843.1_96269013_96270013"
+  ],
+  "results": [
+    {
+      "id": "NC_051833.1_11531417_11532417",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 11000000,
+      "proxy_end": 11600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051833.1_11531417_11532417",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 11000000,
+      "proxy_end": 11625000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051833.1_11531417_11532417",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 10600000,
+      "proxy_end": 11600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051833.1_11531417_11532417",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 11000000,
+      "proxy_end": 11600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31499321_31500321",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 30825000,
+      "proxy_end": 31725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31499321_31500321",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 30825000,
+      "proxy_end": 31725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31499321_31500321",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 30825000,
+      "proxy_end": 32175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31499321_31500321",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27050000,
+      "proxy_end": 32125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_8905791_8906791",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 8600000,
+      "proxy_end": 8925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_8905791_8906791",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 8600000,
+      "proxy_end": 8925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_8905791_8906791",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 8600000,
+      "proxy_end": 8950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_8905791_8906791",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 8600000,
+      "proxy_end": 9650000,
+      "risk_genes": [
+        "TRIB2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_1925127_1926127",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 1775000,
+      "proxy_end": 1950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_1925127_1926127",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1350000,
+      "proxy_end": 2275000,
+      "risk_genes": [
+        "RPS7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_1925127_1926127",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051821.1_1925127_1926127",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1775000,
+      "proxy_end": 2325000,
+      "risk_genes": [
+        "RPS7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_28289785_28290785",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 28275000,
+      "proxy_end": 28550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_28289785_28290785",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 28275000,
+      "proxy_end": 28650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_28289785_28290785",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 26100000,
+      "proxy_end": 28600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_28289785_28290785",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 26125000,
+      "proxy_end": 28550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34191173_34192173",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 34125000,
+      "proxy_end": 34575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34191173_34192173",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 34125000,
+      "proxy_end": 34575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34191173_34192173",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 33825000,
+      "proxy_end": 36525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34191173_34192173",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 33825000,
+      "proxy_end": 36525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_71237525_71238525",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 70875000,
+      "proxy_end": 71500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_71237525_71238525",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 70825000,
+      "proxy_end": 71500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_71237525_71238525",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 70850000,
+      "proxy_end": 71900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_71237525_71238525",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 70875000,
+      "proxy_end": 71900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_64832915_64833915",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 64575000,
+      "proxy_end": 64975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_64832915_64833915",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 64575000,
+      "proxy_end": 65000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_64832915_64833915",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 64575000,
+      "proxy_end": 64975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_64832915_64833915",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 64550000,
+      "proxy_end": 65300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_35147473_35148473",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 34775000,
+      "proxy_end": 35750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_35147473_35148473",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 34775000,
+      "proxy_end": 35750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_35147473_35148473",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 34050000,
+      "proxy_end": 36975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_35147473_35148473",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 34300000,
+      "proxy_end": 36650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_56165711_56166711",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051808.1_56165711_56166711",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 56150000,
+      "proxy_end": 56525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_56165711_56166711",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 56150000,
+      "proxy_end": 57825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_56165711_56166711",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051810.1_54092951_54093951",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 53650000,
+      "proxy_end": 54150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_54092951_54093951",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 53350000,
+      "proxy_end": 54150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_54092951_54093951",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 53450000,
+      "proxy_end": 54400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_54092951_54093951",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 53650000,
+      "proxy_end": 54325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41753808_41754808",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 41075000,
+      "proxy_end": 41925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41753808_41754808",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 41075000,
+      "proxy_end": 41925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41753808_41754808",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 40800000,
+      "proxy_end": 42125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41753808_41754808",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 40800000,
+      "proxy_end": 42125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_16855903_16856903",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 16575000,
+      "proxy_end": 17000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_16855903_16856903",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 16575000,
+      "proxy_end": 17000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_16855903_16856903",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 16525000,
+      "proxy_end": 17325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_16855903_16856903",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 16550000,
+      "proxy_end": 20400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34396997_34397997",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 34125000,
+      "proxy_end": 34575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34396997_34397997",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 34125000,
+      "proxy_end": 34575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34396997_34397997",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 33825000,
+      "proxy_end": 36525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_34396997_34397997",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 33825000,
+      "proxy_end": 36525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_23047396_23048396",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 23000000,
+      "proxy_end": 23125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_23047396_23048396",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 22500000,
+      "proxy_end": 23125000,
+      "risk_genes": [
+        "FDX1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_23047396_23048396",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 23000000,
+      "proxy_end": 23950000,
+      "risk_genes": [
+        "DDX10"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_23047396_23048396",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 23000000,
+      "proxy_end": 25150000,
+      "risk_genes": [
+        "ATM",
+        "CUL5",
+        "DDX10"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051805.1_121281018_121282018",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 121075000,
+      "proxy_end": 121575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_121281018_121282018",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 121025000,
+      "proxy_end": 122125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_121281018_121282018",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 121075000,
+      "proxy_end": 121575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_121281018_121282018",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 120325000,
+      "proxy_end": 121575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_398509_399509",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 375000,
+      "proxy_end": 600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_398509_399509",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 375000,
+      "proxy_end": 875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_398509_399509",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051809.1_398509_399509",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051815.1_74393754_74394754",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 74325000,
+      "proxy_end": 74650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_74393754_74394754",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 74325000,
+      "proxy_end": 74650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_74393754_74394754",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 72325000,
+      "proxy_end": 74650000,
+      "risk_genes": [
+        "BRINP1",
+        "TLR4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051815.1_74393754_74394754",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 72275000,
+      "proxy_end": 74650000,
+      "risk_genes": [
+        "BRINP1",
+        "TLR4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_18548168_18549168",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051807.1_18548168_18549168",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 18475000,
+      "proxy_end": 18975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_18548168_18549168",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051807.1_18548168_18549168",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 18500000,
+      "proxy_end": 19875000,
+      "risk_genes": [
+        "MEF2C"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051805.1_9698901_9699901",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 9200000,
+      "proxy_end": 10075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_9698901_9699901",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 9200000,
+      "proxy_end": 10075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_9698901_9699901",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 9150000,
+      "proxy_end": 12950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_9698901_9699901",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 9075000,
+      "proxy_end": 13350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_39026585_39027585",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 39000000,
+      "proxy_end": 39050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_39026585_39027585",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 39000000,
+      "proxy_end": 39225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_39026585_39027585",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 38550000,
+      "proxy_end": 39050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_39026585_39027585",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 38525000,
+      "proxy_end": 39950000,
+      "risk_genes": [
+        "IRS1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051823.1_3770399_3771399",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051823.1_3770399_3771399",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 3175000,
+      "proxy_end": 3775000,
+      "risk_genes": [
+        "SETD7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051823.1_3770399_3771399",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 3250000,
+      "proxy_end": 3775000,
+      "risk_genes": [
+        "SETD7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051823.1_3770399_3771399",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051811.1_15311871_15312871",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 15225000,
+      "proxy_end": 15500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_15311871_15312871",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 15125000,
+      "proxy_end": 15500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_15311871_15312871",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 15225000,
+      "proxy_end": 15500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_15311871_15312871",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 15150000,
+      "proxy_end": 16075000,
+      "risk_genes": [
+        "DHX9"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_10280149_10281149",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 9925000,
+      "proxy_end": 11025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_10280149_10281149",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 9925000,
+      "proxy_end": 11025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_10280149_10281149",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 9550000,
+      "proxy_end": 11025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_10280149_10281149",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 9450000,
+      "proxy_end": 11025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_34514227_34515227",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 34275000,
+      "proxy_end": 34675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_34514227_34515227",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 34275000,
+      "proxy_end": 34675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_34514227_34515227",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 32775000,
+      "proxy_end": 34675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_34514227_34515227",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 32700000,
+      "proxy_end": 34675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_15980713_15981713",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 15900000,
+      "proxy_end": 16175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_15980713_15981713",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 15900000,
+      "proxy_end": 16175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_15980713_15981713",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 13750000,
+      "proxy_end": 16775000,
+      "risk_genes": [
+        "EIF3H",
+        "RAD21",
+        "TRPS1",
+        "UTP23"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051817.1_15980713_15981713",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 13725000,
+      "proxy_end": 16725000,
+      "risk_genes": [
+        "EIF3H",
+        "RAD21",
+        "TRPS1",
+        "UTP23"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051812.1_66153414_66154414",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 66150000,
+      "proxy_end": 66750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_66153414_66154414",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 66125000,
+      "proxy_end": 66750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_66153414_66154414",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 66000000,
+      "proxy_end": 68100000,
+      "risk_genes": [
+        "BCL11B"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051812.1_66153414_66154414",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 66150000,
+      "proxy_end": 68075000,
+      "risk_genes": [
+        "BCL11B"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_17817822_17818822",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 17275000,
+      "proxy_end": 17825000,
+      "risk_genes": [
+        "PCDH20"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_17817822_17818822",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 17275000,
+      "proxy_end": 17825000,
+      "risk_genes": [
+        "PCDH20"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_17817822_17818822",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 16750000,
+      "proxy_end": 17975000,
+      "risk_genes": [
+        "PCDH20"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_17817822_17818822",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 16825000,
+      "proxy_end": 17975000,
+      "risk_genes": [
+        "PCDH20"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051838.1_10647789_10648789",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 10450000,
+      "proxy_end": 10825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051838.1_10647789_10648789",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 10450000,
+      "proxy_end": 10825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051838.1_10647789_10648789",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 7925000,
+      "proxy_end": 10825000,
+      "risk_genes": [
+        "IRX1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051838.1_10647789_10648789",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 8425000,
+      "proxy_end": 10825000,
+      "risk_genes": [
+        "IRX1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051812.1_13171242_13172242",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051812.1_13171242_13172242",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051812.1_13171242_13172242",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 12900000,
+      "proxy_end": 13275000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_13171242_13172242",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 12875000,
+      "proxy_end": 13550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_4030104_4031104",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 3850000,
+      "proxy_end": 4600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_4030104_4031104",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 3850000,
+      "proxy_end": 4650000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_4030104_4031104",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 3600000,
+      "proxy_end": 4600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_4030104_4031104",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 3625000,
+      "proxy_end": 4625000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_32999269_33000269",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 32750000,
+      "proxy_end": 33875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_32999269_33000269",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 32750000,
+      "proxy_end": 33950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_32999269_33000269",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 32750000,
+      "proxy_end": 33875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_32999269_33000269",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 32725000,
+      "proxy_end": 34175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_13978557_13979557",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 13700000,
+      "proxy_end": 14000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_13978557_13979557",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 13700000,
+      "proxy_end": 14000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_13978557_13979557",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 13675000,
+      "proxy_end": 14525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_13978557_13979557",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 13675000,
+      "proxy_end": 14950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_44439976_44440976",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 43725000,
+      "proxy_end": 44675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_44439976_44440976",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 43625000,
+      "proxy_end": 44675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_44439976_44440976",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 43725000,
+      "proxy_end": 46500000,
+      "risk_genes": [
+        "FAT1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051820.1_44439976_44440976",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 43550000,
+      "proxy_end": 46375000,
+      "risk_genes": [
+        "FAT1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_26893945_26894945",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 26325000,
+      "proxy_end": 27275000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_26893945_26894945",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 26325000,
+      "proxy_end": 27275000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_26893945_26894945",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 26100000,
+      "proxy_end": 28600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_26893945_26894945",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 26125000,
+      "proxy_end": 28550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_51028651_51029651",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 50525000,
+      "proxy_end": 51925000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_51028651_51029651",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 50525000,
+      "proxy_end": 51925000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_51028651_51029651",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 49900000,
+      "proxy_end": 52050000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_51028651_51029651",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 49950000,
+      "proxy_end": 51925000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051835.1_6245820_6246820",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 6200000,
+      "proxy_end": 7150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051835.1_6245820_6246820",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 6125000,
+      "proxy_end": 7150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051835.1_6245820_6246820",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 6125000,
+      "proxy_end": 7675000,
+      "risk_genes": [
+        "ROBO1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051835.1_6245820_6246820",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 6200000,
+      "proxy_end": 8650000,
+      "risk_genes": [
+        "ROBO1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051835.1_4607950_4608950",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 4600000,
+      "proxy_end": 5125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051835.1_4607950_4608950",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 4600000,
+      "proxy_end": 5125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051835.1_4607950_4608950",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 2825000,
+      "proxy_end": 6100000,
+      "risk_genes": [
+        "CADM2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051835.1_4607950_4608950",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 875000,
+      "proxy_end": 6175000,
+      "risk_genes": [
+        "CADM2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_56418779_56419779",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 56350000,
+      "proxy_end": 56575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_56418779_56419779",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 56250000,
+      "proxy_end": 56575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_56418779_56419779",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 56325000,
+      "proxy_end": 57050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_56418779_56419779",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 56350000,
+      "proxy_end": 57400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_29357138_29358138",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 28975000,
+      "proxy_end": 29475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_29357138_29358138",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 28975000,
+      "proxy_end": 29475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_29357138_29358138",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 28600000,
+      "proxy_end": 29700000,
+      "risk_genes": [
+        "KDM4C"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051815.1_29357138_29358138",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 28600000,
+      "proxy_end": 31950000,
+      "risk_genes": [
+        "KDM4C",
+        "PTPRD"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_3064345_3065345",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 2800000,
+      "proxy_end": 3200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_3064345_3065345",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 2800000,
+      "proxy_end": 3200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_3064345_3065345",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 2350000,
+      "proxy_end": 4525000,
+      "risk_genes": [
+        "SOX11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_3064345_3065345",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 2350000,
+      "proxy_end": 4525000,
+      "risk_genes": [
+        "SOX11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051822.1_31564724_31565724",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 30825000,
+      "proxy_end": 31725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31564724_31565724",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 30825000,
+      "proxy_end": 31725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31564724_31565724",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 30825000,
+      "proxy_end": 32175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_31564724_31565724",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27050000,
+      "proxy_end": 32125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_3411351_3412351",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 3275000,
+      "proxy_end": 3775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_3411351_3412351",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 3225000,
+      "proxy_end": 3825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_3411351_3412351",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 3275000,
+      "proxy_end": 3775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_3411351_3412351",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 3250000,
+      "proxy_end": 5100000,
+      "risk_genes": [
+        "CNDP2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_6162258_6163258",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 5450000,
+      "proxy_end": 6625000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_6162258_6163258",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 5450000,
+      "proxy_end": 6625000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_6162258_6163258",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 4050000,
+      "proxy_end": 7450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_6162258_6163258",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 4350000,
+      "proxy_end": 7525000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_19034940_19035940",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 18775000,
+      "proxy_end": 19050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_19034940_19035940",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 18775000,
+      "proxy_end": 19050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_19034940_19035940",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 18775000,
+      "proxy_end": 19400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_19034940_19035940",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 18700000,
+      "proxy_end": 19375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_50912745_50913745",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 50525000,
+      "proxy_end": 51925000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_50912745_50913745",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 50525000,
+      "proxy_end": 51925000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_50912745_50913745",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 49900000,
+      "proxy_end": 52050000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_50912745_50913745",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 49950000,
+      "proxy_end": 51925000,
+      "risk_genes": [
+        "NTRK3"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_28876169_28877169",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 28500000,
+      "proxy_end": 28975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_28876169_28877169",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 28500000,
+      "proxy_end": 28975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_28876169_28877169",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 28150000,
+      "proxy_end": 28975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_28876169_28877169",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 28125000,
+      "proxy_end": 29650000,
+      "risk_genes": [
+        "MAFB"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_1132742_1133742",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 650000,
+      "proxy_end": 1225000,
+      "risk_genes": [
+        "FOXO1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_1132742_1133742",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 575000,
+      "proxy_end": 1225000,
+      "risk_genes": [
+        "FOXO1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_1132742_1133742",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 600000,
+      "proxy_end": 1600000,
+      "risk_genes": [
+        "FOXO1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_1132742_1133742",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 650000,
+      "proxy_end": 1575000,
+      "risk_genes": [
+        "FOXO1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051811.1_48516733_48517733",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 47200000,
+      "proxy_end": 48550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_48516733_48517733",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 47200000,
+      "proxy_end": 48575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_48516733_48517733",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 45450000,
+      "proxy_end": 48575000,
+      "risk_genes": [
+        "SETBP1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051811.1_48516733_48517733",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 45450000,
+      "proxy_end": 48550000,
+      "risk_genes": [
+        "SETBP1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051827.1_4735013_4736013",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 4550000,
+      "proxy_end": 4825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_4735013_4736013",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 4500000,
+      "proxy_end": 4825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_4735013_4736013",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 4550000,
+      "proxy_end": 5475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_4735013_4736013",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 4500000,
+      "proxy_end": 6875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_34084747_34085747",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 33800000,
+      "proxy_end": 34175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_34084747_34085747",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 33800000,
+      "proxy_end": 34175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_34084747_34085747",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 33400000,
+      "proxy_end": 34325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_34084747_34085747",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 33400000,
+      "proxy_end": 35125000,
+      "risk_genes": [
+        "BCOR"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051817.1_24272763_24273763",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 23975000,
+      "proxy_end": 24300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_24272763_24273763",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 23925000,
+      "proxy_end": 24300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_24272763_24273763",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 23925000,
+      "proxy_end": 24775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_24272763_24273763",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 23975000,
+      "proxy_end": 24775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051840.1_23998261_23999261",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 23725000,
+      "proxy_end": 24350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051840.1_23998261_23999261",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 23700000,
+      "proxy_end": 24450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051840.1_23998261_23999261",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 23725000,
+      "proxy_end": 24450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051840.1_23998261_23999261",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 23700000,
+      "proxy_end": 24350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_18142232_18143232",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 17875000,
+      "proxy_end": 18675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_18142232_18143232",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 17825000,
+      "proxy_end": 18750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_18142232_18143232",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 17875000,
+      "proxy_end": 18750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_18142232_18143232",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 17875000,
+      "proxy_end": 18675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_47966198_47967198",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 47125000,
+      "proxy_end": 48125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_47966198_47967198",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 47125000,
+      "proxy_end": 48575000,
+      "risk_genes": [
+        "MUC15"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051825.1_47966198_47967198",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 45575000,
+      "proxy_end": 48150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051825.1_47966198_47967198",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 45850000,
+      "proxy_end": 48125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_46288030_46289030",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 45575000,
+      "proxy_end": 46300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_46288030_46289030",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 45575000,
+      "proxy_end": 46300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_46288030_46289030",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 43750000,
+      "proxy_end": 47200000,
+      "risk_genes": [
+        "WWC1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051808.1_46288030_46289030",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 43825000,
+      "proxy_end": 47900000,
+      "risk_genes": [
+        "WWC1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_41184704_41185704",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 41075000,
+      "proxy_end": 41925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41184704_41185704",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 41075000,
+      "proxy_end": 41925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41184704_41185704",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 40800000,
+      "proxy_end": 42125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_41184704_41185704",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 40800000,
+      "proxy_end": 42125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_65906704_65907704",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 65725000,
+      "proxy_end": 65975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_65906704_65907704",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 65725000,
+      "proxy_end": 66100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_65906704_65907704",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 65575000,
+      "proxy_end": 65975000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_65906704_65907704",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 64775000,
+      "proxy_end": 66125000,
+      "risk_genes": [
+        "TCL1A"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_26841076_26842076",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 26525000,
+      "proxy_end": 27150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_26841076_26842076",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 26500000,
+      "proxy_end": 27150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_26841076_26842076",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 26525000,
+      "proxy_end": 27175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_26841076_26842076",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 25225000,
+      "proxy_end": 27150000,
+      "risk_genes": [
+        "DACH1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051810.1_32990613_32991613",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 32675000,
+      "proxy_end": 33225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_32990613_32991613",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 32675000,
+      "proxy_end": 33275000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_32990613_32991613",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 32450000,
+      "proxy_end": 33225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_32990613_32991613",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 32150000,
+      "proxy_end": 33225000,
+      "risk_genes": [
+        "EMP2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_2091307_2092307",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 1675000,
+      "proxy_end": 2200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_2091307_2092307",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1650000,
+      "proxy_end": 2200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_2091307_2092307",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 1675000,
+      "proxy_end": 2400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_2091307_2092307",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1475000,
+      "proxy_end": 2425000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_9525800_9526800",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 8800000,
+      "proxy_end": 9900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_9525800_9526800",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 8800000,
+      "proxy_end": 9900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_9525800_9526800",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 8750000,
+      "proxy_end": 10275000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_9525800_9526800",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 8775000,
+      "proxy_end": 10125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_22222370_22223370",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 22050000,
+      "proxy_end": 22325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_22222370_22223370",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 22050000,
+      "proxy_end": 22325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_22222370_22223370",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 21325000,
+      "proxy_end": 22325000,
+      "risk_genes": [
+        "PPA1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051808.1_22222370_22223370",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 21650000,
+      "proxy_end": 22325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_30325702_30326702",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 29750000,
+      "proxy_end": 30800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_30325702_30326702",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 29750000,
+      "proxy_end": 30800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_30325702_30326702",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 29150000,
+      "proxy_end": 30800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051822.1_30325702_30326702",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27050000,
+      "proxy_end": 32125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_96269013_96270013",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 96050000,
+      "proxy_end": 96500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_96269013_96270013",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 96050000,
+      "proxy_end": 96500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_96269013_96270013",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 95750000,
+      "proxy_end": 96775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_96269013_96270013",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 94700000,
+      "proxy_end": 96775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051837.1_3475382_3476382",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 1975000,
+      "proxy_end": 3850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051837.1_3475382_3476382",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1975000,
+      "proxy_end": 4050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051837.1_3475382_3476382",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 1975000,
+      "proxy_end": 3850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051837.1_3475382_3476382",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1575000,
+      "proxy_end": 4800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_28280977_28281977",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 28250000,
+      "proxy_end": 29050000,
+      "risk_genes": [
+        "PTPRG"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_28280977_28281977",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 28250000,
+      "proxy_end": 29050000,
+      "risk_genes": [
+        "PTPRG"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_28280977_28281977",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 27700000,
+      "proxy_end": 29050000,
+      "risk_genes": [
+        "PTPRG"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_28280977_28281977",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 26600000,
+      "proxy_end": 29650000,
+      "risk_genes": [
+        "ADAMTS9",
+        "PTPRG"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_90940363_90941363",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 90175000,
+      "proxy_end": 91525000,
+      "risk_genes": [
+        "SLIT2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_90940363_90941363",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 90175000,
+      "proxy_end": 91550000,
+      "risk_genes": [
+        "SLIT2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_90940363_90941363",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 89800000,
+      "proxy_end": 91525000,
+      "risk_genes": [
+        "SLIT2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_90940363_90941363",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 89800000,
+      "proxy_end": 91525000,
+      "risk_genes": [
+        "SLIT2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051830.1_2943682_2944682",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 2925000,
+      "proxy_end": 3100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_2943682_2944682",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 2925000,
+      "proxy_end": 3100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_2943682_2944682",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 2875000,
+      "proxy_end": 3150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_2943682_2944682",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 2025000,
+      "proxy_end": 5075000,
+      "risk_genes": [
+        "PIWIL1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_11066492_11067492",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 10675000,
+      "proxy_end": 11075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_11066492_11067492",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 10525000,
+      "proxy_end": 11075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_11066492_11067492",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 10675000,
+      "proxy_end": 11250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_11066492_11067492",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 10650000,
+      "proxy_end": 11700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_16325057_16326057",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 16200000,
+      "proxy_end": 17075000,
+      "risk_genes": [
+        "CHL1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_16325057_16326057",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 16200000,
+      "proxy_end": 17075000,
+      "risk_genes": [
+        "CHL1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_16325057_16326057",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 14550000,
+      "proxy_end": 17075000,
+      "risk_genes": [
+        "CHL1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_16325057_16326057",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 14775000,
+      "proxy_end": 19075000,
+      "risk_genes": [
+        "CHL1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_45853214_45854214",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 45800000,
+      "proxy_end": 45925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_45853214_45854214",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 45800000,
+      "proxy_end": 45925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_45853214_45854214",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 45625000,
+      "proxy_end": 46425000,
+      "risk_genes": [
+        "CDH4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_45853214_45854214",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 45100000,
+      "proxy_end": 46775000,
+      "risk_genes": [
+        "CDH4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051838.1_41561523_41562523",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 41375000,
+      "proxy_end": 41875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051838.1_41561523_41562523",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 41375000,
+      "proxy_end": 42050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051838.1_41561523_41562523",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 40650000,
+      "proxy_end": 41875000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051838.1_41561523_41562523",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051830.1_3633144_3634144",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051830.1_3633144_3634144",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051830.1_3633144_3634144",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 3175000,
+      "proxy_end": 4475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_3633144_3634144",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 2025000,
+      "proxy_end": 5075000,
+      "risk_genes": [
+        "PIWIL1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051806.1_45531845_45532845",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 45325000,
+      "proxy_end": 45825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_45531845_45532845",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 45325000,
+      "proxy_end": 45825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_45531845_45532845",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 44850000,
+      "proxy_end": 45825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_45531845_45532845",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 44850000,
+      "proxy_end": 45825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_1190438_1191438",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 850000,
+      "proxy_end": 1325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_1190438_1191438",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 850000,
+      "proxy_end": 1325000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_1190438_1191438",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 850000,
+      "proxy_end": 1875000,
+      "risk_genes": [
+        "TRIM13"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051826.1_1190438_1191438",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 850000,
+      "proxy_end": 1925000,
+      "risk_genes": [
+        "TRIM13"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051827.1_3339126_3340126",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 2950000,
+      "proxy_end": 3350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_3339126_3340126",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 2725000,
+      "proxy_end": 3350000,
+      "risk_genes": [
+        "ABHD5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051827.1_3339126_3340126",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 2950000,
+      "proxy_end": 3375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_3339126_3340126",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 2750000,
+      "proxy_end": 3475000,
+      "risk_genes": [
+        "ABHD5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051831.1_15691629_15692629",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 15250000,
+      "proxy_end": 16125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_15691629_15692629",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 15250000,
+      "proxy_end": 16125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051831.1_15691629_15692629",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 15225000,
+      "proxy_end": 16625000,
+      "risk_genes": [
+        "YARS2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051831.1_15691629_15692629",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 14100000,
+      "proxy_end": 16350000,
+      "risk_genes": [
+        "YARS2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_15937507_15938507",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 15875000,
+      "proxy_end": 16550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_15937507_15938507",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 15875000,
+      "proxy_end": 16550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_15937507_15938507",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 15650000,
+      "proxy_end": 16825000,
+      "risk_genes": [
+        "FGF9"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_15937507_15938507",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 15700000,
+      "proxy_end": 16775000,
+      "risk_genes": [
+        "FGF9"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051833.1_889675_890675",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 875000,
+      "proxy_end": 1250000,
+      "risk_genes": [
+        "SNAI2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051833.1_889675_890675",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 875000,
+      "proxy_end": 1250000,
+      "risk_genes": [
+        "SNAI2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051833.1_889675_890675",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 475000,
+      "proxy_end": 1250000,
+      "risk_genes": [
+        "SNAI2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051833.1_889675_890675",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 500000,
+      "proxy_end": 1250000,
+      "risk_genes": [
+        "SNAI2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051824.1_10227253_10228253",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 9975000,
+      "proxy_end": 11025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_10227253_10228253",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 9975000,
+      "proxy_end": 11025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_10227253_10228253",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 9325000,
+      "proxy_end": 11225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_10227253_10228253",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 9525000,
+      "proxy_end": 12500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_8423204_8424204",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 8175000,
+      "proxy_end": 8575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_8423204_8424204",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 8125000,
+      "proxy_end": 8600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_8423204_8424204",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 8175000,
+      "proxy_end": 8600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051826.1_8423204_8424204",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 7225000,
+      "proxy_end": 8575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_47773922_47774922",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 47225000,
+      "proxy_end": 47900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_47773922_47774922",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 47200000,
+      "proxy_end": 48100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_47773922_47774922",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 47225000,
+      "proxy_end": 48025000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051808.1_47773922_47774922",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 43825000,
+      "proxy_end": 47900000,
+      "risk_genes": [
+        "WWC1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051843.1_2976108_2977108",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051843.1_2976108_2977108",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051843.1_2976108_2977108",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 2200000,
+      "proxy_end": 4900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_2976108_2977108",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 2200000,
+      "proxy_end": 3850000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_32268116_32269116",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 31975000,
+      "proxy_end": 32400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_32268116_32269116",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 31975000,
+      "proxy_end": 32400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_32268116_32269116",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 31800000,
+      "proxy_end": 32400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_32268116_32269116",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 31750000,
+      "proxy_end": 32400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_49703204_49704204",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 49375000,
+      "proxy_end": 50250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_49703204_49704204",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 49375000,
+      "proxy_end": 50250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_49703204_49704204",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 49375000,
+      "proxy_end": 50575000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051815.1_49703204_49704204",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 47000000,
+      "proxy_end": 50400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_76995482_76996482",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 76775000,
+      "proxy_end": 77225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_76995482_76996482",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 76775000,
+      "proxy_end": 77225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_76995482_76996482",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 76225000,
+      "proxy_end": 77700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_76995482_76996482",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 76250000,
+      "proxy_end": 78250000,
+      "risk_genes": [
+        "TLE1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051814.1_43352999_43353999",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 43325000,
+      "proxy_end": 43500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051814.1_43352999_43353999",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 43325000,
+      "proxy_end": 43500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051814.1_43352999_43353999",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 43300000,
+      "proxy_end": 43950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051814.1_43352999_43353999",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 43200000,
+      "proxy_end": 43950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_46111752_46112752",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 45450000,
+      "proxy_end": 46400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_46111752_46112752",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 45450000,
+      "proxy_end": 46400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_46111752_46112752",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 45200000,
+      "proxy_end": 47200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051810.1_46111752_46112752",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 44525000,
+      "proxy_end": 47225000,
+      "risk_genes": [
+        "PRMT6"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051823.1_34462065_34463065",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 33850000,
+      "proxy_end": 34700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_34462065_34463065",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 33850000,
+      "proxy_end": 34700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_34462065_34463065",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 33475000,
+      "proxy_end": 36450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_34462065_34463065",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 33550000,
+      "proxy_end": 36300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_20856149_20857149",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 20800000,
+      "proxy_end": 21100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_20856149_20857149",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 20800000,
+      "proxy_end": 21125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_20856149_20857149",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 20400000,
+      "proxy_end": 21100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051820.1_20856149_20857149",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 20400000,
+      "proxy_end": 21550000,
+      "risk_genes": [
+        "MNX1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_45846849_45847849",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 45800000,
+      "proxy_end": 45925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_45846849_45847849",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 45800000,
+      "proxy_end": 45925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_45846849_45847849",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 45625000,
+      "proxy_end": 46425000,
+      "risk_genes": [
+        "CDH4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_45846849_45847849",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 45100000,
+      "proxy_end": 46775000,
+      "risk_genes": [
+        "CDH4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051817.1_32685128_32686128",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 32600000,
+      "proxy_end": 33100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_32685128_32686128",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 32600000,
+      "proxy_end": 33100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_32685128_32686128",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 31400000,
+      "proxy_end": 33100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_32685128_32686128",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 31450000,
+      "proxy_end": 34875000,
+      "risk_genes": [
+        "KCNK9"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051805.1_3221814_3222814",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051805.1_3221814_3222814",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051805.1_3221814_3222814",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 2900000,
+      "proxy_end": 3250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_3221814_3222814",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 2175000,
+      "proxy_end": 3225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_38129342_38130342",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 37725000,
+      "proxy_end": 38350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_38129342_38130342",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 37650000,
+      "proxy_end": 38350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_38129342_38130342",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 37650000,
+      "proxy_end": 38675000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_38129342_38130342",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 37725000,
+      "proxy_end": 39400000,
+      "risk_genes": [
+        "MGMT"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051807.1_84418156_84419156",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 84225000,
+      "proxy_end": 84425000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_84418156_84419156",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 84225000,
+      "proxy_end": 84500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_84418156_84419156",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 82750000,
+      "proxy_end": 84475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051807.1_84418156_84419156",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 82750000,
+      "proxy_end": 84425000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_78282459_78283459",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 78275000,
+      "proxy_end": 79000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_78282459_78283459",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 78050000,
+      "proxy_end": 79150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_78282459_78283459",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 77725000,
+      "proxy_end": 79775000,
+      "risk_genes": [
+        "TLE1",
+        "TLE4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051805.1_78282459_78283459",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 78275000,
+      "proxy_end": 79000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_28742272_28743272",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 28725000,
+      "proxy_end": 29000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_28742272_28743272",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 28725000,
+      "proxy_end": 29000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_28742272_28743272",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 28725000,
+      "proxy_end": 29050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_28742272_28743272",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 28075000,
+      "proxy_end": 29475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_32973602_32974602",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 32625000,
+      "proxy_end": 33200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_32973602_32974602",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 32500000,
+      "proxy_end": 33200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_32973602_32974602",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 32525000,
+      "proxy_end": 33925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_32973602_32974602",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 32625000,
+      "proxy_end": 33900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051837.1_12681509_12682509",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051837.1_12681509_12682509",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051837.1_12681509_12682509",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 12675000,
+      "proxy_end": 13075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051837.1_12681509_12682509",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 12675000,
+      "proxy_end": 14350000,
+      "risk_genes": [
+        "CIP2A"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051806.1_23169360_23170360",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 23025000,
+      "proxy_end": 23250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_23169360_23170360",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 23025000,
+      "proxy_end": 23250000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_23169360_23170360",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 22975000,
+      "proxy_end": 23450000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_23169360_23170360",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 22475000,
+      "proxy_end": 23750000,
+      "risk_genes": [
+        "MCM10"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_17356576_17357576",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 17250000,
+      "proxy_end": 17975000,
+      "risk_genes": [
+        "CADM1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_17356576_17357576",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 17250000,
+      "proxy_end": 17975000,
+      "risk_genes": [
+        "CADM1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_17356576_17357576",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 16800000,
+      "proxy_end": 18175000,
+      "risk_genes": [
+        "CADM1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_17356576_17357576",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 16825000,
+      "proxy_end": 18075000,
+      "risk_genes": [
+        "CADM1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051812.1_5512308_5513308",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 5225000,
+      "proxy_end": 6075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_5512308_5513308",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 5100000,
+      "proxy_end": 6075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_5512308_5513308",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 5175000,
+      "proxy_end": 8175000,
+      "risk_genes": [
+        "NOVA1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051812.1_5512308_5513308",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 5225000,
+      "proxy_end": 6825000,
+      "risk_genes": [
+        "NOVA1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051823.1_28387641_28388641",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 27875000,
+      "proxy_end": 28750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_28387641_28388641",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 27875000,
+      "proxy_end": 28750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_28387641_28388641",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 27875000,
+      "proxy_end": 29300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_28387641_28388641",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27050000,
+      "proxy_end": 29725000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_47450307_47451307",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 47450000,
+      "proxy_end": 47775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_47450307_47451307",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 47450000,
+      "proxy_end": 47900000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_47450307_47451307",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 47450000,
+      "proxy_end": 47825000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_47450307_47451307",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 47050000,
+      "proxy_end": 47775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_19495702_19496702",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051824.1_19495702_19496702",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051824.1_19495702_19496702",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 19100000,
+      "proxy_end": 20175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051824.1_19495702_19496702",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 19100000,
+      "proxy_end": 20350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_43724382_43725382",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 43625000,
+      "proxy_end": 44075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_43724382_43725382",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 43625000,
+      "proxy_end": 44200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_43724382_43725382",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 43600000,
+      "proxy_end": 44175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051816.1_43724382_43725382",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 43575000,
+      "proxy_end": 44075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051841.1_24030090_24031090",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 23950000,
+      "proxy_end": 24500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051841.1_24030090_24031090",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 23950000,
+      "proxy_end": 24500000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051841.1_24030090_24031090",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 23525000,
+      "proxy_end": 24525000,
+      "risk_genes": [
+        "IGFBP2",
+        "IGFBP5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051841.1_24030090_24031090",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 23525000,
+      "proxy_end": 24575000,
+      "risk_genes": [
+        "IGFBP2",
+        "IGFBP5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_14877391_14878391",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 14650000,
+      "proxy_end": 15400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_14877391_14878391",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 14650000,
+      "proxy_end": 15400000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051828.1_14877391_14878391",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 14650000,
+      "proxy_end": 16125000,
+      "risk_genes": [
+        "BMP2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051828.1_14877391_14878391",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 14625000,
+      "proxy_end": 16125000,
+      "risk_genes": [
+        "BMP2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051834.1_5088947_5089947",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 4525000,
+      "proxy_end": 5375000,
+      "risk_genes": [
+        "MEIS2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051834.1_5088947_5089947",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 4200000,
+      "proxy_end": 5425000,
+      "risk_genes": [
+        "MEIS2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051834.1_5088947_5089947",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 4525000,
+      "proxy_end": 5425000,
+      "risk_genes": [
+        "MEIS2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051834.1_5088947_5089947",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 3525000,
+      "proxy_end": 5375000,
+      "risk_genes": [
+        "MEIS2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051842.1_5108404_5109404",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 4825000,
+      "proxy_end": 5550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051842.1_5108404_5109404",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 4825000,
+      "proxy_end": 5550000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051842.1_5108404_5109404",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 4825000,
+      "proxy_end": 5975000,
+      "risk_genes": [
+        "CDC73"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051842.1_5108404_5109404",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 3550000,
+      "proxy_end": 5900000,
+      "risk_genes": [
+        "CDC73"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_5070862_5071862",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 5050000,
+      "proxy_end": 5225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_5070862_5071862",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 5050000,
+      "proxy_end": 5225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_5070862_5071862",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 4550000,
+      "proxy_end": 6175000,
+      "risk_genes": [
+        "ID2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_5070862_5071862",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 4550000,
+      "proxy_end": 6150000,
+      "risk_genes": [
+        "ID2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051827.1_26596631_26597631",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 26375000,
+      "proxy_end": 26700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_26596631_26597631",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 26375000,
+      "proxy_end": 26700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_26596631_26597631",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 26175000,
+      "proxy_end": 26700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_26596631_26597631",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 26150000,
+      "proxy_end": 26700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_27458567_27459567",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 27325000,
+      "proxy_end": 27800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_27458567_27459567",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 27325000,
+      "proxy_end": 27800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_27458567_27459567",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 27325000,
+      "proxy_end": 29475000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_27458567_27459567",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 27325000,
+      "proxy_end": 28600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_38132810_38133810",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 37975000,
+      "proxy_end": 38200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_38132810_38133810",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 37975000,
+      "proxy_end": 38200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_38132810_38133810",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 37725000,
+      "proxy_end": 38225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051823.1_38132810_38133810",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 36975000,
+      "proxy_end": 38200000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_56894566_56895566",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 56475000,
+      "proxy_end": 57125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_56894566_56895566",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 56475000,
+      "proxy_end": 57125000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_56894566_56895566",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 56475000,
+      "proxy_end": 57375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051811.1_56894566_56895566",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 55150000,
+      "proxy_end": 57325000,
+      "risk_genes": [
+        "NOL4"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051812.1_44637049_44638049",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 44500000,
+      "proxy_end": 44925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_44637049_44638049",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 44500000,
+      "proxy_end": 44950000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_44637049_44638049",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 44225000,
+      "proxy_end": 44925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051812.1_44637049_44638049",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 44275000,
+      "proxy_end": 46050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_31605782_31606782",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 31125000,
+      "proxy_end": 32050000,
+      "risk_genes": [
+        "KLF6"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051806.1_31605782_31606782",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 31125000,
+      "proxy_end": 32050000,
+      "risk_genes": [
+        "KLF6"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051806.1_31605782_31606782",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 31125000,
+      "proxy_end": 32725000,
+      "risk_genes": [
+        "KLF6"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051806.1_31605782_31606782",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 31125000,
+      "proxy_end": 32700000,
+      "risk_genes": [
+        "KLF6"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051805.1_1486678_1487678",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 1425000,
+      "proxy_end": 2100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_1486678_1487678",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1425000,
+      "proxy_end": 2100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_1486678_1487678",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 1425000,
+      "proxy_end": 2100000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_1486678_1487678",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1425000,
+      "proxy_end": 2150000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_1367230_1368230",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 1100000,
+      "proxy_end": 1700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_1367230_1368230",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1075000,
+      "proxy_end": 1700000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051839.1_1367230_1368230",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 1100000,
+      "proxy_end": 2000000,
+      "risk_genes": [
+        "FOXF2",
+        "FOXQ1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051839.1_1367230_1368230",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1100000,
+      "proxy_end": 1925000,
+      "risk_genes": [
+        "FOXF2",
+        "FOXQ1"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051817.1_26199824_26200824",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 25800000,
+      "proxy_end": 26300000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_26199824_26200824",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 25800000,
+      "proxy_end": 26350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051817.1_26199824_26200824",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 25525000,
+      "proxy_end": 27200000,
+      "risk_genes": [
+        "MYC"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051817.1_26199824_26200824",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 24800000,
+      "proxy_end": 26300000,
+      "risk_genes": [
+        "MYC"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051814.1_60286020_60287020",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 60250000,
+      "proxy_end": 60350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051814.1_60286020_60287020",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 59900000,
+      "proxy_end": 60350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051814.1_60286020_60287020",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 60250000,
+      "proxy_end": 61350000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051814.1_60286020_60287020",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 59925000,
+      "proxy_end": 61750000,
+      "risk_genes": [
+        "BCL11A"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_83977036_83978036",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 83750000,
+      "proxy_end": 84450000,
+      "risk_genes": [
+        "CDH11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_83977036_83978036",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 83350000,
+      "proxy_end": 84450000,
+      "risk_genes": [
+        "CDH11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_83977036_83978036",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 83750000,
+      "proxy_end": 84450000,
+      "risk_genes": [
+        "CDH11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051809.1_83977036_83978036",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 83375000,
+      "proxy_end": 84825000,
+      "risk_genes": [
+        "CDH11"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_1759264_1760264",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051821.1_1759264_1760264",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1350000,
+      "proxy_end": 2275000,
+      "risk_genes": [
+        "RPS7"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051821.1_1759264_1760264",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051821.1_1759264_1760264",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051821.1_48836825_48837825",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 48625000,
+      "proxy_end": 49050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_48836825_48837825",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 48600000,
+      "proxy_end": 49075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_48836825_48837825",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 48625000,
+      "proxy_end": 49050000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051821.1_48836825_48837825",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 48100000,
+      "proxy_end": 49075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_33598009_33599009",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 33575000,
+      "proxy_end": 33925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_33598009_33599009",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 33575000,
+      "proxy_end": 33925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_33598009_33599009",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 33325000,
+      "proxy_end": 33925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051832.1_33598009_33599009",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 32025000,
+      "proxy_end": 33925000,
+      "risk_genes": [
+        "BUB3",
+        "DMBT1",
+        "HTRA1",
+        "TACC2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051829.1_36539025_36540025",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 36175000,
+      "proxy_end": 36925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_36539025_36540025",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 36175000,
+      "proxy_end": 36925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_36539025_36540025",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 36175000,
+      "proxy_end": 36925000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051829.1_36539025_36540025",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 35450000,
+      "proxy_end": 36925000,
+      "risk_genes": [
+        "DOK2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051827.1_36602989_36603989",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 36450000,
+      "proxy_end": 36800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_36602989_36603989",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 36450000,
+      "proxy_end": 36800000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051827.1_36602989_36603989",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 36125000,
+      "proxy_end": 37375000,
+      "risk_genes": [
+        "COPB2"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051827.1_36602989_36603989",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 36425000,
+      "proxy_end": 37375000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051805.1_1409356_1410356",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051805.1_1409356_1410356",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051805.1_1409356_1410356",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051805.1_1409356_1410356",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051830.1_13454672_13455672",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 13300000,
+      "proxy_end": 13600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_13454672_13455672",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 13300000,
+      "proxy_end": 13600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_13454672_13455672",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 13000000,
+      "proxy_end": 13600000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051830.1_13454672_13455672",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 12975000,
+      "proxy_end": 14075000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051809.1_85711188_85712188",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051809.1_85711188_85712188",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051809.1_85711188_85712188",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051809.1_85711188_85712188",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 84850000,
+      "proxy_end": 87000000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_2055534_2056534",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": 1850000,
+      "proxy_end": 2175000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_2055534_2056534",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": 1850000,
+      "proxy_end": 2225000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051843.1_2055534_2056534",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 950000,
+      "proxy_end": 2175000,
+      "risk_genes": [
+        "CD99",
+        "MXRA5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051843.1_2055534_2056534",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 1525000,
+      "proxy_end": 2175000,
+      "risk_genes": [
+        "MXRA5"
+      ],
+      "status": "risk_catalogue_overlap"
+    },
+    {
+      "id": "NC_051806.1_51363945_51364945",
+      "group": "all64",
+      "scale": "union",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051806.1_51363945_51364945",
+      "group": "all64",
+      "scale": "is_boundary_100000",
+      "proxy_start": null,
+      "proxy_end": null,
+      "risk_genes": [],
+      "status": "no_full_window_assignment"
+    },
+    {
+      "id": "NC_051806.1_51363945_51364945",
+      "group": "all64",
+      "scale": "is_boundary_250000",
+      "proxy_start": 51075000,
+      "proxy_end": 51750000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    },
+    {
+      "id": "NC_051806.1_51363945_51364945",
+      "group": "all64",
+      "scale": "is_boundary_500000",
+      "proxy_start": 51150000,
+      "proxy_end": 51775000,
+      "risk_genes": [],
+      "status": "no_catalogue_hit_in_boundary_gap"
+    }
+  ],
+  "limitations": [
+    "Same boundary-gap proxy method as existing w01/w11 audit; not T-cell contact validation",
+    "Risk and missing-assignment categories can overlap",
+    "Union can hide risk at coarser scales; use all scale results",
+    "No hit is not proof of regulatory isolation"
+  ]
+}

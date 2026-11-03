@@ -1,0 +1,8 @@
+{
+  "pairs": 214126885,
+  "chunks": 215,
+  "alignment_records": 7349286,
+  "bam_sha256": "5931ffcd6a5602df0f27ae92171dd8708b30ccf8166c357fe5214a81cf3eacd5",
+  "duplicates": "marked globally, not removed",
+  "scope": "chr32 linked subset; structural review pending"
+}

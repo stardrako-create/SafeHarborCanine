@@ -1,0 +1,8 @@
+{
+  "state": "failed",
+  "source": "https://cgl.gi.ucsc.edu/data/cactus/241-mammalian-2020v2.hal",
+  "byte_limit": 268435456,
+  "error": "Command '['/home/stardrako/miniforge3/envs/cactus/bin/halStats', '--genomes', '/home/stardrako/safeharbor_hal_remote_20261009/alignment.hal']' timed out after 119.999985471 seconds",
+  "bytes": 1661571,
+  "requests": 197
+}

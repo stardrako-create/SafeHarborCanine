@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "window": "NC_051807.1_2091307_2092307",
+      "queries": 748,
+      "no_other_reference_match_within_mismatches": {
+        "0": 748,
+        "1": 458,
+        "2": 4,
+        "3": 0
+      },
+      "median_other_matches_within_3": 228.5,
+      "min_other_matches_within_3": 26,
+      "max_other_matches_within_3": 4228
+    },
+    {
+      "window": "NC_051814.1_43352999_43353999",
+      "queries": 748,
+      "no_other_reference_match_within_mismatches": {
+        "0": 748,
+        "1": 327,
+        "2": 4,
+        "3": 0
+      },
+      "median_other_matches_within_3": 322.0,
+      "min_other_matches_within_3": 27,
+      "max_other_matches_within_3": 21373
+    },
+    {
+      "window": "NC_051831.1_39708074_39709074",
+      "queries": 631,
+      "no_other_reference_match_within_mismatches": {
+        "0": 631,
+        "1": 347,
+        "2": 0,
+        "3": 0
+      },
+      "median_other_matches_within_3": 260,
+      "min_other_matches_within_3": 40,
+      "max_other_matches_within_3": 34827
+    }
+  ],
+  "source_sha256": "6b63793bb8c3b044f2854afa59f1c703d39660fce346f939a1289578d31c79bd",
+  "interpretation": "All eligible20mers remain exact-unique. All have at least one ungapped near match <=3 mismatches without PAM filtering. This is not a guide-specific off-target result or a new locus-veto threshold. No claim of zero off-targets is allowed.",
+  "limits": [
+    "N/ambiguous assembly sequence is missing information, not evidence of absent off-targets.",
+    "Only reference assembly, no population alternate genomes or bulges.",
+    "Nuclease/PAM/cassette/donor require subsequent design and validation."
+  ]
+}

@@ -1,0 +1,1058 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T13:26:07.426285+00:00",
+  "HGNC_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+  "HGNC_source_headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "X-GUploader-UploadID": "AP6rU82f_KAKRzHPuphy8TuxURoMSDgakK-HtOjelcLyOohpvbRVrCcWbYp8sxzSXty7MVnFViF7Bg",
+    "Date": "Fri, 09 Oct 2026 13:25:41 GMT",
+    "Cache-Control": "no-store",
+    "Expires": "Sat, 09 Oct 2027 13:25:41 GMT",
+    "Last-Modified": "Tue, 06 Oct 2026 13:38:36 GMT",
+    "ETag": "\"af43fd56a64ad57c0fcc72d6ef65e516\"",
+    "x-goog-generation": "1791293916908045",
+    "x-goog-metageneration": "1",
+    "x-goog-stored-content-encoding": "identity",
+    "x-goog-stored-content-length": "16973125",
+    "x-goog-hash": "crc32c=spxuzQ==, md5=r0P9VqZK1XwPzHLW72XlFg==",
+    "x-goog-storage-class": "STANDARD",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "16973125",
+    "Server": "UploadServer",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+  },
+  "HGNC_sha256": "8bf6f686e640dbc864a346484626953621b0500d900d26cd085a35c2782d725d",
+  "official_field_definitions": "https://www.genenames.org/help/statistics-and-downloads/",
+  "risk_list_symbols": 2654,
+  "matched_union": 2576,
+  "unmatched_union": [
+    "ACY1",
+    "AIM2",
+    "AKR1B10",
+    "ARHGAP11A",
+    "ARL11",
+    "ATP5J2-PTCD1",
+    "BCL2L10",
+    "BEX1",
+    "BEX2",
+    "BLACAT1",
+    "C1orf109",
+    "C3orf62",
+    "COX6B1",
+    "CXCL1",
+    "CXCL2",
+    "CXCL5",
+    "CYP3A5",
+    "DCD",
+    "DIRAS3",
+    "EIF3C",
+    "ERVW-1",
+    "FPR1",
+    "GEMIN8",
+    "GREP1",
+    "GSTM3",
+    "GTF2H2C",
+    "GTF2H4",
+    "HIST2H2AA3",
+    "HLA-C",
+    "HMGN5",
+    "IFNA1",
+    "IGH",
+    "ITLN1",
+    "ITM2A",
+    "KDM5D",
+    "KLLN",
+    "KRR1",
+    "LPA",
+    "MSLN",
+    "MT1G",
+    "MT1M",
+    "MT3",
+    "MYEOV",
+    "NBPF1",
+    "NCBP2",
+    "NR0B1",
+    "OXCT2",
+    "PCDH8",
+    "PIK3R3",
+    "PRSS21",
+    "PRSS3",
+    "PTK6",
+    "PTTG1IP",
+    "RAP1GAP",
+    "RBM4",
+    "RDM1",
+    "RORA",
+    "RTL10",
+    "SCGB3A1",
+    "SDCBP",
+    "SERPINB3",
+    "SSX2",
+    "TBC1D3",
+    "TIMM23",
+    "TINCR",
+    "TNFRSF10B",
+    "TRIM15",
+    "TRIM26",
+    "TRIM31",
+    "TSPY1",
+    "TUBGCP2",
+    "TUG1",
+    "URGCP",
+    "USP6",
+    "YY1AP1",
+    "ZNF471",
+    "ZNF671",
+    "ZNF677"
+  ],
+  "HGNC_unknown_risk_symbols": [],
+  "HGNC_ambiguous_risk_symbols": [
+    {
+      "original_risk_symbol": "QARS",
+      "categories": "essential",
+      "HGNC_match_field": "prev_symbol",
+      "HGNC_ids": [
+        "HGNC:3418",
+        "HGNC:9751"
+      ],
+      "ambiguous_original": true,
+      "accepted_same_record_symbol_spellings": [
+        "EARS",
+        "EPRS",
+        "EPRS1",
+        "GLUPRORS",
+        "QARS1",
+        "QPRS"
+      ],
+      "ambiguous_spellings_not_used": [
+        {
+          "symbol": "QARS",
+          "HGNC_ids": [
+            "HGNC:3418",
+            "HGNC:9751"
+          ]
+        },
+        {
+          "symbol": "PARS",
+          "HGNC_ids": [
+            "HGNC:270",
+            "HGNC:3418"
+          ]
+        },
+        {
+          "symbol": "QARS",
+          "HGNC_ids": [
+            "HGNC:3418",
+            "HGNC:9751"
+          ]
+        }
+      ]
+    }
+  ],
+  "assemblies": [
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/genomic.gff",
+      "window": [
+        "NC_051831.1",
+        39708074,
+        39709074
+      ],
+      "matched_risk_symbols": 2574,
+      "unmatched_symbols": [
+        "ACY1",
+        "AIM2",
+        "AKR1B10",
+        "ARHGAP11A",
+        "ARL11",
+        "ATP5J2-PTCD1",
+        "BCL2L10",
+        "BEX1",
+        "BEX2",
+        "BLACAT1",
+        "C1orf109",
+        "C3orf62",
+        "CDKN2A",
+        "COX6B1",
+        "CXCL1",
+        "CXCL2",
+        "CXCL5",
+        "CYP3A5",
+        "DCD",
+        "DIRAS3",
+        "EIF3C",
+        "ERVW-1",
+        "FPR1",
+        "FTH1",
+        "GEMIN8",
+        "GREP1",
+        "GSTM3",
+        "GTF2H2C",
+        "GTF2H4",
+        "HIST2H2AA3",
+        "HLA-C",
+        "HMGN5",
+        "IFNA1",
+        "IGH",
+        "ITLN1",
+        "ITM2A",
+        "KDM5D",
+        "KLLN",
+        "KRR1",
+        "LPA",
+        "MSLN",
+        "MT1G",
+        "MT1M",
+        "MT3",
+        "MYEOV",
+        "NBPF1",
+        "NCBP2",
+        "NR0B1",
+        "OXCT2",
+        "PCDH8",
+        "PIK3R3",
+        "PRSS21",
+        "PRSS3",
+        "PTK6",
+        "PTTG1IP",
+        "RAP1GAP",
+        "RBM4",
+        "RDM1",
+        "RORA",
+        "RTL10",
+        "SCGB3A1",
+        "SDCBP",
+        "SERPINB3",
+        "SSX2",
+        "TBC1D3",
+        "TIMM23",
+        "TINCR",
+        "TNFRSF10B",
+        "TRIM15",
+        "TRIM26",
+        "TRIM31",
+        "TSPY1",
+        "TUBGCP2",
+        "TUG1",
+        "URGCP",
+        "USP6",
+        "YY1AP1",
+        "ZNF471",
+        "ZNF671",
+        "ZNF677"
+      ],
+      "nearest": [
+        {
+          "gene": "GAPDH",
+          "start0": 38823452,
+          "end0": 38827216,
+          "matched_original_risk_symbols": [
+            "GAPDH"
+          ],
+          "distance_bp": 880859,
+          "attributes": {
+            "ID": "gene-GAPDH",
+            "Dbxref": "GeneID:403755",
+            "Name": "GAPDH",
+            "description": "glyceraldehyde-3-phosphate dehydrogenase",
+            "gbkey": "Gene",
+            "gene": "GAPDH",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "NOP2",
+          "start0": 38795790,
+          "end0": 38808510,
+          "matched_original_risk_symbols": [
+            "NOP2"
+          ],
+          "distance_bp": 899565,
+          "attributes": {
+            "ID": "gene-NOP2",
+            "Dbxref": "GeneID:611645,VGNC:VGNC:43889",
+            "Name": "NOP2",
+            "gbkey": "Gene",
+            "gene": "NOP2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "RAD51AP1",
+          "start0": 40659135,
+          "end0": 40697229,
+          "matched_original_risk_symbols": [
+            "RAD51AP1"
+          ],
+          "distance_bp": 950062,
+          "attributes": {
+            "ID": "gene-RAD51AP1",
+            "Dbxref": "GeneID:611768,VGNC:VGNC:45318",
+            "Name": "RAD51AP1",
+            "gbkey": "Gene",
+            "gene": "RAD51AP1",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "ING4",
+          "start0": 38725269,
+          "end0": 38732113,
+          "matched_original_risk_symbols": [
+            "ING4"
+          ],
+          "distance_bp": 975962,
+          "attributes": {
+            "ID": "gene-ING4",
+            "Dbxref": "GeneID:477712",
+            "Name": "ING4",
+            "gbkey": "Gene",
+            "gene": "ING4",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "FGF23",
+          "start0": 40857425,
+          "end0": 40867540,
+          "matched_original_risk_symbols": [
+            "FGF23"
+          ],
+          "distance_bp": 1148352,
+          "attributes": {
+            "ID": "gene-FGF23",
+            "Dbxref": "GeneID:611773,VGNC:VGNC:54303",
+            "Name": "FGF23",
+            "gbkey": "Gene",
+            "gene": "FGF23",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "TIGAR",
+          "start0": 40877556,
+          "end0": 40905336,
+          "matched_original_risk_symbols": [
+            "TIGAR"
+          ],
+          "distance_bp": 1168483,
+          "attributes": {
+            "ID": "gene-TIGAR",
+            "Dbxref": "GeneID:486736,VGNC:VGNC:47368",
+            "Name": "TIGAR",
+            "gbkey": "Gene",
+            "gene": "TIGAR",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "USP5",
+          "start0": 38511740,
+          "end0": 38525542,
+          "matched_original_risk_symbols": [
+            "USP5"
+          ],
+          "distance_bp": 1182533,
+          "attributes": {
+            "ID": "gene-USP5",
+            "Dbxref": "GeneID:486718,VGNC:VGNC:48201",
+            "Name": "USP5",
+            "gbkey": "Gene",
+            "gene": "USP5",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "CCND2",
+          "start0": 40919384,
+          "end0": 40949416,
+          "matched_original_risk_symbols": [
+            "CCND2"
+          ],
+          "distance_bp": 1210311,
+          "attributes": {
+            "ID": "gene-CCND2",
+            "Dbxref": "GeneID:611782,VGNC:VGNC:38896",
+            "Name": "CCND2",
+            "gbkey": "Gene",
+            "gene": "CCND2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "ENO2",
+          "start0": 38472945,
+          "end0": 38481067,
+          "matched_original_risk_symbols": [
+            "ENO2"
+          ],
+          "distance_bp": 1227008,
+          "attributes": {
+            "ID": "gene-ENO2",
+            "Dbxref": "GeneID:100856683,VGNC:VGNC:40366",
+            "Name": "ENO2",
+            "gbkey": "Gene",
+            "gene": "ENO2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "PTPN6",
+          "start0": 38437566,
+          "end0": 38449584,
+          "matched_original_risk_symbols": [
+            "PTPN6"
+          ],
+          "distance_bp": 1258491,
+          "attributes": {
+            "ID": "gene-PTPN6",
+            "Dbxref": "GeneID:486717,VGNC:VGNC:45179",
+            "Name": "PTPN6",
+            "gbkey": "Gene",
+            "gene": "PTPN6",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "PHB2",
+          "start0": 38428363,
+          "end0": 38433040,
+          "matched_original_risk_symbols": [
+            "PHB2"
+          ],
+          "distance_bp": 1275035,
+          "attributes": {
+            "ID": "gene-PHB2",
+            "Dbxref": "GeneID:486716,VGNC:VGNC:44476",
+            "Name": "PHB2",
+            "gbkey": "Gene",
+            "gene": "PHB2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "FOXJ2",
+          "start0": 37765222,
+          "end0": 37784865,
+          "matched_original_risk_symbols": [
+            "FOXJ2"
+          ],
+          "distance_bp": 1923210,
+          "attributes": {
+            "ID": "gene-FOXJ2",
+            "Dbxref": "GeneID:486703,VGNC:VGNC:40955",
+            "Name": "FOXJ2",
+            "gbkey": "Gene",
+            "gene": "FOXJ2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "NANOG",
+          "start0": 37614639,
+          "end0": 37620732,
+          "matched_original_risk_symbols": [
+            "NANOG"
+          ],
+          "distance_bp": 2087343,
+          "attributes": {
+            "ID": "gene-NANOG",
+            "Dbxref": "GeneID:100856473",
+            "Name": "NANOG",
+            "gbkey": "Gene",
+            "gene": "NANOG",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "AICDA",
+          "start0": 37413567,
+          "end0": 37423269,
+          "matched_original_risk_symbols": [
+            "AICDA"
+          ],
+          "distance_bp": 2284806,
+          "attributes": {
+            "ID": "gene-AICDA",
+            "Dbxref": "GeneID:442983,VGNC:VGNC:37733",
+            "Name": "AICDA",
+            "description": "activation induced cytidine deaminase",
+            "gbkey": "Gene",
+            "gene": "AICDA",
+            "gene_biotype": "protein_coding",
+            "gene_synonym": "AID"
+          }
+        },
+        {
+          "gene": "TEAD4",
+          "start0": 42101779,
+          "end0": 42166331,
+          "matched_original_risk_symbols": [
+            "TEAD4"
+          ],
+          "distance_bp": 2392706,
+          "attributes": {
+            "ID": "gene-TEAD4",
+            "Dbxref": "GeneID:611826,VGNC:VGNC:57446",
+            "Name": "TEAD4",
+            "end_range": "42166331,.",
+            "gbkey": "Gene",
+            "gene": "TEAD4",
+            "gene_biotype": "protein_coding",
+            "partial": "true"
+          }
+        },
+        {
+          "gene": "FOXM1",
+          "start0": 42250469,
+          "end0": 42263807,
+          "matched_original_risk_symbols": [
+            "FOXM1"
+          ],
+          "distance_bp": 2541396,
+          "attributes": {
+            "ID": "gene-FOXM1",
+            "Dbxref": "GeneID:486743,VGNC:VGNC:40959",
+            "Name": "FOXM1",
+            "gbkey": "Gene",
+            "gene": "FOXM1",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "KDM5A",
+          "start0": 42718406,
+          "end0": 42806253,
+          "matched_original_risk_symbols": [
+            "KDM5A"
+          ],
+          "distance_bp": 3009333,
+          "attributes": {
+            "ID": "gene-KDM5A",
+            "Dbxref": "GeneID:477727,VGNC:VGNC:42327",
+            "Name": "KDM5A",
+            "gbkey": "Gene",
+            "gene": "KDM5A",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "YBX3",
+          "start0": 35383797,
+          "end0": 35411218,
+          "matched_original_risk_symbols": [
+            "YBX3"
+          ],
+          "distance_bp": 4296857,
+          "attributes": {
+            "ID": "gene-YBX3",
+            "Dbxref": "GeneID:403728,VGNC:VGNC:48480",
+            "Name": "YBX3",
+            "description": "Y-box binding protein 3",
+            "gbkey": "Gene",
+            "gene": "YBX3",
+            "gene_biotype": "protein_coding",
+            "gene_synonym": "CSDA,dpbA,ZONAB"
+          }
+        },
+        {
+          "gene": "ETV6",
+          "start0": 34658545,
+          "end0": 34894957,
+          "matched_original_risk_symbols": [
+            "ETV6"
+          ],
+          "distance_bp": 4813118,
+          "attributes": {
+            "ID": "gene-ETV6",
+            "Dbxref": "GeneID:486685,VGNC:VGNC:40500",
+            "Name": "ETV6",
+            "gbkey": "Gene",
+            "gene": "ETV6",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "CDKN1B",
+          "start0": 33916283,
+          "end0": 33921570,
+          "matched_original_risk_symbols": [
+            "CDKN1B"
+          ],
+          "distance_bp": 5786505,
+          "attributes": {
+            "ID": "gene-CDKN1B",
+            "Dbxref": "GeneID:403429,VGNC:VGNC:39069",
+            "Name": "CDKN1B",
+            "description": "cyclin dependent kinase inhibitor 1B",
+            "gbkey": "Gene",
+            "gene": "CDKN1B",
+            "gene_biotype": "protein_coding",
+            "gene_synonym": "Kip1,p27,p27Kip1"
+          }
+        }
+      ],
+      "hits_within300kb": []
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_UU_annotation_crosscheck_20261009/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.gff.gz",
+      "window": [
+        "NC_049248.1",
+        6741835,
+        6742835
+      ],
+      "matched_risk_symbols": 2568,
+      "unmatched_symbols": [
+        "ACY1",
+        "AIM2",
+        "AKR1B10",
+        "ARHGAP11A",
+        "ARL11",
+        "ATP5J2-PTCD1",
+        "BCL2L10",
+        "BEX1",
+        "BEX2",
+        "BLACAT1",
+        "C1orf109",
+        "C3orf62",
+        "COX6B1",
+        "CXCL1",
+        "CXCL2",
+        "CXCL5",
+        "CXCR4",
+        "CYP3A5",
+        "DCD",
+        "DGCR8",
+        "DIRAS3",
+        "DUSP4",
+        "EIF3C",
+        "ERVW-1",
+        "FOXQ1",
+        "FPR1",
+        "GEMIN8",
+        "GREP1",
+        "GSTM3",
+        "GTF2H2C",
+        "GTF2H4",
+        "HIST2H2AA3",
+        "HLA-C",
+        "HMGN5",
+        "IFNA1",
+        "IGH",
+        "IMP4",
+        "INTS3",
+        "ITLN1",
+        "ITM2A",
+        "KDM5D",
+        "KLLN",
+        "KRR1",
+        "LPA",
+        "MSLN",
+        "MT1G",
+        "MT1M",
+        "MT3",
+        "MYEOV",
+        "NBPF1",
+        "NCBP2",
+        "NR0B1",
+        "OXCT2",
+        "PCDH8",
+        "PIK3R3",
+        "POU5F1",
+        "PRSS21",
+        "PRSS3",
+        "PTK6",
+        "PTTG1IP",
+        "RAP1GAP",
+        "RBM4",
+        "RDM1",
+        "RORA",
+        "RTL10",
+        "SCGB3A1",
+        "SDCBP",
+        "SERPINB3",
+        "SSX2",
+        "TBC1D3",
+        "TIMM23",
+        "TINCR",
+        "TNFRSF10B",
+        "TP53I3",
+        "TRIM15",
+        "TRIM26",
+        "TRIM31",
+        "TSPY1",
+        "TUBGCP2",
+        "TUG1",
+        "URGCP",
+        "USP6",
+        "YY1AP1",
+        "ZNF471",
+        "ZNF671",
+        "ZNF677"
+      ],
+      "nearest": [
+        {
+          "gene": "GAPDH",
+          "start0": 7622711,
+          "end0": 7626472,
+          "matched_original_risk_symbols": [
+            "GAPDH"
+          ],
+          "distance_bp": 879877,
+          "attributes": {
+            "ID": "gene-GAPDH",
+            "Dbxref": "GeneID:403755",
+            "Name": "GAPDH",
+            "description": "glyceraldehyde-3-phosphate dehydrogenase",
+            "gbkey": "Gene",
+            "gene": "GAPDH",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "NOP2",
+          "start0": 7641407,
+          "end0": 7654127,
+          "matched_original_risk_symbols": [
+            "NOP2"
+          ],
+          "distance_bp": 898573,
+          "attributes": {
+            "ID": "gene-NOP2",
+            "Dbxref": "GeneID:611645,VGNC:VGNC:43889",
+            "Name": "NOP2",
+            "gbkey": "Gene",
+            "gene": "NOP2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "RAD51AP1",
+          "start0": 5750771,
+          "end0": 5788910,
+          "matched_original_risk_symbols": [
+            "RAD51AP1"
+          ],
+          "distance_bp": 952926,
+          "attributes": {
+            "ID": "gene-RAD51AP1",
+            "Dbxref": "GeneID:611768,VGNC:VGNC:45318",
+            "Name": "RAD51AP1",
+            "gbkey": "Gene",
+            "gene": "RAD51AP1",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "ING4",
+          "start0": 7716101,
+          "end0": 7723646,
+          "matched_original_risk_symbols": [
+            "ING4"
+          ],
+          "distance_bp": 973267,
+          "attributes": {
+            "ID": "gene-ING4",
+            "Dbxref": "GeneID:477712",
+            "Name": "ING4",
+            "gbkey": "Gene",
+            "gene": "ING4",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "FGF23",
+          "start0": 5580978,
+          "end0": 5591077,
+          "matched_original_risk_symbols": [
+            "FGF23"
+          ],
+          "distance_bp": 1150759,
+          "attributes": {
+            "ID": "gene-FGF23",
+            "Dbxref": "GeneID:611773,VGNC:VGNC:54303",
+            "Name": "FGF23",
+            "gbkey": "Gene",
+            "gene": "FGF23",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "TIGAR",
+          "start0": 5543777,
+          "end0": 5570944,
+          "matched_original_risk_symbols": [
+            "TIGAR"
+          ],
+          "distance_bp": 1170892,
+          "attributes": {
+            "ID": "gene-TIGAR",
+            "Dbxref": "GeneID:486736,VGNC:VGNC:47368",
+            "Name": "TIGAR",
+            "gbkey": "Gene",
+            "gene": "TIGAR",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "USP5",
+          "start0": 7922847,
+          "end0": 7936630,
+          "matched_original_risk_symbols": [
+            "USP5"
+          ],
+          "distance_bp": 1180013,
+          "attributes": {
+            "ID": "gene-USP5",
+            "Dbxref": "GeneID:486718,VGNC:VGNC:48201",
+            "Name": "USP5",
+            "gbkey": "Gene",
+            "gene": "USP5",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "CCND2",
+          "start0": 5499634,
+          "end0": 5529695,
+          "matched_original_risk_symbols": [
+            "CCND2"
+          ],
+          "distance_bp": 1212141,
+          "attributes": {
+            "ID": "gene-CCND2",
+            "Dbxref": "GeneID:611782,VGNC:VGNC:38896",
+            "Name": "CCND2",
+            "gbkey": "Gene",
+            "gene": "CCND2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "ENO2",
+          "start0": 7966985,
+          "end0": 7975105,
+          "matched_original_risk_symbols": [
+            "ENO2"
+          ],
+          "distance_bp": 1224151,
+          "attributes": {
+            "ID": "gene-ENO2",
+            "Dbxref": "GeneID:100856683,VGNC:VGNC:40366",
+            "Name": "ENO2",
+            "gbkey": "Gene",
+            "gene": "ENO2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "PTPN6",
+          "start0": 7998464,
+          "end0": 8010486,
+          "matched_original_risk_symbols": [
+            "PTPN6"
+          ],
+          "distance_bp": 1255630,
+          "attributes": {
+            "ID": "gene-PTPN6",
+            "Dbxref": "GeneID:486717,VGNC:VGNC:45179",
+            "Name": "PTPN6",
+            "gbkey": "Gene",
+            "gene": "PTPN6",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "PHB2",
+          "start0": 8015012,
+          "end0": 8019689,
+          "matched_original_risk_symbols": [
+            "PHB2"
+          ],
+          "distance_bp": 1272178,
+          "attributes": {
+            "ID": "gene-PHB2",
+            "Dbxref": "GeneID:486716,VGNC:VGNC:44476",
+            "Name": "PHB2",
+            "gbkey": "Gene",
+            "gene": "PHB2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "FOXJ2",
+          "start0": 8671638,
+          "end0": 8691483,
+          "matched_original_risk_symbols": [
+            "FOXJ2"
+          ],
+          "distance_bp": 1928804,
+          "attributes": {
+            "ID": "gene-FOXJ2",
+            "Dbxref": "GeneID:486703,VGNC:VGNC:40955",
+            "Name": "FOXJ2",
+            "gbkey": "Gene",
+            "gene": "FOXJ2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "NANOG",
+          "start0": 8831816,
+          "end0": 8837819,
+          "matched_original_risk_symbols": [
+            "NANOG"
+          ],
+          "distance_bp": 2088982,
+          "attributes": {
+            "ID": "gene-NANOG",
+            "Dbxref": "GeneID:100856473",
+            "Name": "NANOG",
+            "gbkey": "Gene",
+            "gene": "NANOG",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "AICDA",
+          "start0": 9029098,
+          "end0": 9038784,
+          "matched_original_risk_symbols": [
+            "AICDA"
+          ],
+          "distance_bp": 2286264,
+          "attributes": {
+            "ID": "gene-AICDA",
+            "Dbxref": "GeneID:442983,VGNC:VGNC:37733",
+            "Name": "AICDA",
+            "description": "activation induced cytidine deaminase",
+            "gbkey": "Gene",
+            "gene": "AICDA",
+            "gene_biotype": "protein_coding",
+            "gene_synonym": "AID"
+          }
+        },
+        {
+          "gene": "TEAD4",
+          "start0": 4234449,
+          "end0": 4298839,
+          "matched_original_risk_symbols": [
+            "TEAD4"
+          ],
+          "distance_bp": 2442997,
+          "attributes": {
+            "ID": "gene-TEAD4",
+            "Dbxref": "GeneID:611826,VGNC:VGNC:57446",
+            "Name": "TEAD4",
+            "gbkey": "Gene",
+            "gene": "TEAD4",
+            "gene_biotype": "protein_coding",
+            "partial": "true",
+            "start_range": ".,4234450"
+          }
+        },
+        {
+          "gene": "FOXM1",
+          "start0": 4138251,
+          "end0": 4151367,
+          "matched_original_risk_symbols": [
+            "FOXM1"
+          ],
+          "distance_bp": 2590469,
+          "attributes": {
+            "ID": "gene-FOXM1",
+            "Dbxref": "GeneID:486743,VGNC:VGNC:40959",
+            "Name": "FOXM1",
+            "gbkey": "Gene",
+            "gene": "FOXM1",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "KDM5A",
+          "start0": 3597142,
+          "end0": 3683827,
+          "matched_original_risk_symbols": [
+            "KDM5A"
+          ],
+          "distance_bp": 3058009,
+          "attributes": {
+            "ID": "gene-KDM5A",
+            "Dbxref": "GeneID:477727,VGNC:VGNC:42327",
+            "Name": "KDM5A",
+            "gbkey": "Gene",
+            "gene": "KDM5A",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "YBX3",
+          "start0": 11081609,
+          "end0": 11108979,
+          "matched_original_risk_symbols": [
+            "YBX3"
+          ],
+          "distance_bp": 4338775,
+          "attributes": {
+            "ID": "gene-YBX3",
+            "Dbxref": "GeneID:403728,VGNC:VGNC:48480",
+            "Name": "YBX3",
+            "description": "Y-box binding protein 3",
+            "gbkey": "Gene",
+            "gene": "YBX3",
+            "gene_biotype": "protein_coding",
+            "gene_synonym": "CSDA,dpbA,ZONAB"
+          }
+        },
+        {
+          "gene": "ETV6",
+          "start0": 11589901,
+          "end0": 11826246,
+          "matched_original_risk_symbols": [
+            "ETV6"
+          ],
+          "distance_bp": 4847067,
+          "attributes": {
+            "ID": "gene-ETV6",
+            "Dbxref": "GeneID:486685,VGNC:VGNC:40500",
+            "Name": "ETV6",
+            "gbkey": "Gene",
+            "gene": "ETV6",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "CDKN1B",
+          "start0": 12566388,
+          "end0": 12567535,
+          "matched_original_risk_symbols": [
+            "CDKN1B"
+          ],
+          "distance_bp": 5823554,
+          "attributes": {
+            "ID": "gene-CDKN1B",
+            "Dbxref": "GeneID:403429,VGNC:VGNC:39069",
+            "Name": "CDKN1B",
+            "description": "cyclin dependent kinase inhibitor 1B",
+            "gbkey": "Gene",
+            "gene": "CDKN1B",
+            "gene_biotype": "protein_coding",
+            "gene_synonym": "Kip1,p27,p27Kip1"
+          }
+        }
+      ],
+      "hits_within300kb": []
+    }
+  ],
+  "source_sha256": {
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/05_SHIP/canine_risk_genes.tsv": "3b59768c866e3bc04c9cffc38ac4a59007bc896a45917563771f954e54c76e2a",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/genomic.gff": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019",
+    "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_UU_annotation_crosscheck_20261009/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.gff.gz": "a778743911854da826fb8b2e3ee627144eb3d91a65cc478c920c8e1cd9750cfb"
+  },
+  "script_sha256": "f01883777dbfd1051ec740f09ff092144da7779d8b0aedf849d0c7e699ec72d1",
+  "limits": [
+    "Original risk membership/categories unchanged; a spelling/rename sensitivity using official human HGNC records, not a new risk list.",
+    "Canonical human symbol matching remains a canine orthology proxy; no orthology is proved solely by a human alias.",
+    "Ambiguous accepted original symbols are exposed and not a unique orthology assertion; ambiguous additional spellings excluded.",
+    "Unmatched symbols and missing annotation not classified as absence of risk; not biological confirmation."
+  ]
+}

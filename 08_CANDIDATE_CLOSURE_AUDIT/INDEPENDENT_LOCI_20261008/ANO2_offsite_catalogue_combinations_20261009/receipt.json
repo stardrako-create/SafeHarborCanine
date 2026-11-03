@@ -1,0 +1,810 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T12:42:41.933560+00:00",
+  "source_sha256": "c0b2687114f1d522c0b4e011af98213aa3d34cbb2735231ba9bc11ac366fcc2e",
+  "scan_function_source_sha256": "7a3d42e2ac434b444c2294247ab30836452bcf4ab0411dbdfef75736b10f0757",
+  "script_sha256": "7700657291930c2f315dd53dce2d54de803ec257211d5314668c65b6fc0854dc",
+  "results": [
+    {
+      "site": "site0",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049253.1",
+      "start0": 26895852,
+      "end0": 26896079,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "17bf789dc57af46ea5d86f8879a46fcb0a1fc238f6470a770a2ee6220cdbae2c",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site1",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049231.1",
+      "start0": 50420012,
+      "end0": 50420239,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "09b0073e0b096191556bae10a7dd221139037a058a1e512116d678d9f6bd4613",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site2",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049249.1",
+      "start0": 9759398,
+      "end0": 9759625,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "180d9aaefee0b0ba391161472f62b53211d621ce3c318c29d597208e6da08385",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site3",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049255.1",
+      "start0": 3856491,
+      "end0": 3856718,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "5dcae038b969b15ca876cf837bfeba3656ad1d647eae09f4c7ceb6fbcd6f5227",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 3856614,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0005032999906688929,
+              "AC": 2,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "CTAC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "d0b76e1d6cfe77740a9a8877a8835ad0dfab73183284836587cce5a9792cc013",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site4",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049257.1",
+      "start0": 7714457,
+      "end0": 7714684,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "4f7900f7ced6709de7fbee1dc94239714001abd99bcf8fb2e8b05fb9f8a23594",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site5",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049224.1",
+      "start0": 35303428,
+      "end0": 35303655,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "1fe091737868f97d897db2f9182ac5ad5d1512576729c5e19f344a9a9922e81d",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 35303549,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0007548999856226146,
+              "AC": 3,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTC",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "661a602a9f5354bf8c952dcef60fc5184b5849e8cf64eed34451355eca61a575",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site6",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049240.1",
+      "start0": 35941903,
+      "end0": 35942130,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "d5d740a3d64339bb82b168713f7f6495e5473e8ef1ee0a0469fb650927654056",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site7",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049239.1",
+      "start0": 30148094,
+      "end0": 30148321,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "97c372a54bbbdf993206ce8d16192ea65f8878c5b7735f810e7cfdd95ee5a77b",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site8",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049251.1",
+      "start0": 27405455,
+      "end0": 27405682,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "c786600970df14728d6c0cf687c249b55b001342a2af5650aeeb517c14935c11",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site9",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049231.1",
+      "start0": 39238297,
+      "end0": 39238524,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "ea5c0a48cfbc4224321a02777119cfa2fb85a5dd7d15d73ac885ed279b53d6f7",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 39238418,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTG",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "8233c5098e2badf6b1a6f8876e2fc8791b3831c9a09c9705e725d1a5cfd89bd6",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site10",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049257.1",
+      "start0": 18761229,
+      "end0": 18761456,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "76445c78900de6cf6048bd5aadbfd24014e5f0fffa2fff775ea5b5c428bbcd42",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site11",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049242.1",
+      "start0": 10641168,
+      "end0": 10641395,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "fa6e0f80426a546c577b418d6d4c6a12cf074c66ef0b9c5ee742e426cf84e65f",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site12",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049236.1",
+      "start0": 39489885,
+      "end0": 39490112,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "1b3e549aaad721662edcd27cd180b25ae5469773c3b1ad657a517d190b13a2be",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site13",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049222.1",
+      "start0": 66892567,
+      "end0": 66892794,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "595d8093b0f916ad52ef6cb4ef5f33bafdcb29ce24fd0099e81cd92394dc200c",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 66892678,
+              "ref": "G",
+              "alt": "GA",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.07900000363588333,
+              "AC": 313,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "sequence_sha256": "0af623958db49561d07a6099d213923c41744e72f196fc66c04b0d6a90fe226d",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site14",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049240.1",
+      "start0": 39561403,
+      "end0": 39561630,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "c0572132b8770d214ba14cd99640a8c5bff7f30e04b6d098a7c9e5737ff444e8",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site15",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049227.1",
+      "start0": 6513533,
+      "end0": 6513760,
+      "alleles": 3,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "608bd8d82f2e176442273fb9962770c4e1f1646e25da404459f5f933db7f3acd",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513650,
+              "ref": "TATC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0017610000213608146,
+              "AC": 7,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "sequence_sha256": "d69aec2efdaaef3c0910127f91952d37e324325900d77570d98e765c5eadf260",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513660,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.009058999828994274,
+              "AC": 36,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "e741d2a135d4c7670ab416192a793fc7d2fec132a1b031ec4bf6692fd0cf9701",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513650,
+              "ref": "TATC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0017610000213608146,
+              "AC": 7,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            },
+            {
+              "pos1": 6513660,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.009058999828994274,
+              "AC": 36,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "2982872a3e05c3e773a2265a617d044a226741e6cb42326a3802fb1785332a23",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513655,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.005787999834865332,
+              "AC": 23,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "c7782b731df48d42e405c88b42aada0cc97dd2cea4db003fe63d561121d5d5a8",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513650,
+              "ref": "TATC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0017610000213608146,
+              "AC": 7,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            },
+            {
+              "pos1": 6513655,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.005787999834865332,
+              "AC": 23,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "ca9a2d119173ba62dd62353bdbf78024031b6d73ea9892acb90bae05c9aa6d70",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513655,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.005787999834865332,
+              "AC": 23,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            },
+            {
+              "pos1": 6513660,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.009058999828994274,
+              "AC": 36,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "994d9e5dac01497d91d8b6f7ea7d99381841d07320482dc2661f22e70282bf7a",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 6513650,
+              "ref": "TATC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0017610000213608146,
+              "AC": 7,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            },
+            {
+              "pos1": 6513655,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.005787999834865332,
+              "AC": 23,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            },
+            {
+              "pos1": 6513660,
+              "ref": "A",
+              "alt": "G",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.009058999828994274,
+              "AC": 36,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "ATTC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "20d88576858ecacd41c9bd00f8ed7abfb995d856af47ced5d168bbe1aa4d7f35",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site16",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049233.1",
+      "start0": 52254257,
+      "end0": 52254484,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "c4bc71037d7466c180035e4f9ac15953a608d0e0b811cdb4ad36068566eacd27",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site17",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049237.1",
+      "start0": 43866608,
+      "end0": 43866835,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "c8fe99272aa09d8119f50c60ac5511000799e95a7cc2c1734f7f462d1df38bd4",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site18",
+      "guide": "ANO2_TTTV23_1",
+      "chrom": "NC_049257.1",
+      "start0": 20383555,
+      "end0": 20383782,
+      "alleles": 2,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "f29249e10e5b8a3746c3d5715b1626145bf31ad1c914c93d187164ed23310d31",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 20383669,
+              "ref": "TATACTC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "sequence_sha256": "5450e92359e35f8db5ca08e7c8d988e9128c6d770acf6a3ee9af2f12b2201ce9",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 20383666,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.01600000075995922,
+              "AC": 63,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTC",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "8386ef628e66e46f88b05eaf5825987325bb31ce50d6ecb3f1c6ad33781e8daa",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 20383666,
+              "ref": "A",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.01600000075995922,
+              "AC": 63,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCTC",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            },
+            {
+              "pos1": 20383669,
+              "ref": "TATACTC",
+              "alt": "T",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "nonSNP_or_boundary_effect_not_assessed"
+            }
+          ],
+          "sequence_sha256": "3bbc18d1043973be73444bdf598ea8c4977e77e852e37ba955a7c34db08d4572",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site19",
+      "guide": "ANO2_TTTV23_2",
+      "chrom": "NC_049230.1",
+      "start0": 4722873,
+      "end0": 4723100,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "9f087c23508300e309dafa132ce155856e8a81684d15a8ab8446268bd0074574",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 4722995,
+              "ref": "G",
+              "alt": "A",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.0032709999941289425,
+              "AC": 13,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TCAG",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "7cfa71df394b62fc85c60d92a2057a196e46c0dc7adb4fbe842dcd97639206db",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site20",
+      "guide": "ANO2_TTTV23_2",
+      "chrom": "NC_049230.1",
+      "start0": 18815294,
+      "end0": 18815521,
+      "alleles": 0,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "abd0ec9984bea411d79b8ea62109f0808daf1b068e1dc9a38e358331968a1057",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site21",
+      "guide": "ANO2_TTTV23_2",
+      "chrom": "NC_049231.1",
+      "start0": 40694420,
+      "end0": 40694647,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "1656ad9f02d2a97e702424b8b3e6258daeaa4a7720c7f709e47e0d7aa7340ed3",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 40694538,
+              "ref": "C",
+              "alt": "T",
+              "filters": [
+                "VQSRTrancheSNP99.00to99.90"
+              ],
+              "AF": 0.00025159999495372176,
+              "AC": 1,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TTTG",
+              "alternate_guide_mismatches": 5,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "0aafcf2a371f06c9ac046d7ee8a6735157d3f0ea3a6507d49e9b823c1b902c1c",
+          "model_hits": []
+        }
+      ]
+    },
+    {
+      "site": "site22",
+      "guide": "ANO2_TTTV23_2",
+      "chrom": "NC_049244.1",
+      "start0": 14593792,
+      "end0": 14594019,
+      "alleles": 1,
+      "combinations": [
+        {
+          "selected_alleles": [],
+          "sequence_sha256": "edc5fbd19a8762f7bf7e91776384e8e4e738455e20c581ae9a1087f4597d477a",
+          "model_hits": []
+        },
+        {
+          "selected_alleles": [
+            {
+              "pos1": 14593903,
+              "ref": "A",
+              "alt": "C",
+              "filters": [
+                "PASS"
+              ],
+              "AF": 0.5789999961853027,
+              "AC": 2300,
+              "AN": 3974,
+              "REF_matches_UU": true,
+              "status": "single_SNP_model_assessed",
+              "alternate_PAM": "TTCC",
+              "alternate_guide_mismatches": 4,
+              "alternate_hit_in_defined_model": false
+            }
+          ],
+          "sequence_sha256": "f7492ca2cb7c6c318c01772ab2202093fc337555c2bf12ff2d887bb92ea72b5c",
+          "model_hits": []
+        }
+      ]
+    }
+  ],
+  "synthetic_contexts": 40,
+  "contexts_with_model_hits": 0,
+  "limits": [
+    "All combinations of only the alleles retrieved in the23 selected27bp sites; variants elsewhere and flanking alleles not queried.",
+    "Synthetic combinations, not observed/phased canine haplotypes. PASS and nonPASS provenance retained, no nonPASS reinterpretation as verified allele.",
+    "Defined exploratory PAM model, not exhaustive specificity or empirical validation."
+  ]
+}

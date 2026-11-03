@@ -1,0 +1,16 @@
+{
+  "state": "completed",
+  "queries": 138,
+  "reference_model": "Enumerate all69single-substitutiontemplatesper23ntguide withBowtie<=3; complete ACGTreference search up to4 originalguide mismatches; canonical/oneT>C PAM sensitivity",
+  "raw_alignments": 1010,
+  "summary": [
+    {
+      "guide": "ANO2_TTTV23_1",
+      "one_SNP_sensitive_sites": 19
+    },
+    {
+      "guide": "ANO2_TTTV23_2",
+      "one_SNP_sensitive_sites": 4
+    }
+  ]
+}

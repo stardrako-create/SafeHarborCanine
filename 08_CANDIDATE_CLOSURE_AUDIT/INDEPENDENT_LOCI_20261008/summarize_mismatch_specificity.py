@@ -1,0 +1,9 @@
+from pathlib import Path
+import json,collections,statistics,hashlib
+N=Path(__file__).resolve().parent;S=N/'mismatch_specificity_20261009';status=json.loads((S/'status.json').read_text());assert status['state']=='completed';rows=json.loads((S/'results.json').read_text())['results'];assert len(rows)==2127 and sum(r['self_hits'] for r in rows)==2127;assert all(r['off_target_counts']['0']==0 for r in rows)
+results=[]
+for window in sorted({r['window'] for r in rows}):
+ rr=[r for r in rows if r['window']==window]
+ counts={str(k):sum(sum(r['off_target_counts'][str(i)] for i in range(k+1))==0 for r in rr) for k in range(4)}
+ results.append(dict(window=window,queries=len(rr),no_other_reference_match_within_mismatches=counts,median_other_matches_within_3=statistics.median(sum(r['off_target_counts'].values()) for r in rr),min_other_matches_within_3=min(sum(r['off_target_counts'].values()) for r in rr),max_other_matches_within_3=max(sum(r['off_target_counts'].values()) for r in rr)))
+result=dict(results=results,source_sha256=hashlib.sha256((S/'results.json').read_bytes()).hexdigest(),interpretation='All eligible20mers remain exact-unique. All have at least one ungapped near match <=3 mismatches without PAM filtering. This is not a guide-specific off-target result or a new locus-veto threshold. No claim of zero off-targets is allowed.',limits=['N/ambiguous assembly sequence is missing information, not evidence of absent off-targets.','Only reference assembly, no population alternate genomes or bulges.','Nuclease/PAM/cassette/donor require subsequent design and validation.']);out=N/'mismatch_specificity_interpretation_20261009.json';assert not out.exists();out.write_text(json.dumps(result,indent=2));print(json.dumps(results))

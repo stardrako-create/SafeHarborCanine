@@ -1,0 +1,13 @@
+{
+  "stage": "completed_needs_review",
+  "utc": "2026-10-05T05:04:46.751135+00:00",
+  "contigs": 29,
+  "motif_hits": [
+    {
+      "name": "NODE_20_length_175_cov_7.836735",
+      "length": 175,
+      "junction": true,
+      "tail": false
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "state": "failed",
+  "source_script": "review_conservation_alignment_information.py",
+  "reason": "Duplicate species-prefix rows in retained ANO2MAF; initial assertion stopped before resultapproval",
+  "superseded_by": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_duplicate_taxa_sensitivity_20261009_v2/receipt.json",
+  "original_inputs_preserved": true
+}

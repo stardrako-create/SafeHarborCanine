@@ -1,0 +1,5318 @@
+{
+  "state": "completed",
+  "results": [
+    {
+      "id": "bg1k_1059",
+      "state": "completed",
+      "scored_reference_bp": 1000,
+      "max50bp_mean": 0.50206,
+      "exceeds_legacy_6_5": false,
+      "raw_max50bp_mean": 0.50206,
+      "removed_duplicate_species_refbp": {
+        "Nasalis_larvatus": 5
+      },
+      "nonreference_ACGT": {
+        "min": 2,
+        "median": 93.0,
+        "max": 123,
+        "reference_bp_with_zero_nonreference_ACGT": 0
+      },
+      "source_sha256": "e8058e363a1d71c50238305a6eade403585021490c5da19fc3a9eb11b50b12ce",
+      "curated_maf_sha256": "705e96a0f9f20e32aba1409f0144167313adb3f3037709a0e867fc3a85073051",
+      "wig_sha256": "4aad0830bac062b59c81a3427c57b33ae35e3976e69544a6616cdeb3f34a3e53",
+      "block_details": [
+        {
+          "start0": 18845873,
+          "bp": 8,
+          "raw_rows": 66,
+          "unique_retained_rows": 66,
+          "removed_species": []
+        },
+        {
+          "start0": 18845881,
+          "bp": 3,
+          "raw_rows": 66,
+          "unique_retained_rows": 66,
+          "removed_species": []
+        },
+        {
+          "start0": 18845884,
+          "bp": 1,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845885,
+          "bp": 3,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18845888,
+          "bp": 4,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845892,
+          "bp": 3,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845895,
+          "bp": 1,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845896,
+          "bp": 3,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845899,
+          "bp": 11,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845910,
+          "bp": 1,
+          "raw_rows": 114,
+          "unique_retained_rows": 114,
+          "removed_species": []
+        },
+        {
+          "start0": 18845911,
+          "bp": 9,
+          "raw_rows": 82,
+          "unique_retained_rows": 82,
+          "removed_species": []
+        },
+        {
+          "start0": 18845920,
+          "bp": 2,
+          "raw_rows": 111,
+          "unique_retained_rows": 111,
+          "removed_species": []
+        },
+        {
+          "start0": 18845922,
+          "bp": 1,
+          "raw_rows": 79,
+          "unique_retained_rows": 79,
+          "removed_species": []
+        },
+        {
+          "start0": 18845923,
+          "bp": 2,
+          "raw_rows": 76,
+          "unique_retained_rows": 76,
+          "removed_species": []
+        },
+        {
+          "start0": 18845925,
+          "bp": 3,
+          "raw_rows": 112,
+          "unique_retained_rows": 112,
+          "removed_species": []
+        },
+        {
+          "start0": 18845928,
+          "bp": 24,
+          "raw_rows": 112,
+          "unique_retained_rows": 112,
+          "removed_species": []
+        },
+        {
+          "start0": 18845952,
+          "bp": 2,
+          "raw_rows": 111,
+          "unique_retained_rows": 111,
+          "removed_species": []
+        },
+        {
+          "start0": 18845954,
+          "bp": 2,
+          "raw_rows": 112,
+          "unique_retained_rows": 112,
+          "removed_species": []
+        },
+        {
+          "start0": 18845956,
+          "bp": 5,
+          "raw_rows": 112,
+          "unique_retained_rows": 112,
+          "removed_species": []
+        },
+        {
+          "start0": 18845961,
+          "bp": 1,
+          "raw_rows": 111,
+          "unique_retained_rows": 111,
+          "removed_species": []
+        },
+        {
+          "start0": 18845962,
+          "bp": 16,
+          "raw_rows": 111,
+          "unique_retained_rows": 111,
+          "removed_species": []
+        },
+        {
+          "start0": 18845978,
+          "bp": 5,
+          "raw_rows": 110,
+          "unique_retained_rows": 110,
+          "removed_species": []
+        },
+        {
+          "start0": 18845983,
+          "bp": 9,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 18845992,
+          "bp": 6,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18845998,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846000,
+          "bp": 8,
+          "raw_rows": 113,
+          "unique_retained_rows": 113,
+          "removed_species": []
+        },
+        {
+          "start0": 18846008,
+          "bp": 9,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846017,
+          "bp": 2,
+          "raw_rows": 117,
+          "unique_retained_rows": 117,
+          "removed_species": []
+        },
+        {
+          "start0": 18846019,
+          "bp": 13,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 18846032,
+          "bp": 5,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 18846037,
+          "bp": 2,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 18846039,
+          "bp": 6,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 18846045,
+          "bp": 5,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 18846050,
+          "bp": 21,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 18846071,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846073,
+          "bp": 1,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846074,
+          "bp": 9,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846083,
+          "bp": 5,
+          "raw_rows": 119,
+          "unique_retained_rows": 117,
+          "removed_species": [
+            "Nasalis_larvatus"
+          ]
+        },
+        {
+          "start0": 18846088,
+          "bp": 1,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18846089,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846091,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846093,
+          "bp": 4,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846097,
+          "bp": 2,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846099,
+          "bp": 4,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846103,
+          "bp": 13,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846116,
+          "bp": 1,
+          "raw_rows": 100,
+          "unique_retained_rows": 100,
+          "removed_species": []
+        },
+        {
+          "start0": 18846117,
+          "bp": 1,
+          "raw_rows": 95,
+          "unique_retained_rows": 95,
+          "removed_species": []
+        },
+        {
+          "start0": 18846118,
+          "bp": 3,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846121,
+          "bp": 6,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846127,
+          "bp": 4,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846131,
+          "bp": 2,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846133,
+          "bp": 12,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846145,
+          "bp": 10,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846155,
+          "bp": 8,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846163,
+          "bp": 10,
+          "raw_rows": 53,
+          "unique_retained_rows": 53,
+          "removed_species": []
+        },
+        {
+          "start0": 18846173,
+          "bp": 1,
+          "raw_rows": 53,
+          "unique_retained_rows": 53,
+          "removed_species": []
+        },
+        {
+          "start0": 18846174,
+          "bp": 3,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846177,
+          "bp": 1,
+          "raw_rows": 99,
+          "unique_retained_rows": 99,
+          "removed_species": []
+        },
+        {
+          "start0": 18846178,
+          "bp": 9,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846187,
+          "bp": 4,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846191,
+          "bp": 11,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846202,
+          "bp": 2,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846204,
+          "bp": 6,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846210,
+          "bp": 11,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846221,
+          "bp": 3,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846224,
+          "bp": 1,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846225,
+          "bp": 2,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846227,
+          "bp": 10,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846237,
+          "bp": 1,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846238,
+          "bp": 1,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846239,
+          "bp": 9,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846248,
+          "bp": 15,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846263,
+          "bp": 140,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846403,
+          "bp": 98,
+          "raw_rows": 99,
+          "unique_retained_rows": 99,
+          "removed_species": []
+        },
+        {
+          "start0": 18846501,
+          "bp": 3,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846504,
+          "bp": 10,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846514,
+          "bp": 4,
+          "raw_rows": 85,
+          "unique_retained_rows": 85,
+          "removed_species": []
+        },
+        {
+          "start0": 18846518,
+          "bp": 23,
+          "raw_rows": 104,
+          "unique_retained_rows": 104,
+          "removed_species": []
+        },
+        {
+          "start0": 18846541,
+          "bp": 12,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846553,
+          "bp": 7,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846560,
+          "bp": 7,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846567,
+          "bp": 2,
+          "raw_rows": 86,
+          "unique_retained_rows": 86,
+          "removed_species": []
+        },
+        {
+          "start0": 18846569,
+          "bp": 6,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846575,
+          "bp": 7,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846582,
+          "bp": 3,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846585,
+          "bp": 9,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846594,
+          "bp": 8,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846602,
+          "bp": 7,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846609,
+          "bp": 13,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846622,
+          "bp": 16,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846638,
+          "bp": 5,
+          "raw_rows": 87,
+          "unique_retained_rows": 87,
+          "removed_species": []
+        },
+        {
+          "start0": 18846643,
+          "bp": 5,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846648,
+          "bp": 3,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846651,
+          "bp": 11,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846662,
+          "bp": 1,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 18846663,
+          "bp": 4,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846667,
+          "bp": 8,
+          "raw_rows": 107,
+          "unique_retained_rows": 107,
+          "removed_species": []
+        },
+        {
+          "start0": 18846675,
+          "bp": 8,
+          "raw_rows": 107,
+          "unique_retained_rows": 107,
+          "removed_species": []
+        },
+        {
+          "start0": 18846683,
+          "bp": 2,
+          "raw_rows": 88,
+          "unique_retained_rows": 88,
+          "removed_species": []
+        },
+        {
+          "start0": 18846685,
+          "bp": 9,
+          "raw_rows": 108,
+          "unique_retained_rows": 108,
+          "removed_species": []
+        },
+        {
+          "start0": 18846694,
+          "bp": 4,
+          "raw_rows": 100,
+          "unique_retained_rows": 100,
+          "removed_species": []
+        },
+        {
+          "start0": 18846698,
+          "bp": 1,
+          "raw_rows": 100,
+          "unique_retained_rows": 100,
+          "removed_species": []
+        },
+        {
+          "start0": 18846699,
+          "bp": 7,
+          "raw_rows": 107,
+          "unique_retained_rows": 107,
+          "removed_species": []
+        },
+        {
+          "start0": 18846706,
+          "bp": 9,
+          "raw_rows": 106,
+          "unique_retained_rows": 106,
+          "removed_species": []
+        },
+        {
+          "start0": 18846715,
+          "bp": 1,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 18846716,
+          "bp": 4,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846720,
+          "bp": 1,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846721,
+          "bp": 8,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846729,
+          "bp": 4,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846733,
+          "bp": 2,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846735,
+          "bp": 18,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846753,
+          "bp": 4,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846757,
+          "bp": 13,
+          "raw_rows": 124,
+          "unique_retained_rows": 124,
+          "removed_species": []
+        },
+        {
+          "start0": 18846770,
+          "bp": 2,
+          "raw_rows": 123,
+          "unique_retained_rows": 123,
+          "removed_species": []
+        },
+        {
+          "start0": 18846772,
+          "bp": 5,
+          "raw_rows": 100,
+          "unique_retained_rows": 100,
+          "removed_species": []
+        },
+        {
+          "start0": 18846777,
+          "bp": 3,
+          "raw_rows": 68,
+          "unique_retained_rows": 68,
+          "removed_species": []
+        },
+        {
+          "start0": 18846780,
+          "bp": 1,
+          "raw_rows": 72,
+          "unique_retained_rows": 72,
+          "removed_species": []
+        },
+        {
+          "start0": 18846781,
+          "bp": 1,
+          "raw_rows": 80,
+          "unique_retained_rows": 80,
+          "removed_species": []
+        },
+        {
+          "start0": 18846782,
+          "bp": 1,
+          "raw_rows": 88,
+          "unique_retained_rows": 88,
+          "removed_species": []
+        },
+        {
+          "start0": 18846783,
+          "bp": 1,
+          "raw_rows": 88,
+          "unique_retained_rows": 88,
+          "removed_species": []
+        },
+        {
+          "start0": 18846784,
+          "bp": 4,
+          "raw_rows": 88,
+          "unique_retained_rows": 88,
+          "removed_species": []
+        },
+        {
+          "start0": 18846788,
+          "bp": 2,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 18846790,
+          "bp": 4,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 18846794,
+          "bp": 1,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 18846795,
+          "bp": 3,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 18846798,
+          "bp": 3,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 18846801,
+          "bp": 6,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 18846807,
+          "bp": 4,
+          "raw_rows": 123,
+          "unique_retained_rows": 123,
+          "removed_species": []
+        },
+        {
+          "start0": 18846811,
+          "bp": 4,
+          "raw_rows": 124,
+          "unique_retained_rows": 124,
+          "removed_species": []
+        },
+        {
+          "start0": 18846815,
+          "bp": 3,
+          "raw_rows": 124,
+          "unique_retained_rows": 124,
+          "removed_species": []
+        },
+        {
+          "start0": 18846818,
+          "bp": 15,
+          "raw_rows": 124,
+          "unique_retained_rows": 124,
+          "removed_species": []
+        },
+        {
+          "start0": 18846833,
+          "bp": 2,
+          "raw_rows": 124,
+          "unique_retained_rows": 124,
+          "removed_species": []
+        },
+        {
+          "start0": 18846835,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 18846837,
+          "bp": 11,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18846848,
+          "bp": 3,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18846851,
+          "bp": 13,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 18846864,
+          "bp": 9,
+          "raw_rows": 114,
+          "unique_retained_rows": 114,
+          "removed_species": []
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1266",
+      "state": "completed",
+      "scored_reference_bp": 1000,
+      "max50bp_mean": 2.21532,
+      "exceeds_legacy_6_5": false,
+      "raw_max50bp_mean": 2.21532,
+      "removed_duplicate_species_refbp": {
+        "Ctenomys_sociabilis": 13,
+        "Petromus_typicus": 48,
+        "Castor_canadensis": 15,
+        "Thryonomys_swinderianus": 11,
+        "Muscardinus_avellanarius": 17,
+        "Felis_catus": 5
+      },
+      "nonreference_ACGT": {
+        "min": 3,
+        "median": 226.0,
+        "max": 240,
+        "reference_bp_with_zero_nonreference_ACGT": 0
+      },
+      "source_sha256": "8037ec785c3034385a573641a4202cffc0c5f8a6ca72a940303a9a8eda5978e5",
+      "curated_maf_sha256": "e79baa4eed2eddd634a20f284baf92a5efba8373f7875188dfac3e13fb4ac1e5",
+      "wig_sha256": "f7b8041b9c6c04783a8791d92d3839502dd726459260a4199e2d0fccf09623b2",
+      "block_details": [
+        {
+          "start0": 2199848,
+          "bp": 1,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199849,
+          "bp": 3,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199852,
+          "bp": 2,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199854,
+          "bp": 13,
+          "raw_rows": 241,
+          "unique_retained_rows": 241,
+          "removed_species": []
+        },
+        {
+          "start0": 2199867,
+          "bp": 2,
+          "raw_rows": 241,
+          "unique_retained_rows": 241,
+          "removed_species": []
+        },
+        {
+          "start0": 2199869,
+          "bp": 10,
+          "raw_rows": 241,
+          "unique_retained_rows": 241,
+          "removed_species": []
+        },
+        {
+          "start0": 2199879,
+          "bp": 7,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199886,
+          "bp": 13,
+          "raw_rows": 241,
+          "unique_retained_rows": 241,
+          "removed_species": []
+        },
+        {
+          "start0": 2199899,
+          "bp": 21,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199920,
+          "bp": 2,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2199922,
+          "bp": 3,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2199925,
+          "bp": 4,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199929,
+          "bp": 7,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199936,
+          "bp": 11,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199947,
+          "bp": 4,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199951,
+          "bp": 13,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199964,
+          "bp": 8,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2199972,
+          "bp": 3,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2199975,
+          "bp": 7,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2199982,
+          "bp": 18,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200000,
+          "bp": 6,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200006,
+          "bp": 2,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200008,
+          "bp": 2,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200010,
+          "bp": 1,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200011,
+          "bp": 1,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200012,
+          "bp": 3,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200015,
+          "bp": 14,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200029,
+          "bp": 13,
+          "raw_rows": 232,
+          "unique_retained_rows": 230,
+          "removed_species": [
+            "Ctenomys_sociabilis"
+          ]
+        },
+        {
+          "start0": 2200042,
+          "bp": 4,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200046,
+          "bp": 8,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200054,
+          "bp": 6,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200060,
+          "bp": 4,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200064,
+          "bp": 5,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200069,
+          "bp": 1,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200070,
+          "bp": 9,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200079,
+          "bp": 1,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200080,
+          "bp": 1,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200081,
+          "bp": 2,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200083,
+          "bp": 2,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200085,
+          "bp": 2,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200087,
+          "bp": 1,
+          "raw_rows": 234,
+          "unique_retained_rows": 234,
+          "removed_species": []
+        },
+        {
+          "start0": 2200088,
+          "bp": 1,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200089,
+          "bp": 1,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200090,
+          "bp": 2,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200092,
+          "bp": 2,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200094,
+          "bp": 1,
+          "raw_rows": 232,
+          "unique_retained_rows": 232,
+          "removed_species": []
+        },
+        {
+          "start0": 2200095,
+          "bp": 1,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200096,
+          "bp": 1,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200097,
+          "bp": 8,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2200105,
+          "bp": 4,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200109,
+          "bp": 4,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200113,
+          "bp": 6,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200119,
+          "bp": 6,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2200125,
+          "bp": 3,
+          "raw_rows": 221,
+          "unique_retained_rows": 221,
+          "removed_species": []
+        },
+        {
+          "start0": 2200128,
+          "bp": 6,
+          "raw_rows": 221,
+          "unique_retained_rows": 221,
+          "removed_species": []
+        },
+        {
+          "start0": 2200134,
+          "bp": 2,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200136,
+          "bp": 3,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200139,
+          "bp": 4,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200143,
+          "bp": 10,
+          "raw_rows": 238,
+          "unique_retained_rows": 236,
+          "removed_species": [
+            "Petromus_typicus"
+          ]
+        },
+        {
+          "start0": 2200153,
+          "bp": 4,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200157,
+          "bp": 4,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200161,
+          "bp": 1,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200162,
+          "bp": 3,
+          "raw_rows": 240,
+          "unique_retained_rows": 240,
+          "removed_species": []
+        },
+        {
+          "start0": 2200165,
+          "bp": 2,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200167,
+          "bp": 1,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200168,
+          "bp": 5,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200173,
+          "bp": 3,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200176,
+          "bp": 1,
+          "raw_rows": 192,
+          "unique_retained_rows": 192,
+          "removed_species": []
+        },
+        {
+          "start0": 2200177,
+          "bp": 2,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200179,
+          "bp": 1,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200180,
+          "bp": 3,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200183,
+          "bp": 2,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200185,
+          "bp": 1,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200186,
+          "bp": 1,
+          "raw_rows": 234,
+          "unique_retained_rows": 234,
+          "removed_species": []
+        },
+        {
+          "start0": 2200187,
+          "bp": 2,
+          "raw_rows": 217,
+          "unique_retained_rows": 217,
+          "removed_species": []
+        },
+        {
+          "start0": 2200189,
+          "bp": 1,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200190,
+          "bp": 1,
+          "raw_rows": 232,
+          "unique_retained_rows": 232,
+          "removed_species": []
+        },
+        {
+          "start0": 2200191,
+          "bp": 1,
+          "raw_rows": 233,
+          "unique_retained_rows": 233,
+          "removed_species": []
+        },
+        {
+          "start0": 2200192,
+          "bp": 1,
+          "raw_rows": 233,
+          "unique_retained_rows": 233,
+          "removed_species": []
+        },
+        {
+          "start0": 2200193,
+          "bp": 1,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200194,
+          "bp": 1,
+          "raw_rows": 233,
+          "unique_retained_rows": 233,
+          "removed_species": []
+        },
+        {
+          "start0": 2200195,
+          "bp": 1,
+          "raw_rows": 232,
+          "unique_retained_rows": 232,
+          "removed_species": []
+        },
+        {
+          "start0": 2200196,
+          "bp": 1,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200197,
+          "bp": 4,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200201,
+          "bp": 2,
+          "raw_rows": 232,
+          "unique_retained_rows": 232,
+          "removed_species": []
+        },
+        {
+          "start0": 2200203,
+          "bp": 3,
+          "raw_rows": 233,
+          "unique_retained_rows": 233,
+          "removed_species": []
+        },
+        {
+          "start0": 2200206,
+          "bp": 7,
+          "raw_rows": 239,
+          "unique_retained_rows": 237,
+          "removed_species": [
+            "Castor_canadensis"
+          ]
+        },
+        {
+          "start0": 2200213,
+          "bp": 4,
+          "raw_rows": 240,
+          "unique_retained_rows": 238,
+          "removed_species": [
+            "Petromus_typicus"
+          ]
+        },
+        {
+          "start0": 2200217,
+          "bp": 1,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200218,
+          "bp": 1,
+          "raw_rows": 189,
+          "unique_retained_rows": 189,
+          "removed_species": []
+        },
+        {
+          "start0": 2200219,
+          "bp": 1,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 2200220,
+          "bp": 1,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200221,
+          "bp": 2,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200223,
+          "bp": 2,
+          "raw_rows": 234,
+          "unique_retained_rows": 234,
+          "removed_species": []
+        },
+        {
+          "start0": 2200225,
+          "bp": 6,
+          "raw_rows": 240,
+          "unique_retained_rows": 238,
+          "removed_species": [
+            "Petromus_typicus"
+          ]
+        },
+        {
+          "start0": 2200231,
+          "bp": 3,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200234,
+          "bp": 1,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200235,
+          "bp": 3,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200238,
+          "bp": 4,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200242,
+          "bp": 1,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200243,
+          "bp": 9,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200252,
+          "bp": 2,
+          "raw_rows": 226,
+          "unique_retained_rows": 226,
+          "removed_species": []
+        },
+        {
+          "start0": 2200254,
+          "bp": 1,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200255,
+          "bp": 6,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200261,
+          "bp": 1,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200262,
+          "bp": 1,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200263,
+          "bp": 12,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200275,
+          "bp": 2,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200277,
+          "bp": 1,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200278,
+          "bp": 3,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200281,
+          "bp": 2,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200283,
+          "bp": 3,
+          "raw_rows": 238,
+          "unique_retained_rows": 238,
+          "removed_species": []
+        },
+        {
+          "start0": 2200286,
+          "bp": 2,
+          "raw_rows": 239,
+          "unique_retained_rows": 239,
+          "removed_species": []
+        },
+        {
+          "start0": 2200288,
+          "bp": 2,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200290,
+          "bp": 1,
+          "raw_rows": 232,
+          "unique_retained_rows": 232,
+          "removed_species": []
+        },
+        {
+          "start0": 2200291,
+          "bp": 2,
+          "raw_rows": 233,
+          "unique_retained_rows": 233,
+          "removed_species": []
+        },
+        {
+          "start0": 2200293,
+          "bp": 7,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200300,
+          "bp": 2,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200302,
+          "bp": 6,
+          "raw_rows": 237,
+          "unique_retained_rows": 237,
+          "removed_species": []
+        },
+        {
+          "start0": 2200308,
+          "bp": 2,
+          "raw_rows": 197,
+          "unique_retained_rows": 197,
+          "removed_species": []
+        },
+        {
+          "start0": 2200310,
+          "bp": 11,
+          "raw_rows": 237,
+          "unique_retained_rows": 235,
+          "removed_species": [
+            "Thryonomys_swinderianus"
+          ]
+        },
+        {
+          "start0": 2200321,
+          "bp": 6,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200327,
+          "bp": 5,
+          "raw_rows": 234,
+          "unique_retained_rows": 234,
+          "removed_species": []
+        },
+        {
+          "start0": 2200332,
+          "bp": 1,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200333,
+          "bp": 2,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200335,
+          "bp": 3,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200338,
+          "bp": 2,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200340,
+          "bp": 1,
+          "raw_rows": 221,
+          "unique_retained_rows": 221,
+          "removed_species": []
+        },
+        {
+          "start0": 2200341,
+          "bp": 1,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 2200342,
+          "bp": 2,
+          "raw_rows": 212,
+          "unique_retained_rows": 212,
+          "removed_species": []
+        },
+        {
+          "start0": 2200344,
+          "bp": 2,
+          "raw_rows": 204,
+          "unique_retained_rows": 204,
+          "removed_species": []
+        },
+        {
+          "start0": 2200346,
+          "bp": 1,
+          "raw_rows": 195,
+          "unique_retained_rows": 195,
+          "removed_species": []
+        },
+        {
+          "start0": 2200347,
+          "bp": 2,
+          "raw_rows": 198,
+          "unique_retained_rows": 196,
+          "removed_species": [
+            "Castor_canadensis"
+          ]
+        },
+        {
+          "start0": 2200349,
+          "bp": 1,
+          "raw_rows": 183,
+          "unique_retained_rows": 183,
+          "removed_species": []
+        },
+        {
+          "start0": 2200350,
+          "bp": 5,
+          "raw_rows": 205,
+          "unique_retained_rows": 205,
+          "removed_species": []
+        },
+        {
+          "start0": 2200355,
+          "bp": 2,
+          "raw_rows": 208,
+          "unique_retained_rows": 208,
+          "removed_species": []
+        },
+        {
+          "start0": 2200357,
+          "bp": 1,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200358,
+          "bp": 1,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200359,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200360,
+          "bp": 1,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200361,
+          "bp": 1,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200362,
+          "bp": 1,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200363,
+          "bp": 1,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200364,
+          "bp": 6,
+          "raw_rows": 234,
+          "unique_retained_rows": 234,
+          "removed_species": []
+        },
+        {
+          "start0": 2200370,
+          "bp": 2,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200372,
+          "bp": 2,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200374,
+          "bp": 6,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200380,
+          "bp": 2,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200382,
+          "bp": 7,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200389,
+          "bp": 3,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200392,
+          "bp": 4,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200396,
+          "bp": 3,
+          "raw_rows": 236,
+          "unique_retained_rows": 236,
+          "removed_species": []
+        },
+        {
+          "start0": 2200399,
+          "bp": 5,
+          "raw_rows": 233,
+          "unique_retained_rows": 233,
+          "removed_species": []
+        },
+        {
+          "start0": 2200404,
+          "bp": 2,
+          "raw_rows": 234,
+          "unique_retained_rows": 234,
+          "removed_species": []
+        },
+        {
+          "start0": 2200406,
+          "bp": 6,
+          "raw_rows": 235,
+          "unique_retained_rows": 235,
+          "removed_species": []
+        },
+        {
+          "start0": 2200412,
+          "bp": 1,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200413,
+          "bp": 1,
+          "raw_rows": 214,
+          "unique_retained_rows": 214,
+          "removed_species": []
+        },
+        {
+          "start0": 2200414,
+          "bp": 1,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200415,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200416,
+          "bp": 2,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200418,
+          "bp": 1,
+          "raw_rows": 212,
+          "unique_retained_rows": 212,
+          "removed_species": []
+        },
+        {
+          "start0": 2200419,
+          "bp": 5,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200424,
+          "bp": 1,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200425,
+          "bp": 2,
+          "raw_rows": 230,
+          "unique_retained_rows": 230,
+          "removed_species": []
+        },
+        {
+          "start0": 2200427,
+          "bp": 8,
+          "raw_rows": 231,
+          "unique_retained_rows": 231,
+          "removed_species": []
+        },
+        {
+          "start0": 2200435,
+          "bp": 5,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200440,
+          "bp": 2,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200442,
+          "bp": 1,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200443,
+          "bp": 1,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200444,
+          "bp": 1,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200445,
+          "bp": 3,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200448,
+          "bp": 2,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200450,
+          "bp": 19,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200469,
+          "bp": 5,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200474,
+          "bp": 7,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200481,
+          "bp": 1,
+          "raw_rows": 219,
+          "unique_retained_rows": 219,
+          "removed_species": []
+        },
+        {
+          "start0": 2200482,
+          "bp": 2,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200484,
+          "bp": 2,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200486,
+          "bp": 5,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200491,
+          "bp": 3,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200494,
+          "bp": 3,
+          "raw_rows": 221,
+          "unique_retained_rows": 221,
+          "removed_species": []
+        },
+        {
+          "start0": 2200497,
+          "bp": 3,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200500,
+          "bp": 3,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200503,
+          "bp": 6,
+          "raw_rows": 228,
+          "unique_retained_rows": 226,
+          "removed_species": [
+            "Castor_canadensis"
+          ]
+        },
+        {
+          "start0": 2200509,
+          "bp": 6,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200515,
+          "bp": 1,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200516,
+          "bp": 1,
+          "raw_rows": 199,
+          "unique_retained_rows": 199,
+          "removed_species": []
+        },
+        {
+          "start0": 2200517,
+          "bp": 3,
+          "raw_rows": 210,
+          "unique_retained_rows": 210,
+          "removed_species": []
+        },
+        {
+          "start0": 2200520,
+          "bp": 1,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200521,
+          "bp": 2,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200523,
+          "bp": 4,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200527,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200528,
+          "bp": 2,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200530,
+          "bp": 5,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200535,
+          "bp": 3,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200538,
+          "bp": 1,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200539,
+          "bp": 3,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200542,
+          "bp": 2,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200544,
+          "bp": 1,
+          "raw_rows": 226,
+          "unique_retained_rows": 226,
+          "removed_species": []
+        },
+        {
+          "start0": 2200545,
+          "bp": 17,
+          "raw_rows": 230,
+          "unique_retained_rows": 226,
+          "removed_species": [
+            "Muscardinus_avellanarius",
+            "Petromus_typicus"
+          ]
+        },
+        {
+          "start0": 2200562,
+          "bp": 1,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200563,
+          "bp": 1,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200564,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200565,
+          "bp": 1,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200566,
+          "bp": 1,
+          "raw_rows": 210,
+          "unique_retained_rows": 210,
+          "removed_species": []
+        },
+        {
+          "start0": 2200567,
+          "bp": 1,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200568,
+          "bp": 1,
+          "raw_rows": 217,
+          "unique_retained_rows": 217,
+          "removed_species": []
+        },
+        {
+          "start0": 2200569,
+          "bp": 1,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200570,
+          "bp": 2,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200572,
+          "bp": 1,
+          "raw_rows": 219,
+          "unique_retained_rows": 219,
+          "removed_species": []
+        },
+        {
+          "start0": 2200573,
+          "bp": 3,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200576,
+          "bp": 2,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200578,
+          "bp": 8,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200586,
+          "bp": 2,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200588,
+          "bp": 1,
+          "raw_rows": 175,
+          "unique_retained_rows": 175,
+          "removed_species": []
+        },
+        {
+          "start0": 2200589,
+          "bp": 2,
+          "raw_rows": 229,
+          "unique_retained_rows": 227,
+          "removed_species": [
+            "Petromus_typicus"
+          ]
+        },
+        {
+          "start0": 2200591,
+          "bp": 1,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200592,
+          "bp": 4,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200596,
+          "bp": 1,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200597,
+          "bp": 1,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200598,
+          "bp": 1,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200599,
+          "bp": 2,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200601,
+          "bp": 1,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200602,
+          "bp": 1,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200603,
+          "bp": 7,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200610,
+          "bp": 3,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200613,
+          "bp": 3,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200616,
+          "bp": 1,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200617,
+          "bp": 2,
+          "raw_rows": 228,
+          "unique_retained_rows": 228,
+          "removed_species": []
+        },
+        {
+          "start0": 2200619,
+          "bp": 1,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200620,
+          "bp": 2,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200622,
+          "bp": 1,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200623,
+          "bp": 6,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200629,
+          "bp": 1,
+          "raw_rows": 213,
+          "unique_retained_rows": 213,
+          "removed_species": []
+        },
+        {
+          "start0": 2200630,
+          "bp": 1,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200631,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200632,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200633,
+          "bp": 1,
+          "raw_rows": 219,
+          "unique_retained_rows": 219,
+          "removed_species": []
+        },
+        {
+          "start0": 2200634,
+          "bp": 1,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200635,
+          "bp": 1,
+          "raw_rows": 211,
+          "unique_retained_rows": 211,
+          "removed_species": []
+        },
+        {
+          "start0": 2200636,
+          "bp": 2,
+          "raw_rows": 226,
+          "unique_retained_rows": 226,
+          "removed_species": []
+        },
+        {
+          "start0": 2200638,
+          "bp": 2,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200640,
+          "bp": 1,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200641,
+          "bp": 1,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200642,
+          "bp": 13,
+          "raw_rows": 229,
+          "unique_retained_rows": 229,
+          "removed_species": []
+        },
+        {
+          "start0": 2200655,
+          "bp": 5,
+          "raw_rows": 226,
+          "unique_retained_rows": 226,
+          "removed_species": []
+        },
+        {
+          "start0": 2200660,
+          "bp": 1,
+          "raw_rows": 215,
+          "unique_retained_rows": 215,
+          "removed_species": []
+        },
+        {
+          "start0": 2200661,
+          "bp": 5,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200666,
+          "bp": 6,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200672,
+          "bp": 1,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200673,
+          "bp": 4,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200677,
+          "bp": 4,
+          "raw_rows": 227,
+          "unique_retained_rows": 227,
+          "removed_species": []
+        },
+        {
+          "start0": 2200681,
+          "bp": 1,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200682,
+          "bp": 2,
+          "raw_rows": 221,
+          "unique_retained_rows": 221,
+          "removed_species": []
+        },
+        {
+          "start0": 2200684,
+          "bp": 1,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200685,
+          "bp": 3,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200688,
+          "bp": 1,
+          "raw_rows": 88,
+          "unique_retained_rows": 88,
+          "removed_species": []
+        },
+        {
+          "start0": 2200689,
+          "bp": 3,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200692,
+          "bp": 1,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200693,
+          "bp": 2,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200695,
+          "bp": 6,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200701,
+          "bp": 9,
+          "raw_rows": 224,
+          "unique_retained_rows": 222,
+          "removed_species": [
+            "Petromus_typicus"
+          ]
+        },
+        {
+          "start0": 2200710,
+          "bp": 1,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200711,
+          "bp": 3,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200714,
+          "bp": 5,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200719,
+          "bp": 1,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200720,
+          "bp": 3,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200723,
+          "bp": 4,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200727,
+          "bp": 2,
+          "raw_rows": 219,
+          "unique_retained_rows": 219,
+          "removed_species": []
+        },
+        {
+          "start0": 2200729,
+          "bp": 5,
+          "raw_rows": 227,
+          "unique_retained_rows": 225,
+          "removed_species": [
+            "Felis_catus"
+          ]
+        },
+        {
+          "start0": 2200734,
+          "bp": 2,
+          "raw_rows": 226,
+          "unique_retained_rows": 226,
+          "removed_species": []
+        },
+        {
+          "start0": 2200736,
+          "bp": 1,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200737,
+          "bp": 5,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200742,
+          "bp": 3,
+          "raw_rows": 205,
+          "unique_retained_rows": 205,
+          "removed_species": []
+        },
+        {
+          "start0": 2200745,
+          "bp": 1,
+          "raw_rows": 213,
+          "unique_retained_rows": 213,
+          "removed_species": []
+        },
+        {
+          "start0": 2200746,
+          "bp": 1,
+          "raw_rows": 214,
+          "unique_retained_rows": 214,
+          "removed_species": []
+        },
+        {
+          "start0": 2200747,
+          "bp": 1,
+          "raw_rows": 211,
+          "unique_retained_rows": 211,
+          "removed_species": []
+        },
+        {
+          "start0": 2200748,
+          "bp": 1,
+          "raw_rows": 198,
+          "unique_retained_rows": 198,
+          "removed_species": []
+        },
+        {
+          "start0": 2200749,
+          "bp": 1,
+          "raw_rows": 199,
+          "unique_retained_rows": 199,
+          "removed_species": []
+        },
+        {
+          "start0": 2200750,
+          "bp": 5,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200755,
+          "bp": 6,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200761,
+          "bp": 1,
+          "raw_rows": 219,
+          "unique_retained_rows": 219,
+          "removed_species": []
+        },
+        {
+          "start0": 2200762,
+          "bp": 3,
+          "raw_rows": 225,
+          "unique_retained_rows": 225,
+          "removed_species": []
+        },
+        {
+          "start0": 2200765,
+          "bp": 4,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200769,
+          "bp": 2,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200771,
+          "bp": 2,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200773,
+          "bp": 2,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200775,
+          "bp": 4,
+          "raw_rows": 219,
+          "unique_retained_rows": 219,
+          "removed_species": []
+        },
+        {
+          "start0": 2200779,
+          "bp": 5,
+          "raw_rows": 211,
+          "unique_retained_rows": 211,
+          "removed_species": []
+        },
+        {
+          "start0": 2200784,
+          "bp": 1,
+          "raw_rows": 209,
+          "unique_retained_rows": 209,
+          "removed_species": []
+        },
+        {
+          "start0": 2200785,
+          "bp": 2,
+          "raw_rows": 154,
+          "unique_retained_rows": 154,
+          "removed_species": []
+        },
+        {
+          "start0": 2200787,
+          "bp": 4,
+          "raw_rows": 213,
+          "unique_retained_rows": 213,
+          "removed_species": []
+        },
+        {
+          "start0": 2200791,
+          "bp": 2,
+          "raw_rows": 208,
+          "unique_retained_rows": 208,
+          "removed_species": []
+        },
+        {
+          "start0": 2200793,
+          "bp": 3,
+          "raw_rows": 202,
+          "unique_retained_rows": 202,
+          "removed_species": []
+        },
+        {
+          "start0": 2200796,
+          "bp": 2,
+          "raw_rows": 210,
+          "unique_retained_rows": 210,
+          "removed_species": []
+        },
+        {
+          "start0": 2200798,
+          "bp": 3,
+          "raw_rows": 211,
+          "unique_retained_rows": 211,
+          "removed_species": []
+        },
+        {
+          "start0": 2200801,
+          "bp": 2,
+          "raw_rows": 213,
+          "unique_retained_rows": 213,
+          "removed_species": []
+        },
+        {
+          "start0": 2200803,
+          "bp": 3,
+          "raw_rows": 218,
+          "unique_retained_rows": 218,
+          "removed_species": []
+        },
+        {
+          "start0": 2200806,
+          "bp": 1,
+          "raw_rows": 192,
+          "unique_retained_rows": 192,
+          "removed_species": []
+        },
+        {
+          "start0": 2200807,
+          "bp": 3,
+          "raw_rows": 199,
+          "unique_retained_rows": 199,
+          "removed_species": []
+        },
+        {
+          "start0": 2200810,
+          "bp": 2,
+          "raw_rows": 208,
+          "unique_retained_rows": 208,
+          "removed_species": []
+        },
+        {
+          "start0": 2200812,
+          "bp": 2,
+          "raw_rows": 205,
+          "unique_retained_rows": 205,
+          "removed_species": []
+        },
+        {
+          "start0": 2200814,
+          "bp": 1,
+          "raw_rows": 203,
+          "unique_retained_rows": 203,
+          "removed_species": []
+        },
+        {
+          "start0": 2200815,
+          "bp": 1,
+          "raw_rows": 205,
+          "unique_retained_rows": 205,
+          "removed_species": []
+        },
+        {
+          "start0": 2200816,
+          "bp": 1,
+          "raw_rows": 216,
+          "unique_retained_rows": 216,
+          "removed_species": []
+        },
+        {
+          "start0": 2200817,
+          "bp": 2,
+          "raw_rows": 217,
+          "unique_retained_rows": 217,
+          "removed_species": []
+        },
+        {
+          "start0": 2200819,
+          "bp": 1,
+          "raw_rows": 210,
+          "unique_retained_rows": 210,
+          "removed_species": []
+        },
+        {
+          "start0": 2200820,
+          "bp": 7,
+          "raw_rows": 224,
+          "unique_retained_rows": 224,
+          "removed_species": []
+        },
+        {
+          "start0": 2200827,
+          "bp": 4,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200831,
+          "bp": 5,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200836,
+          "bp": 1,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200837,
+          "bp": 1,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        },
+        {
+          "start0": 2200838,
+          "bp": 1,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 2200839,
+          "bp": 4,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200843,
+          "bp": 1,
+          "raw_rows": 223,
+          "unique_retained_rows": 223,
+          "removed_species": []
+        },
+        {
+          "start0": 2200844,
+          "bp": 2,
+          "raw_rows": 220,
+          "unique_retained_rows": 220,
+          "removed_species": []
+        },
+        {
+          "start0": 2200846,
+          "bp": 2,
+          "raw_rows": 222,
+          "unique_retained_rows": 222,
+          "removed_species": []
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1900",
+      "state": "completed",
+      "scored_reference_bp": 1000,
+      "max50bp_mean": 0.46692,
+      "exceeds_legacy_6_5": false,
+      "raw_max50bp_mean": 0.46692,
+      "removed_duplicate_species_refbp": {
+        "Thryonomys_swinderianus": 7,
+        "Galeopterus_variegatus": 2
+      },
+      "nonreference_ACGT": {
+        "min": 3,
+        "median": 129.5,
+        "max": 172,
+        "reference_bp_with_zero_nonreference_ACGT": 0
+      },
+      "source_sha256": "c4a91821f9f35b6d70b7c9f9e045bdca01547ff6049525d5d4c1848190acbd9f",
+      "curated_maf_sha256": "4a0d947b9944656ab5a5e3604484150cd7e9a198ab2e6e74aad6f926d8577f92",
+      "wig_sha256": "9cebb66ca714e3d3311d4bbc6f7aca5ab731ae69b3b11fb7105cbf86b8b48985",
+      "block_details": [
+        {
+          "start0": 42483814,
+          "bp": 5,
+          "raw_rows": 162,
+          "unique_retained_rows": 162,
+          "removed_species": []
+        },
+        {
+          "start0": 42483819,
+          "bp": 4,
+          "raw_rows": 71,
+          "unique_retained_rows": 71,
+          "removed_species": []
+        },
+        {
+          "start0": 42483823,
+          "bp": 1,
+          "raw_rows": 165,
+          "unique_retained_rows": 165,
+          "removed_species": []
+        },
+        {
+          "start0": 42483824,
+          "bp": 4,
+          "raw_rows": 161,
+          "unique_retained_rows": 161,
+          "removed_species": []
+        },
+        {
+          "start0": 42483828,
+          "bp": 1,
+          "raw_rows": 164,
+          "unique_retained_rows": 164,
+          "removed_species": []
+        },
+        {
+          "start0": 42483829,
+          "bp": 5,
+          "raw_rows": 165,
+          "unique_retained_rows": 165,
+          "removed_species": []
+        },
+        {
+          "start0": 42483834,
+          "bp": 3,
+          "raw_rows": 163,
+          "unique_retained_rows": 163,
+          "removed_species": []
+        },
+        {
+          "start0": 42483837,
+          "bp": 9,
+          "raw_rows": 163,
+          "unique_retained_rows": 163,
+          "removed_species": []
+        },
+        {
+          "start0": 42483846,
+          "bp": 4,
+          "raw_rows": 127,
+          "unique_retained_rows": 127,
+          "removed_species": []
+        },
+        {
+          "start0": 42483850,
+          "bp": 1,
+          "raw_rows": 127,
+          "unique_retained_rows": 127,
+          "removed_species": []
+        },
+        {
+          "start0": 42483851,
+          "bp": 2,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42483853,
+          "bp": 2,
+          "raw_rows": 169,
+          "unique_retained_rows": 169,
+          "removed_species": []
+        },
+        {
+          "start0": 42483855,
+          "bp": 1,
+          "raw_rows": 165,
+          "unique_retained_rows": 165,
+          "removed_species": []
+        },
+        {
+          "start0": 42483856,
+          "bp": 1,
+          "raw_rows": 163,
+          "unique_retained_rows": 163,
+          "removed_species": []
+        },
+        {
+          "start0": 42483857,
+          "bp": 4,
+          "raw_rows": 164,
+          "unique_retained_rows": 164,
+          "removed_species": []
+        },
+        {
+          "start0": 42483861,
+          "bp": 1,
+          "raw_rows": 169,
+          "unique_retained_rows": 169,
+          "removed_species": []
+        },
+        {
+          "start0": 42483862,
+          "bp": 2,
+          "raw_rows": 169,
+          "unique_retained_rows": 169,
+          "removed_species": []
+        },
+        {
+          "start0": 42483864,
+          "bp": 6,
+          "raw_rows": 166,
+          "unique_retained_rows": 166,
+          "removed_species": []
+        },
+        {
+          "start0": 42483870,
+          "bp": 4,
+          "raw_rows": 169,
+          "unique_retained_rows": 169,
+          "removed_species": []
+        },
+        {
+          "start0": 42483874,
+          "bp": 4,
+          "raw_rows": 171,
+          "unique_retained_rows": 171,
+          "removed_species": []
+        },
+        {
+          "start0": 42483878,
+          "bp": 2,
+          "raw_rows": 172,
+          "unique_retained_rows": 172,
+          "removed_species": []
+        },
+        {
+          "start0": 42483880,
+          "bp": 2,
+          "raw_rows": 171,
+          "unique_retained_rows": 171,
+          "removed_species": []
+        },
+        {
+          "start0": 42483882,
+          "bp": 2,
+          "raw_rows": 166,
+          "unique_retained_rows": 166,
+          "removed_species": []
+        },
+        {
+          "start0": 42483884,
+          "bp": 2,
+          "raw_rows": 166,
+          "unique_retained_rows": 166,
+          "removed_species": []
+        },
+        {
+          "start0": 42483886,
+          "bp": 5,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 42483891,
+          "bp": 1,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 42483892,
+          "bp": 1,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42483893,
+          "bp": 5,
+          "raw_rows": 127,
+          "unique_retained_rows": 127,
+          "removed_species": []
+        },
+        {
+          "start0": 42483898,
+          "bp": 2,
+          "raw_rows": 167,
+          "unique_retained_rows": 167,
+          "removed_species": []
+        },
+        {
+          "start0": 42483900,
+          "bp": 2,
+          "raw_rows": 167,
+          "unique_retained_rows": 167,
+          "removed_species": []
+        },
+        {
+          "start0": 42483902,
+          "bp": 3,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42483905,
+          "bp": 1,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42483906,
+          "bp": 1,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42483907,
+          "bp": 1,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42483908,
+          "bp": 3,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42483911,
+          "bp": 2,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42483913,
+          "bp": 1,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42483914,
+          "bp": 1,
+          "raw_rows": 173,
+          "unique_retained_rows": 173,
+          "removed_species": []
+        },
+        {
+          "start0": 42483915,
+          "bp": 1,
+          "raw_rows": 172,
+          "unique_retained_rows": 172,
+          "removed_species": []
+        },
+        {
+          "start0": 42483916,
+          "bp": 3,
+          "raw_rows": 168,
+          "unique_retained_rows": 168,
+          "removed_species": []
+        },
+        {
+          "start0": 42483919,
+          "bp": 1,
+          "raw_rows": 168,
+          "unique_retained_rows": 168,
+          "removed_species": []
+        },
+        {
+          "start0": 42483920,
+          "bp": 1,
+          "raw_rows": 166,
+          "unique_retained_rows": 166,
+          "removed_species": []
+        },
+        {
+          "start0": 42483921,
+          "bp": 4,
+          "raw_rows": 171,
+          "unique_retained_rows": 171,
+          "removed_species": []
+        },
+        {
+          "start0": 42483925,
+          "bp": 6,
+          "raw_rows": 162,
+          "unique_retained_rows": 162,
+          "removed_species": []
+        },
+        {
+          "start0": 42483931,
+          "bp": 5,
+          "raw_rows": 162,
+          "unique_retained_rows": 162,
+          "removed_species": []
+        },
+        {
+          "start0": 42483936,
+          "bp": 1,
+          "raw_rows": 81,
+          "unique_retained_rows": 81,
+          "removed_species": []
+        },
+        {
+          "start0": 42483937,
+          "bp": 3,
+          "raw_rows": 81,
+          "unique_retained_rows": 81,
+          "removed_species": []
+        },
+        {
+          "start0": 42483940,
+          "bp": 7,
+          "raw_rows": 149,
+          "unique_retained_rows": 149,
+          "removed_species": []
+        },
+        {
+          "start0": 42483947,
+          "bp": 2,
+          "raw_rows": 169,
+          "unique_retained_rows": 169,
+          "removed_species": []
+        },
+        {
+          "start0": 42483949,
+          "bp": 1,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42483950,
+          "bp": 2,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42483952,
+          "bp": 3,
+          "raw_rows": 49,
+          "unique_retained_rows": 49,
+          "removed_species": []
+        },
+        {
+          "start0": 42483955,
+          "bp": 1,
+          "raw_rows": 47,
+          "unique_retained_rows": 47,
+          "removed_species": []
+        },
+        {
+          "start0": 42483956,
+          "bp": 2,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42483958,
+          "bp": 14,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42483972,
+          "bp": 7,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42483979,
+          "bp": 3,
+          "raw_rows": 134,
+          "unique_retained_rows": 134,
+          "removed_species": []
+        },
+        {
+          "start0": 42483982,
+          "bp": 4,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42483986,
+          "bp": 3,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42483989,
+          "bp": 1,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42483990,
+          "bp": 1,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42483991,
+          "bp": 2,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42483993,
+          "bp": 3,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42483996,
+          "bp": 5,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484001,
+          "bp": 11,
+          "raw_rows": 142,
+          "unique_retained_rows": 142,
+          "removed_species": []
+        },
+        {
+          "start0": 42484012,
+          "bp": 3,
+          "raw_rows": 142,
+          "unique_retained_rows": 142,
+          "removed_species": []
+        },
+        {
+          "start0": 42484015,
+          "bp": 3,
+          "raw_rows": 142,
+          "unique_retained_rows": 142,
+          "removed_species": []
+        },
+        {
+          "start0": 42484018,
+          "bp": 4,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484022,
+          "bp": 1,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484023,
+          "bp": 2,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484025,
+          "bp": 2,
+          "raw_rows": 132,
+          "unique_retained_rows": 132,
+          "removed_species": []
+        },
+        {
+          "start0": 42484027,
+          "bp": 1,
+          "raw_rows": 82,
+          "unique_retained_rows": 82,
+          "removed_species": []
+        },
+        {
+          "start0": 42484028,
+          "bp": 1,
+          "raw_rows": 90,
+          "unique_retained_rows": 90,
+          "removed_species": []
+        },
+        {
+          "start0": 42484029,
+          "bp": 1,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484030,
+          "bp": 5,
+          "raw_rows": 137,
+          "unique_retained_rows": 137,
+          "removed_species": []
+        },
+        {
+          "start0": 42484035,
+          "bp": 2,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484037,
+          "bp": 2,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484039,
+          "bp": 7,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42484046,
+          "bp": 4,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484050,
+          "bp": 8,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42484058,
+          "bp": 7,
+          "raw_rows": 113,
+          "unique_retained_rows": 113,
+          "removed_species": []
+        },
+        {
+          "start0": 42484065,
+          "bp": 1,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42484066,
+          "bp": 3,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42484069,
+          "bp": 4,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 42484073,
+          "bp": 6,
+          "raw_rows": 121,
+          "unique_retained_rows": 121,
+          "removed_species": []
+        },
+        {
+          "start0": 42484079,
+          "bp": 3,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42484082,
+          "bp": 2,
+          "raw_rows": 51,
+          "unique_retained_rows": 51,
+          "removed_species": []
+        },
+        {
+          "start0": 42484084,
+          "bp": 2,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42484086,
+          "bp": 13,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42484099,
+          "bp": 6,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 42484105,
+          "bp": 1,
+          "raw_rows": 114,
+          "unique_retained_rows": 114,
+          "removed_species": []
+        },
+        {
+          "start0": 42484106,
+          "bp": 5,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 42484111,
+          "bp": 1,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 42484112,
+          "bp": 5,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 42484117,
+          "bp": 2,
+          "raw_rows": 114,
+          "unique_retained_rows": 114,
+          "removed_species": []
+        },
+        {
+          "start0": 42484119,
+          "bp": 1,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 42484120,
+          "bp": 6,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 42484126,
+          "bp": 6,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 42484132,
+          "bp": 1,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 42484133,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 42484135,
+          "bp": 8,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 42484143,
+          "bp": 6,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 42484149,
+          "bp": 3,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 42484152,
+          "bp": 3,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 42484155,
+          "bp": 3,
+          "raw_rows": 110,
+          "unique_retained_rows": 110,
+          "removed_species": []
+        },
+        {
+          "start0": 42484158,
+          "bp": 10,
+          "raw_rows": 112,
+          "unique_retained_rows": 112,
+          "removed_species": []
+        },
+        {
+          "start0": 42484168,
+          "bp": 2,
+          "raw_rows": 109,
+          "unique_retained_rows": 109,
+          "removed_species": []
+        },
+        {
+          "start0": 42484170,
+          "bp": 9,
+          "raw_rows": 113,
+          "unique_retained_rows": 113,
+          "removed_species": []
+        },
+        {
+          "start0": 42484179,
+          "bp": 5,
+          "raw_rows": 113,
+          "unique_retained_rows": 113,
+          "removed_species": []
+        },
+        {
+          "start0": 42484184,
+          "bp": 1,
+          "raw_rows": 113,
+          "unique_retained_rows": 113,
+          "removed_species": []
+        },
+        {
+          "start0": 42484185,
+          "bp": 6,
+          "raw_rows": 117,
+          "unique_retained_rows": 117,
+          "removed_species": []
+        },
+        {
+          "start0": 42484191,
+          "bp": 17,
+          "raw_rows": 117,
+          "unique_retained_rows": 117,
+          "removed_species": []
+        },
+        {
+          "start0": 42484208,
+          "bp": 7,
+          "raw_rows": 49,
+          "unique_retained_rows": 49,
+          "removed_species": []
+        },
+        {
+          "start0": 42484215,
+          "bp": 1,
+          "raw_rows": 117,
+          "unique_retained_rows": 117,
+          "removed_species": []
+        },
+        {
+          "start0": 42484216,
+          "bp": 2,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 42484218,
+          "bp": 4,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 42484222,
+          "bp": 2,
+          "raw_rows": 116,
+          "unique_retained_rows": 116,
+          "removed_species": []
+        },
+        {
+          "start0": 42484224,
+          "bp": 3,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484227,
+          "bp": 1,
+          "raw_rows": 153,
+          "unique_retained_rows": 153,
+          "removed_species": []
+        },
+        {
+          "start0": 42484228,
+          "bp": 2,
+          "raw_rows": 153,
+          "unique_retained_rows": 153,
+          "removed_species": []
+        },
+        {
+          "start0": 42484230,
+          "bp": 2,
+          "raw_rows": 153,
+          "unique_retained_rows": 153,
+          "removed_species": []
+        },
+        {
+          "start0": 42484232,
+          "bp": 1,
+          "raw_rows": 148,
+          "unique_retained_rows": 148,
+          "removed_species": []
+        },
+        {
+          "start0": 42484233,
+          "bp": 7,
+          "raw_rows": 153,
+          "unique_retained_rows": 153,
+          "removed_species": []
+        },
+        {
+          "start0": 42484240,
+          "bp": 1,
+          "raw_rows": 153,
+          "unique_retained_rows": 153,
+          "removed_species": []
+        },
+        {
+          "start0": 42484241,
+          "bp": 3,
+          "raw_rows": 151,
+          "unique_retained_rows": 151,
+          "removed_species": []
+        },
+        {
+          "start0": 42484244,
+          "bp": 2,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484246,
+          "bp": 3,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484249,
+          "bp": 5,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484254,
+          "bp": 1,
+          "raw_rows": 150,
+          "unique_retained_rows": 150,
+          "removed_species": []
+        },
+        {
+          "start0": 42484255,
+          "bp": 5,
+          "raw_rows": 153,
+          "unique_retained_rows": 153,
+          "removed_species": []
+        },
+        {
+          "start0": 42484260,
+          "bp": 3,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 42484263,
+          "bp": 3,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 42484266,
+          "bp": 3,
+          "raw_rows": 96,
+          "unique_retained_rows": 96,
+          "removed_species": []
+        },
+        {
+          "start0": 42484269,
+          "bp": 1,
+          "raw_rows": 105,
+          "unique_retained_rows": 105,
+          "removed_species": []
+        },
+        {
+          "start0": 42484270,
+          "bp": 15,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484285,
+          "bp": 2,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484287,
+          "bp": 1,
+          "raw_rows": 148,
+          "unique_retained_rows": 148,
+          "removed_species": []
+        },
+        {
+          "start0": 42484288,
+          "bp": 2,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484290,
+          "bp": 2,
+          "raw_rows": 147,
+          "unique_retained_rows": 147,
+          "removed_species": []
+        },
+        {
+          "start0": 42484292,
+          "bp": 3,
+          "raw_rows": 151,
+          "unique_retained_rows": 149,
+          "removed_species": [
+            "Thryonomys_swinderianus"
+          ]
+        },
+        {
+          "start0": 42484295,
+          "bp": 1,
+          "raw_rows": 148,
+          "unique_retained_rows": 148,
+          "removed_species": []
+        },
+        {
+          "start0": 42484296,
+          "bp": 1,
+          "raw_rows": 148,
+          "unique_retained_rows": 148,
+          "removed_species": []
+        },
+        {
+          "start0": 42484297,
+          "bp": 1,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484298,
+          "bp": 1,
+          "raw_rows": 129,
+          "unique_retained_rows": 129,
+          "removed_species": []
+        },
+        {
+          "start0": 42484299,
+          "bp": 1,
+          "raw_rows": 146,
+          "unique_retained_rows": 146,
+          "removed_species": []
+        },
+        {
+          "start0": 42484300,
+          "bp": 1,
+          "raw_rows": 151,
+          "unique_retained_rows": 151,
+          "removed_species": []
+        },
+        {
+          "start0": 42484301,
+          "bp": 2,
+          "raw_rows": 151,
+          "unique_retained_rows": 151,
+          "removed_species": []
+        },
+        {
+          "start0": 42484303,
+          "bp": 1,
+          "raw_rows": 149,
+          "unique_retained_rows": 149,
+          "removed_species": []
+        },
+        {
+          "start0": 42484304,
+          "bp": 6,
+          "raw_rows": 151,
+          "unique_retained_rows": 151,
+          "removed_species": []
+        },
+        {
+          "start0": 42484310,
+          "bp": 11,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484321,
+          "bp": 16,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484337,
+          "bp": 1,
+          "raw_rows": 149,
+          "unique_retained_rows": 149,
+          "removed_species": []
+        },
+        {
+          "start0": 42484338,
+          "bp": 8,
+          "raw_rows": 151,
+          "unique_retained_rows": 151,
+          "removed_species": []
+        },
+        {
+          "start0": 42484346,
+          "bp": 6,
+          "raw_rows": 146,
+          "unique_retained_rows": 146,
+          "removed_species": []
+        },
+        {
+          "start0": 42484352,
+          "bp": 5,
+          "raw_rows": 148,
+          "unique_retained_rows": 148,
+          "removed_species": []
+        },
+        {
+          "start0": 42484357,
+          "bp": 2,
+          "raw_rows": 147,
+          "unique_retained_rows": 147,
+          "removed_species": []
+        },
+        {
+          "start0": 42484359,
+          "bp": 1,
+          "raw_rows": 147,
+          "unique_retained_rows": 147,
+          "removed_species": []
+        },
+        {
+          "start0": 42484360,
+          "bp": 2,
+          "raw_rows": 143,
+          "unique_retained_rows": 143,
+          "removed_species": []
+        },
+        {
+          "start0": 42484362,
+          "bp": 5,
+          "raw_rows": 149,
+          "unique_retained_rows": 149,
+          "removed_species": []
+        },
+        {
+          "start0": 42484367,
+          "bp": 2,
+          "raw_rows": 149,
+          "unique_retained_rows": 149,
+          "removed_species": []
+        },
+        {
+          "start0": 42484369,
+          "bp": 4,
+          "raw_rows": 150,
+          "unique_retained_rows": 148,
+          "removed_species": [
+            "Thryonomys_swinderianus"
+          ]
+        },
+        {
+          "start0": 42484373,
+          "bp": 1,
+          "raw_rows": 149,
+          "unique_retained_rows": 149,
+          "removed_species": []
+        },
+        {
+          "start0": 42484374,
+          "bp": 2,
+          "raw_rows": 142,
+          "unique_retained_rows": 142,
+          "removed_species": []
+        },
+        {
+          "start0": 42484376,
+          "bp": 2,
+          "raw_rows": 147,
+          "unique_retained_rows": 147,
+          "removed_species": []
+        },
+        {
+          "start0": 42484378,
+          "bp": 1,
+          "raw_rows": 146,
+          "unique_retained_rows": 146,
+          "removed_species": []
+        },
+        {
+          "start0": 42484379,
+          "bp": 2,
+          "raw_rows": 147,
+          "unique_retained_rows": 147,
+          "removed_species": []
+        },
+        {
+          "start0": 42484381,
+          "bp": 2,
+          "raw_rows": 155,
+          "unique_retained_rows": 155,
+          "removed_species": []
+        },
+        {
+          "start0": 42484383,
+          "bp": 1,
+          "raw_rows": 151,
+          "unique_retained_rows": 151,
+          "removed_species": []
+        },
+        {
+          "start0": 42484384,
+          "bp": 2,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484386,
+          "bp": 9,
+          "raw_rows": 155,
+          "unique_retained_rows": 155,
+          "removed_species": []
+        },
+        {
+          "start0": 42484395,
+          "bp": 1,
+          "raw_rows": 130,
+          "unique_retained_rows": 130,
+          "removed_species": []
+        },
+        {
+          "start0": 42484396,
+          "bp": 14,
+          "raw_rows": 131,
+          "unique_retained_rows": 131,
+          "removed_species": []
+        },
+        {
+          "start0": 42484410,
+          "bp": 4,
+          "raw_rows": 129,
+          "unique_retained_rows": 129,
+          "removed_species": []
+        },
+        {
+          "start0": 42484414,
+          "bp": 1,
+          "raw_rows": 125,
+          "unique_retained_rows": 125,
+          "removed_species": []
+        },
+        {
+          "start0": 42484415,
+          "bp": 1,
+          "raw_rows": 125,
+          "unique_retained_rows": 125,
+          "removed_species": []
+        },
+        {
+          "start0": 42484416,
+          "bp": 2,
+          "raw_rows": 113,
+          "unique_retained_rows": 113,
+          "removed_species": []
+        },
+        {
+          "start0": 42484418,
+          "bp": 7,
+          "raw_rows": 130,
+          "unique_retained_rows": 130,
+          "removed_species": []
+        },
+        {
+          "start0": 42484425,
+          "bp": 14,
+          "raw_rows": 132,
+          "unique_retained_rows": 132,
+          "removed_species": []
+        },
+        {
+          "start0": 42484439,
+          "bp": 3,
+          "raw_rows": 131,
+          "unique_retained_rows": 131,
+          "removed_species": []
+        },
+        {
+          "start0": 42484442,
+          "bp": 1,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42484443,
+          "bp": 11,
+          "raw_rows": 152,
+          "unique_retained_rows": 152,
+          "removed_species": []
+        },
+        {
+          "start0": 42484454,
+          "bp": 1,
+          "raw_rows": 128,
+          "unique_retained_rows": 128,
+          "removed_species": []
+        },
+        {
+          "start0": 42484455,
+          "bp": 1,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484456,
+          "bp": 3,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484459,
+          "bp": 1,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484460,
+          "bp": 18,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42484478,
+          "bp": 3,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484481,
+          "bp": 3,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484484,
+          "bp": 5,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484489,
+          "bp": 5,
+          "raw_rows": 118,
+          "unique_retained_rows": 118,
+          "removed_species": []
+        },
+        {
+          "start0": 42484494,
+          "bp": 6,
+          "raw_rows": 115,
+          "unique_retained_rows": 115,
+          "removed_species": []
+        },
+        {
+          "start0": 42484500,
+          "bp": 3,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42484503,
+          "bp": 1,
+          "raw_rows": 128,
+          "unique_retained_rows": 128,
+          "removed_species": []
+        },
+        {
+          "start0": 42484504,
+          "bp": 10,
+          "raw_rows": 137,
+          "unique_retained_rows": 137,
+          "removed_species": []
+        },
+        {
+          "start0": 42484514,
+          "bp": 3,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484517,
+          "bp": 1,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42484518,
+          "bp": 5,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484523,
+          "bp": 3,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484526,
+          "bp": 5,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484531,
+          "bp": 2,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484533,
+          "bp": 3,
+          "raw_rows": 143,
+          "unique_retained_rows": 143,
+          "removed_species": []
+        },
+        {
+          "start0": 42484536,
+          "bp": 1,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484537,
+          "bp": 1,
+          "raw_rows": 142,
+          "unique_retained_rows": 142,
+          "removed_species": []
+        },
+        {
+          "start0": 42484538,
+          "bp": 7,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484545,
+          "bp": 4,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484549,
+          "bp": 12,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484561,
+          "bp": 2,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484563,
+          "bp": 3,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42484566,
+          "bp": 8,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484574,
+          "bp": 1,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484575,
+          "bp": 2,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484577,
+          "bp": 2,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484579,
+          "bp": 3,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484582,
+          "bp": 2,
+          "raw_rows": 135,
+          "unique_retained_rows": 135,
+          "removed_species": []
+        },
+        {
+          "start0": 42484584,
+          "bp": 1,
+          "raw_rows": 133,
+          "unique_retained_rows": 133,
+          "removed_species": []
+        },
+        {
+          "start0": 42484585,
+          "bp": 1,
+          "raw_rows": 134,
+          "unique_retained_rows": 134,
+          "removed_species": []
+        },
+        {
+          "start0": 42484586,
+          "bp": 1,
+          "raw_rows": 134,
+          "unique_retained_rows": 134,
+          "removed_species": []
+        },
+        {
+          "start0": 42484587,
+          "bp": 3,
+          "raw_rows": 137,
+          "unique_retained_rows": 137,
+          "removed_species": []
+        },
+        {
+          "start0": 42484590,
+          "bp": 4,
+          "raw_rows": 137,
+          "unique_retained_rows": 137,
+          "removed_species": []
+        },
+        {
+          "start0": 42484594,
+          "bp": 3,
+          "raw_rows": 127,
+          "unique_retained_rows": 127,
+          "removed_species": []
+        },
+        {
+          "start0": 42484597,
+          "bp": 11,
+          "raw_rows": 129,
+          "unique_retained_rows": 129,
+          "removed_species": []
+        },
+        {
+          "start0": 42484608,
+          "bp": 1,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 42484609,
+          "bp": 1,
+          "raw_rows": 122,
+          "unique_retained_rows": 122,
+          "removed_species": []
+        },
+        {
+          "start0": 42484610,
+          "bp": 2,
+          "raw_rows": 120,
+          "unique_retained_rows": 120,
+          "removed_species": []
+        },
+        {
+          "start0": 42484612,
+          "bp": 7,
+          "raw_rows": 128,
+          "unique_retained_rows": 128,
+          "removed_species": []
+        },
+        {
+          "start0": 42484619,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484620,
+          "bp": 2,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484622,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484623,
+          "bp": 1,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484624,
+          "bp": 8,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484632,
+          "bp": 1,
+          "raw_rows": 143,
+          "unique_retained_rows": 143,
+          "removed_species": []
+        },
+        {
+          "start0": 42484633,
+          "bp": 9,
+          "raw_rows": 143,
+          "unique_retained_rows": 143,
+          "removed_species": []
+        },
+        {
+          "start0": 42484642,
+          "bp": 1,
+          "raw_rows": 112,
+          "unique_retained_rows": 112,
+          "removed_species": []
+        },
+        {
+          "start0": 42484643,
+          "bp": 4,
+          "raw_rows": 114,
+          "unique_retained_rows": 114,
+          "removed_species": []
+        },
+        {
+          "start0": 42484647,
+          "bp": 1,
+          "raw_rows": 76,
+          "unique_retained_rows": 76,
+          "removed_species": []
+        },
+        {
+          "start0": 42484648,
+          "bp": 1,
+          "raw_rows": 76,
+          "unique_retained_rows": 76,
+          "removed_species": []
+        },
+        {
+          "start0": 42484649,
+          "bp": 3,
+          "raw_rows": 130,
+          "unique_retained_rows": 130,
+          "removed_species": []
+        },
+        {
+          "start0": 42484652,
+          "bp": 10,
+          "raw_rows": 131,
+          "unique_retained_rows": 131,
+          "removed_species": []
+        },
+        {
+          "start0": 42484662,
+          "bp": 1,
+          "raw_rows": 125,
+          "unique_retained_rows": 125,
+          "removed_species": []
+        },
+        {
+          "start0": 42484663,
+          "bp": 2,
+          "raw_rows": 119,
+          "unique_retained_rows": 119,
+          "removed_species": []
+        },
+        {
+          "start0": 42484665,
+          "bp": 1,
+          "raw_rows": 123,
+          "unique_retained_rows": 123,
+          "removed_species": []
+        },
+        {
+          "start0": 42484666,
+          "bp": 1,
+          "raw_rows": 123,
+          "unique_retained_rows": 123,
+          "removed_species": []
+        },
+        {
+          "start0": 42484667,
+          "bp": 3,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484670,
+          "bp": 3,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484673,
+          "bp": 5,
+          "raw_rows": 146,
+          "unique_retained_rows": 146,
+          "removed_species": []
+        },
+        {
+          "start0": 42484678,
+          "bp": 1,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484679,
+          "bp": 3,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484682,
+          "bp": 2,
+          "raw_rows": 145,
+          "unique_retained_rows": 143,
+          "removed_species": [
+            "Galeopterus_variegatus"
+          ]
+        },
+        {
+          "start0": 42484684,
+          "bp": 3,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484687,
+          "bp": 1,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484688,
+          "bp": 1,
+          "raw_rows": 145,
+          "unique_retained_rows": 145,
+          "removed_species": []
+        },
+        {
+          "start0": 42484689,
+          "bp": 2,
+          "raw_rows": 145,
+          "unique_retained_rows": 145,
+          "removed_species": []
+        },
+        {
+          "start0": 42484691,
+          "bp": 3,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484694,
+          "bp": 3,
+          "raw_rows": 145,
+          "unique_retained_rows": 145,
+          "removed_species": []
+        },
+        {
+          "start0": 42484697,
+          "bp": 8,
+          "raw_rows": 145,
+          "unique_retained_rows": 145,
+          "removed_species": []
+        },
+        {
+          "start0": 42484705,
+          "bp": 1,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484706,
+          "bp": 2,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484708,
+          "bp": 9,
+          "raw_rows": 144,
+          "unique_retained_rows": 144,
+          "removed_species": []
+        },
+        {
+          "start0": 42484717,
+          "bp": 3,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484720,
+          "bp": 3,
+          "raw_rows": 139,
+          "unique_retained_rows": 139,
+          "removed_species": []
+        },
+        {
+          "start0": 42484723,
+          "bp": 1,
+          "raw_rows": 136,
+          "unique_retained_rows": 136,
+          "removed_species": []
+        },
+        {
+          "start0": 42484724,
+          "bp": 3,
+          "raw_rows": 142,
+          "unique_retained_rows": 142,
+          "removed_species": []
+        },
+        {
+          "start0": 42484727,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484728,
+          "bp": 11,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484739,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484740,
+          "bp": 2,
+          "raw_rows": 130,
+          "unique_retained_rows": 130,
+          "removed_species": []
+        },
+        {
+          "start0": 42484742,
+          "bp": 3,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484745,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484746,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484747,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484748,
+          "bp": 1,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484749,
+          "bp": 2,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484751,
+          "bp": 4,
+          "raw_rows": 140,
+          "unique_retained_rows": 140,
+          "removed_species": []
+        },
+        {
+          "start0": 42484755,
+          "bp": 1,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484756,
+          "bp": 2,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484758,
+          "bp": 3,
+          "raw_rows": 141,
+          "unique_retained_rows": 141,
+          "removed_species": []
+        },
+        {
+          "start0": 42484761,
+          "bp": 2,
+          "raw_rows": 138,
+          "unique_retained_rows": 138,
+          "removed_species": []
+        },
+        {
+          "start0": 42484763,
+          "bp": 3,
+          "raw_rows": 126,
+          "unique_retained_rows": 126,
+          "removed_species": []
+        },
+        {
+          "start0": 42484766,
+          "bp": 3,
+          "raw_rows": 64,
+          "unique_retained_rows": 64,
+          "removed_species": []
+        },
+        {
+          "start0": 42484769,
+          "bp": 1,
+          "raw_rows": 79,
+          "unique_retained_rows": 79,
+          "removed_species": []
+        },
+        {
+          "start0": 42484770,
+          "bp": 6,
+          "raw_rows": 79,
+          "unique_retained_rows": 79,
+          "removed_species": []
+        },
+        {
+          "start0": 42484776,
+          "bp": 8,
+          "raw_rows": 78,
+          "unique_retained_rows": 78,
+          "removed_species": []
+        },
+        {
+          "start0": 42484784,
+          "bp": 5,
+          "raw_rows": 78,
+          "unique_retained_rows": 78,
+          "removed_species": []
+        },
+        {
+          "start0": 42484789,
+          "bp": 1,
+          "raw_rows": 80,
+          "unique_retained_rows": 80,
+          "removed_species": []
+        },
+        {
+          "start0": 42484790,
+          "bp": 4,
+          "raw_rows": 79,
+          "unique_retained_rows": 79,
+          "removed_species": []
+        },
+        {
+          "start0": 42484794,
+          "bp": 13,
+          "raw_rows": 67,
+          "unique_retained_rows": 67,
+          "removed_species": []
+        },
+        {
+          "start0": 42484807,
+          "bp": 4,
+          "raw_rows": 67,
+          "unique_retained_rows": 67,
+          "removed_species": []
+        },
+        {
+          "start0": 42484811,
+          "bp": 1,
+          "raw_rows": 61,
+          "unique_retained_rows": 61,
+          "removed_species": []
+        },
+        {
+          "start0": 42484812,
+          "bp": 2,
+          "raw_rows": 61,
+          "unique_retained_rows": 61,
+          "removed_species": []
+        }
+      ]
+    }
+  ],
+  "source_receipt_sha256": "10a01de61662274cba2237088d601cb17d5e692ea37fc7cf53ca56ab6cab9a96",
+  "policy": "Remove all rows of any nonreference species duplicated within a block; retain original coordinates/DOGreference and unchanged phyloPmodel6.5gate; not scored-based selection.",
+  "limits": [
+    "Same HALalignment, not independent biologicalconfirmation.",
+    "Missing/ambiguous species data are not absence of conservation; informationcounts explicit.",
+    "This receipt assesses conservation only, not other locus/guide/experimentalcriteria."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-10-05T12:01:43.765436+00:00",
+  "state": "failed",
+  "projection_sha256": "e56e2d9e0f39b11011b122c9fda68ae43c3f998b3efa5eaa1b971a2e921d0682",
+  "completed": [],
+  "errors": [
+    "Remote operation exceeded 120 seconds"
+  ],
+  "updated_utc": "2026-10-05T12:03:43.963873+00:00"
+}

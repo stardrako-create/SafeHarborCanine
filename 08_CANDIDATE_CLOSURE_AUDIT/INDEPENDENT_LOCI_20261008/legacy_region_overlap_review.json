@@ -1,0 +1,50 @@
+{
+  "source_sha256": "64f2a5589ccc0f51de14fce88a650a853a7e844edbcdd3d415efe448e36dd285",
+  "original_region_count": 461,
+  "results": [
+    {
+      "id": "bg1k_1059",
+      "chrom": "NC_051831.1",
+      "start0": 19034940,
+      "end0": 19035940,
+      "original_region_overlaps": [],
+      "nearest_original_region": {
+        "start": "17823426",
+        "end": "17886691",
+        "distance_bp": 1148249
+      },
+      "legacy_wide_ATAC_reusable": false
+    },
+    {
+      "id": "bg1k_1266",
+      "chrom": "NC_051807.1",
+      "start0": 2091307,
+      "end0": 2092307,
+      "original_region_overlaps": [],
+      "nearest_original_region": {
+        "start": "9691905",
+        "end": "9747134",
+        "distance_bp": 7599598
+      },
+      "legacy_wide_ATAC_reusable": false
+    },
+    {
+      "id": "bg1k_1900",
+      "chrom": "NC_051814.1",
+      "start0": 43352999,
+      "end0": 43353999,
+      "original_region_overlaps": [],
+      "nearest_original_region": {
+        "start": "46275184",
+        "end": "46345564",
+        "distance_bp": 2921185
+      },
+      "legacy_wide_ATAC_reusable": false
+    }
+  ],
+  "limitations": [
+    "No overlap establishes spatial independence from this 461-region set only.",
+    "Existing regional ATAC scores cannot be assigned to different loci.",
+    "No original veto has been removed or reversed."
+  ]
+}

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/mnt/d/Biblioteca/Bioquímica 1º ano 2025-2026/2º Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/probe_remote_HAL_v2.py", line 46, in <module>
+    with (O/'halStats.out').open('w') as out,(O/'halStats.err').open('w') as err:r=subprocess.run(cmd,stdout=out,stderr=err,timeout=120)
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stardrako/miniforge3/envs/atac/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stardrako/miniforge3/envs/atac/lib/python3.11/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stardrako/miniforge3/envs/atac/lib/python3.11/subprocess.py", line 2141, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+  File "/home/stardrako/miniforge3/envs/atac/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/stardrako/miniforge3/envs/atac/lib/python3.11/subprocess.py", line 2045, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['/home/stardrako/miniforge3/envs/cactus/bin/halStats', '--genomes', '/home/stardrako/safeharbor_hal_remote_20261009/alignment.hal']' timed out after 119.999985471 seconds

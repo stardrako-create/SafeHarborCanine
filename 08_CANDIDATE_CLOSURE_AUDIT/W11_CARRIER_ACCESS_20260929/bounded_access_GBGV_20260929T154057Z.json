@@ -1,0 +1,29 @@
+{
+  "utc": "20260929T154057Z",
+  "results": [
+    {
+      "name": "original_sra_s3",
+      "url": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12330331/SRR12330331",
+      "status": "hard_timeout_18s_child_terminated"
+    },
+    {
+      "name": "ncbi_resolver",
+      "url": "https://locate.ncbi.nlm.nih.gov/sdl/2/retrieve?acc=SRR12330331&location=ncbi",
+      "returncode": 0,
+      "stdout": "{\"status\": 200, \"content_range\": null, \"bytes_read\": 491, \"body\": \"{\\\"version\\\": \\\"2\\\",\\\"result\\\": [{\\\"bundle\\\": \\\"SRR12330331\\\",\\\"status\\\": 200,\\\"msg\\\": \\\"ok\\\",\\\"files\\\": [{\\\"object\\\": \\\"srapub|SRR12330331.lite\\\",\\\"accession\\\": \\\"SRR12330331\\\",\\\"type\\\": \\\"sra\\\",\\\"name\\\": \\\"SRR12330331.lite\\\",\\\"size\\\": 14617512062,\\\"md5\\\": \\\"f32d2b5b3d1c7306410b49d2999f2f1d\\\",\\\"modificationDate\\\": \\\"2022-08-07T03:58:38Z\\\",\\\"noqual\\\": true,\\\"locations\\\": [{\\\"service\\\": \\\"ncbi\\\",\\\"region\\\": \\\"stor02\\\",\\\"link\\\": \\\"https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos8/sra-pub-zq-820/SRR012/12330/SRR12330331/SRR12330331.lite.1\\\"}]}]}]}\\n\"}\n",
+      "stderr": ""
+    },
+    {
+      "name": "ena",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR12330331&result=read_run&fields=run_accession,fastq_ftp,fastq_bytes,fastq_md5&format=tsv",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "~^^^^\nTimeoutError: timed out\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"<string>\", line 4, in <module>\n    with urllib.request.urlopen(req,timeout=8) as r:\n         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Utilizador\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 189, in urlopen\n    return opener.open(url, data, timeout)\n           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Utilizador\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 489, in open\n    response = self._open(req, data)\n  File \"C:\\Users\\Utilizador\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 506, in _open\n    result = self._call_chain(self.handle_open, protocol, protocol +\n                              '_open', req)\n  File \"C:\\Users\\Utilizador\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 466, in _call_chain\n    result = func(*args)\n  File \"C:\\Users\\Utilizador\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1367, in https_open\n    return self.do_open(http.client.HTTPSConnection, req,\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        context=self._context)\n                        ^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Utilizador\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\urllib\\request.py\", line 1322, in do_open\n    raise URLError(err)\nurllib.error.URLError: <urlopen error timed out>\n"
+    }
+  ],
+  "free_bytes": {
+    "C": 79100596224,
+    "D": 26540138496
+  },
+  "scientific_status": "no new reads validated; metadata access is not sequence validation"
+}

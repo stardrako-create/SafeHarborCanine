@@ -1,0 +1,57 @@
+{
+  "utc": "2026-10-05T12:18:25.582129+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "NC_051811.1_17222706_17223706",
+  "mapping": {
+    "chrom": "NC_049228.1",
+    "start0": 17369812,
+    "end0": 17370807,
+    "cigar": "921M5I74M",
+    "NM": 7,
+    "mapq": 60,
+    "strand": "+",
+    "primary": true,
+    "exact_sequence_verified": false
+  },
+  "projection_status": "unresolved_for_simple_allele_projection",
+  "not_whole_window_clearance": true,
+  "vcf_contig": "chr7",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 2,
+  "allele_count": 2,
+  "alleles": [
+    {
+      "chrom": "chr7",
+      "uu_chrom": "NC_049228.1",
+      "pos1": 17369989,
+      "id": null,
+      "ref": "CTGAATT",
+      "alt": "C",
+      "alt_index1": 1,
+      "AF": 0.0020129999611526728,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_alignment_envelope": true,
+      "sequence_allele": true
+    },
+    {
+      "chrom": "chr7",
+      "uu_chrom": "NC_049228.1",
+      "pos1": 17370733,
+      "id": null,
+      "ref": "G",
+      "alt": "GAGTGA",
+      "alt_index1": 1,
+      "AF": 0.04699999839067459,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_alignment_envelope": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "4a31b2076d134b3d2e0abc85dfe2087983bd0f8a4ddeac66c84531b907d971c3"
+}

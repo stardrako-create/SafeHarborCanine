@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-10-08T18:23:31.561240+00:00",
+  "state": "query_completed_projection_pending",
+  "projection_sha256": "33f5eb0928296ca392d110913ede5baae160bea1bffb8058b309ff03a4acb3f0",
+  "completed": [
+    {
+      "key": "NC_051831.1_19034940_19035940__AutoAndXPAR.SNPs.vqsr99",
+      "records": 21,
+      "alleles": 21
+    },
+    {
+      "key": "NC_051807.1_2091307_2092307__AutoAndXPAR.SNPs.vqsr99",
+      "records": 17,
+      "alleles": 17
+    },
+    {
+      "key": "NC_051831.1_19034940_19035940__AutoAndXPAR.nonSNPs.filter",
+      "records": 9,
+      "alleles": 12
+    },
+    {
+      "key": "NC_051807.1_2091307_2092307__AutoAndXPAR.nonSNPs.filter",
+      "records": 1,
+      "alleles": 1
+    }
+  ],
+  "errors": [],
+  "updated_utc": "2026-10-08T18:23:41.572229+00:00"
+}

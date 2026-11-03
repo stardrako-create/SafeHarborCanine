@@ -1,0 +1,168 @@
+{
+  "utc": "2026-10-08T17:43:53.323468+00:00",
+  "results": [
+    {
+      "id": "bg1k_0836",
+      "masked_bp_union": 159,
+      "fraction": 0.159,
+      "hits": [
+        {
+          "start0": 33000096,
+          "end0": 33000255,
+          "repeat": "L1MCa",
+          "class": "LINE/L1"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_0861",
+      "masked_bp_union": 425,
+      "fraction": 0.425,
+      "hits": [
+        {
+          "start0": 26893992,
+          "end0": 26894208,
+          "repeat": "L2a",
+          "class": "LINE/L2"
+        },
+        {
+          "start0": 26894399,
+          "end0": 26894608,
+          "repeat": "LTR16A1",
+          "class": "LTR/ERVL"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1059",
+      "masked_bp_union": 90,
+      "fraction": 0.09,
+      "hits": [
+        {
+          "start0": 19035352,
+          "end0": 19035387,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        },
+        {
+          "start0": 19035885,
+          "end0": 19035940,
+          "repeat": "LTR33",
+          "class": "LTR/ERVL"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1216",
+      "masked_bp_union": 0,
+      "fraction": 0.0,
+      "hits": []
+    },
+    {
+      "id": "bg1k_1266",
+      "masked_bp_union": 0,
+      "fraction": 0.0,
+      "hits": []
+    },
+    {
+      "id": "bg1k_1654",
+      "masked_bp_union": 222,
+      "fraction": 0.222,
+      "hits": [
+        {
+          "start0": 45532076,
+          "end0": 45532115,
+          "repeat": "(TC)n",
+          "class": "Simple_repeat"
+        },
+        {
+          "start0": 45532128,
+          "end0": 45532156,
+          "repeat": "A-rich",
+          "class": "Low_complexity"
+        },
+        {
+          "start0": 45532244,
+          "end0": 45532399,
+          "repeat": "MamRep605b",
+          "class": "LTR"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_1900",
+      "masked_bp_union": 470,
+      "fraction": 0.47,
+      "hits": [
+        {
+          "start0": 43352999,
+          "end0": 43353141,
+          "repeat": "L2a",
+          "class": "LINE/L2"
+        },
+        {
+          "start0": 43353648,
+          "end0": 43353906,
+          "repeat": "L2a",
+          "class": "LINE/L2"
+        },
+        {
+          "start0": 43353929,
+          "end0": 43353999,
+          "repeat": "L2a",
+          "class": "LINE/L2"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2150",
+      "masked_bp_union": 270,
+      "fraction": 0.27,
+      "hits": [
+        {
+          "start0": 84418659,
+          "end0": 84418784,
+          "repeat": "LTR16A",
+          "class": "LTR/ERVL"
+        },
+        {
+          "start0": 84418879,
+          "end0": 84418983,
+          "repeat": "LTR16A",
+          "class": "LTR/ERVL"
+        },
+        {
+          "start0": 84419024,
+          "end0": 84419065,
+          "repeat": "GA-rich",
+          "class": "Low_complexity"
+        }
+      ]
+    },
+    {
+      "id": "bg1k_2340",
+      "masked_bp_union": 541,
+      "fraction": 0.541,
+      "hits": [
+        {
+          "start0": 43724782,
+          "end0": 43725224,
+          "repeat": "MLT1C2",
+          "class": "LTR/ERVL-MaLR"
+        },
+        {
+          "start0": 43725283,
+          "end0": 43725382,
+          "repeat": "MLT1A",
+          "class": "LTR/ERVL-MaLR"
+        }
+      ]
+    }
+  ],
+  "method": "RepeatMasker dog, default sensitivity; 10kb flanks then clip and union annotations inside original 1kb windows",
+  "output_sha256": "df1f9016500fd0d39cadd206f3aead05343e4ff49954412fa119c7298f3b72a7",
+  "limitations": [
+    "Repeat annotations depend on library and sensitivity; zero detected does not prove absence",
+    "No new candidate thresholds introduced"
+  ]
+}

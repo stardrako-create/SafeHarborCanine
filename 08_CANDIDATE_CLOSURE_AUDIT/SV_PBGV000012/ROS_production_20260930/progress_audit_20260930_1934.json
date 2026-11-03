@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-30T19:34:15.156229+00:00",
+  "completed_blocks": 17,
+  "contiguous_spots": 17000000,
+  "total": 214126885,
+  "percent": 7.9392179081108845,
+  "scope": "receipt arithmetic and contiguous ranges; not independent BAM revalidation"
+}

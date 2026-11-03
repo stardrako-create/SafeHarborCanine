@@ -1,0 +1,247 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T13:33:40.323319+00:00",
+  "results": [
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/01_referencia/ROS_Cfam_1.0/genomic.gff",
+      "window": [
+        "NC_051831.1",
+        39708074,
+        39709074
+      ],
+      "annotated_genes_within300kb": [
+        {
+          "gene": "ANO2",
+          "GeneIDs": [
+            "100687505"
+          ],
+          "start0": 39333633,
+          "end0": 39677324,
+          "strand": "+",
+          "distance_bp": 30751,
+          "attributes": {
+            "ID": "gene-ANO2",
+            "Dbxref": "GeneID:100687505,VGNC:VGNC:37925",
+            "Name": "ANO2",
+            "gbkey": "Gene",
+            "gene": "ANO2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "LOC111092786",
+          "GeneIDs": [
+            "111092786"
+          ],
+          "start0": 39518474,
+          "end0": 39522826,
+          "strand": "-",
+          "distance_bp": 185249,
+          "attributes": {
+            "ID": "gene-LOC111092786",
+            "Dbxref": "GeneID:111092786",
+            "Name": "LOC111092786",
+            "gbkey": "Gene",
+            "gene": "LOC111092786",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "gene": "NTF3",
+          "GeneIDs": [
+            "486731"
+          ],
+          "start0": 39739751,
+          "end0": 39811227,
+          "strand": "-",
+          "distance_bp": 30678,
+          "attributes": {
+            "ID": "gene-NTF3",
+            "Dbxref": "GeneID:486731,VGNC:VGNC:44002",
+            "Name": "NTF3",
+            "gbkey": "Gene",
+            "gene": "NTF3",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "LOC111092811",
+          "GeneIDs": [
+            "111092811"
+          ],
+          "start0": 39964755,
+          "end0": 39967484,
+          "strand": "-",
+          "distance_bp": 255682,
+          "attributes": {
+            "ID": "gene-LOC111092811",
+            "Dbxref": "GeneID:111092811",
+            "Name": "LOC111092811",
+            "gbkey": "Gene",
+            "gene": "LOC111092811",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "gene": "LOC102151325",
+          "GeneIDs": [
+            "102151325"
+          ],
+          "start0": 39966400,
+          "end0": 39973570,
+          "strand": "+",
+          "distance_bp": 257327,
+          "attributes": {
+            "ID": "gene-LOC102151325",
+            "Dbxref": "GeneID:102151325",
+            "Name": "LOC102151325",
+            "gbkey": "Gene",
+            "gene": "LOC102151325",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "gene": "LOC102151373",
+          "GeneIDs": [
+            "102151373"
+          ],
+          "start0": 39978332,
+          "end0": 39984367,
+          "strand": "+",
+          "distance_bp": 269259,
+          "attributes": {
+            "ID": "gene-LOC102151373",
+            "Dbxref": "GeneID:102151373",
+            "Name": "LOC102151373",
+            "gbkey": "Gene",
+            "gene": "LOC102151373",
+            "gene_biotype": "lncRNA"
+          }
+        }
+      ],
+      "source_sha256": "4b51f009eac9e7a47a37fe41a51331b3d4058caae24ed1c8fd4f5040e01bb019"
+    },
+    {
+      "source": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/INDEPENDENT_LOCI_20261008/ANO2_UU_annotation_crosscheck_20261009/GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.gff.gz",
+      "window": [
+        "NC_049248.1",
+        6741835,
+        6742835
+      ],
+      "annotated_genes_within300kb": [
+        {
+          "gene": "LOC102151373",
+          "GeneIDs": [
+            "102151373"
+          ],
+          "start0": 6463954,
+          "end0": 6469989,
+          "strand": "-",
+          "distance_bp": 271847,
+          "attributes": {
+            "ID": "gene-LOC102151373",
+            "Dbxref": "GeneID:102151373",
+            "Name": "LOC102151373",
+            "gbkey": "Gene",
+            "gene": "LOC102151373",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "gene": "LOC102151325",
+          "GeneIDs": [
+            "102151325"
+          ],
+          "start0": 6475588,
+          "end0": 6483093,
+          "strand": "-",
+          "distance_bp": 258743,
+          "attributes": {
+            "ID": "gene-LOC102151325",
+            "Dbxref": "GeneID:102151325",
+            "Name": "LOC102151325",
+            "gbkey": "Gene",
+            "gene": "LOC102151325",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "gene": "LOC111092811",
+          "GeneIDs": [
+            "111092811"
+          ],
+          "start0": 6482009,
+          "end0": 6484738,
+          "strand": "+",
+          "distance_bp": 257098,
+          "attributes": {
+            "ID": "gene-LOC111092811",
+            "Dbxref": "GeneID:111092811",
+            "Name": "LOC111092811",
+            "gbkey": "Gene",
+            "gene": "LOC111092811",
+            "gene_biotype": "lncRNA"
+          }
+        },
+        {
+          "gene": "NTF3",
+          "GeneIDs": [
+            "486731"
+          ],
+          "start0": 6639884,
+          "end0": 6711187,
+          "strand": "+",
+          "distance_bp": 30649,
+          "attributes": {
+            "ID": "gene-NTF3",
+            "Dbxref": "GeneID:486731,VGNC:VGNC:44002",
+            "Name": "NTF3",
+            "gbkey": "Gene",
+            "gene": "NTF3",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "ANO2",
+          "GeneIDs": [
+            "100687505"
+          ],
+          "start0": 6773566,
+          "end0": 7115529,
+          "strand": "-",
+          "distance_bp": 30732,
+          "attributes": {
+            "ID": "gene-ANO2",
+            "Dbxref": "GeneID:100687505,VGNC:VGNC:37925",
+            "Name": "ANO2",
+            "gbkey": "Gene",
+            "gene": "ANO2",
+            "gene_biotype": "protein_coding"
+          }
+        },
+        {
+          "gene": "LOC111092786",
+          "GeneIDs": [
+            "111092786"
+          ],
+          "start0": 6927797,
+          "end0": 6932149,
+          "strand": "+",
+          "distance_bp": 184963,
+          "attributes": {
+            "ID": "gene-LOC111092786",
+            "Dbxref": "GeneID:111092786",
+            "Name": "LOC111092786",
+            "gbkey": "Gene",
+            "gene": "LOC111092786",
+            "gene_biotype": "lncRNA"
+          }
+        }
+      ],
+      "source_sha256": "a778743911854da826fb8b2e3ee627144eb3d91a65cc478c920c8e1cd9750cfb"
+    }
+  ],
+  "limits": [
+    "Inventory of annotated gene extents, not all unannotated transcription or functional effects."
+  ]
+}

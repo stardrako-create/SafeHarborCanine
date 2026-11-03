@@ -1,0 +1,9 @@
+{
+  "state": "failed",
+  "pid": 867,
+  "stage": "waiting_for_existing_v3_chain",
+  "utc_start": "2026-10-09T12:46:24.078287+00:00",
+  "watched_pid": 292,
+  "error": "module 'os' has no attribute 'pidfd_open'",
+  "utc_end": "2026-10-09T12:46:24.095136+00:00"
+}

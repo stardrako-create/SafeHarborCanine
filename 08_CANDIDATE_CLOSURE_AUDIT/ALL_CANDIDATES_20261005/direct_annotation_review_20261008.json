@@ -1,0 +1,782 @@
+{
+  "results": [
+    {
+      "id": "NC_051811.1_17234956_17235956",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        517037,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5108680
+    },
+    {
+      "id": "NC_051811.1_17255706_17256706",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        537787,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5087930
+    },
+    {
+      "id": "NC_051811.1_17256206_17257206",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        538287,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5087430
+    },
+    {
+      "id": "NC_051831.1_39713074_39714074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        885858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1278355
+    },
+    {
+      "id": "NC_051831.1_39729824_39730824",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        902608,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1295105
+    },
+    {
+      "id": "NC_051831.1_39730074_39731074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        902858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1295355
+    },
+    {
+      "id": "NC_051831.1_39730324_39731324",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        903108,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1295605
+    },
+    {
+      "id": "NC_051836.1_27039161_27040161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        680054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5614589
+    },
+    {
+      "id": "NC_051836.1_27039411_27040411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        680304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5614339
+    },
+    {
+      "id": "NC_051836.1_27040661_27041661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        681554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5613089
+    },
+    {
+      "id": "NC_051836.1_27040911_27041911",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        681804,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5612839
+    },
+    {
+      "id": "NC_051836.1_27041161_27042161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        682054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5612589
+    },
+    {
+      "id": "NC_051836.1_27041411_27042411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        682304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5612339
+    },
+    {
+      "id": "NC_051836.1_27041661_27042661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        682554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5612089
+    },
+    {
+      "id": "NC_051836.1_27050411_27051411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        691304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5603339
+    },
+    {
+      "id": "NC_051836.1_27050661_27051661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        691554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5603089
+    },
+    {
+      "id": "NC_051811.1_17222706_17223706",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        504787,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5120930
+    },
+    {
+      "id": "NC_051811.1_17222956_17223956",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        505037,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5120680
+    },
+    {
+      "id": "NC_051811.1_17230206_17231206",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        512287,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5113430
+    },
+    {
+      "id": "NC_051811.1_17235206_17236206",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        517287,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5108430
+    },
+    {
+      "id": "NC_051811.1_17235706_17236706",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        517787,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5107930
+    },
+    {
+      "id": "NC_051811.1_17240706_17241706",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        522787,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5102930
+    },
+    {
+      "id": "NC_051811.1_17242956_17243956",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        525037,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5100680
+    },
+    {
+      "id": "NC_051811.1_17245456_17246456",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        527537,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5098180
+    },
+    {
+      "id": "NC_051811.1_17252456_17253456",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        534537,
+        "ARPC5"
+      ],
+      "nearest_miRNA_gap": 5091180
+    },
+    {
+      "id": "NC_051831.1_39682574_39683574",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        855358,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1247855
+    },
+    {
+      "id": "NC_051831.1_39685324_39686324",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        858108,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1250605
+    },
+    {
+      "id": "NC_051831.1_39685574_39686574",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        858358,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1250855
+    },
+    {
+      "id": "NC_051831.1_39686074_39687074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        858858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1251355
+    },
+    {
+      "id": "NC_051831.1_39686324_39687324",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        859108,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1251605
+    },
+    {
+      "id": "NC_051831.1_39686574_39687574",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        859358,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1251855
+    },
+    {
+      "id": "NC_051831.1_39707824_39708824",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        880608,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1273105
+    },
+    {
+      "id": "NC_051831.1_39708074_39709074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        880858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1273355
+    },
+    {
+      "id": "NC_051831.1_39708324_39709324",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        881108,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1273605
+    },
+    {
+      "id": "NC_051831.1_39709574_39710574",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        882358,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1274855
+    },
+    {
+      "id": "NC_051831.1_39709824_39710824",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        882608,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1275105
+    },
+    {
+      "id": "NC_051831.1_39710074_39711074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        882858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1275355
+    },
+    {
+      "id": "NC_051831.1_39710324_39711324",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        883108,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1275605
+    },
+    {
+      "id": "NC_051831.1_39710574_39711574",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        883358,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1275855
+    },
+    {
+      "id": "NC_051831.1_39714074_39715074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        886858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1279355
+    },
+    {
+      "id": "NC_051831.1_39714824_39715824",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        887608,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1280105
+    },
+    {
+      "id": "NC_051831.1_39715074_39716074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        887858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1280355
+    },
+    {
+      "id": "NC_051831.1_39735074_39736074",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        907858,
+        "GAPDH"
+      ],
+      "nearest_miRNA_gap": 1300355
+    },
+    {
+      "id": "NC_051836.1_27016161_27017161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        657054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5637589
+    },
+    {
+      "id": "NC_051836.1_27016411_27017411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        657304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5637339
+    },
+    {
+      "id": "NC_051836.1_27016661_27017661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        657554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5637089
+    },
+    {
+      "id": "NC_051836.1_27016911_27017911",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        657804,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5636839
+    },
+    {
+      "id": "NC_051836.1_27017411_27018411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        658304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5636339
+    },
+    {
+      "id": "NC_051836.1_27017911_27018911",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        658804,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5635839
+    },
+    {
+      "id": "NC_051836.1_27018911_27019911",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        659804,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5634839
+    },
+    {
+      "id": "NC_051836.1_27019911_27020911",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        660804,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5633839
+    },
+    {
+      "id": "NC_051836.1_27027161_27028161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        668054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5626589
+    },
+    {
+      "id": "NC_051836.1_27027411_27028411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        668304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5626339
+    },
+    {
+      "id": "NC_051836.1_27027661_27028661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        668554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5626089
+    },
+    {
+      "id": "NC_051836.1_27033411_27034411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        674304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5620339
+    },
+    {
+      "id": "NC_051836.1_27047661_27048661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        688554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5606089
+    },
+    {
+      "id": "NC_051836.1_27048161_27049161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        689054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5605589
+    },
+    {
+      "id": "NC_051836.1_27048411_27049411",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        689304,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5605339
+    },
+    {
+      "id": "NC_051836.1_27062161_27063161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        703054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5591589
+    },
+    {
+      "id": "NC_051836.1_27062661_27063661",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        703554,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5591089
+    },
+    {
+      "id": "NC_051836.1_27064161_27065161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        705054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5589589
+    },
+    {
+      "id": "NC_051836.1_27069911_27070911",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        710804,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5583839
+    },
+    {
+      "id": "NC_051836.1_27070161_27071161",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        711054,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5583589
+    },
+    {
+      "id": "NC_051836.1_27070204_27071204",
+      "canine_all_genes.bed_overlaps": [],
+      "canine_miRNA.bed_overlaps": [],
+      "canine_lncRNA_smallRNA.bed_overlaps": [],
+      "ehsan_regulatory_elements_ROS.bed_overlaps": [],
+      "nearest_catalogue_risk_gene": [
+        711097,
+        "TET2"
+      ],
+      "nearest_miRNA_gap": 5583546
+    }
+  ],
+  "source_hashes": {
+    "canine_all_genes.bed": "47616006c685ae37b68c7c19fdbfd647cd3a949cd89b40949416c705c30c59e6",
+    "canine_miRNA.bed": "a719eb3cd7a1a85b081973c02aaa6f9c084abe9ccf6bfb6beaeb8b9ddced91dc",
+    "canine_lncRNA_smallRNA.bed": "c2c8ff455d936d135a0110039283661c614c39535ee316ebc332982c1f26d0b4",
+    "ehsan_regulatory_elements_ROS.bed": "b45c63e3c3619c47157de8a066abb3d3296d3bd00707c1bfc8372663b57baf6a",
+    "canine_risk_genes.tsv": "3b59768c866e3bc04c9cffc38ac4a59007bc896a45917563771f954e54c76e2a"
+  },
+  "limitations": [
+    "Catalogue annotations only; not absence of unannotated regulation"
+  ]
+}

@@ -1,0 +1,3 @@
+hypothesis_id	chrom	protospacer_start0	protospacer_end0	strand	protospacer_5to3	PAM_5to3	model	off_locus_hits_in_defined_model	local5PASS_indel_combinations_with_intact_target_and_PAM	guide_approved	actual_nuclease_selected
+ANO2_TTTV23_1	NC_051831.1	39708151	39708174	+	TATGAGGATTTGTATCAAACACA	TTTC	TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference	0	32	False	False
+ANO2_TTTV23_2	NC_051831.1	39708436	39708459	+	CCTCGGCTGTGTAATTCCTGGAG	TTTC	TTTV/CTTV/TCTV/TTCV; ungapped<=3 or onebasebulge<=2substitutions; ROSreference	0	32	False	False

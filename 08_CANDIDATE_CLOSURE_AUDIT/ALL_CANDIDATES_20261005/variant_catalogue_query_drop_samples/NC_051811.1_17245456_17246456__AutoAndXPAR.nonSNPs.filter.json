@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-05T12:15:44.278865+00:00",
+  "source": "https://kiddlabshare.med.umich.edu/dog10K/SNP_and_indel_calls_2021-10-17/AutoAndXPAR.nonSNPs.filter.vcf.gz",
+  "window": "NC_051811.1_17245456_17246456",
+  "mapping": {
+    "chrom": "NC_049228.1",
+    "start0": 17392743,
+    "end0": 17393743,
+    "cigar": "1000M",
+    "NM": 0,
+    "mapq": 60,
+    "strand": "+",
+    "primary": true,
+    "exact_sequence_verified": true
+  },
+  "vcf_contig": "chr7",
+  "alias_method": "unique matching full contig length in this VCF header",
+  "record_count": 1,
+  "allele_count": 1,
+  "alleles": [
+    {
+      "chrom": "chr7",
+      "uu_chrom": "NC_049228.1",
+      "pos1": 17393520,
+      "id": null,
+      "ref": "GTGTGGC",
+      "alt": "G",
+      "alt_index1": 1,
+      "AF": 0.001509999972768128,
+      "filters": [
+        "PASS"
+      ],
+      "reference_verified": true,
+      "within_exact_window": true,
+      "sequence_allele": true
+    }
+  ],
+  "raw_vcf_sha256": "747e7dd066cf4d2775eeed253bdc7af8e75353a69c2a7966c2a5866a5af2536d"
+}

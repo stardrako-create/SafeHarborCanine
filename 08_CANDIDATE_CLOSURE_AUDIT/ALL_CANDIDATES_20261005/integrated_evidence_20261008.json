@@ -1,0 +1,3690 @@
+{
+  "results": [
+    {
+      "id": "NC_051811.1_17234956_17235956",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 19671,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 937,
+        "unique_REF_mask_clear_20": 603,
+        "total_25": 976,
+        "unique_25": 969,
+        "unique_REF_mask_clear_25": 576,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 391,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 146
+      },
+      "repeat_bp": 204,
+      "bulk_ATAC_percentile": 86.94042409962975,
+      "RRBS_observed_fraction": 0.05,
+      "RRBS_observed_mean": 33.33333206176758,
+      "published_phyloP_max50bp_mean": "0.6823400000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 5,
+        "PASS_pending": 5,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17255706_17256706",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "PRIORITY_1_VALIDATION",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429707.1",
+        "gene": "LOC119872513",
+        "position0": 17289491,
+        "gap_bp": 32785,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 962,
+        "unique_REF_mask_clear_20": 567,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 501,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 210,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 10
+      },
+      "repeat_bp": 0,
+      "bulk_ATAC_percentile": 63.74957926624032,
+      "RRBS_observed_fraction": 0.2,
+      "RRBS_observed_mean": 60.70986366271973,
+      "published_phyloP_max50bp_mean": "0.34154000000000007",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17256206_17257206",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "SAME_LOCUS_BACKUP",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429707.1",
+        "gene": "LOC119872513",
+        "position0": 17289491,
+        "gap_bp": 32285,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 811,
+        "unique_REF_mask_clear_20": 385,
+        "total_25": 976,
+        "unique_25": 875,
+        "unique_REF_mask_clear_25": 369,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 197,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 41
+      },
+      "repeat_bp": 0,
+      "bulk_ATAC_percentile": 74.11645910467855,
+      "RRBS_observed_fraction": 0.194,
+      "RRBS_observed_mean": 60.161468033938064,
+      "published_phyloP_max50bp_mean": "0.43130000000000007",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39713074_39714074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "RESERVE_NOT_FIRST_LINE",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 97152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 899,
+        "unique_REF_mask_clear_20": 527,
+        "total_25": 976,
+        "unique_25": 944,
+        "unique_REF_mask_clear_25": 496,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 254,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 6
+      },
+      "repeat_bp": 208,
+      "bulk_ATAC_percentile": 90.94580949175362,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 88.27061080932617,
+      "published_phyloP_max50bp_mean": "1.17262",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 2,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39729824_39730824",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 80402,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 945,
+        "unique_REF_mask_clear_20": 554,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 501,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 225,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 73
+      },
+      "repeat_bp": 374,
+      "bulk_ATAC_percentile": 93.23460114439582,
+      "RRBS_observed_fraction": 0.25,
+      "RRBS_observed_mean": 32.882861328125,
+      "published_phyloP_max50bp_mean": "1.3596000000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 2,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39730074_39731074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 80152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 949,
+        "unique_REF_mask_clear_20": 648,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 610,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 371,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 178
+      },
+      "repeat_bp": 172,
+      "bulk_ATAC_percentile": 86.13261528105015,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 21.471435546875,
+      "published_phyloP_max50bp_mean": "1.3596000000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 2,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39730324_39731324",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 79902,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 947,
+        "unique_REF_mask_clear_20": 694,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 674,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 448,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 222
+      },
+      "repeat_bp": 204,
+      "bulk_ATAC_percentile": 82.39649949511949,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 0.0,
+      "published_phyloP_max50bp_mean": "1.3596000000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051836.1_27039161_27040161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27039161_27040161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        },
+        {
+          "query": "NC_051836.1_27039161_27040161",
+          "contig": "chr32",
+          "pos1": 13081504,
+          "end0": 13081577,
+          "id": "chr32:13081504:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=73:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 32888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 926,
+        "unique_REF_mask_clear_20": 490,
+        "total_25": 976,
+        "unique_25": 967,
+        "unique_REF_mask_clear_25": 440,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 212,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 49
+      },
+      "repeat_bp": 62,
+      "bulk_ATAC_percentile": 69.3032648939751,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 89.01605987548828,
+      "published_phyloP_max50bp_mean": "0.77608",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 24,
+        "PASS_pending": 15,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 4,
+          "spanning_deletion_symbol_requires_upstream_record": 8,
+          "crosses_alignment_envelope": 12
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27039411_27040411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27039411_27040411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 32638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 965,
+        "unique_REF_mask_clear_20": 593,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 534,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 293,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 60
+      },
+      "repeat_bp": 215,
+      "bulk_ATAC_percentile": 78.22282059912487,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 92.67737325032552,
+      "published_phyloP_max50bp_mean": "0.6446400000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27040661_27041661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27040661_27041661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 31388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 960,
+        "unique_REF_mask_clear_20": 556,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 503,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 268,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 53
+      },
+      "repeat_bp": 494,
+      "bulk_ATAC_percentile": 86.13261528105015,
+      "RRBS_observed_fraction": 0.2,
+      "RRBS_observed_mean": 81.96321964263916,
+      "published_phyloP_max50bp_mean": "0.41218000000000005",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 4,
+        "PASS_pending": 4,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 3,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27040911_27041911",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "SAME_LOCUS_BACKUP",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27040911_27041911",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 31138,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 949,
+        "unique_REF_mask_clear_20": 642,
+        "total_25": 976,
+        "unique_25": 970,
+        "unique_REF_mask_clear_25": 599,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 363,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 75
+      },
+      "repeat_bp": 363,
+      "bulk_ATAC_percentile": 89.80141366543252,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 63.92643928527832,
+      "published_phyloP_max50bp_mean": "0.38786",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27041161_27042161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "PRIORITY_2_CONDITIONAL",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27041161_27042161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 30888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 956,
+        "unique_REF_mask_clear_20": 672,
+        "total_25": 976,
+        "unique_25": 970,
+        "unique_REF_mask_clear_25": 629,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 418,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 133
+      },
+      "repeat_bp": 157,
+      "bulk_ATAC_percentile": 89.49848535846516,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 63.92643928527832,
+      "published_phyloP_max50bp_mean": "0.31432",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27041411_27042411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "SAME_LOCUS_BACKUP",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27041411_27042411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 30638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 909,
+        "unique_REF_mask_clear_20": 579,
+        "total_25": 976,
+        "unique_25": 937,
+        "unique_REF_mask_clear_25": 530,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 344,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 107
+      },
+      "repeat_bp": 285,
+      "bulk_ATAC_percentile": 90.10434197239987,
+      "RRBS_observed_fraction": 0.111,
+      "RRBS_observed_mean": 67.5012966534039,
+      "published_phyloP_max50bp_mean": "0.31432",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27041661_27042661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27041661_27042661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 30388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 778,
+        "unique_REF_mask_clear_20": 509,
+        "total_25": 976,
+        "unique_25": 812,
+        "unique_REF_mask_clear_25": 479,
+        "total_50": 951,
+        "unique_50": 923,
+        "unique_REF_mask_clear_50": 387,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 221
+      },
+      "repeat_bp": 424,
+      "bulk_ATAC_percentile": 81.15112756647594,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 96.19600168863933,
+      "published_phyloP_max50bp_mean": "0.31432",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27050411_27051411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27050411_27051411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 21638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 921,
+        "unique_REF_mask_clear_20": 559,
+        "total_25": 976,
+        "unique_25": 949,
+        "unique_REF_mask_clear_25": 510,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 255,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 71
+      },
+      "repeat_bp": 52,
+      "bulk_ATAC_percentile": 66.61056883204309,
+      "RRBS_observed_fraction": 0.039,
+      "RRBS_observed_mean": 100.0,
+      "published_phyloP_max50bp_mean": "1.16524",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27050661_27051661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "NOT_ADVANCED",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27050661_27051661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 21388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 915,
+        "unique_REF_mask_clear_20": 568,
+        "total_25": 976,
+        "unique_25": 949,
+        "unique_REF_mask_clear_25": 526,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 271,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 60
+      },
+      "repeat_bp": 78,
+      "bulk_ATAC_percentile": 72.97206327835745,
+      "RRBS_observed_fraction": 0.05,
+      "RRBS_observed_mean": 100.0,
+      "published_phyloP_max50bp_mean": "1.16524",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051811.1_17222706_17223706",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 7421,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 956,
+        "unique_REF_mask_clear_20": 604,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 560,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 348,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 173
+      },
+      "repeat_bp": 169,
+      "bulk_ATAC_percentile": 68.63009087849208,
+      "RRBS_observed_fraction": 0.3,
+      "RRBS_observed_mean": 78.08043924967448,
+      "published_phyloP_max50bp_mean": "1.9376200000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 2,
+          "spanning_deletion_symbol_requires_upstream_record": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17222956_17223956",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 7671,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 956,
+        "unique_REF_mask_clear_20": 626,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 574,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 342,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 173
+      },
+      "repeat_bp": 245,
+      "bulk_ATAC_percentile": 74.48670481319422,
+      "RRBS_observed_fraction": 0.3,
+      "RRBS_observed_mean": 78.08043924967448,
+      "published_phyloP_max50bp_mean": "1.9376200000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 2,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17230206_17231206",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 14921,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 944,
+        "unique_REF_mask_clear_20": 694,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 671,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 488,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 237
+      },
+      "repeat_bp": 100,
+      "bulk_ATAC_percentile": 70.07741501178054,
+      "RRBS_observed_fraction": 0.306,
+      "RRBS_observed_mean": 90.57288949006524,
+      "published_phyloP_max50bp_mean": "3.2294800000000006",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 2,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17235206_17236206",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 19921,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 938,
+        "unique_REF_mask_clear_20": 632,
+        "total_25": 976,
+        "unique_25": 972,
+        "unique_REF_mask_clear_25": 612,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 464,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 304
+      },
+      "repeat_bp": 105,
+      "bulk_ATAC_percentile": 89.29653315382026,
+      "RRBS_observed_fraction": 0.056,
+      "RRBS_observed_mean": 35.27677304404123,
+      "published_phyloP_max50bp_mean": "0.6823400000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 5,
+        "PASS_pending": 5,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17235706_17236706",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 20421,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 849,
+        "unique_REF_mask_clear_20": 641,
+        "total_25": 976,
+        "unique_25": 885,
+        "unique_REF_mask_clear_25": 633,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 527,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 318
+      },
+      "repeat_bp": 94,
+      "bulk_ATAC_percentile": 96.02827330865028,
+      "RRBS_observed_fraction": 0.2,
+      "RRBS_observed_mean": 59.53159141540527,
+      "published_phyloP_max50bp_mean": "0.6249399999999999",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 1,
+        "PASS_pending": 1,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17240706_17241706",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 25421,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 809,
+        "unique_REF_mask_clear_20": 540,
+        "total_25": 976,
+        "unique_25": 923,
+        "unique_REF_mask_clear_25": 565,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 354,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 32
+      },
+      "repeat_bp": 43,
+      "bulk_ATAC_percentile": 68.56277347694379,
+      "RRBS_observed_fraction": 0.2,
+      "RRBS_observed_mean": 97.9525260925293,
+      "published_phyloP_max50bp_mean": "1.10866",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 7,
+        "PASS_pending": 7,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17242956_17243956",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 27671,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 965,
+        "unique_REF_mask_clear_20": 784,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 752,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 552,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 330
+      },
+      "repeat_bp": 87,
+      "bulk_ATAC_percentile": 90.13800067317402,
+      "RRBS_observed_fraction": 0.144,
+      "RRBS_observed_mean": 100.0,
+      "published_phyloP_max50bp_mean": "0.9183800000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "spanning_deletion_symbol_requires_upstream_record": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17245456_17246456",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429706.1",
+        "gene": "LOC119876429",
+        "position0": 17215284,
+        "gap_bp": 30171,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 864,
+        "unique_REF_mask_clear_20": 631,
+        "total_25": 976,
+        "unique_25": 876,
+        "unique_REF_mask_clear_25": 597,
+        "total_50": 951,
+        "unique_50": 901,
+        "unique_REF_mask_clear_50": 411,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 216
+      },
+      "repeat_bp": 62,
+      "bulk_ATAC_percentile": 82.63211040053854,
+      "RRBS_observed_fraction": 0.05,
+      "RRBS_observed_mean": 100.0,
+      "published_phyloP_max50bp_mean": "1.3946399999999999",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051811.1_17252456_17253456",
+      "genes": "LOC119876429/LOC119872513",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005429707.1",
+        "gene": "LOC119872513",
+        "position0": 17289491,
+        "gap_bp": 36035,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 571,
+        "unique_REF_mask_clear_20": 432,
+        "total_25": 976,
+        "unique_25": 692,
+        "unique_REF_mask_clear_25": 461,
+        "total_50": 951,
+        "unique_50": 926,
+        "unique_REF_mask_clear_50": 350,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 120
+      },
+      "repeat_bp": 465,
+      "bulk_ATAC_percentile": 61.25883540895322,
+      "RRBS_observed_fraction": 0.25,
+      "RRBS_observed_mean": 74.97273864746094,
+      "published_phyloP_max50bp_mean": "0.34042",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 7,
+        "PASS_pending": 7,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 1,
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 5
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39682574_39683574",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 127652,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 970,
+        "unique_REF_mask_clear_20": 688,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 623,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 349,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 157
+      },
+      "repeat_bp": 164,
+      "bulk_ATAC_percentile": 85.02187815550319,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 40.12803268432617,
+      "published_phyloP_max50bp_mean": "1.1492",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39685324_39686324",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 124902,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 826,
+        "unique_REF_mask_clear_20": 444,
+        "total_25": 976,
+        "unique_25": 871,
+        "unique_REF_mask_clear_25": 417,
+        "total_50": 951,
+        "unique_50": 927,
+        "unique_REF_mask_clear_50": 278,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 84
+      },
+      "repeat_bp": 187,
+      "bulk_ATAC_percentile": 79.60282733086504,
+      "RRBS_observed_fraction": 0.3,
+      "RRBS_observed_mean": 65.62463569641113,
+      "published_phyloP_max50bp_mean": "0.17668",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 4,
+        "PASS_pending": 2,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39685574_39686574",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 124652,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 824,
+        "unique_REF_mask_clear_20": 402,
+        "total_25": 976,
+        "unique_25": 848,
+        "unique_REF_mask_clear_25": 339,
+        "total_50": 951,
+        "unique_50": 909,
+        "unique_REF_mask_clear_50": 159,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 21
+      },
+      "repeat_bp": 208,
+      "bulk_ATAC_percentile": 85.93066307640525,
+      "RRBS_observed_fraction": 0.276,
+      "RRBS_observed_mean": 70.02213234832321,
+      "published_phyloP_max50bp_mean": "0.10382",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 4,
+        "PASS_pending": 2,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39686074_39687074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 124152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 815,
+        "unique_REF_mask_clear_20": 486,
+        "total_25": 976,
+        "unique_25": 848,
+        "unique_REF_mask_clear_25": 448,
+        "total_50": 951,
+        "unique_50": 909,
+        "unique_REF_mask_clear_50": 270,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 33
+      },
+      "repeat_bp": 208,
+      "bulk_ATAC_percentile": 84.04577583305284,
+      "RRBS_observed_fraction": 0.424,
+      "RRBS_observed_mean": 80.33208422390919,
+      "published_phyloP_max50bp_mean": "0.14329999999999998",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 1,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39686324_39687324",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 123902,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 821,
+        "unique_REF_mask_clear_20": 570,
+        "total_25": 976,
+        "unique_25": 848,
+        "unique_REF_mask_clear_25": 535,
+        "total_50": 951,
+        "unique_50": 909,
+        "unique_REF_mask_clear_50": 327,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 62
+      },
+      "repeat_bp": 215,
+      "bulk_ATAC_percentile": 84.58431504543925,
+      "RRBS_observed_fraction": 0.5,
+      "RRBS_observed_mean": 91.99571914672852,
+      "published_phyloP_max50bp_mean": "0.15786000000000003",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39686574_39687574",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 123652,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 961,
+        "unique_REF_mask_clear_20": 625,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 564,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 277,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 60
+      },
+      "repeat_bp": 82,
+      "bulk_ATAC_percentile": 84.34870414002019,
+      "RRBS_observed_fraction": 0.4,
+      "RRBS_observed_mean": 91.920729637146,
+      "published_phyloP_max50bp_mean": "0.5887800000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39707824_39708824",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 102402,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 848,
+        "unique_REF_mask_clear_20": 592,
+        "total_25": 976,
+        "unique_25": 926,
+        "unique_REF_mask_clear_25": 579,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 339,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 60
+      },
+      "repeat_bp": 97,
+      "bulk_ATAC_percentile": 89.29653315382026,
+      "RRBS_observed_fraction": 0.126,
+      "RRBS_observed_mean": 40.60024079822359,
+      "published_phyloP_max50bp_mean": "0.127",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 4,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "spanning_deletion_symbol_requires_upstream_record": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39708074_39709074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 102152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 918,
+        "unique_REF_mask_clear_20": 631,
+        "total_25": 976,
+        "unique_25": 971,
+        "unique_REF_mask_clear_25": 605,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 321,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 44
+      },
+      "repeat_bp": 0,
+      "bulk_ATAC_percentile": 90.37361157859307,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 48.72968037923177,
+      "published_phyloP_max50bp_mean": "1.5642600000000004",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 4,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "spanning_deletion_symbol_requires_upstream_record": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39708324_39709324",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 101902,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 957,
+        "unique_REF_mask_clear_20": 651,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 611,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 375,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 56
+      },
+      "repeat_bp": 81,
+      "bulk_ATAC_percentile": 90.54190508246381,
+      "RRBS_observed_fraction": 0.25,
+      "RRBS_observed_mean": 69.23780822753906,
+      "published_phyloP_max50bp_mean": "1.5642600000000004",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 2,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "spanning_deletion_symbol_requires_upstream_record": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39709574_39710574",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 100652,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 922,
+        "unique_REF_mask_clear_20": 555,
+        "total_25": 976,
+        "unique_25": 965,
+        "unique_REF_mask_clear_25": 509,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 239,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 26
+      },
+      "repeat_bp": 555,
+      "bulk_ATAC_percentile": 86.53651969033996,
+      "RRBS_observed_fraction": 0.274,
+      "RRBS_observed_mean": 72.350438946355,
+      "published_phyloP_max50bp_mean": "0.6756",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39709824_39710824",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 100402,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 914,
+        "unique_REF_mask_clear_20": 535,
+        "total_25": 976,
+        "unique_25": 965,
+        "unique_REF_mask_clear_25": 503,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 261,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 54
+      },
+      "repeat_bp": 565,
+      "bulk_ATAC_percentile": 88.35408953214406,
+      "RRBS_observed_fraction": 0.374,
+      "RRBS_observed_mean": 79.05569113257097,
+      "published_phyloP_max50bp_mean": "0.2547399999999999",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39710074_39711074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 100152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 884,
+        "unique_REF_mask_clear_20": 508,
+        "total_25": 976,
+        "unique_25": 964,
+        "unique_REF_mask_clear_25": 474,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 218,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 36
+      },
+      "repeat_bp": 520,
+      "bulk_ATAC_percentile": 86.5028609895658,
+      "RRBS_observed_fraction": 0.4,
+      "RRBS_observed_mean": 72.16023921966553,
+      "published_phyloP_max50bp_mean": "2.6894000000000005",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 14,
+        "PASS_pending": 3,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 14
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39710324_39711324",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 99902,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 899,
+        "unique_REF_mask_clear_20": 487,
+        "total_25": 976,
+        "unique_25": 964,
+        "unique_REF_mask_clear_25": 439,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 178,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 32
+      },
+      "repeat_bp": 270,
+      "bulk_ATAC_percentile": 85.79602827330865,
+      "RRBS_observed_fraction": 0.3,
+      "RRBS_observed_mean": 67.99555079142253,
+      "published_phyloP_max50bp_mean": "3.1736000000000004",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 14,
+        "PASS_pending": 3,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 14
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39710574_39711574",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 99652,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 916,
+        "unique_REF_mask_clear_20": 533,
+        "total_25": 976,
+        "unique_25": 970,
+        "unique_REF_mask_clear_25": 490,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 267,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 66
+      },
+      "repeat_bp": 256,
+      "bulk_ATAC_percentile": 85.99798047795355,
+      "RRBS_observed_fraction": 0.276,
+      "RRBS_observed_mean": 75.62365780705991,
+      "published_phyloP_max50bp_mean": "3.1736000000000004",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 14,
+        "PASS_pending": 3,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 14
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39714074_39715074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 96152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 843,
+        "unique_REF_mask_clear_20": 579,
+        "total_25": 976,
+        "unique_25": 899,
+        "unique_REF_mask_clear_25": 562,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 363,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 105
+      },
+      "repeat_bp": 121,
+      "bulk_ATAC_percentile": 56.47929989902389,
+      "RRBS_observed_fraction": 0.274,
+      "RRBS_observed_mean": 77.73440980563198,
+      "published_phyloP_max50bp_mean": "2.2994800000000004",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 1,
+        "PASS_pending": 1,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39714824_39715824",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 95402,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 731,
+        "unique_REF_mask_clear_20": 436,
+        "total_25": 976,
+        "unique_25": 842,
+        "unique_REF_mask_clear_25": 429,
+        "total_50": 951,
+        "unique_50": 934,
+        "unique_REF_mask_clear_50": 273,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 22
+      },
+      "repeat_bp": 302,
+      "bulk_ATAC_percentile": 33.052844160215415,
+      "RRBS_observed_fraction": 0.174,
+      "RRBS_observed_mean": 50.449042484678074,
+      "published_phyloP_max50bp_mean": "0.47758000000000006",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 10,
+        "PASS_pending": 8,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 4,
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "crosses_alignment_envelope": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39715074_39716074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 95152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 626,
+        "unique_REF_mask_clear_20": 398,
+        "total_25": 976,
+        "unique_25": 722,
+        "unique_REF_mask_clear_25": 395,
+        "total_50": 951,
+        "unique_50": 790,
+        "unique_REF_mask_clear_50": 298,
+        "total_100": 901,
+        "unique_100": 811,
+        "unique_REF_mask_clear_100": 93
+      },
+      "repeat_bp": 315,
+      "bulk_ATAC_percentile": 23.291820935711883,
+      "RRBS_observed_fraction": 0.226,
+      "RRBS_observed_mean": 65.04330761664737,
+      "published_phyloP_max50bp_mean": "0.47758000000000006",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 8,
+        "PASS_pending": 4,
+        "reasons": {
+          "SNP_at_reference_difference_other_ALT": 1,
+          "catalogue_ALT_matches_ROS_reference": 2,
+          "spanning_deletion_symbol_requires_upstream_record": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051831.1_39735074_39736074",
+      "genes": "ANO2/NTF3",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "mRNA",
+        "id": "rna-XM_038437918.1",
+        "gene": "NTF3",
+        "position0": 39811226,
+        "gap_bp": 75152,
+        "strand": "-"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 917,
+        "unique_REF_mask_clear_20": 620,
+        "total_25": 976,
+        "unique_25": 941,
+        "unique_REF_mask_clear_25": 569,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 345,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 74
+      },
+      "repeat_bp": 54,
+      "bulk_ATAC_percentile": 81.65600807808818,
+      "RRBS_observed_fraction": 0.3,
+      "RRBS_observed_mean": 94.52927525838216,
+      "published_phyloP_max50bp_mean": "2.2321000000000004",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 16,
+        "PASS_pending": 13,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 4,
+          "catalogue_ALT_matches_ROS_reference": 5,
+          "allele_crosses_indel_or_exact_block_boundary": 7
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "computational_review_incomplete"
+    },
+    {
+      "id": "NC_051836.1_27016161_27017161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27016161_27017161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 55888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 755,
+        "unique_REF_mask_clear_20": 452,
+        "total_25": 976,
+        "unique_25": 942,
+        "unique_REF_mask_clear_25": 497,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 251,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 27
+      },
+      "repeat_bp": 923,
+      "bulk_ATAC_percentile": 38.60652978795018,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 35.057735443115234,
+      "published_phyloP_max50bp_mean": "0.14982",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 24,
+        "PASS_pending": 15,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 13,
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 1,
+          "allele_overlaps_reference_mismatch": 9
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27016411_27017411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27016411_27017411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 55638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 716,
+        "unique_REF_mask_clear_20": 457,
+        "total_25": 976,
+        "unique_25": 897,
+        "unique_REF_mask_clear_25": 517,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 328,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 54
+      },
+      "repeat_bp": 923,
+      "bulk_ATAC_percentile": 35.17334230898687,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 48.443077087402344,
+      "published_phyloP_max50bp_mean": "0.28374",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 24,
+        "PASS_pending": 15,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 13,
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 1,
+          "allele_overlaps_reference_mismatch": 9
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27016661_27017661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27016661_27017661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 55388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 728,
+        "unique_REF_mask_clear_20": 424,
+        "total_25": 976,
+        "unique_25": 902,
+        "unique_REF_mask_clear_25": 438,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 238,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 33
+      },
+      "repeat_bp": 943,
+      "bulk_ATAC_percentile": 42.982160888589696,
+      "RRBS_observed_fraction": 0.2,
+      "RRBS_observed_mean": 52.99897384643555,
+      "published_phyloP_max50bp_mean": "0.28374",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 24,
+        "PASS_pending": 15,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 13,
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 1,
+          "allele_overlaps_reference_mismatch": 9
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27016911_27017911",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27016911_27017911",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 55138,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 714,
+        "unique_REF_mask_clear_20": 469,
+        "total_25": 976,
+        "unique_25": 888,
+        "unique_REF_mask_clear_25": 523,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 345,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 117
+      },
+      "repeat_bp": 996,
+      "bulk_ATAC_percentile": 51.73342308986874,
+      "RRBS_observed_fraction": 0.189,
+      "RRBS_observed_mean": 56.083570207868306,
+      "published_phyloP_max50bp_mean": "0.28374",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 12,
+        "PASS_pending": 10,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 1,
+          "allele_overlaps_reference_mismatch": 2,
+          "crosses_alignment_envelope": 5
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27017411_27018411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27017411_27018411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 54638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 649,
+        "unique_REF_mask_clear_20": 444,
+        "total_25": 976,
+        "unique_25": 792,
+        "unique_REF_mask_clear_25": 467,
+        "total_50": 951,
+        "unique_50": 865,
+        "unique_REF_mask_clear_50": 243,
+        "total_100": 901,
+        "unique_100": 893,
+        "unique_REF_mask_clear_100": 110
+      },
+      "repeat_bp": 803,
+      "bulk_ATAC_percentile": 28.441602154156847,
+      "RRBS_observed_fraction": 0.25,
+      "RRBS_observed_mean": 87.92436218261719,
+      "published_phyloP_max50bp_mean": "0.17774",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 28,
+        "PASS_pending": 20,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 13,
+          "allele_overlaps_reference_mismatch": 7,
+          "allele_crosses_indel_or_exact_block_boundary": 8
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27017911_27018911",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27017911_27018911",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 54138,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 521,
+        "unique_REF_mask_clear_20": 320,
+        "total_25": 976,
+        "unique_25": 645,
+        "unique_REF_mask_clear_25": 329,
+        "total_50": 951,
+        "unique_50": 788,
+        "unique_REF_mask_clear_50": 215,
+        "total_100": 901,
+        "unique_100": 893,
+        "unique_REF_mask_clear_100": 95
+      },
+      "repeat_bp": 620,
+      "bulk_ATAC_percentile": 5.52002692696062,
+      "RRBS_observed_fraction": 0.25,
+      "RRBS_observed_mean": 74.59102935791016,
+      "published_phyloP_max50bp_mean": "0.5561",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 43,
+        "PASS_pending": 27,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 16,
+          "allele_crosses_indel_or_exact_block_boundary": 17,
+          "catalogue_ALT_matches_ROS_reference": 3,
+          "allele_overlaps_reference_mismatch": 7
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27018911_27019911",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27018911_27019911",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 53138,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 718,
+        "unique_REF_mask_clear_20": 509,
+        "total_25": 976,
+        "unique_25": 763,
+        "unique_REF_mask_clear_25": 509,
+        "total_50": 951,
+        "unique_50": 878,
+        "unique_REF_mask_clear_50": 376,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 171
+      },
+      "repeat_bp": 464,
+      "bulk_ATAC_percentile": 37.49579266240323,
+      "RRBS_observed_fraction": 0.061,
+      "RRBS_observed_mean": 59.01639344262295,
+      "published_phyloP_max50bp_mean": "0.42291999999999996",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 30,
+        "PASS_pending": 16,
+        "reasons": {
+          "SNP_at_reference_difference_other_ALT": 2,
+          "catalogue_ALT_matches_ROS_reference": 5,
+          "spanning_deletion_symbol_requires_upstream_record": 11,
+          "allele_crosses_indel_or_exact_block_boundary": 12
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27019911_27020911",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27019911_27020911",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 52138,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 796,
+        "unique_REF_mask_clear_20": 440,
+        "total_25": 976,
+        "unique_25": 844,
+        "unique_REF_mask_clear_25": 408,
+        "total_50": 951,
+        "unique_50": 905,
+        "unique_REF_mask_clear_50": 271,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 113
+      },
+      "repeat_bp": 3,
+      "bulk_ATAC_percentile": 60.215415684954564,
+      "RRBS_observed_fraction": 0.139,
+      "RRBS_observed_mean": 98.47372590209083,
+      "published_phyloP_max50bp_mean": "0.34146",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 3,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 2,
+          "allele_crosses_indel_or_exact_block_boundary": 1
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27027161_27028161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27027161_27028161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 44888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 748,
+        "unique_REF_mask_clear_20": 594,
+        "total_25": 976,
+        "unique_25": 784,
+        "unique_REF_mask_clear_25": 582,
+        "total_50": 951,
+        "unique_50": 860,
+        "unique_REF_mask_clear_50": 384,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 142
+      },
+      "repeat_bp": 283,
+      "bulk_ATAC_percentile": 47.088522383036015,
+      "RRBS_observed_fraction": 0.2,
+      "RRBS_observed_mean": 76.23927688598633,
+      "published_phyloP_max50bp_mean": "1.7887600000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 13,
+        "PASS_pending": 9,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 4,
+          "spanning_deletion_symbol_requires_upstream_record": 4,
+          "allele_crosses_indel_or_exact_block_boundary": 5
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27027411_27028411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27027411_27028411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 44638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 909,
+        "unique_REF_mask_clear_20": 718,
+        "total_25": 976,
+        "unique_25": 931,
+        "unique_REF_mask_clear_25": 690,
+        "total_50": 951,
+        "unique_50": 950,
+        "unique_REF_mask_clear_50": 467,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 209
+      },
+      "repeat_bp": 111,
+      "bulk_ATAC_percentile": 45.944126556714906,
+      "RRBS_observed_fraction": 0.239,
+      "RRBS_observed_mean": 59.77360346327267,
+      "published_phyloP_max50bp_mean": "2.9163800000000006",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 4,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 4
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27027661_27028661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27027661_27028661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 44388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 935,
+        "unique_REF_mask_clear_20": 714,
+        "total_25": 976,
+        "unique_25": 976,
+        "unique_REF_mask_clear_25": 686,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 440,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 196
+      },
+      "repeat_bp": 0,
+      "bulk_ATAC_percentile": 33.288455065634466,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 18.314910888671875,
+      "published_phyloP_max50bp_mean": "2.9163800000000006",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 3,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 3
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27033411_27034411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27033411_27034411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 38638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 631,
+        "unique_REF_mask_clear_20": 350,
+        "total_25": 976,
+        "unique_25": 746,
+        "unique_REF_mask_clear_25": 355,
+        "total_50": 951,
+        "unique_50": 918,
+        "unique_REF_mask_clear_50": 184,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 1
+      },
+      "repeat_bp": 396,
+      "bulk_ATAC_percentile": 56.950521709862,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 80.50259399414062,
+      "published_phyloP_max50bp_mean": "0.35512",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 5,
+        "PASS_pending": 5,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 5
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27047661_27048661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27047661_27048661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 24388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 774,
+        "unique_REF_mask_clear_20": 509,
+        "total_25": 976,
+        "unique_25": 888,
+        "unique_REF_mask_clear_25": 501,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 235,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 3
+      },
+      "repeat_bp": 669,
+      "bulk_ATAC_percentile": 68.63009087849208,
+      "RRBS_observed_fraction": 0.05,
+      "RRBS_observed_mean": 0.0,
+      "published_phyloP_max50bp_mean": "0.22303999999999996",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27048161_27049161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27048161_27049161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 23888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 813,
+        "unique_REF_mask_clear_20": 557,
+        "total_25": 976,
+        "unique_25": 889,
+        "unique_REF_mask_clear_25": 537,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 294,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 109
+      },
+      "repeat_bp": 208,
+      "bulk_ATAC_percentile": 68.63009087849208,
+      "RRBS_observed_fraction": 0.05,
+      "RRBS_observed_mean": 0.0,
+      "published_phyloP_max50bp_mean": "0.4711000000000001",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27048411_27049411",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27048411_27049411",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 23638,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 915,
+        "unique_REF_mask_clear_20": 673,
+        "total_25": 976,
+        "unique_25": 964,
+        "unique_REF_mask_clear_25": 636,
+        "total_50": 951,
+        "unique_50": 951,
+        "unique_REF_mask_clear_50": 343,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 109
+      },
+      "repeat_bp": 117,
+      "bulk_ATAC_percentile": 64.99495119488388,
+      "RRBS_observed_fraction": 0.05,
+      "RRBS_observed_mean": 0.0,
+      "published_phyloP_max50bp_mean": "1.9575",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27062161_27063161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27062161_27063161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 9888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 756,
+        "unique_REF_mask_clear_20": 549,
+        "total_25": 976,
+        "unique_25": 807,
+        "unique_REF_mask_clear_25": 526,
+        "total_50": 951,
+        "unique_50": 870,
+        "unique_REF_mask_clear_50": 375,
+        "total_100": 901,
+        "unique_100": 893,
+        "unique_REF_mask_clear_100": 201
+      },
+      "repeat_bp": 88,
+      "bulk_ATAC_percentile": 1.6156176371592057,
+      "RRBS_observed_fraction": 0.15,
+      "RRBS_observed_mean": 90.65478006998698,
+      "published_phyloP_max50bp_mean": "0.8738799999999999",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 19,
+        "PASS_pending": 15,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 3,
+          "spanning_deletion_symbol_requires_upstream_record": 8,
+          "allele_crosses_indel_or_exact_block_boundary": 8
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27062661_27063661",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27062661_27063661",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 9388,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 868,
+        "unique_REF_mask_clear_20": 695,
+        "total_25": 976,
+        "unique_25": 909,
+        "unique_REF_mask_clear_25": 679,
+        "total_50": 951,
+        "unique_50": 947,
+        "unique_REF_mask_clear_50": 540,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 338
+      },
+      "repeat_bp": 27,
+      "bulk_ATAC_percentile": 3.2312352743184114,
+      "RRBS_observed_fraction": 0.139,
+      "RRBS_observed_mean": 91.83836924600945,
+      "published_phyloP_max50bp_mean": "0.8738799999999999",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 3,
+        "PASS_pending": 2,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27064161_27065161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27064161_27065161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 7888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 749,
+        "unique_REF_mask_clear_20": 608,
+        "total_25": 976,
+        "unique_25": 789,
+        "unique_REF_mask_clear_25": 600,
+        "total_50": 951,
+        "unique_50": 791,
+        "unique_REF_mask_clear_50": 431,
+        "total_100": 901,
+        "unique_100": 898,
+        "unique_REF_mask_clear_100": 198
+      },
+      "repeat_bp": 66,
+      "bulk_ATAC_percentile": 63.44665095927298,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 83.43750762939453,
+      "published_phyloP_max50bp_mean": "0.7960000000000002",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 7,
+        "PASS_pending": 7,
+        "reasons": {
+          "catalogue_ALT_matches_ROS_reference": 1,
+          "allele_crosses_indel_or_exact_block_boundary": 6
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27069911_27070911",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27069911_27070911",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 2138,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 714,
+        "unique_REF_mask_clear_20": 482,
+        "total_25": 976,
+        "unique_25": 807,
+        "unique_REF_mask_clear_25": 493,
+        "total_50": 951,
+        "unique_50": 918,
+        "unique_REF_mask_clear_50": 414,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 140
+      },
+      "repeat_bp": 499,
+      "bulk_ATAC_percentile": 66.13934702120498,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 50.0,
+      "published_phyloP_max50bp_mean": "0.67752",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 7,
+        "PASS_pending": 5,
+        "reasons": {
+          "spanning_deletion_symbol_requires_upstream_record": 5,
+          "allele_crosses_indel_or_exact_block_boundary": 2
+        }
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated",
+        "allele_reconciliation_or_spanning_deletion_context_pending",
+        "nonidentical_or_gapped_reference_projection"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27070161_27071161",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27070161_27071161",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 1888,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 723,
+        "unique_REF_mask_clear_20": 527,
+        "total_25": 976,
+        "unique_25": 795,
+        "unique_REF_mask_clear_25": 538,
+        "total_50": 951,
+        "unique_50": 918,
+        "unique_REF_mask_clear_50": 459,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 186
+      },
+      "repeat_bp": 544,
+      "bulk_ATAC_percentile": 71.9286435543588,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 50.0,
+      "published_phyloP_max50bp_mean": "0.63372",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    },
+    {
+      "id": "NC_051836.1_27070204_27071204",
+      "genes": "NPNT/TBCK",
+      "historical_decision": "Not promoted in current evidence-bounded prioritization; low/zero T signal is NOT a veto",
+      "SV_catalogue_hits": [
+        {
+          "query": "NC_051836.1_27070204_27071204",
+          "contig": "chr32",
+          "pos1": 4707939,
+          "end0": 33613308,
+          "id": "chr32:4707939:DG",
+          "SVTYPE": "DEL",
+          "alts": [
+            "<DEL:SVSIZE=28905369:AGGREGATED>"
+          ],
+          "filters": [
+            "PASS"
+          ],
+          "evidence": [
+            "record_interval_overlap"
+          ]
+        }
+      ],
+      "nearest_annotated_RNA_5prime": {
+        "feature": "lnc_RNA",
+        "id": "rna-XR_005305849.1",
+        "gene": "LOC102156669",
+        "position0": 27073049,
+        "gap_bp": 1845,
+        "strand": "+"
+      },
+      "exact_sequence_counts": {
+        "total_20": 981,
+        "unique_20": 714,
+        "unique_REF_mask_clear_20": 524,
+        "total_25": 976,
+        "unique_25": 791,
+        "unique_REF_mask_clear_25": 532,
+        "total_50": 951,
+        "unique_50": 918,
+        "unique_REF_mask_clear_50": 459,
+        "total_100": 901,
+        "unique_100": 901,
+        "unique_REF_mask_clear_100": 186
+      },
+      "repeat_bp": 510,
+      "bulk_ATAC_percentile": 70.54863682261865,
+      "RRBS_observed_fraction": 0.1,
+      "RRBS_observed_mean": 50.0,
+      "published_phyloP_max50bp_mean": "0.63372",
+      "queried_promoter_enhancer_bp": "0",
+      "pending_projection": {
+        "pending": 0,
+        "PASS_pending": 0,
+        "reasons": {}
+      },
+      "remaining_evidence_gaps": [
+        "T_cell_accessibility_not_validated",
+        "functional_safety_requires_experiments",
+        "complete_regulatory_isolation_not_demonstrated"
+      ],
+      "disposition": "not_advanced_unresolved_SV_context"
+    }
+  ],
+  "counts": {
+    "computational_review_incomplete": 34,
+    "not_advanced_unresolved_SV_context": 30
+  },
+  "approved_count": 0,
+  "source_hashes": {
+    "UU_projection/inputs.json": "9aa33420ceee3560fc2b13114595ff42deedcc82bf337c33d5603342da5b5cb2",
+    "UU_projection/projection_review.json": "e56e2d9e0f39b11011b122c9fda68ae43c3f998b3efa5eaa1b971a2e921d0682",
+    "all_RNA_context.json": "798b5f4d6373da3de5d90d570f988fb0d1454e6e8289f0edd69c3c1a852b8c2b",
+    "SV_all_windows/status.json": "9600d16dd6ded757ab3a21e10597f481460ba4d8e6c22bc444cb89ee8f501c77",
+    "masked_specificity_20261008.json": "6b9bd22d65af4256fc46429404cb63b1fc493d3c4bdecb0533049d0cf68a7f95",
+    "pending_classification_20261006.json": "fd18a9504f85c7d3589804b878c0baf89828c78de894a9c134fd09f1e3c7ed9e"
+  },
+  "limitations": [
+    "No new thresholds invented; integrated evidence ledger, not automatic biological approval",
+    "Historical exclusions remain applicable",
+    "Pending counts precede positional star-context review; positional overlap does not prove phase",
+    "No RNA boundary distance alone demonstrates regulatory safety"
+  ]
+}

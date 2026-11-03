@@ -1,0 +1,30 @@
+{
+  "state": "completed",
+  "completed": [
+    {
+      "gene": "ANO2",
+      "status": "human_ortholog_compared_by_GeneID"
+    },
+    {
+      "gene": "LOC111092786",
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    },
+    {
+      "gene": "NTF3",
+      "status": "human_ortholog_compared_by_GeneID"
+    },
+    {
+      "gene": "LOC111092811",
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    },
+    {
+      "gene": "LOC102151325",
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    },
+    {
+      "gene": "LOC102151373",
+      "status": "no_human_ortholog_in_returned_dataset_not_risk_absence"
+    }
+  ],
+  "known_human_risk_GeneID_matches": 0
+}

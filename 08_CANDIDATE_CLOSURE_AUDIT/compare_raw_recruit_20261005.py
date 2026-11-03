@@ -1,0 +1,5 @@
+from pathlib import Path
+import json,hashlib,collections
+A=Path(__file__).resolve().parent;O=A/'W11_RAW_RECRUIT_20261005';status=json.loads((O/'status.json').read_text())
+for name,h in status['sha256'].items():assert hashlib.sha256((O/name).read_bytes()).hexdigest()==h
+prior=json.loads((A/'SV_PBGV000012/ROS_expanded_junction_20261001/selection.json').read_text())['metadata'];names={k.rsplit('_mate',1)[0] for k in prior};matches=[json.loads(x) for x in (O/'matches.jsonl').read_text().splitlines()];novel=[x for x in matches if x['name'] not in names];out={'raw_pairs_scanned':status['pairs'],'selected_pairs':len(matches),'new_names_not_in_previous_local_selection':novel,'seed_counts':dict(collections.Counter(k for x in matches for k in x['seeds'])),'missing_prior_mates':[{'name':x['name'],'mate':m} for x in matches for m in [1,2] if x['name']+'_mate'+str(m) not in prior],'limits':['Exact seed recruitment; does not exclude reads with mismatches or reads without these seeds','No new names is not absence of structural variation']};(O/'comparison.json').write_text(json.dumps(out,indent=2));print(json.dumps(out))

@@ -1,0 +1,39 @@
+{
+  "state": "completed",
+  "utc": "2026-10-09T13:18:32.067784+00:00",
+  "references": 2197,
+  "total_reference_bp": 2481983352,
+  "index_matches_all_FASTA_reference_names_and_lengths": true,
+  "files": {
+    "UU.1.ebwt": {
+      "bytes": 713763642,
+      "sha256": "d51d295553d3b1119ae23a1cf6a2f8a5b9c73e498873c225acd48b5646036031"
+    },
+    "UU.2.ebwt": {
+      "bytes": 310240612,
+      "sha256": "db1a87ac2f79e07566c3d06c428f669a8744b134e8e00ec6e9e3acc653b156c2"
+    },
+    "UU.3.ebwt": {
+      "bytes": 25046,
+      "sha256": "6c498dc6f3a02dae1c5ef616ca5e995de1f35a5524e839a197993568e9f69a36"
+    },
+    "UU.4.ebwt": {
+      "bytes": 620481213,
+      "sha256": "bbf0cba32c53b38e0b485ce4bc580f8482c920fad57e3b50a092429017545324"
+    },
+    "UU.rev.1.ebwt": {
+      "bytes": 713763642,
+      "sha256": "d9fe792ab9a35c2073407b7c2f4485eaf82c0aeb5792775020b7912111a41339"
+    },
+    "UU.rev.2.ebwt": {
+      "bytes": 310240612,
+      "sha256": "61b65844883efb7973c31cb7ebf364465c5ef16c61966e0a533e2133bf92984d"
+    }
+  },
+  "summary_sha256": "3717077f697d3a9de7a7aa070be2005a03017b9223f466f9ff9fe274b708eb2e",
+  "script_sha256": "50ce077cda5e61c7bd55a61792de3210d11187680ee021f761d4638a1d6ad086",
+  "FASTA_provenance_receipt_sha256": "a43c0c9b1a8f582043feb749e036bdce81582a47c2ed28828ad0ef31cc2872ec",
+  "limits": [
+    "Index structural/provenance verification plus alignment sequence checks; no independent biological confirmation."
+  ]
+}

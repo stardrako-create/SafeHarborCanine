@@ -1,0 +1,2732 @@
+{
+  "records": [
+    {
+      "window": "NC_051811.1_17222706_17223706",
+      "ROS_offset0": 23,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        186,
+        3788
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.046804227478610974,
+        0.953195772521389
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        186
+      ],
+      "source_AF": [
+        0.04699999839067459
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17222706_17223706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "8315e3ecc98ebcc3e91cfb5862c30d67237fbc77f8fa81a494d0b17d9883a950",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17222706_17223706",
+      "ROS_offset0": 674,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        197,
+        3777
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.04957221942627076,
+        0.9504277805737292
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        197
+      ],
+      "source_AF": [
+        0.05000000074505806
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17222706_17223706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "8315e3ecc98ebcc3e91cfb5862c30d67237fbc77f8fa81a494d0b17d9883a950",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17222956_17223956",
+      "ROS_offset0": 424,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        197,
+        3777
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.04957221942627076,
+        0.9504277805737292
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        197
+      ],
+      "source_AF": [
+        0.05000000074505806
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17222956_17223956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "af75e22d5cd68e7a1d7a40ad33e9d8cde44a9a8a5b1fa0529b6048ae4328269b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17222956_17223956",
+      "ROS_offset0": 881,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        180,
+        3794
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.04529441368897836,
+        0.9547055863110216
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        180
+      ],
+      "source_AF": [
+        0.04500000178813934
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17222956_17223956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "af75e22d5cd68e7a1d7a40ad33e9d8cde44a9a8a5b1fa0529b6048ae4328269b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17230206_17231206",
+      "ROS_offset0": 469,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        505,
+        3469
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.12707599396074484,
+        0.8729240060392551
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        505
+      ],
+      "source_AF": [
+        0.12700000405311584
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17230206_17231206__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "6dd02150b898d96e94b775459190fd3a3ddf5ff359d76271e8e50ad04d331f7e",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17234956_17235956",
+      "ROS_offset0": 284,
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        913,
+        3061
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.22974333165576247,
+        0.7702566683442376
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        913
+      ],
+      "source_AF": [
+        0.23000000417232513
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17234956_17235956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9d5fb85bf75257386135e73a485357863f104446c1e68de554667416d29bb86c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17234956_17235956",
+      "ROS_offset0": 404,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        850,
+        3124
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21389028686462003,
+        0.7861097131353799
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        850
+      ],
+      "source_AF": [
+        0.21400000154972076
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17234956_17235956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9d5fb85bf75257386135e73a485357863f104446c1e68de554667416d29bb86c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17234956_17235956",
+      "ROS_offset0": 405,
+      "ROS_alleles": [
+        "T",
+        "A"
+      ],
+      "ROS_counts": [
+        850,
+        3124
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21389028686462003,
+        0.7861097131353799
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        850
+      ],
+      "source_AF": [
+        0.21400000154972076
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17234956_17235956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9d5fb85bf75257386135e73a485357863f104446c1e68de554667416d29bb86c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17234956_17235956",
+      "ROS_offset0": 822,
+      "ROS_alleles": [
+        "A",
+        "T"
+      ],
+      "ROS_counts": [
+        854,
+        3120
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21489682939104177,
+        0.7851031706089582
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        854
+      ],
+      "source_AF": [
+        0.2150000035762787
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17234956_17235956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9d5fb85bf75257386135e73a485357863f104446c1e68de554667416d29bb86c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17235206_17236206",
+      "ROS_offset0": 34,
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        913,
+        3061
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.22974333165576247,
+        0.7702566683442376
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        913
+      ],
+      "source_AF": [
+        0.23000000417232513
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17235206_17236206__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "e97afcfe748db6f97f914a084f3d3daa1f908ac0c88bec014ca64520821fd1a7",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17235206_17236206",
+      "ROS_offset0": 154,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        850,
+        3124
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21389028686462003,
+        0.7861097131353799
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        850
+      ],
+      "source_AF": [
+        0.21400000154972076
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17235206_17236206__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "e97afcfe748db6f97f914a084f3d3daa1f908ac0c88bec014ca64520821fd1a7",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17235206_17236206",
+      "ROS_offset0": 155,
+      "ROS_alleles": [
+        "T",
+        "A"
+      ],
+      "ROS_counts": [
+        850,
+        3124
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21389028686462003,
+        0.7861097131353799
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        850
+      ],
+      "source_AF": [
+        0.21400000154972076
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17235206_17236206__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "e97afcfe748db6f97f914a084f3d3daa1f908ac0c88bec014ca64520821fd1a7",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17235206_17236206",
+      "ROS_offset0": 572,
+      "ROS_alleles": [
+        "A",
+        "T"
+      ],
+      "ROS_counts": [
+        854,
+        3120
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21489682939104177,
+        0.7851031706089582
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        854
+      ],
+      "source_AF": [
+        0.2150000035762787
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17235206_17236206__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "e97afcfe748db6f97f914a084f3d3daa1f908ac0c88bec014ca64520821fd1a7",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17235706_17236706",
+      "ROS_offset0": 72,
+      "ROS_alleles": [
+        "A",
+        "T"
+      ],
+      "ROS_counts": [
+        854,
+        3120
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.21489682939104177,
+        0.7851031706089582
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        854
+      ],
+      "source_AF": [
+        0.2150000035762787
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17235706_17236706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "3ca7321e5b97517d6842997c4d266c03a921eba521fde573b0dcec82a2fed388",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "ROS_offset0": 402,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        1114,
+        2860
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.28032209360845495,
+        0.719677906391545
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        1114
+      ],
+      "source_AF": [
+        0.2800000011920929
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17240706_17241706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "3aa6480eae009d23ccbb64535d97f8188fb763b2617c3f4b7145536ba42c4f30",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "ROS_offset0": 432,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        932,
+        3042
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.23452440865626573,
+        0.7654755913437342
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        932
+      ],
+      "source_AF": [
+        0.23499999940395355
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17240706_17241706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "3aa6480eae009d23ccbb64535d97f8188fb763b2617c3f4b7145536ba42c4f30",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "ROS_offset0": 677,
+      "ROS_alleles": [
+        "T",
+        "G"
+      ],
+      "ROS_counts": [
+        938,
+        3036
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.23603422244589833,
+        0.7639657775541017
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        938
+      ],
+      "source_AF": [
+        0.23600000143051147
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17240706_17241706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "3aa6480eae009d23ccbb64535d97f8188fb763b2617c3f4b7145536ba42c4f30",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17240706_17241706",
+      "ROS_offset0": 698,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1921,
+        2053
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.48339204831404126,
+        0.5166079516859587
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        1921
+      ],
+      "source_AF": [
+        0.4830000102519989
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17240706_17241706__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "3aa6480eae009d23ccbb64535d97f8188fb763b2617c3f4b7145536ba42c4f30",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17242956_17243956",
+      "ROS_offset0": 670,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        1913,
+        2061
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.4813789632611978,
+        0.5186210367388022
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        1913
+      ],
+      "source_AF": [
+        0.48100000619888306
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17242956_17243956__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "3fa2ee1fad28b472d07fdb6803b50bb3b2171ab8192029ed1724fd78b2a36001",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051811.1_17252456_17253456",
+      "ROS_offset0": 678,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1492,
+        2482
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.37544036235530953,
+        0.6245596376446905
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        1492
+      ],
+      "source_AF": [
+        0.375
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051811.1_17252456_17253456__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "be568ed869bbe693ad6c248f56a9de6a163987b49c7d790772c579b45d696eea",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39707824_39708824",
+      "ROS_offset0": 805,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        2274,
+        1700
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.57221942627076,
+        0.42778057372924005
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2274
+      ],
+      "source_AF": [
+        0.5720000267028809
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39707824_39708824__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "8941b376e1147858299adbdf3ddc86e41af679fb63866c09ad71a6f91f3ae048",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39708074_39709074",
+      "ROS_offset0": 555,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        2274,
+        1700
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.57221942627076,
+        0.42778057372924005
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2274
+      ],
+      "source_AF": [
+        0.5720000267028809
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39708074_39709074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "20f85cfec5eac56e06844dc5d21fb7f7adbb3e951c55b04f81397e6673955db1",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39708324_39709324",
+      "ROS_offset0": 305,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        2274,
+        1700
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.57221942627076,
+        0.42778057372924005
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2274
+      ],
+      "source_AF": [
+        0.5720000267028809
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39708324_39709324__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "653d94cf2e3409bb1345def1c5b3f22fa4701bb45202a8d1ecaff94a54c8b32d",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39713074_39714074",
+      "ROS_offset0": 920,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1251,
+        2723
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.3147961751383996,
+        0.6852038248616004
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        1251
+      ],
+      "source_AF": [
+        0.3149999976158142
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39713074_39714074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "d59cca6ef366ccfb8a9bc02656ca48f84cc57940b5be17df7eb1209451bcf79b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39713074_39714074",
+      "ROS_offset0": 715,
+      "ROS_alleles": [
+        "C",
+        "G"
+      ],
+      "ROS_counts": [
+        3221,
+        753
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.8105183694011072,
+        0.1894816305988928
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        3221
+      ],
+      "source_AF": [
+        0.8109999895095825
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39713074_39714074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "d59cca6ef366ccfb8a9bc02656ca48f84cc57940b5be17df7eb1209451bcf79b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39714074_39715074",
+      "ROS_offset0": 560,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        2285,
+        1689
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5749874182184197,
+        0.42501258178158025
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2285
+      ],
+      "source_AF": [
+        0.574999988079071
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39714074_39715074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "ab2622c721bc6e7a75f3a88bd8e74741046a51e12ac0bd90ed3e46034e6c5600",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39714824_39715824",
+      "ROS_offset0": 413,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        3201,
+        773
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.8054856567689985,
+        0.1945143432310015
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        3201
+      ],
+      "source_AF": [
+        0.8050000071525574
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39714824_39715824__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "24a2a0966ebe0913efd4f677c95b2f4b7e8ec1cb10fefc463b3ee8fe4d3690d9",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39715074_39716074",
+      "ROS_offset0": 819,
+      "ROS_alleles": [
+        "C",
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1373,
+        1771,
+        828
+      ],
+      "AN": 3972,
+      "ROS_frequencies": [
+        0.3456696878147029,
+        0.4458710976837865,
+        0.2084592145015106
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T",
+        "G"
+      ],
+      "source_AC": [
+        828,
+        1373
+      ],
+      "source_AF": [
+        0.20800000429153442,
+        0.34599998593330383
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39715074_39716074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "1d8c309262078c0597f2b5766f42553a34a25deaede07bf28f4601045bdecbe0",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "window": "NC_051831.1_39715074_39716074",
+      "ROS_offset0": 163,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        3201,
+        773
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.8054856567689985,
+        0.1945143432310015
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        3201
+      ],
+      "source_AF": [
+        0.8050000071525574
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39715074_39716074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "1d8c309262078c0597f2b5766f42553a34a25deaede07bf28f4601045bdecbe0",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39729824_39730824",
+      "ROS_offset0": 886,
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        2771,
+        1203
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6972823351786613,
+        0.3027176648213387
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2771
+      ],
+      "source_AF": [
+        0.6970000267028809
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39729824_39730824__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "4e08bde350b5c7d882a484d82c23ee5abb738fadba2a1ecfd4a8fcf9b3546359",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39729824_39730824",
+      "ROS_offset0": 182,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2741,
+        1233
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6897332662304982,
+        0.31026673376950176
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2741
+      ],
+      "source_AF": [
+        0.6899999976158142
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39729824_39730824__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "4e08bde350b5c7d882a484d82c23ee5abb738fadba2a1ecfd4a8fcf9b3546359",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39730074_39731074",
+      "ROS_offset0": 795,
+      "ROS_alleles": [
+        "A",
+        "T"
+      ],
+      "ROS_counts": [
+        2773,
+        1201
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6977856064418722,
+        0.30221439355812785
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2773
+      ],
+      "source_AF": [
+        0.6980000138282776
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39730074_39731074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "da264ae176730f4dfa21210863f2a84ebbd94c4a18d24ec4338546706829ce49",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39730074_39731074",
+      "ROS_offset0": 636,
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        2771,
+        1203
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6972823351786613,
+        0.3027176648213387
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2771
+      ],
+      "source_AF": [
+        0.6970000267028809
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39730074_39731074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "da264ae176730f4dfa21210863f2a84ebbd94c4a18d24ec4338546706829ce49",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39730324_39731324",
+      "ROS_offset0": 773,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        2774,
+        1200
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6980372420734776,
+        0.3019627579265224
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        2774
+      ],
+      "source_AF": [
+        0.6980000138282776
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39730324_39731324__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "ce9ae9cd09deba9ce5e0900cbb6051194e63cf5f8108f6570548dcc886e5a97b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39730324_39731324",
+      "ROS_offset0": 545,
+      "ROS_alleles": [
+        "A",
+        "T"
+      ],
+      "ROS_counts": [
+        2773,
+        1201
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6977856064418722,
+        0.30221439355812785
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2773
+      ],
+      "source_AF": [
+        0.6980000138282776
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39730324_39731324__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "ce9ae9cd09deba9ce5e0900cbb6051194e63cf5f8108f6570548dcc886e5a97b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39730324_39731324",
+      "ROS_offset0": 386,
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        2771,
+        1203
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6972823351786613,
+        0.3027176648213387
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2771
+      ],
+      "source_AF": [
+        0.6970000267028809
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39730324_39731324__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "ce9ae9cd09deba9ce5e0900cbb6051194e63cf5f8108f6570548dcc886e5a97b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "ROS_offset0": 911,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2303,
+        1671
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5795168595873176,
+        0.4204831404126824
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2303
+      ],
+      "source_AF": [
+        0.5799999833106995
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39735074_39736074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b766dcd0d9b7eb0d01e307ded8d9a6ba398aa9e0688104685c8376b5a7898aa5",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "ROS_offset0": 721,
+      "ROS_alleles": [
+        "C",
+        "G"
+      ],
+      "ROS_counts": [
+        2303,
+        1671
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5795168595873176,
+        0.4204831404126824
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        2303
+      ],
+      "source_AF": [
+        0.5799999833106995
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39735074_39736074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b766dcd0d9b7eb0d01e307ded8d9a6ba398aa9e0688104685c8376b5a7898aa5",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "ROS_offset0": 669,
+      "ROS_alleles": [
+        "G",
+        "C"
+      ],
+      "ROS_counts": [
+        2724,
+        1250
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6854554604932058,
+        0.3145445395067942
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2724
+      ],
+      "source_AF": [
+        0.6850000023841858
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39735074_39736074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b766dcd0d9b7eb0d01e307ded8d9a6ba398aa9e0688104685c8376b5a7898aa5",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "ROS_offset0": 668,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1155,
+        2819
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.2906391545042778,
+        0.7093608454957222
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        1155
+      ],
+      "source_AF": [
+        0.29100000858306885
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39735074_39736074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b766dcd0d9b7eb0d01e307ded8d9a6ba398aa9e0688104685c8376b5a7898aa5",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051831.1_39735074_39736074",
+      "ROS_offset0": 546,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2312,
+        1662
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5817815802717665,
+        0.41821841972823354
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2312
+      ],
+      "source_AF": [
+        0.5820000171661377
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051831.1_39735074_39736074__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b766dcd0d9b7eb0d01e307ded8d9a6ba398aa9e0688104685c8376b5a7898aa5",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "ROS_offset0": 961,
+      "ROS_alleles": [
+        "A",
+        "C"
+      ],
+      "ROS_counts": [
+        2460,
+        1500
+      ],
+      "AN": 3960,
+      "ROS_frequencies": [
+        0.6212121212121212,
+        0.3787878787878788
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2460
+      ],
+      "source_AF": [
+        0.6209999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27017911_27018911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "97200ff3c668d7a796f8165bf1b325395a6d5ea975a909cd4c7d2f8707110afb",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "ROS_offset0": 942,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        2465,
+        1501
+      ],
+      "AN": 3966,
+      "ROS_frequencies": [
+        0.6215330307614725,
+        0.37846696923852746
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2465
+      ],
+      "source_AF": [
+        0.621999979019165
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27017911_27018911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "97200ff3c668d7a796f8165bf1b325395a6d5ea975a909cd4c7d2f8707110afb",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27017911_27018911",
+      "ROS_offset0": 583,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        2672,
+        1296
+      ],
+      "AN": 3968,
+      "ROS_frequencies": [
+        0.6733870967741935,
+        0.32661290322580644
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2672
+      ],
+      "source_AF": [
+        0.6729999780654907
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27017911_27018911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "97200ff3c668d7a796f8165bf1b325395a6d5ea975a909cd4c7d2f8707110afb",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "ROS_offset0": 875,
+      "ROS_alleles": [
+        "G",
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        578,
+        2939,
+        457
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.14544539506794163,
+        0.7395571212883745,
+        0.11499748364368395
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A",
+        "C"
+      ],
+      "source_AC": [
+        457,
+        578
+      ],
+      "source_AF": [
+        0.11500000208616257,
+        0.14499999582767487
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27018911_27019911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b86bd9e2091db0cd0ddabed968239f74bc1d519e5a55fc6dc81fedee85d3480b",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "ROS_offset0": 317,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        2384,
+        1554
+      ],
+      "AN": 3938,
+      "ROS_frequencies": [
+        0.6053834433722702,
+        0.3946165566277298
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        2384
+      ],
+      "source_AF": [
+        0.6050000190734863
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27018911_27019911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b86bd9e2091db0cd0ddabed968239f74bc1d519e5a55fc6dc81fedee85d3480b",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "ROS_offset0": 298,
+      "ROS_alleles": [
+        "T",
+        "C",
+        "G"
+      ],
+      "ROS_counts": [
+        1482,
+        2486,
+        4
+      ],
+      "AN": 3972,
+      "ROS_frequencies": [
+        0.3731117824773414,
+        0.6258811681772407,
+        0.0010070493454179255
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A",
+        "C"
+      ],
+      "source_AC": [
+        1482,
+        4
+      ],
+      "source_AF": [
+        0.37299999594688416,
+        0.001006999984383583
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27018911_27019911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b86bd9e2091db0cd0ddabed968239f74bc1d519e5a55fc6dc81fedee85d3480b",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "ROS_offset0": 261,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        2388,
+        1542
+      ],
+      "AN": 3930,
+      "ROS_frequencies": [
+        0.6076335877862595,
+        0.39236641221374047
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        2388
+      ],
+      "source_AF": [
+        0.6079999804496765
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27018911_27019911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b86bd9e2091db0cd0ddabed968239f74bc1d519e5a55fc6dc81fedee85d3480b",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27018911_27019911",
+      "ROS_offset0": 4,
+      "ROS_alleles": [
+        "G",
+        "T"
+      ],
+      "ROS_counts": [
+        2482,
+        1492
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6245596376446905,
+        0.37544036235530953
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2482
+      ],
+      "source_AF": [
+        0.625
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27018911_27019911__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "b86bd9e2091db0cd0ddabed968239f74bc1d519e5a55fc6dc81fedee85d3480b",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "ROS_offset0": 756,
+      "ROS_alleles": [
+        "T",
+        "A"
+      ],
+      "ROS_counts": [
+        2661,
+        1313
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6696024157020634,
+        0.3303975842979366
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2661
+      ],
+      "source_AF": [
+        0.6700000166893005
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027161_27028161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "475915b898b7a12e5daffdf54350a65beb5bde6498be1a5e91fcfbff83021e2e",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "ROS_offset0": 571,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1973,
+        2001
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.4964771011575239,
+        0.5035228988424761
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        1973
+      ],
+      "source_AF": [
+        0.4959999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027161_27028161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "475915b898b7a12e5daffdf54350a65beb5bde6498be1a5e91fcfbff83021e2e",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "ROS_offset0": 567,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1972,
+        2002
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.49622546552591845,
+        0.5037745344740815
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        1972
+      ],
+      "source_AF": [
+        0.4959999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027161_27028161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "475915b898b7a12e5daffdf54350a65beb5bde6498be1a5e91fcfbff83021e2e",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027161_27028161",
+      "ROS_offset0": 261,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1869,
+        2105
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.47030699547055865,
+        0.5296930045294413
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        1869
+      ],
+      "source_AF": [
+        0.4699999988079071
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027161_27028161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "475915b898b7a12e5daffdf54350a65beb5bde6498be1a5e91fcfbff83021e2e",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027411_27028411",
+      "ROS_offset0": 506,
+      "ROS_alleles": [
+        "T",
+        "A"
+      ],
+      "ROS_counts": [
+        2661,
+        1313
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6696024157020634,
+        0.3303975842979366
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2661
+      ],
+      "source_AF": [
+        0.6700000166893005
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027411_27028411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9eea1ed0547e74ddffab2e227dad6b856ebb25f57e1c187fb2ede1bd6d6c2d7c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027411_27028411",
+      "ROS_offset0": 321,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1973,
+        2001
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.4964771011575239,
+        0.5035228988424761
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        1973
+      ],
+      "source_AF": [
+        0.4959999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027411_27028411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9eea1ed0547e74ddffab2e227dad6b856ebb25f57e1c187fb2ede1bd6d6c2d7c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027411_27028411",
+      "ROS_offset0": 317,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1972,
+        2002
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.49622546552591845,
+        0.5037745344740815
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        1972
+      ],
+      "source_AF": [
+        0.4959999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027411_27028411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9eea1ed0547e74ddffab2e227dad6b856ebb25f57e1c187fb2ede1bd6d6c2d7c",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027411_27028411",
+      "ROS_offset0": 11,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        1869,
+        2105
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.47030699547055865,
+        0.5296930045294413
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        1869
+      ],
+      "source_AF": [
+        0.4699999988079071
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027411_27028411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "9eea1ed0547e74ddffab2e227dad6b856ebb25f57e1c187fb2ede1bd6d6c2d7c",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027661_27028661",
+      "ROS_offset0": 256,
+      "ROS_alleles": [
+        "T",
+        "A"
+      ],
+      "ROS_counts": [
+        2661,
+        1313
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.6696024157020634,
+        0.3303975842979366
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2661
+      ],
+      "source_AF": [
+        0.6700000166893005
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027661_27028661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "96c45a61d83dce79d1ebcc47dc6aa29f85e9623602bcca97577d19d61e7cf683",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027661_27028661",
+      "ROS_offset0": 71,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1973,
+        2001
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.4964771011575239,
+        0.5035228988424761
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        1973
+      ],
+      "source_AF": [
+        0.4959999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027661_27028661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "96c45a61d83dce79d1ebcc47dc6aa29f85e9623602bcca97577d19d61e7cf683",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27027661_27028661",
+      "ROS_offset0": 67,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1972,
+        2002
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.49622546552591845,
+        0.5037745344740815
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        1972
+      ],
+      "source_AF": [
+        0.4959999918937683
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27027661_27028661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "96c45a61d83dce79d1ebcc47dc6aa29f85e9623602bcca97577d19d61e7cf683",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "ROS_offset0": 519,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2170,
+        1804
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5460493205837946,
+        0.4539506794162053
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2170
+      ],
+      "source_AF": [
+        0.5460000038146973
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039161_27040161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "feeca10e9e9ad3c750ef5b2ba34a2725a496b559e1d1f3fc235b439cf701c203",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "ROS_offset0": 399,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        2096,
+        1878
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5274282838449924,
+        0.47257171615500754
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2096
+      ],
+      "source_AF": [
+        0.5270000100135803
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039161_27040161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "feeca10e9e9ad3c750ef5b2ba34a2725a496b559e1d1f3fc235b439cf701c203",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "ROS_offset0": 357,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        2097,
+        1877
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5276799194765979,
+        0.47232008052340213
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2097
+      ],
+      "source_AF": [
+        0.527999997138977
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039161_27040161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "feeca10e9e9ad3c750ef5b2ba34a2725a496b559e1d1f3fc235b439cf701c203",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039161_27040161",
+      "ROS_offset0": 204,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1634,
+        2340
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.4111726220432813,
+        0.5888273779567187
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        1634
+      ],
+      "source_AF": [
+        0.41100001335144043
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039161_27040161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "feeca10e9e9ad3c750ef5b2ba34a2725a496b559e1d1f3fc235b439cf701c203",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039411_27040411",
+      "ROS_offset0": 269,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2170,
+        1804
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5460493205837946,
+        0.4539506794162053
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2170
+      ],
+      "source_AF": [
+        0.5460000038146973
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039411_27040411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "485a366db4a3ed765a75836a9d6699810d740c8fb51ec976c946b7d928a56127",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039411_27040411",
+      "ROS_offset0": 149,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        2096,
+        1878
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5274282838449924,
+        0.47257171615500754
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2096
+      ],
+      "source_AF": [
+        0.5270000100135803
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039411_27040411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "485a366db4a3ed765a75836a9d6699810d740c8fb51ec976c946b7d928a56127",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27039411_27040411",
+      "ROS_offset0": 107,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        2097,
+        1877
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5276799194765979,
+        0.47232008052340213
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        2097
+      ],
+      "source_AF": [
+        0.527999997138977
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27039411_27040411__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "485a366db4a3ed765a75836a9d6699810d740c8fb51ec976c946b7d928a56127",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27040661_27041661",
+      "ROS_offset0": 232,
+      "ROS_alleles": [
+        "A",
+        "G"
+      ],
+      "ROS_counts": [
+        1146,
+        2828
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.2883744338198289,
+        0.7116255661801711
+      ],
+      "source_REF": "C",
+      "source_ALT": [
+        "T"
+      ],
+      "source_AC": [
+        1146
+      ],
+      "source_AF": [
+        0.2879999876022339
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27040661_27041661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "4625a6cb4a7a90a7abe4907d8b7df60b98765bda05e838feadc5b4f4325373ce",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27040661_27041661",
+      "ROS_offset0": 224,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        1806,
+        2168
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.4544539506794162,
+        0.5455460493205838
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        1806
+      ],
+      "source_AF": [
+        0.45399999618530273
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27040661_27041661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "4625a6cb4a7a90a7abe4907d8b7df60b98765bda05e838feadc5b4f4325373ce",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27040661_27041661",
+      "ROS_offset0": 8,
+      "ROS_alleles": [
+        "C",
+        "T"
+      ],
+      "ROS_counts": [
+        2007,
+        1967
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.5050327126321087,
+        0.4949672873678913
+      ],
+      "source_REF": "A",
+      "source_ALT": [
+        "G"
+      ],
+      "source_AC": [
+        2007
+      ],
+      "source_AF": [
+        0.5049999952316284
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27040661_27041661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "4625a6cb4a7a90a7abe4907d8b7df60b98765bda05e838feadc5b4f4325373ce",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "ROS_offset0": 543,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2638,
+        1332
+      ],
+      "AN": 3970,
+      "ROS_frequencies": [
+        0.6644836272040302,
+        0.3355163727959698
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2638
+      ],
+      "source_AF": [
+        0.6639999747276306
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27062161_27063161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "810c15c1101564f8e97d22b751a942165038e34ffa07c8ab6051b25e58c8af64",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "ROS_offset0": 233,
+      "ROS_alleles": [
+        "G",
+        "A"
+      ],
+      "ROS_counts": [
+        2829,
+        1143
+      ],
+      "AN": 3972,
+      "ROS_frequencies": [
+        0.7122356495468278,
+        0.2877643504531722
+      ],
+      "source_REF": "T",
+      "source_ALT": [
+        "C"
+      ],
+      "source_AC": [
+        2829
+      ],
+      "source_AF": [
+        0.7120000123977661
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27062161_27063161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "810c15c1101564f8e97d22b751a942165038e34ffa07c8ab6051b25e58c8af64",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27062161_27063161",
+      "ROS_offset0": 232,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2667,
+        1305
+      ],
+      "AN": 3972,
+      "ROS_frequencies": [
+        0.6714501510574018,
+        0.3285498489425982
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2667
+      ],
+      "source_AF": [
+        0.6710000038146973
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27062161_27063161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "810c15c1101564f8e97d22b751a942165038e34ffa07c8ab6051b25e58c8af64",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27062661_27063661",
+      "ROS_offset0": 43,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2638,
+        1332
+      ],
+      "AN": 3970,
+      "ROS_frequencies": [
+        0.6644836272040302,
+        0.3355163727959698
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2638
+      ],
+      "source_AF": [
+        0.6639999747276306
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27062661_27063661__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "721c121f4d90633f641ece2991654d76cf2d0408d36c3a24b0b3d3cd6f68c392",
+      "filters": [
+        "VQSRTrancheSNP99.00to99.90"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    },
+    {
+      "window": "NC_051836.1_27064161_27065161",
+      "ROS_offset0": 237,
+      "ROS_alleles": [
+        "T",
+        "C"
+      ],
+      "ROS_counts": [
+        2894,
+        1080
+      ],
+      "AN": 3974,
+      "ROS_frequencies": [
+        0.7282335178661299,
+        0.27176648213387017
+      ],
+      "source_REF": "G",
+      "source_ALT": [
+        "A"
+      ],
+      "source_AC": [
+        2894
+      ],
+      "source_AF": [
+        0.7279999852180481
+      ],
+      "source_file": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/variant_catalogue_query_nonexact/NC_051836.1_27064161_27065161__AutoAndXPAR.SNPs.vqsr99.vcf",
+      "source_sha256": "4ecc200640dc21a7a76e44d017d4eaddc5b1e58d129bb0f76fdec5dac122f97a",
+      "filters": [
+        "PASS"
+      ],
+      "source_indices": [
+        1,
+        0
+      ]
+    }
+  ],
+  "count": 75,
+  "method": "Permutation of full allele set; source REF count AN minus sum of all AC. ROS REF checked against extracted reference.",
+  "limitations": [
+    "No population counts pooled across overlapping windows",
+    "Not individual genotype or haplotype validation",
+    "Only single-base sequence allele sets covered; symbolic/gapped cases remain pending"
+  ]
+}

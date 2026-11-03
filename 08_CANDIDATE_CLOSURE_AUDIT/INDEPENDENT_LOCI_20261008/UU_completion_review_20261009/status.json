@@ -1,0 +1,42 @@
+{
+  "state": "completed",
+  "pid": 986,
+  "stage": "review_and_documentation_complete",
+  "utc_start": "2026-10-09T12:53:18.869586+00:00",
+  "watched_pid": 812,
+  "worker_terminal_receipt": {
+    "state": "completed",
+    "pid": 812,
+    "stage": "review_complete",
+    "utc_start": "2026-10-09T12:41:38.719654+00:00",
+    "ungapped_raw_alignments": 19,
+    "bulge_raw_alignments": 86,
+    "summary": [
+      {
+        "guide": "ANO2_TTTV23_1",
+        "ungapped_hits": 0,
+        "single_bulge_hits": 0
+      },
+      {
+        "guide": "ANO2_TTTV23_2",
+        "ungapped_hits": 0,
+        "single_bulge_hits": 0
+      }
+    ],
+    "utc_end": "2026-10-09T13:15:22.643356+00:00"
+  },
+  "report": "/mnt/d/Biblioteca/Bioqu\u00edmica 1\u00ba ano 2025-2026/2\u00ba Semestre/Vasco M. Barreto/Safe Harbor Canino/08_CANDIDATE_CLOSURE_AUDIT/ALL_CANDIDATES_20261005/ANO2_REVIEW_AND_DEPENDENCIES_20261009_v5.md",
+  "summary": [
+    {
+      "guide": "ANO2_TTTV23_1",
+      "ungapped_hits": 0,
+      "single_bulge_hits": 0
+    },
+    {
+      "guide": "ANO2_TTTV23_2",
+      "ungapped_hits": 0,
+      "single_bulge_hits": 0
+    }
+  ],
+  "utc_end": "2026-10-09T13:15:22.840808+00:00"
+}

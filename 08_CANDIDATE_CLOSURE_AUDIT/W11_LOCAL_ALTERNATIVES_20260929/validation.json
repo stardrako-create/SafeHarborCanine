@@ -1,0 +1,6 @@
+{
+  "model_records": 11,
+  "base_record_groups": 6,
+  "review_sha256": "727ad1cabfa95b0af441f9eb3ac15698a0e40cf65da0d2288e19c944465385bf",
+  "validation_scope": "Grouping arithmetic; descriptive CIGAR review, not genotype validation"
+}
